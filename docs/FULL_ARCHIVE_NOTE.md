@@ -8,7 +8,7 @@ All six B3 response windows and the 45-coordinate equal-CNOT-shots evidence are 
 
 The package excludes virtual environments, interpreter/font/editor caches, old packaging ZIPs, repeated pre-fix source snapshots, redundant expanded full-state intermediates and unselected large MPS tensor/optimizer-iteration objects. It retains final numerical observables, convergence and timeout records, selected candidate checkpoints and failure analyses.
 
-Scientific directories keep their indexed layout, including directories with many files, because checkpoint and measurement records embed the original paths. `GITHUB_SIZE_AUDIT.csv` documents file decisions; original hashes and sanitized public hashes are distinguished in provenance. Sanitization replaces personal paths and administrative identifiers in derived public logs. Numeric arrays, circuit parameters, counts, thresholds and labels remain unchanged.
+Scientific directories keep their indexed layout, including directories with many files, because checkpoint and measurement records embed the original paths. `GITHUB_SIZE_AUDIT.csv` documents file decisions; original hashes and sanitized public hashes are distinguished in provenance. Publication edits remove personal paths and administrative metadata from derived public records; provenance/PUBLIC_SANITIZATION.json records each change. Numeric arrays, circuit parameters, counts, thresholds and labels remain unchanged.
 
 Download optional `.gz` assets from the repository Release into a directory, then run `python scripts/restore_optional_assets.py --download-dir PATH`. This validates compressed and decompressed SHA256, restores original relative paths, and never loads a pickle or runs a scientific experiment.
 
