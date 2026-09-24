@@ -16,4 +16,4 @@ Input/code/configuration hashes are preserved. Random identity does not include 
 
 # Administrative limits
 
-Author/team/member details and actual submission channel, upload-size limit and presentation mode are unconfirmed. These items prevent unconditional submission readiness; unresolved scientific questions are explicitly part of the work.
+The final deliverables identify Team hamster and its members: Shupei Zhang, Yangxin Zhou, Michael Li and Kathy Chen. No author or member fields remain unresolved in this repository. The team confirms submitted: true and dashboard_status: draft in the authenticated competition dashboard. Finalization is not claimed. Upload-size limits and presentation delivery instructions remain governed by the dashboard. Scientific limitations are described above.

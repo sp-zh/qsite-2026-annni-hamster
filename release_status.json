@@ -19,14 +19,9 @@
   },
   "clean_room_passed": true,
   "unresolved_author_fields": [],
-  "submission_channel_confirmed": false,
+  "submission_channel_confirmed": true,
   "submission_ready": true,
   "full_research_goals_achieved": false,
-  "administrative_pending": [
-    "official submission channel",
-    "size limit",
-    "presentation mode"
-  ],
   "scientific_limits": [
     "finite-size boundaries unresolved in some windows",
     "no continuous floating interval",
@@ -42,5 +37,14 @@
   ],
   "public_repository": "https://github.com/sp-zh/qsite-2026-annni-hamster",
   "public_repository_ready": true,
-  "competition_form_submitted": false
+  "competition_form_submitted": true,
+  "submission_ready_scope": "repository_artifacts_only; competition dashboard remains draft",
+  "administrative_unverified": [
+    "size limit",
+    "presentation mode"
+  ],
+  "competition_form_status": "draft",
+  "competition_form_status_note": "Team-confirmed: submitted is true and the authenticated competition dashboard status is draft. Finalization is not claimed.",
+  "submitted": true,
+  "dashboard_status": "draft"
 }

@@ -1,8 +1,11 @@
-# Remaining private submission actions
+# Competition dashboard status
 
-1. Paste https://github.com/sp-zh/qsite-2026-annni-hamster into the authenticated Q-SITE submission form.
-2. Enter the team code privately if requested; it is intentionally absent from this repository.
-3. Confirm the displayed deadline, timezone and Draft/Final submission status.
-4. Confirm the presentation delivery mechanism and any mandatory form questions.
+Team hamster — Shupei Zhang, Yangxin Zhou, Michael Li, Kathy Chen.
 
-The authenticated dashboard was not available in the inspected browser session. No form field, authorship/tool-use answer, delivery format or successful competition submission is inferred from the public website.
+Public project URL: https://github.com/sp-zh/qsite-2026-annni-hamster
+
+Team-confirmed status: `submitted: true`, `dashboard_status: draft`.
+
+The existing submission is recorded as a draft. If the competition requires a finalization step, review and finalize that existing entry in the authenticated dashboard before its displayed deadline. This repository does not claim Final status.
+
+Use the dashboard for any required fields, private team code and presentation delivery instructions. No repeat submission is requested by this document.

@@ -13,7 +13,7 @@ We investigate the periodic one-dimensional ANNNI model under target-only depola
 
 [Executed notebook](submission.ipynb) · [Offline HTML](submission.html) · [3-page report](report.pdf) · [Presentation PDF](presentation.pdf) · [Editable PPTX](presentation.pptx) · [Speaker notes](speaker_notes.md)
 
-The eight-slide presentation has an estimated 6 min 10 sec script; delivery format must be checked privately in the competition dashboard.
+The eight-slide presentation has an estimated 6 min 10 sec script. Team-confirmed competition status: `submitted: true`, `dashboard_status: draft`. Finalization is not claimed; presentation delivery instructions remain in the authenticated dashboard.
 
 ## Main results
 

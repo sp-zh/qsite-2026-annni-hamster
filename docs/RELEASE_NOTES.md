@@ -6,4 +6,4 @@ Formal followup statistics use A_index union B_index:2718 records,110 distinct a
 
 Figures use the same frozen D3 baseline and scientific definitions. Report/notebook/slides read release_statistics derived from numerical data, not copied prose. V1 reconstructs all saved repeated estimates. V2 actually recompiles and simulates a lightweight saved circuit, with a PennyLane crosscheck in the locked science environment. V3 uses one fixed record and original archived random identity. Detailed current receipts are separated by environment.
 
-Historical reports are evidence, not new test execution. No research success claim follows solely from packaging. No files were pushed or submitted remotely.
+Historical reports are evidence, not new test execution. No research success claim follows solely from packaging. The repository has since been published to GitHub. The team confirms submitted: true and dashboard_status: draft; this does not claim Final status. See release_status.json.
