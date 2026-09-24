@@ -1,0 +1,1309 @@
+{
+  "key": {
+    "source": "dff515be9f00de481211959898994cf96584a93f66597cff899835e0e6d2977c",
+    "source_key": {
+      "probability_keys": [
+        {
+          "n": 8,
+          "kappa": 0.45,
+          "h": 0.01,
+          "bc": "PBC",
+          "gates": [
+            [
+              "H",
+              0
+            ],
+            [
+              "CNOT",
+              0,
+              1
+            ],
+            [
+              "CNOT",
+              1,
+              2
+            ],
+            [
+              "CNOT",
+              2,
+              3
+            ],
+            [
+              "CNOT",
+              3,
+              4
+            ],
+            [
+              "CNOT",
+              4,
+              5
+            ],
+            [
+              "CNOT",
+              5,
+              6
+            ],
+            [
+              "CNOT",
+              6,
+              7
+            ]
+          ],
+          "p": 0.0,
+          "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+          "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+          "sv": false,
+          "keep": false,
+          "shots": null
+        },
+        {
+          "n": 8,
+          "kappa": 0.45,
+          "h": 0.01,
+          "bc": "PBC",
+          "gates": [
+            [
+              "H",
+              0
+            ],
+            [
+              "CNOT",
+              0,
+              1
+            ],
+            [
+              "CNOT",
+              0,
+              1
+            ],
+            [
+              "CNOT",
+              0,
+              1
+            ],
+            [
+              "CNOT",
+              1,
+              2
+            ],
+            [
+              "CNOT",
+              1,
+              2
+            ],
+            [
+              "CNOT",
+              1,
+              2
+            ],
+            [
+              "CNOT",
+              2,
+              3
+            ],
+            [
+              "CNOT",
+              2,
+              3
+            ],
+            [
+              "CNOT",
+              2,
+              3
+            ],
+            [
+              "CNOT",
+              3,
+              4
+            ],
+            [
+              "CNOT",
+              3,
+              4
+            ],
+            [
+              "CNOT",
+              3,
+              4
+            ],
+            [
+              "CNOT",
+              4,
+              5
+            ],
+            [
+              "CNOT",
+              4,
+              5
+            ],
+            [
+              "CNOT",
+              4,
+              5
+            ],
+            [
+              "CNOT",
+              5,
+              6
+            ],
+            [
+              "CNOT",
+              5,
+              6
+            ],
+            [
+              "CNOT",
+              5,
+              6
+            ],
+            [
+              "CNOT",
+              6,
+              7
+            ],
+            [
+              "CNOT",
+              6,
+              7
+            ],
+            [
+              "CNOT",
+              6,
+              7
+            ]
+          ],
+          "p": 0.0,
+          "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+          "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+          "sv": false,
+          "keep": false,
+          "shots": null
+        },
+        {
+          "n": 8,
+          "kappa": 0.45,
+          "h": 0.01,
+          "bc": "PBC",
+          "gates": [
+            [
+              "H",
+              0
+            ],
+            [
+              "CNOT",
+              0,
+              1
+            ],
+            [
+              "CNOT",
+              0,
+              1
+            ],
+            [
+              "CNOT",
+              0,
+              1
+            ],
+            [
+              "CNOT",
+              0,
+              1
+            ],
+            [
+              "CNOT",
+              0,
+              1
+            ],
+            [
+              "CNOT",
+              1,
+              2
+            ],
+            [
+              "CNOT",
+              1,
+              2
+            ],
+            [
+              "CNOT",
+              1,
+              2
+            ],
+            [
+              "CNOT",
+              1,
+              2
+            ],
+            [
+              "CNOT",
+              1,
+              2
+            ],
+            [
+              "CNOT",
+              2,
+              3
+            ],
+            [
+              "CNOT",
+              2,
+              3
+            ],
+            [
+              "CNOT",
+              2,
+              3
+            ],
+            [
+              "CNOT",
+              2,
+              3
+            ],
+            [
+              "CNOT",
+              2,
+              3
+            ],
+            [
+              "CNOT",
+              3,
+              4
+            ],
+            [
+              "CNOT",
+              3,
+              4
+            ],
+            [
+              "CNOT",
+              3,
+              4
+            ],
+            [
+              "CNOT",
+              3,
+              4
+            ],
+            [
+              "CNOT",
+              3,
+              4
+            ],
+            [
+              "CNOT",
+              4,
+              5
+            ],
+            [
+              "CNOT",
+              4,
+              5
+            ],
+            [
+              "CNOT",
+              4,
+              5
+            ],
+            [
+              "CNOT",
+              4,
+              5
+            ],
+            [
+              "CNOT",
+              4,
+              5
+            ],
+            [
+              "CNOT",
+              5,
+              6
+            ],
+            [
+              "CNOT",
+              5,
+              6
+            ],
+            [
+              "CNOT",
+              5,
+              6
+            ],
+            [
+              "CNOT",
+              5,
+              6
+            ],
+            [
+              "CNOT",
+              5,
+              6
+            ],
+            [
+              "CNOT",
+              6,
+              7
+            ],
+            [
+              "CNOT",
+              6,
+              7
+            ],
+            [
+              "CNOT",
+              6,
+              7
+            ],
+            [
+              "CNOT",
+              6,
+              7
+            ],
+            [
+              "CNOT",
+              6,
+              7
+            ]
+          ],
+          "p": 0.0,
+          "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+          "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+          "sv": false,
+          "keep": false,
+          "shots": null
+        }
+      ],
+      "method": "zne",
+      "budgets": [
+        10000,
+        100000
+      ],
+      "repeats": 32,
+      "master_seed": 62026,
+      "estimator_code": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+      "code": "01cce0e06ae66a96035f668c3e75510471836e8979a44fac523f0358d6b86fc7"
+    },
+    "estimator": "existing_Richardson_1_3_5",
+    "code": "5e6244844f44bcb1789fa265e69985e12a0c76e7e229a63479e728ae5602a049"
+  },
+  "n": 8,
+  "kappa": 0.45,
+  "h": 0.01,
+  "p": 0,
+  "method": "zne_quadratic",
+  "archive": "results/stage6_v1/end_to_end/measurements/b2e55c3b72908c730da82f78d4aeefb677b459bc15c8f7ef19288551caab667a.npz",
+  "sha256": "db35e03744f300e5088b0590cfb419c8ff33fd9dc7baf151c6ee53c276906deb",
+  "probability_records": [
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.45,
+        "h": 0.01,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ]
+        ],
+        "p": 0.0,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      "n": 8,
+      "kappa": 0.45,
+      "h": 0.01,
+      "p": 0,
+      "fold": 1,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "archive": "results/stage6_v1/end_to_end/probabilities/9fad8e324b4d11f8249525768cf6a7204f849ebb90ed464e9175b181fe8d3d8b.npz",
+      "sha256": "46ec7045c5b50dba440d88f8608978bf9c3c4b6366b2916f185594fba3b00d70",
+      "observables": [
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seconds": 0.01638345798710361,
+      "trace_real": 0.9999999999999998,
+      "hermiticity": 0.0,
+      "min_eigenvalue": 0.0,
+      "noise_channels": 7,
+      "process_peak_rss_bytes": 349978624,
+      "cnots": 7,
+      "gate_count": 8,
+      "unitary_depth": 8,
+      "target_counts": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "disposition": "newly_executed"
+    },
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.45,
+        "h": 0.01,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ]
+        ],
+        "p": 0.0,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      "n": 8,
+      "kappa": 0.45,
+      "h": 0.01,
+      "p": 0,
+      "fold": 3,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "archive": "results/stage6_v1/end_to_end/probabilities/3fec6ee829c7c2ceb34ea77dd03a5ca034eb3c2d9e005e3e8b42c704076fb191.npz",
+      "sha256": "46ec7045c5b50dba440d88f8608978bf9c3c4b6366b2916f185594fba3b00d70",
+      "observables": [
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seconds": 0.01893270801519975,
+      "trace_real": 0.9999999999999998,
+      "hermiticity": 0.0,
+      "min_eigenvalue": 0.0,
+      "noise_channels": 21,
+      "process_peak_rss_bytes": 349978624,
+      "cnots": 21,
+      "gate_count": 22,
+      "unitary_depth": 22,
+      "target_counts": [
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "disposition": "newly_executed"
+    },
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.45,
+        "h": 0.01,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ]
+        ],
+        "p": 0.0,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      "n": 8,
+      "kappa": 0.45,
+      "h": 0.01,
+      "p": 0,
+      "fold": 5,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "archive": "results/stage6_v1/end_to_end/probabilities/d59b81f8a8f82d6f9cf7a59e2b22fd1b7a91bc6bcb02ced8bf46a82a9f1af9c3.npz",
+      "sha256": "46ec7045c5b50dba440d88f8608978bf9c3c4b6366b2916f185594fba3b00d70",
+      "observables": [
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seconds": 0.020115750026889145,
+      "trace_real": 0.9999999999999998,
+      "hermiticity": 0.0,
+      "min_eigenvalue": 0.0,
+      "noise_channels": 35,
+      "process_peak_rss_bytes": 349978624,
+      "cnots": 35,
+      "gate_count": 36,
+      "unitary_depth": 36,
+      "target_counts": [
+        0,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "disposition": "newly_executed"
+    }
+  ],
+  "sampling": {
+    "10000": [
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          1667,
+          1667
+        ]
+      },
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          1667,
+          1666
+        ]
+      },
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          1667,
+          1666
+        ]
+      }
+    ],
+    "100000": [
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          16667,
+          16667
+        ]
+      },
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          16667,
+          16666
+        ]
+      },
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          16667,
+          16666
+        ]
+      }
+    ]
+  },
+  "cost": {
+    "10000": {
+      "shots_per_rep": 10000,
+      "all_reps_shots": 320000,
+      "gate_shots_per_rep": 209986,
+      "settings": 6,
+      "basis_single_qubit_gate_shots_per_rep": 39992
+    },
+    "100000": {
+      "shots_per_rep": 100000,
+      "all_reps_shots": 3200000,
+      "gate_shots_per_rep": 2099986,
+      "settings": 6,
+      "basis_single_qubit_gate_shots_per_rep": 399992
+    }
+  },
+  "quality": {
+    "10000": {
+      "denominators": null,
+      "nonfinite": 0,
+      "outside_range": 0,
+      "negative_structure_factor": 0,
+      "physical_comparison_tolerance": 1e-09
+    },
+    "100000": {
+      "denominators": null,
+      "nonfinite": 0,
+      "outside_range": 0,
+      "negative_structure_factor": 0,
+      "physical_comparison_tolerance": 1e-09
+    }
+  },
+  "seconds": 0.007463249959982932,
+  "disposition": "new_analysis_of_shared_ZNE_counts_no_additional_quantum_samples",
+  "noise_scope": "Every CNOT including references/decoding/folding target-depolarized",
+  "randomization": "Shared per-coordinate/budget/repeat/fold/basis SeedSequence initialization across preparations and p; arm/p/estimator omitted. Multinomial algorithm draw consumption can differ with probabilities and allocations: this is common seeded streams, not identical categorical events. All detectors and linear/quadratic ZNE use the same archived counts.",
+  "stream_spec": {
+    "master_seed": 62026,
+    "fields": [
+      "n",
+      "kappa_exact",
+      "h_exact",
+      "budget",
+      "repeat",
+      "fold",
+      "basis"
+    ],
+    "omitted": [
+      "method",
+      "p",
+      "gates",
+      "estimator"
+    ]
+  },
+  "unclipped": true,
+  "counts_archive": "results/stage6_v1/end_to_end/measurements/dfec13ca97e7f1a21407418ebebc815016d5cded69aa3a07777595a579775a7d.npz",
+  "shared_quantum_data_with": "results/stage6_v1/end_to_end/measurements/dfec13ca97e7f1a21407418ebebc815016d5cded69aa3a07777595a579775a7d.npz",
+  "coefficients": [
+    1.875,
+    -1.25,
+    0.375
+  ]
+}

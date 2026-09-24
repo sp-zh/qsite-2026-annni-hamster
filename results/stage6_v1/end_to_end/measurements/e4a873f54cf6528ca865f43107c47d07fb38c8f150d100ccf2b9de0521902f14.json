@@ -1,0 +1,529 @@
+{
+  "key": {
+    "probability_keys": [
+      {
+        "n": 8,
+        "kappa": 0.525,
+        "h": 0.01,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ]
+        ],
+        "p": 0.01,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      }
+    ],
+    "method": "raw",
+    "budgets": [
+      10000,
+      100000
+    ],
+    "repeats": 32,
+    "master_seed": 62026,
+    "estimator_code": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+    "code": "01cce0e06ae66a96035f668c3e75510471836e8979a44fac523f0358d6b86fc7"
+  },
+  "n": 8,
+  "kappa": 0.525,
+  "h": 0.01,
+  "p": 0.01,
+  "method": "raw",
+  "archive": "results/stage6_v1/end_to_end/measurements/e4a873f54cf6528ca865f43107c47d07fb38c8f150d100ccf2b9de0521902f14.npz",
+  "sha256": "eb314e7e8f21da6e362debd6ec66989bd5e3540615993b78bd99a47fb4af2389",
+  "probability_records": [
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.525,
+        "h": 0.01,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ]
+        ],
+        "p": 0.01,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      "n": 8,
+      "kappa": 0.525,
+      "h": 0.01,
+      "p": 0.01,
+      "fold": 1,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "archive": "results/stage6_v1/end_to_end/probabilities/a5ba1d9c73f63447d05ea0102daa2b2c3c729a51dcdd662dfba74e2c49b53d22.npz",
+      "sha256": "61c775cb87e0bacddc7356697e623e0ddfa8b976ac58a18bc27ecfb767e0aad7",
+      "observables": [
+        0.9999999999999997,
+        0.0,
+        -0.9801327407407405,
+        0.0,
+        0.9735111111111109,
+        0.0,
+        -0.9801327407407405,
+        0.0,
+        0.001655703703703687,
+        0.003311111111111098,
+        0.491722074074074,
+        0.003311111111111098,
+        0.001655703703703687,
+        0.003311111111111098,
+        0.491722074074074,
+        0.003311111111111098,
+        0.0
+      ],
+      "seconds": 0.027454374998342246,
+      "trace_real": 0.9999999999999998,
+      "hermiticity": 0.0,
+      "min_eigenvalue": 2.1947873799725655e-14,
+      "noise_channels": 6,
+      "process_peak_rss_bytes": 349978624,
+      "cnots": 6,
+      "gate_count": 14,
+      "unitary_depth": 7,
+      "target_counts": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "disposition": "newly_executed"
+    }
+  ],
+  "sampling": {
+    "10000": [
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          5000,
+          5000
+        ]
+      }
+    ],
+    "100000": [
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          50000,
+          50000
+        ]
+      }
+    ]
+  },
+  "cost": {
+    "10000": {
+      "shots_per_rep": 10000,
+      "all_reps_shots": 320000,
+      "gate_shots_per_rep": 60000,
+      "settings": 2,
+      "basis_single_qubit_gate_shots_per_rep": 40000
+    },
+    "100000": {
+      "shots_per_rep": 100000,
+      "all_reps_shots": 3200000,
+      "gate_shots_per_rep": 600000,
+      "settings": 2,
+      "basis_single_qubit_gate_shots_per_rep": 400000
+    }
+  },
+  "quality": {
+    "10000": {
+      "denominators": [
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ]
+      ],
+      "nonfinite": 0,
+      "outside_range": 0,
+      "negative_structure_factor": 0,
+      "physical_comparison_tolerance": 1e-09
+    },
+    "100000": {
+      "denominators": [
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ]
+      ],
+      "nonfinite": 0,
+      "outside_range": 0,
+      "negative_structure_factor": 0,
+      "physical_comparison_tolerance": 1e-09
+    }
+  },
+  "seconds": 0.011962582997512072,
+  "disposition": "newly_executed",
+  "noise_scope": "Every CNOT including references/decoding/folding target-depolarized",
+  "randomization": "Shared per-coordinate/budget/repeat/fold/basis SeedSequence initialization across preparations and p; arm/p/estimator omitted. Multinomial algorithm draw consumption can differ with probabilities and allocations: this is common seeded streams, not identical categorical events. All detectors and linear/quadratic ZNE use the same archived counts.",
+  "stream_spec": {
+    "master_seed": 62026,
+    "fields": [
+      "n",
+      "kappa_exact",
+      "h_exact",
+      "budget",
+      "repeat",
+      "fold",
+      "basis"
+    ],
+    "omitted": [
+      "method",
+      "p",
+      "gates",
+      "estimator"
+    ]
+  },
+  "unclipped": true
+}
