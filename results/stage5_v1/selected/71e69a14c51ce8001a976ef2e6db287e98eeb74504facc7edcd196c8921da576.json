@@ -1,0 +1,234 @@
+{
+  "n": 8,
+  "kappa": 0.198276,
+  "h": 1.974569,
+  "ref": "plus",
+  "seed": 11,
+  "selected": {
+    "words": [
+      "IIIIIIZY",
+      "IIYZIIII",
+      "ZYIIIIII",
+      "IIIIZYII",
+      "IIIYZIII",
+      "IYZIIIII",
+      "ZIIIIIIY",
+      "IIIIIYZI",
+      "IIIIZIYI",
+      "ZIYIIIII",
+      "ZIIIIIYI",
+      "IIYIZIII",
+      "IYIIIIIZ",
+      "IIIIIYIZ",
+      "IIIZIYII",
+      "IYIZIIII"
+    ],
+    "params": [
+      -0.1130936121072197,
+      -0.11309358954302064,
+      -0.11910193411361386,
+      -0.11910182841651816,
+      -0.11663830306369405,
+      -0.11516065432687227,
+      -0.11663839475858694,
+      -0.11516064155896111,
+      -0.016570441805066245,
+      -0.016570548333149443,
+      -0.015491634456493522,
+      -0.015491645736426096,
+      0.009712182850232674,
+      0.009716524485408594,
+      0.009712167203576759,
+      0.009716534752139763
+    ],
+    "reason": "budget_checkpoint_32",
+    "optimizer_success": true,
+    "cnots": 32,
+    "gate_count": 88,
+    "unitary_depth": 27,
+    "target_counts": [
+      0,
+      2,
+      4,
+      4,
+      4,
+      4,
+      6,
+      8
+    ],
+    "cnot_order": [
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "energy": -16.72385523015452,
+    "ed_energy": -16.724500068964343,
+    "delta_e": 8.06048512278501e-05,
+    "epsilon_c": 0.0063560112656800855,
+    "epsilon_sf": 0.0026518151081141306,
+    "epsilon_mx": 4.41713466482474e-05,
+    "fidelity": 0.9999047937587221,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage5_v1/ed/n8_k0x1.9611ba3ca7504p-3_h0x1.f97d5a9eb2075p+0.npz",
+    "parity": 0.9999999999999986,
+    "w_plus": 0.9999999999999993,
+    "T_real": 0.9999587227101052,
+    "T_imag": 0.0,
+    "eta_T": 4.127728989478108e-05,
+    "w0": 0.9999614962312708,
+    "w_plus_0": 0.9999614962312708,
+    "variance": 0.004987489632071629,
+    "n": 8,
+    "kappa": 0.198276,
+    "h": 1.974569,
+    "ref": "plus",
+    "seed": 11,
+    "uid": "71e69a14c51ce8001a976ef2e6db287e98eeb74504facc7edcd196c8921da576",
+    "source": "results/stage5_v1/adaptive/cache/f7e482eaccaba72401ef2a427550531261ba5e24585f99376ad34e43c85beaea.json",
+    "source_sha": "01bf629d2d258b0db3480eade1deb58a30ec2022c665748aa94ba31af16aa98e",
+    "checkpoint": 2,
+    "source_stop": "pool_gradient",
+    "source_budget": 128,
+    "disposition": "newly_executed"
+  },
+  "archive": "results/stage5_v1/selected/71e69a14c51ce8001a976ef2e6db287e98eeb74504facc7edcd196c8921da576.npz",
+  "sha256": "b4f6ef95d2a6859a0f6ad028966a6e0c6fb2d4bce56a60fd02043a4a26efe04a",
+  "energy": -16.72385523015452,
+  "ed_energy": -16.724500068964343,
+  "delta_e": 8.06048512278501e-05,
+  "epsilon_c": 0.0063560112656800855,
+  "epsilon_sf": 0.0026518151081141306,
+  "epsilon_mx": 4.41713466482474e-05,
+  "fidelity": 0.9999047937587221,
+  "observable_pass": true,
+  "state_pass": true,
+  "joint_pass": true,
+  "ed_source": "results/stage5_v1/ed/n8_k0x1.9611ba3ca7504p-3_h0x1.f97d5a9eb2075p+0.npz"
+}

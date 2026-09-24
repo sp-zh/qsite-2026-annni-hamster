@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "scripts/verify_stage5.py", line 8, in <module>
+    start=time.perf_counter();protected=json.loads((OUT/'verification/protected_inputs.json').read_text());excluded=set(json.loads((ROOT/'PACKAGE_MANIFEST_STAGE5.json').read_text()).get('excluded_downloaded_sources',[])) if (ROOT/'PACKAGE_MANIFEST_STAGE5.json').exists() else set();assert all('/sources/' in name for name in excluded);changed=[name for name,d in protected.items() if (not (ROOT/name).exists() and name not in excluded) or ((ROOT/name).exists() and sha(ROOT/name)!=d)];assert not changed,changed[:10]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^^^^^^^^^^^
+AssertionError: ['results/stage4_upgrade_v1/.DS_Store']

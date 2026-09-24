@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "scripts/run_stage5_e2e.py", line 19, in <module>
+    if matches:a=np.load(ROOT/matches[0]['archive']);theta=a['params'] if 'params' in a else a['theta'];state=a['state'];source='historical_reused'
+                                                                                             ~^^^^^^^^^
+  File ".venv/lib/python3.14/site-packages/numpy/lib/_npyio_impl.py", line 243, in __getitem__
+    raise KeyError(f"{key} is not a file in the archive") from None
+KeyError: 'theta is not a file in the archive'

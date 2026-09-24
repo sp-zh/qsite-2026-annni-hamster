@@ -1,0 +1,24 @@
+{
+  "registered_utc": "2026-09-23T00:44:57.796074+00:00",
+  "code_sha": "7f9097cbdf05deb87c857a68fbd39d0eee906143b8a3508ef7825ca3f540dc7f",
+  "jobs": [
+    {
+      "n": 128,
+      "h": 0.4,
+      "chi": 256,
+      "initial": "antiphase",
+      "max_seconds": 300
+    },
+    {
+      "n": 128,
+      "h": 0.35,
+      "chi": 512,
+      "initial": "plus",
+      "max_seconds": 600
+    }
+  ],
+  "reason": "Raw sweep audit shows the h=.4 antiphase chain also fails tolerance (not only plus); continue that actual branch. All h=.35 chi256 chains fail: one directed chi512 check tests bond limitation. No criterion/phase threshold change, no independent-initial claim for resumes.",
+  "execution_order": "After bounded followup, before N12 worker starts; stays within two-heavy-worker limit",
+  "total_soft_cap_seconds": 900,
+  "overall_deadline_unchanged": true
+}

@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-09-23T06:06:48.366653+00:00",
+  "code_sha": "c2a8008f2b0f2ccbf6f50799483c303807c68821034696b7dee9557a3a23627e",
+  "original_reference_code_sha": "c880f8455add8680c7f9a1ccdbe72c213715fd3a852b756ec02dc37fc63d4bfd",
+  "reason": "Baseline linspace can represent mathematical kappa=.3 as .30000000000000004; direct <=.3 comparison then incorrectly drops the declared endpoint interior. Normalize only16machine-epsilon neighborhoods of existing endpoints for map reference-rule comparisons.",
+  "old_low_map_analysis": {
+    "path": "results/stage6_v1/n8_maps/low_map_analysis_before_reference_roundoff.json",
+    "sha256": "eaf8f14f7ce99e28709c5b0be73a6eb2018ef56652154b1945edfa41b8e6edd9"
+  },
+  "unchanged": [
+    "Hamiltonian coordinates and all raw states",
+    "full precision cache keys and isolation hashes",
+    "all frozen detector/candidate rules",
+    "all old cohort evaluations and previously reported confirmation/core labels",
+    "physical thresholds and region definitions"
+  ],
+  "scope": "Numerical endpoint compatibility, not a new physical boundary or improved classifier. Preserve original reference outputs per point in new map analysis. Main420-point analysis has not yet run; no prior full-map label score is overwritten.",
+  "test": "verification/map_reference_roundoff_test.log"
+}

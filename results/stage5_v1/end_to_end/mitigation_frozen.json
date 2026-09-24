@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-22T17:17:20.096848+00:00",
+  "scores": {
+    "raw": 0.0628769773178074,
+    "zne": 0.05818290369741109,
+    "sv": 0.059867089457631716
+  },
+  "selected": "zne",
+  "protocol": {
+    "timestamp": "2026-09-22T17:13:36.737827+00:00",
+    "selection": "lowest mean per-observable MSE to own clean circuit at 100000 total shots, equally across validation24 and p=.01/.05; ties gate-shots",
+    "methods": [
+      "raw",
+      "zne",
+      "sv"
+    ],
+    "validation_sha": "07e21f9ea493ea5034473af884db700760cb6c35f7ddcc4268f2219d646e1632",
+    "test_v2_used": false
+  },
+  "validation_index_sha": "ed0b9d05544a4554c12323054c3ad3a58a40ee45de0459b098bc5b91ff7cf254",
+  "scope": "Frozen for descriptive full map; no test_v2 noise used"
+}

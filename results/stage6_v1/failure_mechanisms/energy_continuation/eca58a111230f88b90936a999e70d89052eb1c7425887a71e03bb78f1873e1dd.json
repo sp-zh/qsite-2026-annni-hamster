@@ -1,0 +1,233 @@
+{
+  "key": {
+    "source_sha": "d775d5615beebd80c4c5ec30ff852b1c7907c27ea9d692e01aeca7876fe04b9c",
+    "options": {
+      "maxiter": 2000,
+      "ftol": 1e-14,
+      "gtol": 1e-09,
+      "maxls": 30
+    },
+    "code": "d51178ebc3aadd8178f59be87fa739d82cda6f216b6d43ba340cafdc73b4e35e",
+    "backend": "8edfd4f3bf433fdf7d59a1732c444c067eff319b3b34981ee6116bd75e123990"
+  },
+  "n": 8,
+  "kappa": 0.425,
+  "h": 0.02,
+  "method": "B3",
+  "basis": "physical",
+  "ref": "ghz",
+  "words": [
+    "YIZIIIII",
+    "IIIIYZII",
+    "IIIZIYII",
+    "IIYZIIII"
+  ],
+  "gates": [
+    [
+      "H",
+      0
+    ],
+    [
+      "CNOT",
+      0,
+      1
+    ],
+    [
+      "CNOT",
+      1,
+      2
+    ],
+    [
+      "CNOT",
+      2,
+      3
+    ],
+    [
+      "CNOT",
+      3,
+      4
+    ],
+    [
+      "CNOT",
+      4,
+      5
+    ],
+    [
+      "CNOT",
+      5,
+      6
+    ],
+    [
+      "CNOT",
+      6,
+      7
+    ],
+    [
+      "RX",
+      0,
+      1.5707963267948966
+    ],
+    [
+      "CNOT",
+      0,
+      2
+    ],
+    [
+      "RZ",
+      2,
+      0.01738858009674407
+    ],
+    [
+      "CNOT",
+      0,
+      2
+    ],
+    [
+      "RX",
+      0,
+      -1.5707963267948966
+    ],
+    [
+      "RX",
+      4,
+      1.5707963267948966
+    ],
+    [
+      "CNOT",
+      4,
+      5
+    ],
+    [
+      "RZ",
+      5,
+      0.017390866552099128
+    ],
+    [
+      "CNOT",
+      4,
+      5
+    ],
+    [
+      "RX",
+      4,
+      -1.5707963267948966
+    ],
+    [
+      "RX",
+      5,
+      1.5707963267948966
+    ],
+    [
+      "CNOT",
+      3,
+      5
+    ],
+    [
+      "RZ",
+      5,
+      0.017391837750668857
+    ],
+    [
+      "CNOT",
+      3,
+      5
+    ],
+    [
+      "RX",
+      5,
+      -1.5707963267948966
+    ],
+    [
+      "RX",
+      2,
+      1.5707963267948966
+    ],
+    [
+      "CNOT",
+      2,
+      3
+    ],
+    [
+      "RZ",
+      3,
+      0.017387608534941933
+    ],
+    [
+      "CNOT",
+      2,
+      3
+    ],
+    [
+      "RX",
+      2,
+      -1.5707963267948966
+    ]
+  ],
+  "cnots": 15,
+  "source": "results/stage6_v1/legacy_b3/adaptive/cache/c7ff8fceddac51fff9e996a7584ce40e62160b9816487046bf8ae91b5c1f9d22.npz",
+  "archive": "results/stage6_v1/failure_mechanisms/energy_continuation/eca58a111230f88b90936a999e70d89052eb1c7425887a71e03bb78f1873e1dd.npz",
+  "sha256": "3e5421ab134b0e87bca4868f12d7c6d55533ddcd01e5d9fc4f9cac587da93135",
+  "optimizer_success": true,
+  "nit": 0,
+  "nfev": 1,
+  "reason": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+  "state_energy_residual": 0.0400015560161246,
+  "energy_variance": 0.0016001244837111543,
+  "parity_real": 0.9999999999999993,
+  "parity_imag": 0.0,
+  "translation_real": 0.9997732351629287,
+  "translation_imag": 0.0,
+  "energy": -4.600695603016241,
+  "ed_energy": -4.601392551430357,
+  "delta_e": 8.711855176446459e-05,
+  "epsilon_c": 0.00015442888944527944,
+  "epsilon_sf": 0.00013478564403923698,
+  "epsilon_mx": 0.008728138740091533,
+  "fidelity": 0.9996944718554711,
+  "observable_pass": true,
+  "state_pass": true,
+  "joint_pass": true,
+  "reference_numerical_ambiguous": false,
+  "ed_source": "results/stage6_v1/reference_atlas/cache/35ce9f24e0554ff6371ecbd188d91c6465ee629b182d498bcaf8b333520075f5.npz",
+  "observables": [
+    0.9999999999999996,
+    0.9998488054304018,
+    0.9998488082855239,
+    0.9998488082872328,
+    0.9998488082869137,
+    0.9998488082872328,
+    0.9998488082855239,
+    0.9998488054304018,
+    0.9998677065366537,
+    1.8898459114590747e-05,
+    1.8898964483177183e-05,
+    1.8899469156875028e-05,
+    1.8899677836470286e-05,
+    1.8899469156875028e-05,
+    1.8898964483177183e-05,
+    1.8898459114590747e-05,
+    0.008694423398809274
+  ],
+  "ed_observables": [
+    0.9999999999999992,
+    0.99969572892935,
+    0.9996943793960786,
+    0.9996943834737273,
+    0.9996943835426042,
+    0.9996943834737273,
+    0.9996943793960786,
+    0.99969572892935,
+    0.9997329208926145,
+    3.8439902373025216e-05,
+    3.820309380575537e-05,
+    3.796421197572961e-05,
+    3.7864691075750745e-05,
+    3.796421197572961e-05,
+    3.820309380575537e-05,
+    3.8439902373025216e-05,
+    0.017422562138900807
+  ],
+  "seconds": 0.001648042001761496,
+  "initialization": "Same actual saved parameters, one energy-only continuation; not an independent seed",
+  "confirmation_eligible": false
+}

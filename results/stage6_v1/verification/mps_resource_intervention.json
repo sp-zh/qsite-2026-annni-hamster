@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-09-22T22:59:26.434638+00:00",
+  "original_pid": 35768,
+  "observed_process_elapsed": "27min10s",
+  "observed_rss_kib": 550752,
+  "observed_cpu_percent": 100,
+  "completed_points_retained": 6,
+  "interrupted_job": {
+    "n": 128,
+    "kappa": 0.8,
+    "h": 0.325,
+    "chi": 256,
+    "initial": "plus"
+  },
+  "interruption": "SIGINT; original log retains KeyboardInterrupt. No final state fabricated for this attempt; elapsed work counted as overhead.",
+  "new_policy": {
+    "soft_per_point_seconds": 600,
+    "hard_worker_seconds": 780,
+    "checkpoints_every_sweeps": 4,
+    "priority": "Complete high-field and middle controls before returning to slow low-field window",
+    "chi256_plus": "Continue same independent plus chain from chi128 where available; not a fresh seed. Antiphase remains independent product start"
+  },
+  "original_config_preserved": true,
+  "budget_allocation_unchanged": true
+}

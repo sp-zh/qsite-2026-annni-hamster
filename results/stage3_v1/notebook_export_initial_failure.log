@@ -1,0 +1,25 @@
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[IPKernelApp] ERROR | Exception during subprocesses termination [Errno 1] Operation not permitted (originated from sysctl() malloc 1/3)
+Traceback (most recent call last):
+  File "<PROJECT_ROOT>/.venv/lib/python3.14/site-packages/ipykernel/kernelbase.py", line 1529, in _at_shutdown
+    await self._progressively_terminate_all_children()
+  File "<PROJECT_ROOT>/.venv/lib/python3.14/site-packages/ipykernel/kernelbase.py", line 1507, in _progressively_terminate_all_children
+    if not self._process_children():
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "<PROJECT_ROOT>/.venv/lib/python3.14/site-packages/ipykernel/kernelbase.py", line 1490, in _process_children
+    all_children = kernel_process.children(recursive=True)
+  File "<PROJECT_ROOT>/.venv/lib/python3.14/site-packages/psutil/__init__.py", line 978, in children
+    ppid_map = _ppid_map()
+  File "<PROJECT_ROOT>/.venv/lib/python3.14/site-packages/psutil/__init__.py", line 256, in _ppid_map
+    for pid in pids():
+               ~~~~^^
+  File "<PROJECT_ROOT>/.venv/lib/python3.14/site-packages/psutil/__init__.py", line 1485, in pids
+    ret = sorted(_psplatform.pids())
+                 ~~~~~~~~~~~~~~~~^^
+  File "<PROJECT_ROOT>/.venv/lib/python3.14/site-packages/psutil/_psosx.py", line 320, in pids
+    ls = cext.pids()
+PermissionError: [Errno 1] Operation not permitted (originated from sysctl() malloc 1/3)
+Traceback (most recent call last):
+  File "<PROJECT_ROOT>/scripts/build_stage3_notebook.py", line 59, in <module>
+    from nbconvert import HTMLExporter
+ModuleNotFoundError: No module named 'nbconvert'

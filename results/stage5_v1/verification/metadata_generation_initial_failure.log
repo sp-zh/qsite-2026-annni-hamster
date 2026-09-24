@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "scripts/stage5_metadata.py", line 29, in <module>
+    records=[json.loads(p.read_text()) for p in (OUT/directory).glob('*.json')];new=[r for r in records if str(r.get('disposition','')).startswith('newly_executed') and 'seconds' in r];costs[label]=dict(new_records=len(new),summed_call_wall_seconds=sum(r['seconds'] for r in new),historical_reuse_records=sum(r.get('disposition')=='historical_reused' for r in records))
+                                                                                                               ^^^^^
+AttributeError: 'list' object has no attribute 'get'

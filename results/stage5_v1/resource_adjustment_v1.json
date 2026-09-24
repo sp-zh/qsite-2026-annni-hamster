@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-09-22T17:29:47.192468+00:00",
+  "adjustment_number": 1,
+  "original_plan_preserved": true,
+  "original": {
+    "selection": 0.25,
+    "end_to_end": 0.3,
+    "n12": 0.15,
+    "floating": 0.2,
+    "dynamics_submission": 0.1
+  },
+  "updated": {
+    "selection": 0.05,
+    "end_to_end": 0.15,
+    "n12": 0.3,
+    "floating": 0.4,
+    "dynamics_submission": 0.1
+  },
+  "basis": {
+    "density_pilot_seconds": 77.52182683401043,
+    "density_pilot_peak_rss_bytes": 2651766784,
+    "density_noisy_128_measured_seconds": [
+      116.83281045797048,
+      123.48799737496302
+    ],
+    "first_n128_chi256_seconds": 802.15
+  },
+  "reason": "Selection and N8 core are fast; actual N12 densities and N128 chi256 dominate. Shift planned effort to new physics and size validation, reserving 10 percent for deliverables. Fractions are scheduling guides within the unchanged 12-hour wall deadline; overlapping process call times are not added as wall time.",
+  "memory_policy": "At most one N12 density process and one DMRG process; density peak measured 2.47 GiB. MPS chi256 storage estimate plus density is below the 6 GiB planning cap; MPS process peak is not instrumented, so no measured aggregate-peak claim is made. No concurrent N12 density jobs. N8 pointwise jobs are small. N12 noise and mitigation run sequentially.",
+  "estimates_not_measurements": {
+    "n12_density_remaining_hours": [
+      2.5,
+      4
+    ],
+    "mps_remaining_hours": [
+      3.5,
+      5
+    ]
+  },
+  "original_deadline": "2026-09-23T04:52:20.095585+00:00"
+}

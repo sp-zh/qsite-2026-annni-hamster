@@ -1,0 +1,32 @@
+{
+  "reported_utc": "2026-09-23T02:07:06.903305+00:00",
+  "source": "User reports computer slept and has now resumed; exact sleep interval pending OS-log check.",
+  "original_deadline": "2026-09-23T10:18:30.473067+00:00",
+  "deadline_changed": false,
+  "completed_work_reused": true,
+  "chi512_timeout_interpretation": "Hard wall timeout overlaps host suspension. The nominal600s soft limit preceded clamshell sleep, so the failure cannot be attributed exclusively to sleep. Last saved2-sweep Delta_S was above tolerance; final convergence unavailable. Retain executed_incomplete rather than physical exclusion.",
+  "last_saved_chi512": {
+    "sweeps": 2,
+    "reported_elapsed_seconds": 436.7983330420102,
+    "delta_E": -1.671367044764338e-09,
+    "delta_S": 0.00043838808336049695,
+    "new_partial_checkpoint": false,
+    "retained_initial_checkpoint": "results/stage6_v1/floating_boundary_scan/cache/1dc156606ebdad12cbb2d5d73f5c2d0ff688c16c4f62910834583b0d999ab055.pkl"
+  },
+  "idle_sleep_prevention": "Temporary caffeinate -i -t29400; does not change system settings or prevent explicit user sleep; stop at task end.",
+  "log_source": "results/stage6_v1/verification/sleep_wake_events.txt",
+  "log_sha": "87d6e8514f8c1c2f674a795171cb4a00f53c836f1f82fe8c9dc0c91239b69bce",
+  "observed_host_event_window_utc": [
+    "2026-09-23T01:54:13+00:00",
+    "2026-09-23T02:01:57+00:00"
+  ],
+  "observed_event_types": [
+    "Clamshell Sleep",
+    "Thermal Emergency Sleep",
+    "Maintenance Sleep",
+    "DarkWake",
+    "Wake"
+  ],
+  "timing_caveat": "Per-run elapsed seconds overlapping this window can include host suspension/dark wake. Do not infer method CPU efficiency from these durations. No speculative exact active-CPU subtraction.",
+  "current_pmset_therm": "No thermal/performance warning level or CPU power status recorded by pmset -g therm; this is not a measured temperature."
+}

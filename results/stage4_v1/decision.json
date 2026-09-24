@@ -1,0 +1,159 @@
+{
+  "branch_audit_status": {
+    "complete": true,
+    "actual_intervals": 33,
+    "interval_p_checks": 99,
+    "changed_old_flags": 4
+  },
+  "grid_repair_status": {
+    "attempts": 78,
+    "before": 407,
+    "after": 411,
+    "total": 420,
+    "remaining": [
+      {
+        "kappa": 0.4,
+        "h": 0.3,
+        "failed_metrics": [
+          "epsilon_c"
+        ],
+        "other_candidate_pass": true
+      },
+      {
+        "kappa": 0.45,
+        "h": 0.2,
+        "failed_metrics": [
+          "epsilon_c"
+        ],
+        "other_candidate_pass": false
+      },
+      {
+        "kappa": 0.5,
+        "h": 0.1,
+        "failed_metrics": [
+          "delta_e",
+          "epsilon_c",
+          "fidelity"
+        ],
+        "other_candidate_pass": false
+      },
+      {
+        "kappa": 0.5,
+        "h": 0.2,
+        "failed_metrics": [
+          "delta_e",
+          "epsilon_c"
+        ],
+        "other_candidate_pass": false
+      },
+      {
+        "kappa": 0.55,
+        "h": 0.2,
+        "failed_metrics": [
+          "delta_e"
+        ],
+        "other_candidate_pass": false
+      },
+      {
+        "kappa": 0.6,
+        "h": 0.2,
+        "failed_metrics": [
+          "epsilon_c"
+        ],
+        "other_candidate_pass": false
+      },
+      {
+        "kappa": 0.6,
+        "h": 0.3,
+        "failed_metrics": [
+          "epsilon_c"
+        ],
+        "other_candidate_pass": false
+      },
+      {
+        "kappa": 0.65,
+        "h": 0.3,
+        "failed_metrics": [
+          "epsilon_c"
+        ],
+        "other_candidate_pass": false
+      },
+      {
+        "kappa": 0.65,
+        "h": 0.4,
+        "failed_metrics": [
+          "delta_e"
+        ],
+        "other_candidate_pass": false
+      }
+    ],
+    "changed_parameters": 13
+  },
+  "local_refinement_status": {
+    "completed": true,
+    "states": 230,
+    "noise_configs": 690,
+    "resolved_pairs": 5,
+    "individual_chain_nonzero_entries": 0
+  },
+  "scientific_claim_limits": [
+    "No universal thermodynamic boundary shift",
+    "Per-chain finite-size diagnostics only",
+    "No floating-phase confirmation or quantum advantage",
+    "Control prototypes use three features only"
+  ],
+  "submission_artifact_status": {
+    "status": "submission_candidate",
+    "notebook": "executed, 8 cells",
+    "report": "3-page PDF; original visual review hash recorded separately; editable Markdown and builder supplied",
+    "presentation": "7-slide editable HTML plus complete notes; timing estimate only",
+    "manual_items": [
+      "AUTHOR NAMES",
+      "TEAM NAME",
+      "scientific/editorial review",
+      "timed rehearsal"
+    ],
+    "official_scope_gaps": [
+      "No validated four-phase boundaries",
+      "No intrinsic phase-robustness ranking",
+      "h=0 excluded from circuit grid"
+    ]
+  },
+  "reproducibility_status": {
+    "local_default_entry": "executed successfully",
+    "original_tests": 33,
+    "new_tests": 13,
+    "full_tests": 46,
+    "archive_verification": "See external ZIP_VERIFICATION_STAGE4.json, produced after packaging",
+    "numerical_audit": {
+      "passed": true,
+      "protected_unchanged": 17476,
+      "omitted_old_nonessential_logs": [],
+      "excluded_runtime_caches": [
+        "upstream/Scientific Track/starter_kit/__pycache__/annni.cpython-314.pyc"
+      ],
+      "optimization_reloaded": 308,
+      "new_density_archives": 894,
+      "new_p0_full_density_recomputed": 298,
+      "relative_references_checked": 3669,
+      "physics_fingerprint": {
+        "sources": {
+          "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+          "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+          "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+          "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d"
+        },
+        "versions": {
+          "numpy": "2.5.3",
+          "scipy": "1.18.1",
+          "pennylane": "0.44.1",
+          "matplotlib": "3.11.2"
+        },
+        "basis": "wire0 MSB",
+        "n": 8,
+        "compile": "literal unchanged NN NNN RX, target channel after every CNOT"
+      },
+      "timestamp": "2026-09-22T06:05:29.505042+00:00"
+    }
+  }
+}

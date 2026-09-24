@@ -1,0 +1,169 @@
+{
+  "rows": [
+    {
+      "kappa": 0.6,
+      "h": 0.2,
+      "old_grade": "supported_in_tested_window",
+      "new_grade": "support_strengthened",
+      "bond_converged": true,
+      "delta_e_per_site": 3.453085595239713e-10,
+      "delta_c": 2.883026271383038e-06,
+      "delta_entropy": 1.4160056169387758e-05,
+      "initialization_delta_c": 1.046077718891425e-08,
+      "entropy_c": [
+        1.0128013211240288,
+        1.0494876389252745
+      ],
+      "old_n96_c": [
+        1.0234271747882588,
+        1.0676462973718444
+      ],
+      "q": [
+        1.2678745324282876,
+        1.2682421401819828
+      ],
+      "power_wins_heldout_blocks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "scope": "Discrete tested center and separate neighboring points only; no inferred continuous interval",
+      "needs_chi512": false
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.5,
+      "old_grade": "supported_in_tested_window",
+      "new_grade": "support_strengthened",
+      "bond_converged": true,
+      "delta_e_per_site": 6.678922970237977e-10,
+      "delta_c": 5.974097241623344e-06,
+      "delta_entropy": 1.1039518573952023e-05,
+      "initialization_delta_c": 6.150659176418216e-09,
+      "entropy_c": [
+        0.9798721293393502,
+        0.9752169961592869
+      ],
+      "old_n96_c": [
+        1.019960958496629,
+        0.9899847949780392
+      ],
+      "q": [
+        1.3578086040324093,
+        1.3584509759799361
+      ],
+      "power_wins_heldout_blocks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "scope": "Discrete tested center and separate neighboring points only; no inferred continuous interval",
+      "needs_chi512": false
+    },
+    {
+      "kappa": 1,
+      "h": 0.7,
+      "old_grade": "supported_in_tested_window",
+      "new_grade": "support_strengthened",
+      "bond_converged": true,
+      "delta_e_per_site": 8.964080588924617e-10,
+      "delta_c": 5.13731135493023e-06,
+      "delta_entropy": 1.0835894611149754e-05,
+      "initialization_delta_c": 1.807439031775715e-09,
+      "entropy_c": [
+        1.0835854083632497,
+        1.0685409359399176
+      ],
+      "old_n96_c": [
+        1.1327405582624859,
+        1.13941448007713
+      ],
+      "q": [
+        1.4224981516967339,
+        1.4229095096156539
+      ],
+      "power_wins_heldout_blocks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "scope": "Discrete tested center and separate neighboring points only; no inferred continuous interval",
+      "needs_chi512": false
+    }
+  ],
+  "main_protocol": {
+    "centers": [
+      [
+        0.6,
+        0.2
+      ],
+      [
+        0.8,
+        0.5
+      ],
+      [
+        1,
+        0.7
+      ]
+    ],
+    "offset": 0.025,
+    "center_n": 128,
+    "chi": [
+      128,
+      256
+    ],
+    "initial": [
+      "plus",
+      "antiphase"
+    ],
+    "neighbors_n": [
+      96,
+      128
+    ],
+    "neighbor_chi": [
+      128,
+      256
+    ],
+    "controls": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0.2
+      ],
+      [
+        0,
+        1.8
+      ]
+    ],
+    "control_n": 64,
+    "fit_windows": [
+      "r=2..N/3",
+      "r=4..N/2-2"
+    ],
+    "entropy_edges": [
+      0.15,
+      0.25
+    ],
+    "model": "signed A*cos(q*r+phi) times power or exponential, same 4 parameters; block held-out distances final25%",
+    "grade": {
+      "delta_e_per_site": 1e-05,
+      "delta_c": 0.01,
+      "delta_s": 0.03,
+      "c_range": [
+        0.75,
+        1.25
+      ],
+      "q_size_change": 0.1
+    },
+    "chi512_trigger": "delta_c>=.01 or delta_s>=.03 or delta_e/N>=1e-5",
+    "max_sweeps": 24
+  },
+  "auxiliary_entropy": "Exploratory sensitivity introduced after jobs started; never used to choose or claim main-grade support",
+  "continuous_interval_claim": false
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-22T18:04:17.013209+00:00",
+  "method": "SV",
+  "comparison": "same B5_192 circuit raw versus SV at six predeclared coordinates, three p",
+  "reason": "No added entangling folds; N12 uses68 local settings. This tests scaling of the prespecified parity-verification flow, not a claim that N8 validation-selected ZNE is also optimal atN12.",
+  "N12_mitigated_results_seen": false,
+  "N8_validation_selected": "ZNE",
+  "same_budgets": [
+    10000,
+    100000
+  ],
+  "replicates": 32,
+  "detectors": "same D1 formula and separately frozen N12 dimension-specific D3 trained only on old60 clean states"
+}

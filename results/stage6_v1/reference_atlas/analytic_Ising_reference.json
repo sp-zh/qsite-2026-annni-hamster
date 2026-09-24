@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-09-23T03:15:28.606151+00:00",
+  "level": "R0_exact_analytic",
+  "kappa": 0,
+  "bulk_critical_h": 1,
+  "units": "Pauli Hamiltonian with J1=1; project ZZ/X related by global Hadamard to conventional XX/Z",
+  "derivation": "For kappa=0, Jordan-Wigner bulk quasiparticle dispersion epsilon(q)=2 sqrt(1+h\u00b2-2h cos(q)); bulk gap=2 abs(1-h), closing at h=1 for h>=0. This bulk gap is not the exponentially small ordered-cat splitting or the finite-N P+/T0 sector gap.",
+  "analytic_regions": {
+    "ferromagnetic": "0<=h<1 in the thermodynamic Ising limit",
+    "paramagnetic": "h>1 in the thermodynamic Ising limit",
+    "critical": "h=1; not an interior label"
+  },
+  "numerical_limit_unit_test": [
+    "tests/test_stage6.py::test_sector_ed_and_reference_limit",
+    "tests/test_physics.py::test_exact_transverse_ising_energy"
+  ],
+  "primary_source_context": "Cached primary ANNNI2024 text, Eq7 rationalized kappa->0 limit; exact Ising dispersion stated here independently, not a fitted reference curve.",
+  "source_sha": "f16429f4e4b229425030cb15bd82e5b4a7fbc82af480955dfdf434061b2e8eb9",
+  "finite_N_features": [
+    {
+      "n": 8,
+      "feature": "minus_dm0_dh",
+      "resolvable": true,
+      "RN_position": 0.975,
+      "RN_grid_interval": [
+        0.95,
+        1.0
+      ],
+      "difference_from_bulk_Ising_h1": -0.025000000000000022,
+      "scope": "Finite-size response feature offset from a separately known thermodynamic point; not an error in the exact finite-N ED solution."
+    },
+    {
+      "n": 8,
+      "feature": "minus_dmap_dh",
+      "resolvable": false,
+      "RN_position": null,
+      "RN_grid_interval": [
+        null,
+        null
+      ],
+      "difference_from_bulk_Ising_h1": null,
+      "scope": "Finite-size response feature offset from a separately known thermodynamic point; not an error in the exact finite-N ED solution."
+    },
+    {
+      "n": 8,
+      "feature": "dmx_dh",
+      "resolvable": true,
+      "RN_position": 0.89375,
+      "RN_grid_interval": [
+        0.8875,
+        0.9
+      ],
+      "difference_from_bulk_Ising_h1": -0.10624999999999996,
+      "scope": "Finite-size response feature offset from a separately known thermodynamic point; not an error in the exact finite-N ED solution."
+    },
+    {
+      "n": 8,
+      "feature": "chi_f",
+      "resolvable": true,
+      "RN_position": 0.91875,
+      "RN_grid_interval": [
+        0.9125,
+        0.925
+      ],
+      "difference_from_bulk_Ising_h1": -0.08125000000000004,
+      "scope": "Finite-size response feature offset from a separately known thermodynamic point; not an error in the exact finite-N ED solution."
+    },
+    {
+      "n": 12,
+      "feature": "minus_dm0_dh",
+      "resolvable": true,
+      "RN_position": 1.0,
+      "RN_grid_interval": [
+        0.95,
+        1.05
+      ],
+      "difference_from_bulk_Ising_h1": 0.0,
+      "scope": "Finite-size response feature offset from a separately known thermodynamic point; not an error in the exact finite-N ED solution."
+    },
+    {
+      "n": 12,
+      "feature": "minus_dmap_dh",
+      "resolvable": false,
+      "RN_position": null,
+      "RN_grid_interval": [
+        null,
+        null
+      ],
+      "difference_from_bulk_Ising_h1": null,
+      "scope": "Finite-size response feature offset from a separately known thermodynamic point; not an error in the exact finite-N ED solution."
+    },
+    {
+      "n": 12,
+      "feature": "dmx_dh",
+      "resolvable": true,
+      "RN_position": 0.8999999999999999,
+      "RN_grid_interval": [
+        0.85,
+        0.95
+      ],
+      "difference_from_bulk_Ising_h1": -0.10000000000000009,
+      "scope": "Finite-size response feature offset from a separately known thermodynamic point; not an error in the exact finite-N ED solution."
+    },
+    {
+      "n": 12,
+      "feature": "chi_f",
+      "resolvable": true,
+      "RN_position": 1.0,
+      "RN_grid_interval": [
+        0.95,
+        1.05
+      ],
+      "difference_from_bulk_Ising_h1": 0.0,
+      "scope": "Finite-size response feature offset from a separately known thermodynamic point; not an error in the exact finite-N ED solution."
+    },
+    {
+      "n": 16,
+      "feature": "minus_dm0_dh",
+      "resolvable": true,
+      "RN_position": 1.0,
+      "RN_grid_interval": [
+        0.95,
+        1.05
+      ],
+      "difference_from_bulk_Ising_h1": 0.0,
+      "scope": "Finite-size response feature offset from a separately known thermodynamic point; not an error in the exact finite-N ED solution."
+    },
+    {
+      "n": 16,
+      "feature": "minus_dmap_dh",
+      "resolvable": false,
+      "RN_position": null,
+      "RN_grid_interval": [
+        null,
+        null
+      ],
+      "difference_from_bulk_Ising_h1": null,
+      "scope": "Finite-size response feature offset from a separately known thermodynamic point; not an error in the exact finite-N ED solution."
+    },
+    {
+      "n": 16,
+      "feature": "dmx_dh",
+      "resolvable": true,
+      "RN_position": 1.0,
+      "RN_grid_interval": [
+        0.95,
+        1.05
+      ],
+      "difference_from_bulk_Ising_h1": 0.0,
+      "scope": "Finite-size response feature offset from a separately known thermodynamic point; not an error in the exact finite-N ED solution."
+    },
+    {
+      "n": 16,
+      "feature": "chi_f",
+      "resolvable": true,
+      "RN_position": 1.0,
+      "RN_grid_interval": [
+        0.95,
+        1.05
+      ],
+      "difference_from_bulk_Ising_h1": 0.0,
+      "scope": "Finite-size response feature offset from a separately known thermodynamic point; not an error in the exact finite-N ED solution."
+    }
+  ],
+  "freeze_scope": "Supplementary physical sanity comparison after method freeze. Does not change the frozen same-N RN targets, detectors, candidate selection, thresholds or confirmation labels. No extension to a full kappa-dependent true boundary is inferred."
+}

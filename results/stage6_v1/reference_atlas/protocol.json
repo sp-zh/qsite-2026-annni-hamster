@@ -1,0 +1,27 @@
+{
+  "levels": {
+    "R0": "analytic limits/controlled interiors; R0_extension explicit finite-field physics evidence",
+    "RN": "PBC same-N sector ED and named continuous response peaks",
+    "Rlarge": "separate multi-size evidence, appended after MPS; never copies labels to N8"
+  },
+  "grid_weight": "Tensor product Voronoi cell widths on each stated rectangular domain; never pool refined point counts for an area fraction",
+  "peak_rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+  "reference_denominators": {
+    "8": {
+      "requested_kappa_slices": 15,
+      "resolvable_named_features": 44,
+      "requested_named_features": 60
+    },
+    "12": {
+      "requested_kappa_slices": 6,
+      "resolvable_named_features": 17,
+      "requested_named_features": 24
+    },
+    "16": {
+      "requested_kappa_slices": 6,
+      "resolvable_named_features": 17,
+      "requested_named_features": 24
+    }
+  },
+  "warning": "Single kappa>.5 peak is not split into two transitions; endpoints retained as unresolved. C/SF redundancy explicitly removed for new feature distance."
+}

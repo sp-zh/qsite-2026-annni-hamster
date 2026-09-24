@@ -1,0 +1,247 @@
+{
+  "key": {
+    "n": 8,
+    "kappa": 0.45,
+    "h": 0.0125,
+    "bc": "PBC",
+    "gates": [
+      [
+        "H",
+        0
+      ],
+      [
+        "CNOT",
+        0,
+        1
+      ],
+      [
+        "CNOT",
+        0,
+        1
+      ],
+      [
+        "CNOT",
+        0,
+        1
+      ],
+      [
+        "CNOT",
+        1,
+        2
+      ],
+      [
+        "CNOT",
+        1,
+        2
+      ],
+      [
+        "CNOT",
+        1,
+        2
+      ],
+      [
+        "CNOT",
+        2,
+        3
+      ],
+      [
+        "CNOT",
+        2,
+        3
+      ],
+      [
+        "CNOT",
+        2,
+        3
+      ],
+      [
+        "CNOT",
+        3,
+        4
+      ],
+      [
+        "CNOT",
+        3,
+        4
+      ],
+      [
+        "CNOT",
+        3,
+        4
+      ],
+      [
+        "CNOT",
+        4,
+        5
+      ],
+      [
+        "CNOT",
+        4,
+        5
+      ],
+      [
+        "CNOT",
+        4,
+        5
+      ],
+      [
+        "CNOT",
+        5,
+        6
+      ],
+      [
+        "CNOT",
+        5,
+        6
+      ],
+      [
+        "CNOT",
+        5,
+        6
+      ],
+      [
+        "CNOT",
+        6,
+        7
+      ],
+      [
+        "CNOT",
+        6,
+        7
+      ],
+      [
+        "CNOT",
+        6,
+        7
+      ]
+    ],
+    "p": 0.0,
+    "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+    "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+    "sv": false,
+    "keep": false,
+    "shots": null
+  },
+  "bases": [
+    "ZZZZZZZZ",
+    "XXXXXXXX"
+  ],
+  "archive": "results/stage6_followup_v1/probabilities/c6cd3b801761ae2f8edf5e7a1564114332b350dcb8c1076c120ac48dfe0b0a03.npz",
+  "sha256": "46ec7045c5b50dba440d88f8608978bf9c3c4b6366b2916f185594fba3b00d70",
+  "fold": 3,
+  "p": 0,
+  "sv": false,
+  "seconds": 0.0007966250414028764,
+  "disposition": "historical_reused",
+  "source": {
+    "metadata": "results/stage6_v1/end_to_end/probabilities/c6cd3b801761ae2f8edf5e7a1564114332b350dcb8c1076c120ac48dfe0b0a03.json",
+    "metadata_sha": "0488afccc0216d5bc17e7d92987bd413ddee9beeca97020e20a484c3438343f4",
+    "archive": "results/stage6_v1/end_to_end/probabilities/c6cd3b801761ae2f8edf5e7a1564114332b350dcb8c1076c120ac48dfe0b0a03.npz",
+    "sha256": "46ec7045c5b50dba440d88f8608978bf9c3c4b6366b2916f185594fba3b00d70"
+  },
+  "noise_channels": 21,
+  "one_qubit_gates": 1,
+  "process_peak_rss_bytes": 972914688,
+  "cnots": 21,
+  "gate_count": 22,
+  "unitary_depth": 22,
+  "target_counts": [
+    0,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "cnot_order": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "trace_real": 0.9999999999999998,
+  "hermiticity": 0.0,
+  "min_eigenvalue": 0.0
+}

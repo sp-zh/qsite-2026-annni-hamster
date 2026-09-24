@@ -1,0 +1,721 @@
+{
+  "tasks": {
+    "development": {
+      "rows": [
+        {
+          "kappa": 0.45,
+          "h": 0.15,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.5,
+          "h": 0.15,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.55,
+          "h": 0.15,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.8,
+          "h": 0.6,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.8,
+          "h": 0.8,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.425,
+          "h": 0.02,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "ferro-like",
+          "physical_level": "R0_extension_low_field_multiN",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "Classical ordered limit with a nonzero independently enumerated defect gap, small transverse field relative to that local scale, and strong multi-size order/Binder evidence.",
+          "additional_evidence": {
+            "classical_defect_gap": 0.6000000000000001,
+            "local_h_over_gap": 0.033333333333333326,
+            "criterion": "h/Delta_classical<=.05; N12/16 order, fourth-moment Binder, polarization and<2%size drop jointly agree. This local energy-scale check is NOT an operator-norm perturbation theorem or an exact phase boundary."
+          }
+        },
+        {
+          "kappa": 0.45,
+          "h": 0.035,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.475,
+          "h": 0.05,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.5,
+          "h": 0.01,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.5,
+          "h": 0.075,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.525,
+          "h": 0.035,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.55,
+          "h": 0.05,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.575,
+          "h": 0.075,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.4,
+          "h": 0.3,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.45,
+          "h": 0.2,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.5,
+          "h": 0.1,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.5,
+          "h": 0.2,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.55,
+          "h": 0.1,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.55,
+          "h": 0.2,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.6,
+          "h": 0.2,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.6,
+          "h": 0.3,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.6,
+          "h": 0.4,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.6,
+          "h": 0.5,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.65,
+          "h": 0.3,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.0,
+          "h": 0.2,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "ferro-like",
+          "physical_level": "R0",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "R0",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.0,
+          "h": 1.8,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "paramagnetic-like",
+          "physical_level": "R0",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "R0",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.1,
+          "h": 0.2,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "ferro-like",
+          "physical_level": "R0_extension",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "R0_extension",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.2,
+          "h": 1.5,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.3,
+          "h": 0.1,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "ferro-like",
+          "physical_level": "R0_extension",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "R0_extension",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.3,
+          "h": 1.2,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.4,
+          "h": 1.8,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "paramagnetic-like",
+          "physical_level": "R0_extension",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "R0_extension",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.6,
+          "h": 0.1,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.7,
+          "h": 1.5,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.8,
+          "h": 0.1,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "antiphase-like",
+          "physical_level": "R0_extension",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "R0_extension",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.9,
+          "h": 1.8,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "paramagnetic-like",
+          "physical_level": "R0_extension",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "R0_extension",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 1.0,
+          "h": 0.2,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "antiphase-like",
+          "physical_level": "R0_extension_low_field_multiN",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "Classical ordered limit with a nonzero independently enumerated defect gap, small transverse field relative to that local scale, and strong multi-size order/Binder evidence.",
+          "additional_evidence": {
+            "classical_defect_gap": 4.0,
+            "local_h_over_gap": 0.05,
+            "criterion": "h/Delta_classical<=.05; N12/16 order, fourth-moment Binder, polarization and<2%size drop jointly agree. This local energy-scale check is NOT an operator-norm perturbation theorem or an exact phase boundary."
+          }
+        }
+      ],
+      "used_coordinates": 20,
+      "physical_label_supported": 9,
+      "pattern_proxy_only": 11,
+      "original_label_counts": {
+        "paramagnetic-like": 9,
+        "ferro-like": 6,
+        "antiphase-like": 5
+      }
+    },
+    "validation": {
+      "rows": [
+        {
+          "kappa": 0.407,
+          "h": 0.018,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "ferro-like",
+          "physical_level": "R0_extension_low_field_multiN",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "Classical ordered limit with a nonzero independently enumerated defect gap, small transverse field relative to that local scale, and strong multi-size order/Binder evidence.",
+          "additional_evidence": {
+            "classical_defect_gap": 0.7440000000000002,
+            "local_h_over_gap": 0.024193548387096767,
+            "criterion": "h/Delta_classical<=.05; N12/16 order, fourth-moment Binder, polarization and<2%size drop jointly agree. This local energy-scale check is NOT an operator-norm perturbation theorem or an exact phase boundary."
+          }
+        },
+        {
+          "kappa": 0.407,
+          "h": 0.058,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.407,
+          "h": 0.118,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.427,
+          "h": 0.018,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "ferro-like",
+          "physical_level": "R0_extension_low_field_multiN",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "Classical ordered limit with a nonzero independently enumerated defect gap, small transverse field relative to that local scale, and strong multi-size order/Binder evidence.",
+          "additional_evidence": {
+            "classical_defect_gap": 0.5840000000000001,
+            "local_h_over_gap": 0.030821917808219173,
+            "criterion": "h/Delta_classical<=.05; N12/16 order, fourth-moment Binder, polarization and<2%size drop jointly agree. This local energy-scale check is NOT an operator-norm perturbation theorem or an exact phase boundary."
+          }
+        },
+        {
+          "kappa": 0.427,
+          "h": 0.058,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.427,
+          "h": 0.118,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.577,
+          "h": 0.018,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "antiphase-like",
+          "physical_level": "R0_extension_low_field_multiN",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "Classical ordered limit with a nonzero independently enumerated defect gap, small transverse field relative to that local scale, and strong multi-size order/Binder evidence.",
+          "additional_evidence": {
+            "classical_defect_gap": 0.6159999999999997,
+            "local_h_over_gap": 0.029220779220779234,
+            "criterion": "h/Delta_classical<=.05; N12/16 order, fourth-moment Binder, polarization and<2%size drop jointly agree. This local energy-scale check is NOT an operator-norm perturbation theorem or an exact phase boundary."
+          }
+        },
+        {
+          "kappa": 0.577,
+          "h": 0.058,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.577,
+          "h": 0.118,
+          "used_label": null,
+          "used_in_training_or_threshold_selection": false,
+          "physical_label": null,
+          "physical_level": "RN_only",
+          "RN_proxy_label": null,
+          "legacy_reference_level": "RN_only",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.597,
+          "h": 0.018,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "antiphase-like",
+          "physical_level": "R0_extension_low_field_multiN",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "Classical ordered limit with a nonzero independently enumerated defect gap, small transverse field relative to that local scale, and strong multi-size order/Binder evidence.",
+          "additional_evidence": {
+            "classical_defect_gap": 0.7759999999999998,
+            "local_h_over_gap": 0.023195876288659798,
+            "criterion": "h/Delta_classical<=.05; N12/16 order, fourth-moment Binder, polarization and<2%size drop jointly agree. This local energy-scale check is NOT an operator-norm perturbation theorem or an exact phase boundary."
+          }
+        },
+        {
+          "kappa": 0.597,
+          "h": 0.058,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.597,
+          "h": 0.118,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.715,
+          "h": 0.29,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.715,
+          "h": 0.43,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.715,
+          "h": 0.57,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.915,
+          "h": 0.29,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.915,
+          "h": 0.43,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.915,
+          "h": 0.57,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.115,
+          "h": 0.165,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "ferro-like",
+          "physical_level": "R0_extension",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "R0_extension",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.115,
+          "h": 1.715,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "paramagnetic-like",
+          "physical_level": "R0_extension",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "R0_extension",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.315,
+          "h": 0.165,
+          "used_label": "ferro-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "ferro-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.315,
+          "h": 1.715,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "paramagnetic-like",
+          "physical_level": "R0_extension",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "R0_extension",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        },
+        {
+          "kappa": 0.815,
+          "h": 0.165,
+          "used_label": "antiphase-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": null,
+          "physical_level": "RN_multisize_ED_pattern",
+          "RN_proxy_label": "antiphase-like",
+          "legacy_reference_level": "Rlarge_ED_interior",
+          "reason": "N12/16 order/Binder/gap criteria alone support a finite-size pattern; commensurability can hide an incommensurate region. Not independent thermodynamic phase truth."
+        },
+        {
+          "kappa": 0.815,
+          "h": 1.715,
+          "used_label": "paramagnetic-like",
+          "used_in_training_or_threshold_selection": true,
+          "physical_label": "paramagnetic-like",
+          "physical_level": "R0_extension",
+          "RN_proxy_label": "paramagnetic-like",
+          "legacy_reference_level": "R0_extension",
+          "reason": "Analytic or explicitly qualified small/high-field interior evidence; finite-field extensions remain distinguishable from exact R0."
+        }
+      ],
+      "used_coordinates": 23,
+      "physical_label_supported": 8,
+      "pattern_proxy_only": 15,
+      "original_label_counts": {
+        "ferro-like": 8,
+        "antiphase-like": 10,
+        "paramagnetic-like": 5
+      }
+    }
+  },
+  "frozen_method_sha": "ef35606ff012fe40e4534a659d69a2d2fd328cd53c375dcce186bcc4e48d2c15",
+  "interpretation": "Frozen D4/D5 were trained/tuned using declared v1 development/validation labels, including some later downgraded RN multi-size pattern proxies. The original training metadata wording independent-labelled is therefore too broad. No retraining or threshold change follows this audit. Report physical-interior scores and RN pattern agreement separately; proxy labels are not independent thermodynamic truth.",
+  "confirmation_used": false
+}

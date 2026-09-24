@@ -1,0 +1,382 @@
+{
+  "key": {
+    "n": 8,
+    "kappa": 0.55,
+    "h": 0.0125,
+    "bc": "PBC",
+    "source_sha": "190cb7b780614341748c821bb6a5e987aeed88fa0a536190ad115cd27f21d3da",
+    "gate_hash": "6e1e8d0226edc871436a28559180ccd0de603d72e20766fe2582f2bb563fc19e",
+    "parameters_hash": "fda9e8516cb173c17cc361075872f1276b9573f7eace22c167f7ffdd6fa89331",
+    "p": 0,
+    "method": "raw",
+    "mode": "equal_shots",
+    "budget": 10000,
+    "settings": [
+      {
+        "fold": 1,
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          5000,
+          5000
+        ]
+      }
+    ],
+    "probability_keys": [
+      {
+        "n": 8,
+        "kappa": 0.55,
+        "h": 0.0125,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ]
+        ],
+        "p": 0.0,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      }
+    ],
+    "repeats": 32,
+    "seed": 9230626,
+    "code": "cad687c45d953231c7f96f592b0d6c15d3fee123f4f9ca5c13bf29b02c2a3563",
+    "estimator": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+    "numpy": "2.5.3"
+  },
+  "point_id": "14e5b9cb7b0e041c428351cf430073ea3ddb0893dab13177881a4fc496d450bd",
+  "kappa": 0.55,
+  "h": 0.0125,
+  "p": 0,
+  "method": "raw",
+  "mode": "equal_shots",
+  "budget": 10000,
+  "settings": [
+    {
+      "fold": 1,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "allocations": [
+        5000,
+        5000
+      ]
+    }
+  ],
+  "archive": "results/stage6_followup_v1/measurements/ba85ca41765726284e7155f145417c6c95f46ee6f270cd0edb2c7cac098fd00b.npz",
+  "sha256": "a88f7d2b217ed70f87298397e4cc0d9fb43191196e8e3e08f7d451e0c449a8bf",
+  "probabilities": [
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.55,
+        "h": 0.0125,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ]
+        ],
+        "p": 0.0,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "archive": "results/stage6_followup_v1/probabilities/aa0665b3689512aa82debf19a1092564e8f1754e0e20339a38b56cee703f47f6.npz",
+      "sha256": "52e2ff301151266d99ccc8991bb6d6c4cbff90eede1ead4be17f8c52c0e74f12",
+      "fold": 1,
+      "p": 0,
+      "sv": false,
+      "seconds": 0.001073958002962172,
+      "disposition": "historical_reused",
+      "source": {
+        "metadata": "results/stage6_v1/end_to_end/probabilities/aa0665b3689512aa82debf19a1092564e8f1754e0e20339a38b56cee703f47f6.json",
+        "metadata_sha": "30212b6519aa8ed79f1487117e6ab1e25f783e964c906504ea8939b834bb5d8f",
+        "archive": "results/stage6_v1/end_to_end/probabilities/aa0665b3689512aa82debf19a1092564e8f1754e0e20339a38b56cee703f47f6.npz",
+        "sha256": "52e2ff301151266d99ccc8991bb6d6c4cbff90eede1ead4be17f8c52c0e74f12"
+      },
+      "noise_channels": 6,
+      "one_qubit_gates": 8,
+      "process_peak_rss_bytes": 972914688,
+      "cnots": 6,
+      "gate_count": 14,
+      "unitary_depth": 7,
+      "target_counts": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "trace_real": 0.9999999999999997,
+      "hermiticity": 0.0,
+      "min_eigenvalue": -2.010357298635478e-16
+    }
+  ],
+  "shots_per_repeat": 10000,
+  "CNOT_shots_per_repeat": 60000,
+  "one_qubit_gate_shots_per_repeat": 120000,
+  "measurement_settings": 2,
+  "target_CNOT_shots": 60000,
+  "zero_CNOT_control": false,
+  "equal_CNOT_verified": false,
+  "budget_shortfall": null,
+  "seconds": 0.4815929580363445,
+  "disposition": "historical_reused",
+  "source": {
+    "archive": "results/stage6_v1/end_to_end/measurements/e78602393b927809b80389a876eead03417a209bb939e8287298344c29ab377c.npz",
+    "sha256": "749e5da6a046601cbebe79b96cc38fdf43c6e10ecf30b76b6c66e5f6cad0c926",
+    "counts_archive": "results/stage6_v1/end_to_end/measurements/e78602393b927809b80389a876eead03417a209bb939e8287298344c29ab377c.npz",
+    "counts_sha": "749e5da6a046601cbebe79b96cc38fdf43c6e10ecf30b76b6c66e5f6cad0c926",
+    "key": {
+      "probability_keys": [
+        {
+          "n": 8,
+          "kappa": 0.55,
+          "h": 0.0125,
+          "bc": "PBC",
+          "gates": [
+            [
+              "H",
+              0
+            ],
+            [
+              "H",
+              1
+            ],
+            [
+              "CNOT",
+              0,
+              2
+            ],
+            [
+              "X",
+              2
+            ],
+            [
+              "CNOT",
+              1,
+              3
+            ],
+            [
+              "X",
+              3
+            ],
+            [
+              "CNOT",
+              2,
+              4
+            ],
+            [
+              "X",
+              4
+            ],
+            [
+              "CNOT",
+              3,
+              5
+            ],
+            [
+              "X",
+              5
+            ],
+            [
+              "CNOT",
+              4,
+              6
+            ],
+            [
+              "X",
+              6
+            ],
+            [
+              "CNOT",
+              5,
+              7
+            ],
+            [
+              "X",
+              7
+            ]
+          ],
+          "p": 0.0,
+          "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+          "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+          "sv": false,
+          "keep": false,
+          "shots": null
+        }
+      ],
+      "method": "raw",
+      "budgets": [
+        10000,
+        100000
+      ],
+      "repeats": 32,
+      "master_seed": 62026,
+      "estimator_code": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+      "code": "01cce0e06ae66a96035f668c3e75510471836e8979a44fac523f0358d6b86fc7"
+    }
+  },
+  "random_stream": "Historical Stage6 shared streams, preserved counts; paired same-coordinate/repeat analysis",
+  "unclipped": true
+}

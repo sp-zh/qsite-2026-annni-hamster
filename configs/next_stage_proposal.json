@@ -1,0 +1,16 @@
+{
+  "status":"proposed_only_not_executed",
+  "output_version":"calibration_v2_resource_study",
+  "n":8,
+  "unresolved_point":[0.3,0.4],
+  "preserve_thresholds_from":"configs/calibration_v1.json",
+  "seeds":[11,23,37],
+  "max_iterations_per_run":400,
+  "unresolved_point_budget_max_new_runs":6,
+  "initialization_comparison":["own saved seed trajectory continuation","nearby h=.5 seed-matched trajectory, independently perturbed"],
+  "noise_priority":"Benchmark one explicitly documented CNOT-reduction compilation or one shorter candidate on the same five smoke representatives before any full grid",
+  "diagnostics":"freeze operational_diagnostics_v1 as comparator; revisions must be v2",
+  "missing_points_policy":"if p=0 checks fail, preserve raw results and mark uncertain/excluded from boundary inference",
+  "depth_policy":"must be frozen and reported before noise; never infer intrinsic phase fragility across unmatched CNOT counts",
+  "full_grid_authorized_by_readiness":false
+}

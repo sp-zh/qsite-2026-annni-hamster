@@ -1,0 +1,29 @@
+[
+  {
+    "L": 2,
+    "p": 0.01,
+    "pure_setup_state_seconds": 0.001834833004977554,
+    "density_numpy_seconds": 0.040583499998319894,
+    "density_pennylane_seconds": 0.48032720800256357,
+    "post_seconds": 0.005935541994404048,
+    "max_matrix_error": 3.4219155413784725e-14
+  },
+  {
+    "L": 4,
+    "p": 0.01,
+    "pure_setup_state_seconds": 0.00031687499722465873,
+    "density_numpy_seconds": 0.07937033398775384,
+    "density_pennylane_seconds": 0.958002208994003,
+    "post_seconds": 0.004384625004604459,
+    "max_matrix_error": 4.69659034247625e-14
+  },
+  {
+    "L": 6,
+    "p": 0.01,
+    "pure_setup_state_seconds": 0.00028141698567196727,
+    "density_numpy_seconds": 0.11559008300537243,
+    "density_pennylane_seconds": 1.445778541994514,
+    "post_seconds": 0.004437584022525698,
+    "max_matrix_error": 3.853688229755637e-14
+  }
+]

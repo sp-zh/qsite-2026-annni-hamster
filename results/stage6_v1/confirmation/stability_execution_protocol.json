@@ -1,0 +1,31 @@
+{
+  "recorded_utc": "2026-09-23T02:22:57.839866+00:00",
+  "original_plan_seeds": [
+    743
+  ],
+  "actual_independent_seeds": [
+    631,
+    743,
+    857
+  ],
+  "coordinate_indices": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    40,
+    48,
+    56,
+    64,
+    72,
+    80,
+    88
+  ],
+  "main_seed_reuse": "631 is the already executed confirmation run, not a new execution",
+  "added_seed": 857,
+  "provenance": "The running confirmation queue explicitly contained both743 and857 before confirmation was unsealed. This standalone protocol record is retrospective; the original experiment_plan listed743 only and is preserved. No selection or detector setting changes are made from repeat outcomes.",
+  "queue_source": "scripts/run_stage6_confirmation_queue.py",
+  "queue_sha": "9bb6181693fe2e92702ea90afb805b50210f24081f4e12da900b7aa27a676e15",
+  "scope": "12 fixed coordinates, same frozen methods and independent random starts. Report per-coordinate two-of-three stability, not36 independent physical coordinates."
+}

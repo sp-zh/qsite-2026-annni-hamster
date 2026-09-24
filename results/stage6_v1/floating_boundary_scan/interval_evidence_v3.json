@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "timestamp": "2026-09-23T08:25:20.373008+00:00",
+  "prior_evidence_sha": "d7200abe10a75588daec73ec862c337dd02ce907fee1db61230cb0a16374ec1d",
+  "continuation_registration_sha": "5898cc5530491001c01b512db33a491c5afa84cc2f6b319f0d6cda5ca9bf1a64",
+  "protocol_sha": "d157a17b439a00fbbd1b53000db89a8cc591b87ddb4e0762f0cdd3b62679fcb6",
+  "analysis_sha": "66f2260fc15e1b4f59834ff757bf4fc0dae0242e7b69548a2f83291b1be12c2b",
+  "supported_samples": {
+    "supported_antiphase_sample": [
+      0.3
+    ],
+    "supported_floating_sample": [],
+    "supported_paramagnetic_side_sample": [
+      0.7
+    ]
+  },
+  "lower_transition_bracket": null,
+  "upper_transition_bracket": null,
+  "candidate_floating_samples": [
+    0.4,
+    0.425
+  ],
+  "unresolved_samples": [
+    0.3125,
+    0.325,
+    0.3375,
+    0.35,
+    0.375,
+    0.45,
+    0.475,
+    0.4875,
+    0.5,
+    0.525,
+    0.55,
+    0.6,
+    0.65
+  ],
+  "scope": "Brackets span supported sampled sides and may contain unresolved points; not exact thermodynamic phase boundaries or confidence intervals.",
+  "raw_observable_antiphase_check": "Ordered phase can show entropy constant offsets from near-degenerate branches; full strict entropy agreement is reported separately even when order/q/c across both initial states support antiphase physics."
+}

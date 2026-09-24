@@ -1,0 +1,137 @@
+[
+  {
+    "n": 64,
+    "kappa": 0.6,
+    "h": 0.2,
+    "c_windows": [
+      1.0485685812845493,
+      0.9691000703553523
+    ],
+    "q_windows": [
+      1.2602984240033706,
+      1.2617001116309678
+    ],
+    "source": "results/stage4_upgrade_v1/floating/n64_k0.600_h0.200_chi256_plus.npz",
+    "disposition": "historical_reused"
+  },
+  {
+    "n": 96,
+    "kappa": 0.6,
+    "h": 0.2,
+    "c_windows": [
+      1.0234271747882588,
+      1.0676462973718444
+    ],
+    "q_windows": [
+      1.265228211045028,
+      1.2657400676762507
+    ],
+    "source": "results/stage4_upgrade_v1/floating/n96_k0.600_h0.200_chi256_plus.npz",
+    "disposition": "historical_reused"
+  },
+  {
+    "n": 128,
+    "kappa": 0.6,
+    "h": 0.2,
+    "c_windows": [
+      1.0128013211240288,
+      1.0494876389252745
+    ],
+    "q_windows": [
+      1.2678745324282876,
+      1.2682421401819828
+    ],
+    "source": "results/stage5_v1/floating_validation/n128_k0.600_h0.200_chi256_plus.npz",
+    "disposition": "newly_executed"
+  },
+  {
+    "n": 64,
+    "kappa": 0.8,
+    "h": 0.5,
+    "c_windows": [
+      1.0544424112994253,
+      1.1137908935769356
+    ],
+    "q_windows": [
+      1.3557113172080155,
+      1.3566130956705336
+    ],
+    "source": "results/stage4_upgrade_v1/floating/n64_k0.800_h0.500_chi256_plus.npz",
+    "disposition": "historical_reused"
+  },
+  {
+    "n": 96,
+    "kappa": 0.8,
+    "h": 0.5,
+    "c_windows": [
+      1.019960958496629,
+      0.9899847949780392
+    ],
+    "q_windows": [
+      1.3583182924238817,
+      1.359511209182333
+    ],
+    "source": "results/stage4_upgrade_v1/floating/n96_k0.800_h0.500_chi256_plus.npz",
+    "disposition": "historical_reused"
+  },
+  {
+    "n": 128,
+    "kappa": 0.8,
+    "h": 0.5,
+    "c_windows": [
+      0.9798721293393502,
+      0.9752169961592869
+    ],
+    "q_windows": [
+      1.3578086040324093,
+      1.3584509759799361
+    ],
+    "source": "results/stage5_v1/floating_validation/n128_k0.800_h0.500_chi256_plus.npz",
+    "disposition": "newly_executed"
+  },
+  {
+    "n": 64,
+    "kappa": 1,
+    "h": 0.7,
+    "c_windows": [
+      1.144611611994371,
+      1.0931934650890949
+    ],
+    "q_windows": [
+      1.4187778585075361,
+      1.4191949164522872
+    ],
+    "source": "results/stage4_upgrade_v1/floating/n64_k1.000_h0.700_chi256_plus.npz",
+    "disposition": "historical_reused"
+  },
+  {
+    "n": 96,
+    "kappa": 1,
+    "h": 0.7,
+    "c_windows": [
+      1.1327405582624859,
+      1.13941448007713
+    ],
+    "q_windows": [
+      1.425344775332354,
+      1.4260556681093999
+    ],
+    "source": "results/stage4_upgrade_v1/floating/n96_k1.000_h0.700_chi256_plus.npz",
+    "disposition": "historical_reused"
+  },
+  {
+    "n": 128,
+    "kappa": 1,
+    "h": 0.7,
+    "c_windows": [
+      1.0835854083632497,
+      1.0685409359399176
+    ],
+    "q_windows": [
+      1.4224981516967339,
+      1.4229095096156539
+    ],
+    "source": "results/stage5_v1/floating_validation/n128_k1.000_h0.700_chi256_plus.npz",
+    "disposition": "newly_executed"
+  }
+]

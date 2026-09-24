@@ -1,0 +1,228 @@
+{
+  "n": 8,
+  "kappa": 1.0,
+  "h": 0.1,
+  "ref": "antiphase",
+  "seed": 11,
+  "selected": {
+    "words": [
+      "IZIYIIII",
+      "IYIIIIIZ",
+      "IIIIIZIY",
+      "IIIIZIYI",
+      "YIZIIIII",
+      "IIZIYIII",
+      "IIIZIYII",
+      "IIYIZIII",
+      "IZIIIIIY",
+      "YIIIIIZI",
+      "IIIIYIZI",
+      "IYIZIIII",
+      "IZYIIIII"
+    ],
+    "params": [
+      -0.025072347203078396,
+      -0.050083040755604616,
+      -0.05001989755615363,
+      -0.02556435748787232,
+      -0.09834239612588883,
+      -0.04983410966839592,
+      -0.024978562859566168,
+      -0.024823899706421917,
+      0.02494697298693718,
+      0.07323859112776794,
+      0.024854294646373724,
+      0.024854439425771587,
+      -3.1756632221862094e-05
+    ],
+    "reason": "budget_checkpoint_32",
+    "optimizer_success": true,
+    "cnots": 32,
+    "gate_count": 79,
+    "unitary_depth": 30,
+    "target_counts": [
+      0,
+      0,
+      5,
+      5,
+      5,
+      3,
+      7,
+      7
+    ],
+    "cnot_order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "energy": -8.020074814169062,
+    "ed_energy": -8.020083406903053,
+    "delta_e": 1.0740917488760715e-06,
+    "epsilon_c": 6.222359088869922e-06,
+    "epsilon_sf": 2.319313253673627e-06,
+    "epsilon_mx": 4.3618292449261464e-05,
+    "fidelity": 0.9999981826580261,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage5_v1/ed/n8_k0x1.0000000000000p+0_h0x1.999999999999ap-4.npz",
+    "parity": 0.9999999999999997,
+    "w_plus": 0.9999999999999998,
+    "T_real": 0.9999999989915137,
+    "T_imag": 0.0,
+    "eta_T": 1.0084862944736983e-09,
+    "w0": 0.9999999991160053,
+    "w_plus_0": 0.9999999991160053,
+    "variance": 5.107912046753427e-05,
+    "n": 8,
+    "kappa": 1.0,
+    "h": 0.1,
+    "ref": "antiphase",
+    "seed": 11,
+    "uid": "681db36bcb9fe45e65e66450aa6359cc12515759f3cfad72128667f6828e9d66",
+    "source": "results/stage4_upgrade_v1/adaptive/cache/c9305878d8c8d0a12a5801238040820308d725a49ef16de3b38d466e2487fb84.json",
+    "source_sha": "d833d1f1942ee498564ecac5a87b708140cf59d14d69f0f6d56fcf2004d8cb54",
+    "checkpoint": 2,
+    "source_stop": "energy_stagnation",
+    "source_budget": 128,
+    "disposition": "historical_reused"
+  },
+  "archive": "results/stage5_v1/selected/681db36bcb9fe45e65e66450aa6359cc12515759f3cfad72128667f6828e9d66.npz",
+  "sha256": "1b20ed6d380928ef378504efa0f78c7d2fdad49dda4dc56e43b21ee234307b4a",
+  "energy": -8.020074814169062,
+  "ed_energy": -8.020083406903053,
+  "delta_e": 1.0740917488760715e-06,
+  "epsilon_c": 6.222359088869922e-06,
+  "epsilon_sf": 2.319313253673627e-06,
+  "epsilon_mx": 4.3618292449261464e-05,
+  "fidelity": 0.9999981826580261,
+  "observable_pass": true,
+  "state_pass": true,
+  "joint_pass": true,
+  "ed_source": "results/stage5_v1/ed/n8_k0x1.0000000000000p+0_h0x1.999999999999ap-4.npz"
+}

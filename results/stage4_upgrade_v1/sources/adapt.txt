@@ -1,0 +1,1818 @@
+qubit-ADAPT-VQE: An adaptive algorithm for constructing hardware-eﬃcient
+ans¨ atze on a quantum processor
+Ho Lun Tang, 1 V. O. Shkolnikov, 1 George S. Barron, 1 Harper R.
+Grimsley,2 Nicholas J. Mayhall, 2 Edwin Barnes, 1 and Sophia E. Economou 1
+1Department of Physics, Virginia Tech, Blacksburg, V A 24061, USA
+2Department of Chemistry, Virginia Tech, Blacksburg, V A 24061, USA
+(Dated: June 18, 2020)
+Quantum simulation, one of the most promising applications of a quantum computer, is currently
+being explored intensely using the variational quantum eigensolver. The feasibility and performance
+of this algorithm depend critically on the form of the wavefunction ansatz. Recently in Nat. Com-
+mun. 10, 3007 (2019), an algorithm termed ADAPT-VQE was introduced to build system-adapted
+ans¨ atze with substantially fewer variational parameters compared to other approaches. This al-
+gorithm relies heavily on a predeﬁned operator pool with which it builds the ansatz. However,
+Nat. Commun. 10, 3007 (2019) did not provide a prescription for how to select the pool, how
+many operators it must contain, or whether the resulting ansatz will succeed in converging to the
+ground state. In addition, the pool used in that work leads to state preparation circuits that are too
+deep for a practical application on near-term devices. Here, we address all these key outstanding
+issues of the algorithm. We present a hardware-eﬃcient variant of ADAPT-VQE that drastically
+reduces circuit depths using an operator pool that is guaranteed to contain the operators necessary
+to construct exact ans¨ atze. Moreover, we show that the minimal pool size that achieves this scales
+linearly with the number of qubits. Through numerical simulations on H 4, LiH and H 6, we show
+that our algorithm (“qubit-ADAPT”) reduces the circuit depth by an order of magnitude while
+maintaining the same accuracy as the original ADAPT-VQE. A central result of our approach is
+that the additional measurement overhead of qubit-ADAPT compared to ﬁxed-ansatz variational
+algorithms scales only linearly with the number of qubits. Our work provides a crucial step forward
+in running algorithms on near-term quantum devices.
+I. INTRODUCTION
+Finding the ground state of a many-body interacting
+electronic Hamiltonian is one of the most important prob-
+lems in modern quantum chemistry and physics. As the
+dimension of the Hamiltonian scales exponentially with
+the number of particles, accurate classical simulations
+can only be performed for systems with few electrons.
+Although many classical computational techniques have
+been developed to approximate the ground electronic
+state, no classical method is available which can perform
+accurately for arbitrary systems with polynomial eﬀort.
+While density functional theory (DFT) [1, 2] has been
+tremendously useful for unraveling the microscopic de-
+tails of weakly correlated molecules and materials, the
+most accurate form (Kohn-Sham DFT [1]) relies on a
+single Slater determinant wavefunction, which fails to de-
+scribe strong correlation with current functionals. Unlike
+DFT, whose accuracy relies on a density functional which
+is not able to be systematically improved, wavefunction-
+based methods such as conﬁguration interaction (CI) or
+coupled-cluster (CC) can be used to describe many-body
+systems with clear paths to arbitrary accuracy. However,
+in the presence of strong correlation such methods incur
+an exponential computational cost due to the large num-
+ber of Slater determinants involved. Alternatively, meth-
+ods based on tensor network states [3–7] (most notably
+density matrix renormalization group [8–10]) can exploit
+rank sparsity in low-energy states of one-dimensional sys-
+tems to simulate strongly correlated systems, with poly-
+nomial cost. This polynomial scaling is lost in higher
+dimensions, and the computational cost again grows ex-
+ponentially. A radically diﬀerent approach is Feynman’s
+proposal to study quantum systems using quantum com-
+puters [11]. Recent reviews provide a comprehensive
+background and discuss new developments in quantum
+simulation with quantum computers [12–14].
+The long-term method for simulating chemical systems
+with quantum computers is the quantum phase estima-
+tion algorithm (PEA) [15, 16], which shows an exponen-
+tial speedup over classical algorithms [17, 18]. Since the
+number of gates, i.e. unitary operations, involved in this
+algorithm is very large, it requires a long coherent evolu-
+tion which can only be realized in fault-tolerant quantum
+computers [19]. These scalable, error-correcting devices
+may take decades to realize experimentally. In the mean-
+time, the community is exploring algorithms that can
+be applied to existing and near-term processors, namely
+noisy intermediate-scale quantum (NISQ) devices [19].
+A promising algorithm for NISQ hardware is the vari-
+ational quantum eigensolver (VQE) [20, 21]. VQE is
+a hybrid method that combines classical computational
+power with a quantum processor. Based on the varia-
+tional principle in quantum physics, the VQE algorithm
+constructs a trial wavefunction by applying gates on a
+quantum device and estimates the average energy by
+measuring the Hamiltonian on that device. This mea-
+sured energy is then minimized by tuning the quantum
+circuit. The circuit parameter optimization is performed
+by a classical computer, and quantum resources are only
+arXiv:1911.10205v2  [quant-ph]  16 Jun 2020
+2
+used for the classically intractable parts (state prepara-
+tion and energy evaluation) of the calculation. Compared
+to PEA, VQE has much more modest requirements on
+the coherence times of the quantum processor, and it
+has already been realized on NISQ devices, such as su-
+perconducting qubits [22, 23], photons [20], and trapped
+ions [24, 25]. The accuracy of VQE is highly dependent
+on the explicit form of the wavefunction ansatz and can
+only obtain the exact ground state energy if the ansatz
+is capable of representing any state in the subspace that
+contains the ground state. For example, if symmetries
+of the ground state are known, then one can construct
+an ansatz that represents any state in the correspond-
+ing symmetry subspace [26], guaranteeing that the exact
+ground state can be expressed in terms of the ansatz.
+One of the commonly used ans¨ atze for VQE is unitary
+coupled cluster singles and doubles (UCCSD) [27, 28].
+Stemming from the coupled cluster theory used in chem-
+istry, this unitary version is more suitable for quantum
+circuit implementation. The ‘singles and doubles’ in
+UCCSD means only single and double excitation oper-
+ators are included in the ansatz, each carrying its own
+variational parameter. One drawback of UCCSD is that
+including all the singles and doubles operators leads to a
+(potentially unnecessarily) deep circuit and a large num-
+ber of parameters to optimize. To reduce this complexity,
+several alternatives have been proposed which attempt to
+keep only the most important operators [29–36]. A sec-
+ond drawback is that UCCSD is also generally not exact
+and suﬀers from ambiguities in operator ordering upon
+factorization into a product of exponentiated operators
+(Trotterization), which is a necessary step in converting
+the ansatz to a state preparation circuit [37, 38]. Another
+approach to building the ansatz is to use the most ac-
+cessible gates in the quantum device, alternating single-
+qubit gates and two-qubit gates layer by layer. This is
+referred to as a hardware-eﬃcient ansatz [23]. Although
+this approach lessens the demands on the quantum pro-
+cessor, the resulting wavefunction ansatz can lead to dif-
+ﬁculties in parameter optimization [39]. This problem
+was addressed by constructing particle-conserving entan-
+gling gates instead of ordinary two-qubit gates [40, 41]
+and symmetry-preserving circuits [26]. While these ﬁxed-
+ansatz approaches can be applied to any problem and can
+reduce the number of variational parameters and circuit
+depths, further improvement may still be possible by tai-
+loring the ansatz to a given simulation problem.
+Recently, a new algorithm that provides a systematic
+method to build an ansatz dynamically was introduced.
+This algorithm, termed Adaptive Derivative Assembled
+Pseudo-Trotter (ADAPT) VQE [29], employs a predeter-
+mined pool of operators from which the ansatz is dynam-
+ically constructed. The ansatz is grown iteratively, such
+that at each step, the operator that aﬀects the energy
+the most is added to the ansatz. Using fermionic op-
+erators as a pool, Ref. [29] demonstrated that ADAPT-
+VQE substantially outperforms UCCSD, in terms of both
+number of variational parameters and accuracy. This re-
+sult demonstrates the promise of the ADAPT algorithm.
+However, due to the gate overhead of the fermion-to-spin
+mapping, the operators considered in Ref. [29] translate
+to a fairly large number of quantum gates, and, there-
+fore, while the number of parameters is very low, the
+circuit depth (which is signiﬁcantly reduced compared to
+UCCSD) may still be impractically large, limiting the
+applicability of ADAPT-VQE to NISQ devices. Even
+more importantly, it is not clear (i) how the operator
+pool should be chosen in general, (ii) how many opera-
+tors it should contain, and (iii) what guarantees that the
+pool is complete, i.e., that it enables convergence to the
+ground state.
+In this paper, we address these issues by introduc-
+ing a hardware-eﬃcient variant of ADAPT-VQE that
+substantially reduces both the number of measurements
+and the circuit depths needed to achieve convergence.
+We term this algorithm qubit-Adaptive Derivative As-
+sembled Problem-Tailored (qubit-ADAPT) VQE, in con-
+trast with the implementation in Ref. [29], which we
+refer to as fermionic-ADAPT in this paper. Through
+classical simulations of several diﬀerent molecules, we
+demonstrate that compared to fermionic-ADAPT, qubit-
+ADAPT reduces the circuit depth by an order of magni-
+tude while maintaining the same accuracy. Moreover, we
+introduce a pool completeness criterion that determines
+whether a given pool will generate an exact ADAPT
+ansatz. We prove that the minimal number of pool oper-
+ators that satisfy this condition grows linearly with the
+number of qubits. This is much smaller than the quar-
+tic scaling originally assumed in fermionic-ADAPT, and
+it demonstrates that the additional measurement over-
+head of ADAPT-VQE remains modest for larger systems
+(increasing only linearly over conventional, ﬁxed-ansatz
+VQEs). Our results pave the way toward both practical
+and accurate VQE algorithms on NISQ devices.
+This paper is organized as follows. First, we brieﬂy re-
+view fermionic-ADAPT and estimate the corresponding
+circuit depth in Sec. II. In Sec. III, we introduce qubit-
+ADAPT and provide a detailed description of the oper-
+ator pool. In Sec. III A, we compare the performance of
+qubit-ADAPT and fermionic-ADAPT through numerical
+simulations of H4, LiH and H 6 molecules. We show that
+the minimal size of the operator pool for qubit-ADAPT
+scales linearly in the number of qubits in Sec. III B. We
+conclude in Sec. IV. Details of the estimate for the circuit
+depth of fermionic-ADAPT and a constructive proof of
+the linear scaling of minimal complete pools are included
+in appendices.
+II. CIRCUIT DEPTH ESTIMA TE FOR
+FERMIONIC-ADAPT
+The ADAPT ansatz is grown by one operator ˆτi =−ˆτ†
+i
+at each iteration, and after the n-th iteration is given by
+⏐⏐⏐ψADAPT (⃗θ)
+⟩
+= eθkˆτk . . . eθ2ˆτ2 eθ1ˆτ1
+⏐⏐ψHF⟩
+, (1)
+3
+where
+⏐⏐ψHF⟩
+is the HF state. These operators are se-
+lected from an operator pool deﬁned upfront. At each it-
+eration, the operator which induces the maximum change
+to the energy is selected. This energy response is repre-
+sented by the gradient of the energy with respect to the
+corresponding parameter, i.e.
+∂
+∂θi
+⟨E⟩ =⟨ψ| [ ˆH, ˆτi]|ψ⟩ , (2)
+which can be measured on the quantum device. The
+ansatz keeps growing until the norm of the gradient vec-
+tor,
+||⃗ g|| =
+√∑
+i
+( ∂
+∂θi
+⟨E⟩
+)2
+, (3)
+is zero or, in practice, smaller than a chosen threshold,
+ϵ. Compared to ordinary VQE, ADAPT-VQE requires
+additional measurements to obtain the gradient at each
+iteration; the number of these measurements is roughly
+equal to the size of the pool times the number of terms
+in the Hamiltonian [42], although the number of mea-
+surements needed to compute the mean energy can be
+decreased using recently developed techniques [43].
+In order to attain a compact circuit for the ADAPT
+ansatz, we want to minimize both the number of param-
+eters and the circuit depth. While the ﬁrst requirement
+can be satisﬁed by the general structure of the ADAPT-
+VQE algorithm, the second one is not guaranteed and
+depends on the chosen pool. Using fermionic operators,
+a parameter-eﬃcient operator pool can be constructed
+from spin-adapted single excitation operators:
+ˆτ1∝|↑⟩ a⟨↑|b +|↓⟩a⟨↓|b− h.c., (4)
+and double excitation operators:
+ˆτ2,T∝| T, 1⟩pq⟨T, 1|rs +|T,−1⟩pq⟨T,−1|rs
++|T, 0⟩pq⟨T, 0|rs− h.c.
+ˆτ2,S∝| S, 0⟩pq⟨S, 0|rs− h.c.,
+(5)
+where a, b, p, q, r, s are spatial orbitals and T, S refer to
+triplets and singlets formed by p, q or r, s. To implement
+ADAPT-VQE on qubits, we have to map these fermionic
+operators to Pauli operators, which has the consequence
+that a parameter-eﬃcient pool is most likely not gate-
+eﬃcient. In this paper, we employ the Jordan-Wigner
+(JW) mapping, i.e., ˆai→∏i−1
+j=0 Zj(Xi− iYi). Adapting
+the methods we develop here to other mappings [44–46]
+will be the subject of future work.
+In the JW mapping, a double excitation operator may
+contain more than one fermionic operatora†
+pa†
+qaras−h.c.,
+which is transformed into at most 8 Pauli strings. (A
+product of four fermionic operators gives 16 terms in to-
+tal, but each symmetric term is cancelled by its Hermi-
+tian conjugate [35].) These excitation operators conserve
+S2, Sz and particle number by summing a number of
+Pauli strings together, which results in a high gate count
+per excitation operator.
+In order to make a rough estimate of the number of
+CNOT gates involved in one operator from the fermionic
+pool, we consider the generalized singles-doubles exci-
+tation fermionic pool. ‘Generalized’ indicates that the
+excitations are not restricted to occur only from occu-
+pied to virtual orbitals. Rather, all combinations of ex-
+citations are included. To obtain the gate count, we
+perform ﬁrst-order Trotterization of each unitary, i.e.,
+eθiˆτi≈∏
+j eθj ˆPj , where Pj are the Pauli strings appear-
+ing in ˆτi after the JW mapping. For simplicity, we as-
+sume only double excitation operators are picked by the
+algorithm, which makes this a conservative estimate as
+any single excitation included would result in a smaller
+CNOT-to-parameter count ratio. The number of CNOTs
+needed for a single Pauli string ˆPi with length q is 2(q−1)
+[48]. Here, the length q is the number of non-identity
+Pauli operators in the string. The average number of
+CNOTs involved in a spin-adapted double excitation op-
+erator is approximately ¯NPauli (6 + 2 ¯NZ) ¯Nspin, where
+¯NPauli is the average number of Pauli strings in a dou-
+bles operator a†
+pa†
+qaras− h.c., ¯NZ is the average number
+of Pauli Z’s in a Pauli string due to the anticommutation
+relation of fermionic operators, and ¯Nspin is the average
+number of doubles operators summed in a spin-adapted
+operator (Eq.(5)). By Appendix. A, these quantities are
+given by
+¯NPauli = 8m(5m− 7)
+m(5m− 1)− 8 , (6)
+¯NZ = 12m3− 30m2 + 34m− 20
+3(5m2− m− 8) , (7)
+¯Nspin = 5m2− m− 8
+m2 + m , (8)
+where m is the number of spatial orbitals. For large m,
+the number of CNOTs in a spin-adapted doubles operator
+is approximately 64m.
+III. QUBIT-ADAPT
+Because the spin-adapted fermionic operators each in-
+troduce a large number of CNOTs into the state prepa-
+ration circuit, we are motivated to construct a new pool
+consisting of operators that involve fewer CNOTs. One
+way is to break down the spin-adapted fermionic oper-
+ators after the JW mapping and choose the individual
+Pauli strings as the operator pool ˆτ = ˆP = i∏
+i pi, p i∈
+{X, Y, Z}. This more hardware-eﬃcient choice eﬀectively
+reduces ¯Nspin and ¯NPauli to 1, while it contains the same
+basic elements as the spin-adapted fermionic pool. An
+important property of this qubit pool is that it only con-
+tains Pauli strings with odd numbers of Y ’s because the
+fermionic operators are real, hence ˆP = i∏
+i pi has to
+be real. We refer to these as “odd” Pauli strings. The
+4
+0 10 20 30
+10 14
+10 12
+10 10
+10 8
+10 6
+10 4
+10 2
+100
+E(iterations)-E(FCI) Hartree
+(a)
+0 50 100 150 200
+ADAPT iteration number
+(b)
+0 200 400
+(c)
+0 1 2
+10 14
+10 12
+10 10
+10 8
+10 6
+10 4
+10 2
+100
+E(iterations)-E(FCI) Hartree
+(d)
+0 3 6
+number of CNOTs (103)
+(e)
+qubit ADAPT
+ADAPT
+ADAPT transpiled
+0 10 20 30
+(f)
+H H H H HLi H H H HH H
+FIG. 1. Ground state energy diﬀerence between ADAPT and the exact (FCI) result for (a,d) H4 at bond distance 1.5˚A, (b,e) LiH
+at bond distance 2 ˚A, and (c,f) H 6 at bond distance 1 .5˚A. The bond distances are chosen to ensure that correlation eﬀects are
+substantial. All the calculations are performed using an STO-3G basis and start from restricted Hartree-Fock orbitals without
+using a frozen-core approximation such that we have 8 spin-orbitals for H4, 12 spin-orbitals for LiH, and 12 spin-orbitals for H6.
+Results are shown for qubit-ADAPT (blue), fermionic-ADAPT (orange) and transpiled fermionic-ADAPT (green). Panels (a)-
+(c) show the energy diﬀerence as a function of ADAPT iterations (which is equal to the number of variational parameters), while
+(d)-(f) show it as a function of the number of CNOTs in the corresponding state preparation circuit. All CNOT gate counts
+are obtained using the qiskit command count ops. The transpiled counts were obtained using qiskit.transpile [47] with
+heavy optimization, which includes canceling back-to-back CNOTs and “commutative cancellation”. Although qubit-ADAPT
+requires more variational parameters, it entails signiﬁcantly fewer CNOTs compared to fermionic-ADAPT.
+remaining “even” Pauli strings have no eﬀect on the en-
+ergy. This is because ˆH is symmetric (time-reversal sym-
+metry is preserved), and so the expectation value of the
+commutator in Eq. (2) will vanish for real |ψ⟩ if ˆτi is
+symmetric (i.e., even). We can therefore restrict ˆ τi to
+the odd Pauli strings, which are antisymmetric. Using
+such operators in the pool also ensures that the ansatz
+remains real throughout the qubit-ADAPT algorithm,
+which should be the case when ˆH is time-reversal sym-
+metric. The length of these strings ranges from 2 to n
+due to the Pauli Z chain responsible for the fermionic
+anticommutation relation. To further reduce gate depth,
+we remove these Pauli Z chains from the operators. Nu-
+merically, we ﬁnd that these two pools (with and without
+Z chains) perform similarly. The pool without Z chains
+gives Pauli strings with maximum length 4. The size
+of this pool is much smaller than the full set of Pauli
+strings with maximum length 4, as we only pick opera-
+tors that already appear in the fermionic pool, which are
+capable of transforming
+⏐⏐ψHF⟩
+to the ground state. We
+refer to this reduced pool as the “qubit pool”. Below, we
+demonstrate that this pool produces signiﬁcantly shal-
+lower state preparation circuits compared to fermionic-
+ADAPT. We also provide evidence that the size of the
+qubit pool can be reduced dramatically down to a size
+that scales only linearly in the number of qubits, which
+substantially cuts down on the number of measurements
+needed to run qubit-ADAPT.
+5
+A. Numerical simulations
+We compare the performance of the qubit pool to the
+fermionic pool in terms of the number of parameters and
+the number of CNOTs for diﬀerent molecules, H 4, LiH
+and H6 (Fig. 1). In each case, we choose a bond distance
+such that correlation eﬀects are signiﬁcant: r = 1.5˚A for
+H4 and H 6, and r = 2 ˚A for LiH. All the calculations
+are performed using an STO-3G basis and start from re-
+stricted Hartree-Fock orbitals without using a frozen-core
+approximation such that we have 8 spin-orbitals for H 4
+and 12 spin-orbitals for each of the other two molecules.
+All CNOT gate counts are obtained using the qiskit com-
+mand count ops, where we consider the case of all-to-
+all qubit connectivity for concreteness. Although these
+counts will increase as the connectivity is reduced, we
+do not expect the relative performance of the two algo-
+rithms to change signiﬁcantly. In the case of fermionic-
+ADAPT, we show gate counts before and after transpi-
+lation is used. The counts before transpilation agree well
+with the estimates obtained in Sec. A.
+It is evident from Fig. 1 that in the case of the
+qubit pool, more parameters are used compared to
+the fermionic pool. On the other hand, the number
+of CNOTs is reduced signiﬁcantly, by about an order
+of magnitude in the case of H 6. Switching from the
+fermionic pool to the qubit pool increases the number
+of parameters in the ansatz, which is the price for com-
+pressing the circuit depth. However, the increase in pa-
+rameter number only increases the required classical com-
+putational power during the classical optimization, while
+the decrease in circuit depth reduces the demands on the
+quantum processor. For NISQ devices, the number of
+CNOTs that can be implemented within the coherence
+time is very limited, so the ability of qubit-ADAPT to di-
+vert more of the computational cost away from the quan-
+tum processor and onto the classical optimizer should be
+advantageous overall.
+To evaluate the eﬀectiveness of using the gradient as a
+means to grow the ADAPT ansatz, we compare the per-
+formance of qubit-ADAPT with random operator order-
+ings drawn from the same qubit pool. In Fig. 2, we see
+that qubit-ADAPT always converges much faster than
+the random orderings for both H 4 and LiH. When ran-
+dom orderings are used for H4, convergence to the ground
+state requires 46-78 parameters, compared to only 30 pa-
+rameters for qubit-ADAPT. In the case of LiH, the ran-
+dom orderings require more than three times as many pa-
+rameters as qubit-ADAPT to converge. We can only pro-
+vide a lower bound on the number of parameters needed
+to converge the random ordering results in Fig. 2(b) due
+to the long computational times needed in this case.
+These ﬁndings suggest that the role of the gradient se-
+lection in qubit-ADAPT is crucial for larger problems.
+Fig. 3 shows that the performance of qubit-ADAPT
+remains essentially the same across diﬀerent bond dis-
+tances. Results are shown for LiH, where the bond dis-
+tance is varied from 1 ˚A to 3 ˚A. The fact that the curves
+0 10 20 30 40 50 60 70 80
+10 14
+10 12
+10 10
+10 8
+10 6
+10 4
+10 2
+100
+E(iterations)-E(FCI) Hartree
+(a) H4
+0 100 200 300 400 500 600 700
+ADAPT iteration number
+10 14
+10 12
+10 10
+10 8
+10 6
+10 4
+10 2
+100
+E(iterations)-E(FCI) Hartree
+(b) LiH
+qubit ADAPT
+random ordering
+FIG. 2. The energy error of qubit-ADAPT versus ans¨ atze
+with random operator orderings as a function of the number
+of iterations for (a) H4 and (b) LiH. The qubit pool is used in
+all cases, and the orbital bases and bond distances are chosen
+as in Fig. 1.
+corresponding to diﬀerent bond lengths largely overlap
+one another shows that the rate of convergence does not
+change signiﬁcantly. Because the amount of correlation
+in the ground state depends on the bond distance (more
+correlations tend to arise as the bonds are stretched),
+this suggests that the convergence of qubit-ADAPT is
+not sensitive to the strength of correlations. This ﬁnding
+indicates that qubit-ADAPT is a promising approach to
+studying strongly correlated systems.
+B. Operator pool reduction
+So far, a drawback of the qubit pool is its large size
+compared to the fermionic pool, which in turn leads
+to proportionally more measurements at each iteration.
+Even though the qubit pool is deﬁned from the fermionic
+pool, which is a small subset of the full Pauli group, the
+pool size grows quickly with the number of orbitals. How-
+ever, many of these operators are redundant in the sense
+that eliminating them has no eﬀect on the convergence of
+the algorithm. For example, there are pairs of operators
+that are related by a global rotation, e.g. X0Y1Y2Y3 and
+Y0X1X2X3, so we only need to keep one of them in the
+pool; discarding the other does not have any signiﬁcant
+eﬀect on the performance of qubit-ADAPT.
+6
+0 25 50 75 100 125 150 175
+ADAPT iteration number
+10 9
+10 7
+10 5
+10 3
+10 1
+energy error (Hartree)
+(a)
+0 1000 2000 3000 4000 5000 6000 7000
+number of CNOTs
+10 9
+10 7
+10 5
+10 3
+10 1
+energy error (Hartree)
+(b)
+qubit ADAPT
+ADAPT transpiled
+ADAPT
+1.00 1.25 1.50 1.75 2.00 2.25 2.50 2.75 3.00
+bond distance (Å)
+7.88
+7.86
+7.84
+7.82
+7.80
+7.78
+energy (Hartree)
+(c)
+FIG. 3. qubit-ADAPT and fermionic-ADAPT energy error
+of LiH for various bond distances. The bond distance varies
+from 1˚A to 3˚A with darker curves in (a), (b) corresponding to
+larger bond distance. The energy error is plotted against (a)
+the number of parameters and (b) the number of CNOTs. The
+performance remains similar across diﬀerent bond lengths and
+hence across diﬀerent amounts of correlation in the ground
+state. The orbital basis used is the same as in Fig. 1. (c) The
+ﬁnal energies obtained by qubit-ADAPT (points marked by
+×) for each bond distance considered are plotted along with
+the exact ground state energies (solid curve).
+The redundancy in the pool can be illustrated by re-
+moving randomly selected operators from the pool and
+monitoring the impact on convergence. First we ran-
+domly remove 3/4 of the operators in the pool. As shown
+in Fig. 4, despite this large reduction of the pool size, the
+performance of the algorithm is similar to that with the
+original pool. However, as is also evident in Fig. 4, if we
+further remove more operators, the pool is sometimes in-
+complete, and the energy may not converge to the ground
+state energy. We can understand the tolerance of the al-
+0 5 10 15 20 25 30
+ADAPT iteration number
+10 14
+10 12
+10 10
+10 8
+10 6
+10 4
+10 2
+100
+E(iterations)-E(FCI) Hartree
+qubit ADAPT
+qubit ADAPT 1/4 pool
+qubit ADAPT 1/16 pool
+qubit ADAPT 1/32 pool
+H4
+FIG. 4. qubit-ADAPT energy error of H 4 using the full qubit
+pool, and randomly chosen 1/4, 1/16 and 1/32 pools are plot-
+ted against the number of iterations. For the 1/4 and 1/16
+pools, the algorithm can converge for almost every run. For
+the 1/32 pool, most of the runs can only reach an energy error
+of 10−3. The orbital basis and bond distance are chosen as in
+Fig. 1.
+gorithm to the drastic reduction of the pool by studying
+the Hilbert space spanned by the pool operators. Start-
+ing from the expression for
+⏐⏐⏐ψADAPT (⃗θ)
+⟩
+in Eq. 1 and
+using the Baker-Campbell-Hausdorﬀ formula repeatedly,
+we obtain
+⏐⏐⏐ψADAPT (⃗θ)
+⟩
+= e
+∑
+iφiAi
+⏐⏐ψHF⟩
+, (9)
+where the Ai include all the pool operators and their
+commutators, and the φi are functions of ⃗θ. Therefore,
+the Hilbert space spanned by the pool is determined by
+the set{Ai}. Note that if the original pool is comprised
+of odd Pauli strings, then so is {Ai}. If the operators in
+{Ai} can transform the reference state to any real state in
+the n-qubit Hilbert space, then the qubit-ADAPT ansatz
+is guaranteed to be exact, and it is capable of converging
+to the ground state. (Here, the only symmetry we impose
+is time-reversal.) Note that if {Ai} includes all the odd
+Pauli strings (of which there are 2 n−1(2n− 1), which
+scales exponentially with the number of qubits), then we
+could create an arbitrary orthogonal transformation in
+Eq. (9). However, spanning the Hilbert space requires
+only a subset of the odd Pauli strings, because only 2n−1
+real parameters are required to create an arbitrary real
+state. In particular, we need {Ai} to be such that for
+an arbitrary state|ψ⟩, the states Ai|ψ⟩ form a complete
+basis. In this case, we refer to {Ai} as a complete basis
+of operators.
+The problem then is to determine the minimal pools
+that produce a complete basis of operators. For a given
+pool, we deﬁne the overlap matrix as Mij =⟨ψ| A†
+i Aj|ψ⟩
+where|ψ⟩ is an arbitrary real state. If the rank of M
+satisﬁes r(M)≥ 2n− 1, this pool is called complete. To
+determine the smallest complete pools, we randomly gen-
+erate many diﬀerent pools of increasing size and compute
+7
+0 2 4 6 8 10 12
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+number of operators in pool
+complete pools(fraction)
+FIG. 5. The fraction of pools that are complete as a function
+of pool size for two (blue circles), three (yellow squares), four
+(green diamonds), and ﬁve (red triangles) qubits.
+r(M) in each case to test for completeness. We did this
+for up to 7 qubits. Our numerical investigations reveal
+that, surprisingly, the minimal pool size required for the
+overlap matrix to have the required rank of 2 n− 1 is
+only 2 n− 2. This is evident in Fig. 5, which shows the
+fraction of pools that are complete for various pool sizes
+and numbers of qubits. In each case, complete pools are
+found for pool sizes that contain at least 2 n− 2 opera-
+tors. Note that not only is this much smaller than the
+Hilbert space, it is also much smaller than the size of the
+fermionic pool, which scales like n4.
+Randomly selecting pools of size 2 n− 2 and testing
+for completeness by computing r(M) is a numerically
+intensive process that quickly becomes infeasible as the
+number of qubits increases. This is further exacerbated
+by the fact that the fraction of complete pools of size
+2n− 2 becomes smaller as n increases, as is evident in
+Fig. 5, which raises the question of whether complete
+pools of size 2 n− 2 even exist for large values of n.
+In Appendix B, we prove analytically using induction
+that complete pools of size 2 n− 2 exist for any n. In
+fact, the proof is constructive: We present two fami-
+lies of minimal pools that are provably complete for any
+number of qubits. One of these pools, which we call
+{Vj}n where j = 1, . . . ,2n− 2, is deﬁned recursively as
+{Vj}n ={Zn{Vk}n−1, iYn, iYn−1}, starting from the pool
+for n = 2 qubits: {Vj}2 ={iZ2Y1, iY2}. This pool is
+comprised of generators for single-qubit Y rotations and
+conditional Y rotations, and it contains operators that
+act on up to all n qubits. In Appendix B, we prove that
+these operators are suﬃcient to rotate any real state to
+any other real state in the Hilbert space. As shown in
+Appendix C,{Vj}n can be mapped to a second family of
+minimal complete pools, which we call {Gj}n, that has
+a very local structure. This pool contains all two-qubit
+operators of the form iZk+1Yk that act on two neighbor-
+ing qubits labeled by k and k + 1. There are n− 1 such
+operators. {Gj}n also contains all single-qubit Pauli iY
+operators except on the ﬁrst qubit. Therefore, this pool
+contains 2n− 2 operators. In Appendix C, we show that
+the Gj can be obtained from commutators of the Vj for
+0 1 2 3 4 5 6 7
+10 8
+10 6
+10 4
+10 2
+100
+energy (arbitrary units)
+(a)
+0 2 4 6 8 10 12 14 16
+10 8
+10 6
+10 4
+10 2
+100
+energy (arbitrary units)
+(b)
+0 5 10 15 20 25 30
+ADAPT iteration number
+10 8
+10 6
+10 4
+10 2
+100
+energy (arbitrary units)
+(c)
+incomplete
+{Vj}n
+{Gj}n
+other min complete
+FIG. 6. Energy error curves for three diﬀerent kinds of min-
+imal complete pools versus incomplete pools. Results for 3,
+4 and 5-qubit random Hamiltonians are shown in panels (a),
+(b) and (c) respectively.
+any n, and so the completeness of the former follows from
+that of the latter.
+To investigate the importance of the pool being com-
+plete, we run qubit-ADAPT for random real Hamiltoni-
+ans of 3, 4 and 5 qubits with random initial states and
+for pools consisting of 2 n− 2 operators randomly chosen
+from the set of odd Pauli strings. We also run simulations
+using the minimal complete pools{Vj}n and{Gj}n. The
+operator coeﬃcients in each Hamiltonian (which is taken
+to be real and symmetric) are obtained by sampling uni-
+formly in the range [ −2, 2] with 10 samples for each of
+these 3 cases. The corresponding energy error curves are
+illustrated in Fig. 6. Each curve is the result for a diﬀer-
+ent random Hamiltonian. All of the curves that fail to
+converge correspond to incomplete pools. For these cases,
+even though the gradient goes to zero the ground state is
+8
+not reached because important operators are never gen-
+erated. On the other hand, the runs with complete pools
+always converge, highlighting the importance of this cri-
+terion. For the cases considered, we ﬁnd that 20-40% of
+pools containing 2 n− 2 operators are complete. These
+ﬁndings shed light on the question of what constitutes a
+good operator pool for ADAPT-VQE. These points were
+not appreciated in the original paper [29], and moreover,
+they suggest that the fermionic pool used in that work
+is overcomplete. Furthermore, the fact that the mini-
+mal pool size is linearly proportional to n means that
+the number of additional measurements needed for each
+step of qubit-ADAPT is also linear in n. Thus, the extra
+measurement overhead of qubit-ADAPT remains modest
+as the problem size increases.
+IV. CONCLUSIONS
+In conclusion, we introduced a more eﬃcient and
+NISQ-compatible version of the ADAPT-VQE algorithm,
+called qubit-ADAPT. The basic idea of qubit-ADAPT
+is to use a pool consisting of Pauli strings (rather than
+fermionic operators) so that the number of CNOT gates
+associated with each pool operator is reduced. We es-
+tablished a completeness condition that guarantees that
+a pool will generate an exact ADAPT ansatz, and we
+proved that the smallest possible pool that obeys this cri-
+terion scales linearly with the number of qubits. We also
+provide a constructive approach to generating minimal
+complete pools for an arbitrary number of qubits. These
+results remove the ad-hoc elements of the ADAPT algo-
+rithm and lead to a substantial reduction in the depths of
+state preparation circuits and in the number of measure-
+ments needed to run ADAPT-VQE on realistic hardware.
+ACKNOWLEDGMENTS
+This research was supported by the National Science
+Foundation (Award No. 1839136) and the US Depart-
+ment of Energy (Award No. de-sc0019199).
+Appendix A: CNOT estimation
+From the structure of the pool operators, we can try
+estimating the number of CNOT gates as a function of
+the number of variational parameters. These estimates
+are described below.
+Qubit ADAPT
+In order to get a conservative estimate on the CNOT
+count, we assume that all operators picked are four-qubit
+pauli strings, since exponentiating an n-qubit Pauli string
+requires 2(n−1) CNOT gates, the number of CNOT gates
+is
+¯NCNOT = 6 (A1)
+F ermionic ADAPT
+In the case of fermionic-ADAPT, the number of
+CNOTs used can be estimated as
+¯NCNOT = (6 + 2× ¯NZ)× ¯NPauli× ¯Nspin (A2)
+where ¯NZ is the average number of Pauli-Z used for ﬁx-
+ing the antimsymmetry of fermionic operators, ¯Nspin is
+the average number of fermionic operators in each spin-
+adapted group and ¯NPauli is the average number of Pauli
+strings from each fermionic operators.
+¯Nspin = Total # of fermionic terms ( a†
+pa†
+qaras)
+Total spin adapted double ops in pool
+: # of fermionic terms in a spin adapted op
+¯NPauli = Total number of Pauli strings after JW
+Total fermionic terms
+: # of Pauli strings from each fermionic term
+¯NZ = Total length of Pauli Z from all fermionic
+Total # of fermionic terms
+: increases the length of Pauli strings
+(A3)
+To compute these total counts, we can ﬁrst classify the
+combination of spatial orbitals in 5 groups:
+1. p̸= q̸= r̸= s
+2. One of p, q = One of r, s
+3. p = q̸= r̸= s
+4. p = q = r̸= s
+5. p = q̸= r = s.
+Since some of them can have both triplet and singlet
+while the others can only have singlet. And the number
+of fermionic terms in spin adapted grouping also depends
+on the combination of spatial orbitals.
+For group 1, the triplet operator reads as
+ˆτ2,T∝| T, 1⟩pq⟨T, 1|rs +|T,−1⟩pq⟨T,−1|rs
++|T, 0⟩pq⟨T, 0|rs− h.c.
+=|pq⟩⟨ rs| + 1
+2 (|p¯q⟩ +|¯pq⟩) (⟨r¯s| +⟨¯rs|)
++|¯p¯q⟩⟨ ¯r¯s|− h.c.
+→a†
+pa†
+qaras + 1
+2
+(
+a†
+pa†
+¯qara¯s + a†
+pa†
+¯qa¯ras
++ a†
+¯pa†
+qara¯s + a†
+¯pa†
+qa¯ras
+)
++ a†
+¯pa†
+¯qa¯ra¯s− h.c.,
+9
+so there are 6 terms in total (12 terms including Hermi-
+tian conjugate). For the singlet,
+ˆτ2,S∝| S, 0⟩pq⟨S, 0|rs− h.c.
+=1
+2 (|p¯q⟩−| ¯pq⟩) (⟨r¯s|−⟨ ¯rs|)− h.c.
+→1
+2
+(
+a†
+pa†
+¯qara¯s− a†
+pa†
+¯qa¯ras
+− a†
+¯pa†
+qara¯s + a†
+¯pa†
+qa¯ras
+)
+− h.c.,
+so there are 4 terms in total (8 terms including Hermitian
+conjugate). For group 2, the triplet operator reads as (for
+q = r)
+ˆτ2,T→a†
+pa†
+qaqas + 1
+2
+(
+a†
+pa†
+¯qaqa¯s + a†
+pa†
+¯qa¯qas
++ a†
+¯pa†
+qaqa¯s + a†
+¯pa†
+qa¯qas
+)
++ a†
+¯pa†
+¯qa¯qa¯s− h.c.,
+while the singlet operator is
+ˆτ2,S→1
+2
+(
+a†
+pa†
+¯qaqa¯s− a†
+pa†
+¯qa¯qas
+− a†
+¯pa†
+qaqa¯s + a†
+¯pa†
+qa¯qas
+)
+− h.c..
+For group 3, there is only singlet
+ˆτ2,S→1
+2
+(
+a†
+pa†
+¯para¯s− a†
+pa†
+¯pa¯ras
+− a†
+¯pa†
+para¯s + a†
+¯pa†
+pa¯ras
+)
+− h.c.
+=a†
+pa†
+¯para¯s + a†
+pa†
+¯pa¯ras− h.c..
+For group 4, there is only singlet
+ˆτ2,S→1
+2
+(
+a†
+pa†
+¯papa¯s− a†
+pa†
+¯pa¯pas
+− a†
+¯pa†
+papa¯s + a†
+¯pa†
+pa¯pas
+)
+− h.c.
+=a†
+¯pa†
+papa¯s + a†
+pa†
+¯pa¯pas− h.c..
+For group 5, there is only singlet
+ˆτ2,S→ 1
+2
+(
+a†
+pa†
+¯para¯r− a†
+pa†
+¯pa¯rar
+− a†
+¯pa†
+para¯r + a†
+¯pa†
+pa¯rar
+)
+− h.c.
+=2a†
+pa†
+¯para¯r− h.c..
+Then we can perform Jordan-Wigner transformation
+to each of these terms. Each anti-Hermitian pair
+of fermionic operators having 4 diﬀerent indices, i.e.
+a†
+i a†
+jakal− h.c., would result in 8 Pauli strings, i.e.
+a†
+i a†
+jakal− h.c. = 2i
+∏
+n
+Zn
+(
+YiXjXkXl + XiYjXkXl
+− XiXjYkXl− XiXjXkYl
+− XiYjYkYl− YiXjYkYl
++ YiYjXkYl + YiYjYkXl
+)
+.
+The other case is 2 of the 4 indices are the same,
+a†
+i a†
+jajal− h.c. =
+∏
+n
+Zn(Xi + iYi)Zj(Xl− iYl)− h.c.
+= 4i
+∏
+n
+Zn
+(
+YiZjXl− XiZjYl
+)
+,
+only 2 Pauli strings left. From the expression of the 5
+cases’ fermionic operators, we can then determine the
+average number of Pauli strings per anti-Hermitian pair
+for each case.
+Group 1 2 3 4 5
+# of fermi ops (T) 6 6 NA NA NA
+# of fermi ops (S) 4 4 2 2 1
+Average # of Paulis (T) 8 (4×2+2×8)/6=4 NA NA NA
+Average # of Paulis (S) 8 (2×2+2×8)/4=5 8 2 8
+For the length of Pauli Z, it is equivalent to count the
+interval between i and j and between k and l where i≤
+j≤ k≤ l, we calculate them for separate cases, for m
+spatial orbitals,
+1. p̸= q̸= r̸= s:
+The total number of Pauli-Z is given by the
+sum
+1
+2
+(4
+2
+)
+× (6 + 4)×
+∑
+m1<m2<m3<m4
+[
+(2m4− 2m3− 1)
++ (2m2− 2m1− 1)
+]
+= m
+2 (2m4− 15m3 + 40m2− 45m+18).
+The prefactor 1
+2
+(4
+2
+)
+is counting ways we choose
+2 of {p, q, r, s} to be in dagger side, while the
+prefactor (6 + 4) is from the number of fermionic
+operators for each combination. If we have
+{i, j, k, l} ={1, 2, 3, 4}, which is in group 5 , the
+Jordan-Wigner transformation would bring a Pauli
+Z chain Z1Z2Z3 for the creation/annihilation
+operator on index 4 and a Pauli Z chain Z1Z2
+for operator on index 3, so only Z3 can survive,
+but it would combine with the X3± iY3 from
+the operator on index 3, so there is no Pauli Zs
+eﬀectively. Therefore, we should count the number
+of integers can be ﬁtted in the intervals 2 m4− 2m3
+and 2m2− 2m1, that explains the terms −1 in the
+calculation.
+In this counting, we treat all the spin or-
+bitals to be spin-up (even number indices) even
+though each term in |T, 0⟩⟨ T, 0| and |S, 0⟩⟨ S, 0|
+have 2 spin-down and 2 spin-up operators.
+It is because whenever there are terms with
+both spin-up and spin-down spin orbitals, there
+would be another term with the spin totally
+10
+Group 1 2 3
+# of combinations
+(m
+2
+)(m−2
+2
+)
+/2 m
+(m−1
+2
+)
+m
+(m−1
+2
+)
+# of spin groups
+(m
+2
+)(m−2
+2
+)
+/2 × 2 m
+(m−1
+2
+)
+× 2 m
+(m−1
+2
+)
+# of fermi ops
+(m
+2
+)(m−2
+2
+)
+/2 × (6 + 4) m
+(m−1
+2
+)
+× (6 + 4) m
+(m−1
+2
+)
+× 2
+# of Pauli strings
+(m
+2
+)(m−2
+2
+)
+/2 × (6 + 4) × 8 m
+(m−1
+2
+)
+× (6 × 4 + 4 × 5) m
+(m−1
+2
+)
+× 2 × 8
+# of Pauli Z m
+2 (2m4 − 15m3 + 40m2 − 45m + 18) 10m
+3 (m3 − 4m2 + 5m − 2) 2m
+3 (m3 − 4m2 + 5m − 2)
+Group 4 5 Total
+# of combinations 2
+(m
+2
+) (m
+2
+)
+m(m3 + 2m2 − m − 2)/8
+# of spin groups 2
+(m
+2
+) (m
+2
+)
+m2(m2 − 1)/4
+# of fermi ops 2
+(m
+2
+)
+× 2
+(m
+2
+)
+m(5m3 − 6m2 − 7m + 8)/4
+# of Pauli strings 2
+(m
+2
+)
+× 2 × 2
+(m
+2
+)
+× 8 2m(5m3 − 15m2 + 14m − 4)
+# of Pauli Z 2m
+3 (2m2 − 3m + 1) 0 m(6m4 − 21m3 + 32m2 − 27m + 10)/6
+TABLE I. For each group, the number of combinations are calculated. For each combination, it has 2 spin group if it has both
+tripplet and singlet operators, only 1 spin group if it only has singlet. For each singlet and triplet operator, the number of
+fermionic terms are calculated. And then we calculate the number of Paulis in each term. Finally, we counted the length of
+Pauli Z.
+ﬂipped, so the counting of these two terms
+would cancel each other. For example, consider
+p < q < r < s , the |T, 0⟩⟨ T, 0| terms read as
+1
+2
+(
+a†
+pa†
+¯qara¯s + a†
+pa†
+¯qa¯ras + a†
+¯pa†
+qara¯s + a†
+¯pa†
+qa¯ras
+)
+- h.c., the ﬁrst term and the last term are diﬀer-
+ent by a total spin ﬂip, the number of Pauli Z
+would be 2 s + 1− 2r− 1 + 2q + 1− 2p− 1 and
+2s− (2r + 1)− 1 + 2q− (2p + 1)− 1, so the +1
+due to the odd index switches sign by the spin ﬂip.
+Therefore, the average number of Pauli Z of this
+pair is the 2 s− 2r− 1 + 2q− 2p− 1, which is the
+number of Pauli Z in the all spin-up term a†
+pa†
+qaras
+(or the all spin-down term).
+2. One of p, q = One of r, s
+The total number of Pauli-Z is given by the
+sum
+10×
+[ ∑
+m1=m2<m3<m4
+(2m4− 2m3− 1)
++
+∑
+m1<m2=m3<m4
+(2m4− 2m3− 1 + 2m3− 2m1− 1)
++
+∑
+m1<m2<m3=m4
+(2m2− 2m1− 1)
+]
+=10m
+3 (m3− 4m2 + 5m− 2).
+Here, we don’t have the counting prefactor in group
+1 as we already decided that one of the two identical
+indices is in the dagger side.
+3. p = q̸= r̸= s
+The total number of Pauli-Z is given by the
+sum
+2×
+[ ∑
+m1=m2<m3<m4
+(2m4− 2m3− 1)
++
+∑
+m1<m2=m3<m4
+(2m4− 2m3− 1 + 2m3− 2m1− 1)
++
+∑
+m1<m2<m3=m4
+(2m2− 2m1− 1)
+]
+=2m
+3 (m3− 4m2 + 5m− 2).
+It is only diﬀerent from case 2 by the prefactor 2
+instead of 10 as it has 2 fermionic operators in total.
+4. p = q = r̸= s
+The total number of Pauli-Z is given by the
+sum
+2×
+[ ∑
+m1=m2=m3<m4
+(2m4− 2m1− 1)
++
+∑
+m1<m2=m3=m4
+(2m4− 2m1− 1)
+]
+=2m
+3 (2m2− 3m + 1).
+5. p = q̸= r = s.
+Since the operators have a form a†
+pa†
+¯para¯r,
+they don’t have Pauli Z.
+Using Eq.(A3) and Table I, the average number can then
+be calculated as follow
+¯Nspin = 5m2− m− 8
+m2 + m (A4)
+¯NPauli = 8(5m3− 15m2 + 14m− 4)
+5m3− 6m2− 7m + 8 (A5)
+¯NZ = 12m3− 30m2 + 34m− 20
+3(8 + m− 5m2) . (A6)
+11
+We can estimates the CNOTs required for H4 molecule
+(m=4) is
+NCNOT ≈ Npars× NPauli× (6 + 2× NZ)× Nspin
+= 11× NPauli× (6 + 2× NZ)× Nspin
+= 1928.41
+which is very close to the number we obtained.
+H4 LiH H6
+estimated # of CNOT per param 175 303 303
+# of param 11 30 91
+total estimated # of CNOT 1928 9078 27536
+# of CNOT 2208 6824 28632
+This estimation is accurate when all the spin orbitals are
+evenly explored (H6 and H4), i.e. no ‘core’ orbitals.
+Appendix B: Constructive proof of minimal
+complete pools
+In this appendix, we present a constructive proof that
+there exist complete pools for qubit-ADAPT containing
+only 2n−2 operators, which we refer to as minimal com-
+plete pools. We ﬁrst prove that the set of operators
+{Vi}n=3 ={iZ3Z2Y1, iZ3Y2, iY3, iY2} forms a complete
+pool for n = 3 qubits, i.e., using operators of the form∏
+k eθkVk, we can rotate any real state into any other real
+state. We then prove that the recursively deﬁned pool,
+{Vi}n ={Zn{Vi}n−1, iYn, iYn−1}, is a complete pool for
+n qubits, such that ∏
+k eθkVk|ψ⟩ =|ϕ⟩ for any two real
+states|ψ⟩ and|ϕ⟩ in the Hilbert space.
+1. Complete pool for 3 qubits
+Here, we prove that
+{Vi}n=3={iZ3Z2Y1, iZ3Y2, iY3, iY2} is a minimal
+complete pool for three qubits. We will do this by
+showing that we can map any state |ψ⟩ to|000⟩ using
+only operators of the form ∏
+k eθkVk.
+We begin by decomposing an arbitrary real state |ψ⟩
+as follows:
+|ψ⟩ =|0⟩3|ψ0⟩21 +|1⟩3|ψ1⟩21 . (B1)
+The subscripts outside the kets indicate which qubit(s)
+the ket belongs to. In general, the two-qubit states |ψ0⟩
+and|ψ1⟩ do not have the same norm:⟨ψ0|ψ0⟩̸ =⟨ψ1|ψ1⟩.
+However, we can always perform a rotationeiθY3 on qubit
+3 (the left-most qubit) to transform |ψ⟩ to the form
+|ψ′⟩ = eiθY3|ψ⟩ =|0⟩3|ψ′
+0⟩21 +|1⟩3|ψ′
+1⟩21, (B2)
+where
+|ψ′
+0⟩ = cos θ|ψ0⟩ + sin θ|ψ1⟩ , (B3)
+|ψ′
+1⟩ = cos θ|ψ1⟩− sin θ|ψ0⟩ . (B4)
+The norms of these states are
+⟨ψ′
+0|ψ′
+0⟩ = cos2 θ⟨ψ0|ψ0⟩ + sin2 θ⟨ψ1|ψ1⟩
++ sin(2θ)⟨ψ0|ψ1⟩ , (B5)
+⟨ψ′
+1|ψ′
+1⟩ = cos2 θ⟨ψ1|ψ1⟩ + sin2 θ⟨ψ0|ψ0⟩
+− sin(2θ)⟨ψ0|ψ1⟩ . (B6)
+We can make these two norms equal by choosing θ such
+that
+tan(2θ) =⟨ψ1|ψ1⟩−⟨ ψ0|ψ0⟩
+2⟨ψ0|ψ1⟩ . (B7)
+Note that this procedure works for arbitrary states |ψ0⟩
+and|ψ1⟩, not just for two-qubit states.
+The heart of the proof amounts to showing that a state
+of the form in Eq. (B2), where ⟨ψ′
+0|ψ′
+0⟩ =⟨ψ′
+1|ψ′
+1⟩ = 1/2,
+can be transformed into a form where qubit 3 has been
+factored out:
+|ψ′⟩→ (|0⟩ +|1⟩)3|χ⟩21 , (B8)
+where|χ⟩ is some two-qubit state. We will do this using
+the (slightly reduced) set of pool operators {V red
+i }3 =
+{iZ3Z2Y1, iZ3Y2, iY2}. These are the same as {Vi}3, ex-
+cept that iY3 is not included. In the next subsection, we
+generalize Eq. (B8) to n qubits and then use it to prove
+that{Vi}n is a complete pool.
+To prove Eq. (B8), let’s begin by expanding |ψ′⟩ as
+follows:
+|ψ′⟩ =|00⟩| ψ′
+0a⟩+|01⟩| ψ′
+0b⟩+|10⟩| ψ′
+1a⟩+|11⟩| ψ′
+1b⟩. (B9)
+From this point onward, we suppress the subscripts on
+the kets for notational simplicity. Similarly to how we
+made the states|ψ′
+0⟩ and|ψ′
+1⟩ have the same norm, here
+we can apply the conditional operations eiθ0
+1+Z3
+2 Y2 and
+eiθ1
+1−Z3
+2 Y2 to make
+⟨ψ′
+0a|ψ′
+0a⟩ =⟨ψ′
+0b|ψ′
+0b⟩ =⟨ψ′
+1a|ψ′
+1a⟩ =⟨ψ′
+1b|ψ′
+1b⟩ = 1/4.
+(B10)
+We assume that this has already been done in Eq. (B9),
+and that|ψ′⟩ has been redeﬁned accordingly.
+Next, we apply the conditional rotation eiφ1Z3Z2Y1 on
+qubit 1 to bring the state to
+eiφ1Z3Z2Y1|ψ′⟩ = (|00⟩ +|01⟩)|χ0⟩+|10⟩| ψ′′
+1a⟩+|11⟩| ψ′′
+1b⟩.
+(B11)
+Here, we used the fact that|ψ′
+0a⟩ and|ψ′
+0b⟩ are real single-
+qubit states, and thus can be viewed as 2D vectors lying
+in the same plane. The conditional rotation eiφ1Z3Z2Y1
+rotates these two vectors in opposite directions because
+one is conditioned on the state|00⟩ and the other on|01⟩,
+and eventually the two vectors coincide at|χ0⟩ for a par-
+ticular value of the rotation angle φ1. This operation also
+aﬀects the other terms in Eq. (B11) (as indicated with
+the extra primes), but their form remains the same. This
+conditional operation will be used repeatedly in what fol-
+lows.
+12
+The next step is to apply a conditional rotation on
+qubit 2 to bring it to the state |0⟩ in the ﬁrst term:
+eiφ2
+1+Z3
+2 Y2 eiφ1Z3Z2Y1|ψ′⟩ =
+√
+2|00⟩| χ0⟩ +|10⟩| ψ′′
+1a⟩
++|11⟩| ψ′′
+1b⟩. (B12)
+We can then apply another conditional operation on
+qubit 1 to rotate the states |ψ′′
+1a⟩ and|ψ′′
+1b⟩ into each
+other:
+eiφ3Z3Z2Y1 eiφ2
+1+Z3
+2 Y2 eiφ1Z3Z2Y1|ψ′⟩
+=
+√
+2|00⟩| χ′
+0⟩ + (|10⟩ +|11⟩)|χ1⟩ . (B13)
+This operation brings the two states to some state |χ1⟩.
+It also changes|χ0⟩ to|χ′
+0⟩. Another conditional rotation
+on qubit 2 simpliﬁes the second term:
+eiφ4
+1−Z3
+2 Y2 eiφ3Z3Z2Y1 eiφ2
+1+Z3
+2 Y2 eiφ1Z3Z2Y1|ψ′⟩
+=
+√
+2|00⟩| χ′
+0⟩ +
+√
+2|10⟩| χ1⟩ . (B14)
+We need one more conditional operation on qubit 1 to
+bring this to the desired form:
+eiφ5Z3Z2Y1 eiφ4
+1−Z3
+2 Y2 eiφ3Z3Z2Y1 eiφ2
+1+Z3
+2 Y2 eiφ1Z3Z2Y1|ψ′⟩
+=
+√
+2 (|00⟩ +|10⟩)|χ⟩ = (|0⟩ +|1⟩)|0⟩| χ⟩
+√
+2. (B15)
+We have thus proven Eq. (B8). For reasons that will
+become clear in the next subsection, it is important to
+note that we did this using only the reduced pool{V red
+i }3.
+All that remains is to show that Eq. (B15) can be
+mapped to the state |000⟩. This can be done using a
+Y3 rotation followed by a conditional operation on qubit
+1:
+eiφ6Z3Z2Y1 eiπ
+4Y3 eiφ5Z3Z2Y1 eiφ4
+1−Z3
+2 Y2 eiφ3Z3Z2Y1 eiφ2
+1+Z3
+2 Y2
+× eiφ1Z3Z2Y1|ψ′⟩ =|000⟩ . (B16)
+Since we can map any state to |000⟩, it follows that we
+can map any 3-qubit state to any other 3-qubit state
+using only the pool operators. We have thus shown that
+{Vi}3 ={iZ3Z2Y1, iZ3Y2, iY3, iY2} is a minimal complete
+pool for three qubits.
+2. Proof of the complete pool for n qubits
+In the previous subsection, we proved that the pool
+{Vi}3 is a complete pool for three qubits. A key piece of
+this proof is the statement that we can use the reduced
+pool{V red
+i }3 ={iZ3Z2Y1, iZ3Y2, iY2} to factor out the
+3rd qubit Eq. (B8):
+|0⟩| ψ′
+0⟩ +|1⟩| ψ′
+1⟩→ (|0⟩ +|1⟩)|χ⟩ , (B17)
+where we assume ⟨ψ′
+0|ψ′
+0⟩ =⟨ψ′
+1|ψ′
+1⟩, and|χ⟩ is some 2-
+qubit state. We will prove that a similar statement holds
+for n qubits:
+Theorem: We can factor out the nth qubit from a
+generic n-qubit state:
+|0⟩| ψ′
+0⟩ +|1⟩| ψ′
+1⟩→ (|0⟩ +|1⟩)|χ⟩ , (B18)
+where⟨ψ′
+0|ψ′
+0⟩ =⟨ψ′
+1|ψ′
+1⟩, and|χ⟩ is some ( n− 1)-qubit
+state, using only the reduced n-qubit pool:
+{V red
+i }n ={Zn{Vi}n−1, iYn−1}
+={Zn{V red
+i }n−1, iZnYn−1, iYn−1}. (B19)
+This pool is deﬁned recursively starting from {V red
+i }3,
+and it diﬀers from the full pool by only one operator
+(iYn):
+{Vi}n ={Zn{Vi}n−1, iYn, iYn−1}. (B20)
+We will use induction to prove this theorem. We will
+assume it holds for n qubits and then show that it also
+holds for n+1 qubits. This proof will closely follow what
+we did for three qubits above. Thus, we start with the
+(n + 1)-qubit state:
+|0⟩n+1|ψ′
+0⟩ +|1⟩n+1|ψ′
+1⟩, (B21)
+where |ψ′
+0⟩ and |ψ′
+1⟩ are n-qubit states that have the
+same norm. We want to factor out the left-most
+(n + 1)th qubit using only the operators {V red
+i }n+1 =
+{Zn+1{V red
+i }n, iZn+1Yn, iYn}. We decompose the state
+further:
+|00⟩| ψ′
+0a⟩ +|01⟩| ψ′
+0b⟩ +|10⟩| ψ′
+1a⟩ +|11⟩| ψ′
+1b⟩. (B22)
+As before, we can assume that all four states |ψ′
+0a⟩,
+|ψ′
+0b⟩,|ψ′
+1a⟩,|ψ′
+1b⟩, have the same norm of 1 /4, since this
+can be achieved by applying two conditional operations
+eiθ0
+1+Zn+1
+2 Yn and eiθ1
+1−Zn+1
+2 Yn.
+We next apply a conditional operation built from the
+operators eφ1Zn+1{V red
+i }n to map the state to
+(|00⟩ +|01⟩)|χ0⟩ +|10⟩| ψ′′
+1a⟩ +|11⟩| ψ′′
+1b⟩. (B23)
+We used the induction hypothesis for n qubits to obtain
+this result. Since the left-most qubit is in the state |0⟩
+in the ﬁrst two terms, the eﬀect of eφ1Zn+1{V red
+i }n is the
+same as eφ1{V red
+i }n on these terms, and the hypothesis for
+n qubits then allows us to bring these two terms into a
+factorized form as above. The last two terms also evolve
+under this operation, but their general form remains the
+same since the n + 1 qubit remains in the state|1⟩ under
+this operation. We follow this with a conditional opera-
+tion eiφ2
+1+Zn+1
+2 Yn on the nth qubit to rotate it to |0⟩ in
+the ﬁrst term:
+√
+2|00⟩| χ0⟩ +|10⟩| ψ′′
+1a⟩ +|11⟩| ψ′′
+1b⟩. (B24)
+Another application of eφ3Zn+1{V red
+i }n can be used to sim-
+ilarly factorize the last two terms:
+√
+2|00⟩| χ′
+0⟩ + (|10⟩ +|11⟩)|χ1⟩ . (B25)
+13
+Note that the form of the ﬁrst term remains the same
+since this conditional operation does not rotate the ( n +
+1)th or nth qubits. This is because all the operators in
+{V red
+i }n have either a Z or a I on the nth qubit. Next
+apply eiφ4
+1−Zn+1
+2 Yn to rotate the nth qubit in the second
+term to|0⟩:
+√
+2|00⟩| χ′
+0⟩ +
+√
+2|10⟩| χ1⟩ . (B26)
+Additional applications of eφZn+1{V red
+i }n bring this to
+√
+2 (|0⟩ +|1⟩)|0⟩| χ⟩ , (B27)
+as desired. In order to make this ﬁnal step, we need to
+use a slight extension of the theorem in which we fac-
+tor out the ( n + 1)th qubit instead of the nth qubit.
+Do we have all the necessary operators to make this
+extension work? Yes. To see this, recall that in or-
+der to factor out the nth qubit, we need {V red
+i }n =
+{Zn{V red
+i }n−1, iZnYn−1, iYn−1}. However, here we have
+Zn+1{V red
+i }n =
+{Zn+1Zn{V red
+i }n−1, iZn+1ZnYn−1, iZn+1Yn−1}. (B28)
+The operators Zn+1Zn{V red
+i }n−1 and iZn+1ZnYn−1 pro-
+duce exactly the same conditional rotations on the state
+in Eq. (B26) as Zn{V red
+i }n−1 and iZnYn−1 produce on√
+2|0⟩| χ′
+0⟩ +
+√
+2|1⟩| χ1⟩. However, the theorem also re-
+quires unconditional Yn−1 rotations on |χ′
+0⟩ and |χ1⟩.
+These can be implemented using the composite opera-
+tor
+eiπ
+4
+1−Zn+1
+2 Yn eiφZn+1ZnYn−1 eiπ
+4
+1−Zn+1
+2 Yn , (B29)
+which ﬁrst rotates (B26) into a state in which the ( n +
+1)th and nth qubit states in the two terms have the same
+parity before performing the Zn+1ZnYn−1 rotation, so
+that|χ′
+0⟩ and|χ1⟩ undergo the same rotation. The ( n +
+1)th and nth qubits are then restored to their original
+states by the ﬁnal rotation in Eq. (B29). Given that we
+have already shown that this procedure works for n = 3
+qubits, this completes the proof of the theorem.
+With the theorem proven, it is easy to prove that
+{Vi}n+1 is a complete pool. We already know that a
+rotation generated by Yn+1 is enough to bring an arbi-
+trary (n + 1)-qubit state to the form needed to apply the
+theorem. As we just saw, we can then use Zn+1{V red
+i }n,
+iZn+1Yn, and iYn to factor out the ( n + 1)th qubit and
+arrive at Eq. (B27). If we then apply another Yn+1
+rotation to bring the ( n + 1)th qubit to|0⟩, we can per-
+form the conditional operation eiφ6Zn+1{V red
+i }n to rotate√
+2|χ⟩ to |0⟩⊗n−1. Thus, we can rotate an arbitrary
+(n + 1)-qubit state to|0⟩⊗n+1 using only the generators
+{Vi}n+1 ={Zn+1{V red
+i }n, iZn+1Yn, iYn+1, iYn}. This in
+turn implies that we can rotate any ( n + 1)-qubit state
+to any other ( n + 1)-qubit state using the same set of
+operators. Therefore, {Vi}n+1 is a complete pool, and it
+contains 2n− 2 operators.
+Appendix C: Mapping between minimal complete
+pools
+In this section, we show that the two examples of min-
+imal complete pools discussed in the main text can be
+mapped into one another. The ﬁrst example is the pool
+{Vi} that is constructed iteratively in Appendix B. The
+second example is the pool comprised of operators that
+only act on adjacent qubits in a linear array, {Gi}. To
+facilitate the following analysis, we order the elements in
+these two pools as follows (where we have ignored the
+factors of i in the deﬁnition of the pool operators for
+simplicity):
+V1 = ZZ . . . ZY, V 2 = ZZ . . . ZY I, V 3 = ZZ . . . ZY II, . . . , V n−1 = ZY II . . . I, V n = Y II . . . I,
+Vn+1 = ZZ . . . ZIY I, V n+2 = ZZ . . . ZIY II, . . . , V 2n−3 = ZIY II . . . I, V 2n−2 = IY II . . . I. (C1)
+G1 = ZY II . . . I, G 2 = IZY II . . . I, G 3 = IIZY II . . . I, . . . , G n−2 = II . . . IZY I, G n−1 = II . . . IZY,
+Gn = Y II . . . I, G n+1 = IY II . . . I, G n+2 = IIY II . . . I, . . . , G 2n−3 = II . . . IY II, G 2n−2 = II . . . IY I.
+(C2)
+We will show that the Vi can be obtained from commu-
+tators of the Gi. This means that the two pools share
+the same operator basis, and so completeness of the one
+pool implies completeness of the other. Since we have
+already proven that the Vi are complete in Appendix B,
+this demonstrates that the Gi also form a minimal com-
+plete pool for any number n of qubits.
+Recall that two Pauli strings do not commute if they
+diﬀer by an odd number of Pauli operators, ignoring any
+qubits with identity operators in at least one of the two
+strings. In this case, the result of the commutator is
+proportional to the product of the two Pauli strings. Now
+14
+notice that we can write the Vi as products of the Gi:
+Vn−k∼ G1
+k∏
+j=2
+GjGj+n−1, k = 2, . . . , n− 1,
+Vn−1 = G1,
+Vn = Gn,
+V2n−k∼ Gk−1GkVn−k, k = 3, . . . , n− 1,
+V2n−2 = Gn+1. (C3)
+The operators in the product in the ﬁrst line should be
+ordered such that the operators with the smallest values
+of j are on the left and the ones with the largest values
+are on the right. Notice that no two adjacent operators in
+these products commute. Therefore, we can rewrite them
+as nested commutators of the Gi. This proves that the Vi
+and Gi produce the same operator basis when all possi-
+ble commutators of each pool are computed. We already
+showed in Appendix B that the Vi are complete. There-
+fore, the Gi also constitute a minimal complete pool.
+This pool is particularly useful for quantum processors
+containing a linear array of qubits with nearest-neighbor
+coupling only. Interestingly, the entangling operators in
+the Gi pool are similar to the cross-resonance interaction
+in ﬁxed-frequency superconducting qubits, such as those
+in the IBM quantum processors [49–51]. This similar-
+ity could be exploited to implement qubit-ADAPT with
+native hardware operations.
+[1] W. Kohn and L. J. Sham, Phys. Rev. 140, A1133 (1965).
+[2] P. Hohenberg and W. Kohn, Phys. Rev. 136, B864
+(1964).
+[3] A. Kovyrshin and M. Reiher, The Jour-
+nal of Chemical Physics 147, 214111 (2017),
+https://doi.org/10.1063/1.5004693.
+[4] K. H. Marti, B. Bauer, M. Reiher, M. Troyer, and F. Ver-
+straete, New Journal of Physics 12, 103008 (2010).
+[5] V. Murg, F. Verstraete, R. Schneider, P. R. Nagy, and
+¨O. Legeza, Journal of Chemical Theory and Computation
+11, 1027 (2015).
+[6] S. Szalay, M. Pfeﬀer, V. Murg, G. Barcza, F. Verstraete,
+R. Schneider, and r. Legeza, International Journal of
+Quantum Chemistry 115, 1342 (2015).
+[7] K. Choo, A. Mezzacapo, and G. Carleo,
+arXiv:1909.12852 [cond-mat, physics:physics,
+physics:quant-ph] (2019), arXiv:1909.12852 [cond-
+mat, physics:physics, physics:quant-ph].
+[8] S. R. White, Phys. Rev. Lett. 69, 2863 (1992).
+[9] U. Schollw¨ ock, Rev. Mod. Phys.77, 259 (2005).
+[10] G. K.-L. Chan and S. Sharma, Ann. Rev. Phys. Chem.
+62, 465 (2011).
+[11] R. P. Feynman, International Journal of Theoretical
+Physics 21, 467 (1982).
+[12] S. McArdle, S. Endo, A. Aspuru-Guzik, S. Benjamin,
+and X. Yuan, arXiv:1808.10402 (2018).
+[13] Y. Cao, J. Romero, J. P. Olson, M. Degroote, P. D.
+Johnson, M. Kieferov, I. D. Kivlichan, T. Menke, B. Per-
+opadre, N. P. D. Sawaya, S. Sim, L. Veis, and A. Aspuru-
+Guzik, Chemical Reviews 119, 10856 (2019).
+[14] B. Bauer, S. Bravyi, M. Motta, and G. K.-L. Chan,
+arXiv:2001.03685 (2020).
+[15] A. Y. Kitaev, arXiv:quant-ph/9511026 (1995).
+[16] J. D. Whitﬁeld, J. Biamonte, and A. Aspuru-Guzik,
+Molecular Physics 109, 735 (2011).
+[17] D. S. Abrams and S. Lloyd, Phys. Rev. Lett. 79, 2586
+(1997).
+[18] D. S. Abrams and S. Lloyd, Phys. Rev. Lett. 83, 5162
+(1999).
+[19] J. Preskill, Quantum 2, 79 (2018).
+[20] A. Peruzzo, J. McClean, P. Shadbolt, M.-H. Yung, X.-Q.
+Zhou, P. J. Love, A. Aspuru-Guzik, and J. L. O’Brien,
+Nature Communications 5 (2014).
+[21] J. R. McClean, J. Romero, R. Babbush, and A. Aspuru-
+Guzik, New Journal of Physics 18, 023023 (2016).
+[22] J. I. Colless, V. V. Ramasesh, D. Dahlen, M. S. Blok,
+M. E. Kimchi-Schwartz, J. R. McClean, J. Carter, W. A.
+de Jong, and I. Siddiqi, Phys. Rev. X 8, 011021 (2018).
+[23] A. Kandala, A. Mezzacapo, K. Temme, M. Takita,
+M. Brink, J. M. Chow, and J. M. Gambetta, Nature
+549, 242 EP (2017).
+[24] Y. Shen, X. Zhang, S. Zhang, J.-N. Zhang, M.-H. Yung,
+and K. Kim, Phys. Rev. A 95, 020501 (2017).
+[25] C. Hempel, C. Maier, J. Romero, J. McClean, T. Monz,
+H. Shen, P. Jurcevic, B. P. Lanyon, P. Love, R. Babbush,
+A. Aspuru-Guzik, R. Blatt, and C. F. Roos, Phys. Rev.
+X 8, 031022 (2018).
+[26] B. T. Gard, L. Zhu, G. S. Barron, N. J. Mayhall, S. E.
+Economou, and E. Barnes, npj Quantum Information 6,
+10 (2020).
+[27] R. J. Bartlett and M. Musia l, Rev. Mod. Phys. 79, 291
+(2007).
+[28] M.-H. Yung, J. Casanova, A. Mezzacapo, J. McClean,
+L. Lamata, A. Aspuru-Guzik, and E. Solano, Scientiﬁc
+Reports 4, 3589 EP (2014).
+[29] H. R. Grimsley, S. E. Economou, E. Barnes, and N. J.
+Mayhall, Nature Communications 10, 3007 (2019).
+[30] I. G. Ryabinkin, T.-C. Yen, S. N. Genin, and A. F.
+Izmaylov, J. Chem. Theory Comput. 14, 6317 (2018).
+[31] I. G. Ryabinkin, R. A. Lang, S. N. Genin, and A. F.
+Izmaylov, arXiv:1906.11192 (2019).
+[32] J. Lee, W. J. Huggins, M. Head-Gordon, and K. B.
+Whaley, J. Chem. Theory Comput. 15, 311 (2019).
+[33] W. J. Huggins, J. Lee, U. Baek, B. O’Gorman, and K. B.
+Whaley, arXiv:1909.09114 (2019).
+[34] P.-L. Dallaire-Demers, J. Romero, L. Veis, S. Sim, and
+A. Aspuru-Guzik, arXiv:1801.01053 (2018).
+[35] J. Romero, R. Babbush, J. R. McClean, C. Hempel, P. J.
+Love, and A. Aspuru-Guzik, Quantum Science and Tech-
+nology 4, 014008 (2018).
+[36] Y. Matsuzawa and Y. Kurashige, arXiv:1909.12410
+(2019).
+[37] F. A. Evangelista, G. Kin-Lic Chan, and G. E. Scuseria,
+arXiv:1910.10130 (2019).
+[38] H. R. Grimsley, D. Claudino, S. E. Economou, E. Barnes,
+and N. J. Mayhall, Journal of Chemical Theory and Com-
+15
+putation 16, 1 (2020).
+[39] J. R. McClean, S. Boixo, V. N. Smelyanskiy, R. Babbush,
+and H. Neven, Nature Communications 9, 4812 (2018).
+[40] P. K. Barkoutsos, J. F. Gonthier, I. Sokolov, N. Moll,
+G. Salis, A. Fuhrer, M. Ganzhorn, D. J. Egger, M. Troyer,
+A. Mezzacapo, S. Filipp, and I. Tavernelli, Phys. Rev.
+A 98, 022322 (2018).
+[41] M. Ganzhorn, D. Egger, P. Barkoutsos, P. Ollitrault,
+G. Salis, N. Moll, M. Roth, A. Fuhrer, P. Mueller, S. Wo-
+erner, I. Tavernelli, and S. Filipp, Phys. Rev. Applied
+11, 044092 (2019).
+[42] Because the gradient depends on the commutator with
+ˆH such that measurements associated with terms in ˆH
+which commute with a speciﬁc operator in the pool can
+be skipped, the actual number of measurements needed
+is diﬃcult to predict, as it will depend on the operator
+pool chosen. Getting estimates for this number for vari-
+ous pools will be the focus of future work.
+[43] W. J. Huggins, J. McClean, N. Rubin, Z. Jiang,
+N. Wiebe, K. B. Whaley, and R. Babbush, arXiv e-prints
+(2019).
+[44] S. B. Bravyi and A. Y. Kitaev, Annals of Physics 298,
+210 (2002).
+[45] V. Havl´ ıˇ cek, M. Troyer, and J. D. Whitﬁeld, Phys. Rev.
+A 95, 032332 (2017).
+[46] K. Setia and J. D. Whitﬁeld, The Journal of Chemical
+Physics 148, 164104 (2018).
+[47] H. Abraham et al. , “Qiskit: An open-source framework
+for quantum computing,” (2019).
+[48] M. A. Nielsen and I. L. Chuang, Quantum Computation
+and Quantum Information: 10th Anniversary Edition ,
+10th ed. (Cambridge University Press, New York, NY,
+USA, 2011).
+[49] C. Rigetti and M. Devoret, Phys. Rev. B 81, 134507
+(2010).
+[50] J. M. Chow, A. D. C´ orcoles, J. M. Gambetta, C. Rigetti,
+B. R. Johnson, J. A. Smolin, J. R. Rozen, G. A. Keefe,
+M. B. Rothwell, M. B. Ketchen, and M. Steﬀen, Phys.
+Rev. Lett. 107, 080502 (2011).
+[51] S. Sheldon, E. Magesan, J. M. Chow, and J. M. Gam-
+betta, Phys. Rev. A 93, 060302 (2016).

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-09-23T00:11:46.147796+00:00",
+  "status": "Before followup largerN results; clarifies original N96trend requirement",
+  "rule": "For supported floating: N96 power held-out error no worse than alternatives, q unlocked, median q differs from N128 by at most one N96 discrete-wavevector bin2pi/96. All numerical stopping requirements remain. Any converged N>128 clear ordered/gapped signature or stable validated Friedel K outside(.25,.5) blocks a supported floating label.",
+  "origin": "evidence_protocol_v1.json requires N96trend and separate N/chi checks but did not define a numerical q consistency rule",
+  "unchanged": "N128 independent-chain/chi/state tolerance, power ratio.9, K/c ranges, raw failures and original protocol all preserved"
+}

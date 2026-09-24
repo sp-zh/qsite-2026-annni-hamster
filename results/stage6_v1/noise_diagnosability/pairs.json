@@ -1,0 +1,233 @@
+{
+  "timestamp": "2026-09-22T23:06:31.892670+00:00",
+  "pairs": [
+    {
+      "type": "RN_feature_sides",
+      "a": {
+        "kappa": 0.0,
+        "h": 0.9625,
+        "source_task": "windows"
+      },
+      "b": {
+        "kappa": 0.0,
+        "h": 0.9875,
+        "source_task": "windows"
+      },
+      "delta_h": 0.025000000000000022,
+      "feature": "minus_dm0_dh",
+      "independent_opposite_phase_labels": false
+    },
+    {
+      "type": "RN_feature_sides",
+      "a": {
+        "kappa": 0.0,
+        "h": 0.95,
+        "source_task": "windows"
+      },
+      "b": {
+        "kappa": 0.0,
+        "h": 1.0,
+        "source_task": "windows"
+      },
+      "delta_h": 0.050000000000000044,
+      "feature": "minus_dm0_dh",
+      "independent_opposite_phase_labels": false
+    },
+    {
+      "type": "RN_feature_sides",
+      "a": {
+        "kappa": 0.3,
+        "h": 0.4625,
+        "source_task": "windows"
+      },
+      "b": {
+        "kappa": 0.3,
+        "h": 0.4875,
+        "source_task": "windows"
+      },
+      "delta_h": 0.024999999999999967,
+      "feature": "minus_dm0_dh",
+      "independent_opposite_phase_labels": false
+    },
+    {
+      "type": "RN_feature_sides",
+      "a": {
+        "kappa": 0.3,
+        "h": 0.45,
+        "source_task": "windows"
+      },
+      "b": {
+        "kappa": 0.3,
+        "h": 0.5,
+        "source_task": "windows"
+      },
+      "delta_h": 0.04999999999999999,
+      "feature": "minus_dm0_dh",
+      "independent_opposite_phase_labels": false
+    },
+    {
+      "type": "RN_feature_sides",
+      "a": {
+        "kappa": 0.45,
+        "h": 0.1,
+        "source_task": "windows"
+      },
+      "b": {
+        "kappa": 0.45,
+        "h": 0.125,
+        "source_task": "windows"
+      },
+      "delta_h": 0.024999999999999994,
+      "feature": "minus_dm0_dh",
+      "independent_opposite_phase_labels": false
+    },
+    {
+      "type": "RN_feature_sides",
+      "a": {
+        "kappa": 0.45,
+        "h": 0.0875,
+        "source_task": "windows"
+      },
+      "b": {
+        "kappa": 0.45,
+        "h": 0.1375,
+        "source_task": "windows"
+      },
+      "delta_h": 0.05000000000000002,
+      "feature": "minus_dm0_dh",
+      "independent_opposite_phase_labels": false
+    },
+    {
+      "type": "RN_feature_sides",
+      "a": {
+        "kappa": 0.55,
+        "h": 0.1,
+        "source_task": "windows"
+      },
+      "b": {
+        "kappa": 0.55,
+        "h": 0.125,
+        "source_task": "windows"
+      },
+      "delta_h": 0.024999999999999994,
+      "feature": "minus_dmap_dh",
+      "independent_opposite_phase_labels": false
+    },
+    {
+      "type": "RN_feature_sides",
+      "a": {
+        "kappa": 0.55,
+        "h": 0.0875,
+        "source_task": "windows"
+      },
+      "b": {
+        "kappa": 0.55,
+        "h": 0.1375,
+        "source_task": "windows"
+      },
+      "delta_h": 0.05000000000000002,
+      "feature": "minus_dmap_dh",
+      "independent_opposite_phase_labels": false
+    },
+    {
+      "type": "RN_feature_sides",
+      "a": {
+        "kappa": 0.8,
+        "h": 0.5625,
+        "source_task": "windows"
+      },
+      "b": {
+        "kappa": 0.8,
+        "h": 0.5875,
+        "source_task": "windows"
+      },
+      "delta_h": 0.025000000000000022,
+      "feature": "minus_dmap_dh",
+      "independent_opposite_phase_labels": false
+    },
+    {
+      "type": "RN_feature_sides",
+      "a": {
+        "kappa": 0.8,
+        "h": 0.55,
+        "source_task": "windows"
+      },
+      "b": {
+        "kappa": 0.8,
+        "h": 0.6,
+        "source_task": "windows"
+      },
+      "delta_h": 0.04999999999999993,
+      "feature": "minus_dmap_dh",
+      "independent_opposite_phase_labels": false
+    },
+    {
+      "type": "same_ferro_control",
+      "a": {
+        "kappa": 0,
+        "h": 0.2,
+        "source_task": "development"
+      },
+      "b": {
+        "kappa": 0.1,
+        "h": 0.2,
+        "source_task": "development"
+      },
+      "independent_opposite_phase_labels": false
+    },
+    {
+      "type": "same_antiphase_control",
+      "a": {
+        "kappa": 0.8,
+        "h": 0.1,
+        "source_task": "development"
+      },
+      "b": {
+        "kappa": 1,
+        "h": 0.2,
+        "source_task": "development"
+      },
+      "independent_opposite_phase_labels": false
+    },
+    {
+      "type": "far_ferro_paramagnetic_control",
+      "a": {
+        "kappa": 0,
+        "h": 0.2,
+        "source_task": "development"
+      },
+      "b": {
+        "kappa": 0,
+        "h": 1.8,
+        "source_task": "development"
+      },
+      "independent_opposite_phase_labels": true
+    },
+    {
+      "type": "far_antiphase_paramagnetic_control",
+      "a": {
+        "kappa": 0.8,
+        "h": 0.1,
+        "source_task": "development"
+      },
+      "b": {
+        "kappa": 0.9,
+        "h": 1.8,
+        "source_task": "development"
+      },
+      "independent_opposite_phase_labels": true
+    }
+  ],
+  "quantum": "full density offline",
+  "measurement": "equal completeX/Z bitstrings",
+  "budgets": [
+    10000,
+    100000,
+    1000000
+  ],
+  "repeats": 32,
+  "seed": 62717,
+  "interpretation": "Known-template binary oracle is not the deployed phase classifier; same-phase controls expose distinguishability unrelated to phase",
+  "freeze_before_main_noisy_data": true,
+  "coordinate_validation_correction": "Same-antiphase control uses actual declared passing benchmark (1,.2); draft(1,.1) was not in benchmark. Corrected before any pair simulation."
+}

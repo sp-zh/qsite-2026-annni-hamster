@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "nondata_metadata_changes": [
+    "results/stage4_upgrade_v1/.DS_Store"
+  ],
+  "counts": {
+    "protected": 34516,
+    "selected": 1180,
+    "noise": 2995,
+    "measurements": 4578,
+    "probabilities": 5778,
+    "corrected_auxiliary_HVA": 70
+  },
+  "seconds": 29.039614250010345,
+  "scope": "All available completed archives; partial counts are not completion assertions",
+  "limits": "N12 positivity follows validated CPTP execution, trace/Hermiticity checked at runtime; no full 4096-eigenvalue PSD calculation"
+}

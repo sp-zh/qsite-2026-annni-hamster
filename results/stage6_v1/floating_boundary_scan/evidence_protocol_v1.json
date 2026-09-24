@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-09-22T23:02:47.042905+00:00",
+  "development": "N64 coarse scan plus historical Stage5 states used to develop diagnostics; not a blind protocol for those data. Frozen before inspecting critical N96/128 interior/upper refinement fits.",
+  "stopping": "Exact installed TeNPy Delta_E/max(E,1), absoluteDelta_S; solver stopping, chi agreement, independent initial-chain agreement and N trends all reported separately",
+  "bond_initial": {
+    "max_C_difference": 0.01,
+    "max_entropy_difference": 0.03
+  },
+  "antiphase": {
+    "q_lock_distance": 0.015,
+    "tail_rms_min": 0.15,
+    "uncorrected_c_max": 0.25,
+    "notes": "Oscillatory raw plateau or exponentialxi pegged at bound, nonzero ordered profile allowed; connected subtraction can remove order"
+  },
+  "floating": {
+    "power_heldout_ratio_max": 0.9,
+    "required_windows": 2,
+    "valid_friedel_relative_rmse_max": 0.03,
+    "K_interval": [
+      0.25,
+      0.5
+    ],
+    "K_window_spread_max": 0.08,
+    "c_interval": [
+      0.7,
+      1.3
+    ],
+    "q_unlock_distance_min": 0.015,
+    "requires": "Converged independent N128 chi256 initial chains, chi128 control, and N96 trend. If not all met, candidate or crossover_unresolved rather than supported."
+  },
+  "paramagnetic": {
+    "exponential_heldout_ratio_max": 0.9,
+    "xi_over_N_max": 0.16666666666666666,
+    "c_max": 0.4,
+    "mx_min": 0.5,
+    "requires": "ConsistentNtrend and convergedchi/init; modulated q allowed"
+  },
+  "transition_intervals": "Bracket supported sampled sides; unresolved samples remain explicit. No closest-reference-line pairing; no claim of precise thermodynamic critical fields.",
+  "K_missing_policy": "Missing/low-amplitude/poor fit/at-bound K is unavailable; no expected K imputation; fitted ZZ exponent is never renamedK",
+  "followup": "Contradiction near lowerwindow ->.3125/.3375; upperwindow ->.45/.475/.4875, largerN160/192 only after coarse/refined information warrants it; keep both sides within remaining MPS budget"
+}

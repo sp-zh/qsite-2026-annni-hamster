@@ -1,0 +1,41 @@
+{
+  "sources": [
+    {
+      "path": "results/stage4_upgrade_v1/sources/annni2024.txt",
+      "sha256": "5956e25fb0b2014e14a6567d20bc4812c53ca8cf091c18cce77e334435fe12a1",
+      "disposition": "historical_download_read_this_stage",
+      "access_time": "2026-09-22T22:33:06.238138+00:00"
+    },
+    {
+      "path": "results/stage4_upgrade_v1/sources/floating2007.txt",
+      "sha256": "e09c3371057b4a8ada4f5e38f1dc5c822f8353aec200be3e2945b2b1ef82181a",
+      "disposition": "historical_download_read_this_stage",
+      "access_time": "2026-09-22T22:33:06.238329+00:00"
+    },
+    {
+      "path": "results/stage4_upgrade_v1/sources/adapt.txt",
+      "sha256": "31b788036d5a43b592e308293b2bb51b4c66b1253bf9939f0c4e83bd0735dad2",
+      "disposition": "historical_download_read_this_stage",
+      "access_time": "2026-09-22T22:33:06.238550+00:00"
+    },
+    {
+      "path": "results/stage4_upgrade_v1/sources/symmetry.txt",
+      "sha256": "537c34544995731975cfce0f4075eff2972a9756a1372cf0021cd16de8acb5bc",
+      "disposition": "historical_download_read_this_stage",
+      "access_time": "2026-09-22T22:33:06.238728+00:00"
+    }
+  ],
+  "network": "Web tool failed; direct requested URLs connection refused; no fresh remote retrieval claimed",
+  "mapping": {
+    "Cea2024": "paper sigma_x sigma_x - B sigma_z maps by global Hadamards to project ZZ-X; k=-J2/J1, h=B/J1; OBC",
+    "Beccaria2007": "Same Pauli ZZ-X, J1=1, k=-J2/J1; B=h; OBC/fixed boundaries distinguished",
+    "PT": "antiphase-floating lower line approximately1.05(k-.5)",
+    "KT": "floating-modulated-paramagnetic upper line approximately1.05sqrt((k-.5)(k-.1)); initial guidance only",
+    "K": "Cea Eq8 Friedel spin density after operator mapping, range1/4<K<1/2; do not rename fitted raw C exponent as K; K unavailable unless mapped Friedel protocol validated"
+  },
+  "installed_docs": {
+    "TeNPy": ".venv-tn/lib/python3.12/site-packages/tenpy/algorithms/dmrg.py:376-400",
+    "PennyLane": ".venv/lib/python3.14/site-packages/pennylane/ops/channel.py"
+  },
+  "contribution": "New domain-wall parameterization and bounded top4 optimized proposals are experiments, not claimed original ADAPT theory"
+}

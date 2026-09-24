@@ -1,0 +1,373 @@
+{
+  "key": {
+    "n": 8,
+    "kappa": 0.45,
+    "h": 0.0125,
+    "bc": "PBC",
+    "gates": [
+      [
+        "H",
+        0
+      ],
+      [
+        "CNOT",
+        0,
+        1
+      ],
+      [
+        "CNOT",
+        0,
+        1
+      ],
+      [
+        "CNOT",
+        0,
+        1
+      ],
+      [
+        "CNOT",
+        0,
+        1
+      ],
+      [
+        "CNOT",
+        0,
+        1
+      ],
+      [
+        "CNOT",
+        1,
+        2
+      ],
+      [
+        "CNOT",
+        1,
+        2
+      ],
+      [
+        "CNOT",
+        1,
+        2
+      ],
+      [
+        "CNOT",
+        1,
+        2
+      ],
+      [
+        "CNOT",
+        1,
+        2
+      ],
+      [
+        "CNOT",
+        2,
+        3
+      ],
+      [
+        "CNOT",
+        2,
+        3
+      ],
+      [
+        "CNOT",
+        2,
+        3
+      ],
+      [
+        "CNOT",
+        2,
+        3
+      ],
+      [
+        "CNOT",
+        2,
+        3
+      ],
+      [
+        "CNOT",
+        3,
+        4
+      ],
+      [
+        "CNOT",
+        3,
+        4
+      ],
+      [
+        "CNOT",
+        3,
+        4
+      ],
+      [
+        "CNOT",
+        3,
+        4
+      ],
+      [
+        "CNOT",
+        3,
+        4
+      ],
+      [
+        "CNOT",
+        4,
+        5
+      ],
+      [
+        "CNOT",
+        4,
+        5
+      ],
+      [
+        "CNOT",
+        4,
+        5
+      ],
+      [
+        "CNOT",
+        4,
+        5
+      ],
+      [
+        "CNOT",
+        4,
+        5
+      ],
+      [
+        "CNOT",
+        5,
+        6
+      ],
+      [
+        "CNOT",
+        5,
+        6
+      ],
+      [
+        "CNOT",
+        5,
+        6
+      ],
+      [
+        "CNOT",
+        5,
+        6
+      ],
+      [
+        "CNOT",
+        5,
+        6
+      ],
+      [
+        "CNOT",
+        6,
+        7
+      ],
+      [
+        "CNOT",
+        6,
+        7
+      ],
+      [
+        "CNOT",
+        6,
+        7
+      ],
+      [
+        "CNOT",
+        6,
+        7
+      ],
+      [
+        "CNOT",
+        6,
+        7
+      ]
+    ],
+    "p": 0.01,
+    "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+    "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+    "sv": false,
+    "keep": false,
+    "shots": null
+  },
+  "bases": [
+    "ZZZZZZZZ",
+    "XXXXXXXX"
+  ],
+  "archive": "results/stage6_followup_v1/probabilities/0136502ebf1f014eed454167d757c863c45876adb0d3c43038c488168ace3390.npz",
+  "sha256": "fa8eda3897640a5e195822895cedd8ee0d25c983dd7dcd0859cddd8dd426cbc7",
+  "fold": 5,
+  "p": 0.01,
+  "sv": false,
+  "seconds": 0.0007230420014820993,
+  "disposition": "historical_reused",
+  "source": {
+    "metadata": "results/stage6_v1/end_to_end/probabilities/0136502ebf1f014eed454167d757c863c45876adb0d3c43038c488168ace3390.json",
+    "metadata_sha": "1aeac889366b86e55450a8debaf7b88a59b83c4d7dca9b9a83753d6574d89938",
+    "archive": "results/stage6_v1/end_to_end/probabilities/0136502ebf1f014eed454167d757c863c45876adb0d3c43038c488168ace3390.npz",
+    "sha256": "fa8eda3897640a5e195822895cedd8ee0d25c983dd7dcd0859cddd8dd426cbc7"
+  },
+  "noise_channels": 35,
+  "one_qubit_gates": 1,
+  "process_peak_rss_bytes": 972914688,
+  "cnots": 35,
+  "gate_count": 36,
+  "unitary_depth": 36,
+  "target_counts": [
+    0,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "cnot_order": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "trace_real": 0.9999999999999996,
+  "hermiticity": 0.0,
+  "min_eigenvalue": 1.8942513912609905e-11
+}

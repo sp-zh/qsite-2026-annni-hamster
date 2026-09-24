@@ -1,0 +1,17 @@
+{
+  "position_tolerance": 0.05,
+  "rule": "Largest non-endpoint SAME-named derivative; retain competing>=90% peaks and endpoint maxima; no nearest-reference peak pairing",
+  "all_requested_kappa": [
+    0.0,
+    0.3,
+    0.45,
+    0.5,
+    0.55,
+    0.8
+  ],
+  "finite_shots": "32 independent complete-window repetitions; every repeat including endpoints, ambiguity and failure retained. Raw-maximum differences also saved for unconditional distribution; not statistical confidence intervals.",
+  "smoothing": null,
+  "interpolation": null,
+  "reference": "Same N8 PBC ED on identical coordinates; original coarse reference retained separately",
+  "cost": "Each window replicate requires one prescribed total-budget experiment at every coordinate; no voting aggregation represented as a single-shot-budget map"
+}

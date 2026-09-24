@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "timestamp": "2026-09-23T02:11:49.467413+00:00",
+  "source_sha": "ef468ea08cd67c4d3154e2e64dbfe3830db469a489859383d962273a082ccd7e",
+  "code_sha": "1c1da1057b6e4459b89ceaa344ab707a96c7b1a4a954a5b05bb4bcca03ce04aa",
+  "supported_samples": {
+    "supported_antiphase_sample": [
+      0.3
+    ],
+    "supported_floating_sample": [],
+    "supported_paramagnetic_side_sample": [
+      0.7
+    ]
+  },
+  "lower_transition_bracket": null,
+  "upper_transition_bracket": null,
+  "candidate_floating_samples": [
+    0.4,
+    0.425
+  ],
+  "unresolved_samples": [
+    0.3125,
+    0.325,
+    0.3375,
+    0.35,
+    0.375,
+    0.45,
+    0.475,
+    0.4875,
+    0.5,
+    0.525,
+    0.55,
+    0.6,
+    0.65
+  ],
+  "downgraded_samples": [
+    {
+      "h": 0.475,
+      "old": "supported_floating_sample",
+      "new": "finite_size_crossover_unresolved",
+      "conflicts": [
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "K_values": [
+            0.5268638668645736,
+            0.5323363817232771
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/29f2509fa8e186d7f51b123920d68b83911df249c2625a3ecf00176f2df917a2.npz"
+        }
+      ]
+    }
+  ],
+  "scope": "Discrete controlled OBC samples. Brackets span supported sides and unresolved points; no continuous floating interval or rigorous thermodynamic exclusion is inferred. No circuit/detector retraining, mask or selection change follows this scientific evidence revision."
+}

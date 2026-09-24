@@ -1,0 +1,20 @@
+{
+ "version":"stage3_v1","n":8,"wall_budget_minutes":90,
+ "model":"periodic H=-sum ZZ_nn+kappa sum ZZ_nnn-h sum X; wire0 MSB",
+ "circuit":"unchanged prepare(): H all; NN ZZ, NNN ZZ, RX; gamma/eta/beta per layer",
+ "compilation":"literal CNOT-RZ-CNOT with target channel after each CNOT; no cancellation including zero angles; NN/NNN directly connected",
+ "thresholds":{"delta_e":0.001,"epsilon_c":0.02,"epsilon_sf":0.02,"epsilon_mx":0.02,"fidelity":0.99},
+ "optimizer":"L-BFGS-B","options":{"maxiter":2000,"maxfun":100000,"ftol":1e-12,"gtol":1e-8,"maxls":30},
+ "initialization":"uniform[-0.5,0.5], SeedSequence([seed,round(1000*kappa),round(1000*h),L]); independent chain endpoints",
+ "A":{"target":[0.3,0.4],"layers":6,"old_seeds":[11,23,37],"resume_iterations":1600,"cold_seeds":[101,211,307,401,503,601],"continuation_source_h":0.5,"continuation_path":[0.45,0.4],"extra_points":[[0,1.0],[0.8,0.4],[0.8,0.6],[0.8,0.8]],"extra_modes":["parameter_resume_old_seeds","cold_first_three_seeds"],"max_records":60},
+ "B":{"points":[[0,0.2],[0,1.8],[0.3,0.4],[0.8,0.2],[0.8,0.5]],"layers":[2,4,6],"seeds":[101,211,307],"p":[0,0.01,0.05]},
+ "C":{"kappa":[0,0.3,0.8],"h_start":0.05,"h_stop":2.0,"h_step":0.05,"layers":[4,6],"directions":["ascending","descending"],"seeds":[101,211,307],"p":[0,0.01,0.05],"max_alternate_locations":12},
+ "branch_check_selection":"Before noise: among chosen chain-switch positions, rank opposite-direction pure-state infidelity descending, select at most 12 positions; no tuning on noise",
+ "branch_sensitive_threshold":{"max_c":0.02,"max_sf":0.02,"mx":0.02},
+ "diagnostics":{"prototype":"unchanged configs/diagnostics_v1.json","smoothing":"none","interpolation":"none","difference":"numpy.gradient edge_order=2 on contiguous valid segments length>=3","min_observable_range":0.02,"min_peak_prominence":0.02,"numerical_floor":1e-9,"peak_stability":"full and every-other-node grid same-feature peak within 0.1 in h; both alternating subsamples checked","peak_matching":"unique mutual-nearest same observable, max displacement 0.2; overlap of cross-indicator shifts required for claimed displacement","failure_policy":"Do not differentiate across preparation failure; retain raw records and not_resolved","peak_width":"half-prominence width in h; not statistical uncertainty"},
+ "grid":{"coverage_threshold":0.9,"kappa_step":0.05,"h_start":0.1,"h_step":0.1,"h_stop":2,"p":[0,0.01,0.05],"selection":"Among qualifying L4/L6 maximize selected joint coverage, then minimize CNOT; no noise-based selection","optimization":"Reuse exact matching slice selections; other rows use ascending/descending chains, seeds 101,211,307, 2000 iterations, energy-only selection; no threshold relaxation"},
+ "density_backend":"stage3 NumPy full density, literal gate/channel actions; adopt only after full-array cross-check versus PennyLane default.mixed; no symmetry reduction or output projection",
+ "cache":"fingerprint includes model,circuit/compile source,optimizer config,full initial/final parameter hash,p,wire basis,backend versions",
+ "p0_density":"execute identical full-density schedule, including identity channels",
+ "environment_changes":[]
+}

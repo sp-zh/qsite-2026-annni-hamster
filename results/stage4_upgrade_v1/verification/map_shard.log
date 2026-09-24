@@ -1,0 +1,52 @@
+5 17.83
+10 44.65
+15 104.81
+20 184.64
+25 220.32
+30 256.03
+35 319.12
+40 419.01
+45 462.2
+50 505.99
+55 555.21
+60 640.01
+65 673.42
+70 723.93
+75 792.4
+80 883.66
+85 911.23
+90 956.59
+Traceback (most recent call last):
+  File "scripts/run_upgrade_map_shard.py", line 16, in <module>
+    candidates=[adaptive(8,k,h,ref,11,128,'cost',True,'map') for ref in PLAN['refs']];rows.append(dict(n=8,kappa=k,h=h,methods={'B3':select(candidates)},candidates=candidates))
+                ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "annni/upgrade_adapt.py", line 71, in adaptive
+    tied=np.flatnonzero(scores>=best*(1-1e-8)-1e-12);idx=int(rng.choice(tied));words.append(poolwords[idx]);initial=np.r_[params,rng.uniform(-.01,.01)];fit,state=optimize_words(n,k,h,ref,words,initial);params=fit.x;previous=energy;energy=float(fit.fun);calls+=fit.nfev;iters+=fit.nit
+                                                                                                                                                                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "annni/upgrade_adapt.py", line 41, in optimize_words
+    fit=minimize(fun,initial,jac=True,method='L-BFGS-B',options=dict(maxiter=maxiter or PLAN['maxiter'],ftol=PLAN['ftol'],gtol=PLAN['gtol'],maxls=30))
+  File ".venv/lib/python3.14/site-packages/scipy/optimize/_minimize.py", line 784, in minimize
+    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,
+                           callback=callback, **options)
+  File ".venv/lib/python3.14/site-packages/scipy/optimize/_lbfgsb_py.py", line 420, in _minimize_lbfgsb
+    f, g = func_and_grad(x)
+           ~~~~~~~~~~~~~^^^
+  File ".venv/lib/python3.14/site-packages/scipy/optimize/_differentiable_functions.py", line 412, in fun_and_grad
+    self._update_fun()
+    ~~~~~~~~~~~~~~~~^^
+  File ".venv/lib/python3.14/site-packages/scipy/optimize/_differentiable_functions.py", line 362, in _update_fun
+    fx = self._wrapped_fun(self.x)
+  File ".venv/lib/python3.14/site-packages/scipy/_lib/_util.py", line 544, in __call__
+    fx = self.f(np.copy(x), *self.args)
+  File ".venv/lib/python3.14/site-packages/scipy/optimize/_optimize.py", line 80, in __call__
+    self._compute_if_needed(x, *args)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ".venv/lib/python3.14/site-packages/scipy/optimize/_optimize.py", line 74, in _compute_if_needed
+    fg = self.fun(x, *args)
+  File "annni/upgrade_adapt.py", line 40, in fun
+    def fun(x):return state_and_grad(x,words,n,ref,k,h)[:2]
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "annni/upgrade_gates.py", line 137, in state_and_grad
+    for t,w in zip(params,words):state=rotate(state,w,t);states.append(state)
+                                                         ~~~~~~~~~~~~~^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,228 @@
+{
+  "n": 8,
+  "kappa": 0.75,
+  "h": 0.1,
+  "ref": "antiphase",
+  "seed": 11,
+  "selected": {
+    "words": [
+      "IIZIYIII",
+      "IIIIIYIZ",
+      "YIZIIIII",
+      "IYIIIIIZ",
+      "IZIYIIII",
+      "IZIIIIIY",
+      "ZIIIIIYI",
+      "ZIYIIIII",
+      "IIIZIYII",
+      "IIIIIZIY",
+      "IIZIYIII",
+      "IIIIYIZI",
+      "YIIIIIIZ"
+    ],
+    "params": [
+      -0.1637479380892173,
+      -0.1597935086844526,
+      -0.03320434269985623,
+      -0.03234694107127168,
+      -0.03497780561984939,
+      -0.09898275027092082,
+      -0.034164993400294365,
+      -0.03416499370615609,
+      0.12599401751776154,
+      0.06512109991849471,
+      0.06512134935549768,
+      0.06512142181995152,
+      -0.00010159110444470222
+    ],
+    "reason": "budget_checkpoint_32",
+    "optimizer_success": true,
+    "cnots": 32,
+    "gate_count": 79,
+    "unitary_depth": 30,
+    "target_counts": [
+      0,
+      0,
+      5,
+      3,
+      5,
+      3,
+      5,
+      11
+    ],
+    "cnot_order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "energy": -6.026843667685734,
+    "ed_energy": -6.026894397128352,
+    "delta_e": 6.341180327273932e-06,
+    "epsilon_c": 5.8906411284365134e-05,
+    "epsilon_sf": 2.179297428295257e-05,
+    "epsilon_mx": 0.00026226908994729514,
+    "fidelity": 0.9999768778863249,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage5_v1/ed/n8_k0x1.8000000000000p-1_h0x1.999999999999ap-4.npz",
+    "parity": 0.9999999999999991,
+    "w_plus": 0.9999999999999996,
+    "T_real": 0.9999999896790908,
+    "T_imag": 0.0,
+    "eta_T": 1.0320909238359377e-08,
+    "w0": 0.9999999909407227,
+    "w_plus_0": 0.9999999909407227,
+    "variance": 0.00016409197523614694,
+    "n": 8,
+    "kappa": 0.75,
+    "h": 0.1,
+    "ref": "antiphase",
+    "seed": 11,
+    "uid": "1666c474d610366602269a7e77f252cc64b37cfa8573d16ebcb86e7f721d7f2e",
+    "source": "results/stage4_upgrade_v1/adaptive/cache/544a24b6f1c497f1911c5a7522cbe5c879da0d7ded477db5c310d47911221f04.json",
+    "source_sha": "e4e3ac8f0476f5c2fd858f3faf399f68612a2b0a4ab68fd8e8da7a1016a2a12f",
+    "checkpoint": 2,
+    "source_stop": "energy_stagnation",
+    "source_budget": 128,
+    "disposition": "historical_reused"
+  },
+  "archive": "results/stage5_v1/selected/1666c474d610366602269a7e77f252cc64b37cfa8573d16ebcb86e7f721d7f2e.npz",
+  "sha256": "e982957f00126f3557614c8c3b60b220423e20b52ef603c57afaaf7760f2c033",
+  "energy": -6.026843667685734,
+  "ed_energy": -6.026894397128352,
+  "delta_e": 6.341180327273932e-06,
+  "epsilon_c": 5.8906411284365134e-05,
+  "epsilon_sf": 2.179297428295257e-05,
+  "epsilon_mx": 0.00026226908994729514,
+  "fidelity": 0.9999768778863249,
+  "observable_pass": true,
+  "state_pass": true,
+  "joint_pass": true,
+  "ed_source": "results/stage5_v1/ed/n8_k0x1.8000000000000p-1_h0x1.999999999999ap-4.npz"
+}

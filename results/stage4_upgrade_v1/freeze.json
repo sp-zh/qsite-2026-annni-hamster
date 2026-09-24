@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-09-22T06:32:11.960916+00:00",
+  "plan_sha": "6cf834f32f76a8131e5b811cf13c8c7b211baed2cc782b2264a96227ce878ff6",
+  "code_fingerprint": {
+    "annni/upgrade_gates.py": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+    "annni/upgrade_adapt.py": "ea8a80ef94e45ba6eb945597b4aff57bbb7ef0b46e38da879e33ca8dbcce7fe0",
+    "configs/stage4_upgrade_v1.json": "6cf834f32f76a8131e5b811cf13c8c7b211baed2cc782b2264a96227ce878ff6",
+    "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef"
+  },
+  "detection_sha": "f4cdf1e2aa97b00eb93873db8fa3d883825c61eb8bb533633eeb100ea44d3abb",
+  "validation_pass": 5,
+  "validation_points": 6,
+  "parameters_changed": false,
+  "choice": "B3 main + B4 equivalent-direction noise-energy selection; preserve 128 CNOT limit and all thresholds",
+  "cost_measurement": {
+    "development_seconds": 295.33886383479694,
+    "density_n8_example_seconds": 0.0675
+  },
+  "budget_adjustment": "Single measured-cost review: retain original allocation; N8 density affordable, benchmark N12 before choosing exact vs trajectories",
+  "B4": "Two p0-equivalent directions; choose smaller p=.01 energy, pay extra pilot; all p fixed params. No ED eligibility selection; preparation mask reported."
+}

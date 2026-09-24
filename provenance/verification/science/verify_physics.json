@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "environment": {
+    "python": "3.14.5",
+    "python_build": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "bit_generator": "PCG64"
+  },
+  "point": [
+    0.3,
+    0.4125
+  ],
+  "parameters_to_gates": true,
+  "cnots": 95,
+  "target_counts": [
+    0,
+    11,
+    11,
+    7,
+    9,
+    15,
+    21,
+    21
+  ],
+  "p": [
+    0,
+    0.01
+  ],
+  "energy_p0": -6.156393727325989,
+  "probability_max_error": 0.0,
+  "atol": 2e-10,
+  "SDK": "PASS PennyLane 0.44.1",
+  "seconds": 15.89593691698974
+}

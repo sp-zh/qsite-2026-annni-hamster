@@ -1,0 +1,149 @@
+{
+  "timestamp": "2026-09-23T04:26:34.237236+00:00",
+  "run_id": "stage6_20260922T221830Z",
+  "started": "2026-09-22T22:18:30.473067+00:00",
+  "deadline": "2026-09-23T10:18:30.473067+00:00",
+  "elapsed_wall_seconds": 22083.764189,
+  "summary": {
+    "new_candidate_optimization": {
+      "unique_records": 2577,
+      "coordinates": 318,
+      "records_without_timing": 0,
+      "summed_record_seconds": 24693.43680996698,
+      "nfev": 34299557,
+      "iterations": 31058521,
+      "pool_gradients": 10450731,
+      "simulated_shots": 0,
+      "gate_weighted_simulated_shots": 0
+    },
+    "B3_optimization": {
+      "unique_records": 955,
+      "coordinates": 283,
+      "records_without_timing": 0,
+      "summed_record_seconds": 2462.973134517495,
+      "nfev": 4129311,
+      "iterations": 3841128,
+      "pool_gradients": 2223192,
+      "simulated_shots": 0,
+      "gate_weighted_simulated_shots": 0
+    },
+    "fixed_energy_restart": {
+      "unique_records": 216,
+      "coordinates": 36,
+      "records_without_timing": 0,
+      "summed_record_seconds": 275.7645695038955,
+      "nfev": 296729,
+      "iterations": 279073,
+      "pool_gradients": 0,
+      "simulated_shots": 0,
+      "gate_weighted_simulated_shots": 0
+    },
+    "oracle_fidelity_fit_not_deployable": {
+      "unique_records": 24,
+      "coordinates": 12,
+      "records_without_timing": 0,
+      "summed_record_seconds": 22.860883500776254,
+      "nfev": 23604,
+      "iterations": 22030,
+      "pool_gradients": 0,
+      "simulated_shots": 0,
+      "gate_weighted_simulated_shots": 0
+    },
+    "energy_continuation": {
+      "unique_records": 72,
+      "coordinates": 36,
+      "records_without_timing": 0,
+      "summed_record_seconds": 45.67703741492005,
+      "nfev": 45845,
+      "iterations": 42751,
+      "pool_gradients": 0,
+      "simulated_shots": 0,
+      "gate_weighted_simulated_shots": 0
+    },
+    "ED_reference": {
+      "unique_records": 1513,
+      "coordinates": 1513,
+      "records_without_timing": 0,
+      "summed_record_seconds": 7.699917844845913,
+      "nfev": 0,
+      "iterations": 0,
+      "pool_gradients": 0,
+      "simulated_shots": 0,
+      "gate_weighted_simulated_shots": 0
+    },
+    "density_and_measurement_probabilities": {
+      "unique_records": 3353,
+      "coordinates": 126,
+      "records_without_timing": 0,
+      "summed_record_seconds": 1360.5566115084803,
+      "nfev": 0,
+      "iterations": 0,
+      "pool_gradients": 0,
+      "simulated_shots": 0,
+      "gate_weighted_simulated_shots": 0
+    },
+    "finite_measurement": {
+      "unique_records": 3182,
+      "coordinates": 118,
+      "records_without_timing": 0,
+      "summed_record_seconds": 171.08863367018057,
+      "nfev": 0,
+      "iterations": 0,
+      "pool_gradients": 0,
+      "simulated_shots": 8599360000,
+      "gate_weighted_simulated_shots": 1420712009344
+    },
+    "ideal_ED_measurement": {
+      "unique_records": 163,
+      "coordinates": 163,
+      "records_without_timing": 163,
+      "summed_record_seconds": 0,
+      "nfev": 0,
+      "iterations": 0,
+      "pool_gradients": 0,
+      "simulated_shots": 573760000,
+      "gate_weighted_simulated_shots": 0
+    },
+    "MPS": {
+      "unique_records": 78,
+      "coordinates": 49,
+      "records_without_timing": 0,
+      "summed_record_seconds": 11211.645466666145,
+      "nfev": 0,
+      "iterations": 0,
+      "pool_gradients": 0,
+      "simulated_shots": 0,
+      "gate_weighted_simulated_shots": 0
+    },
+    "fresh_HVA_control": {
+      "unique_records": 47,
+      "coordinates": 47,
+      "records_without_timing": 0,
+      "summed_record_seconds": 19.587599301186856,
+      "nfev": 53539,
+      "iterations": 48099,
+      "pool_gradients": 0,
+      "simulated_shots": 0,
+      "gate_weighted_simulated_shots": 0
+    },
+    "oracle_binary_query": {
+      "unique_records": 84,
+      "coordinates": 1,
+      "records_without_timing": 0,
+      "summed_record_seconds": 54.84156211721711,
+      "nfev": 0,
+      "iterations": 0,
+      "pool_gradients": 0,
+      "simulated_shots": 5967360000,
+      "gate_weighted_simulated_shots": 624974400000
+    }
+  },
+  "scope": "Unique archived execution records. Sum of individual measured seconds is not elapsed wall time and does not include all orchestration/plotting/test overhead. Reused H6 components are counted once. Derived quadratic ZNE estimates add zero quantum samples. All shots are classical simulator draws, not hardware execution.",
+  "resources": {
+    "max_heavy_processes": 2,
+    "working_memory_cap_bytes": 6442450944,
+    "blas_threads_requested": 1,
+    "cpus": 10,
+    "disk_free": 314048851968
+  }
+}

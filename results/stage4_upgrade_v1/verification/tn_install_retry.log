@@ -1,0 +1,11 @@
+Using Python 3.12.14 environment at: .venv-tn
+WARN Retry attempt #0. Sleeping 1.247666181s before the next attempt
+WARN Retry attempt #1. Sleeping 3.175869321s before the next attempt
+WARN Retry attempt #2. Sleeping 4.90084599s before the next attempt
+error: Request failed after 3 retries in 9.3s
+  Caused by: Failed to fetch: `https://pypi.org/simple/physics-tenpy/`
+  Caused by: error sending request for url (https://pypi.org/simple/physics-tenpy/)
+  Caused by: client error (Connect)
+  Caused by: tunnel error: failed to create underlying connection
+  Caused by: tcp connect error
+  Caused by: Connection refused (os error 61)

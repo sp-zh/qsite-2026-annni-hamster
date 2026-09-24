@@ -1,0 +1,2910 @@
+{
+  "B0_raw_p0_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0013536557909435323,
+    "MSE_own_p0_mean": 7.317095786961025e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 2949120000
+  },
+  "B0_raw_p0_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0013450536150728517,
+    "MSE_own_p0_mean": 6.969158047629643e-07,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 29491200000
+  },
+  "B0_raw_p0.01_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0759758721573765,
+    "MSE_own_p0_mean": 0.07573020370879642,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "rejected": 285,
+          "correct": 131,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 477,
+          "correct": 323,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 320,
+          "correct": 96,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 640,
+          "correct": 160,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 2949120000
+  },
+  "B0_raw_p0.01_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.07589206616318912,
+    "MSE_own_p0_mean": 0.07564524344422584,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "rejected": 288,
+          "correct": 128,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 480,
+          "correct": 320,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 320,
+          "correct": 96,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 640,
+          "correct": 160,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 29491200000
+  },
+  "B0_raw_p0.05_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.18214851657974754,
+    "MSE_own_p0_mean": 0.18301569990537178,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 2949120000
+  },
+  "B0_raw_p0.05_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.18211962592628658,
+    "MSE_own_p0_mean": 0.18298325271026694,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 29491200000
+  },
+  "B3_raw_p0_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0011879170526964383,
+    "MSE_own_p0_mean": 6.298473546827736e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 767,
+          "reference_unlabelled": 736,
+          "rejected": 33
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 775,
+          "reference_unlabelled": 736,
+          "rejected": 25
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 1223040000
+  },
+  "B3_raw_p0_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0011844236313112088,
+    "MSE_own_p0_mean": 6.652143405461829e-07,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 12230400000
+  },
+  "B3_raw_p0.01_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.010639352965596522,
+    "MSE_own_p0_mean": 0.01057964174879003,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 704,
+          "reference_unlabelled": 736,
+          "rejected": 96
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 58,
+          "wrong_accepted": 6
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 62,
+          "correct": 354,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 165,
+          "correct": 635,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 1223040000
+  },
+  "B3_raw_p0.01_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.010626862172231877,
+    "MSE_own_p0_mean": 0.010567925670831889,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 704,
+          "reference_unlabelled": 736,
+          "rejected": 96
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 382,
+          "rejected": 34,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 670,
+          "rejected": 130,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 12230400000
+  },
+  "B3_raw_p0.05_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.07035368006671505,
+    "MSE_own_p0_mean": 0.07259708236662386,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 352,
+          "reference_unlabelled": 1120,
+          "correct": 64
+        },
+        "RN_proxy": {
+          "rejected": 736,
+          "reference_unlabelled": 736,
+          "correct": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 320,
+          "rejected": 96,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 512,
+          "rejected": 288,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 352,
+          "reference_unlabelled": 1120,
+          "correct": 64
+        },
+        "RN_proxy": {
+          "rejected": 710,
+          "reference_unlabelled": 736,
+          "correct": 90
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 384,
+          "reference_unlabelled": 1120,
+          "correct": 32
+        },
+        "RN_proxy": {
+          "rejected": 768,
+          "reference_unlabelled": 736,
+          "correct": 32
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 1223040000
+  },
+  "B3_raw_p0.05_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.07034103307948018,
+    "MSE_own_p0_mean": 0.07258626113169601,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 352,
+          "reference_unlabelled": 1120,
+          "correct": 64
+        },
+        "RN_proxy": {
+          "rejected": 736,
+          "reference_unlabelled": 736,
+          "correct": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 320,
+          "rejected": 96,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 512,
+          "rejected": 288,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 352,
+          "reference_unlabelled": 1120,
+          "correct": 64
+        },
+        "RN_proxy": {
+          "rejected": 718,
+          "reference_unlabelled": 736,
+          "correct": 82
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 384,
+          "reference_unlabelled": 1120,
+          "correct": 32
+        },
+        "RN_proxy": {
+          "rejected": 768,
+          "reference_unlabelled": 736,
+          "correct": 32
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 12230400000
+  },
+  "B3_sv_p0_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0012512385348850265,
+    "MSE_own_p0_mean": 6.837833423989275e-05,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 758,
+          "reference_unlabelled": 736,
+          "rejected": 42
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 740,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 60
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "unmeasured": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "unmeasured": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 1223040000
+  },
+  "B3_sv_p0_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.001190385610611064,
+    "MSE_own_p0_mean": 6.764462619031749e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 765,
+          "reference_unlabelled": 736,
+          "rejected": 35
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "unmeasured": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "unmeasured": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 12230400000
+  },
+  "B3_sv_p0.01_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.007816289780993184,
+    "MSE_own_p0_mean": 0.007563624830585825,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 726,
+          "reference_unlabelled": 736,
+          "rejected": 74
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 748,
+          "reference_unlabelled": 736,
+          "rejected": 21,
+          "wrong_accepted": 31
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 757,
+          "reference_unlabelled": 736,
+          "rejected": 43
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "unmeasured": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "unmeasured": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 1223040000
+  },
+  "B3_sv_p0.01_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.007589917107256521,
+    "MSE_own_p0_mean": 0.007329530965953614,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 728,
+          "reference_unlabelled": 736,
+          "rejected": 72
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 741,
+          "reference_unlabelled": 736,
+          "rejected": 27,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 743,
+          "reference_unlabelled": 736,
+          "rejected": 57
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "unmeasured": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "unmeasured": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 12230400000
+  },
+  "B3_sv_p0.05_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0646164195272953,
+    "MSE_own_p0_mean": 0.06679324612919484,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 292,
+          "correct": 124,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 613,
+          "correct": 187,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 327,
+          "rejected": 89,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 530,
+          "rejected": 270,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 274,
+          "reference_unlabelled": 1120,
+          "correct": 142
+        },
+        "RN_proxy": {
+          "rejected": 573,
+          "reference_unlabelled": 736,
+          "correct": 227
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "unmeasured": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "unmeasured": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 1223040000
+  },
+  "B3_sv_p0.05_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.06413165136668914,
+    "MSE_own_p0_mean": 0.06629640942674152,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 347,
+          "correct": 69,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 685,
+          "correct": 115,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 320,
+          "rejected": 96,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 516,
+          "rejected": 284,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 258,
+          "reference_unlabelled": 1120,
+          "correct": 158
+        },
+        "RN_proxy": {
+          "rejected": 546,
+          "reference_unlabelled": 736,
+          "correct": 254
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "unmeasured": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "unmeasured": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 12230400000
+  },
+  "B3_zne_p0_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.00120907981159887,
+    "MSE_own_p0_mean": 2.7235680940677264e-05,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 762,
+          "reference_unlabelled": 736,
+          "rejected": 38
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 740,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 60
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 772,
+          "reference_unlabelled": 736,
+          "rejected": 28
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 3668875392
+  },
+  "B3_zne_p0_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0011872296959393792,
+    "MSE_own_p0_mean": 2.744440149664657e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 767,
+          "reference_unlabelled": 736,
+          "rejected": 33
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 36690955392
+  },
+  "B3_zne_p0.01_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0063530979578473494,
+    "MSE_own_p0_mean": 0.005843627673927089,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 764,
+          "reference_unlabelled": 736,
+          "rejected": 4,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 770,
+          "reference_unlabelled": 736,
+          "rejected": 30
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 3668875392
+  },
+  "B3_zne_p0.01_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.006288132704225985,
+    "MSE_own_p0_mean": 0.0057737431796084345,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 769,
+          "reference_unlabelled": 736,
+          "rejected": 31
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 36690955392
+  },
+  "B3_zne_p0.05_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.061545367590566225,
+    "MSE_own_p0_mean": 0.06364791918587864,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 250,
+          "correct": 166,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 483,
+          "correct": 317,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 324,
+          "rejected": 92,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 544,
+          "rejected": 256,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 256,
+          "reference_unlabelled": 1120,
+          "correct": 160
+        },
+        "RN_proxy": {
+          "rejected": 544,
+          "reference_unlabelled": 736,
+          "correct": 256
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 384,
+          "reference_unlabelled": 1120,
+          "correct": 32
+        },
+        "RN_proxy": {
+          "rejected": 768,
+          "reference_unlabelled": 736,
+          "correct": 32
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 3668875392
+  },
+  "B3_zne_p0.05_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.061428678337738095,
+    "MSE_own_p0_mean": 0.06353916837250391,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 265,
+          "correct": 151,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 492,
+          "correct": 308,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 320,
+          "rejected": 96,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 544,
+          "rejected": 256,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 256,
+          "reference_unlabelled": 1120,
+          "correct": 160
+        },
+        "RN_proxy": {
+          "rejected": 544,
+          "reference_unlabelled": 736,
+          "correct": 256
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 384,
+          "reference_unlabelled": 1120,
+          "correct": 32
+        },
+        "RN_proxy": {
+          "rejected": 768,
+          "reference_unlabelled": 736,
+          "correct": 32
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 36690955392
+  },
+  "B3_zne_quadratic_p0_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0012910552285540034,
+    "MSE_own_p0_mean": 9.662377210857803e-05,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 762,
+          "reference_unlabelled": 736,
+          "rejected": 38
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 742,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 58
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 770,
+          "reference_unlabelled": 736,
+          "rejected": 30
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 3668875392
+  },
+  "B3_zne_quadratic_p0_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0011963680017209727,
+    "MSE_own_p0_mean": 9.9386192729796e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 765,
+          "reference_unlabelled": 736,
+          "rejected": 35
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 737,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 63
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 776,
+          "reference_unlabelled": 736,
+          "rejected": 24
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 36690955392
+  },
+  "B3_zne_quadratic_p0.01_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0023504606392137466,
+    "MSE_own_p0_mean": 0.0013351175147707794,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 737,
+          "reference_unlabelled": 736,
+          "rejected": 63
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 754,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 46
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 775,
+          "reference_unlabelled": 736,
+          "rejected": 25
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 3668875392
+  },
+  "B3_zne_quadratic_p0.01_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.002196354157737375,
+    "MSE_own_p0_mean": 0.0011675800239911507,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 763,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 37
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 770,
+          "reference_unlabelled": 736,
+          "rejected": 30
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 36690955392
+  },
+  "B3_zne_quadratic_p0.05_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.03973880718195628,
+    "MSE_own_p0_mean": 0.041116713683665124,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 350,
+          "rejected": 66,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 595,
+          "rejected": 205,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 364,
+          "reference_unlabelled": 1120,
+          "rejected": 52
+        },
+        "RN_proxy": {
+          "correct": 646,
+          "reference_unlabelled": 736,
+          "rejected": 154
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 353,
+          "reference_unlabelled": 1120,
+          "rejected": 63
+        },
+        "RN_proxy": {
+          "correct": 610,
+          "reference_unlabelled": 736,
+          "rejected": 190
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 345,
+          "correct": 71,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 700,
+          "correct": 100,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 3668875392
+  },
+  "B3_zne_quadratic_p0.05_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.039536019650448506,
+    "MSE_own_p0_mean": 0.04090811730773703,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 352,
+          "reference_unlabelled": 1120,
+          "rejected": 64
+        },
+        "RN_proxy": {
+          "correct": 604,
+          "rejected": 196,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 354,
+          "reference_unlabelled": 1120,
+          "rejected": 62
+        },
+        "RN_proxy": {
+          "correct": 642,
+          "reference_unlabelled": 736,
+          "rejected": 158
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 352,
+          "reference_unlabelled": 1120,
+          "rejected": 64
+        },
+        "RN_proxy": {
+          "correct": 608,
+          "reference_unlabelled": 736,
+          "rejected": 192
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 344,
+          "correct": 72,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 696,
+          "correct": 104,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 36690955392
+  },
+  "H6_raw_p0_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.000956019807202195,
+    "MSE_own_p0_mean": 6.209904854463005e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 1720000000
+  },
+  "H6_raw_p0_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0009521291583209211,
+    "MSE_own_p0_mean": 6.255926792305318e-07,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 17200000000
+  },
+  "H6_raw_p0.01_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.02634318913224375,
+    "MSE_own_p0_mean": 0.0283133600951829,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 303,
+          "rejected": 113,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 495,
+          "rejected": 305,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 63,
+          "wrong_accepted": 1
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 64,
+          "correct": 352,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 158,
+          "correct": 642,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 322,
+          "correct": 94,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 610,
+          "correct": 190,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 1720000000
+  },
+  "H6_raw_p0.01_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.026312703233567537,
+    "MSE_own_p0_mean": 0.028278864994904878,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 303,
+          "rejected": 113,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 495,
+          "rejected": 305,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 64,
+          "correct": 352,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 151,
+          "correct": 649,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 320,
+          "correct": 96,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 608,
+          "correct": 192,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 17200000000
+  },
+  "H6_raw_p0.05_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.13885479489254302,
+    "MSE_own_p0_mean": 0.14279600705751225,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 1720000000
+  },
+  "H6_raw_p0.05_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.13886552837152136,
+    "MSE_own_p0_mean": 0.1428063964912166,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 17200000000
+  },
+  "H6_sv_p0_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.001018867663357884,
+    "MSE_own_p0_mean": 6.725025657064184e-05,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 764,
+          "reference_unlabelled": 736,
+          "rejected": 36
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 738,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 62
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "unmeasured": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "unmeasured": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 1720000000
+  },
+  "H6_sv_p0_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0009559423833456551,
+    "MSE_own_p0_mean": 6.444940826784101e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "unmeasured": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "unmeasured": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 17200000000
+  },
+  "H6_sv_p0.01_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.021896036934165933,
+    "MSE_own_p0_mean": 0.023758270983027924,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 388,
+          "rejected": 28,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 661,
+          "rejected": 139,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 385,
+          "rejected": 31,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 711,
+          "rejected": 89,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "unmeasured": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "unmeasured": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 1720000000
+  },
+  "H6_sv_p0.01_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.021640530653558507,
+    "MSE_own_p0_mean": 0.023494481875358224,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 415,
+          "reference_unlabelled": 1120,
+          "rejected": 1
+        },
+        "RN_proxy": {
+          "correct": 707,
+          "reference_unlabelled": 736,
+          "rejected": 93
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 384,
+          "rejected": 32,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 710,
+          "rejected": 90,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "unmeasured": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "unmeasured": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 17200000000
+  },
+  "H6_sv_p0.05_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.1371334005254194,
+    "MSE_own_p0_mean": 0.14108076079355003,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "unmeasured": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "unmeasured": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 1720000000
+  },
+  "H6_sv_p0.05_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.13677408037617494,
+    "MSE_own_p0_mean": 0.1407081170564399,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "unmeasured": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "unmeasured": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 17200000000
+  },
+  "H6_zne_p0_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.000976473827009404,
+    "MSE_own_p0_mean": 2.59087640841295e-05,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 767,
+          "reference_unlabelled": 736,
+          "rejected": 33
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 739,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 61
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 767,
+          "reference_unlabelled": 736,
+          "rejected": 33
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 5159656000
+  },
+  "H6_zne_p0_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0009505230359618086,
+    "MSE_own_p0_mean": 2.546214021145447e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 51599656000
+  },
+  "H6_zne_p0.01_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.016533333754842068,
+    "MSE_own_p0_mean": 0.01822194590473927,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 725,
+          "reference_unlabelled": 736,
+          "rejected": 75
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 735,
+          "reference_unlabelled": 736,
+          "rejected": 32,
+          "wrong_accepted": 33
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 389,
+          "rejected": 27,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 741,
+          "rejected": 59,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 273,
+          "correct": 143,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 532,
+          "correct": 268,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 5159656000
+  },
+  "H6_zne_p0.01_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.016445078300860685,
+    "MSE_own_p0_mean": 0.01814474348558726,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 732,
+          "reference_unlabelled": 736,
+          "rejected": 68
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 384,
+          "rejected": 32,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "rejected": 64,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 277,
+          "correct": 139,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 533,
+          "correct": 267,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 51599656000
+  },
+  "H6_zne_p0.05_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.13464720068146793,
+    "MSE_own_p0_mean": 0.1385877081601499,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 5159656000
+  },
+  "H6_zne_p0.05_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.13454785926421128,
+    "MSE_own_p0_mean": 0.1384805383473147,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 51599656000
+  },
+  "H6_zne_quadratic_p0_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0010397921347622557,
+    "MSE_own_p0_mean": 9.39477934713568e-05,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 766,
+          "reference_unlabelled": 736,
+          "rejected": 34
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 742,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 58
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 761,
+          "reference_unlabelled": 736,
+          "rejected": 39
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 5159656000
+  },
+  "H6_zne_quadratic_p0_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0009553299559472377,
+    "MSE_own_p0_mean": 9.779376473043773e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 768,
+          "reference_unlabelled": 736,
+          "rejected": 32
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 51599656000
+  },
+  "H6_zne_quadratic_p0.01_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.003925755642287064,
+    "MSE_own_p0_mean": 0.004600544216584601,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 748,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 52
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 799,
+          "reference_unlabelled": 736,
+          "rejected": 1
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 70,
+          "correct": 346,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 114,
+          "correct": 686,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 5159656000
+  },
+  "H6_zne_quadratic_p0.01_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.0037336646679695467,
+    "MSE_own_p0_mean": 0.004385108033105289,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 736,
+          "reference_unlabelled": 736,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 757,
+          "reference_unlabelled": 736,
+          "wrong_accepted": 43
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "correct": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "correct": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 64,
+          "correct": 352,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 97,
+          "correct": 703,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 51599656000
+  },
+  "H6_zne_quadratic_p0.05_10000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.10923295368463999,
+    "MSE_own_p0_mean": 0.11311671004310253,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 405,
+          "reference_unlabelled": 1120,
+          "correct": 11
+        },
+        "RN_proxy": {
+          "rejected": 789,
+          "reference_unlabelled": 736,
+          "correct": 11
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "rejected": 368,
+          "reference_unlabelled": 1120,
+          "correct": 48
+        },
+        "RN_proxy": {
+          "rejected": 722,
+          "correct": 78,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 15360000,
+    "total_gate_shots": 5159656000
+  },
+  "H6_zne_quadratic_p0.05_100000": {
+    "physical_coordinates": 48,
+    "measurement_repeats": 1536,
+    "MSE_ED_mean": 0.10900812238418733,
+    "MSE_own_p0_mean": 0.1128623895437079,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "rejected": 383,
+          "reference_unlabelled": 1120,
+          "correct": 33
+        },
+        "RN_proxy": {
+          "rejected": 720,
+          "correct": 80,
+          "reference_unlabelled": 736
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "rejected": 416,
+          "reference_unlabelled": 1120
+        },
+        "RN_proxy": {
+          "rejected": 800,
+          "reference_unlabelled": 736
+        }
+      }
+    },
+    "total_shots": 153600000,
+    "total_gate_shots": 51599656000
+  }
+}

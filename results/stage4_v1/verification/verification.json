@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "protected_unchanged": 17476,
+  "omitted_old_nonessential_logs": [],
+  "excluded_runtime_caches": [
+    "upstream/Scientific Track/starter_kit/__pycache__/annni.cpython-314.pyc"
+  ],
+  "optimization_reloaded": 308,
+  "new_density_archives": 894,
+  "new_p0_full_density_recomputed": 298,
+  "relative_references_checked": 3669,
+  "physics_fingerprint": {
+    "sources": {
+      "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+      "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+      "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+      "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d"
+    },
+    "versions": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "pennylane": "0.44.1",
+      "matplotlib": "3.11.2"
+    },
+    "basis": "wire0 MSB",
+    "n": 8,
+    "compile": "literal unchanged NN NNN RX, target channel after every CNOT"
+  },
+  "timestamp": "2026-09-22T06:05:29.505042+00:00"
+}

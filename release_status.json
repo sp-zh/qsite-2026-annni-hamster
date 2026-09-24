@@ -1,0 +1,43 @@
+{
+  "source_complete": true,
+  "science_frozen": true,
+  "main_artifacts_generated": true,
+  "notebook_run_all": {
+    "science": "PASS 9 cells",
+    "portable": "PASS 9 cells + HTML",
+    "offline_HTML": "Static embedded figures/formulas, no remote renderer dependency"
+  },
+  "portable_data_check": "PASS",
+  "fresh_physics_check": {
+    "science": "PASS including PennyLane0.44.1",
+    "portable": "PASS NumPy backend"
+  },
+  "exact_rng_replay": {
+    "science": "PASS one record,90 setting draws",
+    "portable": "SKIPPED_ENV_MISMATCH",
+    "external_failure_root_cause": "not isolated"
+  },
+  "clean_room_passed": false,
+  "unresolved_author_fields": [],
+  "submission_channel_confirmed": false,
+  "submission_ready": false,
+  "full_research_goals_achieved": false,
+  "administrative_pending": [
+    "official submission channel",
+    "size limit",
+    "presentation mode"
+  ],
+  "scientific_limits": [
+    "finite-size boundaries unresolved in some windows",
+    "no continuous floating interval",
+    "strong-noise map recovery incomplete"
+  ],
+  "clean_room_evidence": "Public repository validation pending; previous standalone release checks retained as historical evidence.",
+  "team": "hamster",
+  "members": [
+    "Shupei Zhang",
+    "Yangxin Zhou",
+    "Michael Li",
+    "Kathy Chen"
+  ]
+}

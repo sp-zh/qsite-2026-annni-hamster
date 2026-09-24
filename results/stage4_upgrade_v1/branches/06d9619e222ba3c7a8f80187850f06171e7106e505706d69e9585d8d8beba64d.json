@@ -1,0 +1,235 @@
+{
+  "key": {
+    "source": "e0bd81e79d8a80ad6fc09260bfdee34d55db494a646e2f986fdf1b4956ec1eee",
+    "kappa": 0,
+    "h": 0.3,
+    "params": [
+      0.05044277194796019,
+      0.05020662637464793,
+      0.050083792478378915,
+      0.05008289178968535,
+      0.05008382982489399,
+      0.05008383480808082,
+      0.050075338103057525,
+      0.049578859335138434,
+      0.007429194511442769,
+      0.002469109305557706
+    ],
+    "words": [
+      "IIIIIZYI",
+      "YIIIIIIZ",
+      "IIZIYIII",
+      "IYZIIIII",
+      "IIYZIIII",
+      "IIIYIZII",
+      "IIIIIYIZ",
+      "IIIIIIZY",
+      "IIIIIZXY",
+      "XZIIIIIY"
+    ],
+    "fp": {
+      "annni/upgrade_gates.py": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+      "annni/upgrade_adapt.py": "ea8a80ef94e45ba6eb945597b4aff57bbb7ef0b46e38da879e33ca8dbcce7fe0",
+      "configs/stage4_upgrade_v1.json": "6cf834f32f76a8131e5b811cf13c8c7b211baed2cc782b2264a96227ce878ff6",
+      "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef"
+    },
+    "protocol": "fixed structure reoptimization at opposite endpoint, same source initial parameters"
+  },
+  "n": 8,
+  "kappa": 0,
+  "h": 0.3,
+  "ref": "ghz",
+  "selected": {
+    "params": [
+      0.07642738167236558,
+      0.07569028113411451,
+      0.07528550585676148,
+      0.07527887329287106,
+      0.07528615434401881,
+      0.07528622768378303,
+      0.07522121373537353,
+      0.07356142379391321,
+      0.01650376277652096,
+      0.005470950918039822
+    ],
+    "words": [
+      "IIIIIZYI",
+      "YIIIIIIZ",
+      "IIZIYIII",
+      "IYZIIIII",
+      "IIYZIIII",
+      "IIIYIZII",
+      "IIIIIYIZ",
+      "IIIIIIZY",
+      "IIIIIZXY",
+      "XZIIIIIY"
+    ],
+    "cnots": 31,
+    "gate_count": 66,
+    "unitary_depth": 41,
+    "target_counts": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      11
+    ],
+    "cnot_order": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "energy": -8.180213241181777,
+    "ed_energy": -8.181049336928965,
+    "delta_e": 0.00010451196839844634,
+    "epsilon_c": 0.0006601763293179186,
+    "epsilon_sf": 0.0004913985229111351,
+    "epsilon_mx": 0.0014675171240575158,
+    "fidelity": 0.9997694791103874,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage4_upgrade_v1/ed/n8_k0x0.0p+0_h0x1.3333333333333p-2.npz"
+  },
+  "energy": -8.180213241181777,
+  "ed_energy": -8.181049336928965,
+  "delta_e": 0.00010451196839844634,
+  "epsilon_c": 0.0006601763293179186,
+  "epsilon_sf": 0.0004913985229111351,
+  "epsilon_mx": 0.0014675171240575158,
+  "fidelity": 0.9997694791103874,
+  "observable_pass": true,
+  "state_pass": true,
+  "joint_pass": true,
+  "ed_source": "results/stage4_upgrade_v1/ed/n8_k0x0.0p+0_h0x1.3333333333333p-2.npz",
+  "archive": "results/stage4_upgrade_v1/branches/06d9619e222ba3c7a8f80187850f06171e7106e505706d69e9585d8d8beba64d.npz",
+  "sha256": "d001a0f86ef8ce7e0790824652138e23dbcae5a9bf1fcf128f66310a2c94406c",
+  "seconds": 0.005535290983971208,
+  "optimizer_success": true,
+  "nfev": 8,
+  "disposition": "newly_executed"
+}

@@ -1,0 +1,478 @@
+{
+  "key": {
+    "n": 8,
+    "kappa": 0.425,
+    "h": 0.02,
+    "bc": "PBC",
+    "source_sha": "b6d162b66e1d5bddf522118715338465a4b601c57e0ad5f226797a9fa9cb882c",
+    "gate_hash": "cbb067420ac9861f723f70888f834f04e52de86023b39690905afa60cc7d027b",
+    "parameters_hash": "624c6b26009b2cb340b6d1a80e39fe2b25ff48f685d3d3f1b0bfc99d26ee2c1d",
+    "p": 0.01,
+    "method": "raw",
+    "mode": "equal_gate",
+    "budget": 300000,
+    "settings": [
+      {
+        "fold": 1,
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          149999,
+          149999
+        ]
+      }
+    ],
+    "probability_keys": [
+      {
+        "n": 8,
+        "kappa": 0.425,
+        "h": 0.02,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ],
+          [
+            "RX",
+            0,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "RZ",
+            2,
+            0.01738858009674407
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "RX",
+            0,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            4,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "RZ",
+            5,
+            0.017390866552099128
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "RX",
+            4,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            5,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RZ",
+            5,
+            0.017391837750668857
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RX",
+            5,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            2,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "RZ",
+            3,
+            0.017387608534941933
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "RX",
+            2,
+            -1.5707963267948966
+          ]
+        ],
+        "p": 0.01,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      }
+    ],
+    "repeats": 32,
+    "seed": 9230626,
+    "code": "cad687c45d953231c7f96f592b0d6c15d3fee123f4f9ca5c13bf29b02c2a3563",
+    "estimator": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+    "numpy": "2.5.3"
+  },
+  "point_id": "99186103acb9c1d48a701913f080f50ead35c94d01671c80a26124bc3aacc410",
+  "kappa": 0.425,
+  "h": 0.02,
+  "p": 0.01,
+  "method": "raw",
+  "mode": "equal_gate",
+  "budget": 300000,
+  "settings": [
+    {
+      "fold": 1,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "allocations": [
+        149999,
+        149999
+      ]
+    }
+  ],
+  "archive": "results/stage6_followup_v1/measurements/ba40f8bfea3200ed79b9c2a90e9241b25c7f6e85664c126e24df71a23f0fd013.npz",
+  "sha256": "5626e63321dd5a7196f2e234edd5158d12f2e21340dceb24a0d3fe6a4cb7842a",
+  "probabilities": [
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.425,
+        "h": 0.02,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ],
+          [
+            "RX",
+            0,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "RZ",
+            2,
+            0.01738858009674407
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "RX",
+            0,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            4,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "RZ",
+            5,
+            0.017390866552099128
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "RX",
+            4,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            5,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RZ",
+            5,
+            0.017391837750668857
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RX",
+            5,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            2,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "RZ",
+            3,
+            0.017387608534941933
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "RX",
+            2,
+            -1.5707963267948966
+          ]
+        ],
+        "p": 0.01,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "archive": "results/stage6_followup_v1/probabilities/62e8b9930aa51b79a3b07745102a840ab13ff97ef925da74ae19f869fbe94dfe.npz",
+      "sha256": "0cdea39c8395dd7c2953f78a58e79058f844baf02a29f286571ccbc957099a15",
+      "fold": 1,
+      "p": 0.01,
+      "sv": false,
+      "seconds": 0.0009360419935546815,
+      "disposition": "historical_reused",
+      "source": {
+        "metadata": "results/stage6_v1/end_to_end/probabilities/62e8b9930aa51b79a3b07745102a840ab13ff97ef925da74ae19f869fbe94dfe.json",
+        "metadata_sha": "cbcd3fa873037d46634c221d22a7c660e78c3c6821750a7d68a4e53449a077be",
+        "archive": "results/stage6_v1/end_to_end/probabilities/62e8b9930aa51b79a3b07745102a840ab13ff97ef925da74ae19f869fbe94dfe.npz",
+        "sha256": "0cdea39c8395dd7c2953f78a58e79058f844baf02a29f286571ccbc957099a15"
+      },
+      "noise_channels": 15,
+      "one_qubit_gates": 13,
+      "process_peak_rss_bytes": 698155008,
+      "cnots": 15,
+      "gate_count": 28,
+      "unitary_depth": 18,
+      "target_counts": [
+        0,
+        1,
+        3,
+        3,
+        1,
+        5,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "trace_real": 0.9999999999999994,
+      "hermiticity": 5.3734132160165515e-17,
+      "min_eigenvalue": 2.2307430486629476e-09
+    }
+  ],
+  "shots_per_repeat": 299998,
+  "CNOT_shots_per_repeat": 4499970,
+  "one_qubit_gate_shots_per_repeat": 5099966,
+  "measurement_settings": 2,
+  "target_CNOT_shots": 4500000,
+  "zero_CNOT_control": false,
+  "equal_CNOT_verified": true,
+  "budget_shortfall": 30,
+  "seconds": 0.008261625014711171,
+  "disposition": "newly_executed",
+  "source": null,
+  "random_stream": "Independent followup SeedSequence keyed by full scientific fingerprint, repeat, fold and basis; shared observables use same joint counts",
+  "unclipped": true
+}

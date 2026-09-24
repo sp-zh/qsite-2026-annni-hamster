@@ -1,0 +1,61 @@
+.venv-tn/lib/python3.12/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+96 0.8 0.3 128 plus seconds 33.86 stopping True
+.venv-tn/lib/python3.12/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+128 0.8 0.3 128 plus seconds 46.07 stopping True
+.venv-tn/lib/python3.12/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+128 0.8 0.3 256 plus seconds 82.31 stopping True
+.venv-tn/lib/python3.12/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+128 0.8 0.3 256 antiphase seconds 66.86 stopping True
+.venv-tn/lib/python3.12/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+96 0.8 0.325 128 plus seconds 191.29 stopping False
+.venv-tn/lib/python3.12/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+128 0.8 0.325 128 plus seconds 254.59 stopping False
+.venv-tn/lib/python3.12/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+Traceback (most recent call last):
+  File "scripts/run_stage6_mps.py", line 39, in <module>
+    rows.append(run(**job));dump(OUT/f'floating_boundary_scan/{args.task}_index.json',rows);progress('mps_'+args.task,len(rows),f'.venv-tn/bin/python scripts/run_stage6_mps.py --task {args.task}')
+                ^^^^^^^^^^
+  File "scripts/run_stage6_mps.py", line 28, in run
+    engine=dmrg.TwoSiteDMRGEngine(psi,model,opts);energy,psi=engine.run();zz=psi.correlation_function('Sigmaz','Sigmaz',hermitian=True).real;z=psi.expectation_value('Sigmaz');x=psi.expectation_value('Sigmax');connected=zz-z[:,None]*z[None,:];entropy=psi.entanglement_entropy()
+                                                             ^^^^^^^^^^^^
+  File ".venv-tn/lib/python3.12/site-packages/tenpy/algorithms/dmrg.py", line 453, in run
+    return super().run()
+           ^^^^^^^^^^^^^
+  File ".venv-tn/lib/python3.12/site-packages/tenpy/algorithms/mps_common.py", line 806, in run
+    result = self.run_iteration()
+             ^^^^^^^^^^^^^^^^^^^^
+  File ".venv-tn/lib/python3.12/site-packages/tenpy/algorithms/dmrg.py", line 298, in run_iteration
+    max_trunc_err = self.sweep(meas_E_trunc=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ".venv-tn/lib/python3.12/site-packages/tenpy/algorithms/dmrg.py", line 527, in sweep
+    return super().sweep(optimize)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File ".venv-tn/lib/python3.12/site-packages/tenpy/algorithms/mps_common.py", line 402, in sweep
+    update_data = self.update_local(theta, optimize=optimize)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ".venv-tn/lib/python3.12/site-packages/tenpy/algorithms/dmrg.py", line 565, in update_local
+    E0, theta, N, ov_change = self.diag(theta)
+                              ^^^^^^^^^^^^^^^^
+  File ".venv-tn/lib/python3.12/site-packages/tenpy/algorithms/dmrg.py", line 740, in diag
+    E, theta, N = LanczosGroundState(self.eff_H, theta_guess, self.lanczos_params).run()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ".venv-tn/lib/python3.12/site-packages/tenpy/linalg/krylov_based.py", line 627, in run
+    N = self._build_krylov()
+        ^^^^^^^^^^^^^^^^^^^^
+  File ".venv-tn/lib/python3.12/site-packages/tenpy/linalg/krylov_based.py", line 661, in _build_krylov
+    w = self.H.matvec(w)
+        ^^^^^^^^^^^^^^^^
+  File ".venv-tn/lib/python3.12/site-packages/tenpy/algorithms/mps_common.py", line 1343, in matvec
+    theta = npc.tensordot(theta, self.W1, axes=[['wR', 'p1'], ['wL', 'p1*']])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ".venv-tn/lib/python3.12/site-packages/tenpy/linalg/np_conserved.py", line 3670, in tensordot
+    res = _tensordot_worker(a, b, axes)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

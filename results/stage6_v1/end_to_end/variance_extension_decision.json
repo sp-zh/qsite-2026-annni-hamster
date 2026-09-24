@@ -1,0 +1,139 @@
+{
+  "options": [
+    {
+      "kappa": 0.45,
+      "method": "B3",
+      "p": 0.01,
+      "exact_matched": true,
+      "match_fraction_100k": 1.0,
+      "derivative_bias_mse": 14.358534183086238,
+      "derivative_sampling_mse": 0.3056107241608239,
+      "eligible": false,
+      "ratio": 0.021284256475206275
+    },
+    {
+      "kappa": 0.45,
+      "method": "B3",
+      "p": 0.05,
+      "exact_matched": true,
+      "match_fraction_100k": 1.0,
+      "derivative_bias_mse": 132.80859445789793,
+      "derivative_sampling_mse": 0.25804770672978816,
+      "eligible": false,
+      "ratio": 0.0019430045757437232
+    },
+    {
+      "kappa": 0.45,
+      "method": "H6",
+      "p": 0.01,
+      "exact_matched": true,
+      "match_fraction_100k": 1.0,
+      "derivative_bias_mse": 19.00049926339451,
+      "derivative_sampling_mse": 0.4344822568198745,
+      "eligible": false,
+      "ratio": 0.0228668863273992
+    },
+    {
+      "kappa": 0.45,
+      "method": "H6",
+      "p": 0.05,
+      "exact_matched": false,
+      "match_fraction_100k": 0.0,
+      "derivative_bias_mse": 93.98366692642668,
+      "derivative_sampling_mse": 0.18263431915865036,
+      "eligible": false,
+      "ratio": 0.001943255941499092
+    },
+    {
+      "kappa": 0.55,
+      "method": "B3",
+      "p": 0.01,
+      "exact_matched": true,
+      "match_fraction_100k": 1.0,
+      "derivative_bias_mse": 18.518067075970336,
+      "derivative_sampling_mse": 0.04893696014438574,
+      "eligible": false,
+      "ratio": 0.0026426602702982957
+    },
+    {
+      "kappa": 0.55,
+      "method": "B3",
+      "p": 0.05,
+      "exact_matched": true,
+      "match_fraction_100k": 1.0,
+      "derivative_bias_mse": 21.66669674281482,
+      "derivative_sampling_mse": 0.065204355367769,
+      "eligible": false,
+      "ratio": 0.003009427608728233
+    },
+    {
+      "kappa": 0.55,
+      "method": "H6",
+      "p": 0.01,
+      "exact_matched": true,
+      "match_fraction_100k": 1.0,
+      "derivative_bias_mse": 7.682463327821665,
+      "derivative_sampling_mse": 0.07855173292428233,
+      "eligible": false,
+      "ratio": 0.01022481065933775
+    },
+    {
+      "kappa": 0.55,
+      "method": "H6",
+      "p": 0.05,
+      "exact_matched": false,
+      "match_fraction_100k": 0.0,
+      "derivative_bias_mse": 27.339341096346956,
+      "derivative_sampling_mse": 0.059996814839143875,
+      "eligible": false,
+      "ratio": 0.002194523073094858
+    },
+    {
+      "kappa": 0.8,
+      "method": "B3",
+      "p": 0.01,
+      "exact_matched": true,
+      "match_fraction_100k": 0.9375,
+      "derivative_bias_mse": 0.1108773249737301,
+      "derivative_sampling_mse": 0.08381728398539154,
+      "eligible": false,
+      "ratio": 0.7559461233868167
+    },
+    {
+      "kappa": 0.8,
+      "method": "B3",
+      "p": 0.05,
+      "exact_matched": true,
+      "match_fraction_100k": 0.875,
+      "derivative_bias_mse": 0.37867614870514077,
+      "derivative_sampling_mse": 0.049057840248949915,
+      "eligible": false,
+      "ratio": 0.12955091155516424
+    },
+    {
+      "kappa": 0.8,
+      "method": "H6",
+      "p": 0.01,
+      "exact_matched": true,
+      "match_fraction_100k": 0.5,
+      "derivative_bias_mse": 0.0393395265059887,
+      "derivative_sampling_mse": 0.08659977119730028,
+      "eligible": false,
+      "ratio": 2.201342489064201
+    },
+    {
+      "kappa": 0.8,
+      "method": "H6",
+      "p": 0.05,
+      "exact_matched": true,
+      "match_fraction_100k": 0.8125,
+      "derivative_bias_mse": 0.3434448246470918,
+      "derivative_sampling_mse": 0.05268975584666806,
+      "eligible": false,
+      "ratio": 0.15341548937535932
+    }
+  ],
+  "selected": null,
+  "rule": "Exactly matched finite-size order-response but<50% measured-window matches at100k and derivative sampling MSE exceeds derivative bias MSE. Highest ratio; at most1kappa, both preparations, all3p,32independent repeats,1M totalshots each coordinate/estimator.",
+  "timestamp": "2026-09-23T08:25:47.014524+00:00"
+}

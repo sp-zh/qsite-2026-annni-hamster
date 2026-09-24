@@ -1,0 +1,25 @@
+{
+  "time": "2026-09-23T07:09:51.781008+00:00",
+  "reference_files": [
+    {
+      "path": "results/stage6_v1/reference_atlas/validation_evaluation.json",
+      "sha256": "d1d403f2cf369328a73d952c9c604ad89ab22b3fd8ff7919a08b2521c90ff22e",
+      "records": 24,
+      "all_supporting_sizes_include_12": true
+    },
+    {
+      "path": "results/stage6_v1/reference_atlas/development_evaluation.json",
+      "sha256": "0fc0f274331945e5cdec1f8595ed30c290f7380c95c889f171f697ee22f22bba",
+      "records": 36,
+      "all_supporting_sizes_include_12": true
+    },
+    {
+      "path": "results/stage6_v1/reference_atlas/confirmation_evaluation.json",
+      "sha256": "2acc73844ad37fef4fa0cd670a9675326dd10653e1cb2fa321753e33b2bc387c",
+      "records": 96,
+      "all_supporting_sizes_include_12": true
+    }
+  ],
+  "detector_freeze": "2026-09-23T00:39:43.117318+00:00",
+  "scope": "N12 references reuse declared multi-size physical/proxy evidence, not an N8 detector label map. D4/D5 separately calibrated N12 clean-feature prototypes on registered development/validation coordinates before confirmation; not zero-shot N8 detector transfer. Candidate scaling is separately frozen and not retuned on N12 test error."
+}

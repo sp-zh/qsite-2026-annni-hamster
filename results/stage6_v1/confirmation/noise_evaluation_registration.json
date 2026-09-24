@@ -1,0 +1,23 @@
+{
+  "registered_utc": "2026-09-23T01:24:38.953348+00:00",
+  "coordinates": "all96 previously frozen confirmation coordinates, including failed preparations",
+  "methods": [
+    "B3",
+    "H6"
+  ],
+  "p": [
+    0,
+    0.01,
+    0.05
+  ],
+  "estimators": "raw plus one estimator per preparation frozen solely on noisy validation",
+  "budgets": [
+    10000,
+    100000
+  ],
+  "repeats": 32,
+  "new_detector_count": 0,
+  "confirmation_unsealed": false,
+  "intent": "Complete independent-coordinate end-to-end evaluation; no noisy query templates or ED labels given to deployed detector. Existing12core confirmation coordinates share physical computations/counts instead of counting them twice.",
+  "execution": "Run in a free scientific lane after frozen validation estimator exists; preserve original deadline."
+}

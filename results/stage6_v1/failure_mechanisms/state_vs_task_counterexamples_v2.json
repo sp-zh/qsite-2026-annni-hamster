@@ -1,0 +1,271 @@
+{
+  "timestamp": "2026-09-23T03:52:56.450907+00:00",
+  "low_fidelity_observables": {
+    "n": 8,
+    "kappa": 0.8,
+    "h": 0.01,
+    "gates": [
+      [
+        "H",
+        0
+      ],
+      [
+        "X",
+        2
+      ],
+      [
+        "X",
+        4
+      ],
+      [
+        "X",
+        6
+      ],
+      [
+        "CNOT",
+        0,
+        1
+      ],
+      [
+        "CNOT",
+        1,
+        2
+      ],
+      [
+        "CNOT",
+        2,
+        3
+      ],
+      [
+        "CNOT",
+        3,
+        4
+      ],
+      [
+        "CNOT",
+        4,
+        5
+      ],
+      [
+        "CNOT",
+        5,
+        6
+      ],
+      [
+        "CNOT",
+        6,
+        7
+      ]
+    ],
+    "cnots": 7,
+    "gate_count": 11,
+    "unitary_depth": 8,
+    "target_counts": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "cnot_order": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "energy": -6.3999999999999995,
+    "ed_energy": -6.40025001777963,
+    "delta_e": 3.125222245381476e-05,
+    "epsilon_c": 3.907473015729579e-05,
+    "epsilon_sf": 1.4652451484187257e-05,
+    "epsilon_mx": 0.006250889011127067,
+    "fidelity": 0.4999609297518947,
+    "observable_pass": true,
+    "state_pass": false,
+    "joint_pass": false,
+    "reference_numerical_ambiguous": false,
+    "ed_source": "results/stage6_v1/reference_atlas/cache/29cd0a57567294f5121df52002bddf433fc0a9f16d968711073187e7bd87cf5a.npz",
+    "observables": [
+      0.9999999999999998,
+      0.0,
+      -0.9999999999999998,
+      0.0,
+      0.9999999999999998,
+      0.0,
+      -0.9999999999999998,
+      0.0,
+      0.0,
+      0.0,
+      0.4999999999999999,
+      0.0,
+      0.0,
+      0.0,
+      0.4999999999999999,
+      0.0,
+      0.0
+    ],
+    "ed_observables": [
+      0.9999999999999997,
+      1.2850288294565246e-09,
+      -0.9999609275591417,
+      -3.9894258565928463e-13,
+      0.9999609252698425,
+      -3.9894258565928463e-13,
+      -0.9999609275591417,
+      1.2850288294565246e-09,
+      4.884090102335027e-06,
+      4.88456850332168e-06,
+      0.4999853475485157,
+      4.884114035974512e-06,
+      4.883447787391591e-06,
+      4.884114035974512e-06,
+      0.4999853475485157,
+      4.88456850332168e-06,
+      0.006250889011127067
+    ],
+    "explanation": "A real paid two-configuration global-flip cat: translationally averaged C/SF are close to the full four-translation low-field antiphase cat; state overlap about1/2. No symmetry projection or ED loading."
+  },
+  "unit_fidelity_not_phase_truth": {
+    "n": 8,
+    "kappa": 0.5,
+    "h": 0.035,
+    "fidelity": 1.0,
+    "old_detector": {
+      "D1": "uncertain",
+      "D3": "paramagnetic-like",
+      "D1_distances": [
+        0.7929372859080848,
+        0.6329530406038478,
+        0.4164905841342165,
+        0.3756783621501627
+      ],
+      "D3_distances": [
+        6.614570554549421,
+        2.3373141090663476,
+        6.460683566115449
+      ],
+      "full_features": [
+        0.9999999999999993,
+        0.499690262859412,
+        3.092208989829275e-05,
+        -0.41223205813370245,
+        -0.5759007143948247,
+        -0.41223205813370245,
+        3.092208989829275e-05,
+        0.499690262859412,
+        0.07488469240454879,
+        0.3581942035717547,
+        0.05300468017817225,
+        0.03578097502695132,
+        0.03115559004169402,
+        0.03578097502695132,
+        0.05300468017817225,
+        0.3581942035717547,
+        0.45150473767305177
+      ]
+    },
+    "reference": "results/stage6_v1/reference_atlas/cache/9e3d8551f5033b58f92a62ea9bd745dd29d66b157d74c7fc2cf240d6348e287d.npz",
+    "independent_label": null,
+    "explanation": "Exact ED data at competing multiphase vicinity remain RN continuous diagnostics; an output resemblance label is not independently established thermodynamic phase truth. This is an ideal-information example, not free quantum StatePrep."
+  },
+  "version": 2,
+  "original_source": "results/stage6_v1/failure_mechanisms/state_vs_task_counterexamples.json",
+  "original_sha": "5fb172c9866bfb656b4aecfe68d17f84a664d17abcd210f6452b2aa4c653ec87",
+  "high_fidelity_but_RN_window_ambiguous": {
+    "method": "B3",
+    "n": 8,
+    "kappa": 0,
+    "coordinates": 17,
+    "state_pass": 17,
+    "observable_pass": 17,
+    "joint_pass": 17,
+    "minimum_squared_ED_fidelity": 0.9999226297521563,
+    "maximum_correlation_error": 0.0024278137158072477,
+    "primary": {
+      "index": 7,
+      "coordinate": 0.96875,
+      "value": 0.9894115890458046,
+      "interval_low": 0.9625,
+      "interval_high": 0.975,
+      "endpoint": false,
+      "step": 0.012500000000000067
+    },
+    "competing_peaks": [
+      {
+        "index": 14,
+        "coordinate": 1.05625,
+        "value": 0.9560535844597452,
+        "interval_low": 1.05,
+        "interval_high": 1.0625,
+        "endpoint": false,
+        "step": 0.012500000000000067
+      }
+    ],
+    "reference_primary": {
+      "index": 7,
+      "coordinate": 0.96875,
+      "value": 0.969475690070606,
+      "interval_low": 0.9625,
+      "interval_high": 0.975,
+      "endpoint": false,
+      "step": 0.012500000000000067
+    },
+    "scope": "All17 real energy-optimized circuits pass the original state/observable tests, but the frozen unsmoothed response-peak rule detects a competing maximum. High pointwise fidelity alone does not guarantee unique finite-size feature reconstruction. This is not a claim that the exact thermodynamic critical point moved.",
+    "source_summaries": [
+      {
+        "path": "results/stage6_v1/failure_mechanisms/windows_paired_summary.json",
+        "sha256": "5f0df4df6da3f2c15a675cd93ec1cbcd7ccee6f09ec1e5e79d2cdb7c94284a76"
+      },
+      {
+        "path": "results/stage6_v1/end_to_end/pure_window_reconstruction.json",
+        "sha256": "5908ff909953293d3e6236292490c37c4103de98014f036a8979c76eb80d5c96"
+      }
+    ],
+    "circuits": [
+      "results/stage6_v1/legacy_b3/adaptive/cache/88c063317cdb49927a3123e251bdf87919d174faa60d57fcf60d54800a832672.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/6dd5b7e849e33ce6256b74ffe632e8a2da1f1e52d73e8a035e2481791cc299ab.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/352c971597ab2bb7c6e09b20dbb97c621afff845e000d068371ea39dd9507965.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/a9c29daabee149cdac17bb1bebe8f965897854dffd00e6fb2ad6fbbb7596ac2b.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/5c9bcaa86baf87baeea0bdeb4fd88c1c351b1f7a20452c648c7186d345bae89b.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/039c3f5adce547a63b86c970bd54c26aa31306a1f4429ebca4f1720747748d10.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/ff7dcf76f59998aec9cb33694346ca3cbc66c212c9dd86bdf5a1171ecb2e719e.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/e59562d5d8b51421208ba227b43a5d19c6d48d873680d9968696745512a0541f.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/a563febacfa9b91237395a6940c7b53c32c960f54fa73284d9ceb06b232d75b1.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/def40c4bbf3408e8135018812b5422ce7608575fbd7d0b8e122efc28d90ed84f.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/83cb3d8f392bbc07eadd214819f619eff372837d7c18531cca86960a59eb7bf8.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/409d344c63891499ed14081aeb3bd5872ae76a2ed6686d51996881cb799e5b76.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/a5b2100176890bd3d4cfb244379df1ca9fb1cf2ff328d0b5363d45a5c1f04b74.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/10909ea6df4895177116f0094e332a17522db63fb63938de357f7c2ece4b4d0b.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/4ee59cede345d87efadd873f1ecd3f29b78490ac6284584ee7755dd6aca2f767.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/38b4dbaf2f6e416594fb6045a4907b38a40da81bc57334dc3f4e9976df2e8913.npz",
+      "results/stage6_v1/legacy_b3/adaptive/cache/093daee6454b027170a5bae21ed8740505d6d64cda6140a5108a4704a7ddb764.npz"
+    ]
+  }
+}

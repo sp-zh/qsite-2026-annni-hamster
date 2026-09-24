@@ -1,0 +1,204 @@
+{
+  "started_utc": "2026-09-22T04:24:44.061072+00:00",
+  "fingerprint": {
+    "sources": {
+      "configs/stage3_v1.json": "11523a9562c693b55f2370661d197a1677ce8be8c25c2114de266d3f26a38d56",
+      "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+      "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+      "annni/vqe.py": "d2ad75b5625579dd9cd7472a4b7cb1266ab89011aecd0efb7875f8c8adc11f3c",
+      "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+      "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d",
+      "annni/diagnostics.py": "a3dd1553df1080e84c9a87448485d818f2185e8fe85b87f008be4807bb1d4adb",
+      "configs/diagnostics_v1.json": "2bbe641f2639cbd5c28e3c2148f8b2a1674b635a9f8417c360a3c8cfa4da6a6a",
+      "requirements.lock.txt": "4a17ebd6a02afa38831fb15a1d60df23fcb7f3bd62287bc19a0438e014c9235d"
+    },
+    "versions": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "pennylane": "0.44.1",
+      "matplotlib": "3.11.2"
+    },
+    "n": 8,
+    "basis": "wire0 MSB"
+  },
+  "config": {
+    "version": "stage3_v1",
+    "n": 8,
+    "wall_budget_minutes": 90,
+    "model": "periodic H=-sum ZZ_nn+kappa sum ZZ_nnn-h sum X; wire0 MSB",
+    "circuit": "unchanged prepare(): H all; NN ZZ, NNN ZZ, RX; gamma/eta/beta per layer",
+    "compilation": "literal CNOT-RZ-CNOT with target channel after each CNOT; no cancellation including zero angles; NN/NNN directly connected",
+    "thresholds": {
+      "delta_e": 0.001,
+      "epsilon_c": 0.02,
+      "epsilon_sf": 0.02,
+      "epsilon_mx": 0.02,
+      "fidelity": 0.99
+    },
+    "optimizer": "L-BFGS-B",
+    "options": {
+      "maxiter": 2000,
+      "maxfun": 100000,
+      "ftol": 1e-12,
+      "gtol": 1e-08,
+      "maxls": 30
+    },
+    "initialization": "uniform[-0.5,0.5], SeedSequence([seed,round(1000*kappa),round(1000*h),L]); independent chain endpoints",
+    "A": {
+      "target": [
+        0.3,
+        0.4
+      ],
+      "layers": 6,
+      "old_seeds": [
+        11,
+        23,
+        37
+      ],
+      "resume_iterations": 1600,
+      "cold_seeds": [
+        101,
+        211,
+        307,
+        401,
+        503,
+        601
+      ],
+      "continuation_source_h": 0.5,
+      "continuation_path": [
+        0.45,
+        0.4
+      ],
+      "extra_points": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0.8,
+          0.4
+        ],
+        [
+          0.8,
+          0.6
+        ],
+        [
+          0.8,
+          0.8
+        ]
+      ],
+      "extra_modes": [
+        "parameter_resume_old_seeds",
+        "cold_first_three_seeds"
+      ],
+      "max_records": 60
+    },
+    "B": {
+      "points": [
+        [
+          0,
+          0.2
+        ],
+        [
+          0,
+          1.8
+        ],
+        [
+          0.3,
+          0.4
+        ],
+        [
+          0.8,
+          0.2
+        ],
+        [
+          0.8,
+          0.5
+        ]
+      ],
+      "layers": [
+        2,
+        4,
+        6
+      ],
+      "seeds": [
+        101,
+        211,
+        307
+      ],
+      "p": [
+        0,
+        0.01,
+        0.05
+      ]
+    },
+    "C": {
+      "kappa": [
+        0,
+        0.3,
+        0.8
+      ],
+      "h_start": 0.05,
+      "h_stop": 2.0,
+      "h_step": 0.05,
+      "layers": [
+        4,
+        6
+      ],
+      "directions": [
+        "ascending",
+        "descending"
+      ],
+      "seeds": [
+        101,
+        211,
+        307
+      ],
+      "p": [
+        0,
+        0.01,
+        0.05
+      ],
+      "max_alternate_locations": 12
+    },
+    "branch_check_selection": "Before noise: among chosen chain-switch positions, rank opposite-direction pure-state infidelity descending, select at most 12 positions; no tuning on noise",
+    "branch_sensitive_threshold": {
+      "max_c": 0.02,
+      "max_sf": 0.02,
+      "mx": 0.02
+    },
+    "diagnostics": {
+      "prototype": "unchanged configs/diagnostics_v1.json",
+      "smoothing": "none",
+      "interpolation": "none",
+      "difference": "numpy.gradient edge_order=2 on contiguous valid segments length>=3",
+      "min_observable_range": 0.02,
+      "min_peak_prominence": 0.02,
+      "numerical_floor": 1e-09,
+      "peak_stability": "full and every-other-node grid same-feature peak within 0.1 in h; both alternating subsamples checked",
+      "peak_matching": "unique mutual-nearest same observable, max displacement 0.2; overlap of cross-indicator shifts required for claimed displacement",
+      "failure_policy": "Do not differentiate across preparation failure; retain raw records and not_resolved",
+      "peak_width": "half-prominence width in h; not statistical uncertainty"
+    },
+    "grid": {
+      "coverage_threshold": 0.9,
+      "kappa_step": 0.05,
+      "h_start": 0.1,
+      "h_step": 0.1,
+      "h_stop": 2,
+      "p": [
+        0,
+        0.01,
+        0.05
+      ],
+      "selection": "Among qualifying L4/L6 maximize selected joint coverage, then minimize CNOT; no noise-based selection",
+      "optimization": "Reuse exact matching slice selections; other rows use ascending/descending chains, seeds 101,211,307, 2000 iterations, energy-only selection; no threshold relaxation"
+    },
+    "density_backend": "stage3 NumPy full density, literal gate/channel actions; adopt only after full-array cross-check versus PennyLane default.mixed; no symmetry reduction or output projection",
+    "cache": "fingerprint includes model,circuit/compile source,optimizer config,full initial/final parameter hash,p,wire basis,backend versions",
+    "p0_density": "execute identical full-density schedule, including identity channels",
+    "environment_changes": []
+  },
+  "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+}

@@ -1,0 +1,935 @@
+{
+  "full": {
+    "domain": [
+      0.4,
+      0.6,
+      0.01,
+      0.35
+    ],
+    "intersection_area": 0.06799999999999998,
+    "methods": {
+      "B3_0_raw": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.5670955882352944,
+        "MSE_ED_area_weighted": 0.0018473133023707037,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "B3_0_zne_quadratic": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.5670955882352944,
+        "MSE_ED_area_weighted": 0.0018640568241520886,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "B3_0.01_raw": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.5670955882352944,
+        "MSE_ED_area_weighted": 0.015340439272474367,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "B3_0.01_zne_quadratic": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.5670955882352944,
+        "MSE_ED_area_weighted": 0.0030170221460470606,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "B3_0.05_raw": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.5670955882352944,
+        "MSE_ED_area_weighted": 0.08265312526208661,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "B3_0.05_zne_quadratic": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.5670955882352944,
+        "MSE_ED_area_weighted": 0.05959476821586735,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "H6_0_raw": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.7513786764705883,
+        "MSE_ED_area_weighted": 0.0007510185141265152,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "H6_0_zne_quadratic": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.7513786764705883,
+        "MSE_ED_area_weighted": 0.00075637266085588,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "H6_0.01_raw": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.7513786764705883,
+        "MSE_ED_area_weighted": 0.029273033545845324,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "H6_0.01_zne_quadratic": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.7513786764705883,
+        "MSE_ED_area_weighted": 0.006852089407945972,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "H6_0.05_raw": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.7513786764705883,
+        "MSE_ED_area_weighted": 0.1196323673412156,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "H6_0.05_zne_quadratic": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.7513786764705883,
+        "MSE_ED_area_weighted": 0.09849997998581059,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      }
+    }
+  },
+  "low_field": {
+    "domain": [
+      0.4,
+      0.6,
+      0.01,
+      0.35
+    ],
+    "intersection_area": 0.06799999999999998,
+    "methods": {
+      "B3_0_raw": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.5670955882352944,
+        "MSE_ED_area_weighted": 0.0018473133023707037,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "B3_0_zne_quadratic": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.5670955882352944,
+        "MSE_ED_area_weighted": 0.0018640568241520886,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "B3_0.01_raw": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.5670955882352944,
+        "MSE_ED_area_weighted": 0.015340439272474367,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "B3_0.01_zne_quadratic": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.5670955882352944,
+        "MSE_ED_area_weighted": 0.0030170221460470606,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "B3_0.05_raw": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.5670955882352944,
+        "MSE_ED_area_weighted": 0.08265312526208661,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "B3_0.05_zne_quadratic": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.5670955882352944,
+        "MSE_ED_area_weighted": 0.05959476821586735,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "H6_0_raw": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.7513786764705883,
+        "MSE_ED_area_weighted": 0.0007510185141265152,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "H6_0_zne_quadratic": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.7513786764705883,
+        "MSE_ED_area_weighted": 0.00075637266085588,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "H6_0.01_raw": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.7513786764705883,
+        "MSE_ED_area_weighted": 0.029273033545845324,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "H6_0.01_zne_quadratic": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.7513786764705883,
+        "MSE_ED_area_weighted": 0.006852089407945972,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "H6_0.05_raw": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.7513786764705883,
+        "MSE_ED_area_weighted": 0.1196323673412156,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      },
+      "H6_0.05_zne_quadratic": {
+        "requested_coordinates_in_region": 108,
+        "executed_coordinates_in_region": 108,
+        "requested_area": 0.06799999999999998,
+        "executed_area": 0.06800000000000003,
+        "executed_area_fraction": 1.0000000000000009,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": 0.0,
+        "preparation_joint_pass_area_fraction": 0.7513786764705883,
+        "MSE_ED_area_weighted": 0.09849997998581059,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D3": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D4": {
+            "reference_unlabelled": 0.06800000000000003
+          },
+          "D5": {
+            "reference_unlabelled": 0.06800000000000003
+          }
+        }
+      }
+    }
+  },
+  "antiphase_transition_band": {
+    "domain": [
+      0.6,
+      1,
+      0.2,
+      0.7
+    ],
+    "intersection_area": 0.0,
+    "methods": {
+      "B3_0_raw": {
+        "requested_coordinates_in_region": 0,
+        "executed_coordinates_in_region": 0,
+        "requested_area": 0.0,
+        "executed_area": 0.0,
+        "executed_area_fraction": null,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": null,
+        "preparation_joint_pass_area_fraction": null,
+        "MSE_ED_area_weighted": null,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.0
+          },
+          "D3": {
+            "reference_unlabelled": 0.0
+          },
+          "D4": {
+            "reference_unlabelled": 0.0
+          },
+          "D5": {
+            "reference_unlabelled": 0.0
+          }
+        }
+      },
+      "B3_0_zne_quadratic": {
+        "requested_coordinates_in_region": 0,
+        "executed_coordinates_in_region": 0,
+        "requested_area": 0.0,
+        "executed_area": 0.0,
+        "executed_area_fraction": null,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": null,
+        "preparation_joint_pass_area_fraction": null,
+        "MSE_ED_area_weighted": null,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.0
+          },
+          "D3": {
+            "reference_unlabelled": 0.0
+          },
+          "D4": {
+            "reference_unlabelled": 0.0
+          },
+          "D5": {
+            "reference_unlabelled": 0.0
+          }
+        }
+      },
+      "B3_0.01_raw": {
+        "requested_coordinates_in_region": 0,
+        "executed_coordinates_in_region": 0,
+        "requested_area": 0.0,
+        "executed_area": 0.0,
+        "executed_area_fraction": null,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": null,
+        "preparation_joint_pass_area_fraction": null,
+        "MSE_ED_area_weighted": null,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.0
+          },
+          "D3": {
+            "reference_unlabelled": 0.0
+          },
+          "D4": {
+            "reference_unlabelled": 0.0
+          },
+          "D5": {
+            "reference_unlabelled": 0.0
+          }
+        }
+      },
+      "B3_0.01_zne_quadratic": {
+        "requested_coordinates_in_region": 0,
+        "executed_coordinates_in_region": 0,
+        "requested_area": 0.0,
+        "executed_area": 0.0,
+        "executed_area_fraction": null,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": null,
+        "preparation_joint_pass_area_fraction": null,
+        "MSE_ED_area_weighted": null,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.0
+          },
+          "D3": {
+            "reference_unlabelled": 0.0
+          },
+          "D4": {
+            "reference_unlabelled": 0.0
+          },
+          "D5": {
+            "reference_unlabelled": 0.0
+          }
+        }
+      },
+      "B3_0.05_raw": {
+        "requested_coordinates_in_region": 0,
+        "executed_coordinates_in_region": 0,
+        "requested_area": 0.0,
+        "executed_area": 0.0,
+        "executed_area_fraction": null,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": null,
+        "preparation_joint_pass_area_fraction": null,
+        "MSE_ED_area_weighted": null,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.0
+          },
+          "D3": {
+            "reference_unlabelled": 0.0
+          },
+          "D4": {
+            "reference_unlabelled": 0.0
+          },
+          "D5": {
+            "reference_unlabelled": 0.0
+          }
+        }
+      },
+      "B3_0.05_zne_quadratic": {
+        "requested_coordinates_in_region": 0,
+        "executed_coordinates_in_region": 0,
+        "requested_area": 0.0,
+        "executed_area": 0.0,
+        "executed_area_fraction": null,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": null,
+        "preparation_joint_pass_area_fraction": null,
+        "MSE_ED_area_weighted": null,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.0
+          },
+          "D3": {
+            "reference_unlabelled": 0.0
+          },
+          "D4": {
+            "reference_unlabelled": 0.0
+          },
+          "D5": {
+            "reference_unlabelled": 0.0
+          }
+        }
+      },
+      "H6_0_raw": {
+        "requested_coordinates_in_region": 0,
+        "executed_coordinates_in_region": 0,
+        "requested_area": 0.0,
+        "executed_area": 0.0,
+        "executed_area_fraction": null,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": null,
+        "preparation_joint_pass_area_fraction": null,
+        "MSE_ED_area_weighted": null,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.0
+          },
+          "D3": {
+            "reference_unlabelled": 0.0
+          },
+          "D4": {
+            "reference_unlabelled": 0.0
+          },
+          "D5": {
+            "reference_unlabelled": 0.0
+          }
+        }
+      },
+      "H6_0_zne_quadratic": {
+        "requested_coordinates_in_region": 0,
+        "executed_coordinates_in_region": 0,
+        "requested_area": 0.0,
+        "executed_area": 0.0,
+        "executed_area_fraction": null,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": null,
+        "preparation_joint_pass_area_fraction": null,
+        "MSE_ED_area_weighted": null,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.0
+          },
+          "D3": {
+            "reference_unlabelled": 0.0
+          },
+          "D4": {
+            "reference_unlabelled": 0.0
+          },
+          "D5": {
+            "reference_unlabelled": 0.0
+          }
+        }
+      },
+      "H6_0.01_raw": {
+        "requested_coordinates_in_region": 0,
+        "executed_coordinates_in_region": 0,
+        "requested_area": 0.0,
+        "executed_area": 0.0,
+        "executed_area_fraction": null,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": null,
+        "preparation_joint_pass_area_fraction": null,
+        "MSE_ED_area_weighted": null,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.0
+          },
+          "D3": {
+            "reference_unlabelled": 0.0
+          },
+          "D4": {
+            "reference_unlabelled": 0.0
+          },
+          "D5": {
+            "reference_unlabelled": 0.0
+          }
+        }
+      },
+      "H6_0.01_zne_quadratic": {
+        "requested_coordinates_in_region": 0,
+        "executed_coordinates_in_region": 0,
+        "requested_area": 0.0,
+        "executed_area": 0.0,
+        "executed_area_fraction": null,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": null,
+        "preparation_joint_pass_area_fraction": null,
+        "MSE_ED_area_weighted": null,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.0
+          },
+          "D3": {
+            "reference_unlabelled": 0.0
+          },
+          "D4": {
+            "reference_unlabelled": 0.0
+          },
+          "D5": {
+            "reference_unlabelled": 0.0
+          }
+        }
+      },
+      "H6_0.05_raw": {
+        "requested_coordinates_in_region": 0,
+        "executed_coordinates_in_region": 0,
+        "requested_area": 0.0,
+        "executed_area": 0.0,
+        "executed_area_fraction": null,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": null,
+        "preparation_joint_pass_area_fraction": null,
+        "MSE_ED_area_weighted": null,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.0
+          },
+          "D3": {
+            "reference_unlabelled": 0.0
+          },
+          "D4": {
+            "reference_unlabelled": 0.0
+          },
+          "D5": {
+            "reference_unlabelled": 0.0
+          }
+        }
+      },
+      "H6_0.05_zne_quadratic": {
+        "requested_coordinates_in_region": 0,
+        "executed_coordinates_in_region": 0,
+        "requested_area": 0.0,
+        "executed_area": 0.0,
+        "executed_area_fraction": null,
+        "reference_label_area": 0.0,
+        "reference_label_coverage": null,
+        "preparation_joint_pass_area_fraction": null,
+        "MSE_ED_area_weighted": null,
+        "single_rep0_label_area": {
+          "D1": {
+            "reference_unlabelled": 0.0
+          },
+          "D3": {
+            "reference_unlabelled": 0.0
+          },
+          "D4": {
+            "reference_unlabelled": 0.0
+          },
+          "D5": {
+            "reference_unlabelled": 0.0
+          }
+        }
+      }
+    }
+  }
+}

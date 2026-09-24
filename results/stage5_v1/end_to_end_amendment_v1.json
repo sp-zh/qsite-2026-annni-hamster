@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-09-22T17:03:00.943505+00:00",
+  "before_stage5_noisy_evaluation": true,
+  "reason": "Original three slices have kappa<=.8 and therefore contain no antiphase anchors under the already frozen kappa>=.85 rule. Add four descriptive-grid coordinates before noise evaluation, without changing anchor thresholds or selectors.",
+  "additional_coordinates": [
+    [
+      0.9,
+      0.1
+    ],
+    [
+      0.9,
+      0.2
+    ],
+    [
+      1.0,
+      0.1
+    ],
+    [
+      1.0,
+      0.2
+    ]
+  ],
+  "window_extension": "If clean fixed-structure full-observable derivative maximum occurs at an endpoint, expand that end by .1 at step .025 once, for every arm and p; no .0125 optional refinement until this is checked.",
+  "original_plan_unchanged": true
+}

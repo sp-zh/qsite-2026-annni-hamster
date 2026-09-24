@@ -1,0 +1,718 @@
+{
+  "timestamp": "2026-09-23T08:49:47.997069+00:00",
+  "run_id": "stage6_20260922T221830Z",
+  "deadline": "2026-09-23T10:18:30.473067+00:00",
+  "items": [
+    {
+      "name": "candidate_development",
+      "disposition": "newly_executed",
+      "count": 36,
+      "expected": 36,
+      "scope": "Coordinate-seed rows, not number of optimizer initializations. Shared component cache is not counted as new execution.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/domain_wall_candidates/development_101_0_index.json",
+          "sha256": "bda23d48e1492a9a10bb2bf22480b241532c80ad7221150df553ee5020b2dc3e"
+        }
+      ]
+    },
+    {
+      "name": "candidate_validation",
+      "disposition": "newly_executed",
+      "count": 24,
+      "expected": 24,
+      "scope": "Coordinate-seed rows, not number of optimizer initializations. Shared component cache is not counted as new execution.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/domain_wall_candidates/validation_419_0_index.json",
+          "sha256": "f4e34b97aa2ef1d91c0874ee37a2c7a9bddef2a4da6ee633480ca9f1b3510423"
+        }
+      ]
+    },
+    {
+      "name": "candidate_confirmation",
+      "disposition": "newly_executed",
+      "count": 96,
+      "expected": 96,
+      "scope": "Coordinate-seed rows, not number of optimizer initializations. Shared component cache is not counted as new execution.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/domain_wall_candidates/confirmation_631_0_index.json",
+          "sha256": "99d03881931038105d619eab384929b079b6243c2d9711fdd72e70fc30522228"
+        }
+      ]
+    },
+    {
+      "name": "candidate_stability",
+      "disposition": "newly_executed",
+      "count": 24,
+      "expected": 24,
+      "scope": "Coordinate-seed rows, not number of optimizer initializations. Shared component cache is not counted as new execution. These24new rows are seeds743/857 on12coordinates. The full36-row three-seed stability assessment also reuses12seed631confirmation rows, already counted under confirmation.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/domain_wall_candidates/stability_743_0_index.json",
+          "sha256": "865e2368780cfd38625b2d58438224700d7cf0af8d07fe380527c4f1c9664247"
+        },
+        {
+          "path": "results/stage6_v1/domain_wall_candidates/stability_857_0_index.json",
+          "sha256": "a2cdfe78f7d54de97a9bbdddb0da3a0e7cf8db00676b30f429650bc0e1dd78e5"
+        }
+      ]
+    },
+    {
+      "name": "candidate_windows",
+      "disposition": "newly_executed",
+      "count": 102,
+      "expected": 102,
+      "scope": "Coordinate-seed rows, not number of optimizer initializations. Shared component cache is not counted as new execution.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/domain_wall_candidates/windows_631_0_index.json",
+          "sha256": "ca202251ca16ff10f9857b21a9897672e6bf08316fd0d7de38e08e5ced00b723"
+        }
+      ]
+    },
+    {
+      "name": "candidate_low_map",
+      "disposition": "newly_executed",
+      "count": 108,
+      "expected": 108,
+      "scope": "Coordinate-seed rows, not number of optimizer initializations. Shared component cache is not counted as new execution.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/domain_wall_candidates/low_map_631_0_index.json",
+          "sha256": "fa198934301186e5f02a5ec32c37eef1ef394d3199d3d0cfbb53e21b7fc24069"
+        }
+      ]
+    },
+    {
+      "name": "candidate_map",
+      "disposition": "newly_executed",
+      "count": 420,
+      "expected": 420,
+      "scope": "Coordinate-seed rows, not number of optimizer initializations. Shared component cache is not counted as new execution.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/domain_wall_candidates/map_631_0_index.json",
+          "sha256": "b6bb2c479abfd819ea982d53800648616b94dac3a2ab2d75c28bc82c5db70e9b"
+        }
+      ]
+    },
+    {
+      "name": "candidate_n12",
+      "disposition": "newly_executed",
+      "count": 36,
+      "expected": 36,
+      "scope": "Coordinate-seed rows, not number of optimizer initializations. Shared component cache is not counted as new execution.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/domain_wall_candidates/n12_631_0_index.json",
+          "sha256": "2c4b04dff75c4f35db4f806b71479bd1a9501e9016c283fcdcb6de8abaab1aa5"
+        }
+      ]
+    },
+    {
+      "name": "candidate_n12_window",
+      "disposition": "newly_executed",
+      "count": 16,
+      "expected": 16,
+      "scope": "Coordinate-seed rows, not number of optimizer initializations. Shared component cache is not counted as new execution.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/domain_wall_candidates/n12_window_631_0_index.json",
+          "sha256": "ca9f3eb316843acdfa75dc3d73f535d99d3ff1c0b9ce476004fa3ad41dcbe25f"
+        }
+      ]
+    },
+    {
+      "name": "candidate_n12_192",
+      "disposition": "newly_executed",
+      "count": 12,
+      "expected": 12,
+      "scope": "Coordinate-seed rows, not number of optimizer initializations. Shared component cache is not counted as new execution.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/domain_wall_candidates/n12_192_631_0_index.json",
+          "sha256": "f7618de9c58794ffc72b4c987dff327f310843fc10a612af19079cbb8b05ab05"
+        }
+      ]
+    },
+    {
+      "name": "noise_validation",
+      "disposition": "newly_executed",
+      "count": 24,
+      "expected": 24,
+      "scope": "Actual point-level raw measurement indices; estimator details and all incomplete points remain in source records.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/end_to_end/validation_0_index.json",
+          "sha256": "920d4068a447d8c11cfe6f235b18b2a8897ec927407e22786e0e5171554a0ad4"
+        }
+      ]
+    },
+    {
+      "name": "noise_core",
+      "disposition": "newly_executed",
+      "count": 48,
+      "expected": 48,
+      "scope": "Actual point-level raw measurement indices; estimator details and all incomplete points remain in source records.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/end_to_end/core_0_index.json",
+          "sha256": "78843f70d536d4952b59fbaa6da817e828f0bdc26a086210cc60dd02d416cc49"
+        }
+      ]
+    },
+    {
+      "name": "noise_windows",
+      "disposition": "newly_executed",
+      "count": 51,
+      "expected": 51,
+      "scope": "Actual point-level raw measurement indices; estimator details and all incomplete points remain in source records.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/end_to_end/windows_0_index.json",
+          "sha256": "7469779995c1017e6651bfca83d438346417a095eb27eb60ec85b64b23376c9a"
+        }
+      ]
+    },
+    {
+      "name": "noise_confirmation",
+      "disposition": "newly_executed",
+      "count": 96,
+      "expected": 96,
+      "scope": "Actual point-level raw measurement indices; estimator details and all incomplete points remain in source records.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/end_to_end/confirmation_0_index.json",
+          "sha256": "f3622ec192ea57391accc00ba43ed654b11bba46c08f8b32bfd6b16ad8a34f48"
+        }
+      ]
+    },
+    {
+      "name": "noise_low_map",
+      "disposition": "newly_executed",
+      "count": 108,
+      "expected": 108,
+      "scope": "Actual point-level raw measurement indices; estimator details and all incomplete points remain in source records.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/end_to_end/low_map_0_index.json",
+          "sha256": "d8945ef2b24ec5e14a5f2beb8674cd9bbe45124e5eaa1b8072b03b7f75af1369"
+        }
+      ]
+    },
+    {
+      "name": "noise_map",
+      "disposition": "newly_executed",
+      "count": 420,
+      "expected": 420,
+      "scope": "Actual point-level raw measurement indices; estimator details and all incomplete points remain in source records.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/end_to_end/map_0_index.json",
+          "sha256": "ae03e292a1497ca6fe922d78cdaab9d9c928ff4c6c751d051c251d1948d39ae9"
+        }
+      ]
+    },
+    {
+      "name": "noise_n12",
+      "disposition": "newly_executed",
+      "count": 12,
+      "expected": 12,
+      "scope": "Actual point-level raw measurement indices; estimator details and all incomplete points remain in source records.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/end_to_end/n12_0_index.json",
+          "sha256": "39151d67040c5b28f09136b4fb224728cb972d51b76839598c6f473c0628430b"
+        }
+      ]
+    },
+    {
+      "name": "MPS_coarse",
+      "disposition": "newly_executed",
+      "count": 15,
+      "expected": null,
+      "scope": "Actual solver runs including nonconverged continuations; not independent physical coordinates.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/floating_boundary_scan/coarse_index.json",
+          "sha256": "b578ae6a0de99334b7a49b8f525ab869dd9b5b2e85786b7141a1dc149489bcf3"
+        }
+      ]
+    },
+    {
+      "name": "MPS_bounded",
+      "disposition": "newly_executed",
+      "count": 36,
+      "expected": null,
+      "scope": "Actual solver runs including nonconverged continuations; not independent physical coordinates.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/floating_boundary_scan/bounded_index.json",
+          "sha256": "aa17f27ce73e7416f528511172db3fce5851562015c255e82fdc85187c2406f2"
+        }
+      ]
+    },
+    {
+      "name": "MPS_followup",
+      "disposition": "newly_executed",
+      "count": 24,
+      "expected": null,
+      "scope": "Actual solver runs including nonconverged continuations; not independent physical coordinates.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/floating_boundary_scan/followup_index.json",
+          "sha256": "9ba46285d16129c3c490aa437949ffd2fb8ccabbb6697c9ab566fd2cbf76a5f0"
+        }
+      ]
+    },
+    {
+      "name": "MPS_controls",
+      "disposition": "newly_executed",
+      "count": 3,
+      "expected": null,
+      "scope": "Actual solver runs including nonconverged continuations; not independent physical coordinates.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/floating_boundary_scan/controls_index.json",
+          "sha256": "28b8bcea279ccb6e77025094bb666623c6fc8b26082a63877b9f540fcc01329e"
+        }
+      ]
+    },
+    {
+      "name": "MPS_final_continuation",
+      "disposition": "newly_executed",
+      "count": 1,
+      "expected": null,
+      "scope": "Actual solver runs including nonconverged continuations; not independent physical coordinates.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/floating_boundary_scan/final_continuation_index.json",
+          "sha256": "151b75cb5e6482e545842c18771bfbe15387dc846fc2e981c729f6063b90ec2d"
+        }
+      ]
+    },
+    {
+      "name": "MPS_h425_size",
+      "disposition": "newly_executed",
+      "count": 2,
+      "expected": null,
+      "scope": "Actual solver runs including nonconverged continuations; not independent physical coordinates.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/floating_boundary_scan/h425_size_index.json",
+          "sha256": "b247fafe4f74080fe301b0b243c38ecde1b66cc4a452310dc5df27c2dd7b5956"
+        }
+      ]
+    },
+    {
+      "name": "independent_reference",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/reference_atlas/reference_features.csv",
+          "sha256": "b40dc152db87e0df65549b5ac721818c1483f5cc5a843b05aa920c8b56a03e38"
+        }
+      ]
+    },
+    {
+      "name": "analytic_Ising_control",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/reference_atlas/analytic_Ising_reference.json",
+          "sha256": "fbe9e005f0764f085793af22a330a8832ce0791b2bf500130589f21e0860ad13"
+        }
+      ]
+    },
+    {
+      "name": "signed_noise_error_decomposition",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/end_to_end/core_error_decomposition.json",
+          "sha256": "400b8481738b2ea623e4b642d5bd07ce7d02db3ec7975576e5ca2a1aa01599f5"
+        }
+      ]
+    },
+    {
+      "name": "same_coordinate_gate_jump_controls",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/failure_mechanisms/gate_jump_controls.json",
+          "sha256": "418ec6d45377f58362beb2d1b3c9a7e86f55c59d4e076892758725831e82329e"
+        }
+      ]
+    },
+    {
+      "name": "response_endpoint_sensitivity",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/end_to_end/response_robustness.json",
+          "sha256": "c66d0975afcb643fbf3935fd745da0ceabe341f88caaaeca3dfa8b19cc8cb208"
+        }
+      ]
+    },
+    {
+      "name": "paired_search_basis_ablations",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/failure_mechanisms/paired_ablations.json",
+          "sha256": "c55475d5d2d1da0db9e4472d90fad01f60dcee4712b381135229b345cbd7fd90"
+        }
+      ]
+    },
+    {
+      "name": "reference_scope_v4",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/reference_atlas/reference_regions_v4.csv",
+          "sha256": "8dbab9d66e64f78df4f123d83fa72b5c82b70f4e5c0f68349c2a4e4680407b0c"
+        }
+      ]
+    },
+    {
+      "name": "reference_scope_v5",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/reference_atlas/reference_regions_v5.csv",
+          "sha256": "542075f0204e7432beb0045504951089e077ed1b8273b202be747b30dff60e14"
+        }
+      ]
+    },
+    {
+      "name": "reference_scope_v6",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/reference_atlas/reference_regions_v6.csv",
+          "sha256": "bf0f907336031f6bf06051c433f577c7391588126b7d490d672a2ad521025a66"
+        }
+      ]
+    },
+    {
+      "name": "failure_attribution",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/failure_mechanisms/attribution_v2.json",
+          "sha256": "036aed4f9a2d8eeb97b6e16c97e0f4b2409ea9b9328ec5dedef71352345e0299"
+        }
+      ]
+    },
+    {
+      "name": "offline_translation_sector_diagnostic",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/failure_mechanisms/translation_sector_diagnostic.json",
+          "sha256": "94498e6c01919c62ef03c224bbfd7f8f4794d909344fbdbb2f39dc6d5a2f1449"
+        }
+      ]
+    },
+    {
+      "name": "literal_reference_translation_controls",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/failure_mechanisms/reference_translation_controls.json",
+          "sha256": "565400b129afc5e3d38471b8f3e2e114c87fba38a832bd377ee80d47ee728c08"
+        }
+      ]
+    },
+    {
+      "name": "N12_actual_density_cost",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/n12_transfer/density_actual_cost.json",
+          "sha256": "796a798e5bd11ab669ce5d1995e1aa0fa90b7b54d39d911c8ff7b21905607503"
+        }
+      ]
+    },
+    {
+      "name": "N12_noise_scope",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/n12_transfer/noise_scope_interpretation.json",
+          "sha256": "a4605360d115c3292186d803ebedc552063ed9d971d8ffd03198e188c85b3f2a"
+        }
+      ]
+    },
+    {
+      "name": "N12_same_coordinate_budget_comparison",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/n12_transfer/paired_budget_128_192.json",
+          "sha256": "6b250db7f95a342f8bf38a01d0ba44ae1a6dd534214caf9ba535c51bb279fe44"
+        }
+      ]
+    },
+    {
+      "name": "binary_identifiability",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/noise_diagnosability/identifiability.json",
+          "sha256": "9403264264d97cfe7320d938eb22c8f22757fd046053e732d0a082e94b89fd37"
+        }
+      ]
+    },
+    {
+      "name": "cross_structure_information",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/noise_diagnosability/same_coordinate_cross_structure.json",
+          "sha256": "d303a9da5c6a2896e57858de85b2e13427f1169465d4b92ccca4682f12843f71"
+        }
+      ]
+    },
+    {
+      "name": "RN_boundary_reconstruction",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/end_to_end/boundary_coverage.json",
+          "sha256": "d9df6e52d15a7420ec175d051ad086146c7a2fc46fe90cba8c8413adc847886c"
+        }
+      ]
+    },
+    {
+      "name": "ideal_ED_detector_response_control",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/end_to_end/ideal_ED_detector_boundaries.json",
+          "sha256": "f1851a657fda6267893261550904c8a538b1716eac0f4df1c4c5f9aa5b2a7d2f"
+        }
+      ]
+    },
+    {
+      "name": "detector_boundary_physical_denominators",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/end_to_end/detector_boundary_coverage.json",
+          "sha256": "8fc6b232f3e8990b898742351785e045356d68c40cee3ea95123ad8de59295b9"
+        }
+      ]
+    },
+    {
+      "name": "floating_evidence_v2",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/floating_boundary_scan/interval_evidence_v2.json",
+          "sha256": "70f92e7cb444d2d80f1eb35d84a0cc33c106e6d220f31ee828db3ccca4c0bc25"
+        }
+      ]
+    },
+    {
+      "name": "floating_evidence_v3",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/floating_boundary_scan/interval_evidence_v3.json",
+          "sha256": "497476c3ac29c52e1b4c83ee99fb9322857b844d88f5247852c8fba838fca0bd"
+        }
+      ]
+    },
+    {
+      "name": "floating_evidence_v4",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/floating_boundary_scan/interval_evidence_v4.json",
+          "sha256": "6fc20894328d3d56123b91151b424f0bd3a99a73df07ed5a1e86934e9de823f9"
+        }
+      ]
+    },
+    {
+      "name": "floating_criterion_explanation_v3",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/floating_boundary_scan/evidence_bottlenecks_v3.json",
+          "sha256": "0492bcaf3b3305e0eb0c11844d49b6f59ff9592547b7597b51ca32c55750e73a"
+        }
+      ]
+    },
+    {
+      "name": "floating_criterion_explanation_v4",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/floating_boundary_scan/evidence_bottlenecks_v4.json",
+          "sha256": "fa6ca12bc415ed9e9c2c30cecf7706e351178e561656f34b9e026fc5540d2617"
+        }
+      ]
+    },
+    {
+      "name": "full_tests",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/verification/tests_full_final.log",
+          "sha256": "e543352bc69f26a109561e547095fb3b62098e6e8e3a5347c20dd62aaf3580aa"
+        }
+      ]
+    },
+    {
+      "name": "protected_inputs",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/verification/protected_inputs_verified.json",
+          "sha256": "0a9d56232e83acb422d7c777e370330919f49dd56bfefb354f68e5596e0703fd"
+        }
+      ]
+    },
+    {
+      "name": "scientific_payload_hashes",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/verification/artifact_hash_verification.json",
+          "sha256": "334f8c79134c39907e6bfd376bebd111f85167034fb8fc6ccb5c7a2927850adf"
+        }
+      ]
+    },
+    {
+      "name": "numerical_completion",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/verification/numerical_completion.json",
+          "sha256": "1e8f5f6745bf7b552993e2c3aed5dbd32cee3305d4d2f6c91ca0b89aab8dc235"
+        }
+      ]
+    },
+    {
+      "name": "final_pdf_review",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/verification/pdf_review_final.json",
+          "sha256": "d2347a178d0570f718d1d1e2f4fe2764dc428c0083501f2fc11ca0e3800ac285"
+        }
+      ]
+    },
+    {
+      "name": "executed_notebook",
+      "disposition": "newly_executed",
+      "count": null,
+      "expected": null,
+      "scope": "Derived analysis/verification may be a partial snapshot while numerical queues are active; inspect source counts and timestamps.",
+      "sources": [
+        {
+          "path": "results/stage6_v1/report/stage6_research.ipynb",
+          "sha256": "3750b3eaa62e4ea10de7d1d7b67af1362fa72562fa7f6014683de504ae27e996"
+        }
+      ]
+    }
+  ],
+  "historical_reused": {
+    "base": "deliverables/annni_stage5_v1.zip",
+    "scope": "Original B0/B3/B5 data, baseline ED and upstream; reuse is explicitly tagged in point indices and never counted as a new state optimization."
+  },
+  "interpretation": "Existence is not scientific completion. Expected counts, physical denominators and failed runs must be read together. This inventory is generated from actual source indices, not report claims."
+}

@@ -1,0 +1,6 @@
+47752 33729    06:26:35   0.0   1408 /usr/bin/caffeinate -i -t 29400
+62866 33729    02:45:11   0.0   2432 /usr/bin/caffeinate -d -i -m -s -t 28800
+63069 33729    02:43:33   0.0  24464 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_h425_size_check.py
+78602 63069       01:35  98.5 799792 .venv-tn/bin/python scripts/run_stage6_mps_bounded.py --jobfile results/stage6_v1/floating_boundary_scan/h425_size_jobs/de6625b5c45d7e4f8ad97e31cda6ea952db6f2c1b4e9daa8950fc2e9d744631f.job.json
+78645 33729       00:00   0.0   2320 /bin/zsh -c ps -axo pid,ppid,etime,%cpu,rss,command | rg '(run_stage6|caffeinate)' > results/stage6_v1/verification/resource_snapshot_0833.txt
+78647 78645       00:00   0.0    656 rg (run_stage6|caffeinate)

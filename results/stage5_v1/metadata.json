@@ -1,0 +1,293 @@
+{
+  "run_id": "stage5_20260922T165220Z",
+  "started": "2026-09-22T16:52:20.095585+00:00",
+  "snapshot_time": "2026-09-22T20:32:58.064996+00:00",
+  "deadline": "2026-09-23T04:52:20.095585+00:00",
+  "wall_elapsed_seconds": 13237.969411,
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.5",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pennylane": "0.44.1",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "code_hashes": {
+    "annni/stage5_selection.py": "c2b7d909917fc33a9175cb04b0fce8947f440c4bcdf376f6b7b72682d8b9630a",
+    "annni/stage5_s0.py": "168a316976024c24696460d68df5105a4c98a1f4c53693a806dd3d4aa73d1444",
+    "annni/stage5_adapt.py": "c5e4409e2bba5213d48abde618187ec2bb82f6721539a981c027cfeaa1b666fa",
+    "annni/stage5_noise.py": "a7c8fe9005842f6608bc7297e863082dcfedc8516143e07cae5983b4136170ef",
+    "annni/stage5_e2e.py": "c108b41cc983faa580eaf092e142cc43316f72fdb8645ae5f2ca7a9044fa8022",
+    "annni/stage5_baseline_selectors.py": "ed900b54af3dc5f58c481b546bcf51dd00d61ab06df27329ed3c749a3d07a11b",
+    "annni/stage5_e2e_n12.py": "794092d3b13797140a52abdb7b10d899f38b386e48909ee79358df3a6b6bd068",
+    "annni/stage5_hva_baseline.py": "7dac24074bd198359b0bc7a93f66740e15bbe6be253da5acf5060715e72d8efe",
+    "annni/stage5_measurement_groups.py": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+    "scripts/reproduce_stage5.sh": "afaa3d8bf512607905cf0ea3df9ea5f8b9c44a671d708841faf2873451043b44",
+    "scripts/analyze_stage5_counterexample.py": "047580527ae1c794bf17689abc4748fd532abf7227b7dad0651149ccb2fe51f6",
+    "scripts/analyze_stage5_n12.py": "18d1639fef9d1173675afbf53f058b07db842ced03e60dae16c8f0462bce0bd2",
+    "scripts/run_stage5_n12_tail.py": "850c7f759e9ff9119b28febb3f8d49199a8cac224c7c98cd8689d5328778303c",
+    "scripts/analyze_stage5_windows_refined.py": "fe73ebac16b16cf58c68f993f13776003cbb7fb66dac015884a3e0ffd23436df",
+    "scripts/freeze_stage5_selector.py": "80eb671c71c17f515e97054dd9e0fcd81381bfc4777ed146c827032a6d28f7df",
+    "scripts/init_stage5.py": "ed225c9dccc28adb043247a9bcb5cf274a4bea31a76492dbfe900d7f9cc7d3eb",
+    "scripts/verify_stage5_fits.py": "1b176c48242d0bed2c48d080fc22886d1854c392b01335a9b88ebbcc4e8ab410",
+    "scripts/freeze_stage5_mitigation.py": "e81b7445a26df22f6ad05d0011d8c9ad16c5464562df15101eb3a5ad41769f66",
+    "scripts/complete_stage5_exports.py": "83e56fea4dfce2296cc857b62173efe7c94737dd8486863eedfb9e47d90710af",
+    "scripts/build_stage5_submission.py": "e50b19cf44887072aa4d353173b1fc0ec29e23881c9efb29495029e2a14c98cd",
+    "scripts/analyze_stage5_floating.py": "b5e102b2f8d4e6f7cc3b222ab0b789e2bf6b3f46ce8a4dedf9b594fc47e1b02f",
+    "scripts/plot_stage5.py": "ed0bd764631e574903424ba720a0a137ff0d63c4b4a6dd5851f3904e9799e216",
+    "scripts/run_stage5_n12_noise.py": "99cd679f24e9ed36d738df0d1e3972708ecfa876c844e3de3ed3756c031bb355",
+    "scripts/run_stage5_branches.py": "3b78535e052390844673397e9bfbefee770d710f477f652d313e7ec7d89f97e6",
+    "scripts/run_stage5_refined_candidates.py": "3d764dbb9e32028924cbe7695c49453a8d5e7935fcb5527f477c45b55c2ede83",
+    "scripts/verify_stage5_sampling.py": "a59b6dd09ac2c0ac0b73b10a4890f3ea81ca4e4be1cd5675da7beaa14a1fd545",
+    "scripts/analyze_stage5_physical_ranges.py": "6687dfc302640deab804e78c918fa23dfe981e8a59168465b69eb7760aaa39f4",
+    "scripts/run_stage5_floating.py": "5ff1af20a60648c63f02ecd4941a365469de8a8b795ab181cb673b012f1b3b62",
+    "scripts/run_stage5_map_noise.py": "4a7c05693b92c2cf27a29feb8c29cea7b4d00bc7dbb848a29e785c0749de0bfb",
+    "scripts/analyze_stage5_windows.py": "0e2196f1ffb34c079d55f33f5e35d2e525a3a5208c876264ef0792c0142571dc",
+    "scripts/analyze_stage5_map.py": "4edb088b41cc1c47699abb6d67d20d3e57df2b731176fb9ef1f22fea08bde483",
+    "scripts/analyze_stage5_grid.py": "d816a3a98c5833a4fc449f617164f66fb3be4063051ca78afaea5ccdf32aa30e",
+    "scripts/verify_stage5_measurement_reuse.py": "4ce4352bed0dfa5fc061c38714635b45023727fff6bcfb5eb897fc684e6004e9",
+    "scripts/run_stage5_e2e_n12.py": "c9a4ae9f182d9cf6e0efd86e3227c14e2c2955123e12c880f323302345e5f246",
+    "scripts/analyze_stage5_size_extension.py": "de800f851d2eceba1dcea38ed3acca6d76962ed8d62989b20969fdbf7f44b022",
+    "scripts/verify_stage5_tn_environment.py": "2e2ceb087b8e1082e0dbafa0fb4f3313dffe1fb7fee3b153a8bba8da3a0bc71b",
+    "scripts/correct_stage5_s0.py": "acac1cd4aa501a2bf3cf86a52eb088fdb6465ea7f240f8e68ed49306034b17b0",
+    "scripts/run_stage5_e2e_refined.py": "5ad2e24010ce66e77a4a476a001299e89ec2358a1cbe531e00aa149878124cc1",
+    "scripts/build_stage5_slides.py": "2fc2c636656861eee31f75d8ac976cebf83bc6d3c52d0a621c390157966d31d4",
+    "scripts/stage5_metadata.py": "a4d30d702f249c1822d37d1578100567117f4e1b603f6ae15c70546b0a0785a9",
+    "scripts/analyze_stage5_results.py": "3e1ee2318986d3501549a83f3754b31962717095bac83feceb295784b264f76f",
+    "scripts/run_stage5_size_extension.py": "44b0721cb01348b0d8267b7bedc8f540f3c6f90fa098d03faff5a3130591fc9c",
+    "scripts/run_stage5_dynamics.py": "7668872992425ec8fbf8d1a31f48aaf76efc4ce56ec2d388347050dd8962a0b6",
+    "scripts/run_stage5_mps_followups.py": "553dfd3c68e64928612b4ba58ae4966fa1a3b0fe58296a775c824ccc8e44bfc3",
+    "scripts/run_stage5_e2e_full.py": "d68d397428254000bc8bd3999e92d1be4d6f971563bf1e285b47754953e55c29",
+    "scripts/analyze_stage5_fixed.py": "a45a736a493a36098c50b4b53c48ce1669c1014bbd7fd5532ca7d586bdaebd37",
+    "scripts/run_stage5_candidates.py": "2005800297688a29c7ddf6be810a47a2e306c4a8b09dfd149f5b0194d40cf14c",
+    "scripts/analyze_stage5_full_measurements.py": "445f7ffb106b9133efab7e9f30b4556d07bfbd1d033203c7548b33b2cd3066a9",
+    "scripts/run_stage5_full_raw_shots.py": "a724658cdb6b1af79753ed82a659a45b409bf8fef7139490ba9afd9d488e2df3",
+    "scripts/package_stage5.py": "e620872b1535c7f79e6be26a9b91ef6050e150b0276bf56845b109dfdab0bc91",
+    "scripts/run_stage5_branches_refined.py": "2be106b03df32520952fcccd205cccea046a4e7bf26d29c6c63ea775d8b67202",
+    "scripts/analyze_stage5_audit_details.py": "d6e89730f162d822546796055faa3dcfdd8347af4b889b2b9bbc3c718bcf4553",
+    "scripts/run_stage5_pipeline.py": "22e110daa5a8bd6d5f5c83cbe6488cec78f2a2bc7ebc6aa1747187a3cfd79326",
+    "scripts/stage5_status.py": "e92af32f856417624a0223366e04578329dda8b76ec56864030ecb0ce67116d4",
+    "scripts/analyze_stage5_measurement_cost.py": "9dca36e9c83f1d93662dede0e635c7f048149ecd8e376592c978dd2e8d3c5286",
+    "scripts/analyze_stage5_dynamics.py": "98753b92b0d206f3ffd866455526c9e23ac65d50bf6c97f1aec9b0881fdf8957",
+    "scripts/export_stage5_map.py": "77871262cb1bcbc4c6ee656e1deea643c4d14b3d5e076af82f6f7be76470ad40",
+    "scripts/finalize_stage5.py": "42113d2f4190deeea961bf108c37d27fa4642c3ecdf0e9a984f1d0a06b2ebedd",
+    "scripts/verify_stage5.py": "11120e0a15060a852831a41020ea48f3546e1722a0d47151b2ea9dc6047d62fb",
+    "scripts/freeze_stage5_n12_detection.py": "c17db668e1613ed3c35197d346cf06cc62fe292c8d69f7776b777ce61ef676dd",
+    "scripts/run_stage5_e2e.py": "cff819054254ef4f2ffb336dbb68c01a401619ce5ca14ced85048f59c585ff95",
+    "scripts/run_stage5_finalize_queue.py": "b0e7f95a35d29ccbe3291570e77d36df9b2cf2a68d98e4a9adfd99cc1ea44e31",
+    "scripts/audit_stage5_hva_legacy.py": "fffc9de8a52c84f9b17e057db516872b55c464517d7c232339af0b4f1a4405fd",
+    "scripts/run_stage5_chi512.py": "a8eb69e353f3c7332cd52f8e2c9f58c4293567e1125c98062207ebd231c8545f",
+    "scripts/analyze_stage5_reoptimization.py": "21ce57be0ca8e6c4e2ede9986c90622fa1e093aa180c41ddec96e3da54b49c98",
+    "scripts/run_stage5_n12_mid.py": "c40135b84a4da986d83c325938bb2b71681c29ab265edcfc25538334b3b30c81",
+    "scripts/render_stage5_pdf.py": "27c86b07238cb5862e81d158a2d04a199b839ff33acd208b645aeb6d9e61c7c1",
+    "scripts/run_stage5_n12_gap.py": "5a2ad0b11ad20d8da7a9cd77464e15ea3a895d19ae4d80d385859207242bfa4c",
+    "scripts/analyze_stage5_audit.py": "0fedd0071e38f500a715d5a1f63715c9a2458bec460b0ff89872c6c236f25022",
+    "scripts/run_stage5_fixed_shots.py": "96a647ef3d302359e38e75ae6822c14e1e07dc1db3d4060a6423ba58a8cebade",
+    "tests/test_stage5.py": "ceaf296ac763155035d9b46e1b3f7f2fb4333ff7e4ea18ea85cd512ee088da64",
+    "configs/stage5_v1.json": "f25d11e847e5ff2936c82dd8323fb204ce2a13a2f3f59afa8a6f282e65a9f23b"
+  },
+  "plan_sha": "f25d11e847e5ff2936c82dd8323fb204ce2a13a2f3f59afa8a6f282e65a9f23b",
+  "selector_sha": "8663ae5b91773e47a10940f21df1191c2f5712f0cff7e3b965811c83a9619445",
+  "protected_inputs_manifest": "f3c1d5b63a8a8162a4a3ce952f81d4b06c5972c70ce7dfaffb638b1cf2f0c5ae",
+  "new_adaptive_runs": 861,
+  "optimization_campaign_rows": 1098,
+  "all_optimizer_invocations": 51412,
+  "adaptive_call_seconds": 14108.041933792178,
+  "all_optimizer_call_seconds": 14153.645034583984,
+  "mps_checkpoint_count": 43,
+  "mps_checkpoint_bytes": 2607428771,
+  "model": "PBC circuit N8/N12; OBC MPS; J1=1; wire0 MSB; squared fidelities; h>0",
+  "noise": "Target-only channel after every literal CNOT, including references and folding, same ideal parameters across p",
+  "access": "S2 ideal-state assisted design; D2 full-density simulator cross-check not charged as simple local shot measurement",
+  "independence": "Three distinct reference starts at common fixed seed11; not three independent random-seed replications. 128/192 share deterministic seed and prefix.",
+  "failures_preserved": true,
+  "source_disposition": "Each cache metadata differentiates historical_reused and newly_executed; no unavailable result fabricated",
+  "phase_costs": {
+    "noise": {
+      "new_records": 2652,
+      "summed_call_wall_seconds": 5251.331126748235,
+      "historical_reuse_records": 408
+    },
+    "measurement_probabilities": {
+      "new_records": 5814,
+      "summed_call_wall_seconds": 3870.120679377753,
+      "historical_reuse_records": 0
+    },
+    "dynamics": {
+      "new_records": 72,
+      "summed_call_wall_seconds": 129.5152728818939,
+      "historical_reuse_records": 0
+    },
+    "mps_main": {
+      "new_records": 39,
+      "summed_call_wall_seconds": 8738.73721092107
+    },
+    "mps_followups": {
+      "new_records": 2,
+      "summed_call_wall_seconds": 369.9001045000041
+    },
+    "measurement_implementation_crosscheck": {
+      "recorded_wall_seconds": 236.66062366694678,
+      "scope": "Additional simulator validation cost; no generated hardware shots or extra physical circuit executions."
+    }
+  },
+  "timing_limits": "Recorded section times overlap across processes and are not CPU time or total run wall time. Noise records time density evolution only; observation extraction, compression and orchestration are covered by overall elapsed time, not that kernel sum. Standalone selector timing was not separately instrumented; task progress logs provide elapsed checkpoints. Archive verification/export/packaging timing recorded separately.",
+  "measurement_probability_optimization_pilot": {
+    "passed": true,
+    "timestamp": "2026-09-22T19:52:39.410876+00:00",
+    "n": 12,
+    "source": "results/stage5_v1/noise/cache/ff897b61bb75935554390a82f7107d6a4886e195aca38467c97d8d15cbeb2432.npz",
+    "source_sha": "25d5094bb8dce46da619ad4eddbb7be11ad88e27cc03b4e936fce71ba70b6e22",
+    "old_implementation_sha": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+    "new_implementation_sha": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+    "settings": 68,
+    "max_absolute_probability_difference": 1.3010426069826053e-18,
+    "literal_rotation_seconds": 210.6376962499926,
+    "reused_representation_seconds": 26.02292741695419,
+    "speedup": 8.094312099289802,
+    "process_peak_rss_bytes": 1659387904,
+    "scope": "Classical simulator probability calculation only; exactly the same physical basis rotations, joint outcomes, CNOT/noise/shot budgets and sampling order. Pilot extra cost retained."
+  },
+  "failed_preparation_counts": [
+    {
+      "task": "map",
+      "rule": "S0",
+      "failed": 35,
+      "total": 420
+    },
+    {
+      "task": "map",
+      "rule": "S1",
+      "failed": 32,
+      "total": 420
+    },
+    {
+      "task": "map",
+      "rule": "S2",
+      "failed": 32,
+      "total": 420
+    },
+    {
+      "task": "map",
+      "rule": "B5",
+      "failed": 32,
+      "total": 420
+    },
+    {
+      "task": "test",
+      "rule": "S0",
+      "failed": 12,
+      "total": 72
+    },
+    {
+      "task": "test",
+      "rule": "S1",
+      "failed": 10,
+      "total": 72
+    },
+    {
+      "task": "test",
+      "rule": "S2",
+      "failed": 10,
+      "total": 72
+    },
+    {
+      "task": "test",
+      "rule": "B5",
+      "failed": 10,
+      "total": 72
+    },
+    {
+      "task": "n12test",
+      "rule": "S0",
+      "failed": 14,
+      "total": 24
+    },
+    {
+      "task": "n12test",
+      "rule": "S1",
+      "failed": 15,
+      "total": 24
+    },
+    {
+      "task": "n12test",
+      "rule": "S2",
+      "failed": 13,
+      "total": 24
+    },
+    {
+      "task": "n12test",
+      "rule": "B5",
+      "failed": 13,
+      "total": 24
+    },
+    {
+      "task": "n12_192",
+      "rule": "S0",
+      "failed": 16,
+      "total": 84
+    },
+    {
+      "task": "n12_192",
+      "rule": "S1",
+      "failed": 16,
+      "total": 84
+    },
+    {
+      "task": "n12_192",
+      "rule": "S2",
+      "failed": 15,
+      "total": 84
+    },
+    {
+      "task": "n12_192",
+      "rule": "B5",
+      "failed": 15,
+      "total": 84
+    },
+    {
+      "task": "windows",
+      "rule": "S0",
+      "failed": 9,
+      "total": 43
+    },
+    {
+      "task": "windows",
+      "rule": "S1",
+      "failed": 9,
+      "total": 43
+    },
+    {
+      "task": "windows",
+      "rule": "S2",
+      "failed": 9,
+      "total": 43
+    },
+    {
+      "task": "windows",
+      "rule": "B5",
+      "failed": 9,
+      "total": 43
+    }
+  ],
+  "retry_campaigns": 15,
+  "input_hash_policy": "All historical scientific inputs are frozen in verification/protected_inputs.json; cache keys include physical gates/parameters, model/backend hashes, and frozen software environment is checked before verification/resume.",
+  "cache_corrections": [
+    "verification/s0_compatibility_corrections.json",
+    "verification/hva_cache_correction.json"
+  ],
+  "sampling_policy": "All archived measurement records include superseded B0 comparisons; costs preserve those actually executed records. Current-analysis membership is explicit in end_to_end/measurement_cost_audit.json. Statistical shots are classical samples from exact probabilities, not hardware calls.",
+  "sampled_shots_all_archives": 16241280000,
+  "not_implemented": [
+    "Hardware translation-projector measurement; S2 remains simulator-state-assisted",
+    "Thermodynamic phase-boundary certification or full N12 noisy map"
+  ],
+  "artifact_qa_records": [
+    "submission/notebook_execution.json",
+    "submission/presentation_visual_qa.json",
+    "submission/export_status.json"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "B3": "Exact Stage4 growth/stopping and corrected two-stage energy/resource selection; freshly run on new coordinates in legacy_b3; old grid may reuse actual archives",
+  "C0": "Additional matched-effort physical-pool greedy control: Stage6 tighter growth stopping, energy tolerance1e-6, same optimizer budget as C1/C2/C3. Not relabeled historical B3.",
+  "C1": "Same matched physical control with top4 short optimized proposals",
+  "C2": "Domain-wall basis plus greedy with matched stopping",
+  "C3": "Domain-wall basis plus top4 proposals",
+  "candidate_generation_ED_access": false,
+  "oracle_fidelity_fits": "Separate B-expressivity only <=12 development points"
+}

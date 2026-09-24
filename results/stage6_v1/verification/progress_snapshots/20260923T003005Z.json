@@ -1,0 +1,60 @@
+{
+  "time": "2026-09-23T00:30:05.052117+00:00",
+  "deadline": "2026-09-23T10:18:30.473067+00:00",
+  "elapsed_seconds": null,
+  "progress": {
+    "progress_queue": {
+      "time": "2026-09-22T23:44:43.456172+00:00",
+      "completed": "oracle",
+      "next_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python scripts/run_stage6_research_queue.py"
+    },
+    "progress_candidates_development": {
+      "time": "2026-09-22T23:34:57.348458+00:00",
+      "completed": 36,
+      "next_command": ".venv/bin/python scripts/run_stage6_candidates.py --task development --start 0 --seed 101",
+      "last_index": 35
+    },
+    "progress_atlas": {
+      "time": "2026-09-22T22:19:44.801300+00:00",
+      "completed": 144,
+      "next_command": ".venv/bin/python scripts/run_stage6_atlas.py --sizes 16",
+      "n": 16,
+      "kappa": 0.8
+    },
+    "progress_mps_refined": {
+      "time": "2026-09-22T22:41:37.282715+00:00",
+      "completed": 6,
+      "next_command": ".venv-tn/bin/python scripts/run_stage6_mps.py --task refined"
+    },
+    "progress_mps_bounded": {
+      "time": "2026-09-23T00:26:54.379283+00:00",
+      "completed": 35,
+      "next_command": ".venv-tn/bin/python scripts/run_stage6_mps_bounded.py",
+      "running_job": {
+        "n": 128,
+        "k": 0.8,
+        "h": 0.325,
+        "chi": 256,
+        "initial": "plus",
+        "resume": "results/stage6_v1/floating_boundary_scan/cache/6660266ad612b23194a11c692bf75e8c4bba0ffcdf75a14876c15ed33db6e813.pkl"
+      }
+    },
+    "progress_candidates_validation": {
+      "time": "2026-09-23T00:28:51.148026+00:00",
+      "completed": 21,
+      "next_command": ".venv/bin/python scripts/run_stage6_candidates.py --task validation --start 0 --seed 419",
+      "last_index": 20
+    },
+    "progress_mps_coarse": {
+      "time": "2026-09-22T22:25:26.740939+00:00",
+      "completed": 15,
+      "next_command": ".venv-tn/bin/python scripts/run_stage6_mps.py --task coarse"
+    }
+  },
+  "process_snapshot": [
+    "[Errno 1] Operation not permitted: 'ps'"
+  ],
+  "remaining_seconds": 35305.42095,
+  "resource_policy": "At most two heavy workers; BLAS/OMP one thread. 6GiB working-memory budget, not OS-enforced.",
+  "continuation": "See each progress record exact next_command; queues are active only while this agent session remains running."
+}

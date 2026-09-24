@@ -1,0 +1,7310 @@
+{
+  "n": 12,
+  "kappa": 0,
+  "h": 0.1,
+  "group": "n12_192",
+  "candidates": [
+    {
+      "words": [],
+      "params": [],
+      "reason": "reference",
+      "optimizer_success": true,
+      "cnots": 0,
+      "gate_count": 12,
+      "unitary_depth": 1,
+      "target_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cnot_order": [],
+      "energy": -1.2000000000000115,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 0.902501566421598,
+      "epsilon_c": 0.9974952928611063,
+      "epsilon_sf": 0.9143671462320463,
+      "epsilon_mx": 0.9499372643950956,
+      "fidelity": 0.0008901529195850953,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 0.9999999999999999,
+      "w_plus": 1.0,
+      "T_real": 0.9999999999999999,
+      "T_imag": 0.0,
+      "eta_T": 1.1102230246251565e-16,
+      "w0": 0.9999999999999999,
+      "w_plus_0": 0.9999999999999999,
+      "variance": 11.999999999999911,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "plus",
+      "seed": 11,
+      "uid": "57a86607c49d4bcc66bfff805791d140f321fd09a9d9dca79487732610cefaf2",
+      "source": "results/stage5_v1/adaptive/cache/72f4f63248f3adf57bae5f0709fc629132abdf812e0d04e1b202da60511e24b2.json",
+      "source_sha": "b701abe4ac4149de4a78e82729693b8d40aaad75ea72152536c557b7379151d4",
+      "checkpoint": 0,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    {
+      "words": [
+        "IIIIIZYIIIII",
+        "IIIZYIIIIIII",
+        "IIIIIIIZYIII",
+        "IIIIIIIIIIYZ",
+        "YZIIIIIIIIII",
+        "IIYZIIIIIIII",
+        "IIIIIIIIIYZI",
+        "IIIIIIZXYIII",
+        "YXZIIIIIIIII",
+        "IIIIIIIIZYII",
+        "ZIIIIIIIIIYX",
+        "IIIIZYIIIIII",
+        "IIIIIIIZYIII"
+      ],
+      "params": [
+        -0.3789351024832234,
+        -0.7487814558452641,
+        -0.7603729882657589,
+        -0.7602927588392483,
+        -0.7604188654040935,
+        -0.7817015137555778,
+        -0.00012642121273730188,
+        -0.748727659147747,
+        -0.7850154246473102,
+        -0.735228855120357,
+        -0.7828709364227912,
+        -0.3789703439425054,
+        0.02505474092404176
+      ],
+      "reason": "budget_checkpoint_32",
+      "optimizer_success": true,
+      "cnots": 32,
+      "gate_count": 89,
+      "unitary_depth": 20,
+      "target_counts": [
+        0,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6,
+        2,
+        4,
+        4
+      ],
+      "cnot_order": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "energy": -10.071578227541707,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 0.16320338079312333,
+      "epsilon_c": 0.7483950731699038,
+      "epsilon_sf": 0.4641939611781616,
+      "epsilon_mx": 0.027909100105374667,
+      "fidelity": 0.4978370775945109,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 0.9999999999999932,
+      "w_plus": 0.9999999999999967,
+      "T_real": 0.5119432246909018,
+      "T_imag": 0.0,
+      "eta_T": 0.4880567753090982,
+      "w0": 0.5425837249208711,
+      "w_plus_0": 0.5425837249208711,
+      "variance": 3.8370309301533467,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "plus",
+      "seed": 11,
+      "uid": "7490dd05c3a2d249876bf9290169decab3be625fe9471cbae1b05d9d3b7d7d2b",
+      "source": "results/stage5_v1/adaptive/cache/72f4f63248f3adf57bae5f0709fc629132abdf812e0d04e1b202da60511e24b2.json",
+      "source_sha": "b701abe4ac4149de4a78e82729693b8d40aaad75ea72152536c557b7379151d4",
+      "checkpoint": 1,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    {
+      "words": [
+        "IIIIIZYIIIII",
+        "IIIZYIIIIIII",
+        "IIIIIIIZYIII",
+        "IIIIIIIIIIYZ",
+        "YZIIIIIIIIII",
+        "IIYZIIIIIIII",
+        "IIIIIIIIIYZI",
+        "IIIIIIZXYIII",
+        "YXZIIIIIIIII",
+        "IIIIIIIIZYII",
+        "ZIIIIIIIIIYX",
+        "IIIIZYIIIIII",
+        "IIIIIIIZYIII",
+        "IIIIIIIIIYZI",
+        "IIIIIIIIIIYZ",
+        "YIZIIIIIIIII",
+        "IIYZIIIIIIII",
+        "IIIYZIIIIIII",
+        "IIIIIIIIYZII",
+        "IIIIIZXYIIII",
+        "IIIIIIZYIIII",
+        "IIIIIIIIZYII",
+        "IIIIYZIIIIII",
+        "IIIIIYXZIIII",
+        "IIIIYXZIIIII",
+        "XZIIIIIIIIIY",
+        "IIZXYIIIIIII",
+        "IIIIIIIIIYXZ",
+        "ZXYIIIIIIIII",
+        "IZXYIIIIIIII",
+        "YXZIIIIIIIII"
+      ],
+      "params": [
+        0.02501003828008148,
+        -0.7853860861559567,
+        -0.786019276572348,
+        -0.7604501762324188,
+        -0.7603569523946835,
+        -0.785397352711319,
+        0.0018741962104067691,
+        -0.7603878331258346,
+        -0.7853980765093538,
+        -5.038914268885831e-06,
+        -0.7853868455699181,
+        -0.7852422557885502,
+        0.7853673117130234,
+        -0.7835239510162321,
+        0.02497923621645874,
+        0.025010391054533846,
+        0.025010293064127147,
+        0.025010446863965384,
+        -0.7604188679669404,
+        -0.7835255284512082,
+        0.024979043243039577,
+        0.024947987561830434,
+        0.02494814220070967,
+        0.0018734158505967786,
+        0.001871081780779393,
+        0.0006226524197027949,
+        0.0006226574600025748,
+        0.0006226603403268996,
+        0.0006195594518556729,
+        0.0006218746305392559,
+        0.0006195572556144073
+      ],
+      "reason": "pool_gradient",
+      "optimizer_success": true,
+      "cnots": 86,
+      "gate_count": 215,
+      "unitary_depth": 72,
+      "target_counts": [
+        0,
+        10,
+        10,
+        8,
+        6,
+        6,
+        8,
+        8,
+        6,
+        6,
+        8,
+        10
+      ],
+      "cnot_order": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "energy": -12.030018656642007,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 1.1701431675466742e-08,
+      "epsilon_c": 1.1723377169037263e-07,
+      "epsilon_sf": 9.373598686135409e-08,
+      "epsilon_mx": 7.018894078170135e-07,
+      "fidelity": 0.9999999645807872,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 1.000000000000001,
+      "w_plus": 1.0000000000000004,
+      "T_real": 0.9999999921775814,
+      "T_imag": 0.0,
+      "eta_T": 7.822418601755032e-09,
+      "w0": 0.999999991186997,
+      "w_plus_0": 0.999999991186997,
+      "variance": 5.591657838976971e-07,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "plus",
+      "seed": 11,
+      "uid": "408b8eae3da41e534ce8f64eda7632b980d9de2528ddec53a37a38a1a5fdf6f1",
+      "source": "results/stage5_v1/adaptive/cache/72f4f63248f3adf57bae5f0709fc629132abdf812e0d04e1b202da60511e24b2.json",
+      "source_sha": "b701abe4ac4149de4a78e82729693b8d40aaad75ea72152536c557b7379151d4",
+      "checkpoint": 2,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    {
+      "words": [],
+      "params": [],
+      "reason": "reference",
+      "optimizer_success": true,
+      "cnots": 11,
+      "gate_count": 12,
+      "unitary_depth": 12,
+      "target_counts": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "energy": -11.999999999999998,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 0.002501566421599044,
+      "epsilon_c": 0.002509430066622964,
+      "epsilon_sf": 0.002299520434620117,
+      "epsilon_mx": 0.05006273560490424,
+      "fidelity": 0.9925070214162464,
+      "observable_pass": false,
+      "state_pass": true,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 0.9999999999999998,
+      "w_plus": 0.9999999999999999,
+      "T_real": 0.9999999999999998,
+      "T_imag": 0.0,
+      "eta_T": 2.220446049250313e-16,
+      "w0": 1.0000000000000002,
+      "w_plus_0": 1.0000000000000002,
+      "variance": 0.11999999999997613,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "3b47426de28b5b61fac376a12cad8ebaa0aa6c799c64771457f644e463f82e85",
+      "source": "results/stage5_v1/adaptive/cache/3501cee69851cf50f0ec4214a41d1fe61b83fc7f839aeef2461f46140a34f851.json",
+      "source_sha": "989700cc82b4780df5f3b7d4e5eeb10d0750ea0784b738ee3a14fe8a6e647a55",
+      "checkpoint": 0,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    {
+      "words": [
+        "ZIIIIIIIIIIY",
+        "IIIIIIIZYIII",
+        "IIIIIIIIIZYI",
+        "IIIYIZIIIIII",
+        "IYZIIIIIIIII",
+        "YIZIIIIIIIII",
+        "IIIIIZIYIIII",
+        "IIYIZIIIIIII",
+        "IIIIZYIIIIII",
+        "IIIIYIZIIIII"
+      ],
+      "params": [
+        0.02501040887766223,
+        0.024994783859410105,
+        0.024994803360188188,
+        0.02501042859196172,
+        0.0250104283785486,
+        0.025010428378447955,
+        0.024994783859410112,
+        0.025010425436468812,
+        0.02499480507314645,
+        0.025010408374827243
+      ],
+      "reason": "budget_checkpoint_32",
+      "optimizer_success": true,
+      "cnots": 31,
+      "gate_count": 62,
+      "unitary_depth": 32,
+      "target_counts": [
+        0,
+        1,
+        5,
+        1,
+        3,
+        5,
+        3,
+        3,
+        3,
+        1,
+        3,
+        3
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "energy": -12.02499687499876,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 0.00041849350503560717,
+      "epsilon_c": 0.0004270076219476948,
+      "epsilon_sf": 0.00039053573139580244,
+      "epsilon_mx": 0.008406485873888501,
+      "fidelity": 0.9987417423577486,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 0.9999999999999882,
+      "w_plus": 0.9999999999999941,
+      "T_real": 0.9987511706141461,
+      "T_imag": 0.0,
+      "eta_T": 0.0012488293858539112,
+      "w0": 0.9989584953342214,
+      "w_plus_0": 0.9989584953342214,
+      "variance": 0.02004996874779863,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "8241a67d3475173d272802356a44c6d8e33791fb2be0e93c5078f4f81c5c966b",
+      "source": "results/stage5_v1/adaptive/cache/3501cee69851cf50f0ec4214a41d1fe61b83fc7f839aeef2461f46140a34f851.json",
+      "source_sha": "989700cc82b4780df5f3b7d4e5eeb10d0750ea0784b738ee3a14fe8a6e647a55",
+      "checkpoint": 1,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    {
+      "words": [
+        "ZIIIIIIIIIIY",
+        "IIIIIIIZYIII",
+        "IIIIIIIIIZYI",
+        "IIIYIZIIIIII",
+        "IYZIIIIIIIII",
+        "YIZIIIIIIIII",
+        "IIIIIZIYIIII",
+        "IIYIZIIIIIII",
+        "IIIIZYIIIIII",
+        "IIIIYIZIIIII",
+        "IIIIIZYIIIII",
+        "IIIIIIIIZYII",
+        "IIIIIYXZIIII",
+        "IIIIIIIIYXZI",
+        "IIIZXYIIIIII",
+        "IIIIIIZXYIII",
+        "ZIIIIIIIIIYX",
+        "YXZIIIIIIIII",
+        "IIYXZIIIIIII"
+      ],
+      "params": [
+        0.025025965694216473,
+        0.024947773425948238,
+        0.024994578840042567,
+        0.025025904694813184,
+        0.02502596610276163,
+        0.0249948127546959,
+        0.025025720479516917,
+        0.024994815924884686,
+        0.02494777385851949,
+        0.025025954617957164,
+        0.025056774234046335,
+        0.025056833545217407,
+        0.0018706601010409706,
+        0.001870671308426091,
+        0.0006230498996565906,
+        0.0006230385806939708,
+        0.0006226707530164267,
+        0.0006226594469184522,
+        0.0006226588878214159
+      ],
+      "reason": "budget_checkpoint_64",
+      "optimizer_success": true,
+      "cnots": 63,
+      "gate_count": 135,
+      "unitary_depth": 55,
+      "target_counts": [
+        0,
+        3,
+        7,
+        3,
+        7,
+        7,
+        7,
+        7,
+        5,
+        5,
+        7,
+        5
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "energy": -12.030010795010275,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 6.668374092910767e-07,
+      "epsilon_c": 4.037929680733576e-06,
+      "epsilon_sf": 3.363285975499508e-06,
+      "epsilon_mx": 2.6989565239700364e-05,
+      "fidelity": 0.9999979784584323,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 0.9999999999999994,
+      "w_plus": 0.9999999999999998,
+      "T_real": 0.9999980570357114,
+      "T_imag": 0.0,
+      "eta_T": 1.942964288570437e-06,
+      "w0": 0.9999988659122376,
+      "w_plus_0": 0.9999988659122376,
+      "variance": 3.175596191340446e-05,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "51f6b2718f5e2f91677137d1034f6194e5085ef9add200aa7b81dab7bea97e70",
+      "source": "results/stage5_v1/adaptive/cache/3501cee69851cf50f0ec4214a41d1fe61b83fc7f839aeef2461f46140a34f851.json",
+      "source_sha": "989700cc82b4780df5f3b7d4e5eeb10d0750ea0784b738ee3a14fe8a6e647a55",
+      "checkpoint": 2,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    {
+      "words": [
+        "ZIIIIIIIIIIY",
+        "IIIIIIIZYIII",
+        "IIIIIIIIIZYI",
+        "IIIYIZIIIIII",
+        "IYZIIIIIIIII",
+        "YIZIIIIIIIII",
+        "IIIIIZIYIIII",
+        "IIYIZIIIIIII",
+        "IIIIZYIIIIII",
+        "IIIIYIZIIIII",
+        "IIIIIZYIIIII",
+        "IIIIIIIIZYII",
+        "IIIIIYXZIIII",
+        "IIIIIIIIYXZI",
+        "IIIZXYIIIIII",
+        "IIIIIIZXYIII",
+        "ZIIIIIIIIIYX",
+        "YXZIIIIIIIII",
+        "IIYXZIIIIIII",
+        "IYXZIIIIIIII",
+        "XZIIIIIIIIIY",
+        "IIIIIIIIIYXZ",
+        "IIIYXZIIIIII",
+        "IIIIIIYXZIII"
+      ],
+      "params": [
+        0.02501035119843616,
+        0.02494777968562082,
+        0.025010038817546567,
+        0.02501029305568525,
+        0.025010350715252302,
+        0.02501035037531937,
+        0.02504099850311244,
+        0.0250103504733567,
+        0.024947781549888092,
+        0.025041309091724747,
+        0.025041202657512654,
+        0.025041246114391888,
+        0.0018694971548214316,
+        0.001869502917154881,
+        0.0006203300273002053,
+        0.0006203564765363034,
+        0.0006218926921854947,
+        0.0006218829715919595,
+        0.0006218786459726721,
+        0.0006218795874651529,
+        0.000621876175751227,
+        0.0006203211137700944,
+        0.0006195571345613353,
+        0.0006179970776012343
+      ],
+      "reason": "pool_gradient",
+      "optimizer_success": true,
+      "cnots": 83,
+      "gate_count": 180,
+      "unitary_depth": 72,
+      "target_counts": [
+        0,
+        5,
+        9,
+        5,
+        9,
+        9,
+        7,
+        9,
+        7,
+        5,
+        9,
+        9
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "energy": -12.030018500716263,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 2.469524362780362e-08,
+      "epsilon_c": 2.0637633146858292e-07,
+      "epsilon_sf": 1.7024077481053723e-07,
+      "epsilon_mx": 1.4762294962972211e-06,
+      "fidelity": 0.9999999251868373,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 1.0000000000000027,
+      "w_plus": 1.0000000000000013,
+      "T_real": 0.9999999844649303,
+      "T_imag": 0.0,
+      "eta_T": 1.553506967510998e-08,
+      "w0": 0.9999999896205359,
+      "w_plus_0": 0.9999999896205359,
+      "variance": 1.1791367455771251e-06,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "fb017bdba5075912b34d8613a5d93739afcd517c8dfdeb4ca24fbb2baa5c13d0",
+      "source": "results/stage5_v1/adaptive/cache/3501cee69851cf50f0ec4214a41d1fe61b83fc7f839aeef2461f46140a34f851.json",
+      "source_sha": "989700cc82b4780df5f3b7d4e5eeb10d0750ea0784b738ee3a14fe8a6e647a55",
+      "checkpoint": 3,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    {
+      "words": [],
+      "params": [],
+      "reason": "reference",
+      "optimizer_success": true,
+      "cnots": 10,
+      "gate_count": 22,
+      "unitary_depth": 11,
+      "target_counts": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "energy": 0.0,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 1.0025015664215988,
+      "epsilon_c": 1.9974905896555908,
+      "epsilon_sf": 0.9977004795653795,
+      "epsilon_mx": 0.05006273560490424,
+      "fidelity": 3.0518703586499746e-17,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 0.9999999999999996,
+      "w_plus": 0.9999999999999998,
+      "T_real": 0.9999999999999996,
+      "T_imag": 0.0,
+      "eta_T": 4.440892098500626e-16,
+      "w0": 0.9999999999999996,
+      "w_plus_0": 0.9999999999999996,
+      "variance": 0.11999999999999994,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "4fcfc8f19a72938792339e913a168a2c6a7ff9a307a0a473082c11cdc7413dd2",
+      "source": "results/stage5_v1/adaptive/cache/3cc809283d7fdfef4299b431ea7380a5bef6ad26403c6d39f832c80db8c71660.json",
+      "source_sha": "0f9ab64138311fb5b8e9640a85ea7c7695a20476b8edd03583ae2c0e39f8e2c5",
+      "checkpoint": 0,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    {
+      "words": [
+        "IIIIIZIYIIII",
+        "IIIZIYIIIIII",
+        "IIIIIIYIZIII",
+        "IIIIIIZYIIII",
+        "IIIIZYIIIIII",
+        "IIZIYIIIIIII",
+        "YIIIIIIIIIZI",
+        "IIIIIIIIIYIZ",
+        "IZIYIIIIIIII",
+        "IZIIIIIIIIIY",
+        "ZYIIIIIIIIII"
+      ],
+      "params": [
+        -0.7853981725331204,
+        -0.7853981567750616,
+        -1.569543194708014,
+        -0.7603564262371783,
+        -0.7603567371260336,
+        -0.049896476869379966,
+        -1.5682837689170666,
+        -0.7853981633974485,
+        -0.7853981633974487,
+        -0.7853981633921413,
+        -0.7602934953660626
+      ],
+      "reason": "budget_checkpoint_32",
+      "optimizer_success": true,
+      "cnots": 32,
+      "gate_count": 77,
+      "unitary_depth": 28,
+      "target_counts": [
+        0,
+        2,
+        1,
+        3,
+        3,
+        5,
+        1,
+        5,
+        3,
+        1,
+        3,
+        5
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "energy": -6.312507900392905,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 0.4764592413888568,
+      "epsilon_c": 1.6629040302439115,
+      "epsilon_sf": 0.9698864949290206,
+      "epsilon_mx": 0.2207970788046911,
+      "fidelity": 4.843102740004775e-12,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 0.999999999999998,
+      "w_plus": 0.999999999999999,
+      "T_real": 0.13084036904381055,
+      "T_imag": 0.0,
+      "eta_T": 0.8691596309561894,
+      "w0": 0.171652290840222,
+      "w_plus_0": 0.171652290840222,
+      "variance": 4.05997496336532,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "b6ae0070edcd197d11af3538d33ab67a1dc4242f35e27333f6f00ea12f2b2620",
+      "source": "results/stage5_v1/adaptive/cache/3cc809283d7fdfef4299b431ea7380a5bef6ad26403c6d39f832c80db8c71660.json",
+      "source_sha": "0f9ab64138311fb5b8e9640a85ea7c7695a20476b8edd03583ae2c0e39f8e2c5",
+      "checkpoint": 1,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    {
+      "words": [
+        "IIIIIZIYIIII",
+        "IIIZIYIIIIII",
+        "IIIIIIYIZIII",
+        "IIIIIIZYIIII",
+        "IIIIZYIIIIII",
+        "IIZIYIIIIIII",
+        "YIIIIIIIIIZI",
+        "IIIIIIIIIYIZ",
+        "IZIYIIIIIIII",
+        "IZIIIIIIIIIY",
+        "ZYIIIIIIIIII",
+        "IIIIIIIIIIZY",
+        "IIIIIIIIZIYI",
+        "IIIIIIZIYIII",
+        "ZIYIIIIIIIII",
+        "IIIIIIYZIIII",
+        "YZIIIIIIIIII",
+        "IIIZYIIIIIII",
+        "IIIIIIIIIZYI",
+        "IIIIIIIIYZII",
+        "IIYZIIIIIIII",
+        "IYZIIIIIIIII",
+        "IIIIZYIIIIII",
+        "IIIIIIIIIIZY",
+        "IIIIIIIYZIII",
+        "IIYIZIIIIIII",
+        "IIIIIIIIIYZI"
+      ],
+      "params": [
+        -0.7853978904605775,
+        -0.785366857989984,
+        -1.5607308510334708,
+        -0.5252468526639772,
+        -0.51722793005409,
+        -0.3877077580779285,
+        -1.560790412406774,
+        -0.7854213924397719,
+        -0.7924829947090353,
+        -0.7853719288545389,
+        -0.5232318261436838,
+        -0.5148521664400083,
+        -0.3926275705895373,
+        0.3736507672089732,
+        0.38090186060103004,
+        0.022649307884348928,
+        0.0226641710560392,
+        -0.3523722525869085,
+        -0.36955306717029424,
+        -0.3495475437868596,
+        -0.34662857170325534,
+        -0.23027823776745035,
+        -0.23920391583636177,
+        -0.24139651805017556,
+        -0.23182828246052414,
+        -0.009811952279604543,
+        0.02278319596969981
+      ],
+      "reason": "budget_checkpoint_64",
+      "optimizer_success": true,
+      "cnots": 64,
+      "gate_count": 157,
+      "unitary_depth": 46,
+      "target_counts": [
+        0,
+        4,
+        5,
+        5,
+        7,
+        7,
+        1,
+        7,
+        7,
+        3,
+        9,
+        9
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "energy": -8.385758825372005,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 0.30368833097393183,
+      "epsilon_c": 1.5283459457923505,
+      "epsilon_sf": 0.9099138542733265,
+      "epsilon_mx": 0.29259063895704845,
+      "fidelity": 9.19507650426358e-06,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 0.9999999999999978,
+      "w_plus": 0.9999999999999989,
+      "T_real": 0.8164303528396546,
+      "T_imag": 0.0,
+      "eta_T": 0.1835696471603454,
+      "w0": 0.6622595307482391,
+      "w_plus_0": 0.6622595307482391,
+      "variance": 0.009165567953345999,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "d96b4c7155ae77651856a5db22e9a8db65dde938202e72000916a3eb0e0ba80c",
+      "source": "results/stage5_v1/adaptive/cache/3cc809283d7fdfef4299b431ea7380a5bef6ad26403c6d39f832c80db8c71660.json",
+      "source_sha": "0f9ab64138311fb5b8e9640a85ea7c7695a20476b8edd03583ae2c0e39f8e2c5",
+      "checkpoint": 2,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    {
+      "words": [
+        "IIIIIZIYIIII",
+        "IIIZIYIIIIII",
+        "IIIIIIYIZIII",
+        "IIIIIIZYIIII",
+        "IIIIZYIIIIII",
+        "IIZIYIIIIIII",
+        "YIIIIIIIIIZI",
+        "IIIIIIIIIYIZ",
+        "IZIYIIIIIIII",
+        "IZIIIIIIIIIY",
+        "ZYIIIIIIIIII",
+        "IIIIIIIIIIZY",
+        "IIIIIIIIZIYI",
+        "IIIIIIZIYIII",
+        "ZIYIIIIIIIII",
+        "IIIIIIYZIIII",
+        "YZIIIIIIIIII",
+        "IIIZYIIIIIII",
+        "IIIIIIIIIZYI",
+        "IIIIIIIIYZII",
+        "IIYZIIIIIIII",
+        "IYZIIIIIIIII",
+        "IIIIZYIIIIII",
+        "IIIIIIIIIIZY",
+        "IIIIIIIYZIII",
+        "IIYIZIIIIIII",
+        "IIIIIIIIIYZI",
+        "IIIIIIIIIZIY",
+        "IIIZIYIIIIII",
+        "IIZIYIIIIIII",
+        "IIIIIIIYIZII",
+        "XYIIIIIIIIIZ",
+        "IZYIIIIIIIII",
+        "YIZIIIIIIIII",
+        "IIIIIIIIIIYZ",
+        "IIIIIZXYIIII",
+        "IIIIIIIIYZII",
+        "IIIIIIYIZIII",
+        "YIIIIIIIIIIZ",
+        "YIIIIIIIIIZX"
+      ],
+      "params": [
+        -0.7853982130944118,
+        -0.7854021028195919,
+        -1.5786510900766197,
+        -0.5135165820954699,
+        -0.5142613908550914,
+        -0.386003779080267,
+        -1.5693814181261974,
+        -0.7853484169104357,
+        -0.7868194055707193,
+        -0.7854424385558121,
+        -0.5346492116273232,
+        -0.46972703702112134,
+        -0.39363800891394035,
+        0.3849338176356176,
+        0.3673516106785802,
+        0.041518272690557224,
+        0.16498661536110404,
+        -0.3518543933395544,
+        -0.3891642520631521,
+        -0.3827733547501579,
+        -0.3492339873847135,
+        -0.23613440038480601,
+        -0.23866324942120945,
+        -0.2899048438244296,
+        -0.2471269123245377,
+        -0.008176633229727117,
+        0.023340998500742567,
+        2.9673748742586905e-05,
+        -0.007275820108322658,
+        -0.00914992905490306,
+        -4.547549748821433e-05,
+        0.0822326475095425,
+        0.018730658329318084,
+        -0.002229591142392389,
+        0.02224870053243413,
+        0.032856416633563076,
+        0.023424929889207524,
+        -0.005022404019911534,
+        -0.1174179258530632,
+        -0.006800278227851731
+      ],
+      "reason": "budget_checkpoint_96",
+      "optimizer_success": true,
+      "cnots": 96,
+      "gate_count": 234,
+      "unitary_depth": 75,
+      "target_counts": [
+        0,
+        6,
+        9,
+        5,
+        9,
+        9,
+        3,
+        9,
+        9,
+        7,
+        11,
+        19
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "energy": -8.389462085350427,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 0.30337972597573,
+      "epsilon_c": 1.508368839655407,
+      "epsilon_sf": 0.9024755998756591,
+      "epsilon_mx": 0.2970424409172852,
+      "fidelity": 2.5867604419211166e-07,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 0.9999999999999997,
+      "w_plus": 0.9999999999999998,
+      "T_real": 0.8300968335357322,
+      "T_imag": 0.0,
+      "eta_T": 0.16990316646426784,
+      "w0": 0.6822745915878179,
+      "w_plus_0": 0.6822745915878179,
+      "variance": 0.004245301039574656,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "dec316c70c8941a643c020eb852d13f18e8ef419d51a1164889acc0b07f37a48",
+      "source": "results/stage5_v1/adaptive/cache/3cc809283d7fdfef4299b431ea7380a5bef6ad26403c6d39f832c80db8c71660.json",
+      "source_sha": "0f9ab64138311fb5b8e9640a85ea7c7695a20476b8edd03583ae2c0e39f8e2c5",
+      "checkpoint": 3,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    {
+      "words": [
+        "IIIIIZIYIIII",
+        "IIIZIYIIIIII",
+        "IIIIIIYIZIII",
+        "IIIIIIZYIIII",
+        "IIIIZYIIIIII",
+        "IIZIYIIIIIII",
+        "YIIIIIIIIIZI",
+        "IIIIIIIIIYIZ",
+        "IZIYIIIIIIII",
+        "IZIIIIIIIIIY",
+        "ZYIIIIIIIIII",
+        "IIIIIIIIIIZY",
+        "IIIIIIIIZIYI",
+        "IIIIIIZIYIII",
+        "ZIYIIIIIIIII",
+        "IIIIIIYZIIII",
+        "YZIIIIIIIIII",
+        "IIIZYIIIIIII",
+        "IIIIIIIIIZYI",
+        "IIIIIIIIYZII",
+        "IIYZIIIIIIII",
+        "IYZIIIIIIIII",
+        "IIIIZYIIIIII",
+        "IIIIIIIIIIZY",
+        "IIIIIIIYZIII",
+        "IIYIZIIIIIII",
+        "IIIIIIIIIYZI",
+        "IIIIIIIIIZIY",
+        "IIIZIYIIIIII",
+        "IIZIYIIIIIII",
+        "IIIIIIIYIZII",
+        "XYIIIIIIIIIZ",
+        "IZYIIIIIIIII",
+        "YIZIIIIIIIII",
+        "IIIIIIIIIIYZ",
+        "IIIIIZXYIIII",
+        "IIIIIIIIYZII",
+        "IIIIIIYIZIII",
+        "YIIIIIIIIIIZ",
+        "YIIIIIIIIIZX",
+        "IIIIYZIIIIII",
+        "IIIIIZYIIIII",
+        "IIIIZXYIIIII",
+        "IIIYIZIIIIII",
+        "IIIIIIYZIIII",
+        "IIIIIYZIIIII",
+        "YZIIIIIIIIII",
+        "IIIIIIIZIYII",
+        "IIIIIIIIYIZI",
+        "IIZYIIIIIIII",
+        "IIIIIIIIIIZY",
+        "IIIIIIIIYXZI",
+        "IIYZIIIIIIII",
+        "IIIIIIIZYIII"
+      ],
+      "params": [
+        -0.7853981497206141,
+        -0.785354575269212,
+        -1.5823518881587644,
+        -0.6201686656932581,
+        -0.4840551718541847,
+        -0.3844623106435511,
+        -1.5817980066201291,
+        -0.7853990060445981,
+        -0.7852210449915193,
+        -0.7853981087142083,
+        -0.6099917534547911,
+        -0.46327419805684644,
+        -0.39121330536179155,
+        0.878873658751556,
+        0.8624896222485888,
+        0.41147382165273944,
+        0.395511551528303,
+        -0.3809791985883117,
+        -0.3865953480955847,
+        -0.9461995701638563,
+        -0.923928784646457,
+        -0.22323709726014082,
+        -0.3025688998736002,
+        -0.326946132718562,
+        -0.21913106235173246,
+        -0.00015360408142921092,
+        0.04540479687302133,
+        1.2963756107741928e-05,
+        -1.8625278243099133e-05,
+        0.0008351908939740728,
+        5.895809487567768e-06,
+        0.15971496720948153,
+        -0.5066853723700492,
+        3.4122386080566216e-06,
+        0.0216556451253902,
+        0.16061799191197165,
+        0.6316613897867966,
+        -9.00557334887958e-05,
+        -0.13985656144399589,
+        0.003021743450038735,
+        0.023019278346461232,
+        -0.1637514582016755,
+        0.0028952225610126086,
+        0.00043664155437462664,
+        -0.1952317030308412,
+        0.02629280037155668,
+        -0.20113186699995558,
+        0.009577952567030203,
+        -0.008540374825325927,
+        0.021493215814059323,
+        0.030247470713887344,
+        0.04172316681881782,
+        0.5906838653209799,
+        -0.5359170054385897
+      ],
+      "reason": "budget_checkpoint_128",
+      "optimizer_success": true,
+      "cnots": 128,
+      "gate_count": 312,
+      "unitary_depth": 94,
+      "target_counts": [
+        0,
+        8,
+        9,
+        9,
+        9,
+        15,
+        9,
+        11,
+        11,
+        11,
+        15,
+        21
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "energy": -8.397688047270979,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 0.30269422914901734,
+      "epsilon_c": 1.4588209929167246,
+      "epsilon_sf": 0.8822459644029255,
+      "epsilon_mx": 0.3038155747980006,
+      "fidelity": 1.8713657353550937e-06,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 1.0000000000000018,
+      "w_plus": 1.0000000000000009,
+      "T_real": 0.8753272829345684,
+      "T_imag": 0.0,
+      "eta_T": 0.12467271706543159,
+      "w0": 0.7561962628062672,
+      "w_plus_0": 0.7561962628062672,
+      "variance": 0.001169120483353936,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "ca6a901f3e850a9f896bda4c331a66bcff7f979a8dbfe4d0a1501662c9bbbaff",
+      "source": "results/stage5_v1/adaptive/cache/3cc809283d7fdfef4299b431ea7380a5bef6ad26403c6d39f832c80db8c71660.json",
+      "source_sha": "0f9ab64138311fb5b8e9640a85ea7c7695a20476b8edd03583ae2c0e39f8e2c5",
+      "checkpoint": 4,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    {
+      "words": [
+        "IIIIIZIYIIII",
+        "IIIZIYIIIIII",
+        "IIIIIIYIZIII",
+        "IIIIIIZYIIII",
+        "IIIIZYIIIIII",
+        "IIZIYIIIIIII",
+        "YIIIIIIIIIZI",
+        "IIIIIIIIIYIZ",
+        "IZIYIIIIIIII",
+        "IZIIIIIIIIIY",
+        "ZYIIIIIIIIII",
+        "IIIIIIIIIIZY",
+        "IIIIIIIIZIYI",
+        "IIIIIIZIYIII",
+        "ZIYIIIIIIIII",
+        "IIIIIIYZIIII",
+        "YZIIIIIIIIII",
+        "IIIZYIIIIIII",
+        "IIIIIIIIIZYI",
+        "IIIIIIIIYZII",
+        "IIYZIIIIIIII",
+        "IYZIIIIIIIII",
+        "IIIIZYIIIIII",
+        "IIIIIIIIIIZY",
+        "IIIIIIIYZIII",
+        "IIYIZIIIIIII",
+        "IIIIIIIIIYZI",
+        "IIIIIIIIIZIY",
+        "IIIZIYIIIIII",
+        "IIZIYIIIIIII",
+        "IIIIIIIYIZII",
+        "XYIIIIIIIIIZ",
+        "IZYIIIIIIIII",
+        "YIZIIIIIIIII",
+        "IIIIIIIIIIYZ",
+        "IIIIIZXYIIII",
+        "IIIIIIIIYZII",
+        "IIIIIIYIZIII",
+        "YIIIIIIIIIIZ",
+        "YIIIIIIIIIZX",
+        "IIIIYZIIIIII",
+        "IIIIIZYIIIII",
+        "IIIIZXYIIIII",
+        "IIIYIZIIIIII",
+        "IIIIIIYZIIII",
+        "IIIIIYZIIIII",
+        "YZIIIIIIIIII",
+        "IIIIIIIZIYII",
+        "IIIIIIIIYIZI",
+        "IIZYIIIIIIII",
+        "IIIIIIIIIIZY",
+        "IIIIIIIIYXZI",
+        "IIYZIIIIIIII",
+        "IIIIIIIZYIII",
+        "IIIYZIIIIIII",
+        "IIIIIIIIZXYI",
+        "ZIIIIIIIIIYX",
+        "IIZIYIIIIIII",
+        "IIIIIIIIZYII",
+        "IIIIYXZIIIII",
+        "IIIIIIZXYIII",
+        "IIIIIIIIZXYI"
+      ],
+      "params": [
+        -0.7853981632453815,
+        -0.7853981648317709,
+        -1.5449652390784576,
+        -0.7854006197481121,
+        -0.7831719458638523,
+        -0.006854455742142561,
+        -1.5771827428041465,
+        -0.7853981634027466,
+        -0.7547105377516155,
+        -0.785398156092078,
+        -0.7833538301864456,
+        -0.7897778307564282,
+        -0.20324824156357538,
+        1.0165288908854941,
+        0.7853840884165851,
+        0.8951037922503398,
+        0.00014692508701740157,
+        -1.5915425766650202,
+        -0.0009447187086696898,
+        -0.21267430362657005,
+        -1.118612447935214,
+        -0.03907937632038108,
+        -1.1602047919748126,
+        -0.06471179704440938,
+        -0.0009120144867141765,
+        -0.00480675262011259,
+        1.5708214923015311,
+        -1.1026073161613053e-05,
+        1.1203157078265953e-08,
+        -3.6590976281806266e-05,
+        -0.0005448481633272506,
+        -0.0005201749525493864,
+        -0.7557436792911021,
+        0.0004975865253094249,
+        0.08860514094813392,
+        1.5708850163601888,
+        1.3329271664884466,
+        2.429599688989491e-07,
+        0.16524991844247972,
+        -0.021918410767334605,
+        -0.011344161491666411,
+        -0.7254293969127075,
+        0.41063002329441217,
+        -7.442778260431265e-06,
+        -0.12580129447349478,
+        0.06875123987578662,
+        -0.14161532349023384,
+        0.003986874692322949,
+        0.18697160146333133,
+        -0.06695804568517613,
+        0.09109010135066789,
+        1.3848158604562668,
+        1.115148983405099,
+        -0.5533976500960434,
+        0.8772036037247812,
+        -0.08981840830369937,
+        0.008167804943678943,
+        0.0039930722341866495,
+        -0.76578754255941,
+        -0.0012354143049875638,
+        0.0005136035518216281,
+        0.000879302081335479
+      ],
+      "reason": "pool_gradient",
+      "optimizer_success": true,
+      "cnots": 154,
+      "gate_count": 372,
+      "unitary_depth": 115,
+      "target_counts": [
+        0,
+        8,
+        9,
+        9,
+        13,
+        17,
+        11,
+        13,
+        13,
+        17,
+        21,
+        23
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "energy": -12.030018667344562,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 1.0809552068261988e-08,
+      "epsilon_c": 4.3405585792299917e-08,
+      "epsilon_sf": 3.2673235006441814e-08,
+      "epsilon_mx": 4.48269656262712e-07,
+      "fidelity": 0.9999999703225246,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 1.0000000000000004,
+      "w_plus": 1.0000000000000002,
+      "T_real": 0.9999999747662274,
+      "T_imag": 0.0,
+      "eta_T": 2.5233772626975792e-08,
+      "w0": 0.9999999731966679,
+      "w_plus_0": 0.9999999731966679,
+      "variance": 6.120925775121577e-07,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "aa3ef581451fc36058d8eb74ccb217bcba4dfba000b8a07bea925e090470412b",
+      "source": "results/stage5_v1/adaptive/cache/3cc809283d7fdfef4299b431ea7380a5bef6ad26403c6d39f832c80db8c71660.json",
+      "source_sha": "0f9ab64138311fb5b8e9640a85ea7c7695a20476b8edd03583ae2c0e39f8e2c5",
+      "checkpoint": 5,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    }
+  ],
+  "selector_code": "c2b7d909917fc33a9175cb04b0fce8947f440c4bcdf376f6b7b72682d8b9630a",
+  "same_candidate_set": true,
+  "selectors": {
+    "S0": {
+      "candidate": {
+        "words": [
+          "ZIIIIIIIIIIY",
+          "IIIIIIIZYIII",
+          "IIIIIIIIIZYI",
+          "IIIYIZIIIIII",
+          "IYZIIIIIIIII",
+          "YIZIIIIIIIII",
+          "IIIIIZIYIIII",
+          "IIYIZIIIIIII",
+          "IIIIZYIIIIII",
+          "IIIIYIZIIIII",
+          "IIIIIZYIIIII",
+          "IIIIIIIIZYII",
+          "IIIIIYXZIIII",
+          "IIIIIIIIYXZI",
+          "IIIZXYIIIIII",
+          "IIIIIIZXYIII",
+          "ZIIIIIIIIIYX",
+          "YXZIIIIIIIII",
+          "IIYXZIIIIIII"
+        ],
+        "params": [
+          0.025025965694216473,
+          0.024947773425948238,
+          0.024994578840042567,
+          0.025025904694813184,
+          0.02502596610276163,
+          0.0249948127546959,
+          0.025025720479516917,
+          0.024994815924884686,
+          0.02494777385851949,
+          0.025025954617957164,
+          0.025056774234046335,
+          0.025056833545217407,
+          0.0018706601010409706,
+          0.001870671308426091,
+          0.0006230498996565906,
+          0.0006230385806939708,
+          0.0006226707530164267,
+          0.0006226594469184522,
+          0.0006226588878214159
+        ],
+        "reason": "budget_checkpoint_64",
+        "optimizer_success": true,
+        "cnots": 63,
+        "gate_count": 135,
+        "unitary_depth": 55,
+        "target_counts": [
+          0,
+          3,
+          7,
+          3,
+          7,
+          7,
+          7,
+          7,
+          5,
+          5,
+          7,
+          5
+        ],
+        "cnot_order": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "energy": -12.030010795010275,
+        "ed_energy": -12.030018797059187,
+        "delta_e": 6.668374092910767e-07,
+        "epsilon_c": 4.037929680733576e-06,
+        "epsilon_sf": 3.363285975499508e-06,
+        "epsilon_mx": 2.6989565239700364e-05,
+        "fidelity": 0.9999979784584323,
+        "observable_pass": true,
+        "state_pass": true,
+        "joint_pass": true,
+        "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+        "parity": 0.9999999999999994,
+        "w_plus": 0.9999999999999998,
+        "T_real": 0.9999980570357114,
+        "T_imag": 0.0,
+        "eta_T": 1.942964288570437e-06,
+        "w0": 0.9999988659122376,
+        "w_plus_0": 0.9999988659122376,
+        "variance": 3.175596191340446e-05,
+        "n": 12,
+        "kappa": 0.0,
+        "h": 0.1,
+        "ref": "ghz",
+        "seed": 11,
+        "uid": "51f6b2718f5e2f91677137d1034f6194e5085ef9add200aa7b81dab7bea97e70",
+        "source": "results/stage5_v1/adaptive/cache/3501cee69851cf50f0ec4214a41d1fe61b83fc7f839aeef2461f46140a34f851.json",
+        "source_sha": "989700cc82b4780df5f3b7d4e5eeb10d0750ea0784b738ee3a14fe8a6e647a55",
+        "checkpoint": 2,
+        "source_stop": "pool_gradient",
+        "source_budget": 192,
+        "disposition": "newly_executed"
+      },
+      "selection_unresolved": false,
+      "rule": "S0",
+      "energy_tolerance_total": 0.0012000000000000001,
+      "state_access_assisted": false
+    },
+    "S1": {
+      "candidate": {
+        "words": [
+          "IIIIIZIYIIII",
+          "IIIZIYIIIIII",
+          "IIIIIIYIZIII",
+          "IIIIIIZYIIII",
+          "IIIIZYIIIIII",
+          "IIZIYIIIIIII",
+          "YIIIIIIIIIZI",
+          "IIIIIIIIIYIZ",
+          "IZIYIIIIIIII",
+          "IZIIIIIIIIIY",
+          "ZYIIIIIIIIII",
+          "IIIIIIIIIIZY",
+          "IIIIIIIIZIYI",
+          "IIIIIIZIYIII",
+          "ZIYIIIIIIIII",
+          "IIIIIIYZIIII",
+          "YZIIIIIIIIII",
+          "IIIZYIIIIIII",
+          "IIIIIIIIIZYI",
+          "IIIIIIIIYZII",
+          "IIYZIIIIIIII",
+          "IYZIIIIIIIII",
+          "IIIIZYIIIIII",
+          "IIIIIIIIIIZY",
+          "IIIIIIIYZIII",
+          "IIYIZIIIIIII",
+          "IIIIIIIIIYZI",
+          "IIIIIIIIIZIY",
+          "IIIZIYIIIIII",
+          "IIZIYIIIIIII",
+          "IIIIIIIYIZII",
+          "XYIIIIIIIIIZ",
+          "IZYIIIIIIIII",
+          "YIZIIIIIIIII",
+          "IIIIIIIIIIYZ",
+          "IIIIIZXYIIII",
+          "IIIIIIIIYZII",
+          "IIIIIIYIZIII",
+          "YIIIIIIIIIIZ",
+          "YIIIIIIIIIZX",
+          "IIIIYZIIIIII",
+          "IIIIIZYIIIII",
+          "IIIIZXYIIIII",
+          "IIIYIZIIIIII",
+          "IIIIIIYZIIII",
+          "IIIIIYZIIIII",
+          "YZIIIIIIIIII",
+          "IIIIIIIZIYII",
+          "IIIIIIIIYIZI",
+          "IIZYIIIIIIII",
+          "IIIIIIIIIIZY",
+          "IIIIIIIIYXZI",
+          "IIYZIIIIIIII",
+          "IIIIIIIZYIII",
+          "IIIYZIIIIIII",
+          "IIIIIIIIZXYI",
+          "ZIIIIIIIIIYX",
+          "IIZIYIIIIIII",
+          "IIIIIIIIZYII",
+          "IIIIYXZIIIII",
+          "IIIIIIZXYIII",
+          "IIIIIIIIZXYI"
+        ],
+        "params": [
+          -0.7853981632453815,
+          -0.7853981648317709,
+          -1.5449652390784576,
+          -0.7854006197481121,
+          -0.7831719458638523,
+          -0.006854455742142561,
+          -1.5771827428041465,
+          -0.7853981634027466,
+          -0.7547105377516155,
+          -0.785398156092078,
+          -0.7833538301864456,
+          -0.7897778307564282,
+          -0.20324824156357538,
+          1.0165288908854941,
+          0.7853840884165851,
+          0.8951037922503398,
+          0.00014692508701740157,
+          -1.5915425766650202,
+          -0.0009447187086696898,
+          -0.21267430362657005,
+          -1.118612447935214,
+          -0.03907937632038108,
+          -1.1602047919748126,
+          -0.06471179704440938,
+          -0.0009120144867141765,
+          -0.00480675262011259,
+          1.5708214923015311,
+          -1.1026073161613053e-05,
+          1.1203157078265953e-08,
+          -3.6590976281806266e-05,
+          -0.0005448481633272506,
+          -0.0005201749525493864,
+          -0.7557436792911021,
+          0.0004975865253094249,
+          0.08860514094813392,
+          1.5708850163601888,
+          1.3329271664884466,
+          2.429599688989491e-07,
+          0.16524991844247972,
+          -0.021918410767334605,
+          -0.011344161491666411,
+          -0.7254293969127075,
+          0.41063002329441217,
+          -7.442778260431265e-06,
+          -0.12580129447349478,
+          0.06875123987578662,
+          -0.14161532349023384,
+          0.003986874692322949,
+          0.18697160146333133,
+          -0.06695804568517613,
+          0.09109010135066789,
+          1.3848158604562668,
+          1.115148983405099,
+          -0.5533976500960434,
+          0.8772036037247812,
+          -0.08981840830369937,
+          0.008167804943678943,
+          0.0039930722341866495,
+          -0.76578754255941,
+          -0.0012354143049875638,
+          0.0005136035518216281,
+          0.000879302081335479
+        ],
+        "reason": "pool_gradient",
+        "optimizer_success": true,
+        "cnots": 154,
+        "gate_count": 372,
+        "unitary_depth": 115,
+        "target_counts": [
+          0,
+          8,
+          9,
+          9,
+          13,
+          17,
+          11,
+          13,
+          13,
+          17,
+          21,
+          23
+        ],
+        "cnot_order": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            8,
+            9
+          ]
+        ],
+        "energy": -12.030018667344562,
+        "ed_energy": -12.030018797059187,
+        "delta_e": 1.0809552068261988e-08,
+        "epsilon_c": 4.3405585792299917e-08,
+        "epsilon_sf": 3.2673235006441814e-08,
+        "epsilon_mx": 4.48269656262712e-07,
+        "fidelity": 0.9999999703225246,
+        "observable_pass": true,
+        "state_pass": true,
+        "joint_pass": true,
+        "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+        "parity": 1.0000000000000004,
+        "w_plus": 1.0000000000000002,
+        "T_real": 0.9999999747662274,
+        "T_imag": 0.0,
+        "eta_T": 2.5233772626975792e-08,
+        "w0": 0.9999999731966679,
+        "w_plus_0": 0.9999999731966679,
+        "variance": 6.120925775121577e-07,
+        "n": 12,
+        "kappa": 0.0,
+        "h": 0.1,
+        "ref": "antiphase",
+        "seed": 11,
+        "uid": "aa3ef581451fc36058d8eb74ccb217bcba4dfba000b8a07bea925e090470412b",
+        "source": "results/stage5_v1/adaptive/cache/3cc809283d7fdfef4299b431ea7380a5bef6ad26403c6d39f832c80db8c71660.json",
+        "source_sha": "0f9ab64138311fb5b8e9640a85ea7c7695a20476b8edd03583ae2c0e39f8e2c5",
+        "checkpoint": 5,
+        "source_stop": "pool_gradient",
+        "source_budget": 192,
+        "disposition": "newly_executed"
+      },
+      "selection_unresolved": false,
+      "rule": "S1",
+      "energy_tolerance_total": 1e-10,
+      "state_access_assisted": false
+    },
+    "S2": {
+      "candidate": {
+        "words": [
+          "ZIIIIIIIIIIY",
+          "IIIIIIIZYIII",
+          "IIIIIIIIIZYI",
+          "IIIYIZIIIIII",
+          "IYZIIIIIIIII",
+          "YIZIIIIIIIII",
+          "IIIIIZIYIIII",
+          "IIYIZIIIIIII",
+          "IIIIZYIIIIII",
+          "IIIIYIZIIIII",
+          "IIIIIZYIIIII",
+          "IIIIIIIIZYII",
+          "IIIIIYXZIIII",
+          "IIIIIIIIYXZI",
+          "IIIZXYIIIIII",
+          "IIIIIIZXYIII",
+          "ZIIIIIIIIIYX",
+          "YXZIIIIIIIII",
+          "IIYXZIIIIIII"
+        ],
+        "params": [
+          0.025025965694216473,
+          0.024947773425948238,
+          0.024994578840042567,
+          0.025025904694813184,
+          0.02502596610276163,
+          0.0249948127546959,
+          0.025025720479516917,
+          0.024994815924884686,
+          0.02494777385851949,
+          0.025025954617957164,
+          0.025056774234046335,
+          0.025056833545217407,
+          0.0018706601010409706,
+          0.001870671308426091,
+          0.0006230498996565906,
+          0.0006230385806939708,
+          0.0006226707530164267,
+          0.0006226594469184522,
+          0.0006226588878214159
+        ],
+        "reason": "budget_checkpoint_64",
+        "optimizer_success": true,
+        "cnots": 63,
+        "gate_count": 135,
+        "unitary_depth": 55,
+        "target_counts": [
+          0,
+          3,
+          7,
+          3,
+          7,
+          7,
+          7,
+          7,
+          5,
+          5,
+          7,
+          5
+        ],
+        "cnot_order": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "energy": -12.030010795010275,
+        "ed_energy": -12.030018797059187,
+        "delta_e": 6.668374092910767e-07,
+        "epsilon_c": 4.037929680733576e-06,
+        "epsilon_sf": 3.363285975499508e-06,
+        "epsilon_mx": 2.6989565239700364e-05,
+        "fidelity": 0.9999979784584323,
+        "observable_pass": true,
+        "state_pass": true,
+        "joint_pass": true,
+        "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+        "parity": 0.9999999999999994,
+        "w_plus": 0.9999999999999998,
+        "T_real": 0.9999980570357114,
+        "T_imag": 0.0,
+        "eta_T": 1.942964288570437e-06,
+        "w0": 0.9999988659122376,
+        "w_plus_0": 0.9999988659122376,
+        "variance": 3.175596191340446e-05,
+        "n": 12,
+        "kappa": 0.0,
+        "h": 0.1,
+        "ref": "ghz",
+        "seed": 11,
+        "uid": "51f6b2718f5e2f91677137d1034f6194e5085ef9add200aa7b81dab7bea97e70",
+        "source": "results/stage5_v1/adaptive/cache/3501cee69851cf50f0ec4214a41d1fe61b83fc7f839aeef2461f46140a34f851.json",
+        "source_sha": "989700cc82b4780df5f3b7d4e5eeb10d0750ea0784b738ee3a14fe8a6e647a55",
+        "checkpoint": 2,
+        "source_stop": "pool_gradient",
+        "source_budget": 192,
+        "disposition": "newly_executed"
+      },
+      "selection_unresolved": false,
+      "rule": "S2",
+      "energy_tolerance_total": 1.2e-05,
+      "state_access_assisted": true
+    }
+  },
+  "reoptimization": {
+    "triggered": false
+  },
+  "B5_selection": {
+    "candidate": {
+      "words": [
+        "ZIIIIIIIIIIY",
+        "IIIIIIIZYIII",
+        "IIIIIIIIIZYI",
+        "IIIYIZIIIIII",
+        "IYZIIIIIIIII",
+        "YIZIIIIIIIII",
+        "IIIIIZIYIIII",
+        "IIYIZIIIIIII",
+        "IIIIZYIIIIII",
+        "IIIIYIZIIIII",
+        "IIIIIZYIIIII",
+        "IIIIIIIIZYII",
+        "IIIIIYXZIIII",
+        "IIIIIIIIYXZI",
+        "IIIZXYIIIIII",
+        "IIIIIIZXYIII",
+        "ZIIIIIIIIIYX",
+        "YXZIIIIIIIII",
+        "IIYXZIIIIIII"
+      ],
+      "params": [
+        0.025025965694216473,
+        0.024947773425948238,
+        0.024994578840042567,
+        0.025025904694813184,
+        0.02502596610276163,
+        0.0249948127546959,
+        0.025025720479516917,
+        0.024994815924884686,
+        0.02494777385851949,
+        0.025025954617957164,
+        0.025056774234046335,
+        0.025056833545217407,
+        0.0018706601010409706,
+        0.001870671308426091,
+        0.0006230498996565906,
+        0.0006230385806939708,
+        0.0006226707530164267,
+        0.0006226594469184522,
+        0.0006226588878214159
+      ],
+      "reason": "budget_checkpoint_64",
+      "optimizer_success": true,
+      "cnots": 63,
+      "gate_count": 135,
+      "unitary_depth": 55,
+      "target_counts": [
+        0,
+        3,
+        7,
+        3,
+        7,
+        7,
+        7,
+        7,
+        5,
+        5,
+        7,
+        5
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "energy": -12.030010795010275,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 6.668374092910767e-07,
+      "epsilon_c": 4.037929680733576e-06,
+      "epsilon_sf": 3.363285975499508e-06,
+      "epsilon_mx": 2.6989565239700364e-05,
+      "fidelity": 0.9999979784584323,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 0.9999999999999994,
+      "w_plus": 0.9999999999999998,
+      "T_real": 0.9999980570357114,
+      "T_imag": 0.0,
+      "eta_T": 1.942964288570437e-06,
+      "w0": 0.9999988659122376,
+      "w_plus_0": 0.9999988659122376,
+      "variance": 3.175596191340446e-05,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "51f6b2718f5e2f91677137d1034f6194e5085ef9add200aa7b81dab7bea97e70",
+      "source": "results/stage5_v1/adaptive/cache/3501cee69851cf50f0ec4214a41d1fe61b83fc7f839aeef2461f46140a34f851.json",
+      "source_sha": "989700cc82b4780df5f3b7d4e5eeb10d0750ea0784b738ee3a14fe8a6e647a55",
+      "checkpoint": 2,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    "selection_unresolved": false,
+    "rule": "S2",
+    "energy_tolerance_total": 1.2e-05,
+    "state_access_assisted": true
+  },
+  "B5": {
+    "n": 12,
+    "kappa": 0.0,
+    "h": 0.1,
+    "ref": "ghz",
+    "seed": 11,
+    "selected": {
+      "words": [
+        "ZIIIIIIIIIIY",
+        "IIIIIIIZYIII",
+        "IIIIIIIIIZYI",
+        "IIIYIZIIIIII",
+        "IYZIIIIIIIII",
+        "YIZIIIIIIIII",
+        "IIIIIZIYIIII",
+        "IIYIZIIIIIII",
+        "IIIIZYIIIIII",
+        "IIIIYIZIIIII",
+        "IIIIIZYIIIII",
+        "IIIIIIIIZYII",
+        "IIIIIYXZIIII",
+        "IIIIIIIIYXZI",
+        "IIIZXYIIIIII",
+        "IIIIIIZXYIII",
+        "ZIIIIIIIIIYX",
+        "YXZIIIIIIIII",
+        "IIYXZIIIIIII"
+      ],
+      "params": [
+        0.025025965694216473,
+        0.024947773425948238,
+        0.024994578840042567,
+        0.025025904694813184,
+        0.02502596610276163,
+        0.0249948127546959,
+        0.025025720479516917,
+        0.024994815924884686,
+        0.02494777385851949,
+        0.025025954617957164,
+        0.025056774234046335,
+        0.025056833545217407,
+        0.0018706601010409706,
+        0.001870671308426091,
+        0.0006230498996565906,
+        0.0006230385806939708,
+        0.0006226707530164267,
+        0.0006226594469184522,
+        0.0006226588878214159
+      ],
+      "reason": "budget_checkpoint_64",
+      "optimizer_success": true,
+      "cnots": 63,
+      "gate_count": 135,
+      "unitary_depth": 55,
+      "target_counts": [
+        0,
+        3,
+        7,
+        3,
+        7,
+        7,
+        7,
+        7,
+        5,
+        5,
+        7,
+        5
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "energy": -12.030010795010275,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 6.668374092910767e-07,
+      "epsilon_c": 4.037929680733576e-06,
+      "epsilon_sf": 3.363285975499508e-06,
+      "epsilon_mx": 2.6989565239700364e-05,
+      "fidelity": 0.9999979784584323,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 0.9999999999999994,
+      "w_plus": 0.9999999999999998,
+      "T_real": 0.9999980570357114,
+      "T_imag": 0.0,
+      "eta_T": 1.942964288570437e-06,
+      "w0": 0.9999988659122376,
+      "w_plus_0": 0.9999988659122376,
+      "variance": 3.175596191340446e-05,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "80f0b0b8f09fe8e5d7a95a309561099c2802a313b56d8cdbb032c6560e6500ce",
+      "source": "results/stage5_v1/adaptive/cache/3501cee69851cf50f0ec4214a41d1fe61b83fc7f839aeef2461f46140a34f851.json",
+      "source_sha": "989700cc82b4780df5f3b7d4e5eeb10d0750ea0784b738ee3a14fe8a6e647a55",
+      "checkpoint": 2,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    "archive": "results/stage5_v1/selected/80f0b0b8f09fe8e5d7a95a309561099c2802a313b56d8cdbb032c6560e6500ce.npz",
+    "sha256": "63997b7594e97f6965bc59fb25bb81b5a59527d3ea9c17175348f091690afba5",
+    "energy": -12.030010795010275,
+    "ed_energy": -12.030018797059187,
+    "delta_e": 6.668374092910767e-07,
+    "epsilon_c": 4.037929680733576e-06,
+    "epsilon_sf": 3.363285975499508e-06,
+    "epsilon_mx": 2.6989565239700364e-05,
+    "fidelity": 0.9999979784584323,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz"
+  },
+  "B3": {
+    "n": 12,
+    "kappa": 0.0,
+    "h": 0.1,
+    "ref": "ghz",
+    "seed": 11,
+    "selected": {
+      "words": [
+        "ZIIIIIIIIIIY",
+        "IIIIIIIZYIII",
+        "IIIIIIIIIZYI",
+        "IIIYIZIIIIII",
+        "IYZIIIIIIIII",
+        "YIZIIIIIIIII",
+        "IIIIIZIYIIII",
+        "IIYIZIIIIIII",
+        "IIIIZYIIIIII",
+        "IIIIYIZIIIII",
+        "IIIIIZYIIIII",
+        "IIIIIIIIZYII",
+        "IIIIIYXZIIII",
+        "IIIIIIIIYXZI",
+        "IIIZXYIIIIII",
+        "IIIIIIZXYIII",
+        "ZIIIIIIIIIYX",
+        "YXZIIIIIIIII",
+        "IIYXZIIIIIII"
+      ],
+      "params": [
+        0.025025965694216473,
+        0.024947773425948238,
+        0.024994578840042567,
+        0.025025904694813184,
+        0.02502596610276163,
+        0.0249948127546959,
+        0.025025720479516917,
+        0.024994815924884686,
+        0.02494777385851949,
+        0.025025954617957164,
+        0.025056774234046335,
+        0.025056833545217407,
+        0.0018706601010409706,
+        0.001870671308426091,
+        0.0006230498996565906,
+        0.0006230385806939708,
+        0.0006226707530164267,
+        0.0006226594469184522,
+        0.0006226588878214159
+      ],
+      "reason": "budget_checkpoint_64",
+      "optimizer_success": true,
+      "cnots": 63,
+      "gate_count": 135,
+      "unitary_depth": 55,
+      "target_counts": [
+        0,
+        3,
+        7,
+        3,
+        7,
+        7,
+        7,
+        7,
+        5,
+        5,
+        7,
+        5
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "energy": -12.030010795010275,
+      "ed_energy": -12.030018797059187,
+      "delta_e": 6.668374092910767e-07,
+      "epsilon_c": 4.037929680733576e-06,
+      "epsilon_sf": 3.363285975499508e-06,
+      "epsilon_mx": 2.6989565239700364e-05,
+      "fidelity": 0.9999979784584323,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+      "parity": 0.9999999999999994,
+      "w_plus": 0.9999999999999998,
+      "T_real": 0.9999980570357114,
+      "T_imag": 0.0,
+      "eta_T": 1.942964288570437e-06,
+      "w0": 0.9999988659122376,
+      "w_plus_0": 0.9999988659122376,
+      "variance": 3.175596191340446e-05,
+      "n": 12,
+      "kappa": 0.0,
+      "h": 0.1,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "80f0b0b8f09fe8e5d7a95a309561099c2802a313b56d8cdbb032c6560e6500ce",
+      "source": "results/stage5_v1/adaptive/cache/3501cee69851cf50f0ec4214a41d1fe61b83fc7f839aeef2461f46140a34f851.json",
+      "source_sha": "989700cc82b4780df5f3b7d4e5eeb10d0750ea0784b738ee3a14fe8a6e647a55",
+      "checkpoint": 2,
+      "source_stop": "pool_gradient",
+      "source_budget": 192,
+      "disposition": "newly_executed"
+    },
+    "archive": "results/stage5_v1/selected/80f0b0b8f09fe8e5d7a95a309561099c2802a313b56d8cdbb032c6560e6500ce.npz",
+    "sha256": "63997b7594e97f6965bc59fb25bb81b5a59527d3ea9c17175348f091690afba5",
+    "energy": -12.030010795010275,
+    "ed_energy": -12.030018797059187,
+    "delta_e": 6.668374092910767e-07,
+    "epsilon_c": 4.037929680733576e-06,
+    "epsilon_sf": 3.363285975499508e-06,
+    "epsilon_mx": 2.6989565239700364e-05,
+    "fidelity": 0.9999979784584323,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz"
+  },
+  "oracle": {
+    "words": [
+      "ZIIIIIIIIIIY",
+      "IIIIIIIZYIII",
+      "IIIIIIIIIZYI",
+      "IIIYIZIIIIII",
+      "IYZIIIIIIIII",
+      "YIZIIIIIIIII",
+      "IIIIIZIYIIII",
+      "IIYIZIIIIIII",
+      "IIIIZYIIIIII",
+      "IIIIYIZIIIII"
+    ],
+    "params": [
+      0.02501040887766223,
+      0.024994783859410105,
+      0.024994803360188188,
+      0.02501042859196172,
+      0.0250104283785486,
+      0.025010428378447955,
+      0.024994783859410112,
+      0.025010425436468812,
+      0.02499480507314645,
+      0.025010408374827243
+    ],
+    "reason": "budget_checkpoint_32",
+    "optimizer_success": true,
+    "cnots": 31,
+    "gate_count": 62,
+    "unitary_depth": 32,
+    "target_counts": [
+      0,
+      1,
+      5,
+      1,
+      3,
+      5,
+      3,
+      3,
+      3,
+      1,
+      3,
+      3
+    ],
+    "cnot_order": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "energy": -12.02499687499876,
+    "ed_energy": -12.030018797059187,
+    "delta_e": 0.00041849350503560717,
+    "epsilon_c": 0.0004270076219476948,
+    "epsilon_sf": 0.00039053573139580244,
+    "epsilon_mx": 0.008406485873888501,
+    "fidelity": 0.9987417423577486,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage5_v1/ed/n12_k0x0.0p+0_h0x1.999999999999ap-4.npz",
+    "parity": 0.9999999999999882,
+    "w_plus": 0.9999999999999941,
+    "T_real": 0.9987511706141461,
+    "T_imag": 0.0,
+    "eta_T": 0.0012488293858539112,
+    "w0": 0.9989584953342214,
+    "w_plus_0": 0.9989584953342214,
+    "variance": 0.02004996874779863,
+    "n": 12,
+    "kappa": 0.0,
+    "h": 0.1,
+    "ref": "ghz",
+    "seed": 11,
+    "uid": "8241a67d3475173d272802356a44c6d8e33791fb2be0e93c5078f4f81c5c966b",
+    "source": "results/stage5_v1/adaptive/cache/3501cee69851cf50f0ec4214a41d1fe61b83fc7f839aeef2461f46140a34f851.json",
+    "source_sha": "989700cc82b4780df5f3b7d4e5eeb10d0750ea0784b738ee3a14fe8a6e647a55",
+    "checkpoint": 1,
+    "source_stop": "pool_gradient",
+    "source_budget": 192,
+    "disposition": "newly_executed"
+  },
+  "historical_selected": null,
+  "failure_category": "candidate_available"
+}

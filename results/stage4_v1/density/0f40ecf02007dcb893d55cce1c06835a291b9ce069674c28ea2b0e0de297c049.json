@@ -1,0 +1,56 @@
+{
+  "key": {
+    "physics": {
+      "sources": {
+        "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+        "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+        "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+        "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d"
+      },
+      "versions": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pennylane": "0.44.1",
+        "matplotlib": "3.11.2"
+      },
+      "basis": "wire0 MSB",
+      "n": 8,
+      "compile": "literal unchanged NN NNN RX, target channel after every CNOT"
+    },
+    "params": "2007c5a5f99595c2e7a9cf9827feac52bd1041b0342cdc78bb49178586c942be",
+    "coordinate": "k0x1.999999999999ap-1_h0x1.8000000000000p-1",
+    "p": 0.05
+  },
+  "archive": "results/stage4_v1/density/0f40ecf02007dcb893d55cce1c06835a291b9ce069674c28ea2b0e0de297c049.npz",
+  "archive_sha256": "ee6725e5cbf0ebc16df0c1dd2489e823dd38c050027f6a5b107910454b9bba26",
+  "kappa": 0.8,
+  "h": 0.75,
+  "layers": 6,
+  "p": 0.05,
+  "params_sha256": "2007c5a5f99595c2e7a9cf9827feac52bd1041b0342cdc78bb49178586c942be",
+  "energy": -0.19783096322477262,
+  "mx": 0.017324034326043868,
+  "fidelity_ed": 0.004996418668288143,
+  "r_mix": 1.5268928113735192e-05,
+  "d_mix": 0.024257627018326244,
+  "cnot_count": 192,
+  "target_counts": [
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24
+  ],
+  "end_to_end_seconds": 0.13519070800975896,
+  "cache_status": "executed",
+  "created_utc": "2026-09-22T05:45:21.857148+00:00",
+  "trace_real": 0.9999999999999916,
+  "trace_imag": 5.908901840045999e-18,
+  "hermiticity_error": 1.3755815063409838e-18,
+  "min_eigenvalue": 0.0034168513142810012,
+  "max_eigenvalue": 0.005029862489110252,
+  "purity": 0.003921459283863291
+}

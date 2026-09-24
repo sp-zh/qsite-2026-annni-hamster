@@ -1,0 +1,44 @@
+{
+  "trials": [
+    {
+      "energy": -5.920491440861543,
+      "nit": 400,
+      "nfev": 440,
+      "njev": 440,
+      "optimization_success": false,
+      "status": 1,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "gradient_inf": 0.0003468567614461904,
+      "seconds": 0.22176487499382347
+    },
+    {
+      "energy": -5.920169887974241,
+      "nit": 400,
+      "nfev": 437,
+      "njev": 437,
+      "optimization_success": false,
+      "status": 1,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "gradient_inf": 0.00024964269384852855,
+      "seconds": 0.2347665830166079
+    },
+    {
+      "energy": -5.917129315541038,
+      "nit": 371,
+      "nfev": 404,
+      "njev": 404,
+      "optimization_success": true,
+      "status": 0,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_inf": 8.687008698160525e-06,
+      "seconds": 0.2249612919986248
+    }
+  ],
+  "selection": "lowest energy",
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "disposition": "newly_executed"
+}

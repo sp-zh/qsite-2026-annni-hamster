@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-09-22T07:11:59.957603+00:00",
+  "elapsed_seconds": 3110.943648,
+  "remaining_seconds": 40089.056352,
+  "deadline": "2026-09-22T18:20:09.013955+00:00",
+  "workpackages": {
+    "development": {
+      "index": 18,
+      "noise_index": 18,
+      "next_command": ".venv/bin/python scripts/run_upgrade.py --task development"
+    },
+    "validation": {
+      "index": 6,
+      "next_command": ".venv/bin/python scripts/run_upgrade.py --task validation"
+    },
+    "heldout": {
+      "index": 48,
+      "noise_index": 48,
+      "next_command": ".venv/bin/python scripts/run_upgrade.py --task heldout"
+    },
+    "map": {
+      "index": 201,
+      "next_command": ".venv/bin/python scripts/run_upgrade.py --task map"
+    },
+    "n12": {
+      "index": 60,
+      "next_command": ".venv/bin/python scripts/run_upgrade.py --task n12"
+    },
+    "mitigation": {
+      "index": 30,
+      "next_command": ".venv/bin/python scripts/run_upgrade_mitigation.py"
+    },
+    "floating": {
+      "refine_index": 56,
+      "coarse_index": 39,
+      "next_command": ".venv-tn/bin/python scripts/run_upgrade_floating.py --task refine"
+    },
+    "dynamics": {
+      "index": 252,
+      "next_command": ".venv/bin/python scripts/run_upgrade_dynamics.py"
+    },
+    "branches": {
+      "index": 57,
+      "next_command": ".venv/bin/python scripts/run_upgrade_branches.py"
+    },
+    "detection": {
+      "next_command": ".venv/bin/python scripts/run_upgrade_detection.py"
+    }
+  }
+}

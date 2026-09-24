@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-09-22T06:05:41.439386+00:00",
+  "problem": "Read-only initial inventory included runtime pyc files. Extracted tests regenerate those with different absolute compile paths.",
+  "resolution": "Exclude runtime __pycache__/pyc from protected-input verification and packages; retain initial inventory, explicit exclusion list and failure log. All source, configuration and numeric data remain hash-checked.",
+  "physics_changed": false
+}

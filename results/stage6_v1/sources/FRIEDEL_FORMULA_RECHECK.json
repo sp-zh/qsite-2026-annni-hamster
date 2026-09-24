@@ -1,0 +1,27 @@
+{
+  "time": "2026-09-23T01:33:22.473752+00:00",
+  "source": "results/stage4_upgrade_v1/sources/annni2024.txt",
+  "sha256": "5956e25fb0b2014e14a6567d20bc4812c53ca8cf091c18cce77e334435fe12a1",
+  "sections": [
+    "Eq8",
+    "AppendixB EqB2"
+  ],
+  "coefficient_check": "All seven coefficients agree literally with cached primary text, including its asymmetric coefficients.",
+  "coefficients": [
+    -0.03024193548387097,
+    -0.004032258064516129,
+    0.2862903225806452,
+    0.5,
+    0.2762096774193548,
+    0.004032258064516129,
+    -0.03225806451612903
+  ],
+  "sum": 1.0000000000000002,
+  "operator_mapping": "paper sigma-z -> project Pauli X via global Hadamard",
+  "interpretation": "Original protocol unchanged. Background/reflection sensitivity separately tested; small residual alone does not establish a stable Luttinger exponent across N.",
+  "fresh_access": {
+    "url": "https://arxiv.org/html/2402.11022v1",
+    "status": "failed_connection",
+    "claim": "No fresh online verification; cached primary text actually re-read."
+  }
+}

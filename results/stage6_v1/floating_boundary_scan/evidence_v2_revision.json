@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-09-23T01:51:01.550524+00:00",
+  "reason": "v1 allowed N96 power/q trends without requiring its valid Friedel K to remain consistent. At h=.475 both N96 fits exceed .5 while N128 fits lie just below .5; that conflict must be reported rather than declaring a size-supported floating point.",
+  "change": "Converged N>=96 valid/window-stable K outside(.25,.5) blocks supported-floating status; original outputs preserved. No looser threshold and no removal of difficult points.",
+  "candidate_detector_changes": false,
+  "confirmation_scores_read": false
+}

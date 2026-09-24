@@ -1,0 +1,370 @@
+[
+  {
+    "method": "B3",
+    "region": "all",
+    "coordinates": 12,
+    "outcomes": {
+      "both_pass": 10,
+      "both_fail": 1,
+      "improved": 1
+    },
+    "cap128": {
+      "joint_pass": 10,
+      "observable_pass": 10,
+      "state_pass": 10,
+      "candidate_pool_exists": 10,
+      "median_cnots": 63.5
+    },
+    "cap192": {
+      "joint_pass": 11,
+      "observable_pass": 11,
+      "state_pass": 11,
+      "candidate_pool_exists": 11,
+      "median_cnots": 64.0
+    }
+  },
+  {
+    "method": "B3",
+    "region": "antiphase_band",
+    "coordinates": 4,
+    "outcomes": {
+      "improved": 1,
+      "both_pass": 3
+    },
+    "cap128": {
+      "joint_pass": 3,
+      "observable_pass": 3,
+      "state_pass": 3,
+      "candidate_pool_exists": 3,
+      "median_cnots": 112.0
+    },
+    "cap192": {
+      "joint_pass": 4,
+      "observable_pass": 4,
+      "state_pass": 4,
+      "candidate_pool_exists": 4,
+      "median_cnots": 192.0
+    }
+  },
+  {
+    "method": "B3",
+    "region": "interior",
+    "coordinates": 4,
+    "outcomes": {
+      "both_pass": 4
+    },
+    "cap128": {
+      "joint_pass": 4,
+      "observable_pass": 4,
+      "state_pass": 4,
+      "candidate_pool_exists": 4,
+      "median_cnots": 63.5
+    },
+    "cap192": {
+      "joint_pass": 4,
+      "observable_pass": 4,
+      "state_pass": 4,
+      "candidate_pool_exists": 4,
+      "median_cnots": 63.5
+    }
+  },
+  {
+    "method": "B3",
+    "region": "low_field",
+    "coordinates": 4,
+    "outcomes": {
+      "both_pass": 3,
+      "both_fail": 1
+    },
+    "cap128": {
+      "joint_pass": 3,
+      "observable_pass": 3,
+      "state_pass": 3,
+      "candidate_pool_exists": 3,
+      "median_cnots": 10.5
+    },
+    "cap192": {
+      "joint_pass": 3,
+      "observable_pass": 3,
+      "state_pass": 3,
+      "candidate_pool_exists": 3,
+      "median_cnots": 11.0
+    }
+  },
+  {
+    "method": "C0",
+    "region": "all",
+    "coordinates": 12,
+    "outcomes": {
+      "both_pass": 9,
+      "both_fail": 1,
+      "improved": 2
+    },
+    "cap128": {
+      "joint_pass": 9,
+      "observable_pass": 10,
+      "state_pass": 9,
+      "candidate_pool_exists": 10,
+      "median_cnots": 127.0
+    },
+    "cap192": {
+      "joint_pass": 11,
+      "observable_pass": 11,
+      "state_pass": 11,
+      "candidate_pool_exists": 11,
+      "median_cnots": 192.0
+    }
+  },
+  {
+    "method": "C0",
+    "region": "antiphase_band",
+    "coordinates": 4,
+    "outcomes": {
+      "improved": 2,
+      "both_pass": 2
+    },
+    "cap128": {
+      "joint_pass": 2,
+      "observable_pass": 3,
+      "state_pass": 2,
+      "candidate_pool_exists": 3,
+      "median_cnots": 128.0
+    },
+    "cap192": {
+      "joint_pass": 4,
+      "observable_pass": 4,
+      "state_pass": 4,
+      "candidate_pool_exists": 4,
+      "median_cnots": 192.0
+    }
+  },
+  {
+    "method": "C0",
+    "region": "interior",
+    "coordinates": 4,
+    "outcomes": {
+      "both_pass": 4
+    },
+    "cap128": {
+      "joint_pass": 4,
+      "observable_pass": 4,
+      "state_pass": 4,
+      "candidate_pool_exists": 4,
+      "median_cnots": 111.0
+    },
+    "cap192": {
+      "joint_pass": 4,
+      "observable_pass": 4,
+      "state_pass": 4,
+      "candidate_pool_exists": 4,
+      "median_cnots": 159.5
+    }
+  },
+  {
+    "method": "C0",
+    "region": "low_field",
+    "coordinates": 4,
+    "outcomes": {
+      "both_pass": 3,
+      "both_fail": 1
+    },
+    "cap128": {
+      "joint_pass": 3,
+      "observable_pass": 3,
+      "state_pass": 3,
+      "candidate_pool_exists": 3,
+      "median_cnots": 63.5
+    },
+    "cap192": {
+      "joint_pass": 3,
+      "observable_pass": 3,
+      "state_pass": 3,
+      "candidate_pool_exists": 3,
+      "median_cnots": 63.5
+    }
+  },
+  {
+    "method": "C1",
+    "region": "all",
+    "coordinates": 12,
+    "outcomes": {
+      "both_pass": 8,
+      "both_fail": 2,
+      "improved": 2
+    },
+    "cap128": {
+      "joint_pass": 8,
+      "observable_pass": 10,
+      "state_pass": 8,
+      "candidate_pool_exists": 10,
+      "median_cnots": 127.5
+    },
+    "cap192": {
+      "joint_pass": 10,
+      "observable_pass": 11,
+      "state_pass": 10,
+      "candidate_pool_exists": 11,
+      "median_cnots": 191.0
+    }
+  },
+  {
+    "method": "C1",
+    "region": "antiphase_band",
+    "coordinates": 4,
+    "outcomes": {
+      "improved": 2,
+      "both_pass": 2
+    },
+    "cap128": {
+      "joint_pass": 2,
+      "observable_pass": 3,
+      "state_pass": 2,
+      "candidate_pool_exists": 3,
+      "median_cnots": 128.0
+    },
+    "cap192": {
+      "joint_pass": 4,
+      "observable_pass": 4,
+      "state_pass": 4,
+      "candidate_pool_exists": 4,
+      "median_cnots": 192.0
+    }
+  },
+  {
+    "method": "C1",
+    "region": "interior",
+    "coordinates": 4,
+    "outcomes": {
+      "both_pass": 4
+    },
+    "cap128": {
+      "joint_pass": 4,
+      "observable_pass": 4,
+      "state_pass": 4,
+      "candidate_pool_exists": 4,
+      "median_cnots": 111.0
+    },
+    "cap192": {
+      "joint_pass": 4,
+      "observable_pass": 4,
+      "state_pass": 4,
+      "candidate_pool_exists": 4,
+      "median_cnots": 159.0
+    }
+  },
+  {
+    "method": "C1",
+    "region": "low_field",
+    "coordinates": 4,
+    "outcomes": {
+      "both_pass": 2,
+      "both_fail": 2
+    },
+    "cap128": {
+      "joint_pass": 2,
+      "observable_pass": 3,
+      "state_pass": 2,
+      "candidate_pool_exists": 3,
+      "median_cnots": 79.5
+    },
+    "cap192": {
+      "joint_pass": 2,
+      "observable_pass": 3,
+      "state_pass": 2,
+      "candidate_pool_exists": 3,
+      "median_cnots": 79.5
+    }
+  },
+  {
+    "method": "H6",
+    "region": "all",
+    "coordinates": 12,
+    "outcomes": {
+      "both_pass": 8,
+      "both_fail": 2,
+      "improved": 2
+    },
+    "cap128": {
+      "joint_pass": 8,
+      "observable_pass": 10,
+      "state_pass": 8,
+      "candidate_pool_exists": 10,
+      "median_cnots": 127.0
+    },
+    "cap192": {
+      "joint_pass": 10,
+      "observable_pass": 11,
+      "state_pass": 10,
+      "candidate_pool_exists": 11,
+      "median_cnots": 192.0
+    }
+  },
+  {
+    "method": "H6",
+    "region": "antiphase_band",
+    "coordinates": 4,
+    "outcomes": {
+      "improved": 2,
+      "both_pass": 2
+    },
+    "cap128": {
+      "joint_pass": 2,
+      "observable_pass": 3,
+      "state_pass": 2,
+      "candidate_pool_exists": 3,
+      "median_cnots": 128.0
+    },
+    "cap192": {
+      "joint_pass": 4,
+      "observable_pass": 4,
+      "state_pass": 4,
+      "candidate_pool_exists": 4,
+      "median_cnots": 192.0
+    }
+  },
+  {
+    "method": "H6",
+    "region": "interior",
+    "coordinates": 4,
+    "outcomes": {
+      "both_pass": 4
+    },
+    "cap128": {
+      "joint_pass": 4,
+      "observable_pass": 4,
+      "state_pass": 4,
+      "candidate_pool_exists": 4,
+      "median_cnots": 111.0
+    },
+    "cap192": {
+      "joint_pass": 4,
+      "observable_pass": 4,
+      "state_pass": 4,
+      "candidate_pool_exists": 4,
+      "median_cnots": 159.5
+    }
+  },
+  {
+    "method": "H6",
+    "region": "low_field",
+    "coordinates": 4,
+    "outcomes": {
+      "both_pass": 2,
+      "both_fail": 2
+    },
+    "cap128": {
+      "joint_pass": 2,
+      "observable_pass": 3,
+      "state_pass": 2,
+      "candidate_pool_exists": 3,
+      "median_cnots": 63.0
+    },
+    "cap192": {
+      "joint_pass": 2,
+      "observable_pass": 3,
+      "state_pass": 2,
+      "candidate_pool_exists": 3,
+      "median_cnots": 63.0
+    }
+  }
+]

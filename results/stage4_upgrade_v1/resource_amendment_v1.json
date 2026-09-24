@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-22T07:12:59.161296+00:00",
+  "original_plan_retained": true,
+  "original_heavy_processes": 1,
+  "new_heavy_processes": 2,
+  "original_planning_cap_bytes": 3221225472,
+  "new_planning_cap_bytes": 6442450944,
+  "current_available_bytes": 8996306944,
+  "n12_measured_peak_bytes": 1974534144,
+  "mps_memory": "not independently measured for the active process; conservative tensor-storage/work-array estimate <=4GiB for N<=96,chi<=256; this is an estimate, not a measured peak",
+  "reason": "Available RAM is materially higher than initial 4.7GiB; overlap one sequential exact N12 density stream with the single MPS job. Keep BLAS single threaded.",
+  "physical_configuration_changes": false,
+  "time_package_fractions_unchanged": true,
+  "deadline_unchanged": true
+}

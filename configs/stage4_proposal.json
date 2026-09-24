@@ -1,0 +1,78 @@
+{
+  "status": "proposal_only_not_executed",
+  "n": 8,
+  "layers": 6,
+  "p": [
+    0,
+    0.01,
+    0.05
+  ],
+  "model_compile_thresholds": "unchanged stage3_v1",
+  "priority1_failed_points": [
+    [
+      0.4,
+      0.3
+    ],
+    [
+      0.4,
+      0.4
+    ],
+    [
+      0.45,
+      0.2
+    ],
+    [
+      0.5,
+      0.1
+    ],
+    [
+      0.5,
+      0.2
+    ],
+    [
+      0.55,
+      0.1
+    ],
+    [
+      0.55,
+      0.2
+    ],
+    [
+      0.55,
+      0.3
+    ],
+    [
+      0.6,
+      0.2
+    ],
+    [
+      0.6,
+      0.3
+    ],
+    [
+      0.65,
+      0.3
+    ],
+    [
+      0.65,
+      0.4
+    ],
+    [
+      0.75,
+      0.5
+    ]
+  ],
+  "priority2": "For candidate peak neighborhoods, compare frozen parameter trajectories from both directions at all three p before any boundary claim",
+  "refinement_h_step": 0.025,
+  "maximum_new_optimization_records": 120,
+  "maximum_new_density_evaluations": 180,
+  "optimizer": "same L-BFGS-B and analytic gradient",
+  "maxiter": 2000,
+  "seeds": [
+    101,
+    211,
+    307
+  ],
+  "interpretation": "Do not pool cold starts, resumes, and continuation successes; do not interpolate preparation gaps; only matched resolved complementary features support shifts",
+  "estimated_runtime": "not estimated; remeasure representative local windows before allocation"
+}

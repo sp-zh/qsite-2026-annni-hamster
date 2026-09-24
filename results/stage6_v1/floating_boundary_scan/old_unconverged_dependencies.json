@@ -1,0 +1,58 @@
+{
+  "rows": [
+    {
+      "n": 96,
+      "kappa": 0.6,
+      "h": 0.175,
+      "chi": 128,
+      "init": "plus",
+      "sweep_entries": 25,
+      "last_delta_E": -7.015188430159469e-11,
+      "last_delta_S": 1.6212353857181228e-06,
+      "configured_stopping_tolerances_met": false,
+      "bond_stability_is_separate": true,
+      "source": "TeNPy1.1.1 algorithms/dmrg.py DMRGEngine.is_converged: absolute DeltaS and DeltaE/max(E,1); do not substitute a guessed relative entropy test"
+    },
+    {
+      "n": 96,
+      "kappa": 0.6,
+      "h": 0.175,
+      "chi": 256,
+      "init": "plus",
+      "sweep_entries": 25,
+      "last_delta_E": -1.3364598316911724e-10,
+      "last_delta_S": 6.875397885242052e-06,
+      "configured_stopping_tolerances_met": false,
+      "bond_stability_is_separate": true,
+      "source": "TeNPy1.1.1 algorithms/dmrg.py DMRGEngine.is_converged: absolute DeltaS and DeltaE/max(E,1); do not substitute a guessed relative entropy test"
+    },
+    {
+      "n": 128,
+      "kappa": 0.6,
+      "h": 0.175,
+      "chi": 128,
+      "init": "plus",
+      "sweep_entries": 25,
+      "last_delta_E": -1.2720136055577314e-10,
+      "last_delta_S": 5.4747740136917855e-06,
+      "configured_stopping_tolerances_met": false,
+      "bond_stability_is_separate": true,
+      "source": "TeNPy1.1.1 algorithms/dmrg.py DMRGEngine.is_converged: absolute DeltaS and DeltaE/max(E,1); do not substitute a guessed relative entropy test"
+    },
+    {
+      "n": 128,
+      "kappa": 0.6,
+      "h": 0.175,
+      "chi": 256,
+      "init": "plus",
+      "sweep_entries": 25,
+      "last_delta_E": -8.547829111194005e-11,
+      "last_delta_S": 4.5462139470764384e-06,
+      "configured_stopping_tolerances_met": false,
+      "bond_stability_is_separate": true,
+      "source": "TeNPy1.1.1 algorithms/dmrg.py DMRGEngine.is_converged: absolute DeltaS and DeltaE/max(E,1); do not substitute a guessed relative entropy test"
+    }
+  ],
+  "main_slice_related": [],
+  "policy": "Related fields covered by fresh main-slice refinements or explicit continued checkpoint followup; other old failures remain historical and cannot certify main slice"
+}

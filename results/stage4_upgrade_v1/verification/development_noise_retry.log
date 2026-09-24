@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "scripts/run_upgrade_noise.py", line 20, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--task',required=True);a=p.parse_args();main(a.task)
+                                                                                        ~~~~^^^^^^^^
+  File "scripts/run_upgrade_noise.py", line 11, in main
+    out['methods'][method]=[noise_record(row,p,keep=task in ['development','heldout']) for p in [0,.01,.05]]
+                            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "annni/upgrade_noise.py", line 11, in noise_record
+    r=json.loads(meta.read_text());assert r['key']==key and sha(archive)==r['sha256']
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,1095 @@
+Low-cost error mitigation by symmetry veriﬁcation
+X. Bonet-Monroig, 1 R. Sagastizabal, 2, 3 M. Singh, 2, 3 and T.E. O’Brien 1
+1Instituut-Lorentz, Universiteit Leiden, P.O. Box 9506, 2300 RA Leiden, The Netherlands
+2QuTech, Delft University of Technology, P.O. Box 5046, 2600 GA Delft, The Netherlands
+3Kavli Institute of Nanoscience, Delft University of Technology,
+P.O. Box 5046, 2600 GA Delft, The Netherlands
+(Dated: January 3, 2019)
+We investigate the performance of error mitigation via measurement of conserved symmetries on
+near-term devices. We present two protocols to measure conserved symmetries during the bulk of an
+experiment, and develop a third, zero-cost, post-processing protocol which is equivalent to a variant
+of the quantum subspace expansion. We develop methods for inserting global and local symmetries
+into quantum algorithms, and for adjusting natural symmetries of the problem to boost the mitiga-
+tion of errors produced by diﬀerent noise channels. We demonstrate these techniques on two- and
+four-qubit simulations of the hydrogen molecule (using a classical density-matrix simulator), ﬁnding
+up to an order of magnitude reduction of the error in obtaining the ground-state dissociation curve.
+I. INTRODUCTION
+Noisy, intermediate scale quantum (NISQ) devices
+have begun to appear in laboratories around the world.
+These devices have performance rates around or just be-
+low the quantum error correction threshold [1–5], but
+are lacking the number of qubits required for full fault-
+tolerant quantum computing. This raises the open
+question of whether the upcoming generation of quan-
+tum computers will provide a quantum advantage over
+classical computers, and in which ﬁelds this might be
+achieved [6–8]. In particular, for the area of digital
+quantum simulation, it has been suggested that varia-
+tional quantum eigensolvers [9] may be suﬃciently low-
+cost to be performed on∼ 50 qubits [10–13]. Around this
+point, solving the many-body problem exactly becomes
+too challenging for classical computers, and a slight quan-
+tum edge might be available above current approxima-
+tions.
+In lieu of full error correction techniques, much at-
+tention is being turned to error mitigation techniques,
+which, although unscalable, promise modest improve-
+ments at low cost. Previous work has focused on ac-
+tive error minimization, whereby data is obtained at
+artiﬁcially increased error rates and then extrapolated
+to zero [14–17], and on probabilistic error cancellation,
+where an ensemble of noisy circuits is applied such that
+they average to the target error-free circuit [14, 18]. More
+speciﬁc techniques have been developed for quantum sim-
+ulation, and in particular for variational quantum eigen-
+solvers. A technique developed for exploring the low-
+energy excited subspace of a quantum system, the quan-
+tum subspace expansion, has been shown to have error
+mitigation as a side-eﬀect [19, 20].
+In this work we investigate error mitigation via veriﬁca-
+tion of symmetries found in quantum circuits, in particu-
+lar those in physical systems. This is a low-cost version of
+the stabilizer parity checks ubiquitous in quantum error
+correction [21, 22]. We develop multiple protocols to per-
+form symmetry veriﬁcation, both repeatedly throughout
+a quantum circuit and as a single post-processing step.
+The latter can be related to a variant of the quantum
+subspace expansion [19]. We study the sensitivity of sym-
+metry veriﬁcation to diﬀerent noise channels, and demon-
+strate how it can be optimized by adding new symmetries
+and rotating existing symmetries to be more sensitive to
+local noise.
+II. DEFINITIONS
+In this section we cover some basic deﬁnitions to be
+used throughout this paper, and some details of quan-
+tum computing that may be skipped by the experi-
+enced reader. We use the Pauli group on N qubits
+PN ={I, X, Y, Z}⊗N throughout this work. These op-
+erators form a basis for operators ˆO∈ C2N
+,
+ˆO =
+∑
+ˆP∈PN
+O ˆP
+ˆP , (1)
+with coeﬃcients O ˆP in C. If we choose O ˆP ∈ R, this is
+then a basis for the 2N×2N Hermitian matrices. We call
+such a basis decomposition of an operator ˆO a Pauli de-
+composition. Such a basis is orthogonal in the Frobenius
+norm:
+|| ˆO||F =
+√
+Trace[ ˆO† ˆO]. (2)
+Elements ˆP ∈ PN have two eigenvalues p =±1, with
+corresponding eigenspaces of dimension 2 N−1, and pro-
+jectors ˆMp = 1
+2(1+ pP ) onto said eigenspaces. The Pauli
+group has an additional property; if ˆP̸= I⊗N∈ PN, ˆP
+commutes with half of the elements of PN ([ ˆP , ˆQ] = 0),
+and anticommutes with the other elements ({ ˆP , ˆR} = 0).
+This property can be extended to a general operator ˆO -
+[ ˆP , ˆO] = 0 ({ ˆP , ˆO} = 0) if and only if ˆP commutes (anti-
+commutes) with each element of the Pauli decomposition
+of ˆO (Eq. 1).
+A quantum computation consists of multiple exper-
+iments, each of which can be split into preparations,
+arXiv:1807.10050v3  [quant-ph]  2 Jan 2019
+2
+transformations, and measurements. In the ideal case,
+a preparation generates a quantum state on a register
+of N qubits, which is represented as a vector |φ⟩ in the
+complex vector space C2N
+. Transformation consists of
+evolving this state to a new state |ψ⟩∈ C2N
+, which may
+be represented via a unitary operator |ψ⟩ = U|φ⟩ (with
+U ∈ U(C2N
+), i.e.U U† = U†U = I). Measurement con-
+sists of observing the quantum state |ψ⟩ along some de-
+gree of freedom. The degree of freedom is represented by
+a projector-valued measurement { ˆMi} for each possible
+observed value i, where ∑
+i ˆMi = I, ˆM 2
+i = ˆM†
+i = ˆMi.
+The observation records one such value i at random with
+probability pi following the Born rule,
+pi =|⟨ψ| ˆM|ψ⟩|2, (3)
+and the state of the system collapses into ˆMi|ψ⟩/pi.
+In the presence of noise, the state of a qubit is instead
+given by a density matrix ρ∈ DN, where DN is the set
+of 2N× 2N postive, trace 1 matrices. These are a gener-
+alized form of pure quantum states |ψ⟩, which allow for
+statistical ensembles of pure states (the well-known adage
+being that preparing 1√
+2(|0⟩+|1⟩) is strictly not the same
+as preparing|0⟩ or|1⟩ with 50% probability). For every
+pure state |ψ⟩, the corresponding density matrix is the
+outer product |ψ⟩⟨ψ|, and the expectation value of an
+operator ˆO may be calculated as
+⟨ψ| ˆO|ψ⟩ = Trace[ ˆO|ψ⟩⟨ψ|]. (4)
+We will use the latter notation throughout this paper,
+to be consistent with calculating expectation values on
+mixed states ρ (where the standard bra-ket expectation
+value is no longer possible). We will distinguish between
+operators ˆO and density matrices ρ by the use of hats.
+Note that the trace of products of density matrices is also
+well deﬁned, and has an obvious interpretation as the
+overlap between the density matrices, as for pure states
+Trace[|ψ⟩⟨ψ||φ⟩⟨φ|] =⟨ψ|φ⟩⟨φ|ψ⟩ =|⟨φ|ψ⟩|2. (5)
+Transformations and measurements of density matrices
+behave diﬀerently to those of pure states [23], but we
+will not need details of this in this work.
+A quantum algorithm incurs a cost based on the num-
+ber of qubits and coherence time required for quantum
+hardware to execute it. This cost is usually increased by
+error mitigation protocols that require additional gates
+or ancilla qubits. However, these are in general low cost
+compared to the overhead required for full quantum error
+correction. Indeed, some error mitigation protocols re-
+quire no additional quantum hardware or circuitry, hence
+we deﬁne them as ‘zero-cost’. Such protocols may require
+repetition of the algorithm in order to estimate expecta-
+tion values Trace[ ˆOρ], but this may be oﬀset by paral-
+lelizing across multiple quantum devices. This cost met-
+ric is then similar to the quantum volume [7] often used
+to characterize quantum hardware.
+III. SYMMETR Y VERIFICA TION
+Our study is motivated by the presence of symmetries
+in quantum mechanical systems. In such systems, one
+has a Hamiltonian ˆH, and is usually interested in study-
+ing the properties of ground or low-lying eigenstates of
+the system. A (unitary) symmetry of a system is a uni-
+tary operator ˆS that commutes with the Hamiltonian -
+[ ˆH, ˆS] = 0. When this is true, ˆH may be block diago-
+nalized within the eigenspaces of ˆS. Then, if one were
+to study eigenstates of ˆH on a quantum computer, one
+may perform such a study entirely within a single target
+eigenspaceS of ˆS. In real-world quantum computers,
+noise may shift the state of the computer outside of the
+target eigenspaceS. By verifying during or at the end of
+a calculation that the system remains inS, and throwing
+away results where this is not the case, it is thus possible
+to make our quantum computation less sensitive to these
+types of noise.
+Veriﬁcation of a symmetry is performed by measure-
+ment and post-selection which is typically performed in
+the computational basis (the eigenstates |0⟩ and|1⟩ of a
+single qubit). The Pauli operators PN may be rotated
+into this basis relatively easily (see Sec. IV), and as such
+are a good class from which to draw symmetry opera-
+tors. If ˆS /∈ PN, but the target eigenspace S lies within
+the eigenspace of a Pauli operator ˆP , then measuring ˆP
+presents a low-cost alternative to measuring ˆS, though
+this may provide less error mitigation in the case where
+the eigenspace of ˆP is strictly larger than S. In general,
+symmetry veriﬁcation will work with any construction of
+a projector valued measurement{ ˆMi} where one projec-
+tor ˆMS projects onto the target eigenspace S. We note
+that phase estimation [24] provides a generic construc-
+tion for such a measurement, although this is a rather
+high cost circuit (in particular requiring the ability to
+apply the symmetry ˆU on the quantum computer). This
+requirement for measurement implies that symmetry ver-
+iﬁcation cannot be extended to antiunitary symmetries
+(nor to symmetries that anticommute with the Hamilto-
+nian), as these do not lead to eigenspaces that can be
+projected into.
+The projector valued measurement { ˆMi} is the more
+general object for symmetry veriﬁcation than the symme-
+try ˆS. In an arbitrary quantum circuit at an arbitrary
+time, if we know by any means that the state |ψ⟩ in the
+absence of error satisﬁes ˆMs|ψ⟩ =|ψ⟩, measuring { ˆMi}
+on the noisy state ρ and post-selecting will project to the
+state
+ρs =
+ˆMsρ ˆMs
+Trace[ ˆMsρ]
+. (6)
+Then, we have
+Trace[ρs|ψ⟩⟨ψ|] = Trace[ρ|ψ⟩⟨ψ|]
+Trace[ ˆMsρ]
+≥ Trace[ρ|ψ⟩⟨ψ|], (7)
+3
+and our new state ρs has strictly greater overlap with the
+target|ψ⟩ than the pre-selection ρ (unless ˆMsρ ˆMs = ρ,
+in which case ρs = ρ). Such a procedure can be immedi-
+ately extended to multiple operators ˆS1, ˆS2, . . ., as long
+as [ ˆSi, ˆSj] = 0. (If this is not the case, sequential sym-
+metry veriﬁcation projects between diﬀerent eigenspaces,
+which is ineﬃcient and greatly increases the number of
+experiments that must be thrown away.) Symmetry ver-
+iﬁcation may also be repeated at multiple points during
+a quantum circuit, by inserting measurement of ˆS in be-
+tween gates, as long as we expect the state |ψ(t)⟩ to be
+an eigenstate of ˆS at time t during the circuit. We call
+such protocols ‘bulk’ symmetry veriﬁcation, as opposed
+to ‘ﬁnal’ symmetry veriﬁcation at the end of the an ex-
+periment.
+IV. ANCILLA AND IN-LINE SYMMETR Y
+VERIFICA TION
+The simplest form of the symmetry veriﬁcation in-
+volves the use of an ancilla qubit to measure the Pauli
+symmetry ˆS. Let us write ˆS∈ Pn in terms of its tensor
+factors; ˆS =⊗i ˆSi, and let NS be the number of nontriv-
+ial ˆSi ={X, Y, Z}. To each such ˆSi, we can associate a
+corresponding rotation ˆRi ={exp(iπ
+2 Y ), exp(−iπ
+2 X), 1}
+(such that ˆRi| ˆSi = 1⟩ =|0⟩). The veriﬁcation circuit
+is then shown in Fig. 1(a). For each non-trivial ˆSi, the
+corresponding qubit is rotated by ˆRi, then performs a
+controlled-NOT gate on the ancilla qubit, and ﬁnally is
+rotated by ˆR−1
+i . This requires that the ancilla qubit
+be coupled to each qubit in the system register that it
+measures, which is in general not possible in a quantum
+circuit. As a low-cost alternative (Fig. 1(b)), the an-
+cilla qubit may be shuﬄed along the system register via
+SWAP gates as it performs the controlled phase gate.
+In either case, as the ancilla qubit must interact with
+each register qubit individually, the circuit depth must
+be O(NS)
+It is possible to forego the ancilla qubit in symmetry
+veriﬁcation, by instead encrypting the symmetry ˆS onto
+the computational degree of freedom of a qubit within
+the system itself, which is then read out. In Fig. 2(a) we
+give an example circuit for this in-line symmetry veriﬁca-
+tion, with circuit depth only O(log(NS)). This logarith-
+mic depth requires qubits to be coupled as a binary tree,
+which is not possible in systems which allow only local
+couplings. In general, for such a d-dimensional local cou-
+pling, the depth of the circuit must be at least O(N 1/d
+S ),
+being the minimum depth of a light-cone encompassing
+NS qubits. In Fig. 2(b) we give such a circuit for a system
+with linear connectivity. Even when all-to-all coupling is
+available, the O(log(NS))-depth circuit (Fig. 2(a)) may
+not be preferable, as the duty cycle for each qubit (i.e.
+the period of time between the ﬁrst and last gate each
+qubit is involved in) is length O(log(NS)). By contrast,
+the duty cycle of an individual qubit during the circuit
+FIG. 1. Quantum circuit for ancilla symmetry veriﬁcation of
+a symmetry ˆS. (a) A simple circuit entangling all qubits with
+a single ancilla qubit. The rotations ˆRi depend on the tensor
+components ˆSi on each qubiti (relationship given in text). (b)
+A circuit making an identical measurement to that in (a), but
+with only local CNOT and SWAP two-qubit gates. A SWAP
+between qubit 0 and the ancilla is not required because the
+Bell state prepared after the ﬁrst CNOT is symmetric between
+the two qubits (this is not the case for the remaining qubits).
+in Fig. 1(b) is O(1). A short duty cycle implies that
+qubits can be used to perform other operations while the
+symmetry veriﬁcation is ongoing, reducing the time cost
+when this circuit is performed as a small block of a larger
+computation.
+V. V ARIA TIONAL QUANTUM EIGENSOL VERS
+As an example target algorithm for symmetry veriﬁca-
+tion, we consider ground state preparation for a Hamil-
+tonian ˆH via a variational quantum eigensolver [9, 25].
+An (ideal) variational quantum eigensolver consists of a
+unitary circuit U(⃗θ), parametrized by a vector of free
+angles ⃗θ that control individual gates within the circuit.
+This circuit acts on a starting state, which we take to
+be the computational basis state |0, . . . ,0⟩, to produce
+a variational ﬁnal state |ψ(⃗θ)⟩ = U(⃗θ)|0, . . . ,0⟩. These
+angles are controlled classically to minimize the energy
+E(⃗θ) =⟨ψ(⃗θ)| ˆH|ψ(⃗θ)⟩. This expectation value is calcu-
+lated in an experiment by taking the Pauli decomposition
+of ˆH (Eq. 1), preparing|ψ(⃗θ)⟩ and measuring each ˆPi re-
+peatedly to accumulate statistics on ⟨ψ| ˆPi|ψ⟩.
+Variational quantum eigensolvers (VQE) are natural
+candidates for ﬁnal symmetry veriﬁcation, and common
+classes of VQEs are also natural candidates for bulk sym-
+4
+FIG. 2. Quantum circuits for in-line symmetry veriﬁcation.
+(a) The optimal veriﬁcation circuit hasO(log(NS)) depth, but
+requires long-range connectivity between qubits, which is not
+available on many architectures. (b) In the presence of linear
+connectivity, anO(NS) depth veriﬁcation circuit is optimal.
+metry veriﬁcation. In particular, for fermionic systems
+(such as the electronic structure problem), global fermion
+parity is conserved, making it a prime target for symme-
+try veriﬁcation. (At low energy, for non-superconducting
+systems, the particle number is often conserved as well,
+but this is not a Pauli operator, and is much more diﬃcult
+to measure.) Using the Jordan-Wigner transformation
+on an N-fermion Hamiltonian, this symmetry takes the
+form Z⊗N. Most VQEs consist of creating an approxi-
+mate starting state (such as the Hartree-Fock state) that
+respects this symmetry, and then performing multiple
+local rotations that continue to respect this symmetry.
+This is true of both the unitary coupled cluster (UCC)
+ansatz [9], and the quantum approximate optimization
+algorithm (QAOA) [26]. In the former, the ansatz is
+taken as the expansion of the cluster operator e ˆT− ˆT †
+ˆT =
+∑
+n
+ˆT (n), (8)
+ˆT (n) =
+∑
+i1,...,in;j1,...,jn
+θi1,...,in
+j1,...,jn(
+n∏
+m=1
+ˆc†
+im)(
+n∏
+m=1
+ˆcjm) (9)
+where the θ parameters are taken as the free parameters
+to be optimized, and the sum is a sum over empty molec-
+ular orbitals to the left of the semi-colon, and ﬁlled molec-
+ular orbitals to the right. This exponentiation is typically
+performed by the Trotter-Suzuki expansion, leaving a se-
+ries of unitaries
+∏
+i;j
+eθi
+j (ˆc†
+i ˆcj−ˆc†
+j ˆci) ∏
+i,j;k,l
+eθi,j
+k,l(ˆc†
+i ˆc†
+j ˆck ˆcl−ˆc†
+l ˆc†
+k ˆcj ˆci) . . . (10)
+each of which respects fermion parity. QAOA for the
+electronic structure problem consists of performing steps
+of time evolution alternating between the Hartree-Fock
+Hamiltonian and the electronic-structure Hamiltonian,
+both of which respect fermion parity. Thus, for both
+ansatz, bulk symmetry veriﬁcation could be performed
+between individual steps of the time evolution.
+Although symmetry veriﬁcation promises a ﬁnal state
+with greater overlap with the ground state, it does not
+promise a necessarily lower energy. Let us write the
+(un-normalized) symmetry-accepted state ρs, and the
+symmetry-rejected state ρr. If our measurement was per-
+fect, we would have
+ρs = ˆMsρ ˆMs, ρ r = (I− ˆMs)ρ(I− ˆMs). (11)
+Then, Trace[ ˆHρ] = Trace[ ˆHρr] + Trace[ˆHρs]. Now, sup-
+pose the rejected state ρr has lower energy than the ac-
+cepted state ρs;
+Trace[ ˆHρr]
+Trace[ρr] < Trace[ ˆHρs]
+Trace[ρs] . (12)
+We can calculate
+Trace[ ˆHρ] = Trace[ρr]Trace[ ˆHρr]
+Trace[ρr] + Trace[ρs]Trace[ ˆHρs]
+Trace[ρs]
+< (Trace[ρr] + Trace[ρs])Trace[ ˆHρs]
+Trace[ρs] = Trace[ ˆHρs]
+Trace[ρs] ,
+and our symmetry-veriﬁed state would be higher in en-
+ergy than the initial state as well. As the energy of ρr
+lies strictly above the ground state, failure of symmetry
+veriﬁcation must imply ρs has suﬃciently large overlap
+with high-energy states. As such, we would suggest that
+such a failure implies the energy of ρ itself is not to be
+trusted.
+VI. POST-SELECTED SYMMETR Y
+VERIFICA TION AND S-QSE
+Conveniently, when a quantum computation requires
+calculating the expectation values of a set of Pauli oper-
+ators, symmetry veriﬁcation may be performed via post-
+processing of the expectation values themselves (with
+possibly some additional measurements), rather than re-
+quiring additional quantum circuitry. Suppose we want
+to calculate the expectation value of ˆP∈ PN on our state
+ρ following projection onto the ˆS = s(=±1) subspace of
+our symmetry ˆS∈ PN. The projector onto this subspace
+may be written ˆMs = 1
+2(1 + s ˆS). Then, the expecta-
+tion value of ˆP on the state ρs targeted by the symmetry
+5
+veriﬁcation can be expanded using Eq. 6
+Trace[ ˆP ρs] = Trace
+[
+ˆP
+ˆMsρ ˆMs
+Trace[ ˆMsρ]
+]
+= Trace[ ˆP ρ] + sTrace[ ˆP ˆSρ]
+1 + sTrace[ˆSρ]
+, (13)
+where we have used the cyclic property of the trace and
+the fact that [ ˆP , ˆMs] = 0 to write Trace[ ˆP ˆMsρ ˆMs] =
+Trace[ ˆP ˆMsρ], and expanded our deﬁnition of ˆMs. The
+expectation values Trace[ˆSρ], Trace[ ˆP ρ], and Trace[ˆP ˆSρ]
+may be then calculated using the unveriﬁed state ρ, and
+substituted into Eq. 13 to obtain the veriﬁed result. By
+avoiding additional quantum circuitry, we expect this
+method to outperform both ancilla and in-line symmetry
+veriﬁcation. However, we note that post-selection can-
+not be used for bulk symmetry veriﬁcation (as we can-
+not measure these expectation values during the circuit).
+Furthermore, it cannot be used in algorithms where the
+output is not an expectation value Trace[ ˆP ρ].
+Post-selected symmetry veriﬁcation can be observed to
+be identical to a form of the quantum subspace expansion
+(QSE) [19]. Originally designed to investigate the low-
+energy excited states around the ground space found by
+a variational quantum eigensolver, QSE works by taking
+a set of excitation operators { ˆEi}, which can be applied
+to the approximated ground state |ψ(⃗θ)⟩ to obtain a set
+of states|φi⟩ = ˆEi|ψ(⃗θ)⟩. The spectrum of the Hamilto-
+nian within the manifold spanned by these states can be
+calculated as the solution to the generalized eigenvalue
+problem
+ˆHQSE|ξ⟩ = λ ˆBQSE|ξ⟩. (14)
+Here, ˆHQSE is the Hamiltonian matrix projected into the
+spanned manifold
+[ ˆHQSE]i,j = Trace[ ˆH|φi⟩⟨φj|], (15)
+and ˆBQSE is the overlap matrix,
+[ ˆBQSE]i,j = Trace[|φi⟩⟨φj|], (16)
+to account for the fact that |φi⟩ and|φj⟩ are in general
+not orthogonal. In the presence of noise, although the
+state|φi⟩ is not well deﬁned (as our noisy state ρ is not a
+pure state), the operators |φi⟩⟨φj| = ˆEiρ ˆE†
+j remain well-
+deﬁned, and the expectation values in Eqs. 15 and 16 are
+still able to be measured in an experiment.
+The set{ ˆEi} is usually taken to be the set of low-order
+polynomials in qubit or fermion operators [19, 20]. How-
+ever, if the set {I, ˆS} is chosen as excitation operators,
+the solution to the generalized eigenvalue problem is the
+same as that obtained by post-selection. To show this,
+we expand
+Trace[ ˆHρs] =
+∑
+i
+hiTrace[ ˆPiρs]
+=
+∑
+i
+Trace[hi ˆPiρ] + sTrace[hi ˆPi ˆSρ]
+1 + sTrace[ˆSρ]
+= Trace[ ˆHρ] + sTrace[ ˆH ˆSρ]
+1 + sTrace[ˆSρ]
+. (17)
+Next, we calculate the QSE matrices (using the commu-
+tation of ˆH and ˆS)
+ˆHQSE =
+[
+Trace[ ˆHρ] Trace[ ˆH ˆSρ]
+Trace[ ˆH ˆSρ] Trace[ ˆHρ]
+]
+, (18)
+ˆBQSE =
+[
+1 Trace[ ˆSρ]
+Trace[ˆSρ] 1
+]
+. (19)
+Assuming that Trace[ ˆSρ] ̸= 1, ˆBQSE is invertible, the
+problem reduces to ﬁnding the (regular) eigenvalues of
+ˆB−1
+QSE ˆHQSE = 1
+1− Trace[ˆSρ]2
+[
+α β
+β α
+]
+, (20)
+where
+α = Trace[ ˆHρ]− Trace[ˆSρ]Trace[ ˆH ˆSρ], (21)
+β = Trace[ ˆH ˆSρ]− Trace[ ˆHρ]Trace[ˆSρ]. (22)
+The eigenvalues of this matrix take the form
+λ = 1
+1− Trace[ˆSρ]2 (α± β) (23)
+= Trace[ ˆHρ]± Trace[ ˆH ˆSρ]
+1± Trace[ˆSρ]
+, (24)
+which can be seen to be equal to those found in Eq. 17.
+We call this version of the quantum subspace expansion
+symmetry-QSE, or S-QSE for short.
+This result is not surprising; it was suggested in [19] to
+account for symmetries during QSE by projecting ˆHQSE
+and ˆBQSE into the symmetry subspace, which achieves
+the same result as in the above. However, this demon-
+strates that one may account for symmetries via a ver-
+sion of QSE without calculating the full linear response.
+Moreover, this implies that S-QSE corrects for both co-
+herent and incoherent errors that project out of theˆS = s
+subspace. By contrast, QSE with an operator that anti-
+commutes with the Hamiltonian can only correct coher-
+ent errors (see appendix). S-QSE may be immediately
+combined with other forms of QSE, for example linear
+response QSE, by including both sets of operators as ex-
+citations.
+6
+VII. SIMULA TION OF SYMMETR Y
+VERIFICA TION ON THE HYDROGEN
+MOLECULE
+To ﬁrst investigate symmetry veriﬁcation in a simple
+setting, we use a VQE to ﬁnd the ground-state energy
+of H2 on two qubits. This follows previous experimental
+demonstrations [9, 20, 27, 28]. We take the STO-3G ba-
+sis for H 2, which has four spin-orbitals, and convert this
+into a qubit Hamiltonian via the Bravyi-Kitaev trans-
+formation. The four spin-orbitals require four qubits to
+represent them on, but in this representation the Hamil-
+tonian is diagonal on two of the qubits, which may be
+removed. The remaining two-qubit Hamiltonian takes
+the form
+ˆH = h0II+ h1IZ + h2ZI+ h3XX + h4Y Y + h5ZZ, (25)
+where hi are sums of integrated two and four-body terms
+from the original electronic structure problem. The cal-
+culation of these terms, and the Bravyi-Kitaev transfor-
+mation itself, were performed using the psi4 [29] and
+OpenFermion [30] packages. The Hamiltonian can be
+seen to commute with the symmetry ˆS = ZZ . Our
+ground state wavefunction has non-trivial overlap with
+the Hartree-Fock wavefunction, which is in the ZZ =−1
+subspace; this is then our target subspace. We follow the
+unitary coupled cluster ansatz of [27], which consists of
+exciting our system to the|01⟩ state, and performing the
+unitary rotation
+ˆU(θ) = e−iθX0Y1 . (26)
+This unitary rotation may be decomposed using standard
+methods [31]. As described previously, the VQE proce-
+dure consists of ﬁxing θ, repeatedly preparing|ψ(θ)⟩ and
+measuring collections of terms in the Pauli decomposition
+of ˆH until a good estimate of the energy E(θ) is found.
+This is then repeated at varying θ as demanded by a
+classical optimizer until a minimum E(θ) is found [9].
+We compare the performance of the three symmetry
+veriﬁcation protocols described previously as a ﬁnal sym-
+metry veriﬁcation step. The ancilla symmetry veriﬁca-
+tion is performed in the same manner as Fig. 1(a). The
+in-line symmetry veriﬁcation is performed in a manner
+similar to Fig. 2(a), but as this is ﬁnal symmetry ver-
+iﬁcation, we have no need to undo the symmetry mea-
+surement. Instead, to measure the expectation value of
+a Pauli operator Trace[ρ ˆP ], we can propagate ˆP through
+the symmetry veriﬁcation circuit [32] and measure the
+corresponding Pauli term. It is then suﬃcient to rotate
+the control qubit to recover the expectation values ⟨IZ⟩
+and⟨XX⟩. From this we may calculate all other expec-
+tation values in Eq. 25 using the fact that ZZ =−1. For
+this problem, S-QSE not only requires no additional cir-
+cuitry, but also no additional measurements (all required
+terms are in the Pauli decomposition of the Hamiltonian).
+To test symmetry veriﬁcation in the presence of real-
+istic noise, we simulate our chosen experiment using the
+quantumsim density matrix simulator [33]. We take gate
+error models and parameters similar to previous simula-
+tion work based on experimental data of state-of-the-art
+superconducting transmon qubits [34]. Errors in trans-
+mon qubits are dominated by decoherence times, which
+we take at a base level to beT1 = T2 = 20 µs. This should
+be compared to single and two-qubit gate times of 20 ns
+(giving a total circuit length without symmetry veriﬁca-
+tion of 220 ns). Single and two-qubit gates suﬀer from
+additional dephasing noise of 0.01% and 1% respectively.
+We assume that single-shot measurement (for veriﬁca-
+tion purposes) has a read-out error of 1%, and that error
+in tomographic measurements and pre-rotations (used to
+calculate the expectation values themselves) can be can-
+celled by linear inversion tomography [35, 36].
+Using the above error model, we observe (Fig. 3) that
+the un-mitigated VQE (blue points) achieves an error
+in the energy of approximately 0.01− 0.04 hartree across
+the bond dissociation curve. This error is improved upon
+by all symmetry veriﬁcation techniques. S-QSE (red dia-
+monds) provides the largest improvement of all symmetry
+veriﬁcation protocols, as no additional errors are intro-
+duced. The S-QSE circuit is observed to give approx-
+imately a ﬁve-fold improvement over the unmitigated
+circuit, while ancilla (orange crosses) and in-line (green
+squares) symmetry veriﬁcation show an approximately
+two-fold and three-fold improvement respectively. The
+diﬀerences between S-QSE and other forms of symme-
+try veriﬁcation emphasize the importance of minimizing
+the veriﬁcation cost in bulk symmetry veriﬁcation (where
+S-QSE is no longer available).
+We now investigate the eﬀect of diﬀerent noise chan-
+nels on the performance of symmetry veriﬁcation. Any
+noise channel that commutes with the symmetry opera-
+tors evolves the system state within the target subspace,
+which symmetry veriﬁcation explicitly does not mitigate.
+The analysis of which channels have this property can be
+reduced to an analysis over PN, as if we mitigate Pauli
+errors ˆPi ∈ PN, we also mitigate any linear combina-
+tion of them [21]. In the above circuit, the ZZ sym-
+metry commutes with any single-qubit Z errors, making
+the protocol prone to the Tφ (pure dephasing) channel,
+but it anticommutes with single-qubit X-errors, making
+the protocol resilient against the T1 (amplitude decay)
+channel. To investigate this, in Fig. 4 we calculate the
+error in determining the ground state energy near the
+minima of the bond dissociation curve (0 .75˚A bond dis-
+tance) using S-QSE, as we vary T1 and Tφ. We turn all
+other error sources oﬀ, and vary T1 (Tφ) with Tφ = 20 µs
+(T1 = 20 µs) ﬁxed. In the absence of error mitigation,
+the two decoherence sources have almost identical ef-
+fect (deviation approximately 10 −2 hartree). However,
+in the presence of error mitigation, the susceptibility of
+the VQE to T1 noise is noticeably smaller than to Tφ
+noise - up to a factor of two over the range of decoher-
+ence times plotted. We note that S-QSE does not make
+our circuit second-order sensitive toT1 noise. This can be
+understood as X-errors at some points during our VQE
+7
+FIG. 3. (Color online) Accuracy of the VQE over the entire
+bond dissociation curve using the diﬀerent symmetry veriﬁca-
+tion methods mentioned in the text (labelled in legend). (top)
+The target curve of H 2, compared to the exact result (black
+line). (bottom) Log plot of the diﬀerence between the black
+lines and points in the above plot.
+circuit are rotated to Z-errors by later gates in the circuit,
+preventing their mitigation.
+VIII. INSER TING AND ROT A TING
+SYMMETRIES
+As observed in the previous section, verifying single
+symmetries has a marked eﬀect on the performance of
+a quantum circuit, but will not catch and remove all
+sources of noise. In this section we suggest how one may
+improve upon this by adding additional symmetries to
+the quantum algorithm, and by rotating existing sym-
+metries to make them more sensitive to errors on the un-
+derlying quantum hardware. In the language of quantum
+error correction, this is a low-cost attempt to increase the
+distance of the detection code.
+We ﬁrst suggest a method to extend anN-qubit Hamil-
+tonian ˆH, given a Pauli operator ˆP∈ PN, to an N + 1-
+qubit Hamiltonian ˆHext
+ˆHext =
+[ˆH 0
+0 ˆP ˆH ˆP
+]
+. (27)
+Both blocks of ˆHext can be seen to have the same eigen-
+spectrum (as this is unaﬀected by the unitary rotation of
+ˆP ), and ˆHext commutes with the operator
+[
+0 ˆP
+ˆP 0
+]
+= X ˆP , (28)
+100 101 102 103
+T1,Tφ (µs)
+10−3
+10−2
+10−1
+Energy error (hartree)
+Error Tφ = 20 µs
+Error S-QSE Tφ = 20 µs
+Error T1 = 20 µs
+Error S-QSE T1 = 20 µs
+FIG. 4. (Color online) Eﬀect of varying decoherence times on
+the VQE accuracy. With all other error sources turned oﬀ,
+T1 is varied with Tφ = 20 µs ﬁxed (red-dashed curves), and
+Tφ is varied with T1 = 20 µs ﬁxed (blue-solid curves). We
+plot the error in estimating the ground-state energy for the
+unmitigated experiment (squares), and the circuit mitigated
+with S-QSE (circles). Data points for the blue and red curves
+are identical at T1 = Tφ = 20 µs, as can be seen from the
+complete overlap.
+which is then the new symmetry operator. This mapping
+corresponds to mapping Pauli operators ˆQ∈ PN in the
+original problem to
+ˆQext =
+{
+I ˆQ if [ ˆQ, ˆP ] = 0
+X ˆQ if{ ˆQ, ˆP} = 0 . (29)
+To implement this in the algorithm itself, we note that
+every circuit can be decomposed into a product of unitary
+rotations
+∏
+j
+eiθj ˆQj , ˆQj∈ PN , (30)
+where a single ˆQ∈ PN may be repeated in the product.
+Adding the symmetry then consists of replacing these
+rotations by rotations around the transformed operator
+ˆQext (as per Eq. 29), and re-decomposing the operations
+into a circuit (using e.g. the methods of [31, 37]). If ˆH had
+a previous set of symmetries ˆSi, these are transformed to
+a new set ˆSi,ext (following Eq. 29), that commute with
+both ˆHext and the additional symmetry X ˆP . This exten-
+sion method is particularly suitable for digital quantum
+simulation, as circuits are often generated in the form of
+Eq. 30. This is the case for traditional Hamiltonian simu-
+lation [38], quantum phase estimation [31], and the UCC
+QSE discussed previously, all of which require exponenti-
+ating an operator via the Suzuki-Trotter expansion [39].
+Beyond choosing the number of symmetries in a prob-
+lem, one may wish to choose how these symmetries ap-
+pear in the problem. In particular, sets of symmetries
+may be found that anticommute with all local operators,
+which should increase the mitigation power of the veri-
+8
+ﬁcation protocol against local sources of noise. (For ex-
+ample, the N-qubit operators X⊗N and Z⊗N with even
+N.) Any two groups of M Pauli operators are unitarily
+equivalent as long as they satisfy the same commutation
+and multiplication rules (e.g. IZ, ZI, and ZZ are equiva-
+lent to XX , Y Y and ZZ , but not to IX, IY and IZ). To
+ﬁnd such unitary transformations, we suggest decompos-
+ing them into rotations of the form ˆR = eiπ
+2
+ˆQ for ˆQ∈ P,
+which transforms
+ˆP∈ P→ ˆR† ˆP ˆR =
+{ ˆP if [ ˆP , ˆQ] = 0
+i ˆP ˆQ if{ ˆP , ˆQ} = 0 . (31)
+Rotations of this form have a few desirable properties.
+Their eﬀect is easy to calculate classically, and they trans-
+form Pauli operators to Pauli operators. Furthermore,
+each ˆR leaves half of the Pauli group unchanged. This
+allows for some choice of rotations to leave desired sym-
+metries (or other operators) already present in the prob-
+lem invariant, while other terms are rotated.
+IX. EXTENDING THE SYMMETR Y
+VERIFICA TION OF THE HYDROGEN
+MOLECULE
+We now demonstrate the veriﬁcation of multiple sym-
+metries by extending the previous VQE simulation of H2.
+We transform the electronic structure Hamiltonian onto
+a qubit representation this time via the Jordan-Wigner
+transformation. This gives the four-qubit Hamiltonian
+ˆH =hI I +
+∑
+i
+hiZi + 1
+2
+∑
+i̸=j
+hi,jZiZj
++ hs(X0Y1Y2X3 + Y0X1X2Y3
+− X0X1Y2Y3− Y0Y1X2X3), (32)
+which has symmetries ˆS0 = Z0Z1, ˆS1 = Z0Z2, and ˆS2 =
+Z0Z1Z2Z3. In the Bravyi-Kitaev transformation these
+symmetries were the additional qubits that were thrown
+away. We choose again the unitary coupled cluster ansatz
+for the VQE, which can be reduced to the operator[40]
+ˆU(θ) = eiθY0X1X2X3 . (33)
+As in the two-qubit case, the VQE circuit consists of
+preparing the system in the Hartree-Fock state |1100⟩,
+applying U(θ) and measuring the variational energy, for
+a total circuit time of 400 ns.
+The above set of symmetries still commute with all
+single-qubit Z errors, so we rotate our problem to in-
+crease the mitigation power of symmetry veriﬁcation. We
+choose the rotation
+ˆR = eiπ
+2Y0X2 eiπ
+2Y1X3 . (34)
+This transforms the symmetry ˆS0→ X0X1X2X3, whilst
+leaving ˆS1 and ˆS2 unchanged. The resulting set of
+symmetries do not commute with any single-qubit X
+or Z operator, as required. To create the transformed
+circuit, we need to transform both our starting state
+|1100⟩→ ˆR|1100⟩, and the UCC unitary ansatz
+ˆU(θ)→ ˆR ˆU ˆR† = eiθY0Z1X2 . (35)
+The transformed circuit incurs an additional cost from
+this initial application of ˆR, but this is balanced by the
+reduced weight of the transformed cluster operator, re-
+sulting in a total circuit time of 440 ns.
+In Fig. 5, we compare the performance of the two diﬀer-
+ent circuits above to the two-qubit circuit of Fig. 3, with
+and without the addition of S-QSE. At small bond dis-
+tance (≲ 0.75˚A), the target ground state (in the absence
+of rotation by ˆR) is roughly a computational basis state,
+which is immune to dephasing errors. At this point, all
+three veriﬁcation protocols perform roughly similarly, de-
+spite the unmitigated four-qubit simulations performing
+signiﬁcantly worse than the unmitigated two-qubit sim-
+ulation. At large bond distance ( ≳ 0.75˚A), the ground
+state is prone to T2 noise, at which point we see the
+rotated 4-qubit S-QSE simulation signiﬁcantly outper-
+forming its counterparts. At the largest distance stud-
+ied, this simulation achieves a two-fold reduction in er-
+ror compared to the two-qubit S-QSE simulation, despite
+using twice as many qubits and a twice as long circuit.
+By comparison, unrotated S-QSE on four qubits cannot
+protect against the T2 noise accumulated over the simu-
+lation, and performs a factor of two worse than the two-
+qubit S-QSE simulation. This clearly demonstrates the
+need to optimize symmetry veriﬁcation protocols to ac-
+count for errors present in the system as this technique is
+scaled up to larger computations. Over the entire bond-
+dissociation curve, the rotated four-qubit S-QSE simula-
+tion outperforms its unmitigated counterpart by over an
+order of magnitude.
+X. CONCLUSION
+In this paper we have presented a new low-cost strat-
+egy for error mitigation, which we call symmetry veriﬁca-
+tion. We have discussed various ways in which it can be
+applied to diﬀerent algorithms, and various methods to
+optimize the mitigation power against common sources of
+error. We have demonstrated these protocols on a sim-
+ulated VQE experiment of H 2, and observed that they
+outperform the unmitigated result over the entire bond-
+dissociation curve by around an order of magnitude.
+Although the above techniques are very promising for
+small experiments, much work needs to be done optimiz-
+ing symmetry veriﬁcation for mid-range experiments in
+the NISQ era. The addition and choice of symmetries
+needs to be investigated further to minimize the result-
+ing circuit depth. Further study is also needed on the
+optimal number of symmetry veriﬁcations to be added
+to a circuit, both to maximise mitigation and minimize
+9
+FIG. 5. (Color online) Adding and adjusting symmetries to
+optimize symmetry veriﬁcation. The blue (dots) and red (di-
+amonds) curves correspond to their coloured (shaped) coun-
+terparts in Fig. 3, whilst the purple (squares) and brown
+(crosses) curves come from a four-qubit simulation of H 2 us-
+ing the two protocols described in the text. The dashed lines
+represent the S-QSE versions of their solid counterpars. Er-
+ror parameters on all qubits are the same for all simulations
+(parameters given in the text).
+run-time (which increases exponentially in the number
+of veriﬁcations made). Finally, given the obvious con-
+nection between symmetry veriﬁcation and the stabilizer
+formalism of quantum error correction, it is natural to ask
+whether one can mix the two to transform slowly between
+mid-size NISQ circuits and large-scale fault-tolerant ones.
+While this paper was in production, a related work by
+McArdle et al. [41] appeared on the ArXiv. They simu-
+late the performance of ancilla symmetry veriﬁcation for
+a VQE, and its combination with other error mitigation
+strategies to further improve robustness against noise.
+Their results are consistent with and complementary to
+our own, and they provide useful techniques for measur-
+ing non-Pauli operators not considered in this work.
+ACKNOWLEDGMENTS
+The authors wish to thank Carlo Beenakker, Leonardo
+DiCarlo, Brian Tarasinski, Barbara Terhal, Detlef Hohl,
+Luuk Visscher, Francesco Buda, Yaroslav Herasymenko,
+and Adriaan Rol for feedback, advice and support in this
+project. This research was supported by the Netherlands
+Organization for Scientiﬁc Research (NWO/OCW) and
+by an ERC Synergy Grant.
+APPENDIX: ERROR MITIGA TION OF QSE
+WITH ANTICOMMUTING OPERA TORS
+In this appendix we repeat the analysis of QSE from
+the text, but with an operator ˆA that anti-commutes
+with the Hamiltonian ˆH. Let us assume to begin that
+ˆA is unitary. Such an operator cannot be simultane-
+ously diagonalized with ˆH, and so we have no result from
+symmetry veriﬁcation to compare with. Given an eigen-
+state ˆH|ψ⟩ = E|ψ⟩, we have that ˆH ˆA|ψ⟩ =− ˆA ˆH|ψ⟩ =
+−E ˆA|ψ⟩, and so the presence of an anticommuting oper-
+ator splits the eigenstates of ˆH into pairs of equal magni-
+tude but opposite sign energies (known as eigenstates of
+diﬀerent chirality). If ˆA = ˆA†, the eigenstates of ˆA itself
+are the equal superpositions
+|±⟩ = 1√
+2(|ψ⟩± ˆA|ψ⟩). (36)
+For QSE, we must calculate the operators ˆHQSE and
+ˆBQSE.
+ˆBQSE =
+[
+1 Trace[ ˆAρ]
+Trace[ ˆA†ρ] 1
+]
+. (37)
+ˆHQSE =
+[
+Trace[ ˆHρ] Trace[ ˆH ˆAρ]
+Trace[− ˆH ˆA†ρ] −Trace[ ˆHρ]
+]
+. (38)
+Again assuming |Trace[ ˆAρ]|2 ̸= 1, we can invert ˆBQSE
+and calculate
+ˆB−1
+QSE ˆHQSE = 1
+1−| Trace[ ˆAρ]|2
+[
+α β
+−β∗ −α∗
+]
+, (39)
+where
+α = Trace[ ˆHρ] + Trace[ˆAρ]Trace[ ˆH ˆAρ] (40)
+β = Trace[ ˆH ˆAρ] + Trace[ˆHρ]Trace[ ˆAρ]. (41)
+The solution to the equation is
+E2
+QSE = |α|2 +|β|2
+(1−| Trace[ ˆAρ]|2)2 (42)
+= Trace[ ˆHρ]2 +|Trace[ ˆH ˆAρ]|2
+1−| Trace[ ˆAρ]|2 . (43)
+To understand the gain in energy, |Trace[ ˆH ˆAρ]|2, let us
+ﬁrst consider a single set of opposite chirality states |ψ⟩
+and ˆA|ψ⟩ (with energy±E). We ﬁrst note that if ρ is an
+incoherent superposition of the eigenstates,
+ρ =|a|2|ψ⟩⟨ψ| +|b|2 ˆA|ψ⟩⟨ψ| ˆA, (44)
+Trace[ ˆH ˆAρ] = Trace[ ˆAρ] = 0 (as⟨ψ|A|ψ⟩ = 0), and QSE
+strictly does not improve on the estimate of the ground
+state energy. We next consider the opposite situation,
+where ρ is a coherent superposition of eigenstates:
+ρ =(cos(θ)|ψ⟩ + sin(θ)eiφ ˆA|ψ⟩)
+× (cos(θ)⟨ψ| + sin(θ)e−iφ⟨ψ| ˆA†). (45)
+We can calculate
+Trace[ ˆHρ] = E cos(2θ), (46)
+Trace[ ˆAρ] = sin(2θ)(1 + Aeiφ), (47)
+Trace[ ˆH ˆAρ] = E sin(2θ)(Aeiφ− 1), (48)
+10
+where A =⟨ψ| ˆA2|ψ⟩ (so|A|≤ 1, and for ˆA∈ PN, A = 1).
+This gives
+E2
+QSE = E2 cos2(2θ) + sin2(2θ)χ+
+1− sin2(2θ)χ−
+, (49)
+χ± = (1± Aeiφ)(1± Ae−iφ). (50)
+We see that if A = 1, φ = π
+2 , QSE corrects the coherent
+error entirely, whilst if A = 1, φ = 0 it has no eﬀect. This
+implies that QSE cannot correct coherent rotations of ρ
+from|ψ⟩ towards an eigenstate of ˆA. This is in keeping
+with the general observations in [19] for the performance
+of QSE as an error mitigation strategy.
+If ˆA is not unitary, then ˆA† ˆA is a Hermitian opera-
+tor that commutes with ˆH. Importantly, if { ˆA, ˆH} = 0,
+{ ˆA ˆH, ˆH} = 0 as well, giving a second anticommuting
+operator that is in general non-unitary. This could be
+used directly in QSE, although the analysis of Sec. VI
+no longer holds unless ˆA† ˆA∈ P2. For symmetry veri-
+ﬁcation, we require the form of the projector ˆMa onto
+the correct ˆA† ˆA|ψ⟩ = a|ψ⟩ subspace. This is a diﬃcult
+task in general to construct (for ˆA ˆH, it is equivalent to
+diagonalizing the Hamiltonian). We have been unable to
+construct any further bounds on the performance of QSE
+as an error mitigation strategy for a general Hermitian
+operator, nor for an operator which neither commutes nor
+anti-commutes with ˆH. This is, however, an interesting
+direction for future research.
+[1] D. Rist` e, S. Poletto, M.-Z. Huang, A. Bruno, V. Vester-
+inen, O.-P. Saira, and L. DiCarlo, Nat. Comm. 6, 6983
+(2015).
+[2] R. Barends, J. Kelly, A. Megrant, A. Veitia,
+D. Sank, E. Jeﬀrey, T. C. White, J. Mutus, A. G.
+Fowler, B. Campbell, Y. Chen, Z. Chen, B. Chiaro,
+A. Dunsworth, C. Neill, P. O’Malley, P. Roushan,
+A. Vainsencher, J. Wenner, A. N. Korotkov, A. N. Cle-
+land, and J. M. Martinis, Nature 508, 500 (2014).
+[3] S. Debnath, N. M. Linke, C. Figgatt, K. A. Landsman,
+K. Wright, and C. Monroe, Nature 536, 63 (2016).
+[4] T. Monz, D. Nigg, E. A. Martinez, M. F. Brandl,
+P. Schindler, R. Rines, S. X. Wang, I. L. Chuang, and
+R. Blatt, Science 351, 1068 (2016).
+[5] N. Ofek, A. Petrenko, R. Heeres, P. Reinhold, Z. Leghtas,
+B. Vlastakis, Y. Liu, L. Frunzio, S. M. Girvin, L. Jiang,
+M. Mirrahimi, M. H. Devoret, and R. J. Schoelkopf,
+Nature 536, 441 (2016).
+[6] J. Preskill, Quantum 2, 79 (2018).
+[7] N. Moll, P. Barkoutsos, L. S. Bishop, J. M. Chow,
+A. Cross, D. J. Egger, S. Silipp, A. Fuhrer, J. M.
+Gambetta, M. Ganzhorn, A. Kandala, A. Mezzacapo,
+P. M¨ uller, W. Riess, G. Salis, J. Smolin, I. Tavernelli,
+and K. Temme, Quantum Science and Technology 3
+(2018), 10.1088/2058-9565/aab822.
+[8] C. Neill, P. Roushan, K. Kechedzhi, S. Boixo, S. V.
+Isakov, V. Smelyanskiy, A. Megrant, B. Chiaro,
+A. Dunsworth, K. Arya, R. Barends, B. Burkett,
+Y. Chen, Z. Chen, A. Fowler, B. Foxen, M. Giustina,
+R. Graﬀ, E. Jeﬀrey, T. Huang, J. Kelly, P. Klimov,
+E. Lucero, J. Mutus, M. Neeley, C. Quintana, D. Sank,
+A. Vainsencher, J. Wenner, T. C. White, H. Neven, and
+J. M. Martinis, Science 360, 195 (2018).
+[9] A. Peruzzo, J. McClean, P. Shadbolt, M.-H. Yung, X.-Q.
+Zhou, P. Love, A. Aspuru-Guzik, and J. O’Brien, Nat.
+Comm. 5 (2014), 10.1038/ncomms5213.
+[10] R. Babbush, N. Wiebe, J. McClean, J. McClain,
+H. Neven, and G. K.-L. Chan, Phys. Rev. X 8, 011044
+(2018).
+[11] D. Poulin, A. Kitaev, D. S. Steiger, M. B. Hastings, and
+M. Troyer, Phys. Rev. Lett. 121, 010501 (2018).
+[12] D. W. Berry, M. Kieferov´ a, A. Scherer, Y. R. Sanders,
+G. H. Low, N. Wiebe, C. Gidney, and R. Babbush, npj
+Quant. Inf. 4, 22 (2018).
+[13] I. D. Kivlichan, J. McClean, N. Wiebe, C. Gidney,
+A. Aspuru-Guzik, G. K.-L. Chan, and R. Babbush, Phys.
+Rev. Lett. 120, 110501 (2018).
+[14] K. Temme, S. Bravyi, and J. M. Gambetta, Phys. Rev.
+Lett. 119, 180509 (2017).
+[15] Y. Li and S. C. Benjamin, Phys. Rev. X 7, 021050 (2017).
+[16] A. Kandala, K. Temme, A. D. Corcoles, A. Mezzacapo,
+J. M. Chow, and J. M. Gambetta, ArXiv:1805.04492
+(2018).
+[17] M. Otten and S. Gray, ArXiv:1806.07860 (2018).
+[18] S. Endo, S. C. Benjamin, and Y. Li, Phys. Rev. X 8,
+031027 (2018).
+[19] J. R. McClean, M. E. Kimchi-Schwartz, J. Carter, and
+W. A. de Jong, Phys. Rev. A 95, 042308 (2017).
+[20] J. I. Colless, V. V. Ramasesh, D. Dahlen, M. S. Blok,
+M. E. Kimchi-Schwartz, J. R. McClean, J. Carter, W. A.
+de Jong, and I. Siddiqi, Phys. Rev. X 8, 011021 (2018).
+[21] D. Gottesman, ArXiv:0904.2557 (2009).
+[22] B. M. Terhal, Rev. Mod. Phys. 87, 307 (2015).
+[23] M. A. Nielsen and I. L. Chuang, Quantum Computation
+and Quantum Information , Cambridge Series on Infor-
+mation and the Natural Sciences (Cambridge University
+Press, 2000).
+[24] A. Y. Kitaev, arXiv:quant-ph/9511026 (1995).
+[25] J. R. McClean, J. Romero, R. Babbush, and A. Aspuru-
+Guzik, New Journal of Physics 18, 023023 (2016).
+[26] E. Farhi, J. Goldstone, and S. Gutmann,
+ArXiv:1411.4028 (2014).
+[27] P. J. J. O’Malley, R. Babbush, I. D. Kivlichan,
+J. Romero, J. R. McClean, R. Barends, J. Kelly,
+P. Roushan, A. Tranter, N. Ding, B. Campbell, Y. Chen,
+Z. Chen, B. Chiaro, A. Dunsworth, A. G. Fowler, E. Jef-
+frey, E. Lucero, A. Megrant, J. Y. Mutus, M. Neeley,
+C. Neill, C. Quintana, D. Sank, A. Vainsencher, J. Wen-
+ner, T. C. White, P. V. Coveney, P. J. Love, H. Neven,
+A. Aspuru-Guzik, and J. M. Martinis, Phys. Rev. X 6,
+031007 (2016).
+[28] A. Kandala, A. Mezzacapo, K. Temme, M. Takita,
+M. Brink, J. M. Chow, and J. M. Gambetta, Nature
+549, 242 (2017).
+[29] R. M. Parrish, L. A. Burns, D. G. A. Smith, A. C. Sim-
+monett, A. E. DePrince, E. G. Hohenstein, U. Bozkaya,
+A. Y. Sokolov, R. Di Remigio, R. M. Richard, J. F.
+Gonthier, A. M. James, H. R. McAlexander, A. Ku-
+11
+mar, M. Saitow, X. Wang, B. P. Pritchard, P. Verma,
+H. F. Schaefer, K. Patkowski, R. A. King, E. F.
+Valeev, F. A. Evangelista, J. M. Turney, T. D. Craw-
+ford, and C. D. Sherrill, Journal of Chemical The-
+ory and Computation 13, 3185 (2017), pMID: 28489372,
+https://doi.org/10.1021/acs.jctc.7b00174.
+[30] J. R. McClean, I. D. Kivlichan, K. J. Sung, D. S.
+Steiger, Y. Cao, C. Dai, E. Schuyler Fried, C. Gid-
+ney, B. Gimby, P. Gokhale, T. H¨ aner, T. Hardikar,
+V. Havl´ ıˇ cek, C. Huang, J. Izaac, Z. Jiang, X. Liu, M. Nee-
+ley, T. O’Brien, I. Ozﬁdan, M. D. Radin, J. Romero,
+N. Rubin, N. P. D. Sawaya, K. Setia, S. Sim, M. Steudt-
+ner, Q. Sun, W. Sun, F. Zhang, and R. Babbush,
+ArXiv:1710.07629 (2017).
+[31] J. D. Whitﬁeld, J. Biamonte, and A. Aspuru-
+Guzik, Molecular Physics 109, 735 (2011),
+https://doi.org/10.1080/00268976.2011.552441.
+[32] D. Gottesman, Group22: Proceedings of the XXII Inter-
+national Colloquium on Group Theoretical Methods in
+Physics , 32 (1999).
+[33] The quantumsim density matrix simulator can be found
+at https://github.com/quantumsim/.
+[34] T. E. O’Brien, B. Tarasinski, and L. DiCarlo, npj Quant.
+Inf. 3, 39 (2017).
+[35] S. Filipp, P. Maurer, P. J. Leek, M. Baur, R. Bianchetti,
+J. M. Fink, M. G¨ oppl, L. Steﬀen, J. M. Gambetta,
+A. Blais, and A. Wallraﬀ, Phys. Rev. Lett. 102, 200402
+(2009).
+[36] J. M. Chow, L. DiCarlo, J. M. Gambetta, A. Nun-
+nenkamp, L. S. Bishop, L. Frunzio, M. H. Devoret, S. M.
+Girvin, and R. J. Schoelkopf, Phys. Rev. A 81, 062325
+(2010).
+[37] M. B. Hastings, D. Wecker, B. Bauer, and M. Troyer,
+Quant. Inf. Comput. 15, 1 (2015).
+[38] I. M. Georgescu, S. Ashhab, and F. Nori, Rev. Mod.
+Phys. 86, 153 (2014).
+[39] M. Suzuki, Comm. Math. Phys. 51, 183 (1976).
+[40] The cluster operator for this system is a sum of 8 four-
+qubit terms, however the action of each term on the
+Hartree-Fock starting state is identical, so only one is
+needed.
+[41] S. McArdle, X. Yuan, and S. Benjamin,
+ArXiv:1807.02467 (2018).

@@ -1,0 +1,31 @@
+{
+  "source": "results/stage6_v1/noise_diagnosability/same_coordinate_cross_structure.json",
+  "sha256": "d303a9da5c6a2896e57858de85b2e13427f1169465d4b92ccca4682f12843f71",
+  "summary": [
+    {
+      "p": 0,
+      "coordinates": 21,
+      "median_DQ": 0.007561750200883422,
+      "median_XZ_TV": 0.0034199549908021792,
+      "D4_output_disagreements": 0,
+      "D5_output_disagreements": 0
+    },
+    {
+      "p": 0.01,
+      "coordinates": 21,
+      "median_DQ": 0.20876405035688944,
+      "median_XZ_TV": 0.09592674287430915,
+      "D4_output_disagreements": 4,
+      "D5_output_disagreements": 4
+    },
+    {
+      "p": 0.05,
+      "coordinates": 21,
+      "median_DQ": 0.13544244733561672,
+      "median_XZ_TV": 0.08511760577447808,
+      "D4_output_disagreements": 5,
+      "D5_output_disagreements": 6
+    }
+  ],
+  "scope": "Same coordinate, B3 versus H6, restricted explicitly to both p0 fidelities >= .99; all26 coordinates remain in the source. Different output is not necessarily a wrong physical label."
+}

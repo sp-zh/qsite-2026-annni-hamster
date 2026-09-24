@@ -1,0 +1,1046 @@
+[
+  {
+    "kappa": 0.45,
+    "h": 0.15,
+    "region": "difficult",
+    "historical": false,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.9029251933930132,
+    "ap_ratio_16_12": 0.7434777159099204,
+    "gap_ratio_16_12": 0.47200397938598565,
+    "ap_binder": [
+      0.12632127461687404,
+      0.02000843611424241
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/2017e196d1a35015e4c972e526e6e52ea3c4d49fee235934e0a6dd7e503f09b7.npz",
+      "results/stage6_v1/reference_atlas/cache/031b03cb9d55908402461332f9425de2712d009bf2b997fa3e6cd62489e6e204.npz",
+      "results/stage6_v1/reference_atlas/cache/82dd7e6e2446dfba6dca7e7cbaffda7403d971aaa7f4ff414a4f3c8a852edef2.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.5,
+    "h": 0.15,
+    "region": "difficult",
+    "historical": false,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 1.151837861468022,
+    "ap_ratio_16_12": 0.6460150137889075,
+    "gap_ratio_16_12": 0.35989277238632,
+    "ap_binder": [
+      0.07550049263411895,
+      0.02450690270463851
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/d0fd98a4e68cde3f9743ff7f6d5c2913790820b3f76aec4723fe478510569c51.npz",
+      "results/stage6_v1/reference_atlas/cache/e65bfe15cbd85e4cb78277d5ad67ad9c14f18d037ef3494c6db86c3bd58c9e31.npz",
+      "results/stage6_v1/reference_atlas/cache/bfc12391af78c931c24fb6fdd947250e2d3b4baba304e94bbb1a19bd7111d169.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.55,
+    "h": 0.15,
+    "region": "difficult",
+    "historical": false,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.563441447061937,
+    "ap_ratio_16_12": 0.8838377868912027,
+    "gap_ratio_16_12": 1.002712168524014,
+    "ap_binder": [
+      0.06323878530380977,
+      0.06367597212071519
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/a51376fb1a823c66c6c2d6c619f85a90a89c9e2956ffff7c7343cdef658c70c6.npz",
+      "results/stage6_v1/reference_atlas/cache/62711ca4bd5e45d0212b84ded989f57509fa1a2c1528f8d1b1a7317453a8e5dc.npz",
+      "results/stage6_v1/reference_atlas/cache/47fb75d0034c2a31b5a5e0f5cbb8807e92a4105c11992e1983e44eb3ce2d3465.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.8,
+    "h": 0.6,
+    "region": "difficult",
+    "historical": true,
+    "label": "paramagnetic-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "Both order factors decrease with N12->16, polarization and stable sector gap; finite-size gapped-side evidence, no guarantee against very large xi",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.7059621972228212,
+    "ap_ratio_16_12": 0.41701936406567225,
+    "gap_ratio_16_12": 1.2477007394675896,
+    "ap_binder": [
+      0.1022920987731607,
+      -0.15025414725497188
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/8a3133ee36812fd00a6cc504c5c5e851149087e6d26dc2655b7d521729a24da2.npz",
+      "results/stage6_v1/reference_atlas/cache/29b57b8f02d9026d557125f93b4ce9637d556c95459d1641b67c180c1b1d34d0.npz",
+      "results/stage6_v1/reference_atlas/cache/013b906a5c0ae7cfad0fe8f118e6f52c70d8d9d797fb4c79f0c814b63f9b3f0e.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.8,
+    "h": 0.8,
+    "region": "difficult",
+    "historical": true,
+    "label": "paramagnetic-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "Both order factors decrease with N12->16, polarization and stable sector gap; finite-size gapped-side evidence, no guarantee against very large xi",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.692901760155287,
+    "ap_ratio_16_12": 0.6328010943105645,
+    "gap_ratio_16_12": 1.0402055702097612,
+    "ap_binder": [
+      0.06024298673813222,
+      -0.010561237724214134
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/16d93c2ff206181424c49d4eaac6abec14131a1ec11dcecf72b9c1566b964fc4.npz",
+      "results/stage6_v1/reference_atlas/cache/ccfde564487d72edad01f38bd4734e022118c77ba2dd1da9467461312b6a73e7.npz",
+      "results/stage6_v1/reference_atlas/cache/f9af225c6236d9f559a7235c857b0236fe3cce07092b3af855b81d88c79f6118.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.425,
+    "h": 0.02,
+    "region": "difficult",
+    "historical": false,
+    "label": "ferro-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "N12/16 ferro order amplitude stable (<6% fall), high Binder; small positive field continuation, finite-size evidence only",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.9999935753412557,
+    "ap_ratio_16_12": 0.7499999999678512,
+    "gap_ratio_16_12": 0.9963522360357102,
+    "ap_binder": [
+      -549.8341411401387,
+      -412.3756058581973
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/35ce9f24e0554ff6371ecbd188d91c6465ee629b182d498bcaf8b333520075f5.npz",
+      "results/stage6_v1/reference_atlas/cache/34ae613bd81ca6bdfe55f6af58f451e6f4bfabfbba8a888d5dfa90b8a31818d8.npz",
+      "results/stage6_v1/reference_atlas/cache/0d80b5ad96176ac30911d1968d9a2a9f9e5b59de8f09ecff8d013463f806a1f3.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.45,
+    "h": 0.035,
+    "region": "difficult",
+    "historical": false,
+    "label": "ferro-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "N12/16 ferro order amplitude stable (<6% fall), high Binder; small positive field continuation, finite-size evidence only",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.9999757595651271,
+    "ap_ratio_16_12": 0.7499995862879352,
+    "gap_ratio_16_12": 0.9875061264855082,
+    "ap_binder": [
+      -162.10832008904057,
+      -121.58126542408061
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/cfc4efffcf135d44fad1e7e4f18528da33b09262ca4b5e3ec998cd600690cd0f.npz",
+      "results/stage6_v1/reference_atlas/cache/9b34c08af7ecaf31330cdacb8b91e698b13a040ed0f6c755e87a16ea990cf597.npz",
+      "results/stage6_v1/reference_atlas/cache/722b4c3ab69be00fbcc2a5881e7ad167d56a1199ab9e52ae2940f860b21254bc.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.475,
+    "h": 0.05,
+    "region": "difficult",
+    "historical": false,
+    "label": "ferro-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "N12/16 ferro order amplitude stable (<6% fall), high Binder; small positive field continuation, finite-size evidence only",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.9978125541301289,
+    "ap_ratio_16_12": 0.7420817247844753,
+    "gap_ratio_16_12": 0.6748208187001115,
+    "ap_binder": [
+      -26.78143073385701,
+      -20.250531633654372
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/95fac06d226e586c785dd25c5bb09660b5dc815de17a6636b6071ac79515aa3b.npz",
+      "results/stage6_v1/reference_atlas/cache/5f3b8b1fd64daaf1dc4ce1b82e7b2f4986c7f1612411804907d0ba5cc031d282.npz",
+      "results/stage6_v1/reference_atlas/cache/32857dde0afa247ff41e1639e4318b1016e62993d09ae2ee1ac583bf5700a47c.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.5,
+    "h": 0.01,
+    "region": "difficult",
+    "historical": false,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 1.3196929884412856,
+    "ap_ratio_16_12": 0.5953481737407639,
+    "gap_ratio_16_12": 0.3716714513809168,
+    "ap_binder": [
+      0.07782094451276778,
+      0.08377731473369043
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/57f4778782cb3120d3fd956a593d84307fa93730baf97c4a59fb83a86dc3c00c.npz",
+      "results/stage6_v1/reference_atlas/cache/435440b7ef29dbab0215080520c6e4dde307e30ff1d83b5635c2d587461b7093.npz",
+      "results/stage6_v1/reference_atlas/cache/aff21f296a78855d57bd482a88bedc4354eede5868731a8429df71e2f441bcaf.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.5,
+    "h": 0.075,
+    "region": "difficult",
+    "historical": false,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 1.2795284833775136,
+    "ap_ratio_16_12": 0.600798374304566,
+    "gap_ratio_16_12": 0.34394918621262965,
+    "ap_binder": [
+      0.07973970429666666,
+      0.06831345688329327
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/c7fe8c1b2e357670efdf9eb62c8559cc659baad1f56805ea181217cd7cc62685.npz",
+      "results/stage6_v1/reference_atlas/cache/77f08a3dbebae31a4dd0467c688fe251355ee05679540d89b72b948b3ce2432d.npz",
+      "results/stage6_v1/reference_atlas/cache/153d224b7d0fd87aef32e7db272a5fb2ae56c6f08e052369ae5276a7ed6546b1.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.525,
+    "h": 0.035,
+    "region": "difficult",
+    "historical": false,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 125.67229715631395,
+    "ap_ratio_16_12": 0.07996729190872422,
+    "gap_ratio_16_12": 0.6032270162812337,
+    "ap_binder": [
+      0.4997755395961002,
+      0.061802086406639534
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/7a11b9d6a0b5887e79754497649e30ad9d077290285041d786b90cf8530424ae.npz",
+      "results/stage6_v1/reference_atlas/cache/808eda3d7a4409f51b2752bb16d0ae19833c5d4b1e9f89613a1acb5f14d91334.npz",
+      "results/stage6_v1/reference_atlas/cache/30d9c4c10e459f22da53c55533dccb27646a6841f8866070dc4c73ee7575e864.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.55,
+    "h": 0.05,
+    "region": "difficult",
+    "historical": false,
+    "label": "antiphase-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "N12/16 period4 amplitude stable (<6% fall) and complex-order Binder high; finite-size ordered interior evidence",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.7492549266865818,
+    "ap_ratio_16_12": 0.999907893516151,
+    "gap_ratio_16_12": 0.6807447768123736,
+    "ap_binder": [
+      0.49972050372284926,
+      0.4997690887161371
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/b71701df684f2b98fc0e4b30fe7961844d16be046b5772faa78ecf5f960b2194.npz",
+      "results/stage6_v1/reference_atlas/cache/a37d5af1316cc2dfb8b8fd6479eaeab5fa0cc2d6a577fd700a0b80984ad8a921.npz",
+      "results/stage6_v1/reference_atlas/cache/123b2e4fbb9834d55841bd12153996a069b98519470bd90c7d777d3988a981fb.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.575,
+    "h": 0.075,
+    "region": "difficult",
+    "historical": false,
+    "label": "antiphase-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "N12/16 period4 amplitude stable (<6% fall) and complex-order Binder high; finite-size ordered interior evidence",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.7488745495219572,
+    "ap_ratio_16_12": 0.9998104223270823,
+    "gap_ratio_16_12": 0.6876394246899904,
+    "ap_binder": [
+      0.4994182255061592,
+      0.4995194970204635
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/8378d059ef425f7f53c942932a8fc5b4d5374cb469d0add5a7944f65c985845b.npz",
+      "results/stage6_v1/reference_atlas/cache/88e759e3fe203184df8f671f7a1dc1634f66f872831ff6ad3fdcfd07e4d71197.npz",
+      "results/stage6_v1/reference_atlas/cache/8793ff588ab80ae65ee704d123c118534dfa0e2e36d15fcf44cdbcc0744c220e.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.4,
+    "h": 0.3,
+    "region": "difficult",
+    "historical": true,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.7973502523680649,
+    "ap_ratio_16_12": 0.7416604644215883,
+    "gap_ratio_16_12": 0.9987317222238888,
+    "ap_binder": [
+      -0.012613670465600135,
+      -0.034148660272233844
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/faa4787962c83742e9888214ed2fa7c9a067d25a29404476f1dae8d82015999e.npz",
+      "results/stage6_v1/reference_atlas/cache/9292f5db8551053d8e305e696ddc18a2d9b53451e4a8d0f70e8eb041eddaee23.npz",
+      "results/stage6_v1/reference_atlas/cache/72cae167bb7778774c005b857965665ac50defdbb0fb6acd38ca752216b98a6e.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.45,
+    "h": 0.2,
+    "region": "difficult",
+    "historical": true,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.6109338221361797,
+    "ap_ratio_16_12": 0.8444654341974251,
+    "gap_ratio_16_12": 0.7372256112872174,
+    "ap_binder": [
+      0.030175428729148135,
+      0.041199572292135334
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/52bcf8fdf793ad3222e0b3cae34d5d564a6eea1c82c21820575ffe95621da30b.npz",
+      "results/stage6_v1/reference_atlas/cache/32a0e1f99f319faddd34c7e1419cac1a68d4b7f7053f72d4a0761c059138d1e5.npz",
+      "results/stage6_v1/reference_atlas/cache/756a3940986ac1ae0e1bdbe5a8a4b29ba6b62376a829bb4b193fdcdd447dd9fa.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.5,
+    "h": 0.1,
+    "region": "difficult",
+    "historical": true,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 1.243517258913309,
+    "ap_ratio_16_12": 0.6115011014459567,
+    "gap_ratio_16_12": 0.34200176683982975,
+    "ap_binder": [
+      0.07912418731144111,
+      0.054185445037222446
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/16dabc86e9c6ef1399d638a5d00e25f67f4a3cac90cf606bae7e7a2c63e38b4f.npz",
+      "results/stage6_v1/reference_atlas/cache/338ce3f69b10a9dd72909daf2466dbf0bc71fed5f4800355955590bcb6b50e5f.npz",
+      "results/stage6_v1/reference_atlas/cache/608d5202ca7592f4d61674287ab5cc0c030c975f517e73c1b60893392a105598.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.5,
+    "h": 0.2,
+    "region": "difficult",
+    "historical": true,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 1.0574522017928374,
+    "ap_ratio_16_12": 0.6860551295303887,
+    "gap_ratio_16_12": 0.4059548628823635,
+    "ap_binder": [
+      0.0688449144983092,
+      0.007291934511417741
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/ebb450fe5b86d008146c212fe2eda29af5b756ce8da85d985bbb3b915a724b4a.npz",
+      "results/stage6_v1/reference_atlas/cache/329e3fbdd965501f934e1c7bb7fc6ed6efd9c189274c6228e7db1ca1dca8ef0f.npz",
+      "results/stage6_v1/reference_atlas/cache/64be65a37d595f513941f9f6efc51d14cc62251f2efa0bced85da0b26bcdcdda.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.55,
+    "h": 0.1,
+    "region": "difficult",
+    "historical": true,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.5515809594900831,
+    "ap_ratio_16_12": 0.8825346142393047,
+    "gap_ratio_16_12": 1.9306359783399458,
+    "ap_binder": [
+      0.05206551889575539,
+      0.06403606754973634
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/16be03f31e0844071ecd23dfb2a4612637eadefabda1910f1d4a9250172fba4b.npz",
+      "results/stage6_v1/reference_atlas/cache/e157d2e6d72e1db3d4268948aaa2d8ef862e45ab2215f3aebe452c630879efb3.npz",
+      "results/stage6_v1/reference_atlas/cache/5051550be1af44930878d9e42dbaa7b2b31f26d12a259c84cdbe6a65add49247.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.55,
+    "h": 0.2,
+    "region": "difficult",
+    "historical": true,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.5877976846121024,
+    "ap_ratio_16_12": 0.8799265884359114,
+    "gap_ratio_16_12": 0.6231346897919757,
+    "ap_binder": [
+      0.055841608392205644,
+      0.061261806971244726
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/9172945bf2a79c7cb2c1f2b730f2ddfe08778f523be205c847ad2f5c3398852a.npz",
+      "results/stage6_v1/reference_atlas/cache/fcc09d02cecb99e032150533920ce67dcd5024b1a4e15702a3c0aca5ec65a089.npz",
+      "results/stage6_v1/reference_atlas/cache/0520c80a676419733b31789d03a9b1a12c054d68ffe8cabc9ead4184860b5309.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.6,
+    "h": 0.2,
+    "region": "difficult",
+    "historical": true,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.5642989986903857,
+    "ap_ratio_16_12": 0.8130850682174577,
+    "gap_ratio_16_12": 2.102660827955228,
+    "ap_binder": [
+      -0.13832270905449695,
+      0.052553638696540506
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/9bdc240d538a5e35e0053da9bfa790b81b497805a9b30c71a2f1cc9537bb2171.npz",
+      "results/stage6_v1/reference_atlas/cache/3392eff1d8902f24b26a717eb0a2f97c06021171f56514c7a2e7f7ccf2b19f46.npz",
+      "results/stage6_v1/reference_atlas/cache/0466f8bf31ce509aef4f673975da54fbd997f556423ae9c97a26ece80d1ae4bd.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.6,
+    "h": 0.3,
+    "region": "difficult",
+    "historical": true,
+    "label": "paramagnetic-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "Both order factors decrease with N12->16, polarization and stable sector gap; finite-size gapped-side evidence, no guarantee against very large xi",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.5958216833780586,
+    "ap_ratio_16_12": 0.8332885655609238,
+    "gap_ratio_16_12": 1.1254677463666203,
+    "ap_binder": [
+      -0.034221008720192625,
+      0.04437478344157786
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/21fcbcbb4d3dc17d513936cb5b6a25788754d78f21d8859aa97aff15424fed10.npz",
+      "results/stage6_v1/reference_atlas/cache/f7035bec55fbba642cd5c5e78220874686056236ee1fadc12194f86058bef090.npz",
+      "results/stage6_v1/reference_atlas/cache/ca9338b194a78d0d3f6486719287881c6f38459a5cff24c61f3b2b8f418d3de4.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.6,
+    "h": 0.4,
+    "region": "difficult",
+    "historical": true,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.6464868339588237,
+    "ap_ratio_16_12": 0.815846923226514,
+    "gap_ratio_16_12": 0.7879984069614796,
+    "ap_binder": [
+      -0.036943046351801234,
+      0.03092626516754926
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/aedfee261f3076ba3926332acd2af9cdcae70075197e414e5235f11d7eea7493.npz",
+      "results/stage6_v1/reference_atlas/cache/86af848d7f2d0e4163e77e8a2c20b49d39d1841c8018313f9385d502692e724e.npz",
+      "results/stage6_v1/reference_atlas/cache/d0a3ea0bb5a8fbac209ac531c99900e9c57d6a0e207edf53dfbfcecc43ade5f0.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.6,
+    "h": 0.5,
+    "region": "difficult",
+    "historical": true,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.6964135098924104,
+    "ap_ratio_16_12": 0.797822363081673,
+    "gap_ratio_16_12": 0.7178327066529774,
+    "ap_binder": [
+      -0.027704516209340113,
+      0.022610885818787452
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/5488d13819acb7867d2915b747226fe90d95112270026ac553abad898f4914b5.npz",
+      "results/stage6_v1/reference_atlas/cache/e9d7bc31bf09f0c9d18336dbef6edb1c5a0625749133712c389520dbf0df6d10.npz",
+      "results/stage6_v1/reference_atlas/cache/a8411b98d8b5db3331c2c5bdc109205ed9df3c9492fd08feb2830dd5cdfc111c.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.65,
+    "h": 0.3,
+    "region": "difficult",
+    "historical": true,
+    "label": null,
+    "level": "RN_only",
+    "evidence": "No independent discrete phase label assigned; evaluate named finite-size features",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.5867434776392889,
+    "ap_ratio_16_12": 0.6362612565586974,
+    "gap_ratio_16_12": 2.16301485811387,
+    "ap_binder": [
+      -0.3654801049290468,
+      0.011688918295559514
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/ba6266edb57aa649d48caf35b39db957b8a6e8e532bcbec7b6f8944801726c70.npz",
+      "results/stage6_v1/reference_atlas/cache/b8692cb0a6c9231489d3f187fbbb19394d527e6566c6127554de416721ccec1b.npz",
+      "results/stage6_v1/reference_atlas/cache/dd897ab645325c7c03ab008e0c3afe798cbec69db01e48548ffa42039752d19f.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.0,
+    "h": 0.2,
+    "region": "interior_control",
+    "historical": true,
+    "label": "ferro-like",
+    "level": "R0",
+    "evidence": "Exact Ising ordered side, away from h=1; PBC finite-size observables retained",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.9997831752450117,
+    "ap_ratio_16_12": 0.7499999487037803,
+    "gap_ratio_16_12": 0.9954428660768719,
+    "ap_binder": [
+      -16.408902400183425,
+      -12.306676172616356
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/f77aa84af804bdece0db891cc93f341001f9939419b06572c1990a3e27216f9b.npz",
+      "results/stage6_v1/reference_atlas/cache/4f39ab6d30cdc39e85b00f3259ba6f30eeb3838a20e19223644d72eb91fc1483.npz",
+      "results/stage6_v1/reference_atlas/cache/d4ceae3e66545387ded9b3cd40c70ae7c77df3c7065aa72575c65852551c6c83.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.0,
+    "h": 1.8,
+    "region": "interior_control",
+    "historical": true,
+    "label": "paramagnetic-like",
+    "level": "R0",
+    "evidence": "Exact Ising disordered side, away from h=1",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.750318823705273,
+    "ap_ratio_16_12": 0.75015458791048,
+    "gap_ratio_16_12": 0.9642920994587977,
+    "ap_binder": [
+      0.033908804559284134,
+      0.025551025926787152
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/06e928b646ab84031dc875cf0e87ec09ed25d1372b2e11d1aee3498884e0baf9.npz",
+      "results/stage6_v1/reference_atlas/cache/a23b66967424f5545178565c56cfb39299e740946b18b44ac318108974408a0f.npz",
+      "results/stage6_v1/reference_atlas/cache/dddf91530f2b0c9cc4a4fc916f36079bb696e1a69adb1aa515f0e810cf00b101.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.1,
+    "h": 0.2,
+    "region": "interior_control",
+    "historical": true,
+    "label": "ferro-like",
+    "level": "R0_extension",
+    "evidence": "Small-field continuation from classical ferro; m0 and fourth moment consistent; not a proved exact region boundary",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.9997256867124334,
+    "ap_ratio_16_12": 0.7499997140005737,
+    "gap_ratio_16_12": 0.9926302417942449,
+    "ap_binder": [
+      -13.201563810699009,
+      -9.901170446198753
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/d029ee2322cf98303a4f3eebe031772d09abf0229ff04b8a751e848e184b753d.npz",
+      "results/stage6_v1/reference_atlas/cache/1b44b40c628853ebbaba5602332ff038b80e5afe80182fadee652c085a85a95d.npz",
+      "results/stage6_v1/reference_atlas/cache/a5e965677d81e0cc3603bfc5e2d57eac7aea6a44ac64ab365f6f4b1742f92717.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.2,
+    "h": 1.5,
+    "region": "interior_control",
+    "historical": true,
+    "label": "paramagnetic-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "Both order factors decrease with N12->16, polarization and stable sector gap; finite-size gapped-side evidence, no guarantee against very large xi",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.7500017530480385,
+    "ap_ratio_16_12": 0.750001363499709,
+    "gap_ratio_16_12": 0.9887096607397757,
+    "ap_binder": [
+      0.04575831734591296,
+      0.03431948116899719
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/ec5a0372ce326374f1cf62d57f98ab534ac5867d3dd28b9a871ca302e107bc27.npz",
+      "results/stage6_v1/reference_atlas/cache/61b0a0a4a8c2efa0d3d4deeb59cf67f0271ab8aaa110146bebf582f8f6726474.npz",
+      "results/stage6_v1/reference_atlas/cache/24633f04052aa005fe9239c3d41125bdd5ddde076a598cb125aed543a81cfbdd.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.3,
+    "h": 0.1,
+    "region": "interior_control",
+    "historical": true,
+    "label": "ferro-like",
+    "level": "R0_extension",
+    "evidence": "Small-field continuation from classical ferro; m0 and fourth moment consistent; not a proved exact region boundary",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.999886121922278,
+    "ap_ratio_16_12": 0.7499999303094037,
+    "gap_ratio_16_12": 0.9921329615537102,
+    "ap_binder": [
+      -32.15539742337841,
+      -24.116547431695814
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/dbd4ddf59c09944de686fc53c233148cdd5e89385cae6837c2b41be8e9d02b1c.npz",
+      "results/stage6_v1/reference_atlas/cache/a14c5da5d91f9c9907ae6419420d6da1f704733d138370b6db64a95e20108925.npz",
+      "results/stage6_v1/reference_atlas/cache/d99c9e50ead89210b602c9d4e113f96fb3db77c9528c49bfc7e511a62becf270.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.3,
+    "h": 1.2,
+    "region": "interior_control",
+    "historical": true,
+    "label": "paramagnetic-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "Both order factors decrease with N12->16, polarization and stable sector gap; finite-size gapped-side evidence, no guarantee against very large xi",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.7499344180008729,
+    "ap_ratio_16_12": 0.7499642263941714,
+    "gap_ratio_16_12": 0.9997657672287855,
+    "ap_binder": [
+      0.043077392054986174,
+      0.032297709779603
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/6f8ba0fe923a6c0a7fcd52501997a6a34928187e8f0067e4714f0600d9e6d60b.npz",
+      "results/stage6_v1/reference_atlas/cache/c84f5d5033e91783125c03591707f7065a71e5ba2dc1eaf826835398cb8ac360.npz",
+      "results/stage6_v1/reference_atlas/cache/8ab3a7e12b4aeda9dcb48a1398020ae21949cca1322bf314af3c1c960acfaca7.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.4,
+    "h": 1.8,
+    "region": "interior_control",
+    "historical": true,
+    "label": "paramagnetic-like",
+    "level": "R0_extension",
+    "evidence": "High-field continuation, transverse polarization and absence of strong order; interior only",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.7500387652052407,
+    "ap_ratio_16_12": 0.7500307528239603,
+    "gap_ratio_16_12": 0.9958939195171128,
+    "ap_binder": [
+      0.07924687727101831,
+      0.05945039872844238
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/e03aca85e1e1ec60555a4be7c28a17ffa154599635ac04988e636576773401bf.npz",
+      "results/stage6_v1/reference_atlas/cache/6a78a1fca13b02c235c483dd26a1b38454d3dc7c933d2d59430e111e4ea5e5fb.npz",
+      "results/stage6_v1/reference_atlas/cache/b5f3a7cd5c89df0216856bafb4cf13a5d03557cc397947f961842292cde847f3.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.6,
+    "h": 0.1,
+    "region": "interior_control",
+    "historical": true,
+    "label": "antiphase-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "N12/16 period4 amplitude stable (<6% fall) and complex-order Binder high; finite-size ordered interior evidence",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.748311583433628,
+    "ap_ratio_16_12": 0.9996923405677006,
+    "gap_ratio_16_12": 0.6940236073330612,
+    "ap_binder": [
+      0.49903870292748354,
+      0.4992065375316218
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/7d063c4f1046d6231320d8d9e3668ae7efea835a2f292c6e500b4bbe0bc57118.npz",
+      "results/stage6_v1/reference_atlas/cache/741ad53f93d80d0958ae05be20f458a573820ac31a38d98e078214834a0a9712.npz",
+      "results/stage6_v1/reference_atlas/cache/8d8963ec4eae55ab84c6eeb23d48176e7246546168146a4a4d0b8d7b69b4e60e.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.7,
+    "h": 1.5,
+    "region": "interior_control",
+    "historical": true,
+    "label": "paramagnetic-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "Both order factors decrease with N12->16, polarization and stable sector gap; finite-size gapped-side evidence, no guarantee against very large xi",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.7480674270984109,
+    "ap_ratio_16_12": 0.7485462029740069,
+    "gap_ratio_16_12": 0.9416116016451953,
+    "ap_binder": [
+      0.10712862847677707,
+      0.0798391794173654
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/ca746b17fc36d587613cabf53fde46df8ca76a6733184906752c0e75f22689fd.npz",
+      "results/stage6_v1/reference_atlas/cache/7e3d255b139209f5ec15b0e6176864d28f5c17f9bcdf001e4c18b682ec52dcbe.npz",
+      "results/stage6_v1/reference_atlas/cache/2f159d6346c26d3eaa349a08202c73a9c447842d34660de55cbcfc7cc4a29391.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.8,
+    "h": 0.1,
+    "region": "interior_control",
+    "historical": true,
+    "label": "antiphase-like",
+    "level": "R0_extension",
+    "evidence": "Small-field continuation from classical period4; full SF peak and amplitude; requires separate finite-size trend for Rlarge",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.7498809220109381,
+    "ap_ratio_16_12": 0.9998342322997472,
+    "gap_ratio_16_12": 0.9522326313306555,
+    "ap_binder": [
+      0.4995367173428843,
+      0.4996165388081608
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/d9df2db389285fe8aedc611b79b9541f37f217f7b56d656a854be718d976546a.npz",
+      "results/stage6_v1/reference_atlas/cache/c239f9e7a926451e73ea8a4a45d22fab6242580cdbba703ee0ef431848cdb71d.npz",
+      "results/stage6_v1/reference_atlas/cache/68d9dc1bef0efcd7bfcf3f690efe663ea40f37c2f65fc4980d338b2488846993.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 0.9,
+    "h": 1.8,
+    "region": "interior_control",
+    "historical": true,
+    "label": "paramagnetic-like",
+    "level": "R0_extension",
+    "evidence": "High-field continuation, transverse polarization and absence of strong order; interior only",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.7468536330361385,
+    "ap_ratio_16_12": 0.7451627855642895,
+    "gap_ratio_16_12": 0.9538453572430107,
+    "ap_binder": [
+      0.13871662755508185,
+      0.10127048744603129
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/6324b4f7e5d4c54c24eb894fb77d9516bca398eaef84f0fdce55ae7f3aca9ffe.npz",
+      "results/stage6_v1/reference_atlas/cache/12d7235b998f2b3652dd551af8a5f0ba5f2069e7ef043af0f74e6d2f7d6e1836.npz",
+      "results/stage6_v1/reference_atlas/cache/86e832038c9f128c960ddc55d7578368e336138c9a202f34d5cdd37843418c1b.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  },
+  {
+    "kappa": 1.0,
+    "h": 0.2,
+    "region": "interior_control",
+    "historical": true,
+    "label": "antiphase-like",
+    "level": "Rlarge_ED_interior",
+    "evidence": "N12/16 period4 amplitude stable (<6% fall) and complex-order Binder high; finite-size ordered interior evidence",
+    "bc": "PBC",
+    "n": [
+      8,
+      12,
+      16
+    ],
+    "m0_ratio_16_12": 0.749252655613757,
+    "ap_ratio_16_12": 0.999575568288704,
+    "gap_ratio_16_12": 0.9474214364199609,
+    "ap_binder": [
+      0.4987883826032653,
+      0.49899681720242195
+    ],
+    "sources": [
+      "results/stage6_v1/reference_atlas/cache/1283fa2cee00555b819c3b418e836f95a042396f08317167ae9d2be08678952a.npz",
+      "results/stage6_v1/reference_atlas/cache/b818c4342722e8400cb0afeb13b85a16e74a6ba6553cd0774dfc3b0de3d34376.npz",
+      "results/stage6_v1/reference_atlas/cache/0432eb08e54dce29c72965d983fb06278c6bd38ae494482db7d3e0fa782276d9.npz"
+    ],
+    "criteria_sha": "62e1d0388710bf55fa52e6162ed97cc0308c8dab3d91195e1e99367423e3e3dd",
+    "data_disposition": "reference_generation_for_evaluation_only_not_candidate_input"
+  }
+]

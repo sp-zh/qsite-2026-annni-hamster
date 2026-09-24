@@ -1,0 +1,17 @@
+ZIP created 20242 files 134472397 bytes
+Traceback (most recent call last):
+  File "<PROJECT_ROOT>/scripts/package_stage4.py", line 52, in <module>
+    assert result.returncode==0,log[-5000:]
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: ..............................................                           [100%]
+46 passed in 17.24s
+
+Traceback (most recent call last):
+  File "/private<EXTRACTED_PROJECT>/scripts/verify_stage4.py", line 38, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/private<EXTRACTED_PROJECT>/scripts/verify_stage4.py", line 13, in main
+    assert sha(p)==digest,name
+           ^^^^^^^^^^^^^^
+AssertionError: upstream/Scientific Track/starter_kit/__pycache__/annni.cpython-314.pyc
+

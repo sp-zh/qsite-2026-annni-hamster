@@ -1,0 +1,53 @@
+{
+  "key": {
+    "n": 8,
+    "kappa": 0.3,
+    "h": 0.35,
+    "bc": "PBC",
+    "code": "df247e26e8eabef8dfc275ddae4980f0bc5f806b8346a80d8943d62a483cd322",
+    "model": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a"
+  },
+  "n": 8,
+  "kappa": 0.3,
+  "h": 0.35,
+  "energy": -5.979836778786899,
+  "energy_per_site": -0.7474795973483623,
+  "correlations": [
+    0.9999999999999999,
+    0.9042889983353279,
+    0.8777282326537014,
+    0.8690101774312442,
+    0.8668147959309116,
+    0.8690101774312442,
+    0.8777282326537014,
+    0.9042889983353279
+  ],
+  "structure_factor": [
+    0.8961087015964323,
+    0.022884623882021872,
+    0.013919791327938608,
+    0.010411677135250201,
+    0.009459113713146228,
+    0.010411677135250201,
+    0.013919791327938608,
+    0.022884623882021872
+  ],
+  "mx": 0.30431162516898524,
+  "binder": 0.6437493365733571,
+  "m4": 0.8582193961421651,
+  "sector_energies": [
+    -5.979836778786899,
+    -5.428846442646318,
+    -4.256967080386682
+  ],
+  "sector_gap": 0.5509903361405808,
+  "residual": 6.411062621100424e-15,
+  "residual_gap_ratio": 1.1635526434105539e-14,
+  "reference_numerical_ambiguous": false,
+  "sector_dimension": 20,
+  "sector": "P=+1,T=1; gap is sector-excitation gap, not full-space ground splitting",
+  "archive": "results/stage6_v1/reference_atlas/cache/0f8e8041a6b91a832ca2ceb7ac99c51e73ab067c0dd6b7d5ad713cc92194d1ef.npz",
+  "sha256": "11f068f88866e39db512eea9396d29878f2b1c85d6c12c668b5989ce4b4016e6",
+  "seconds": 0.0008816249901428819,
+  "disposition": "newly_executed"
+}

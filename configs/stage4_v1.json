@@ -1,0 +1,123 @@
+{
+  "version": "stage4_v1",
+  "n": 8,
+  "layers": 6,
+  "p": [
+    0,
+    0.01,
+    0.05
+  ],
+  "wall_budget_minutes": 90,
+  "thresholds": {
+    "delta_e": 0.001,
+    "epsilon_c": 0.02,
+    "epsilon_sf": 0.02,
+    "epsilon_mx": 0.02,
+    "fidelity": 0.99
+  },
+  "optimizer_options": {
+    "maxiter": 4000,
+    "maxfun": 100000,
+    "ftol": 1e-12,
+    "gtol": 1e-08,
+    "maxls": 30
+  },
+  "repair": {
+    "attempts_per_point": 6,
+    "max_total": 78,
+    "cold_seeds": [
+      701,
+      809
+    ],
+    "selection": "lowest energy including old winner"
+  },
+  "branch": {
+    "threshold": 0.02,
+    "scope": "all actual switching intervals, both endpoints and all p",
+    "identity": [
+      "experiment",
+      "direction",
+      "seed",
+      "layers",
+      "kappa",
+      "chain_origin"
+    ],
+    "unknown": null
+  },
+  "windows": [
+    {
+      "id": "W1",
+      "kappa": 0,
+      "lo": 0.75,
+      "hi": 1.25
+    },
+    {
+      "id": "W2",
+      "kappa": 0.3,
+      "lo": 0.25,
+      "hi": 0.65
+    },
+    {
+      "id": "W3",
+      "kappa": 0.8,
+      "lo": 0.35,
+      "hi": 0.85
+    }
+  ],
+  "window_basis": "Stage3 N8 p0 resolved peaks: order .95/.45/.60 and Mx .90/.45/.50 fall inside proposed windows; no noisy-data tuning",
+  "local": {
+    "finest_step": 0.0125,
+    "strides": [
+      4,
+      2,
+      1
+    ],
+    "sources": [
+      "ascending_s101 at lower endpoint",
+      "descending_s307 at upper endpoint"
+    ],
+    "maxiter": 2000,
+    "chain_jump_infidelity": 0.02,
+    "chain_jump_observable": 0.05
+  },
+  "diagnostics": {
+    "version": "stage4_support_v1",
+    "prototype": "unchanged diagnostics_v1: [m0^2,2*m_pi2^2,Mx] only",
+    "smoothing": "none",
+    "interpolation": "none",
+    "min_range": 0.02,
+    "min_prominence": 0.02,
+    "fine_stability_tolerance": "2 times coarser step, report actual displacement and support; no fixed .1 convergence claim",
+    "feature_matching_max_displacement": 0.2,
+    "feature_matching_note": "association only, never resolution",
+    "support": "whole finite segment used for prominence and each coarse-grid evaluation; cut at unchecked or sensitive stitches; conservative jump masking"
+  },
+  "physics": "unchanged stage3 dense_literal, periodic N8, wire0 MSB, no cancellations/projection",
+  "new_source_hashes_initial": {
+    "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+    "annni/diagnostics.py": "a3dd1553df1080e84c9a87448485d818f2185e8fe85b87f008be4807bb1d4adb",
+    "annni/__init__.py": "69db7b0baace8791aa11650aa10440c489d81f6da3ad96a3278a18562aad5ac4",
+    "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+    "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+    "annni/vqe.py": "d2ad75b5625579dd9cd7472a4b7cb1266ab89011aecd0efb7875f8c8adc11f3c",
+    "annni/stage3_diagnostics.py": "104a22350987011bd69b62b046daa26c19099b86f25492a04ac5830a0253c46f",
+    "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d",
+    "scripts/run_baseline.py": "3aa486999abbfadadfa45053d17b0e7292aeded25ac5129ff82c353b666e57a5",
+    "scripts/run_diagnostics.py": "ac262d4b29f43c5e0f812276272e329345383b88415cf9e9b70e262e0ec76be8",
+    "scripts/build_calibration_notebook.py": "5264e88a436a37ff7e85b5bbbf7b64fba2faa547ece643855bc1fee538eaaba8",
+    "scripts/run_stage3_ab.py": "d70a8eb84394161c6e51efeb4d045c3b9435a9b2777a6bd5e03c0ec152a1c019",
+    "scripts/verify_stage2.py": "2f84dd89f0e943dd323d02e873b28793d6c7f6779531d7296693415081019a82",
+    "scripts/run_stage3_slices.py": "9d179cc366a602ecd0033d19db02bb591d80b7b4320e5ca871248d16092f35b8",
+    "scripts/run_stage3_grid.py": "4de12b6741d00cedd388bedc7a99c4e4130c94e6d4a123b1ec018ffd8a4d1ebc",
+    "scripts/package_stage3.py": "71a7d26a8f5aa28967199fb555b66e4741c75468e67929bee6fa7c5d261fd47d",
+    "scripts/report_stage3.py": "27c8af83e355666c47134fc6f89dd8bc255365e0bc6f299bcbb3c7a73acba7e3",
+    "scripts/run_noise_smoke.py": "1ab83d0b9ce8c33e357a6364d22a81ec6341bef2d4a15b63ff2117cf3fa24c99",
+    "scripts/report_calibration.py": "ec67475a6dac21dfd3a793215b9c41c4d73d2f1334ae6d0cc73d59a5751316dd",
+    "scripts/verify_stage3_results.py": "1b31c32a63ec52f91416182403642bb98d240ada603e9292a503a997de4b93bf",
+    "scripts/analyze_stage3_slices.py": "062fc8720a04d0d136c232149e90a718d03642aef01eb06ca66619aa7ea55d88",
+    "scripts/run_calibration.py": "ad8272d302299ce14c2355f7d2bfeb78013424a0890a96f1fc9a167e721a2f78",
+    "scripts/build_stage3_notebook.py": "024524c180b7b1eef2bac60857c89f48547f41e94da8e8aff2bad0aa17a9a07b",
+    "scripts/build_notebook.py": "319b47b245da5219dd89dfa61d8797cff6c5f61ec0387874b4bd76d075b12816",
+    "README.md": "d6812be814d300383f59376a1b9fb07ee1ed19088d54f9c9e72b5b8a8cbdded9"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "axes_archive": "results/stage6_v1/reference_atlas/model_axes.npz",
+  "wire0": "most significant bit",
+  "correlations": "C(r)=(1/N)sum_i <Zi Z_(i+r)>; r=0..N-1",
+  "structure_factor": "m_q^2=(1/N^2)sum_ij exp(iq(i-j)) <Zi Zj>; all q=2pi*k/N and i=j terms retained",
+  "flat_vector": "C[0:N], SF[0:N], Mx",
+  "fidelity": "squared pure overlap",
+  "fidelity_susceptibility": "-log(F)/dh^2, located on h_mid; missing h0 pure-state intervals remain NaN",
+  "h0": "historical classical equal incoherent mixture; not a positive-h circuit reference",
+  "baseline_axis_order": "[kappa_index,h_index,...]"
+}

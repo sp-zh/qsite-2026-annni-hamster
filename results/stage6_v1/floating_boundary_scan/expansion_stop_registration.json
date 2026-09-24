@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-09-23T01:46:57.129308+00:00",
+  "completed_runs": 75,
+  "summed_run_seconds": 10491.660432333127,
+  "remaining_authorized_batch": "four registered controls only",
+  "decision": "No additional MPS parameter or size expansion in this run after controls. Complete the N12 and end-to-end packages next.",
+  "reason": "The slice now spans both physical sides with N/chi/initial-state checks, and targeted N160/N192 has exposed real finite-size conflicts. Preserve unresolved windows instead of using unlimited fits or extra points to force a floating interval. MPS measured solver seconds have already exceeded the nominal allocation; total12h deadline is unchanged.",
+  "allocation_change": false,
+  "scope": "Recorded stop/priority decision within the existing one-adjustment plan, not a reset or extension of budget."
+}

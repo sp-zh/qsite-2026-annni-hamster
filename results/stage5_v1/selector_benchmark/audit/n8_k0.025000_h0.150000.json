@@ -1,0 +1,8132 @@
+{
+  "n": 8,
+  "kappa": 0.025,
+  "h": 0.15,
+  "group": "heldout",
+  "candidates": [
+    {
+      "words": [],
+      "params": [],
+      "reason": "reference",
+      "optimizer_success": true,
+      "cnots": 0,
+      "gate_count": 8,
+      "unitary_depth": 1,
+      "target_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cnot_order": [],
+      "energy": -1.1999999999999984,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 0.8307785126306163,
+      "epsilon_c": 0.9940533946302575,
+      "epsilon_sf": 0.869778802007388,
+      "epsilon_mx": 0.9228284175725734,
+      "fidelity": 0.014488687578571538,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 0.9999999999999999,
+      "w_plus": 1.0,
+      "T_real": 0.9999999999999996,
+      "T_imag": 0.0,
+      "eta_T": 4.440892098500626e-16,
+      "w0": 0.9999999999999996,
+      "w_plus_0": 0.9999999999999996,
+      "variance": 8.00499999999999,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "plus",
+      "seed": 11,
+      "uid": "57a86607c49d4bcc66bfff805791d140f321fd09a9d9dca79487732610cefaf2",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/2a1f28a0217c731c5026844e6bb0ff97d3cf3f64ebe911d504401589d2eb718a.json",
+      "source_sha": "3ab1799d24485fd6310b223843e3078808581c3813a35b1b6e54fdbbbee0d718",
+      "checkpoint": 0,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIIIZYI",
+        "IZYIIIII",
+        "IIIZYIII",
+        "ZIIIIIIY",
+        "IIIYXZII",
+        "ZXYIIIII"
+      ],
+      "params": [
+        -0.7062756493615788,
+        -0.7460784131336169,
+        -0.7460784115908137,
+        -0.7062756507292187,
+        -0.7667107592709261,
+        -0.7667107739476939
+      ],
+      "reason": "budget_checkpoint_16",
+      "optimizer_success": true,
+      "cnots": 16,
+      "gate_count": 46,
+      "unitary_depth": 13,
+      "target_counts": [
+        0,
+        2,
+        4,
+        0,
+        4,
+        2,
+        2,
+        2
+      ],
+      "cnot_order": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "energy": -5.935593272628959,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 0.2388293535519962,
+      "epsilon_c": 0.9940246897381012,
+      "epsilon_sf": 0.4978718307975824,
+      "epsilon_mx": 0.015929669302328024,
+      "fidelity": 0.49556454703809943,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 0.9999999999999991,
+      "w_plus": 0.9999999999999996,
+      "T_real": 0.49545344930210483,
+      "T_imag": 0.0,
+      "eta_T": 0.5045465506978952,
+      "w0": 0.620865300642028,
+      "w_plus_0": 0.620865300642028,
+      "variance": 3.6534755803153516,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "plus",
+      "seed": 11,
+      "uid": "875901e2234a963d6c27801dd6eef060b8cdb6be631d37e5289641decaf25529",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/2a1f28a0217c731c5026844e6bb0ff97d3cf3f64ebe911d504401589d2eb718a.json",
+      "source_sha": "3ab1799d24485fd6310b223843e3078808581c3813a35b1b6e54fdbbbee0d718",
+      "checkpoint": 1,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIIIZYI",
+        "IZYIIIII",
+        "IIIZYIII",
+        "ZIIIIIIY",
+        "IIIYXZII",
+        "ZXYIIIII",
+        "IIIIIIYZ",
+        "IIIYIZII",
+        "IIZYIIII",
+        "IIIIYXZI",
+        "IIIIYZII",
+        "ZIYIIIII",
+        "ZIIIIIIY"
+      ],
+      "params": [
+        0.03816442694301368,
+        -0.7469554230714281,
+        -0.7474053356805296,
+        -0.7853448473909399,
+        -0.7838340955464583,
+        -0.7851529768820485,
+        -0.7849850151884761,
+        0.785161693618351,
+        -0.74683495186472,
+        -0.7809073591036084,
+        0.03839434520680766,
+        0.03850119625174195,
+        0.03844024315213795
+      ],
+      "reason": "budget_checkpoint_32",
+      "optimizer_success": true,
+      "cnots": 32,
+      "gate_count": 85,
+      "unitary_depth": 30,
+      "target_counts": [
+        0,
+        2,
+        6,
+        2,
+        4,
+        8,
+        4,
+        6
+      ],
+      "cnot_order": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "energy": -7.840327700336371,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 0.0007375500885696828,
+      "epsilon_c": 0.000811921134935667,
+      "epsilon_sf": 0.0007050318834884717,
+      "epsilon_mx": 0.010051162271841899,
+      "fidelity": 0.9984762655386685,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 0.9999999999999992,
+      "w_plus": 0.9999999999999996,
+      "T_real": 0.9985073860890977,
+      "T_imag": 0.0,
+      "eta_T": 0.001492613910902274,
+      "w0": 0.9986973317396195,
+      "w_plus_0": 0.9986973317396195,
+      "variance": 0.022893519982922328,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "plus",
+      "seed": 11,
+      "uid": "497dc9e6bf3f5773de028480166ec3b5e2060a1875c9b02ab33bec641c84a239",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/2a1f28a0217c731c5026844e6bb0ff97d3cf3f64ebe911d504401589d2eb718a.json",
+      "source_sha": "3ab1799d24485fd6310b223843e3078808581c3813a35b1b6e54fdbbbee0d718",
+      "checkpoint": 2,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIIIZYI",
+        "IZYIIIII",
+        "IIIZYIII",
+        "ZIIIIIIY",
+        "IIIYXZII",
+        "ZXYIIIII",
+        "IIIIIIYZ",
+        "IIIYIZII",
+        "IIZYIIII",
+        "IIIIYXZI",
+        "IIIIYZII",
+        "ZIYIIIII",
+        "ZIIIIIIY",
+        "YIIIIIZI",
+        "IIIIZXYI",
+        "YXZIIIII",
+        "IZXYIIII",
+        "YIIIIIZX",
+        "IYXZIIII",
+        "ZIIIIIYX",
+        "IIIIZIYI",
+        "IIIIIZYI",
+        "ZXYIIIII",
+        "YIIIIIZX",
+        "IIYXZIII",
+        "IYIZIIII",
+        "XYIIIIIZ",
+        "IIIIIZXY",
+        "YIZIIIII"
+      ],
+      "params": [
+        0.00028888103860608247,
+        -0.7465238748834944,
+        -0.7472354843766505,
+        -0.7853598067899036,
+        -0.7838264858991743,
+        -0.7845582534417991,
+        -0.7848146626222491,
+        0.7851558243987619,
+        -0.7470210196571946,
+        -0.7808941468868109,
+        0.038389265841965815,
+        0.03909316019251275,
+        0.03873495444396552,
+        0.038022016555316764,
+        0.004469231293697689,
+        0.0030353782354277195,
+        0.003127597794507259,
+        0.006198442879558363,
+        0.0060408625023983635,
+        0.0030270368330686365,
+        0.00020587804285195036,
+        0.03766591022001756,
+        -0.0045293243145712635,
+        -0.004641318163206344,
+        -0.0016151317488598534,
+        -0.0006104298958489189,
+        -0.0014603916561027066,
+        -0.0014517444340814505,
+        0.0002449334223734839
+      ],
+      "reason": "energy_stagnation",
+      "optimizer_success": true,
+      "cnots": 86,
+      "gate_count": 209,
+      "unitary_depth": 83,
+      "target_counts": [
+        0,
+        8,
+        16,
+        10,
+        6,
+        10,
+        20,
+        16
+      ],
+      "cnot_order": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "energy": -7.846228044498284,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 7.068330587500782e-09,
+      "epsilon_c": 2.0436893266584377e-07,
+      "epsilon_sf": 1.1036191049917932e-07,
+      "epsilon_mx": 4.55769378057691e-07,
+      "fidelity": 0.9999999885794864,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 0.9999999999999987,
+      "w_plus": 0.9999999999999993,
+      "T_real": 0.9999999913488145,
+      "T_imag": 0.0,
+      "eta_T": 8.651185545716089e-09,
+      "w0": 0.999999992361202,
+      "w_plus_0": 0.999999992361202,
+      "variance": 3.2062285271194924e-07,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "plus",
+      "seed": 11,
+      "uid": "5e7c7f9a68047f0a69f389056a3e84bc0f4ae0ebcedaab97f9de9316a611b74e",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/2a1f28a0217c731c5026844e6bb0ff97d3cf3f64ebe911d504401589d2eb718a.json",
+      "source_sha": "3ab1799d24485fd6310b223843e3078808581c3813a35b1b6e54fdbbbee0d718",
+      "checkpoint": 3,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [],
+      "params": [],
+      "reason": "reference",
+      "optimizer_success": true,
+      "cnots": 7,
+      "gate_count": 8,
+      "unitary_depth": 8,
+      "target_counts": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "energy": -7.799999999999999,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 0.005778512630616239,
+      "epsilon_c": 0.00597531026189857,
+      "epsilon_sf": 0.005221197992612003,
+      "epsilon_mx": 0.07717158242742642,
+      "fidelity": 0.988150486448446,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 0.9999999999999998,
+      "w_plus": 0.9999999999999999,
+      "T_real": 0.9999999999999998,
+      "T_imag": 0.0,
+      "eta_T": 2.220446049250313e-16,
+      "w0": 0.9999999999999998,
+      "w_plus_0": 0.9999999999999998,
+      "variance": 0.18000000000001393,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "3b47426de28b5b61fac376a12cad8ebaa0aa6c799c64771457f644e463f82e85",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/6d5db2fc7222239181d9bbae43b35a552a668256f1d02478c1bec4981c0ccb6b.json",
+      "source_sha": "2bc60c8858591bc7a3693749a7b052141f80a30bd0c848128f20002a641fa599",
+      "checkpoint": 0,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIZIYII",
+        "IIIIIIYZ",
+        "ZIIIIIIY",
+        "IIZYIIII"
+      ],
+      "params": [
+        0.03844123873656959,
+        0.038502144375486866,
+        0.03844268636409849,
+        0.03838449700809773
+      ],
+      "reason": "budget_checkpoint_16",
+      "optimizer_success": true,
+      "cnots": 15,
+      "gate_count": 28,
+      "unitary_depth": 17,
+      "target_counts": [
+        0,
+        1,
+        1,
+        3,
+        1,
+        3,
+        1,
+        5
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "energy": -7.823059881424607,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 0.0028960274525402507,
+      "epsilon_c": 0.0030232643985387275,
+      "epsilon_sf": 0.002637890895594963,
+      "epsilon_mx": 0.038766804377337157,
+      "fidelity": 0.9940385062337324,
+      "observable_pass": false,
+      "state_pass": true,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 0.9999999999999998,
+      "w_plus": 0.9999999999999999,
+      "T_real": 0.9970524687437609,
+      "T_imag": 0.0,
+      "eta_T": 0.0029475312562391442,
+      "w0": 0.9970487746442023,
+      "w_plus_0": 0.9970487746442023,
+      "variance": 0.09006986932432426,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "f6f170b13c4cf44ec72ad983532ebd3e27fbec1fff2bb1e13f97ad406329e59f",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/6d5db2fc7222239181d9bbae43b35a552a668256f1d02478c1bec4981c0ccb6b.json",
+      "source_sha": "2bc60c8858591bc7a3693749a7b052141f80a30bd0c848128f20002a641fa599",
+      "checkpoint": 1,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIZIYII",
+        "IIIIIIYZ",
+        "ZIIIIIIY",
+        "IIZYIIII",
+        "IZYIIIII",
+        "YZIIIIII",
+        "IIIIYZII",
+        "IYZIIIII",
+        "IIIZXYII",
+        "IYXZIIII"
+      ],
+      "params": [
+        0.03832576513092364,
+        0.03849984922925714,
+        0.038499577491490425,
+        0.03849508509328607,
+        0.038670319918367904,
+        0.038499844128783246,
+        0.038670323559392025,
+        0.038325774747159334,
+        0.00449270382171035,
+        0.004492703078457508
+      ],
+      "reason": "budget_checkpoint_32",
+      "optimizer_success": true,
+      "cnots": 31,
+      "gate_count": 66,
+      "unitary_depth": 34,
+      "target_counts": [
+        0,
+        3,
+        7,
+        5,
+        3,
+        7,
+        1,
+        5
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "energy": -7.846170997859934,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 7.137898124343067e-06,
+      "epsilon_c": 4.477074915720802e-05,
+      "epsilon_sf": 3.370847735317817e-05,
+      "epsilon_mx": 0.00019344823339842443,
+      "fidelity": 0.9999846104238868,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 1.0,
+      "w_plus": 1.0,
+      "T_real": 0.9999952082324272,
+      "T_imag": 0.0,
+      "eta_T": 4.791767572842609e-06,
+      "w0": 0.9999964048377638,
+      "w_plus_0": 0.9999964048377638,
+      "variance": 0.00021431784902858908,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "28d1bdef3e206d0a6030e65d10d3320173d2845e8d387e9c32cb91772323c6ea",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/6d5db2fc7222239181d9bbae43b35a552a668256f1d02478c1bec4981c0ccb6b.json",
+      "source_sha": "2bc60c8858591bc7a3693749a7b052141f80a30bd0c848128f20002a641fa599",
+      "checkpoint": 2,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIZIYII",
+        "IIIIIIYZ",
+        "ZIIIIIIY",
+        "IIZYIIII",
+        "IZYIIIII",
+        "YZIIIIII",
+        "IIIIYZII",
+        "IYZIIIII",
+        "IIIZXYII",
+        "IYXZIIII",
+        "IIIIIYXZ",
+        "XYIIIIIZ",
+        "YIIIIIZX",
+        "IIZXYIII",
+        "IIIIIZXY",
+        "IIYXZIII",
+        "IIIIYXZI",
+        "ZXYIIIII"
+      ],
+      "params": [
+        0.038441995804292396,
+        0.03861762619433751,
+        0.03850138080090553,
+        0.03861711846891815,
+        0.038441324570703095,
+        0.03850138413419133,
+        0.03844067127121238,
+        0.03844187153710488,
+        0.002240169365241441,
+        0.002248675152403859,
+        0.0015230407271890187,
+        0.0015367604396007194,
+        0.0015387373352536932,
+        0.0015232598923473194,
+        0.0015251608228190512,
+        0.0015232482910543278,
+        0.002257225515488046,
+        0.0022487935276237713
+      ],
+      "reason": "budget_checkpoint_64",
+      "optimizer_success": true,
+      "cnots": 63,
+      "gate_count": 138,
+      "unitary_depth": 60,
+      "target_counts": [
+        0,
+        7,
+        9,
+        9,
+        7,
+        9,
+        9,
+        13
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "energy": -7.8462252993605395,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 3.5021054867190315e-07,
+      "epsilon_c": 3.1638651160070808e-06,
+      "epsilon_sf": 2.3636886381517286e-06,
+      "epsilon_mx": 1.4054758128878575e-05,
+      "fidelity": 0.9999992308588506,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 1.0000000000000004,
+      "w_plus": 1.0000000000000002,
+      "T_real": 0.9999999858686053,
+      "T_imag": 0.0,
+      "eta_T": 1.4131394721061952e-08,
+      "w0": 0.9999999861660043,
+      "w_plus_0": 0.9999999861660043,
+      "variance": 1.0432960181105955e-05,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "4721e6cdf73fd8255b0321dd7c74a2075e58078fb0cbfe40cb3f3cfaf159ce9b",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/6d5db2fc7222239181d9bbae43b35a552a668256f1d02478c1bec4981c0ccb6b.json",
+      "source_sha": "2bc60c8858591bc7a3693749a7b052141f80a30bd0c848128f20002a641fa599",
+      "checkpoint": 3,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIZIYII",
+        "IIIIIIYZ",
+        "ZIIIIIIY",
+        "IIZYIIII",
+        "IZYIIIII",
+        "YZIIIIII",
+        "IIIIYZII",
+        "IYZIIIII",
+        "IIIZXYII",
+        "IYXZIIII",
+        "IIIIIYXZ",
+        "XYIIIIIZ",
+        "YIIIIIZX",
+        "IIZXYIII",
+        "IIIIIZXY",
+        "IIYXZIII",
+        "IIIIYXZI",
+        "ZXYIIIII",
+        "ZIIIIIYX",
+        "IIIIYIZI"
+      ],
+      "params": [
+        0.038439517208927514,
+        0.038558734454909545,
+        0.03856040485153939,
+        0.0386171056857421,
+        0.038441099626292476,
+        0.03850115698928822,
+        0.038190733225308304,
+        0.038442082019516134,
+        0.0022719860071385854,
+        0.0022459423919730915,
+        0.001529828050684398,
+        0.0015366950517629824,
+        0.001531838289130744,
+        0.0015232372320043814,
+        0.0007574150597453057,
+        0.0015234921545515827,
+        0.002205844677312332,
+        0.0022516316336617407,
+        0.0007728484776652675,
+        0.0002538680908678592
+      ],
+      "reason": "energy_stagnation",
+      "optimizer_success": true,
+      "cnots": 69,
+      "gate_count": 152,
+      "unitary_depth": 69,
+      "target_counts": [
+        0,
+        7,
+        9,
+        9,
+        7,
+        9,
+        13,
+        15
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "energy": -7.846225328942452,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 3.4651280955699804e-07,
+      "epsilon_c": 3.1365093691171353e-06,
+      "epsilon_sf": 2.3337917534060892e-06,
+      "epsilon_mx": 1.3913372481522135e-05,
+      "fidelity": 0.9999992386230959,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 0.9999999999999999,
+      "w_plus": 1.0,
+      "T_real": 0.9999999928329697,
+      "T_imag": 0.0,
+      "eta_T": 7.167030302568378e-09,
+      "w0": 0.9999999929533352,
+      "w_plus_0": 0.9999999929533352,
+      "variance": 1.0314222564034026e-05,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "e7fe92acfef2ac388bde87663ac79bd28cbcf93dd93ad434a93d20f6f3c52348",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/6d5db2fc7222239181d9bbae43b35a552a668256f1d02478c1bec4981c0ccb6b.json",
+      "source_sha": "2bc60c8858591bc7a3693749a7b052141f80a30bd0c848128f20002a641fa599",
+      "checkpoint": 4,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [],
+      "params": [],
+      "reason": "reference",
+      "optimizer_success": true,
+      "cnots": 6,
+      "gate_count": 14,
+      "unitary_depth": 7,
+      "target_counts": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "energy": -0.1999999999999999,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 0.9557785126306161,
+      "epsilon_c": 1.9940247745502004,
+      "epsilon_sf": 0.9947788020073878,
+      "epsilon_mx": 0.07717158242742642,
+      "fidelity": 6.805998423428676e-10,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 0.9999999999999996,
+      "w_plus": 0.9999999999999998,
+      "T_real": 0.9999999999999996,
+      "T_imag": 0.0,
+      "eta_T": 4.440892098500626e-16,
+      "w0": 0.9999999999999998,
+      "w_plus_0": 0.9999999999999998,
+      "variance": 0.17999999999999997,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "4fcfc8f19a72938792339e913a168a2c6a7ff9a307a0a473082c11cdc7413dd2",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/acd4c2f5eacfcd38b17cab33d1183cf18a464356f5b17f6aec8da72f134b8937.json",
+      "source_sha": "529887878c6ba34d0e3532befb06e9db6b9741aa5e9dd5683948e54ff2f7911f",
+      "checkpoint": 0,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIIIZIY",
+        "IIYIZIII",
+        "IIIZIYII",
+        "IYIZIIII",
+        "IZYIIIII"
+      ],
+      "params": [
+        -0.8469087380187778,
+        -0.7842998505416764,
+        -0.7227931854232833,
+        -1.4889923486462096,
+        -0.7415819219785618
+      ],
+      "reason": "budget_checkpoint_16",
+      "optimizer_success": true,
+      "cnots": 16,
+      "gate_count": 39,
+      "unitary_depth": 23,
+      "target_counts": [
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        1,
+        3
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "energy": -2.347142993238374,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 0.6873856384758193,
+      "epsilon_c": 1.1495709456495398,
+      "epsilon_sf": 0.8308549073751026,
+      "epsilon_mx": 0.20367490398761587,
+      "fidelity": 0.0002156007284744098,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 0.9999999999999998,
+      "w_plus": 0.9999999999999999,
+      "T_real": 0.13321581388741796,
+      "T_imag": 0.0,
+      "eta_T": 0.866784186112582,
+      "w0": 0.18642467610575453,
+      "w_plus_0": 0.18642467610575453,
+      "variance": 3.872710748598289,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "947776e96f2d9f391f4cfbf14a2d32dea38f5d1b4951fa7b699bfd9f7149a583",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/acd4c2f5eacfcd38b17cab33d1183cf18a464356f5b17f6aec8da72f134b8937.json",
+      "source_sha": "529887878c6ba34d0e3532befb06e9db6b9741aa5e9dd5683948e54ff2f7911f",
+      "checkpoint": 1,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIIIZIY",
+        "IIYIZIII",
+        "IIIZIYII",
+        "IYIZIIII",
+        "IZYIIIII",
+        "IYIZIIII",
+        "ZYIIIIII",
+        "IIIYZIII",
+        "IIIIYIZI",
+        "YIIIIIZI",
+        "YIIIIIIZ",
+        "IIIIYZII",
+        "ZIIIIIYI"
+      ],
+      "params": [
+        -0.7855003041566547,
+        -1.5314372375612961,
+        -0.7928549913729982,
+        -1.2017932539793803,
+        -0.008478661094908692,
+        0.41465044252418737,
+        -0.7457856365356336,
+        -0.7378747265144919,
+        -0.32396622293983873,
+        -0.09615379338534502,
+        -0.07590035727859558,
+        -0.26685332232217884,
+        -0.5624777769595041
+      ],
+      "reason": "budget_checkpoint_32",
+      "optimizer_success": true,
+      "cnots": 32,
+      "gate_count": 79,
+      "unitary_depth": 47,
+      "target_counts": [
+        0,
+        2,
+        3,
+        5,
+        5,
+        5,
+        7,
+        5
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "energy": -4.461830562436752,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 0.4230496923260221,
+      "epsilon_c": 0.9349724533132262,
+      "epsilon_sf": 0.6531838952758102,
+      "epsilon_mx": 0.3703516911883261,
+      "fidelity": 0.09221528407005203,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 0.9999999999999994,
+      "w_plus": 0.9999999999999998,
+      "T_real": 0.5905237987108133,
+      "T_imag": 0.0,
+      "eta_T": 0.4094762012891867,
+      "w0": 0.3823009336030392,
+      "w_plus_0": 0.3823009336030392,
+      "variance": 2.1918994519837014,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "2e19b87c2fc026d44c3197b61b34e6226008d1ffc3d1f12f0404f6437ebf0b7d",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/acd4c2f5eacfcd38b17cab33d1183cf18a464356f5b17f6aec8da72f134b8937.json",
+      "source_sha": "529887878c6ba34d0e3532befb06e9db6b9741aa5e9dd5683948e54ff2f7911f",
+      "checkpoint": 2,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIIIZIY",
+        "IIYIZIII",
+        "IIIZIYII",
+        "IYIZIIII",
+        "IZYIIIII",
+        "IYIZIIII",
+        "ZYIIIIII",
+        "IIIYZIII",
+        "IIIIYIZI",
+        "YIIIIIZI",
+        "YIIIIIIZ",
+        "IIIIYZII",
+        "ZIIIIIYI",
+        "IIIIIIYZ",
+        "IIIIIYZI",
+        "IIIIIIZY",
+        "IIIIIZYI",
+        "IIIIIZXY",
+        "IIIYXZII",
+        "YXZIIIII",
+        "ZXYIIIII"
+      ],
+      "params": [
+        -0.7853980837319912,
+        -1.532170741308015,
+        -0.7853887274770226,
+        -1.1780157669999693,
+        -0.002229279701439708,
+        0.39263394841693566,
+        -0.7467768493645105,
+        -0.7468936479878064,
+        -0.03862091865308442,
+        0.038503658945525904,
+        0.001557189966255331,
+        -0.0015344406401758977,
+        -1.5702139769916503,
+        0.004493360656854774,
+        -0.7470111417738291,
+        -0.7468974537578148,
+        0.03838845979901793,
+        0.0015527349796582495,
+        0.0015437133032843483,
+        0.0015438799297861753,
+        -4.199072138609383e-05
+      ],
+      "reason": "energy_stagnation",
+      "optimizer_success": true,
+      "cnots": 56,
+      "gate_count": 135,
+      "unitary_depth": 74,
+      "target_counts": [
+        0,
+        6,
+        7,
+        5,
+        7,
+        7,
+        13,
+        11
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "energy": -7.846227145684455,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 1.194200592857797e-07,
+      "epsilon_c": 1.3507083832520195e-06,
+      "epsilon_sf": 9.64611070020105e-07,
+      "epsilon_mx": 4.851957915760763e-06,
+      "fidelity": 0.9999997378880029,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+      "parity": 1.0,
+      "w_plus": 1.0,
+      "T_real": 0.9999999413867773,
+      "T_imag": 0.0,
+      "eta_T": 5.861322271982772e-08,
+      "w0": 0.9999999492188081,
+      "w_plus_0": 0.9999999492188081,
+      "variance": 3.5708366326048235e-06,
+      "n": 8,
+      "kappa": 0.025,
+      "h": 0.15,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "a24ac0e8fa8eebded4ce8dbc0b7d4d488fc76d22272dfadf9e3771dab7638d77",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/acd4c2f5eacfcd38b17cab33d1183cf18a464356f5b17f6aec8da72f134b8937.json",
+      "source_sha": "529887878c6ba34d0e3532befb06e9db6b9741aa5e9dd5683948e54ff2f7911f",
+      "checkpoint": 3,
+      "source_stop": "energy_stagnation",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    }
+  ],
+  "selector_code": "c2b7d909917fc33a9175cb04b0fce8947f440c4bcdf376f6b7b72682d8b9630a",
+  "same_candidate_set": true,
+  "selectors": {
+    "S0": {
+      "candidate": {
+        "words": [
+          "IIIZIYII",
+          "IIIIIIYZ",
+          "ZIIIIIIY",
+          "IIZYIIII",
+          "IZYIIIII",
+          "YZIIIIII",
+          "IIIIYZII",
+          "IYZIIIII",
+          "IIIZXYII",
+          "IYXZIIII"
+        ],
+        "params": [
+          0.03832576513092364,
+          0.03849984922925714,
+          0.038499577491490425,
+          0.03849508509328607,
+          0.038670319918367904,
+          0.038499844128783246,
+          0.038670323559392025,
+          0.038325774747159334,
+          0.00449270382171035,
+          0.004492703078457508
+        ],
+        "reason": "budget_checkpoint_32",
+        "optimizer_success": true,
+        "cnots": 31,
+        "gate_count": 66,
+        "unitary_depth": 34,
+        "target_counts": [
+          0,
+          3,
+          7,
+          5,
+          3,
+          7,
+          1,
+          5
+        ],
+        "cnot_order": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "energy": -7.846170997859934,
+        "ed_energy": -7.846228101044929,
+        "delta_e": 7.137898124343067e-06,
+        "epsilon_c": 4.477074915720802e-05,
+        "epsilon_sf": 3.370847735317817e-05,
+        "epsilon_mx": 0.00019344823339842443,
+        "fidelity": 0.9999846104238868,
+        "observable_pass": true,
+        "state_pass": true,
+        "joint_pass": true,
+        "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+        "parity": 1.0,
+        "w_plus": 1.0,
+        "T_real": 0.9999952082324272,
+        "T_imag": 0.0,
+        "eta_T": 4.791767572842609e-06,
+        "w0": 0.9999964048377638,
+        "w_plus_0": 0.9999964048377638,
+        "variance": 0.00021431784902858908,
+        "n": 8,
+        "kappa": 0.025,
+        "h": 0.15,
+        "ref": "ghz",
+        "seed": 11,
+        "uid": "28d1bdef3e206d0a6030e65d10d3320173d2845e8d387e9c32cb91772323c6ea",
+        "source": "results/stage4_upgrade_v1/adaptive/cache/6d5db2fc7222239181d9bbae43b35a552a668256f1d02478c1bec4981c0ccb6b.json",
+        "source_sha": "2bc60c8858591bc7a3693749a7b052141f80a30bd0c848128f20002a641fa599",
+        "checkpoint": 2,
+        "source_stop": "energy_stagnation",
+        "source_budget": 128,
+        "disposition": "historical_reused"
+      },
+      "selection_unresolved": false,
+      "rule": "S0",
+      "energy_tolerance_total": 0.0008,
+      "state_access_assisted": false
+    },
+    "S1": {
+      "candidate": {
+        "words": [
+          "IIIIIZYI",
+          "IZYIIIII",
+          "IIIZYIII",
+          "ZIIIIIIY",
+          "IIIYXZII",
+          "ZXYIIIII",
+          "IIIIIIYZ",
+          "IIIYIZII",
+          "IIZYIIII",
+          "IIIIYXZI",
+          "IIIIYZII",
+          "ZIYIIIII",
+          "ZIIIIIIY",
+          "YIIIIIZI",
+          "IIIIZXYI",
+          "YXZIIIII",
+          "IZXYIIII",
+          "YIIIIIZX",
+          "IYXZIIII",
+          "ZIIIIIYX",
+          "IIIIZIYI",
+          "IIIIIZYI",
+          "ZXYIIIII",
+          "YIIIIIZX",
+          "IIYXZIII",
+          "IYIZIIII",
+          "XYIIIIIZ",
+          "IIIIIZXY",
+          "YIZIIIII"
+        ],
+        "params": [
+          0.00028888103860608247,
+          -0.7465238748834944,
+          -0.7472354843766505,
+          -0.7853598067899036,
+          -0.7838264858991743,
+          -0.7845582534417991,
+          -0.7848146626222491,
+          0.7851558243987619,
+          -0.7470210196571946,
+          -0.7808941468868109,
+          0.038389265841965815,
+          0.03909316019251275,
+          0.03873495444396552,
+          0.038022016555316764,
+          0.004469231293697689,
+          0.0030353782354277195,
+          0.003127597794507259,
+          0.006198442879558363,
+          0.0060408625023983635,
+          0.0030270368330686365,
+          0.00020587804285195036,
+          0.03766591022001756,
+          -0.0045293243145712635,
+          -0.004641318163206344,
+          -0.0016151317488598534,
+          -0.0006104298958489189,
+          -0.0014603916561027066,
+          -0.0014517444340814505,
+          0.0002449334223734839
+        ],
+        "reason": "energy_stagnation",
+        "optimizer_success": true,
+        "cnots": 86,
+        "gate_count": 209,
+        "unitary_depth": 83,
+        "target_counts": [
+          0,
+          8,
+          16,
+          10,
+          6,
+          10,
+          20,
+          16
+        ],
+        "cnot_order": [
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "energy": -7.846228044498284,
+        "ed_energy": -7.846228101044929,
+        "delta_e": 7.068330587500782e-09,
+        "epsilon_c": 2.0436893266584377e-07,
+        "epsilon_sf": 1.1036191049917932e-07,
+        "epsilon_mx": 4.55769378057691e-07,
+        "fidelity": 0.9999999885794864,
+        "observable_pass": true,
+        "state_pass": true,
+        "joint_pass": true,
+        "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+        "parity": 0.9999999999999987,
+        "w_plus": 0.9999999999999993,
+        "T_real": 0.9999999913488145,
+        "T_imag": 0.0,
+        "eta_T": 8.651185545716089e-09,
+        "w0": 0.999999992361202,
+        "w_plus_0": 0.999999992361202,
+        "variance": 3.2062285271194924e-07,
+        "n": 8,
+        "kappa": 0.025,
+        "h": 0.15,
+        "ref": "plus",
+        "seed": 11,
+        "uid": "5e7c7f9a68047f0a69f389056a3e84bc0f4ae0ebcedaab97f9de9316a611b74e",
+        "source": "results/stage4_upgrade_v1/adaptive/cache/2a1f28a0217c731c5026844e6bb0ff97d3cf3f64ebe911d504401589d2eb718a.json",
+        "source_sha": "3ab1799d24485fd6310b223843e3078808581c3813a35b1b6e54fdbbbee0d718",
+        "checkpoint": 3,
+        "source_stop": "energy_stagnation",
+        "source_budget": 128,
+        "disposition": "historical_reused"
+      },
+      "selection_unresolved": false,
+      "rule": "S1",
+      "energy_tolerance_total": 1e-10,
+      "state_access_assisted": false
+    }
+  },
+  "S2_grid": [
+    {
+      "config": {
+        "w0_min": 0.99,
+        "parity_min": 0.999999,
+        "energy_tolerance_per_site": 1e-06
+      },
+      "selection": {
+        "candidate": {
+          "words": [
+            "IIIIIZIY",
+            "IIYIZIII",
+            "IIIZIYII",
+            "IYIZIIII",
+            "IZYIIIII",
+            "IYIZIIII",
+            "ZYIIIIII",
+            "IIIYZIII",
+            "IIIIYIZI",
+            "YIIIIIZI",
+            "YIIIIIIZ",
+            "IIIIYZII",
+            "ZIIIIIYI",
+            "IIIIIIYZ",
+            "IIIIIYZI",
+            "IIIIIIZY",
+            "IIIIIZYI",
+            "IIIIIZXY",
+            "IIIYXZII",
+            "YXZIIIII",
+            "ZXYIIIII"
+          ],
+          "params": [
+            -0.7853980837319912,
+            -1.532170741308015,
+            -0.7853887274770226,
+            -1.1780157669999693,
+            -0.002229279701439708,
+            0.39263394841693566,
+            -0.7467768493645105,
+            -0.7468936479878064,
+            -0.03862091865308442,
+            0.038503658945525904,
+            0.001557189966255331,
+            -0.0015344406401758977,
+            -1.5702139769916503,
+            0.004493360656854774,
+            -0.7470111417738291,
+            -0.7468974537578148,
+            0.03838845979901793,
+            0.0015527349796582495,
+            0.0015437133032843483,
+            0.0015438799297861753,
+            -4.199072138609383e-05
+          ],
+          "reason": "energy_stagnation",
+          "optimizer_success": true,
+          "cnots": 56,
+          "gate_count": 135,
+          "unitary_depth": 74,
+          "target_counts": [
+            0,
+            6,
+            7,
+            5,
+            7,
+            7,
+            13,
+            11
+          ],
+          "cnot_order": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "energy": -7.846227145684455,
+          "ed_energy": -7.846228101044929,
+          "delta_e": 1.194200592857797e-07,
+          "epsilon_c": 1.3507083832520195e-06,
+          "epsilon_sf": 9.64611070020105e-07,
+          "epsilon_mx": 4.851957915760763e-06,
+          "fidelity": 0.9999997378880029,
+          "observable_pass": true,
+          "state_pass": true,
+          "joint_pass": true,
+          "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+          "parity": 1.0,
+          "w_plus": 1.0,
+          "T_real": 0.9999999413867773,
+          "T_imag": 0.0,
+          "eta_T": 5.861322271982772e-08,
+          "w0": 0.9999999492188081,
+          "w_plus_0": 0.9999999492188081,
+          "variance": 3.5708366326048235e-06,
+          "n": 8,
+          "kappa": 0.025,
+          "h": 0.15,
+          "ref": "antiphase",
+          "seed": 11,
+          "uid": "a24ac0e8fa8eebded4ce8dbc0b7d4d488fc76d22272dfadf9e3771dab7638d77",
+          "source": "results/stage4_upgrade_v1/adaptive/cache/acd4c2f5eacfcd38b17cab33d1183cf18a464356f5b17f6aec8da72f134b8937.json",
+          "source_sha": "529887878c6ba34d0e3532befb06e9db6b9741aa5e9dd5683948e54ff2f7911f",
+          "checkpoint": 3,
+          "source_stop": "energy_stagnation",
+          "source_budget": 128,
+          "disposition": "historical_reused"
+        },
+        "selection_unresolved": false,
+        "rule": "S2",
+        "energy_tolerance_total": 8e-06,
+        "state_access_assisted": true
+      }
+    },
+    {
+      "config": {
+        "w0_min": 0.99,
+        "parity_min": 0.999999,
+        "energy_tolerance_per_site": 1e-08
+      },
+      "selection": {
+        "candidate": {
+          "words": [
+            "IIIIIZYI",
+            "IZYIIIII",
+            "IIIZYIII",
+            "ZIIIIIIY",
+            "IIIYXZII",
+            "ZXYIIIII",
+            "IIIIIIYZ",
+            "IIIYIZII",
+            "IIZYIIII",
+            "IIIIYXZI",
+            "IIIIYZII",
+            "ZIYIIIII",
+            "ZIIIIIIY",
+            "YIIIIIZI",
+            "IIIIZXYI",
+            "YXZIIIII",
+            "IZXYIIII",
+            "YIIIIIZX",
+            "IYXZIIII",
+            "ZIIIIIYX",
+            "IIIIZIYI",
+            "IIIIIZYI",
+            "ZXYIIIII",
+            "YIIIIIZX",
+            "IIYXZIII",
+            "IYIZIIII",
+            "XYIIIIIZ",
+            "IIIIIZXY",
+            "YIZIIIII"
+          ],
+          "params": [
+            0.00028888103860608247,
+            -0.7465238748834944,
+            -0.7472354843766505,
+            -0.7853598067899036,
+            -0.7838264858991743,
+            -0.7845582534417991,
+            -0.7848146626222491,
+            0.7851558243987619,
+            -0.7470210196571946,
+            -0.7808941468868109,
+            0.038389265841965815,
+            0.03909316019251275,
+            0.03873495444396552,
+            0.038022016555316764,
+            0.004469231293697689,
+            0.0030353782354277195,
+            0.003127597794507259,
+            0.006198442879558363,
+            0.0060408625023983635,
+            0.0030270368330686365,
+            0.00020587804285195036,
+            0.03766591022001756,
+            -0.0045293243145712635,
+            -0.004641318163206344,
+            -0.0016151317488598534,
+            -0.0006104298958489189,
+            -0.0014603916561027066,
+            -0.0014517444340814505,
+            0.0002449334223734839
+          ],
+          "reason": "energy_stagnation",
+          "optimizer_success": true,
+          "cnots": 86,
+          "gate_count": 209,
+          "unitary_depth": 83,
+          "target_counts": [
+            0,
+            8,
+            16,
+            10,
+            6,
+            10,
+            20,
+            16
+          ],
+          "cnot_order": [
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "energy": -7.846228044498284,
+          "ed_energy": -7.846228101044929,
+          "delta_e": 7.068330587500782e-09,
+          "epsilon_c": 2.0436893266584377e-07,
+          "epsilon_sf": 1.1036191049917932e-07,
+          "epsilon_mx": 4.55769378057691e-07,
+          "fidelity": 0.9999999885794864,
+          "observable_pass": true,
+          "state_pass": true,
+          "joint_pass": true,
+          "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+          "parity": 0.9999999999999987,
+          "w_plus": 0.9999999999999993,
+          "T_real": 0.9999999913488145,
+          "T_imag": 0.0,
+          "eta_T": 8.651185545716089e-09,
+          "w0": 0.999999992361202,
+          "w_plus_0": 0.999999992361202,
+          "variance": 3.2062285271194924e-07,
+          "n": 8,
+          "kappa": 0.025,
+          "h": 0.15,
+          "ref": "plus",
+          "seed": 11,
+          "uid": "5e7c7f9a68047f0a69f389056a3e84bc0f4ae0ebcedaab97f9de9316a611b74e",
+          "source": "results/stage4_upgrade_v1/adaptive/cache/2a1f28a0217c731c5026844e6bb0ff97d3cf3f64ebe911d504401589d2eb718a.json",
+          "source_sha": "3ab1799d24485fd6310b223843e3078808581c3813a35b1b6e54fdbbbee0d718",
+          "checkpoint": 3,
+          "source_stop": "energy_stagnation",
+          "source_budget": 128,
+          "disposition": "historical_reused"
+        },
+        "selection_unresolved": false,
+        "rule": "S2",
+        "energy_tolerance_total": 8e-08,
+        "state_access_assisted": true
+      }
+    },
+    {
+      "config": {
+        "w0_min": 0.999,
+        "parity_min": 0.999999,
+        "energy_tolerance_per_site": 1e-06
+      },
+      "selection": {
+        "candidate": {
+          "words": [
+            "IIIIIZIY",
+            "IIYIZIII",
+            "IIIZIYII",
+            "IYIZIIII",
+            "IZYIIIII",
+            "IYIZIIII",
+            "ZYIIIIII",
+            "IIIYZIII",
+            "IIIIYIZI",
+            "YIIIIIZI",
+            "YIIIIIIZ",
+            "IIIIYZII",
+            "ZIIIIIYI",
+            "IIIIIIYZ",
+            "IIIIIYZI",
+            "IIIIIIZY",
+            "IIIIIZYI",
+            "IIIIIZXY",
+            "IIIYXZII",
+            "YXZIIIII",
+            "ZXYIIIII"
+          ],
+          "params": [
+            -0.7853980837319912,
+            -1.532170741308015,
+            -0.7853887274770226,
+            -1.1780157669999693,
+            -0.002229279701439708,
+            0.39263394841693566,
+            -0.7467768493645105,
+            -0.7468936479878064,
+            -0.03862091865308442,
+            0.038503658945525904,
+            0.001557189966255331,
+            -0.0015344406401758977,
+            -1.5702139769916503,
+            0.004493360656854774,
+            -0.7470111417738291,
+            -0.7468974537578148,
+            0.03838845979901793,
+            0.0015527349796582495,
+            0.0015437133032843483,
+            0.0015438799297861753,
+            -4.199072138609383e-05
+          ],
+          "reason": "energy_stagnation",
+          "optimizer_success": true,
+          "cnots": 56,
+          "gate_count": 135,
+          "unitary_depth": 74,
+          "target_counts": [
+            0,
+            6,
+            7,
+            5,
+            7,
+            7,
+            13,
+            11
+          ],
+          "cnot_order": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "energy": -7.846227145684455,
+          "ed_energy": -7.846228101044929,
+          "delta_e": 1.194200592857797e-07,
+          "epsilon_c": 1.3507083832520195e-06,
+          "epsilon_sf": 9.64611070020105e-07,
+          "epsilon_mx": 4.851957915760763e-06,
+          "fidelity": 0.9999997378880029,
+          "observable_pass": true,
+          "state_pass": true,
+          "joint_pass": true,
+          "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+          "parity": 1.0,
+          "w_plus": 1.0,
+          "T_real": 0.9999999413867773,
+          "T_imag": 0.0,
+          "eta_T": 5.861322271982772e-08,
+          "w0": 0.9999999492188081,
+          "w_plus_0": 0.9999999492188081,
+          "variance": 3.5708366326048235e-06,
+          "n": 8,
+          "kappa": 0.025,
+          "h": 0.15,
+          "ref": "antiphase",
+          "seed": 11,
+          "uid": "a24ac0e8fa8eebded4ce8dbc0b7d4d488fc76d22272dfadf9e3771dab7638d77",
+          "source": "results/stage4_upgrade_v1/adaptive/cache/acd4c2f5eacfcd38b17cab33d1183cf18a464356f5b17f6aec8da72f134b8937.json",
+          "source_sha": "529887878c6ba34d0e3532befb06e9db6b9741aa5e9dd5683948e54ff2f7911f",
+          "checkpoint": 3,
+          "source_stop": "energy_stagnation",
+          "source_budget": 128,
+          "disposition": "historical_reused"
+        },
+        "selection_unresolved": false,
+        "rule": "S2",
+        "energy_tolerance_total": 8e-06,
+        "state_access_assisted": true
+      }
+    },
+    {
+      "config": {
+        "w0_min": 0.999,
+        "parity_min": 0.999999,
+        "energy_tolerance_per_site": 1e-08
+      },
+      "selection": {
+        "candidate": {
+          "words": [
+            "IIIIIZYI",
+            "IZYIIIII",
+            "IIIZYIII",
+            "ZIIIIIIY",
+            "IIIYXZII",
+            "ZXYIIIII",
+            "IIIIIIYZ",
+            "IIIYIZII",
+            "IIZYIIII",
+            "IIIIYXZI",
+            "IIIIYZII",
+            "ZIYIIIII",
+            "ZIIIIIIY",
+            "YIIIIIZI",
+            "IIIIZXYI",
+            "YXZIIIII",
+            "IZXYIIII",
+            "YIIIIIZX",
+            "IYXZIIII",
+            "ZIIIIIYX",
+            "IIIIZIYI",
+            "IIIIIZYI",
+            "ZXYIIIII",
+            "YIIIIIZX",
+            "IIYXZIII",
+            "IYIZIIII",
+            "XYIIIIIZ",
+            "IIIIIZXY",
+            "YIZIIIII"
+          ],
+          "params": [
+            0.00028888103860608247,
+            -0.7465238748834944,
+            -0.7472354843766505,
+            -0.7853598067899036,
+            -0.7838264858991743,
+            -0.7845582534417991,
+            -0.7848146626222491,
+            0.7851558243987619,
+            -0.7470210196571946,
+            -0.7808941468868109,
+            0.038389265841965815,
+            0.03909316019251275,
+            0.03873495444396552,
+            0.038022016555316764,
+            0.004469231293697689,
+            0.0030353782354277195,
+            0.003127597794507259,
+            0.006198442879558363,
+            0.0060408625023983635,
+            0.0030270368330686365,
+            0.00020587804285195036,
+            0.03766591022001756,
+            -0.0045293243145712635,
+            -0.004641318163206344,
+            -0.0016151317488598534,
+            -0.0006104298958489189,
+            -0.0014603916561027066,
+            -0.0014517444340814505,
+            0.0002449334223734839
+          ],
+          "reason": "energy_stagnation",
+          "optimizer_success": true,
+          "cnots": 86,
+          "gate_count": 209,
+          "unitary_depth": 83,
+          "target_counts": [
+            0,
+            8,
+            16,
+            10,
+            6,
+            10,
+            20,
+            16
+          ],
+          "cnot_order": [
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "energy": -7.846228044498284,
+          "ed_energy": -7.846228101044929,
+          "delta_e": 7.068330587500782e-09,
+          "epsilon_c": 2.0436893266584377e-07,
+          "epsilon_sf": 1.1036191049917932e-07,
+          "epsilon_mx": 4.55769378057691e-07,
+          "fidelity": 0.9999999885794864,
+          "observable_pass": true,
+          "state_pass": true,
+          "joint_pass": true,
+          "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+          "parity": 0.9999999999999987,
+          "w_plus": 0.9999999999999993,
+          "T_real": 0.9999999913488145,
+          "T_imag": 0.0,
+          "eta_T": 8.651185545716089e-09,
+          "w0": 0.999999992361202,
+          "w_plus_0": 0.999999992361202,
+          "variance": 3.2062285271194924e-07,
+          "n": 8,
+          "kappa": 0.025,
+          "h": 0.15,
+          "ref": "plus",
+          "seed": 11,
+          "uid": "5e7c7f9a68047f0a69f389056a3e84bc0f4ae0ebcedaab97f9de9316a611b74e",
+          "source": "results/stage4_upgrade_v1/adaptive/cache/2a1f28a0217c731c5026844e6bb0ff97d3cf3f64ebe911d504401589d2eb718a.json",
+          "source_sha": "3ab1799d24485fd6310b223843e3078808581c3813a35b1b6e54fdbbbee0d718",
+          "checkpoint": 3,
+          "source_stop": "energy_stagnation",
+          "source_budget": 128,
+          "disposition": "historical_reused"
+        },
+        "selection_unresolved": false,
+        "rule": "S2",
+        "energy_tolerance_total": 8e-08,
+        "state_access_assisted": true
+      }
+    }
+  ],
+  "oracle": {
+    "words": [
+      "IIIZIYII",
+      "IIIIIIYZ",
+      "ZIIIIIIY",
+      "IIZYIIII",
+      "IZYIIIII",
+      "YZIIIIII",
+      "IIIIYZII",
+      "IYZIIIII",
+      "IIIZXYII",
+      "IYXZIIII"
+    ],
+    "params": [
+      0.03832576513092364,
+      0.03849984922925714,
+      0.038499577491490425,
+      0.03849508509328607,
+      0.038670319918367904,
+      0.038499844128783246,
+      0.038670323559392025,
+      0.038325774747159334,
+      0.00449270382171035,
+      0.004492703078457508
+    ],
+    "reason": "budget_checkpoint_32",
+    "optimizer_success": true,
+    "cnots": 31,
+    "gate_count": 66,
+    "unitary_depth": 34,
+    "target_counts": [
+      0,
+      3,
+      7,
+      5,
+      3,
+      7,
+      1,
+      5
+    ],
+    "cnot_order": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "energy": -7.846170997859934,
+    "ed_energy": -7.846228101044929,
+    "delta_e": 7.137898124343067e-06,
+    "epsilon_c": 4.477074915720802e-05,
+    "epsilon_sf": 3.370847735317817e-05,
+    "epsilon_mx": 0.00019344823339842443,
+    "fidelity": 0.9999846104238868,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz",
+    "parity": 1.0,
+    "w_plus": 1.0,
+    "T_real": 0.9999952082324272,
+    "T_imag": 0.0,
+    "eta_T": 4.791767572842609e-06,
+    "w0": 0.9999964048377638,
+    "w_plus_0": 0.9999964048377638,
+    "variance": 0.00021431784902858908,
+    "n": 8,
+    "kappa": 0.025,
+    "h": 0.15,
+    "ref": "ghz",
+    "seed": 11,
+    "uid": "28d1bdef3e206d0a6030e65d10d3320173d2845e8d387e9c32cb91772323c6ea",
+    "source": "results/stage4_upgrade_v1/adaptive/cache/6d5db2fc7222239181d9bbae43b35a552a668256f1d02478c1bec4981c0ccb6b.json",
+    "source_sha": "2bc60c8858591bc7a3693749a7b052141f80a30bd0c848128f20002a641fa599",
+    "checkpoint": 2,
+    "source_stop": "energy_stagnation",
+    "source_budget": 128,
+    "disposition": "historical_reused"
+  },
+  "historical_selected": {
+    "key": {
+      "n": 8,
+      "k": 0.025,
+      "h": 0.15,
+      "ref": "ghz",
+      "seed": 11,
+      "budget": 128,
+      "rule": "cost",
+      "extended": true,
+      "fixed": false,
+      "fp": {
+        "annni/upgrade_gates.py": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "annni/upgrade_adapt.py": "ea8a80ef94e45ba6eb945597b4aff57bbb7ef0b46e38da879e33ca8dbcce7fe0",
+        "configs/stage4_upgrade_v1.json": "6cf834f32f76a8131e5b811cf13c8c7b211baed2cc782b2264a96227ce878ff6",
+        "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef"
+      }
+    },
+    "n": 8,
+    "kappa": 0.025,
+    "h": 0.15,
+    "ref": "ghz",
+    "seed": 11,
+    "group_first": "heldout",
+    "method": "cost",
+    "selected": {
+      "words": [
+        "IIIZIYII",
+        "IIIIIIYZ",
+        "ZIIIIIIY",
+        "IIZYIIII",
+        "IZYIIIII",
+        "YZIIIIII",
+        "IIIIYZII",
+        "IYZIIIII",
+        "IIIZXYII",
+        "IYXZIIII"
+      ],
+      "params": [
+        0.03832576513092364,
+        0.03849984922925714,
+        0.038499577491490425,
+        0.03849508509328607,
+        0.038670319918367904,
+        0.038499844128783246,
+        0.038670323559392025,
+        0.038325774747159334,
+        0.00449270382171035,
+        0.004492703078457508
+      ],
+      "reason": "budget_checkpoint_32",
+      "optimizer_success": true,
+      "cnots": 31,
+      "gate_count": 66,
+      "unitary_depth": 34,
+      "target_counts": [
+        0,
+        3,
+        7,
+        5,
+        3,
+        7,
+        1,
+        5
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "energy": -7.846170997859934,
+      "ed_energy": -7.846228101044929,
+      "delta_e": 7.137898124343067e-06,
+      "epsilon_c": 4.477074915720802e-05,
+      "epsilon_sf": 3.370847735317817e-05,
+      "epsilon_mx": 0.00019344823339842443,
+      "fidelity": 0.9999846104238868,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage4_upgrade_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz"
+    },
+    "checkpoints": [
+      {
+        "words": [],
+        "params": [],
+        "reason": "reference",
+        "optimizer_success": true,
+        "cnots": 7,
+        "gate_count": 8,
+        "unitary_depth": 8,
+        "target_counts": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "cnot_order": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "energy": -7.799999999999999,
+        "ed_energy": -7.846228101044929,
+        "delta_e": 0.005778512630616239,
+        "epsilon_c": 0.00597531026189857,
+        "epsilon_sf": 0.005221197992612003,
+        "epsilon_mx": 0.07717158242742642,
+        "fidelity": 0.988150486448446,
+        "observable_pass": false,
+        "state_pass": false,
+        "joint_pass": false,
+        "ed_source": "results/stage4_upgrade_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz"
+      },
+      {
+        "words": [
+          "IIIZIYII",
+          "IIIIIIYZ",
+          "ZIIIIIIY",
+          "IIZYIIII"
+        ],
+        "params": [
+          0.03844123873656959,
+          0.038502144375486866,
+          0.03844268636409849,
+          0.03838449700809773
+        ],
+        "reason": "budget_checkpoint_16",
+        "optimizer_success": true,
+        "cnots": 15,
+        "gate_count": 28,
+        "unitary_depth": 17,
+        "target_counts": [
+          0,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          5
+        ],
+        "cnot_order": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "energy": -7.823059881424607,
+        "ed_energy": -7.846228101044929,
+        "delta_e": 0.0028960274525402507,
+        "epsilon_c": 0.0030232643985387275,
+        "epsilon_sf": 0.002637890895594963,
+        "epsilon_mx": 0.038766804377337157,
+        "fidelity": 0.9940385062337324,
+        "observable_pass": false,
+        "state_pass": true,
+        "joint_pass": false,
+        "ed_source": "results/stage4_upgrade_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz"
+      },
+      {
+        "words": [
+          "IIIZIYII",
+          "IIIIIIYZ",
+          "ZIIIIIIY",
+          "IIZYIIII",
+          "IZYIIIII",
+          "YZIIIIII",
+          "IIIIYZII",
+          "IYZIIIII",
+          "IIIZXYII",
+          "IYXZIIII"
+        ],
+        "params": [
+          0.03832576513092364,
+          0.03849984922925714,
+          0.038499577491490425,
+          0.03849508509328607,
+          0.038670319918367904,
+          0.038499844128783246,
+          0.038670323559392025,
+          0.038325774747159334,
+          0.00449270382171035,
+          0.004492703078457508
+        ],
+        "reason": "budget_checkpoint_32",
+        "optimizer_success": true,
+        "cnots": 31,
+        "gate_count": 66,
+        "unitary_depth": 34,
+        "target_counts": [
+          0,
+          3,
+          7,
+          5,
+          3,
+          7,
+          1,
+          5
+        ],
+        "cnot_order": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "energy": -7.846170997859934,
+        "ed_energy": -7.846228101044929,
+        "delta_e": 7.137898124343067e-06,
+        "epsilon_c": 4.477074915720802e-05,
+        "epsilon_sf": 3.370847735317817e-05,
+        "epsilon_mx": 0.00019344823339842443,
+        "fidelity": 0.9999846104238868,
+        "observable_pass": true,
+        "state_pass": true,
+        "joint_pass": true,
+        "ed_source": "results/stage4_upgrade_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz"
+      },
+      {
+        "words": [
+          "IIIZIYII",
+          "IIIIIIYZ",
+          "ZIIIIIIY",
+          "IIZYIIII",
+          "IZYIIIII",
+          "YZIIIIII",
+          "IIIIYZII",
+          "IYZIIIII",
+          "IIIZXYII",
+          "IYXZIIII",
+          "IIIIIYXZ",
+          "XYIIIIIZ",
+          "YIIIIIZX",
+          "IIZXYIII",
+          "IIIIIZXY",
+          "IIYXZIII",
+          "IIIIYXZI",
+          "ZXYIIIII"
+        ],
+        "params": [
+          0.038441995804292396,
+          0.03861762619433751,
+          0.03850138080090553,
+          0.03861711846891815,
+          0.038441324570703095,
+          0.03850138413419133,
+          0.03844067127121238,
+          0.03844187153710488,
+          0.002240169365241441,
+          0.002248675152403859,
+          0.0015230407271890187,
+          0.0015367604396007194,
+          0.0015387373352536932,
+          0.0015232598923473194,
+          0.0015251608228190512,
+          0.0015232482910543278,
+          0.002257225515488046,
+          0.0022487935276237713
+        ],
+        "reason": "budget_checkpoint_64",
+        "optimizer_success": true,
+        "cnots": 63,
+        "gate_count": 138,
+        "unitary_depth": 60,
+        "target_counts": [
+          0,
+          7,
+          9,
+          9,
+          7,
+          9,
+          9,
+          13
+        ],
+        "cnot_order": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "energy": -7.8462252993605395,
+        "ed_energy": -7.846228101044929,
+        "delta_e": 3.5021054867190315e-07,
+        "epsilon_c": 3.1638651160070808e-06,
+        "epsilon_sf": 2.3636886381517286e-06,
+        "epsilon_mx": 1.4054758128878575e-05,
+        "fidelity": 0.9999992308588506,
+        "observable_pass": true,
+        "state_pass": true,
+        "joint_pass": true,
+        "ed_source": "results/stage4_upgrade_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz"
+      },
+      {
+        "words": [
+          "IIIZIYII",
+          "IIIIIIYZ",
+          "ZIIIIIIY",
+          "IIZYIIII",
+          "IZYIIIII",
+          "YZIIIIII",
+          "IIIIYZII",
+          "IYZIIIII",
+          "IIIZXYII",
+          "IYXZIIII",
+          "IIIIIYXZ",
+          "XYIIIIIZ",
+          "YIIIIIZX",
+          "IIZXYIII",
+          "IIIIIZXY",
+          "IIYXZIII",
+          "IIIIYXZI",
+          "ZXYIIIII",
+          "ZIIIIIYX",
+          "IIIIYIZI"
+        ],
+        "params": [
+          0.038439517208927514,
+          0.038558734454909545,
+          0.03856040485153939,
+          0.0386171056857421,
+          0.038441099626292476,
+          0.03850115698928822,
+          0.038190733225308304,
+          0.038442082019516134,
+          0.0022719860071385854,
+          0.0022459423919730915,
+          0.001529828050684398,
+          0.0015366950517629824,
+          0.001531838289130744,
+          0.0015232372320043814,
+          0.0007574150597453057,
+          0.0015234921545515827,
+          0.002205844677312332,
+          0.0022516316336617407,
+          0.0007728484776652675,
+          0.0002538680908678592
+        ],
+        "reason": "energy_stagnation",
+        "optimizer_success": true,
+        "cnots": 69,
+        "gate_count": 152,
+        "unitary_depth": 69,
+        "target_counts": [
+          0,
+          7,
+          9,
+          9,
+          7,
+          9,
+          13,
+          15
+        ],
+        "cnot_order": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "energy": -7.846225328942452,
+        "ed_energy": -7.846228101044929,
+        "delta_e": 3.4651280955699804e-07,
+        "epsilon_c": 3.1365093691171353e-06,
+        "epsilon_sf": 2.3337917534060892e-06,
+        "epsilon_mx": 1.3913372481522135e-05,
+        "fidelity": 0.9999992386230959,
+        "observable_pass": true,
+        "state_pass": true,
+        "joint_pass": true,
+        "ed_source": "results/stage4_upgrade_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "word": "IIIZIYII",
+        "pool_gradient": [
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected_gradient": -0.29999999999999993,
+        "initial": [
+          -0.0018165159692253696
+        ],
+        "params": [
+          0.03838594536260033
+        ],
+        "energy": -7.805760721560793,
+        "cnots": 9,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 3,
+        "nfev": 5
+      },
+      {
+        "step": 2,
+        "word": "IIIIIIYZ",
+        "pool_gradient": [
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.2991163456630046,
+          -2.1301260061978682e-09,
+          -2.1301260061978682e-09,
+          -0.2991163456630046,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.2991163456630046,
+          -2.1301260061978682e-09,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -2.1301260061978682e-09,
+          -0.2991163456630046,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          -0.29999999999999993,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -3.0127341717954865e-19,
+          -0.023008949502529113,
+          -0.023008949502529113,
+          -3.0127341717954865e-19,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected_gradient": -0.29999999999999993,
+        "initial": [
+          0.03838594536260033,
+          0.006364310235685185
+        ],
+        "params": [
+          0.03844396431331683,
+          0.038443961232928835
+        ],
+        "energy": -7.811530145390597,
+        "cnots": 11,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 3,
+        "nfev": 5
+      },
+      {
+        "step": 3,
+        "word": "ZIIIIIIY",
+        "pool_gradient": [
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.2991136737390261,
+          1.1583571634033634e-08,
+          0.0009064126734428764,
+          0.0009063886828195589,
+          -1.2550838646152584e-08,
+          -0.2991136738809929,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.2991136737390261,
+          1.1583571634033634e-08,
+          -0.2991136738809929,
+          -1.2550838646152584e-08,
+          1.1583571634033634e-08,
+          -0.2991136737390261,
+          -1.2550838646152584e-08,
+          -0.2991136738809929,
+          -0.3,
+          -0.3,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.1123942456031193e-18,
+          -0.022975577526837813,
+          -0.011765363462720595,
+          -0.011765361614487803,
+          -0.022975575678605017,
+          -8.673617379884035e-19,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected_gradient": -0.3,
+        "initial": [
+          0.03844396431331683,
+          0.038443961232928835,
+          0.005702180339846648
+        ],
+        "params": [
+          0.03844268623640301,
+          0.03850214756981041,
+          0.03844268624853721
+        ],
+        "energy": -7.817299377390203,
+        "cnots": 13,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 4,
+        "nfev": 6
+      },
+      {
+        "step": 4,
+        "word": "IIZYIIII",
+        "pool_gradient": [
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.2991137326411839,
+          -3.759987214158392e-10,
+          0.0009091109734909466,
+          0.0009077099392409971,
+          0.0009077099398129285,
+          0.0009091110682758474,
+          -2.8121932560409846e-10,
+          -0.29911373264062474,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.3,
+          -0.2991137326411839,
+          -3.759987214158392e-10,
+          -0.2991109902037093,
+          -1.8051538042129778e-10,
+          -2.2658151147428394e-05,
+          -2.265805664097842e-05,
+          -1.8051538042129778e-10,
+          -0.2991109902037093,
+          -2.8121932560409846e-10,
+          -0.29911373264062474,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -9.266194905543831e-19,
+          -0.022974609072792793,
+          -0.01178274599320166,
+          -0.011749572441786885,
+          -0.011749572438239445,
+          -0.011782745996891449,
+          -0.022974609080030288,
+          8.673617379884035e-19,
+          0.0
+        ],
+        "selected_gradient": -0.3,
+        "initial": [
+          0.03844268623640301,
+          0.03850214756981041,
+          0.03844268624853721,
+          -0.009531553708663513
+        ],
+        "params": [
+          0.03844123873656959,
+          0.038502144375486866,
+          0.03844268636409849,
+          0.03838449700809773
+        ],
+        "energy": -7.823059881424607,
+        "cnots": 15,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 3,
+        "nfev": 5
+      },
+      {
+        "step": 5,
+        "word": "IZYIIIII",
+        "pool_gradient": [
+          -0.29999999999999993,
+          -0.2999999999999999,
+          -0.2999999999999999,
+          -0.2999999999999999,
+          -0.2991164123119808,
+          -5.0149730300889e-09,
+          -5.0149730300889e-09,
+          -0.2991164123119808,
+          -0.2991137993490997,
+          3.444953283548253e-09,
+          0.0009090804688689084,
+          0.0009076509104938846,
+          0.0009077191373217941,
+          0.00090911104432434,
+          -1.5698004007802524e-10,
+          -0.2991137326352989,
+          -0.29999999999999993,
+          -0.2999999999999999,
+          -0.2991164123119808,
+          -5.0149730300889e-09,
+          -0.2999999999999999,
+          -0.2999999999999999,
+          -2.2626847325389187e-05,
+          -2.2585086736888737e-05,
+          -0.2991109903511493,
+          9.114164534196334e-09,
+          -2.2653490157477948e-05,
+          -2.2656229944739703e-05,
+          9.114164534196334e-09,
+          -0.29911099035114935,
+          -1.5698004007802524e-10,
+          -0.29911373263529883,
+          0.0,
+          0.0,
+          0.0,
+          -1.413940736392033e-18,
+          -0.023008083049420487,
+          -0.023008083049420487,
+          -1.1132324595881807e-18,
+          3.3791964599486315e-19,
+          -0.022973745715944398,
+          -0.011782304144846292,
+          -0.011749129641559261,
+          -0.011749573985861246,
+          -0.01178274434249009,
+          -0.02297460916028218,
+          0.0,
+          0.0
+        ],
+        "selected_gradient": -0.2999999999999999,
+        "initial": [
+          0.03844123873656959,
+          0.038502144375486866,
+          0.03844268636409849,
+          0.03838449700809773,
+          -0.0024073654865940644
+        ],
+        "params": [
+          0.03844123475642003,
+          0.038502143205577204,
+          0.03844268638069049,
+          0.038442514171380344,
+          0.03844395510113117
+        ],
+        "energy": -7.828829304596727,
+        "cnots": 17,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 3,
+        "nfev": 5
+      },
+      {
+        "step": 6,
+        "word": "YZIIIIII",
+        "pool_gradient": [
+          -0.29999999999999993,
+          -0.3,
+          -0.2991136741635909,
+          -2.6224551367742746e-08,
+          0.0009063066607188689,
+          0.000906395659270081,
+          2.903240259039004e-08,
+          -0.29911374057091816,
+          -0.29911379953252115,
+          6.5817224183771506e-09,
+          0.0009090834472672288,
+          0.0009076416910552276,
+          0.000907710106246129,
+          0.0009091111440301392,
+          -2.0681234502717416e-12,
+          -0.29911373263453434,
+          -0.2991136741635909,
+          -2.6224551367742746e-08,
+          -0.29911374057091816,
+          2.903240259039004e-08,
+          -2.6224551367742746e-08,
+          -0.2991136741635909,
+          -2.2627020824384005e-05,
+          -2.265015774416076e-05,
+          -0.2991109904051489,
+          8.315415023218975e-11,
+          -2.2650360333381956e-05,
+          -2.2656070818083407e-05,
+          8.315415023218975e-11,
+          -0.2991109904051489,
+          -2.0681234502717416e-12,
+          -0.29911373263453434,
+          -4.863452820396253e-24,
+          3.1712682132745443e-18,
+          -0.022975577154736415,
+          -0.01176491548699158,
+          -0.011764922343295747,
+          -0.022974712596885927,
+          9.477810051418398e-20,
+          1.6009845450632078e-18,
+          -0.022973743346112477,
+          -0.011782303270891897,
+          -0.0117491278326704,
+          -0.011749573631693572,
+          -0.011782744683886629,
+          -0.022974609174326234,
+          1.734723475976807e-18,
+          2.1596113919746764e-23
+        ],
+        "selected_gradient": -0.29999999999999993,
+        "initial": [
+          0.03844123475642003,
+          0.038502143205577204,
+          0.03844268638069049,
+          0.038442514171380344,
+          0.03844395510113117,
+          0.002752773574323628
+        ],
+        "params": [
+          0.03844122556646075,
+          0.0385008627358981,
+          0.03850086280444588,
+          0.03844250607844607,
+          0.0384425060779277,
+          0.03844122559874232
+        ],
+        "energy": -7.834598317171215,
+        "cnots": 19,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 4,
+        "nfev": 6
+      },
+      {
+        "step": 7,
+        "word": "IIIIYZII",
+        "pool_gradient": [
+          -3.5304335342200947e-10,
+          -0.2991137999545441,
+          -0.29911374094390974,
+          1.9800060420099462e-13,
+          0.0009062983331526762,
+          0.0009062983371709032,
+          4.240385176835598e-12,
+          -0.2991137409438859,
+          -0.2991137999560318,
+          -6.035603941547535e-10,
+          0.0009090157204250469,
+          0.0009076102634555938,
+          0.0009104229885045778,
+          0.0009104235207954559,
+          0.0009076108005033334,
+          0.0009090159741919244,
+          -2.2657057115247736e-05,
+          -2.2655951734165848e-05,
+          -0.2991137409438859,
+          4.240385176835598e-12,
+          1.9800060420099462e-13,
+          -0.29911374094390974,
+          -2.265594766594914e-05,
+          -2.2657306873862567e-05,
+          -0.2991110495067104,
+          -7.880728292164463e-10,
+          -2.2726009907582417e-05,
+          -2.2690528101498852e-05,
+          -2.269106201285842e-05,
+          -2.27257600713096e-05,
+          -2.525772924144576e-10,
+          -0.2991110495035466,
+          1.5710647594548033e-18,
+          1.6364654226391254e-22,
+          -0.022974712898811405,
+          -0.01176447530427044,
+          -0.011764475304579993,
+          -0.02297471289912243,
+          2.5087466748408423e-19,
+          1.471720087662178e-18,
+          -0.022973742404114685,
+          -0.011781909472913535,
+          -0.011748637827334079,
+          -0.01176693125626616,
+          -0.011766931297157779,
+          -0.01174863783883662,
+          -0.011781909462535121,
+          -0.02297374242312618
+        ],
+        "selected_gradient": -0.2991137999560318,
+        "initial": [
+          0.03844122556646075,
+          0.0385008627358981,
+          0.03850086280444588,
+          0.03844250607844607,
+          0.0384425060779277,
+          0.03844122559874232,
+          -0.006444313694266013
+        ],
+        "params": [
+          0.038163274453471896,
+          0.038498588448575635,
+          0.03850087707105081,
+          0.03849986358493308,
+          0.03844124764501627,
+          0.03844122596088352,
+          0.03816328290328104
+        ],
+        "energy": -7.840308601054195,
+        "cnots": 21,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 4,
+        "nfev": 6
+      },
+      {
+        "step": 8,
+        "word": "IYZIIIII",
+        "pool_gradient": [
+          5.266608050819195e-11,
+          -0.29911379993785514,
+          -0.2991137989385625,
+          -3.855265773321955e-09,
+          0.0009089659128025058,
+          0.0009075859595356813,
+          0.0008945334590010857,
+          -0.001684314910773324,
+          -1.5871982183689615e-09,
+          -1.6918281238302059e-09,
+          -0.0016843757780062676,
+          0.000894508676506589,
+          0.0009103733328014174,
+          0.0009103179756869695,
+          0.0009076126150824315,
+          0.0009090170595911408,
+          -2.265517241051095e-05,
+          -2.265905604391855e-05,
+          -0.29911109562231797,
+          -2.6307184611427533e-09,
+          -2.2333265035911703e-05,
+          -0.002606547097433784,
+          -2.2366015226927096e-05,
+          -0.002606592721623813,
+          -0.002606591072912108,
+          -2.2360104095786593e-05,
+          -0.0026065934994888777,
+          -2.2362769626971257e-05,
+          -2.2686380382663796e-05,
+          -2.272267633612532e-05,
+          1.213613209927189e-09,
+          -0.29911104884506556,
+          -3.1007128573968744e-18,
+          -3.351677401658827e-18,
+          -0.02297375911496959,
+          -0.011781611175317164,
+          -0.01174892108956788,
+          -0.01182848023824171,
+          -0.011697084756355872,
+          -0.033858834170702026,
+          -0.033858836218442045,
+          -0.011696695142571465,
+          -0.011827985613997356,
+          -0.011766722792627367,
+          -0.011766241653694002,
+          -0.01174864615344345,
+          -0.01178191381722708,
+          -0.02297374258855134
+        ],
+        "selected_gradient": -0.2991137989385625,
+        "initial": [
+          0.038163274453471896,
+          0.038498588448575635,
+          0.03850087707105081,
+          0.03849986358493308,
+          0.03844124764501627,
+          0.03844122596088352,
+          0.03816328290328104,
+          -0.0063976582940575115
+        ],
+        "params": [
+          0.03816327476530486,
+          0.03849857984079054,
+          0.03849961457197587,
+          0.038497589651234614,
+          0.038163296765827096,
+          0.03849857960690649,
+          0.03816329711464422,
+          0.038163274586941805
+        ],
+        "energy": -7.846018883672745,
+        "cnots": 23,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 4,
+        "nfev": 6
+      },
+      {
+        "step": 9,
+        "word": "IIIZXYII",
+        "pool_gradient": [
+          0.0008945033226269366,
+          -0.0016843773150490952,
+          -1.5691691285012343e-09,
+          -1.6717085854507791e-09,
+          -0.001684421966972648,
+          0.0008944865539553872,
+          0.0008944865702751042,
+          -0.0016844192497773467,
+          1.0770600122549616e-09,
+          -1.5156342890801366e-10,
+          -0.0016843759257583143,
+          0.0008945051513196134,
+          0.0009103102039580979,
+          0.0009102823235474511,
+          0.0009102823125097803,
+          0.0009103083836076351,
+          -2.2365270281098114e-05,
+          -0.002606591474725301,
+          -0.0026065920987548385,
+          -2.235952083617167e-05,
+          -0.002606396328191151,
+          -0.0026063936189750347,
+          -2.2359521044744508e-05,
+          -0.002606590724719737,
+          -0.002606588766097006,
+          -2.2363455900398233e-05,
+          -0.0026065922788048243,
+          -2.2367492686525825e-05,
+          -2.2757334898426684e-05,
+          -2.2759149867465108e-05,
+          -2.236749247747083e-05,
+          -0.0026065936528392765,
+          -0.011696692896419461,
+          -0.03385884021560797,
+          -0.03385884195223542,
+          -0.011696399072032616,
+          -0.011829054974770534,
+          -0.011829054872756194,
+          -0.01169639917810741,
+          -0.03385884231265101,
+          -0.033858840473553926,
+          -0.011696692882782713,
+          -0.011827985230902905,
+          -0.011766335516806921,
+          -0.011765757679552255,
+          -0.011765757747414219,
+          -0.011766335446195635,
+          -0.01182798521168299
+        ],
+        "selected_gradient": -0.03385884231265101,
+        "initial": [
+          0.03816327476530486,
+          0.03849857984079054,
+          0.03849961457197587,
+          0.038497589651234614,
+          0.038163296765827096,
+          0.03849857960690649,
+          0.03816329711464422,
+          0.038163274586941805,
+          0.005366897023868844
+        ],
+        "params": [
+          0.038325764453037064,
+          0.038499829995081704,
+          0.038499586865281626,
+          0.038496332486627545,
+          0.038163261771713405,
+          0.038498579767113975,
+          0.038670336924147314,
+          0.03816327517820215,
+          0.004492549453144241
+        ],
+        "energy": -7.846094938098998,
+        "cnots": 27,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 4,
+        "nfev": 6
+      },
+      {
+        "step": 10,
+        "word": "IYXZIIII",
+        "pool_gradient": [
+          0.0008945059571304995,
+          -0.0016843726744374583,
+          -6.654184542175738e-11,
+          1.4391288421087609e-09,
+          -0.001684571409723436,
+          0.0008666872937794601,
+          0.0008867501050538675,
+          0.0008853478350024615,
+          -1.6252198774704575e-08,
+          8.003318612426045e-06,
+          0.0008934250477789061,
+          0.0009143846543268608,
+          0.0009103284245129406,
+          0.0009103452636162745,
+          0.0009102862571133685,
+          0.0009103096827391486,
+          -2.2362626316868432e-05,
+          -0.0026065876459993257,
+          -0.002606679797546952,
+          -5.0138714558566356e-05,
+          -0.002606717163210083,
+          -4.0423732100001304e-05,
+          -2.2177154122090478e-05,
+          -1.68900002664267e-05,
+          -4.0757468532383534e-05,
+          -1.8656798190019863e-05,
+          -4.105553083453482e-05,
+          -2.286202990625652e-05,
+          -2.2768046204324488e-05,
+          -2.275802200702622e-05,
+          -2.236288602469605e-05,
+          -0.002606589017696874,
+          -0.011696692925729404,
+          -0.033858830567819256,
+          -0.033860038388043655,
+          -0.011698262221846313,
+          -0.011827179810264151,
+          -0.011682127144066416,
+          -0.011443063418538813,
+          -7.679565194923705e-10,
+          -0.00020325415157767453,
+          -0.011748658387070638,
+          -0.011784900871051973,
+          -0.01176597626365445,
+          -0.011766131356868138,
+          -0.011765747039895217,
+          -0.011766326689572278,
+          -0.011827985195717159
+        ],
+        "selected_gradient": -0.033860038388043655,
+        "initial": [
+          0.038325764453037064,
+          0.038499829995081704,
+          0.038499586865281626,
+          0.038496332486627545,
+          0.038163261771713405,
+          0.038498579767113975,
+          0.038670336924147314,
+          0.03816327517820215,
+          0.004492549453144241,
+          -0.008811529902217934
+        ],
+        "params": [
+          0.03832576513092364,
+          0.03849984922925714,
+          0.038499577491490425,
+          0.03849508509328607,
+          0.038670319918367904,
+          0.038499844128783246,
+          0.038670323559392025,
+          0.038325774747159334,
+          0.00449270382171035,
+          0.004492703078457508
+        ],
+        "energy": -7.846170997859934,
+        "cnots": 31,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 4,
+        "nfev": 6
+      },
+      {
+        "step": 11,
+        "word": "IIIIIYXZ",
+        "pool_gradient": [
+          0.0009144965168671998,
+          0.0008935504121577381,
+          8.036270545808222e-06,
+          -7.587467995282404e-09,
+          0.0008852945625408468,
+          0.0008590995872182607,
+          0.0008590997636962406,
+          0.0008853233023698317,
+          1.9989855877061072e-08,
+          7.960867324839144e-06,
+          0.0008934757798834981,
+          0.000914536078021666,
+          0.0009104785396993331,
+          0.0009104923553459598,
+          0.0009104921146169676,
+          0.0009104385307321999,
+          -1.854601221030591e-05,
+          -4.065793863914414e-05,
+          -1.6858922299090958e-05,
+          -4.980933051847914e-05,
+          -4.082332704369113e-05,
+          -4.0794673102749335e-05,
+          -4.9809311109201684e-05,
+          -1.6933559173505766e-05,
+          -4.0629294746265176e-05,
+          -1.8506127016537643e-05,
+          -4.1005999781486947e-05,
+          -2.2717480421208247e-05,
+          -2.2619445698146556e-05,
+          -2.265933730965784e-05,
+          -2.2717491614088203e-05,
+          -4.0931356669226114e-05,
+          -0.011748657414212042,
+          -0.00020206545277297148,
+          -2.4030450490833546e-08,
+          -0.011444943960271431,
+          -0.011680263692162143,
+          -0.011680262628315289,
+          -0.011444945049907342,
+          -1.880891317743749e-08,
+          -0.0002020523219369818,
+          -0.0117486529804912,
+          -0.011784906738001772,
+          -0.011765991825769569,
+          -0.011766120654552561,
+          -0.011766122158411746,
+          -0.011765990262994897,
+          -0.01178490235039195
+        ],
+        "selected_gradient": -0.011784906738001772,
+        "initial": [
+          0.03832576513092364,
+          0.03849984922925714,
+          0.038499577491490425,
+          0.03849508509328607,
+          0.038670319918367904,
+          0.038499844128783246,
+          0.038670323559392025,
+          0.038325774747159334,
+          0.00449270382171035,
+          0.004492703078457508,
+          -0.00296651041091887
+        ],
+        "params": [
+          0.038267770836925175,
+          0.038560382144357905,
+          0.03849932395074575,
+          0.03849508001732233,
+          0.03867032116598348,
+          0.038499841333076275,
+          0.038670516230989556,
+          0.03832576451554994,
+          0.004490719904416689,
+          0.004492706194117989,
+          0.0015456947022339839
+        ],
+        "energy": -7.846180105743295,
+        "cnots": 35,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nit": 4,
+        "nfev": 6
+      },
+      {
+        "step": 12,
+        "word": "XYIIIIIZ",
+        "pool_gradient": [
+          0.0009145344704016646,
+          0.0008934713147994156,
+          7.95513127603446e-06,
+          -4.3128654948471425e-10,
+          0.0008853040918307237,
+          0.0008591144233430183,
+          0.0008591445861252925,
+          0.0008859038480682791,
+          3.3496853021422953e-06,
+          8.213788015626213e-06,
+          -7.203151772452057e-06,
+          1.0763724468398905e-05,
+          0.0009091327388811576,
+          0.0009106182811870478,
+          0.0009063336676085609,
+          0.0009104649825870237,
+          -1.8507515473788156e-05,
+          -4.064809430321582e-05,
+          -1.6937732619962198e-05,
+          -4.979448876430725e-05,
+          -4.0814383298629855e-05,
+          -4.0217762769279384e-05,
+          -4.988588936962034e-05,
+          -1.670491694750866e-05,
+          -3.1688477599783315e-05,
+          -1.4269086890783544e-05,
+          -3.2435992242508085e-05,
+          -1.4379373140360752e-05,
+          -2.260337289583525e-05,
+          -2.2728872875354858e-05,
+          -2.689790424714733e-05,
+          -4.104253817602295e-05,
+          -0.011748650497124542,
+          -0.00020203310190144508,
+          2.75596361349879e-10,
+          -0.011444942527357995,
+          -0.011680260830176457,
+          -0.011680265139123389,
+          -0.011444809573762984,
+          2.270866146247705e-07,
+          -0.00016622648275759508,
+          -3.3697631881171586e-05,
+          5.168630049998124e-09,
+          -0.011643659174440026,
+          -0.01174909565940798,
+          -0.011765936992036336,
+          -0.011766595386238157,
+          -0.011785325357063343
+        ],
+        "selected_gradient": -0.011785325357063343,
+        "initial": [
+          0.038267770836925175,
+          0.038560382144357905,
+          0.03849932395074575,
+          0.03849508001732233,
+          0.03867032116598348,
+          0.038499841333076275,
+          0.038670516230989556,
+          0.03832576451554994,
+          0.004490719904416689,
+          0.004492706194117989,
+          0.0015456947022339839,
+          0.004451328487001141
+        ],
+        "params": [
+          0.03826773491322587,
+          0.03856038302383425,
+          0.038499062263083084,
+          0.03849507498653687,
+          0.038670393373410786,
+          0.03856037915860682,
+          0.0386704439331511,
+          0.038267719427399684,
+          0.004490680603635687,
+          0.004490657700720566,
+          0.0015457502532116418,
+          0.001545749298741746
+        ],
+        "energy": -7.846189214272362,
+        "cnots": 39,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nit": 4,
+        "nfev": 6
+      },
+      {
+        "step": 13,
+        "word": "YIIIIIZX",
+        "pool_gradient": [
+          1.0751156657431282e-05,
+          -7.64014374037559e-06,
+          7.83174056457586e-06,
+          2.439834681477379e-06,
+          0.0008849674688344727,
+          0.0008591586893979036,
+          0.0008591611008786416,
+          0.0008853539095902283,
+          2.816667023552406e-06,
+          7.952091638606227e-06,
+          -7.512134055738984e-06,
+          1.0780706325375089e-05,
+          0.0009091718802139437,
+          0.000906404808124428,
+          0.0009064046236506029,
+          0.0009091426353098256,
+          -1.4246727893479661e-05,
+          -3.2621475678331385e-05,
+          -1.7108952764099054e-05,
+          -4.9866659639483274e-05,
+          -4.115177440881316e-05,
+          -4.076645111267814e-05,
+          -4.9866452080523224e-05,
+          -1.6980836093777454e-05,
+          -3.2236154825331586e-05,
+          -1.4217509566760711e-05,
+          -3.274385466076479e-05,
+          -1.8614575217568152e-05,
+          -2.266007231760403e-05,
+          -2.268923092811406e-05,
+          -1.8614566066277316e-05,
+          -3.2871822228771916e-05,
+          -3.3263059221004866e-05,
+          -0.00016661471252056278,
+          -1.2589524113335293e-07,
+          -0.01144477901610281,
+          -0.011680298889110116,
+          -0.011680284122998302,
+          -0.011444792215064904,
+          -1.876461887416925e-10,
+          -0.00016647025230719954,
+          -3.3259523804562985e-05,
+          -9.501703590597543e-11,
+          -0.011644264005851782,
+          -0.011748907194480913,
+          -0.011748908289472379,
+          -0.011644262983835148,
+          -1.0722265215265314e-08
+        ],
+        "selected_gradient": -0.011748908289472379,
+        "initial": [
+          0.03826773491322587,
+          0.03856038302383425,
+          0.038499062263083084,
+          0.03849507498653687,
+          0.038670393373410786,
+          0.03856037915860682,
+          0.0386704439331511,
+          0.038267719427399684,
+          0.004490680603635687,
+          0.004490657700720566,
+          0.0015457502532116418,
+          0.001545749298741746,
+          0.0012832444001221344
+        ],
+        "params": [
+          0.03826772936757485,
+          0.03856012998607843,
+          0.03855919766842846,
+          0.038495075702956204,
+          0.0386704407978015,
+          0.038502409280110055,
+          0.0386704438215198,
+          0.0382681743871583,
+          0.004490679444392556,
+          0.004490725474000192,
+          0.0015457212455177412,
+          0.0015434735901191762,
+          0.0015410012605297865
+        ],
+        "energy": -7.846198266541116,
+        "cnots": 43,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nit": 3,
+        "nfev": 5
+      },
+      {
+        "step": 14,
+        "word": "IIZXYIII",
+        "pool_gradient": [
+          1.3877145999138363e-05,
+          -2.017000919089374e-06,
+          7.900514245532122e-06,
+          2.8150425511681924e-06,
+          0.0008853585956015781,
+          0.0008591651375896101,
+          0.0008591653823657525,
+          0.0008853537813088156,
+          2.8164202739759116e-06,
+          7.952531549499242e-06,
+          -7.4942271872056645e-06,
+          6.674998378641828e-06,
+          0.0009092936003996521,
+          0.0009033517933287882,
+          3.666596251228338e-06,
+          1.1287180023930684e-05,
+          -1.392742415105414e-05,
+          -3.2359606005143425e-05,
+          -1.703403448363606e-05,
+          -4.986187924314271e-05,
+          -4.076161963926908e-05,
+          -4.0766668789105404e-05,
+          -4.986218354483799e-05,
+          -1.6980410935714883e-05,
+          -3.223630726838838e-05,
+          -1.8335591807305818e-05,
+          -3.2833607857490066e-05,
+          -2.0291767558633378e-05,
+          -1.4327402078573304e-05,
+          -1.4047523332990031e-05,
+          -1.6015352655718296e-05,
+          -2.4363229604897768e-05,
+          -6.893053932444062e-05,
+          -0.00016644060983967473,
+          -2.4100996685958724e-08,
+          -0.011444786750185886,
+          -0.011680280870623337,
+          -0.011680284307531184,
+          -0.011444792250818563,
+          -4.2731628407241995e-10,
+          -0.000166472118464605,
+          -3.3742966785078876e-05,
+          -7.61343751931598e-09,
+          -0.01162721725015458,
+          -0.011626736271323965,
+          3.05885196786454e-07,
+          3.484856495416383e-05,
+          -2.286793293955643e-07
+        ],
+        "selected_gradient": -0.011680284307531184,
+        "initial": [
+          0.03826772936757485,
+          0.03856012998607843,
+          0.03855919766842846,
+          0.038495075702956204,
+          0.0386704407978015,
+          0.038502409280110055,
+          0.0386704438215198,
+          0.0382681743871583,
+          0.004490679444392556,
+          0.004490725474000192,
+          0.0015457212455177412,
+          0.0015434735901191762,
+          0.0015410012605297865,
+          -0.00046458237752175616
+        ],
+        "params": [
+          0.038267841123287676,
+          0.038560120541037045,
+          0.0385592359464574,
+          0.038554545940961235,
+          0.03867017627399058,
+          0.038502369617776734,
+          0.03861233442252155,
+          0.038268174280823394,
+          0.004484013234932619,
+          0.0044906243055514395,
+          0.0015457245515622994,
+          0.0015435008196887118,
+          0.0015409643181166415,
+          0.0015319703031570037
+        ],
+        "energy": -7.8462072133687215,
+        "cnots": 47,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nit": 4,
+        "nfev": 6
+      },
+      {
+        "step": 15,
+        "word": "IIIIIZXY",
+        "pool_gradient": [
+          1.3531866898185055e-05,
+          -2.0198565018782364e-06,
+          7.947727217371091e-06,
+          -1.3120031587989453e-06,
+          0.000885396563702606,
+          0.0008537336452472977,
+          -4.0687539880868796e-05,
+          -9.72265966280529e-06,
+          3.4261323989448137e-06,
+          1.09002735530242e-05,
+          -1.0038440413745716e-05,
+          6.642663708755769e-06,
+          0.0009092957655097988,
+          0.0009036624923948744,
+          3.997429917135253e-06,
+          1.09818409071164e-05,
+          -1.4287404141798339e-05,
+          -3.6545142535991876e-05,
+          -1.7091720106634583e-05,
+          -5.3894342255218425e-05,
+          -3.2531602193367855e-05,
+          -3.465048880048685e-05,
+          -4.969856815109234e-05,
+          -1.116291834591164e-05,
+          -3.438341342760454e-05,
+          -1.8487006145095908e-05,
+          -3.5368020882709574e-05,
+          -1.9980893617710382e-05,
+          -1.4327064373820253e-05,
+          -1.4375470729594852e-05,
+          -1.5704990161180543e-05,
+          -2.4347653939489946e-05,
+          -6.914458770967773e-05,
+          -0.00016751954717297472,
+          -1.0322823750315482e-08,
+          -0.011427624125970825,
+          -0.01155864463225664,
+          8.115099567219557e-08,
+          0.00016589678008013605,
+          1.2352433211298438e-07,
+          -0.0002017864246212743,
+          -3.3777691196189286e-05,
+          -8.042248281388276e-08,
+          -0.011627204918257137,
+          -0.01162674891781112,
+          -6.304236473131386e-11,
+          3.459521520737807e-05,
+          -1.6716748710656794e-09
+        ],
+        "selected_gradient": -0.011627204918257137,
+        "initial": [
+          0.038267841123287676,
+          0.038560120541037045,
+          0.0385592359464574,
+          0.038554545940961235,
+          0.03867017627399058,
+          0.038502369617776734,
+          0.03861233442252155,
+          0.038268174280823394,
+          0.004484013234932619,
+          0.0044906243055514395,
+          0.0015457245515622994,
+          0.0015435008196887118,
+          0.0015409643181166415,
+          0.0015319703031570037,
+          0.004029786885098157
+        ],
+        "params": [
+          0.03826772686294221,
+          0.03861905301679989,
+          0.03850137781424516,
+          0.038554555437189914,
+          0.03867017745448558,
+          0.03850282070209363,
+          0.03861224736095798,
+          0.03826816392388569,
+          0.004483926885410026,
+          0.0044906255289427705,
+          0.0015299050519707712,
+          0.0015436014927810774,
+          0.0015387257197927947,
+          0.0015319629642903275,
+          0.0015251864267188157
+        ],
+        "energy": -7.846216080141598,
+        "cnots": 51,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 4,
+        "nfev": 6
+      },
+      {
+        "step": 16,
+        "word": "IIYXZIII",
+        "pool_gradient": [
+          1.3475883191590692e-05,
+          -2.074619441426836e-06,
+          7.957914313690943e-06,
+          -1.3042435794608714e-06,
+          0.0008854057173721128,
+          0.0008538123025305526,
+          -4.0608910712447785e-05,
+          -1.026171752184933e-05,
+          2.8279863351525887e-06,
+          2.5081475250784193e-06,
+          -5.00922990429225e-06,
+          1.3157319556422742e-05,
+          1.6121050949335913e-05,
+          1.0520852018636173e-05,
+          2.6282793457732545e-06,
+          1.643808091436716e-05,
+          -1.4284238455643815e-05,
+          -3.653570619346845e-05,
+          -1.708091966688118e-05,
+          -5.381598129054177e-05,
+          -3.2522881047845166e-05,
+          -3.519235503612449e-05,
+          -4.96846654693493e-05,
+          -1.9616104765987674e-05,
+          -3.513006582621244e-05,
+          -1.9906082892984234e-05,
+          -2.7306098826902024e-05,
+          -1.178789056394125e-05,
+          -1.1475270808469773e-05,
+          -6.041527534640734e-06,
+          -1.983864409033087e-05,
+          -2.446980586727557e-05,
+          -6.838143374640222e-05,
+          -0.00016749942342816622,
+          -1.0373916158642955e-09,
+          -0.0114276214063759,
+          -0.011558648161230312,
+          5.424960744293354e-09,
+          0.00016502502032069875,
+          -1.3342185613236527e-06,
+          -0.00020216864462590812,
+          -0.0001368304901712067,
+          -5.18526947594633e-09,
+          -2.2318525053514854e-09,
+          -6.752896911534484e-05,
+          -1.6608504323570306e-08,
+          -8.796670580638044e-07,
+          7.108145813598148e-07
+        ],
+        "selected_gradient": -0.011558648161230312,
+        "initial": [
+          0.03826772686294221,
+          0.03861905301679989,
+          0.03850137781424516,
+          0.038554555437189914,
+          0.03867017745448558,
+          0.03850282070209363,
+          0.03861224736095798,
+          0.03826816392388569,
+          0.004483926885410026,
+          0.0044906255289427705,
+          0.0015299050519707712,
+          0.0015436014927810774,
+          0.0015387257197927947,
+          0.0015319629642903275,
+          0.0015251864267188157,
+          -0.0009068373687272935
+        ],
+        "params": [
+          0.03826772466375546,
+          0.03861905010696258,
+          0.03850138328275775,
+          0.03861280221022097,
+          0.03861216131431841,
+          0.03850280782951721,
+          0.03861214664328981,
+          0.038268254185948286,
+          0.004483849462936377,
+          0.004483957564016435,
+          0.0015299046765578947,
+          0.0015436076662337977,
+          0.0015387275113479656,
+          0.001516195608348862,
+          0.001525186417926655,
+          0.0015161924138029721
+        ],
+        "energy": -7.84622484265635,
+        "cnots": 55,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 5,
+        "nfev": 7
+      },
+      {
+        "step": 17,
+        "word": "IIIIYXZI",
+        "pool_gradient": [
+          1.3414473966314513e-05,
+          -4.77210691819819e-06,
+          1.0684695615035803e-05,
+          -5.284011092384056e-06,
+          -5.0989054382531816e-06,
+          -3.669995725101956e-05,
+          -3.670248997572003e-05,
+          -5.113608412860892e-06,
+          -5.37863527017423e-06,
+          2.452705200546318e-06,
+          -4.99526229995759e-06,
+          1.3133589116198774e-05,
+          1.6097902207301562e-05,
+          1.0562900831234678e-05,
+          2.6688178494382875e-06,
+          1.6411082783773654e-05,
+          -1.445556106039452e-05,
+          -4.324382495348621e-05,
+          -1.1504681284353109e-05,
+          -5.35829843305014e-05,
+          -2.703948414635045e-05,
+          -2.7052390518098427e-05,
+          -5.3647292252732265e-05,
+          -1.9777340064881457e-05,
+          -4.336286244884408e-05,
+          -1.997560259481279e-05,
+          -2.729165610490834e-05,
+          -1.1745832346699014e-05,
+          -1.149858694377004e-05,
+          -6.067231613568146e-06,
+          -1.9795811284639697e-05,
+          -2.7150766460609715e-05,
+          -6.833114877975765e-05,
+          -0.00020281244978738423,
+          3.419204989513283e-08,
+          6.344523976213296e-05,
+          1.19167299553834e-09,
+          2.3602101050525275e-08,
+          6.262489699677021e-05,
+          -1.124826858623764e-06,
+          -0.00020314447454812884,
+          -0.00013744682844315376,
+          1.1198450708405083e-09,
+          7.007882475523133e-11,
+          -6.753153686121763e-05,
+          -3.864720574814351e-10,
+          -8.59616575567268e-07,
+          7.102329687604312e-07
+        ],
+        "selected_gradient": -0.00020314447454812884,
+        "initial": [
+          0.03826772466375546,
+          0.03861905010696258,
+          0.03850138328275775,
+          0.03861280221022097,
+          0.03861216131431841,
+          0.03850280782951721,
+          0.03861214664328981,
+          0.038268254185948286,
+          0.004483849462936377,
+          0.004483957564016435,
+          0.0015299046765578947,
+          0.0015436076662337977,
+          0.0015387275113479656,
+          0.001516195608348862,
+          0.001525186417926655,
+          0.0015161924138029721,
+          0.0056959252378535235
+        ],
+        "params": [
+          0.038440871599062884,
+          0.03861763901551905,
+          0.0385013772660153,
+          0.03861498203368668,
+          0.038612152359525836,
+          0.03850279784599386,
+          0.038441676326736174,
+          0.03826826544551255,
+          0.0022542693146666453,
+          0.004483846495863383,
+          0.0015230965608694503,
+          0.0015435798834938506,
+          0.001538768427189325,
+          0.0015230714864714764,
+          0.0015251530376210912,
+          0.0015163555439436603,
+          0.0022431885048778384
+        ],
+        "energy": -7.846225070556496,
+        "cnots": 59,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nit": 10,
+        "nfev": 14
+      },
+      {
+        "step": 18,
+        "word": "ZXYIIIII",
+        "pool_gradient": [
+          1.3391057794646708e-05,
+          -4.708488601644196e-06,
+          1.0799252989983081e-05,
+          -5.227060701243417e-06,
+          -5.066096355996983e-06,
+          -1.4920427751031064e-05,
+          -1.8841607295947408e-05,
+          2.004729196813592e-06,
+          -2.0848941748459127e-06,
+          -1.7493912836454573e-06,
+          2.566456181651936e-06,
+          7.259087612121462e-06,
+          6.039109306743562e-06,
+          1.0405344141761752e-05,
+          2.607330569726063e-06,
+          1.6346808432662382e-05,
+          -1.4502375990469632e-05,
+          -4.325366611075433e-05,
+          -1.1410100996010018e-05,
+          -3.1742244438445364e-05,
+          -2.7020678413721737e-05,
+          -2.0121489004669005e-05,
+          -4.3807378443197396e-05,
+          -2.4047972498621612e-05,
+          -2.4315221487439626e-05,
+          -1.7768863088185594e-05,
+          -1.9639918186672083e-05,
+          -1.1895053833865799e-05,
+          -2.153975651802975e-05,
+          -6.1289404244421935e-06,
+          -1.9831791051638792e-05,
+          -2.710899802159321e-05,
+          -6.862901213796358e-05,
+          -0.00020367108981086236,
+          -1.8579341151478452e-07,
+          6.593045988985053e-05,
+          5.225075279011767e-07,
+          2.562601421840421e-07,
+          -3.7195041115663356e-05,
+          -7.075365492008399e-07,
+          2.068559020570985e-07,
+          -3.597278057384384e-05,
+          8.121682153368337e-08,
+          -7.726058752488266e-08,
+          -6.807677878991434e-05,
+          4.2412932541036064e-11,
+          -5.347093787674839e-07,
+          4.3124975921972455e-07
+        ],
+        "selected_gradient": -0.00020367108981086236,
+        "initial": [
+          0.038440871599062884,
+          0.03861763901551905,
+          0.0385013772660153,
+          0.03861498203368668,
+          0.038612152359525836,
+          0.03850279784599386,
+          0.038441676326736174,
+          0.03826826544551255,
+          0.0022542693146666453,
+          0.004483846495863383,
+          0.0015230965608694503,
+          0.0015435798834938506,
+          0.001538768427189325,
+          0.0015230714864714764,
+          0.0015251530376210912,
+          0.0015163555439436603,
+          0.0022431885048778384,
+          0.009164127475093702
+        ],
+        "params": [
+          0.038441995804292396,
+          0.03861762619433751,
+          0.03850138080090553,
+          0.03861711846891815,
+          0.038441324570703095,
+          0.03850138413419133,
+          0.03844067127121238,
+          0.03844187153710488,
+          0.002240169365241441,
+          0.002248675152403859,
+          0.0015230407271890187,
+          0.0015367604396007194,
+          0.0015387373352536932,
+          0.0015232598923473194,
+          0.0015251608228190512,
+          0.0015232482910543278,
+          0.002257225515488046,
+          0.0022487935276237713
+        ],
+        "energy": -7.8462252993605395,
+        "cnots": 63,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nit": 13,
+        "nfev": 17
+      },
+      {
+        "step": 19,
+        "word": "ZIIIIIYX",
+        "pool_gradient": [
+          7.478228420499995e-06,
+          3.0731103187263026e-06,
+          6.817262469783144e-06,
+          -1.3254952930674903e-06,
+          2.644114144534429e-06,
+          2.6219770930959894e-06,
+          2.6147056630634115e-06,
+          2.666945208232228e-06,
+          -1.4033133781666493e-06,
+          -1.391953745359113e-06,
+          2.909150752160273e-06,
+          7.180756193991833e-06,
+          5.921104873796157e-06,
+          1.049743675740622e-05,
+          2.5919880660696393e-06,
+          6.250467433911178e-06,
+          -1.2323051210069251e-05,
+          -2.357683152621637e-05,
+          -1.5481895316470094e-05,
+          -2.2244809496622544e-05,
+          -1.949904230817679e-05,
+          -1.9478492516817876e-05,
+          -2.2323476274952212e-05,
+          -2.3718357886796078e-05,
+          -2.3631554580438072e-05,
+          -1.7806970709188796e-05,
+          -1.9304589605413555e-05,
+          -1.1797429648574553e-05,
+          -2.1711762926479583e-05,
+          -1.624698385831875e-05,
+          -1.9841168630241324e-05,
+          -1.9246674576074685e-05,
+          3.298013528532163e-05,
+          -1.7918186220488687e-09,
+          -2.7337218639322044e-09,
+          -3.419405279316507e-05,
+          7.815008159692539e-07,
+          7.568692638271691e-07,
+          -3.513513066980857e-05,
+          -9.813839937767676e-07,
+          2.9220766048517854e-07,
+          -3.5458288662110204e-05,
+          -1.361559094636977e-10,
+          -7.465204401463038e-10,
+          -6.880200136941662e-05,
+          -1.047660442192802e-06,
+          -6.368473981360756e-07,
+          4.0405618807672506e-07
+        ],
+        "selected_gradient": -6.880200136941662e-05,
+        "initial": [
+          0.038441995804292396,
+          0.03861762619433751,
+          0.03850138080090553,
+          0.03861711846891815,
+          0.038441324570703095,
+          0.03850138413419133,
+          0.03844067127121238,
+          0.03844187153710488,
+          0.002240169365241441,
+          0.002248675152403859,
+          0.0015230407271890187,
+          0.0015367604396007194,
+          0.0015387373352536932,
+          0.0015232598923473194,
+          0.0015251608228190512,
+          0.0015232482910543278,
+          0.002257225515488046,
+          0.0022487935276237713,
+          -0.006750841242805266
+        ],
+        "params": [
+          0.038440345860151826,
+          0.03855865096623433,
+          0.038560494598777965,
+          0.03861709491015308,
+          0.03844215542683315,
+          0.038501164831916034,
+          0.038442653268093555,
+          0.03844104417699126,
+          0.002265835723749841,
+          0.0022594356997510273,
+          0.0015299574112517087,
+          0.0015367352812631948,
+          0.0015318550465393756,
+          0.0015232009670812453,
+          0.0007565374667892365,
+          0.001523230868670304,
+          0.002231628185461886,
+          0.0022380517810757275,
+          0.0007730428719630149
+        ],
+        "energy": -7.84622532595002,
+        "cnots": 67,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nit": 14,
+        "nfev": 18
+      },
+      {
+        "step": 20,
+        "word": "IIIIYIZI",
+        "pool_gradient": [
+          4.09182484271296e-06,
+          3.0425405421197908e-06,
+          6.809710092701618e-06,
+          -1.3126677599678385e-06,
+          2.677279806311142e-06,
+          2.405562559714613e-06,
+          2.4237575557549023e-06,
+          2.748898790736373e-06,
+          -1.3307305109633532e-06,
+          3.506516801926087e-06,
+          3.767314221017988e-06,
+          3.2157886857286933e-06,
+          3.4020300007098214e-06,
+          8.212594293732778e-06,
+          6.909797799770079e-06,
+          6.931750373820722e-06,
+          -1.577633863400392e-05,
+          -2.3610882975160916e-05,
+          -1.5440814572683825e-05,
+          -2.2413347906475286e-05,
+          -1.945523238091838e-05,
+          -1.938347684079705e-05,
+          -2.2391525722750512e-05,
+          -1.8710820047704664e-05,
+          -2.3648703243902196e-05,
+          -1.9282092693584385e-05,
+          -1.851829947516186e-05,
+          -1.4145498149154001e-05,
+          -1.8945879002085775e-05,
+          -1.5480225354787973e-05,
+          -1.8146869099178176e-05,
+          -1.929733634344556e-05,
+          3.1862888196298405e-05,
+          -6.122537526459649e-07,
+          6.214730514222176e-07,
+          -3.360268320313212e-05,
+          9.088877791793695e-07,
+          9.096458536768191e-07,
+          -3.357378440174733e-05,
+          8.002765852719576e-07,
+          -8.243044540609857e-07,
+          -2.841417888678477e-06,
+          -6.387209586927733e-08,
+          -7.032108724911052e-07,
+          -7.979016111051863e-07,
+          -8.803956247846467e-07,
+          -3.487012135520301e-05,
+          1.9330859281172115e-07
+        ],
+        "selected_gradient": -2.3648703243902196e-05,
+        "initial": [
+          0.038440345860151826,
+          0.03855865096623433,
+          0.038560494598777965,
+          0.03861709491015308,
+          0.03844215542683315,
+          0.038501164831916034,
+          0.038442653268093555,
+          0.03844104417699126,
+          0.002265835723749841,
+          0.0022594356997510273,
+          0.0015299574112517087,
+          0.0015367352812631948,
+          0.0015318550465393756,
+          0.0015232009670812453,
+          0.0007565374667892365,
+          0.001523230868670304,
+          0.002231628185461886,
+          0.0022380517810757275,
+          0.0007730428719630149,
+          0.003358200354405203
+        ],
+        "params": [
+          0.038439517208927514,
+          0.038558734454909545,
+          0.03856040485153939,
+          0.0386171056857421,
+          0.038441099626292476,
+          0.03850115698928822,
+          0.038190733225308304,
+          0.038442082019516134,
+          0.0022719860071385854,
+          0.0022459423919730915,
+          0.001529828050684398,
+          0.0015366950517629824,
+          0.001531838289130744,
+          0.0015232372320043814,
+          0.0007574150597453057,
+          0.0015234921545515827,
+          0.002205844677312332,
+          0.0022516316336617407,
+          0.0007728484776652675,
+          0.0002538680908678592
+        ],
+        "energy": -7.846225328942452,
+        "cnots": 69,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nit": 13,
+        "nfev": 15
+      }
+    ],
+    "stop": "energy_stagnation",
+    "seconds": 0.024932166998041794,
+    "nfev": 156,
+    "nit": 110,
+    "pool_gradient_evaluations": 960,
+    "gradient_measurement_note": "analytic statevector derivatives; parameter shift hardware upper bound 2*pool size energies per step, each energy has 2 commuting bases",
+    "archive": "results/stage4_upgrade_v1/adaptive/cache/6d5db2fc7222239181d9bbae43b35a552a668256f1d02478c1bec4981c0ccb6b.npz",
+    "sha256": "62e1a434341d5b7ca91767acd0fa5439bdf1126d1102828a067c915720a5fb28",
+    "disposition": "newly_executed",
+    "energy": -7.846170997859934,
+    "ed_energy": -7.846228101044929,
+    "delta_e": 7.137898124343067e-06,
+    "epsilon_c": 4.477074915720802e-05,
+    "epsilon_sf": 3.370847735317817e-05,
+    "epsilon_mx": 0.00019344823339842443,
+    "fidelity": 0.9999846104238868,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage4_upgrade_v1/ed/n8_k0x1.999999999999ap-6_h0x1.3333333333333p-3.npz"
+  },
+  "failure_category": "candidate_available"
+}

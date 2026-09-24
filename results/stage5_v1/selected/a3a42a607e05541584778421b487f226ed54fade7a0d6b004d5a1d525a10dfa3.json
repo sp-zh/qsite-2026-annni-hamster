@@ -1,0 +1,116 @@
+{
+  "n": 12,
+  "kappa": 0.530192,
+  "h": 0.304778,
+  "ref": "antiphase",
+  "seed": 11,
+  "selected": {
+    "words": [],
+    "params": [],
+    "reason": "reference",
+    "optimizer_success": true,
+    "cnots": 10,
+    "gate_count": 22,
+    "unitary_depth": 11,
+    "target_counts": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "cnot_order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "energy": -6.362303999999996,
+    "ed_energy": -8.018677000166457,
+    "delta_e": 0.13803108334720507,
+    "epsilon_c": 1.4305153765919507,
+    "epsilon_sf": 0.4432556922390397,
+    "epsilon_mx": 0.6071308782577266,
+    "fidelity": 0.0007939557456190717,
+    "observable_pass": false,
+    "state_pass": false,
+    "joint_pass": false,
+    "ed_source": "results/stage5_v1/ed/n12_k0x1.0f75536933a04p-1_h0x1.3817b95a29414p-2.npz",
+    "parity": 0.9999999999999996,
+    "w_plus": 0.9999999999999998,
+    "T_real": 0.9999999999999996,
+    "T_imag": 0.0,
+    "eta_T": 4.440892098500626e-16,
+    "w0": 0.9999999999999996,
+    "w_plus_0": 0.9999999999999996,
+    "variance": 1.114675551408034,
+    "n": 12,
+    "kappa": 0.530192,
+    "h": 0.304778,
+    "ref": "antiphase",
+    "seed": 11,
+    "uid": "a3a42a607e05541584778421b487f226ed54fade7a0d6b004d5a1d525a10dfa3",
+    "source": "results/stage5_v1/adaptive/cache/b2aee9a93d1306023563425da5296f24a3dc46a9565f2dac4c907bf20310e8da.json",
+    "source_sha": "967f42bdabb5f294de7ecddeec654593c30d559bc61a63449c63bd563126b72f",
+    "checkpoint": 0,
+    "source_stop": "budget",
+    "source_budget": 128,
+    "disposition": "newly_executed"
+  },
+  "archive": "results/stage5_v1/selected/a3a42a607e05541584778421b487f226ed54fade7a0d6b004d5a1d525a10dfa3.npz",
+  "sha256": "7f52e9f2af451c5f2f7a6b9991ce2960af1901eaa592225f9c42080c6a6ad2c4",
+  "energy": -6.362303999999996,
+  "ed_energy": -8.018677000166457,
+  "delta_e": 0.13803108334720507,
+  "epsilon_c": 1.4305153765919507,
+  "epsilon_sf": 0.4432556922390397,
+  "epsilon_mx": 0.6071308782577266,
+  "fidelity": 0.0007939557456190717,
+  "observable_pass": false,
+  "state_pass": false,
+  "joint_pass": false,
+  "ed_source": "results/stage5_v1/ed/n12_k0x1.0f75536933a04p-1_h0x1.3817b95a29414p-2.npz"
+}

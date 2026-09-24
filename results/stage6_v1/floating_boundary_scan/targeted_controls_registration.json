@@ -1,0 +1,42 @@
+{
+  "registered_utc": "2026-09-23T00:44:57.796074+00:00",
+  "code_sha": "e802be9daf60463bb3d30d9027ec9ef949a0d8bb89a5abf7fe1e2d33059a44dd",
+  "jobs": [
+    {
+      "n": 128,
+      "h": 0.4,
+      "chi": 256,
+      "initial": "antiphase",
+      "max_seconds": 300
+    },
+    {
+      "n": 128,
+      "h": 0.35,
+      "chi": 512,
+      "initial": "plus",
+      "max_seconds": 600
+    }
+  ],
+  "reason": "Raw sweep audit shows the h=.4 antiphase chain also fails tolerance (not only plus); continue that actual branch. All h=.35 chi256 chains fail: one directed chi512 check tests bond limitation. No criterion/phase threshold change, no independent-initial claim for resumes.",
+  "execution_order": "After bounded followup, before N12 worker starts; stays within two-heavy-worker limit",
+  "total_soft_cap_seconds": 1500,
+  "overall_deadline_unchanged": true,
+  "updated_utc": "2026-09-23T01:05:34.976401+00:00",
+  "additional_jobs": [
+    {
+      "n": 128,
+      "h": 0.425,
+      "chi": 256,
+      "initial": "plus",
+      "max_seconds": 300
+    },
+    {
+      "n": 128,
+      "h": 0.425,
+      "chi": 256,
+      "initial": "antiphase",
+      "max_seconds": 300
+    }
+  ],
+  "additional_reason": "h=.425 now has N96/128 agreement in unlocked q, algebraic held-out preference in BOTH windows, stable Friedel fits and free entropy scaling. Add bond/independent-product controls to test a sampled interval next to .4, not only one center. Retain .45/.475 negative/ambiguous results; no phase threshold changes."
+}

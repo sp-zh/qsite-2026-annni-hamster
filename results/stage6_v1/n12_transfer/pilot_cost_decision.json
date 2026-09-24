@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-09-23T02:19:36.989502+00:00",
+  "rows": [
+    {
+      "kappa": 0.443,
+      "h": 0.013,
+      "methods": {
+        "C0": {
+          "standalone_search_seconds": 11.754664959036745,
+          "function_evaluations": 5800,
+          "selected_cnots": 63,
+          "execution_call_seconds": 0.008344583970028907
+        },
+        "C1": {
+          "standalone_search_seconds": 11.734780040977057,
+          "function_evaluations": 8096,
+          "selected_cnots": 63,
+          "execution_call_seconds": 0.013709374994505197
+        },
+        "H6": {
+          "standalone_search_seconds": 59.9492987091071,
+          "function_evaluations": 24237,
+          "selected_cnots": 63,
+          "execution_call_seconds": 0.028681207913905382
+        }
+      }
+    },
+    {
+      "kappa": 0.443,
+      "h": 0.093,
+      "methods": {
+        "C0": {
+          "standalone_search_seconds": 37.714055709016975,
+          "function_evaluations": 16641,
+          "selected_cnots": 128,
+          "execution_call_seconds": 0.0072449579602107406
+        },
+        "C1": {
+          "standalone_search_seconds": 54.70089525001822,
+          "function_evaluations": 27486,
+          "selected_cnots": 127,
+          "execution_call_seconds": 0.014303458912763745
+        },
+        "H6": {
+          "standalone_search_seconds": 343.9645711679477,
+          "function_evaluations": 96322,
+          "selected_cnots": 127,
+          "execution_call_seconds": 0.08320821012603119
+        }
+      }
+    }
+  ],
+  "decision": "Continue the frozen36-point128-CNOT batch, then prescribed window and bounded192 diagnostic. No pool, iteration threshold or selection adjustment.",
+  "scope": "Two measured low-field costs, not a reliable full-grid runtime estimate. Shared C0 computations in H6 are not additional executions. Accuracy is evaluated separately after generation.",
+  "original_deadline": "2026-09-23T10:18:30.473067+00:00",
+  "index_call_timing_scope": "Current index may already have been replayed by the main batch. execution_call_seconds reflects that index pass (including cache reuse), not original optimization duration. standalone_search_seconds comes from immutable original raw execution records."
+}

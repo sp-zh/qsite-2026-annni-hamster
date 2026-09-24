@@ -1,0 +1,6 @@
+{
+  "time": "2026-09-23T06:33:30.277300+00:00",
+  "change": "Normal no-eligible-window outcome now exits 0 instead of SystemExit(message), so downstream analysis continues. Scientific trigger, data, budgets and thresholds unchanged.",
+  "executed_extension": false,
+  "validation": "AST parse and exact empty-choice control-flow test"
+}

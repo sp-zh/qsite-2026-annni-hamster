@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "scripts/analyze_stage5_dynamics.py", line 7, in <module>
+    for r in [next(x for x in old if x['p']==0 and x['initial']==ref) for ref in ['plus','0011']]:
+              ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration

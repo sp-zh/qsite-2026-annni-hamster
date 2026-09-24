@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-09-23T00:06:59.289909+00:00",
+  "supersedes": "domain_wall_candidates/h6_design_registration.json",
+  "reason": "Development parity-sector diagonalization identified two wall-selected F~1/2 near-doublets with tiny energy error. Keep original physical candidates in the low-field pool rather than discarding them merely because of the basis dispatch.",
+  "rule": "Inside fixed kappa[.4,.6],h<=.35: generate all3 C0 physical references plus all3 C2/C3 wall references, then SAME energy1e-6/site/CNOT/energy selector chooses one literal circuit. Outside: C0 only. C1/H6 remain the only2 formal confirmation candidates.",
+  "wall_choice": "Validation ranks H6(C0 union C2) versus H6(C0 union C3); all pure and union validation outcomes retained. Confirmation unopened.",
+  "cost": "Search cost is sum over both component candidate sets; exact caches shared with C0 control but accounted as standalone H6 cost. Final gate cost is the chosen circuit, not an averaged state.",
+  "original_thresholds_unchanged": true,
+  "hybrid_code": "bc566e3ad8bee6926cd718ad2b9fd84cb75488a5c0f740be8063484038c8bbf3",
+  "runner_sha": "585ac0efc8652f0fe25c3dca2ac3c5cefe99217b767f542a8a02a72abdab861e",
+  "freeze_sha": "e9274b5296a9ac128b0bcd55420418ee2ad6ffed4ff4963f58cb44d52493f06f"
+}

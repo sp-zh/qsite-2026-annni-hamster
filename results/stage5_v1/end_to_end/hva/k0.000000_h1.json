@@ -1,0 +1,44 @@
+{
+  "trials": [
+    {
+      "energy": -10.377858380584806,
+      "nit": 400,
+      "nfev": 452,
+      "njev": 452,
+      "optimization_success": false,
+      "status": 1,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "gradient_inf": 0.018691478747140167,
+      "seconds": 0.316113792010583
+    },
+    {
+      "energy": -10.379354373972664,
+      "nit": 400,
+      "nfev": 432,
+      "njev": 432,
+      "optimization_success": false,
+      "status": 1,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "gradient_inf": 0.006293934608707197,
+      "seconds": 0.3131959169986658
+    },
+    {
+      "energy": -10.381323049782921,
+      "nit": 400,
+      "nfev": 438,
+      "njev": 438,
+      "optimization_success": false,
+      "status": 1,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "gradient_inf": 0.00734885071039848,
+      "seconds": 0.3052821669843979
+    }
+  ],
+  "selection": "lowest energy",
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "disposition": "newly_executed"
+}

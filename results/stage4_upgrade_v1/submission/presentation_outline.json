@@ -1,0 +1,50 @@
+[
+  [
+    "ANNNI circuit study",
+    "A controlled comparison of preparation, noise and diagnostics",
+    "clean_ed_comparison.png",
+    "We study the periodic ANNNI model and ask whether physically meaningful reference states and adaptive local gates improve observable reconstruction under the prescribed noise. Our benchmark keeps the historical six-layer HVA unchanged. Three explicit references are tested everywhere, and their preparation gates are counted. We distinguish exact diagonalization, ideal circuits, noisy circuits and larger open-chain tensor-network evidence. The contribution is a controlled comparison rather than a claim of quantum advantage. This presentation summarizes executed data; the appendix preserves parameters, all failures and replication details."
+  ],
+  [
+    "Adaptive preparation",
+    "Held-out: 42/48 pass; median grid cost: 96 CNOTs",
+    "calibration_stability.png",
+    "The adaptive circuit adds a local Pauli rotation chosen using its energy derivative per incremental CNOT cost, then reoptimizes all accumulated angles. The allowed pool preserves global spin-flip symmetry. We use plus, GHZ and a coherent four-translation antiphase reference. The total budget is 128 CNOTs, including reference preparation. Development uses three independent seeds per reference. Frozen held-out and map runs use one seed per reference. Candidates are selected by energy and resource counts, never by exact-state fidelity. The short fixed pilot does not generalize to most test points."
+  ],
+  [
+    "Matched noise comparison",
+    "All coordinates and failures remain in the comparison",
+    "pareto_noise.png",
+    "Every actual CNOT is followed by target-only depolarization at p zero, one percent or five percent. Parameters are fixed across these noise levels. The median CNOT count falls from192 to96. At p one percent, mean maximum correlation error falls from0.264 to0.143, with402 of420 points improving. Clean acceptance nevertheless falls from407 to385 points. The matched comparison uses the same coordinates and observables, and provides both full-domain statistics and the intersection where both methods pass preparation checks. B4 changes only an equivalent compilation direction and pays an extra noisy energy pilot. Its improvement must not be credited to a better ideal state or to free knowledge of the exact noisy answer."
+  ],
+  [
+    "Interpretable phase features",
+    "At p=0.01: quality masks retained; full three-p comparison in report",
+    "presentation_maps.png",
+    "These maps show reference-like features rather than certified thermodynamic phases. One detector uses full correlations, all discrete structure factors and transverse magnetization. Another uses fidelity susceptibility; for noisy states this is squared Uhlmann fidelity and requires simulator state access. A third freezes PCA and clustering trained only on clean development data. The classifier receives no coordinates, noise level, reference name or gate count. The full report adds external literature comparisons. At five percent noise, the primary detector rejects or degrades413 of420 points. Actual structure switches are audited at identical coordinates, and fixed-structure branches help distinguish changes in physical response from changes in preparation protocol."
+  ],
+  [
+    "Twelve-spin circuits",
+    "New VQE: 40/60 pass; representative exact-density noise",
+    "n12.png",
+    "The twelve-spin extension is a genuine circuit experiment rather than reused classical data. We optimize three positive-field slices and compare with same-size sparse exact diagonalization. The circuit keeps the same Hamiltonian, periodic boundaries and preparation thresholds. Representative noisy states are evaluated with full density matrices after measuring actual memory and time costs. This work is simulated, not hardware execution. Preparation failures remain explicit. Increased size does not automatically preserve the eight-spin success rate at a fixed CNOT budget, so conclusions are separated into ED correctness, circuit accuracy and noise-backend validation."
+  ],
+  [
+    "Mitigation at equal shots",
+    "Restoring a circuit output is different from removing preparation bias",
+    "mitigation_equal_shots.png",
+    "We actually execute local CNOT folding with scale factors one, three and five, including all reference-state CNOTs. A fixed linear extrapolation is the primary ZNE estimator, with a quadratic alternative saved separately. Global-X verification uses the signed Pauli products and a measured denominator. Raw estimation, ZNE and symmetry verification share the same total circuit-shot budget; the latter needs thirty measurement settings. Joint bitstrings preserve covariance among correlations. The results show partial low-noise restoration and high-noise saturation. The target is the same circuit at zero noise, while disagreement with the ED state remains a separate preparation error."
+  ],
+  [
+    "Large-system floating search",
+    "OBC correlations, entropy and bond convergence are complementary",
+    "floating_correlations_entropy.png",
+    "Tensor-network evidence is deliberately separated from small periodic circuits. The TeNPy model uses Pauli operators and no incorrect magnetization conservation. Full small-system Hamiltonians and energies were checked first. The coarse scan is followed by sizes64 and96 and bond dimensions up to256, including distinct initial states. Three centers satisfy the declared evidence-review criteria, while side controls remain less conclusive. We compare oscillating power-law and exponential fits, raw and connected correlations, entropy windows and truncation changes. The Ising control calibrates the entropy fit. An incommensurate peak or a fitted central charge near one is insufficient on its own, and open-chain feature locations are not painted onto noisy eight-spin maps."
+  ],
+  [
+    "Independent quench dynamics",
+    "Smaller time steps improve Trotter accuracy but add noisy gates",
+    "dynamics_tradeoff.png",
+    "Finally, dynamics is independent of whether VQE succeeds. Both fixed product initial states are evolved at every test point using a second-order symmetric decomposition. Common observation times permit a direct comparison with exact evolution and with three time steps. At zero noise, halving the time step gives the expected approximately fourfold improvement in the short-time control. With per-gate noise, more steps also mean more noisy CNOTs. Time-averaged return and correlation features are finite-time diagnostics, not automatic equilibrium or dynamical critical boundaries. The resulting decision is conditional use with quality masks and explicit resource accounting."
+  ]
+]

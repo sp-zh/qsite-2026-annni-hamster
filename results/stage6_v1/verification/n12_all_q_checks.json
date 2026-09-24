@@ -1,0 +1,48 @@
+{
+  "time": "2026-09-23T06:53:42.148949+00:00",
+  "checks": {
+    "ED": {
+      "sum_max_error": 3.219646771412954e-15,
+      "minimum": 6.8895790822560456e-06,
+      "maximum": 0.9998743053920691,
+      "conjugate_peak_max_error": 5.551115123125783e-17
+    },
+    "B3_p0": {
+      "sum_max_error": 8.881784197001252e-15,
+      "minimum": -1.073450622690954e-18,
+      "maximum": 1.0,
+      "conjugate_peak_max_error": 5.551115123125783e-17
+    },
+    "B3_p0.01": {
+      "sum_max_error": 1.6209256159527285e-14,
+      "minimum": 0.0010758331827972294,
+      "maximum": 0.9487608420728089,
+      "conjugate_peak_max_error": 5.551115123125783e-17
+    },
+    "B3_p0.05": {
+      "sum_max_error": 4.8183679268731794e-14,
+      "minimum": 0.004826239872618081,
+      "maximum": 0.7744656004652856,
+      "conjugate_peak_max_error": 5.204170427930421e-17
+    },
+    "H6_p0": {
+      "sum_max_error": 5.218048215738236e-15,
+      "minimum": 6.8895221407371754e-06,
+      "maximum": 0.9998743882463127,
+      "conjugate_peak_max_error": 5.551115123125783e-17
+    },
+    "H6_p0.01": {
+      "sum_max_error": 1.9984014443252818e-15,
+      "minimum": 0.006417386737283555,
+      "maximum": 0.8223829316000288,
+      "conjugate_peak_max_error": 1.1102230246251565e-16
+    },
+    "H6_p0.05": {
+      "sum_max_error": 3.4416913763379853e-15,
+      "minimum": 0.02638828286456733,
+      "maximum": 0.3965101412929366,
+      "conjugate_peak_max_error": 2.7755575615628914e-17
+    }
+  },
+  "scope": "Actual N12 all12coordinates, ED and72exactdensity SF; selfcorrelation sumrule and q/-q symmetry. Not full density eigenspectrum positivity."
+}

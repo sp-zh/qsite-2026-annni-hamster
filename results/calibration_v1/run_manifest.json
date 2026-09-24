@@ -1,0 +1,123 @@
+{
+  "created_utc": "2026-09-22T03:41:21.196682+00:00",
+  "hashes": {
+    "configs/calibration_v1.json": "42f95cb569b7a9159f9032453ef8329879079b77b987e428dfec365be589d7b8",
+    "requirements.lock.txt": "4a17ebd6a02afa38831fb15a1d60df23fcb7f3bd62287bc19a0438e014c9235d",
+    "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+    "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+    "annni/vqe.py": "d2ad75b5625579dd9cd7472a4b7cb1266ab89011aecd0efb7875f8c8adc11f3c",
+    "scripts/run_calibration.py": "ad8272d302299ce14c2355f7d2bfeb78013424a0890a96f1fc9a167e721a2f78",
+    "results/baseline/grid_n8.npz": "09ad1a227d7ff346aae940468f4d67ff4587832b982986b920db2957c3af3dc2"
+  },
+  "fingerprint": "c801c888d20466da9f44228c44681586e38ae6c48856416da8ac0e56c7cf6930",
+  "configuration": {
+    "n": 8,
+    "points": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0,
+        0.9
+      ],
+      [
+        0,
+        1.0
+      ],
+      [
+        0,
+        1.1
+      ],
+      [
+        0,
+        1.8
+      ],
+      [
+        0.3,
+        0.2
+      ],
+      [
+        0.3,
+        0.4
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.3,
+        1.2
+      ],
+      [
+        0.8,
+        0.2
+      ],
+      [
+        0.8,
+        0.4
+      ],
+      [
+        0.8,
+        0.5
+      ],
+      [
+        0.8,
+        0.6
+      ],
+      [
+        0.8,
+        0.8
+      ],
+      [
+        0.8,
+        1.2
+      ]
+    ],
+    "layers": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "initialization": {
+      "kind": "independent uniform",
+      "low": -0.5,
+      "high": 0.5,
+      "rng": "SeedSequence([seed,point_index,L])"
+    },
+    "optimizer": "L-BFGS-B",
+    "options": {
+      "maxiter": 400,
+      "maxfun": 20000,
+      "ftol": 1e-12,
+      "gtol": 1e-08,
+      "maxls": 30
+    },
+    "thresholds": {
+      "delta_e": 0.001,
+      "epsilon_c": 0.02,
+      "epsilon_sf": 0.02,
+      "epsilon_mx": 0.02,
+      "fidelity": 0.99
+    },
+    "fallback": {
+      "layers": 8,
+      "criterion": "no L<=6 achieves >=2/3 joint pass AND energy-best run passes",
+      "initialization": "each seed's own L=6 output plus two independently sampled small layers uniform[-0.05,0.05]",
+      "maxiter": 400,
+      "max_runs": 45
+    },
+    "shots": null,
+    "connectivity": "arbitrary NN/NNN ring logical edges, no routing or SWAP",
+    "compiler": "each ZZ angle 2a => CNOT(control,target), RZ(2a,target), CNOT(control,target); edge order i=0..7; no cancellation",
+    "selection": "within each point,L select minimum energy only; recommend smallest L with >=2/3 joint pass and energy-best passing",
+    "budget": "180 main runs + at most 45 fallback runs; no hidden restarts; pilot reused if same hashes",
+    "environment_change": "none"
+  }
+}

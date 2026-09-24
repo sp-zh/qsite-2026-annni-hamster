@@ -1,0 +1,26 @@
+{
+  "figures": [
+    "phase_p0",
+    "phase_p001",
+    "phase_p005",
+    "phase_comparison",
+    "phase_single_raw",
+    "phase_single_zne_quadratic",
+    "reference_scope",
+    "resource_tradeoff",
+    "equal_resource",
+    "bias_sampling",
+    "window_coverage",
+    "six_windows",
+    "window_example",
+    "extensions",
+    "floating_evidence",
+    "dynamics",
+    "floating_fit_sensitivity",
+    "slide_phases",
+    "slide_reference"
+  ],
+  "source": "scripts/release_figures.py",
+  "main_detector": "frozen Stage4 D3, retained baseline not chosen by test accuracy",
+  "main_measurement": "exact expectations; single-shot-repeat and mitigated panels separately labelled"
+}

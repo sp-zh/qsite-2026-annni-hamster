@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-09-22T03:42:19.839583+00:00",
+  "reason": "Prespecified rescue: no L<=6 stable passing energy-best candidate",
+  "failed_point_indices": [
+    2,
+    6,
+    11,
+    12,
+    13
+  ],
+  "config_unchanged": true,
+  "initializer": "Each independent seed's own L6 result plus two small random layers; not three copies of best seed",
+  "budget_runs": 15,
+  "maxiter": 400
+}

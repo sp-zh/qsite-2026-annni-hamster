@@ -1,0 +1,12 @@
+38652 33729    07:37:59   0.0  12288 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_main_queue.py
+38856 33729    07:33:00   0.0   7552 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_second_lane.py
+45651 33729    05:23:52   0.0  11216 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_final_analysis_queue.py
+47752 33729    04:58:05   0.0   1408 /usr/bin/caffeinate -i -t 29400
+51787 33729    04:12:06   0.0  11168 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_map_analysis_queue.py
+59801 33729    01:47:38   0.0  20832 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_free_lane.py
+62866 33729    01:16:41   0.0   2464 /usr/bin/caffeinate -d -i -m -s -t 28800
+63069 33729    01:15:03   0.0  19584 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_h425_size_check.py
+66034 38856       22:29  99.1  99744 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_candidates.py --task n12_192
+67502 38652       04:55  99.3 317600 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_maps.py --task map
+68069 33729       00:00   0.0   2320 /bin/zsh -c ps -axo pid,ppid,etime,%cpu,rss,command | rg '(run_stage6|caffeinate)' > results/stage6_v1/verification/resource_snapshot_0705.txt
+68071 68069       00:00   0.0    160 rg (run_stage6|caffeinate)

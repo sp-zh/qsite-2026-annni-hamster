@@ -1,0 +1,16 @@
+[
+  {
+    "arguments": {
+      "n": 128,
+      "k": 0.8,
+      "h": 0.35,
+      "chi": 512,
+      "initial": "plus",
+      "sweeps": 24,
+      "max_seconds": 600,
+      "resume": "results/stage6_v1/floating_boundary_scan/cache/1dc156606ebdad12cbb2d5d73f5c2d0ff688c16c4f62910834583b0d999ab055.pkl"
+    },
+    "error": "Command '['.venv-tn/bin/python', 'scripts/run_stage6_mps_bounded.py', '--jobfile', 'results/stage6_v1/floating_boundary_scan/control_jobs/a9106f74931f6150c31b1305720cabc199778edb910422776843b6ea2fc71f4d.job.json']' timed out after 779.9999567090417 seconds",
+    "disposition": "executed_incomplete"
+  }
+]

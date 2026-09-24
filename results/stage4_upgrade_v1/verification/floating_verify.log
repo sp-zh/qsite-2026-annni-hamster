@@ -1,0 +1,18 @@
+.venv-tn/lib/python3.12/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+Traceback (most recent call last):
+  File "scripts/run_upgrade_floating.py", line 82, in <module>
+    if a.task=='verify':verify()
+                        ^^^^^^^^
+  File "scripts/run_upgrade_floating.py", line 76, in verify
+    row=run(n,.8,.5,64,max_sweeps=20);e,s=eigsh(ed_matrix(n,.8,.5),k=1,which='SA',tol=1e-12);ep,sp=eigsh(ed_matrix(n,.8,.5,True),k=1,which='SA',tol=1e-12)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "scripts/run_upgrade_floating.py", line 64, in run
+    raw=np.array(raw);connected=np.array(connected);fit,ef=fits(raw,ent,n);fitc,_=fits(connected,ent,n)
+                                                           ^^^^^^^^^^^^^^^
+  File "scripts/run_upgrade_floating.py", line 43, in fits
+    best=min(sols,key=lambda a:sum(a.fun**2));rss=float(sum(best.fun**2));out.append(dict(kind=kind,window=[lo,hi],params=best.x.tolist(),q=float(best.x[1]),rss=rss,aic=float(len(r)*np.log(max(rss/len(r),1e-30))+8)))
+                                                                                                                                                                                                 ~~~^~~~~~~
+ZeroDivisionError: float division by zero
+.venv-tn/lib/python3.12/site-packages/tenpy/tools/params.py:243: UserWarning: unused option ['N_max'] for config lanczos_params
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))

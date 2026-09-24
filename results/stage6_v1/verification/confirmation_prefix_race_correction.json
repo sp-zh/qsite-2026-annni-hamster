@@ -1,0 +1,56 @@
+{
+  "time": "2026-09-23T08:25:38.477496+00:00",
+  "cause": "A serialized cached replay rewrote the completed96-point index through shorter prefixes while a concurrent analysis read a15-point prefix.",
+  "actual_original_measurement_coordinates": 96,
+  "affected_intermediate_analysis_coordinates": 15,
+  "raw_measurements_changed": false,
+  "fix": "Monotone prefix writer validates prior scientific fingerprints and never shrinks completed index; rederive analysis from stable96-point source. No candidate, detector, physical threshold, noise, random stream or measurement change.",
+  "preserved": [
+    {
+      "source": "results/stage6_v1/end_to_end/confirmation_summary.json",
+      "preserved": "results/stage6_v1/verification/confirmation_prefix_race_preserved/confirmation_summary.json",
+      "sha256": "9016d52e925e0cc3e4b278fb1a4e700072b9db1b0ae7298e28cde2c0901683cc"
+    },
+    {
+      "source": "results/stage6_v1/end_to_end/confirmation_regional_ladder.json",
+      "preserved": "results/stage6_v1/verification/confirmation_prefix_race_preserved/confirmation_regional_ladder.json",
+      "sha256": "f58ed16cbeaa518b94725be1e4dcdd277c0f74b6d4f7dd67592f5adba9482104"
+    },
+    {
+      "source": "results/stage6_v1/end_to_end/confirmation_all_detector_comparison.json",
+      "preserved": "results/stage6_v1/verification/confirmation_prefix_race_preserved/confirmation_all_detector_comparison.json",
+      "sha256": "3fdc974dbc902e0e5bac9f62badb737ed002b292a6729ee2875197186afbc557"
+    },
+    {
+      "source": "results/stage6_v1/end_to_end/confirmation_analysis.json",
+      "preserved": "results/stage6_v1/verification/confirmation_prefix_race_preserved/confirmation_analysis.json",
+      "sha256": "777a7e9b139311119e0ea0a451d21905578c0486b1f607a79fe4ade6e89f910b"
+    },
+    {
+      "source": "results/stage6_v1/end_to_end/confirmation_error_decomposition.json",
+      "preserved": "results/stage6_v1/verification/confirmation_prefix_race_preserved/confirmation_error_decomposition.json",
+      "sha256": "3f1eef13329988e3d52ee19ce93f92315fe18a92551ebc721669073f662cd43d"
+    },
+    {
+      "source": "results/stage6_v1/end_to_end/confirmation_reference_scope_audit.json",
+      "preserved": "results/stage6_v1/verification/confirmation_prefix_race_preserved/confirmation_reference_scope_audit.json",
+      "sha256": "8b3e63dd68eb9f8b860ae94b904d9e67aa0c403bd9e25eb68a046ddd1a95e812"
+    },
+    {
+      "source": "results/stage6_v1/end_to_end/confirmation_all_detector_comparison.csv",
+      "preserved": "results/stage6_v1/verification/confirmation_prefix_race_preserved/confirmation_all_detector_comparison.csv",
+      "sha256": "6783a87d0a33c5e8c6998a7ec2e0eb0e2a406fd8cb91ea3145f937be4bfe49c9"
+    },
+    {
+      "source": "results/stage6_v1/end_to_end/figures/confirmation_all_detector_comparison.png",
+      "preserved": "results/stage6_v1/verification/confirmation_prefix_race_preserved/confirmation_all_detector_comparison.png",
+      "sha256": "f4b648347a407dda8782e206cc96255e2b73af35713392015a23839f97815551"
+    }
+  ],
+  "corrected_utc": "2026-09-23T08:28:31.623247+00:00",
+  "corrected_coordinates": 96,
+  "corrected_sources": {
+    "results/stage6_v1/end_to_end/confirmation_analysis.json": "9ef00988965ddc982665abf781f926bc1536db30f2af199501c63ee4355ab797",
+    "results/stage6_v1/end_to_end/confirmation_summary.json": "c90bdfc79762f81d38e2afdc516a918570ad0d1d8d069a4bf27caaf343181151"
+  }
+}

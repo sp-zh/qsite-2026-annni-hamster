@@ -1,0 +1,17 @@
+{
+  "point_indices":[0,4,9,11,14],
+  "probabilities":[0,0.01,0.05],
+  "selection_reasons":{
+    "0":"low-field kappa=0, ferro-like ED correlations; smallest stable passing L=6",
+    "4":"high-field kappa=0, strong transverse polarization; smallest stable passing L=4",
+    "9":"low-field kappa=.8, strong period-four correlations; smallest stable passing L=2",
+    "11":"kappa=.8,h=.5 near same-N diagnostic changes; L=8 remediation passed 3/3",
+    "14":"high-field frustrated kappa=.8,h=1.2; smallest stable passing L=4"
+  },
+  "parameter_rule":"Use the energy-best run at selected smallest stable passing depth, fixed for all p; no noisy reoptimization",
+  "shots":null,
+  "device":"default.mixed",
+  "noise":"PennyLane DepolarizingChannel(p) on target immediately after every actual CNOT, including at p=0",
+  "connectivity":"NN/NNN ring logical edges directly available, no SWAP routing",
+  "comparison_limit":"Different points use different depths; do not infer intrinsic phase fragility from this smoke test"
+}

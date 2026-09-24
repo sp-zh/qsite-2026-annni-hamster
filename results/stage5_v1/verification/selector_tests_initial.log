@@ -1,0 +1,40 @@
+F.F..                                                                    [100%]
+=================================== FAILURES ===================================
+_____________________ test_translation_and_parity_algebra ______________________
+
+    def test_translation_and_parity_algebra():
+>    n=4;I=np.eye(16,dtype=complex);T=np.column_stack([translate(v,n) for v in I]);P=I[::-1];Q=sum(np.linalg.matrix_power(T,r) for r in range(n))/n;H=Chain(n).full_matrix(.3,.7).toarray()
+                                                                                                                                                      ^^^^^^^^
+
+tests/test_stage5.py:7: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <annni.model.Chain object at 0x10651b0e0>, n = 4
+
+    def __init__(self, n: int):
+        if not isinstance(n, int) or n < 5:
+>           raise ValueError("Use integer N>=5 to avoid duplicate short-ring bonds.")
+E           ValueError: Use integer N>=5 to avoid duplicate short-ring bonds.
+
+annni/model.py:27: ValueError
+___________________ test_same_sector_excited_counterexample ____________________
+
+    def test_same_sector_excited_counterexample():
+>    n=4;I=np.eye(16,dtype=complex);Q=sum(np.column_stack([translate(v,n,r) for v in I]) for r in range(n))/n;Q=(Q+Q[::-1])/2;e,U=np.linalg.eigh(Q);B=U[:,e>.9];H=Chain(n).full_matrix(.3,.7).toarray();e,U=np.linalg.eigh(B.conj().T@H@B);s=B@U[:,1];m=symmetry(s,n,.3,.7);assert m['w0']>.999 and m['w_plus']>.999 and abs(m['variance'])<1e-10 and abs(np.vdot(s,B@U[:,0]))<1e-10
+                                                                                                                                                                  ^^^^^^^^
+
+tests/test_stage5.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <annni.model.Chain object at 0x106542c10>, n = 4
+
+    def __init__(self, n: int):
+        if not isinstance(n, int) or n < 5:
+>           raise ValueError("Use integer N>=5 to avoid duplicate short-ring bonds.")
+E           ValueError: Use integer N>=5 to avoid duplicate short-ring bonds.
+
+annni/model.py:27: ValueError
+=========================== short test summary info ============================
+FAILED tests/test_stage5.py::test_translation_and_parity_algebra - ValueError...
+FAILED tests/test_stage5.py::test_same_sector_excited_counterexample - ValueE...
+2 failed, 3 passed in 0.38s

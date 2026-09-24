@@ -1,0 +1,2319 @@
+{
+  "B3_raw_p0_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0029904465392734223,
+    "MSE_own_p0_mean": 7.419475290185688e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 1597440000
+  },
+  "B3_raw_p0_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0029923765808681263,
+    "MSE_own_p0_mean": 7.352048486294039e-07,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 15974400000
+  },
+  "B3_raw_p0.01_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.01511225768161745,
+    "MSE_own_p0_mean": 0.016833765961977037,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 1597440000
+  },
+  "B3_raw_p0.01_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.015108927508911052,
+    "MSE_own_p0_mean": 0.016838780021862468,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 15974400000
+  },
+  "B3_raw_p0.05_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0885739671894876,
+    "MSE_own_p0_mean": 0.09491355532333533,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 62,
+          "correct": 2
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 1597440000
+  },
+  "B3_raw_p0.05_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.08852983486939381,
+    "MSE_own_p0_mean": 0.09486322549291898,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 15974400000
+  },
+  "B3_sv_p0_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0030739956816620367,
+    "MSE_own_p0_mean": 7.760694477409982e-05,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "unmeasured": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 1597440000
+  },
+  "B3_sv_p0_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.002992350819877042,
+    "MSE_own_p0_mean": 7.83121767972843e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "unmeasured": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 15974400000
+  },
+  "B3_sv_p0.01_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.011049091047382805,
+    "MSE_own_p0_mean": 0.01201747999241915,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 31,
+          "rejected": 1
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 48,
+          "rejected": 16
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "unmeasured": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 1597440000
+  },
+  "B3_sv_p0.01_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.010801905352994582,
+    "MSE_own_p0_mean": 0.011837207096822377,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 34,
+          "rejected": 30
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "unmeasured": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 15974400000
+  },
+  "B3_sv_p0.05_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.08472990778330966,
+    "MSE_own_p0_mean": 0.0909945930260769,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 57,
+          "correct": 7
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 40,
+          "correct": 24
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "unmeasured": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 1597440000
+  },
+  "B3_sv_p0.05_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.08437523235541868,
+    "MSE_own_p0_mean": 0.09068675779101193,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 58,
+          "correct": 6
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "unmeasured": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 15974400000
+  },
+  "B3_zne_p0_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0029903745407010786,
+    "MSE_own_p0_mean": 3.2208273520488255e-05,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 63,
+          "rejected": 1
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 4792000512
+  },
+  "B3_zne_p0_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0030024689177874037,
+    "MSE_own_p0_mean": 3.2968118542080723e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 47922880512
+  },
+  "B3_zne_p0.01_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.009266519378615935,
+    "MSE_own_p0_mean": 0.010301880704015175,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 56,
+          "rejected": 8
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 4792000512
+  },
+  "B3_zne_p0.01_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.009212958580174234,
+    "MSE_own_p0_mean": 0.010222218640556266,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 63,
+          "rejected": 1
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 47922880512
+  },
+  "B3_zne_p0.05_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0824111695489102,
+    "MSE_own_p0_mean": 0.08868169283503238,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 31,
+          "rejected": 33
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 4792000512
+  },
+  "B3_zne_p0.05_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.08228082005930747,
+    "MSE_own_p0_mean": 0.08855443802689221,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 47922880512
+  },
+  "B3_zne_quadratic_p0_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0030483264365203013,
+    "MSE_own_p0_mean": 0.0001110462548419834,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 59,
+          "rejected": 5
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 4792000512
+  },
+  "B3_zne_quadratic_p0_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.003016726003633681,
+    "MSE_own_p0_mean": 1.1291268366647738e-05,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 47922880512
+  },
+  "B3_zne_quadratic_p0.01_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0031993077346758147,
+    "MSE_own_p0_mean": 0.002234065351034327,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 41,
+          "rejected": 23
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 4792000512
+  },
+  "B3_zne_quadratic_p0.01_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.003028930105615975,
+    "MSE_own_p0_mean": 0.002052652833226318,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 34,
+          "rejected": 30
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 47922880512
+  },
+  "B3_zne_quadratic_p0.05_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.062160713534712676,
+    "MSE_own_p0_mean": 0.06797513741803336,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 4792000512
+  },
+  "B3_zne_quadratic_p0.05_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.06198228602840322,
+    "MSE_own_p0_mean": 0.0678200709637185,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 47922880512
+  },
+  "H6_raw_p0_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.001171807385615114,
+    "MSE_own_p0_mean": 7.37297653801041e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 1875520000
+  },
+  "H6_raw_p0_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0011673547067396625,
+    "MSE_own_p0_mean": 7.538993067086637e-07,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 18755200000
+  },
+  "H6_raw_p0.01_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.029123631488050916,
+    "MSE_own_p0_mean": 0.030873205573924985,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 31,
+          "wrong_accepted": 1
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 1875520000
+  },
+  "H6_raw_p0.01_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.029116817806793788,
+    "MSE_own_p0_mean": 0.030870568563713504,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 18755200000
+  },
+  "H6_raw_p0.05_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.1325601674683386,
+    "MSE_own_p0_mean": 0.1365474831794892,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 1875520000
+  },
+  "H6_raw_p0.05_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.1325603936368639,
+    "MSE_own_p0_mean": 0.1365450169639281,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 18755200000
+  },
+  "H6_sv_p0_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0012390916860516377,
+    "MSE_own_p0_mean": 7.396862838546169e-05,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "unmeasured": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 1875520000
+  },
+  "H6_sv_p0_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0011745688135655257,
+    "MSE_own_p0_mean": 7.405372823731436e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "unmeasured": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 18755200000
+  },
+  "H6_sv_p0.01_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.025723339648443852,
+    "MSE_own_p0_mean": 0.027340962816477007,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 27,
+          "rejected": 37
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 30,
+          "rejected": 2
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 50,
+          "rejected": 14
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "unmeasured": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 1875520000
+  },
+  "H6_sv_p0.01_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.02547783685982368,
+    "MSE_own_p0_mean": 0.02710253994908552,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 36,
+          "rejected": 28
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "unmeasured": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 18755200000
+  },
+  "H6_sv_p0.05_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.13111295160870418,
+    "MSE_own_p0_mean": 0.1350897885037884,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "unmeasured": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 1875520000
+  },
+  "H6_sv_p0.05_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.13093450535206394,
+    "MSE_own_p0_mean": 0.1349065039734859,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "unmeasured": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 18755200000
+  },
+  "H6_zne_p0_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0011903721080470764,
+    "MSE_own_p0_mean": 3.047990559898508e-05,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 62,
+          "rejected": 2
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 5626184896
+  },
+  "H6_zne_p0_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0011655538754294333,
+    "MSE_own_p0_mean": 3.029753638506457e-06,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 56265224896
+  },
+  "H6_zne_p0.01_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.019932712966608004,
+    "MSE_own_p0_mean": 0.02135335297833669,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 63,
+          "rejected": 1
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 5626184896
+  },
+  "H6_zne_p0.01_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.019826074322724742,
+    "MSE_own_p0_mean": 0.021253877245964076,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 56265224896
+  },
+  "H6_zne_p0.05_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.12925857623563536,
+    "MSE_own_p0_mean": 0.13322278795766473,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 5626184896
+  },
+  "H6_zne_p0.05_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.129037098685754,
+    "MSE_own_p0_mean": 0.13300065463029853,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 56265224896
+  },
+  "H6_zne_quadratic_p0_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0012759221700602919,
+    "MSE_own_p0_mean": 0.00011180955964827689,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 56,
+          "rejected": 8
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 5626184896
+  },
+  "H6_zne_quadratic_p0_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0011735652136250884,
+    "MSE_own_p0_mean": 1.1334117586259514e-05,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 56265224896
+  },
+  "H6_zne_quadratic_p0.01_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.0057319751841446685,
+    "MSE_own_p0_mean": 0.006058288973948821,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 40,
+          "rejected": 24
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 5626184896
+  },
+  "H6_zne_quadratic_p0.01_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.005501051991448294,
+    "MSE_own_p0_mean": 0.005848584294916829,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "rejected": 32
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 32,
+          "wrong_accepted": 32
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "correct": 36,
+          "rejected": 28
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 56265224896
+  },
+  "H6_zne_quadratic_p0.05_10000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.1085277131797588,
+    "MSE_own_p0_mean": 0.11233382468530749,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 16320000,
+    "total_gate_shots": 5626184896
+  },
+  "H6_zne_quadratic_p0.05_100000": {
+    "physical_coordinates": 51,
+    "measurement_repeats": 1632,
+    "MSE_ED_mean": 0.10831061801407113,
+    "MSE_own_p0_mean": 0.11212757778841297,
+    "label_repeat_counts": {
+      "D1": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D3": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D4": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      },
+      "D5": {
+        "physical_label": {
+          "reference_unlabelled": 1632
+        },
+        "RN_proxy": {
+          "reference_unlabelled": 1568,
+          "rejected": 64
+        }
+      }
+    },
+    "total_shots": 163200000,
+    "total_gate_shots": 56265224896
+  }
+}

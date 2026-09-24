@@ -1,0 +1,25 @@
+{
+  "pid": 42121,
+  "sweeps": 5,
+  "seconds": 82.70068254199577,
+  "last_delta_E": [
+    -1.730882104311604e-11
+  ],
+  "last_delta_S": [
+    2.0760295482702418e-08
+  ],
+  "key": {
+    "n": 128,
+    "kappa": 0.8,
+    "h": 0.4,
+    "chi": 256,
+    "initial": "plus",
+    "sweeps": 24,
+    "resume": "results/stage6_v1/floating_boundary_scan/cache/54f66289f3dd35d75c60edeb4b63efe2f7f9c2bc38a6ba87edb99912c94bf179.pkl",
+    "resume_sha": "57330dcb16aa1daa11244625904df449f4f1b4c320595a1851bd6507dd3f355c",
+    "max_seconds": 600,
+    "code": "9fa39216ae7448866aadd17b2e5e5e63689b202c27ff3c9f2f3aeec7951726d7",
+    "tenpy": "1.1.1",
+    "bc": "OBC"
+  }
+}

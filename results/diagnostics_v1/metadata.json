@@ -1,0 +1,59 @@
+{
+  "created_utc": "2026-09-22T03:41:21.641573+00:00",
+  "elapsed_seconds": 1.8206944999983534,
+  "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pennylane": "0.44.1"
+  },
+  "source_sha256": {
+    "annni/diagnostics.py": "a3dd1553df1080e84c9a87448485d818f2185e8fe85b87f008be4807bb1d4adb",
+    "scripts/run_diagnostics.py": "ac262d4b29f43c5e0f812276272e329345383b88415cf9e9b70e262e0ec76be8",
+    "configs/diagnostics_v1.json": "2bbe641f2639cbd5c28e3c2148f8b2a1674b635a9f8417c360a3c8cfa4da6a6a",
+    "tests/test_diagnostics.py": "2f32a0fe5f2e6297af8b78515f58e6595e126a23ff891fa1723c34b7ad8764dc"
+  },
+  "input_sha256": {
+    "results/baseline/grid_n8.npz": "09ad1a227d7ff346aae940468f4d67ff4587832b982986b920db2957c3af3dc2",
+    "results/baseline/slices_n8.npz": "a374e520bbfb6b2f905da1ccf4d294c943fcd97c2d3b389c62e3e27b91bf7184",
+    "results/baseline/slices_n12.npz": "fdbaba3b0c0dd88c27c01496d4c67e5ea30e35339c31ee66ad8918043f79c67c",
+    "results/baseline/slices_n16.npz": "e42324e957c44f6596ca77c839a1616700b086c73b432ffc15de2db3318380f0"
+  },
+  "protocol": {
+    "version": "operational_diagnostics_v1",
+    "frozen_before_noise": true,
+    "reference_source": "Analytical noiseless ferro, period-four antiphase, plus-product and maximally mixed controls, not fitted phase labels",
+    "features": [
+      "m0_squared",
+      "2*m_pi_over_2_squared",
+      "Mx"
+    ],
+    "normalization": "Fixed analytic scales 1, 1/2, 1; self correlations retained",
+    "prototype_max_distance": 0.45,
+    "prototype_min_margin": 0.1,
+    "distance": "Euclidean, equal feature weights; all four controls included",
+    "near_peak_relative_tolerance": 0.1,
+    "near_peak_absolute_tolerance": 0.005,
+    "wavevector_folding": "average m(k) and m(N-k), preserving amplitude; report both partner indices",
+    "derivative": "numpy.gradient edge_order=2, h>0 only",
+    "smoothing": "none",
+    "interpolation": "none",
+    "local_peak_prominence": 0.0,
+    "peak_intervals": "derivative: neighboring h nodes; chiF: supporting original h interval; grid resolution only",
+    "phase_claim": "No thermodynamic phase or floating-phase confirmation; prototype output is a control resemblance diagnostic"
+  },
+  "new_ED_solves": 0,
+  "cache_source": "Read-only original baseline NPZ; validated shapes, FFT identity, h_mid and h=0 missingness",
+  "model": "periodic H=-sum ZZ_nn+kappa sum ZZ_nnn-h sum X; all q include self correlations",
+  "basis_order": "Wire 0 most significant bit, checked by main calibration tests; diagnostics use existing observables",
+  "dataset_layout": "[kappa_index,h_index,...]; chi_f uses h_mid",
+  "failures": [],
+  "retries": [],
+  "unfinished": [
+    "No thermodynamic phase identification",
+    "No floating phase confirmation",
+    "No statistical uncertainty intervals"
+  ]
+}

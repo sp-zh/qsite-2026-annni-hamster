@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-09-23T04:20:23.243380+00:00",
+  "settings": [
+    [
+      0.45,
+      0.025,
+      7,
+      31
+    ],
+    [
+      0.45,
+      0.0875,
+      31,
+      63
+    ],
+    [
+      0.55,
+      0.025,
+      6,
+      32
+    ],
+    [
+      0.55,
+      0.1,
+      32,
+      64
+    ]
+  ],
+  "p": [
+    0,
+    0.01,
+    0.05
+  ],
+  "selection": "Exploratory post-window inspection: two initial gate-count jumps and two spurious low-field interior-response intervals. Not blind confirmation.",
+  "comparison": "At the SAME Hamiltonian coordinate, compare actual saved checkpoints from the SAME original seed/reference growth run. This is not a directional-chain or opposite-reference surrogate.",
+  "resources": "Eight literal N8 circuits,24 exact-density evaluations maximum; shots=None, no optimization, no added deployment samples.",
+  "limits": "Changing growth checkpoint changes both parameters and gates; this is not an isolated one-CNOT causal effect. Full parameters/gates and p0 differences are retained."
+}

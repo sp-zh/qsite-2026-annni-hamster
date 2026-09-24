@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "seconds": 0.1110207499586977,
+  "circuits": [
+    {
+      "method": "C0",
+      "kappa": 0.45,
+      "h": 0.15,
+      "energy": -4.563499271648733,
+      "state_max_error": 5.572756979560851e-16,
+      "CNOTs": 128
+    },
+    {
+      "method": "C3",
+      "kappa": 0.45,
+      "h": 0.15,
+      "energy": -4.572911592530544,
+      "state_max_error": 1.915939058008389e-15,
+      "CNOTs": 127
+    },
+    {
+      "method": "C0",
+      "kappa": 0.5,
+      "h": 0.15,
+      "energy": -4.561140203328666,
+      "state_max_error": 4.450673028270728e-16,
+      "CNOTs": 127
+    },
+    {
+      "method": "C3",
+      "kappa": 0.5,
+      "h": 0.15,
+      "energy": -4.568358278856289,
+      "state_max_error": 1.9707382527856237e-15,
+      "CNOTs": 127
+    }
+  ],
+  "raw_measurement_counts_reconstructed": true,
+  "scope": "Four actual saved circuits and one whole-bitstring raw measurement. No full scientific rerun; MPS convergence and phase claims require the full evidence tables."
+}

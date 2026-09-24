@@ -1,0 +1,2893 @@
+{
+  "rows": [
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 0.9375,
+        "wrong_accepted": 1.0625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.0,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 4.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.0,
+        "wrong_accepted": 1.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.0,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 4.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 61.6875,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 1.15625,
+        "rejected": 1.15625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.0,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 4.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.15625,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.78125,
+        "wrong_accepted": 0.0625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.9375,
+        "wrong_accepted": 0.0625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 0.84375,
+        "wrong_accepted": 1.15625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.0,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 4.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 51.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 13.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 51,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2,
+        "noise_or_detector_limited_RN_pattern": 11
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0,
+        "wrong_accepted": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.9375,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.8125,
+        "wrong_accepted": 0.25
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 61,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2,
+        "noise_or_detector_limited_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 19.875,
+        "rejected": 4.125,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 42.5,
+        "rejected": 21.5,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 44,
+        "noise_or_detector_limited_RN_pattern": 18,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 51.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 13.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 51,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2,
+        "noise_or_detector_limited_RN_pattern": 11
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0,
+        "wrong_accepted": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 61.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.9375,
+        "wrong_accepted": 0.0625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 61,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2,
+        "noise_or_detector_limited_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 20.15625,
+        "rejected": 3.84375,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 43.6875,
+        "rejected": 20.3125,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 44,
+        "noise_or_detector_limited_RN_pattern": 18,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 61.25,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.75
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 61,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2,
+        "noise_or_detector_limited_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.0625,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 3.9375
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.03125,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.96875
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.6875,
+        "reference_unlabelled": 32.0,
+        "rejected": 3.3125
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 61,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1,
+        "noise_or_detector_limited_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 61.4375,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.5625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 61,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2,
+        "noise_or_detector_limited_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.0,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 4.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 61.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 3.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 61,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1,
+        "noise_or_detector_limited_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 18.0,
+        "correct": 6.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 55.0,
+        "correct": 9.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 53,
+        "exact_RN_pattern_reconstructed": 9,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 13.0,
+        "rejected": 11.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 34.0,
+        "rejected": 30.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 34,
+        "noise_or_detector_limited_RN_pattern": 26,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 18.0,
+        "correct": 6.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 51.90625,
+        "correct": 12.09375,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 50,
+        "exact_RN_pattern_reconstructed": 12,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 19.9375,
+        "correct": 4.0625,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 56.9375,
+        "correct": 7.0625,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 55,
+        "exact_RN_pattern_reconstructed": 7,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 18.0,
+        "correct": 6.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 55.0,
+        "correct": 9.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 53,
+        "exact_RN_pattern_reconstructed": 9,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 13.0,
+        "rejected": 11.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 34.0,
+        "rejected": 30.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 34,
+        "noise_or_detector_limited_RN_pattern": 26,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 18.0,
+        "correct": 6.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 51.90625,
+        "correct": 12.09375,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 50,
+        "exact_RN_pattern_reconstructed": 12,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 20.0,
+        "reference_unlabelled": 72.0,
+        "correct": 4.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 57.0,
+        "correct": 7.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 55,
+        "exact_RN_pattern_reconstructed": 7,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 17.15625,
+        "rejected": 6.84375,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 38.15625,
+        "rejected": 25.84375,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 39,
+        "noise_or_detector_limited_RN_pattern": 23,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 19.4375,
+        "rejected": 4.5625,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 43.21875,
+        "rejected": 20.78125,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 43,
+        "noise_or_detector_limited_RN_pattern": 17,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 18.25,
+        "rejected": 5.75,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 39.375,
+        "rejected": 24.625,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 39,
+        "noise_or_detector_limited_RN_pattern": 23,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 16.65625,
+        "correct": 7.34375,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 53.65625,
+        "correct": 10.34375,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 52,
+        "exact_RN_pattern_reconstructed": 10,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 17.5,
+        "rejected": 6.5,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 38.5,
+        "rejected": 25.5,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 39,
+        "noise_or_detector_limited_RN_pattern": 23,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 19.15625,
+        "rejected": 4.84375,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 42.78125,
+        "rejected": 21.21875,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 43,
+        "noise_or_detector_limited_RN_pattern": 17,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 18.125,
+        "rejected": 5.875,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 39.125,
+        "rejected": 24.875,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 39,
+        "noise_or_detector_limited_RN_pattern": 23,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "B3",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 17.0625,
+        "correct": 6.9375,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 54.0625,
+        "correct": 9.9375,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 52,
+        "exact_RN_pattern_reconstructed": 10,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.4375,
+        "wrong_accepted": 0.5625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.0,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 4.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.125,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.875
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.375,
+        "wrong_accepted": 0.625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.0,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 4.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 61.78125,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.375,
+        "wrong_accepted": 0.84375
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.28125,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 3.71875
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.375,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.5625,
+        "wrong_accepted": 0.0625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 10000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0625,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.875,
+        "wrong_accepted": 0.0625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.5,
+        "wrong_accepted": 0.5
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.0,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 4.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.125,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.875
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0,
+      "budget": 100000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 22.0,
+        "rejected": 2.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 35.0625,
+        "rejected": 28.9375,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 35,
+        "noise_or_detector_limited_RN_pattern": 27,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 59.96875,
+        "rejected": 3.0,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 1.03125
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 22.0,
+        "rejected": 2.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 53.1875,
+        "rejected": 10.8125,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 53,
+        "noise_or_detector_limited_RN_pattern": 9,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 9.46875,
+        "correct": 14.53125,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 45.1875,
+        "correct": 18.8125,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 43,
+        "exact_RN_pattern_reconstructed": 19,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 22.0,
+        "rejected": 2.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 35.0,
+        "rejected": 29.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 35,
+        "noise_or_detector_limited_RN_pattern": 27,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.0,
+        "reference_unlabelled": 32.0,
+        "rejected": 3.0,
+        "wrong_accepted": 1.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 22.0,
+        "rejected": 2.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 53.28125,
+        "rejected": 10.71875,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 53,
+        "noise_or_detector_limited_RN_pattern": 9,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 9.0,
+        "correct": 15.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 45.0,
+        "correct": 19.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 43,
+        "exact_RN_pattern_reconstructed": 19,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 61.21875,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.78125
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 61,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2,
+        "noise_or_detector_limited_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.1875,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 3.8125
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.625,
+        "rejected": 1.375,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 10000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 21.96875,
+        "rejected": 2.03125,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 52.90625,
+        "rejected": 11.09375,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 53,
+        "noise_or_detector_limited_RN_pattern": 9,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 61.0625,
+        "reference_unlabelled": 32.0,
+        "rejected": 2.9375
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 61,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2,
+        "noise_or_detector_limited_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 60.09375,
+        "reference_unlabelled": 32.0,
+        "wrong_accepted": 3.90625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 62.59375,
+        "reference_unlabelled": 32.0,
+        "rejected": 1.40625
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.01,
+      "budget": 100000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "correct": 22.0,
+        "rejected": 2.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "correct": 53.15625,
+        "rejected": 10.84375,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "exact_RN_pattern_reconstructed": 53,
+        "noise_or_detector_limited_RN_pattern": 9,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 64.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 64.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 64.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 64.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 64.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 64.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 60,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 64.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "raw",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 64.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 22.96875,
+        "reference_unlabelled": 72.0,
+        "correct": 1.03125
+      },
+      "RN_proxy_counts": {
+        "rejected": 62.96875,
+        "correct": 1.03125,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 61,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "exact_RN_pattern_reconstructed": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 17.875,
+        "correct": 6.125,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 55.28125,
+        "correct": 8.71875,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 53,
+        "exact_RN_pattern_reconstructed": 7,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 23.65625,
+        "correct": 0.34375,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 63.59375,
+        "correct": 0.40625,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 10000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 64.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D1",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 23.125,
+        "reference_unlabelled": 72.0,
+        "correct": 0.875
+      },
+      "RN_proxy_counts": {
+        "rejected": 63.125,
+        "reference_unlabelled": 32.0,
+        "correct": 0.875
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 61,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "exact_RN_pattern_reconstructed": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D3",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 18.5,
+        "correct": 5.5,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 56.375,
+        "correct": 7.625,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 53,
+        "exact_RN_pattern_reconstructed": 7,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "detector_limited_on_perfect_ED_RN_pattern": 4
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D4",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 23.96875,
+        "correct": 0.03125,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 63.96875,
+        "correct": 0.03125,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 2
+      }
+    },
+    {
+      "method": "H6",
+      "estimator": "zne_quadratic",
+      "p": 0.05,
+      "budget": 100000,
+      "detector": "D5",
+      "coordinates": 96,
+      "physical_labelled": 24,
+      "RN_proxy_labelled": 64,
+      "physical_counts": {
+        "rejected": 24.0,
+        "reference_unlabelled": 72.0
+      },
+      "RN_proxy_counts": {
+        "rejected": 64.0,
+        "reference_unlabelled": 32.0
+      },
+      "reference_levels": {
+        "R0_extension": 20,
+        "Rlarge_ED_interior": 44,
+        "RN_only": 32
+      },
+      "RN_proxy_attribution": {
+        "noise_or_detector_limited_RN_pattern": 62,
+        "RN_discrete_pattern_unresolved_use_continuous_curves": 32,
+        "preparation_limited_for_RN_detector": 1,
+        "detector_limited_on_perfect_ED_RN_pattern": 1
+      }
+    }
+  ],
+  "note": "Both columns retain every requested/executed coordinate. Physical labels use independent R0/interior evidence; RN proxy labels retain v1 multi-N order/Binder/gap patterns. Better apparent accuracy after reducing label coverage is NOT treated as an algorithm improvement. Thirty-two repeats normalized within each coordinate."
+}

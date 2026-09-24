@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-09-22T20:01:49.754785+00:00",
+  "issue": "Legacy reference checkpoints set optimizer_success=True although no optimizer generated that checkpoint.",
+  "correction": "Preserve raw flags and all acceptance counts. Derived optimizer_success excludes unoptimized reference checkpoints; reference_selections and raw_checkpoint_success_flags are separate. Actual optimizer-step logs remain authoritative for termination.",
+  "no_circuit_or_selection_changes": true,
+  "prior_summary_copy": "results/stage5_v1/verification/status_before_clarification"
+}

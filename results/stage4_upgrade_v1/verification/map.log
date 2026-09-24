@@ -1,0 +1,87 @@
+map 1 seconds 0.16
+map 6 seconds 8.97
+map 11 seconds 15.58
+map 16 seconds 68.56
+map 21 seconds 106.66
+map 26 seconds 126.68
+map 31 seconds 160.37
+map 36 seconds 222.39
+map 41 seconds 287.11
+map 46 seconds 313.9
+map 51 seconds 359.56
+map 56 seconds 415.72
+map 61 seconds 453.04
+map 66 seconds 484.74
+map 71 seconds 526.83
+map 76 seconds 578.76
+map 81 seconds 595.64
+map 86 seconds 627.28
+map 91 seconds 673.07
+map 96 seconds 721.82
+map 101 seconds 768.35
+map 106 seconds 796.87
+map 111 seconds 846.72
+map 116 seconds 919.71
+map 121 seconds 983.67
+map 126 seconds 985.12
+map 131 seconds 1057.25
+map 136 seconds 1129.72
+map 141 seconds 1194.09
+map 146 seconds 1242.12
+map 151 seconds 1322.61
+map 156 seconds 1410.9
+map 161 seconds 1477.53
+map 166 seconds 1538.04
+map 171 seconds 1624.43
+map 176 seconds 1719.52
+map 181 seconds 1811.81
+map 186 seconds 1885.63
+map 191 seconds 1994.29
+map 196 seconds 2111.71
+map 201 seconds 2207.55
+map 206 seconds 2286.98
+map 211 seconds 2401.18
+map 216 seconds 2530.42
+map 221 seconds 2638.07
+Traceback (most recent call last):
+  File "scripts/run_upgrade.py", line 29, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--task',choices=['development','validation','heldout','map','n12'],required=True);a=p.parse_args();main(a.task)
+                                                                                                                                                   ~~~~^^^^^^^^
+  File "scripts/run_upgrade.py", line 18, in main
+    r=adaptive(n,k,h,ref,seed,128,'cost',True,task);allmain.append(r)
+  File "annni/upgrade_adapt.py", line 71, in adaptive
+    tied=np.flatnonzero(scores>=best*(1-1e-8)-1e-12);idx=int(rng.choice(tied));words.append(poolwords[idx]);initial=np.r_[params,rng.uniform(-.01,.01)];fit,state=optimize_words(n,k,h,ref,words,initial);params=fit.x;previous=energy;energy=float(fit.fun);calls+=fit.nfev;iters+=fit.nit
+                                                                                                                                                                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "annni/upgrade_adapt.py", line 41, in optimize_words
+    fit=minimize(fun,initial,jac=True,method='L-BFGS-B',options=dict(maxiter=maxiter or PLAN['maxiter'],ftol=PLAN['ftol'],gtol=PLAN['gtol'],maxls=30))
+  File ".venv/lib/python3.14/site-packages/scipy/optimize/_minimize.py", line 784, in minimize
+    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,
+                           callback=callback, **options)
+  File ".venv/lib/python3.14/site-packages/scipy/optimize/_lbfgsb_py.py", line 420, in _minimize_lbfgsb
+    f, g = func_and_grad(x)
+           ~~~~~~~~~~~~~^^^
+  File ".venv/lib/python3.14/site-packages/scipy/optimize/_differentiable_functions.py", line 412, in fun_and_grad
+    self._update_fun()
+    ~~~~~~~~~~~~~~~~^^
+  File ".venv/lib/python3.14/site-packages/scipy/optimize/_differentiable_functions.py", line 362, in _update_fun
+    fx = self._wrapped_fun(self.x)
+  File ".venv/lib/python3.14/site-packages/scipy/_lib/_util.py", line 544, in __call__
+    fx = self.f(np.copy(x), *self.args)
+  File ".venv/lib/python3.14/site-packages/scipy/optimize/_optimize.py", line 80, in __call__
+    self._compute_if_needed(x, *args)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ".venv/lib/python3.14/site-packages/scipy/optimize/_optimize.py", line 74, in _compute_if_needed
+    fg = self.fun(x, *args)
+  File "annni/upgrade_adapt.py", line 40, in fun
+    def fun(x):return state_and_grad(x,words,n,ref,k,h)[:2]
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "annni/upgrade_gates.py", line 137, in state_and_grad
+    for t,w in zip(params,words):state=rotate(state,w,t);states.append(state)
+                                       ~~~~~~^^^^^^^^^^^
+  File "annni/upgrade_gates.py", line 103, in rotate
+    def rotate(state,word,theta):return np.cos(theta)*state-1j*np.sin(theta)*apply_pauli(state,word)
+                                                                             ~~~~~~~~~~~^^^^^^^^^^^^
+  File "annni/upgrade_gates.py", line 100, in apply_pauli
+    def apply_pauli(state,word):
+    
+KeyboardInterrupt

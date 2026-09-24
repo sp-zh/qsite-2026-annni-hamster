@@ -1,0 +1,58 @@
+{
+  "time": "2026-09-23T08:43:04.980340+00:00",
+  "reviewed": [
+    {
+      "path": "results/stage6_v1/n8_maps/figures/map_m0_squared_raw_three_p.png",
+      "sha256": "eadd50dbf491538b6ee1acaaee2c61cdd07ece06219bacae245f1977b376a70c"
+    },
+    {
+      "path": "results/stage6_v1/n8_maps/figures/map_m_pi2_squared_raw_three_p.png",
+      "sha256": "6b513274e04a12422582fe2aea9405a0f80d260a3c567d31cc2dbfa32ced9db8"
+    },
+    {
+      "path": "results/stage6_v1/n8_maps/figures/map_Mx_raw_three_p.png",
+      "sha256": "e87ba7a475c3eaed3101415e53080edb0adc2d52732f3822d20bb3ef4feda8b8"
+    },
+    {
+      "path": "results/stage6_v1/n8_maps/figures/map_D4_frozen_estimator_single.png",
+      "sha256": "b5c2a6eade79393ab1bb07555671341c7ec4dd26a689e00122f1edcf2e8c79a6"
+    },
+    {
+      "path": "results/stage6_v1/n12_transfer/figures/n12_192_region_quality.png",
+      "sha256": "67da4b195e648d3fb048ad9815b64c386b2f2c4ae9c9cde6fa48780ea0b68902"
+    },
+    {
+      "path": "results/stage6_v1/n12_transfer/figures/n12_192_full_structure_factor.png",
+      "sha256": "17a63d5481005b868fe925b8002b420bb3dac1f4449cdacd9d05aa87cb72b17f"
+    },
+    {
+      "path": "results/stage6_v1/end_to_end/figures/confirmation_all_detector_comparison.png",
+      "sha256": "21cbc536c8dab6b750c766b14e1a1422206f4d82caeb77cd4f596ce604d04e6c"
+    },
+    {
+      "path": "results/stage6_v1/end_to_end/figures/D2_full_state_response_curves.png",
+      "sha256": "fc9c375910e21cc74040604f0bc3ef73f26fb6481692e959548be411dff70a8c"
+    },
+    {
+      "path": "results/stage6_v1/reference_atlas/figures/reference_layers_v5.png",
+      "sha256": "d87d1c541b8c6668d69d5aaf30470aa8c602150bce8ba084136d147d74dcc436"
+    },
+    {
+      "path": "results/stage6_v1/reference_atlas/figures/reference_layers_v6.png",
+      "sha256": "d3832e2152dc17aaae973dd9b5896bd43f26eabc5e97d44e4530cee5dc2e5abb"
+    },
+    {
+      "path": "results/stage6_v1/floating_boundary_scan/figures/h425_directed_controls.png",
+      "sha256": "352f2091eb0371983ad48752438454094d83676db9097327b01d1e54d4765cbb"
+    }
+  ],
+  "checks": [
+    "Axis and wavevector conventions",
+    "Shared scale across methods/noise",
+    "Rejected versus unmeasured labels",
+    "Single100k versus32repeat resource scope",
+    "Invalid bounded Friedel fits explicitly marked",
+    "Titles and legends readable; long main-map subplot titles reduced"
+  ],
+  "scope": "Actual visual review of these final figures; not a substitute for physics tests or a claim to inspect every generated figure."
+}

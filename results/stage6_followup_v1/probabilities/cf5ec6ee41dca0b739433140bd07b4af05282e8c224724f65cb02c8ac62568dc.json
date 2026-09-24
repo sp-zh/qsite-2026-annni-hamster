@@ -1,0 +1,149 @@
+{
+  "key": {
+    "n": 8,
+    "kappa": 0.45,
+    "h": 0.0125,
+    "bc": "PBC",
+    "gates": [
+      [
+        "H",
+        0
+      ],
+      [
+        "CNOT",
+        0,
+        1
+      ],
+      [
+        "CNOT",
+        1,
+        2
+      ],
+      [
+        "CNOT",
+        2,
+        3
+      ],
+      [
+        "CNOT",
+        3,
+        4
+      ],
+      [
+        "CNOT",
+        4,
+        5
+      ],
+      [
+        "CNOT",
+        5,
+        6
+      ],
+      [
+        "CNOT",
+        6,
+        7
+      ]
+    ],
+    "p": 0.05,
+    "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+    "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+    "sv": true,
+    "keep": false,
+    "shots": null
+  },
+  "bases": [
+    "ZZZZZZZZ",
+    "XXXXXXXX",
+    "YYXXXXXX",
+    "YXYXXXXX",
+    "YXXYXXXX",
+    "YXXXYXXX",
+    "YXXXXYXX",
+    "YXXXXXYX",
+    "YXXXXXXY",
+    "XYYXXXXX",
+    "XYXYXXXX",
+    "XYXXYXXX",
+    "XYXXXYXX",
+    "XYXXXXYX",
+    "XYXXXXXY",
+    "XXYYXXXX",
+    "XXYXYXXX",
+    "XXYXXYXX",
+    "XXYXXXYX",
+    "XXYXXXXY",
+    "XXXYYXXX",
+    "XXXYXYXX",
+    "XXXYXXYX",
+    "XXXYXXXY",
+    "XXXXYYXX",
+    "XXXXYXYX",
+    "XXXXYXXY",
+    "XXXXXYYX",
+    "XXXXXYXY",
+    "XXXXXXYY"
+  ],
+  "archive": "results/stage6_followup_v1/probabilities/cf5ec6ee41dca0b739433140bd07b4af05282e8c224724f65cb02c8ac62568dc.npz",
+  "sha256": "59921d4a4671eb8e65400cb0af17b09ac481d4db0b61eabc8c666d3731fdc7dd",
+  "fold": 1,
+  "p": 0.05,
+  "sv": true,
+  "seconds": 0.0027458330150693655,
+  "disposition": "historical_reused",
+  "source": {
+    "metadata": "results/stage6_v1/end_to_end/probabilities/cf5ec6ee41dca0b739433140bd07b4af05282e8c224724f65cb02c8ac62568dc.json",
+    "metadata_sha": "3657aebd323e2307a3a55cdd6dde97f10875e8fa6d9f0ebeeafa6dc4c4c7a8b5",
+    "archive": "results/stage6_v1/end_to_end/probabilities/cf5ec6ee41dca0b739433140bd07b4af05282e8c224724f65cb02c8ac62568dc.npz",
+    "sha256": "59921d4a4671eb8e65400cb0af17b09ac481d4db0b61eabc8c666d3731fdc7dd"
+  },
+  "noise_channels": 7,
+  "one_qubit_gates": 1,
+  "process_peak_rss_bytes": 972914688,
+  "cnots": 7,
+  "gate_count": 8,
+  "unitary_depth": 8,
+  "target_counts": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "cnot_order": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "trace_real": 0.9999999999999998,
+  "hermiticity": 0.0,
+  "min_eigenvalue": 2.2862368541380886e-11
+}

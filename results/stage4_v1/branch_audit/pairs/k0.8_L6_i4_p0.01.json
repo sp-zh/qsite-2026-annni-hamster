@@ -1,0 +1,491 @@
+{
+  "id": "k0.8_L6_i4",
+  "kappa": 0.8,
+  "layers": 6,
+  "left_h": 0.25,
+  "right_h": 0.3,
+  "left_branch_id": "stage3_slices/k0.8/L6/descending/seed101/independent_endpoint",
+  "right_branch_id": "stage3_slices/k0.8/L6/ascending/seed101/independent_endpoint",
+  "comparison_p": 0.01,
+  "endpoints": [
+    {
+      "p": 0.01,
+      "h": 0.25,
+      "pair_complete": true,
+      "both_preparations_pass": true,
+      "actual_switch_pair_checked": true,
+      "actual_switch_pair_sensitive": true,
+      "comparison_parameter_hashes": [
+        "c4c4c7340248f07e0e9f19d56ad83469d1382761dfed7a4d338b93d545eae566",
+        "80326a0c8cfb682c2df0f39fd2a6fd3255cb56987ac89899640555b0391e32ee"
+      ],
+      "comparison_metrics": {
+        "epsilon_c": 0.058106290389550064,
+        "epsilon_sf": 0.014704150676134564,
+        "epsilon_mx": 0.011759082475766902,
+        "signed": {
+          "correlations": [
+            -2.6645352591003757e-15,
+            0.0051201728054448385,
+            -0.029763457509764613,
+            -0.0002682671651112489,
+            0.058106290389550064,
+            -0.0002682671651112489,
+            -0.029763457509764613,
+            0.0051201728054448385
+          ],
+          "structure_factor": [
+            0.0010353983313356463,
+            -0.006310735687894878,
+            0.014704150676134564,
+            -0.008215836909493304,
+            -0.0013905544888311305,
+            -0.008215836909493304,
+            0.014704150676134564,
+            -0.006310735687894878
+          ],
+          "mx": -0.011759082475766902
+        }
+      },
+      "density_a": {
+        "key": {
+          "fingerprint": {
+            "sources": {
+              "configs/stage3_v1.json": "11523a9562c693b55f2370661d197a1677ce8be8c25c2114de266d3f26a38d56",
+              "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+              "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+              "annni/vqe.py": "d2ad75b5625579dd9cd7472a4b7cb1266ab89011aecd0efb7875f8c8adc11f3c",
+              "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+              "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d",
+              "annni/diagnostics.py": "a3dd1553df1080e84c9a87448485d818f2185e8fe85b87f008be4807bb1d4adb",
+              "configs/diagnostics_v1.json": "2bbe641f2639cbd5c28e3c2148f8b2a1674b635a9f8417c360a3c8cfa4da6a6a",
+              "requirements.lock.txt": "4a17ebd6a02afa38831fb15a1d60df23fcb7f3bd62287bc19a0438e014c9235d"
+            },
+            "versions": {
+              "numpy": "2.5.3",
+              "scipy": "1.18.1",
+              "pennylane": "0.44.1",
+              "matplotlib": "3.11.2"
+            },
+            "n": 8,
+            "basis": "wire0 MSB"
+          },
+          "params_sha256": "c4c4c7340248f07e0e9f19d56ad83469d1382761dfed7a4d338b93d545eae566",
+          "kappa": 0.8,
+          "h": 0.25,
+          "L": 6,
+          "p": 0.01,
+          "backend": "dense_literal full256",
+          "compile": "original no cancellation",
+          "model": "periodic H=-sum ZZ_nn+kappa sum ZZ_nnn-h sum X; wire0 MSB"
+        },
+        "kappa": 0.8,
+        "h": 0.25,
+        "layers": 6,
+        "p": 0.01,
+        "energy": -2.835210358684167,
+        "mx": 0.09632538159733542,
+        "fidelity_ed": 0.18473441343621716,
+        "trace_real": 0.9999999999999996,
+        "trace_imag": -3.925997710523682e-17,
+        "hermiticity_error": 1.4012657719410507e-17,
+        "min_eigenvalue": 0.00045653227947834964,
+        "max_eigenvalue": 0.18501033424366908,
+        "purity": 0.04066901425690864,
+        "r_mix": 0.036906931959876904,
+        "d_mix": 0.44931448596655393,
+        "cnot_count": 192,
+        "depth": 223,
+        "target_counts": [
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "params_sha256": "c4c4c7340248f07e0e9f19d56ad83469d1382761dfed7a4d338b93d545eae566",
+        "preparation_failed": false,
+        "diagnostic_uncertain": false,
+        "noise_degraded": true,
+        "branch_sensitive": false,
+        "numerical_error": false,
+        "diagnostic": "degraded",
+        "epsilon_c_total": 0.6325401456875771,
+        "epsilon_sf_total": 0.22084098535251995,
+        "epsilon_mx_total": 0.07486195080827651,
+        "epsilon_c_noise": 0.632625419353281,
+        "epsilon_sf_noise": 0.22086675992300836,
+        "epsilon_mx_noise": 0.07476287193905176,
+        "evolution_seconds": 0.12476999999489635,
+        "postprocess_seconds": 0.014494041999569163,
+        "source_optimization": "C_k0.80_L6_descending_s101_h0.25",
+        "group_first_evaluated": "C",
+        "created_utc": "2026-09-22T04:29:10.993466+00:00",
+        "end_to_end_seconds": 0.14499491700553335,
+        "archive_sha256": "75a011155f999636fe497a68d7689482b23a2df9f70ded23f0e1dc1e64679f72",
+        "archive": "results/stage3_v1/density_cache/1b72293a1af720a3d770b43ca84171b66051155e6423bf6f7f88d89c499745ea.npz",
+        "cache_status": "reused_stage3",
+        "physical_key": {
+          "physics": {
+            "sources": {
+              "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+              "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+              "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+              "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d"
+            },
+            "versions": {
+              "numpy": "2.5.3",
+              "scipy": "1.18.1",
+              "pennylane": "0.44.1",
+              "matplotlib": "3.11.2"
+            },
+            "basis": "wire0 MSB",
+            "n": 8,
+            "compile": "literal unchanged NN NNN RX, target channel after every CNOT"
+          },
+          "params": "c4c4c7340248f07e0e9f19d56ad83469d1382761dfed7a4d338b93d545eae566",
+          "coordinate": "k0x1.999999999999ap-1_h0x1.0000000000000p-2",
+          "p": 0.01
+        }
+      },
+      "density_b": {
+        "key": {
+          "physics": {
+            "sources": {
+              "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+              "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+              "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+              "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d"
+            },
+            "versions": {
+              "numpy": "2.5.3",
+              "scipy": "1.18.1",
+              "pennylane": "0.44.1",
+              "matplotlib": "3.11.2"
+            },
+            "basis": "wire0 MSB",
+            "n": 8,
+            "compile": "literal unchanged NN NNN RX, target channel after every CNOT"
+          },
+          "params": "80326a0c8cfb682c2df0f39fd2a6fd3255cb56987ac89899640555b0391e32ee",
+          "coordinate": "k0x1.999999999999ap-1_h0x1.0000000000000p-2",
+          "p": 0.01
+        },
+        "archive": "results/stage4_v1/density/2ba71b57b96c3e890957358890a49cb4a06d9c0601b77052a4bfe6d8b1b40b52.npz",
+        "archive_sha256": "2820312af1958ffd517b4fbd9ab340d04977d00f2979c29ecfbc91f39a5471b1",
+        "kappa": 0.8,
+        "h": 0.25,
+        "layers": 6,
+        "p": 0.01,
+        "params_sha256": "80326a0c8cfb682c2df0f39fd2a6fd3255cb56987ac89899640555b0391e32ee",
+        "energy": -3.043139704238685,
+        "mx": 0.08456629912156852,
+        "fidelity_ed": 0.18371699328649943,
+        "r_mix": 0.03771396775241596,
+        "d_mix": 0.4923360941567009,
+        "cnot_count": 192,
+        "target_counts": [
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "end_to_end_seconds": 0.1342094999854453,
+        "cache_status": "executed",
+        "created_utc": "2026-09-22T05:39:27.514801+00:00",
+        "trace_real": 0.9999999999999967,
+        "trace_imag": -1.7699547526266656e-17,
+        "hermiticity_error": 3.4705309847724295e-17,
+        "min_eigenvalue": 0.00041122700185973753,
+        "max_eigenvalue": 0.1837473694386894,
+        "purity": 0.041472897565883085
+      }
+    },
+    {
+      "p": 0.01,
+      "h": 0.3,
+      "pair_complete": true,
+      "both_preparations_pass": true,
+      "actual_switch_pair_checked": true,
+      "actual_switch_pair_sensitive": true,
+      "comparison_parameter_hashes": [
+        "464f3d5d3abd49e5b55ce91e8f4e9847944358c26beb353b7bc41d6d21a93822",
+        "9deab4058a91a5acc0a5a6194a5d8cb366d3b52f6918c712fb9267f70af4f122"
+      ],
+      "comparison_metrics": {
+        "epsilon_c": 0.051802748622089,
+        "epsilon_sf": 0.011282167865469372,
+        "epsilon_mx": 0.024896779475817712,
+        "signed": {
+          "correlations": [
+            3.219646771412954e-15,
+            0.012979693873193065,
+            -0.019227297150831435,
+            -0.001467296524751221,
+            0.051802748622089,
+            -0.001467296524751221,
+            -0.019227297150831435,
+            0.012979693873193065
+          ],
+          "structure_factor": [
+            0.0045466186271641285,
+            -0.003921452358229882,
+            0.011282167865469372,
+            -0.009029234797291563,
+            -0.0012095800470567977,
+            -0.009029234797291563,
+            0.011282167865469372,
+            -0.003921452358229882
+          ],
+          "mx": -0.024896779475817712
+        }
+      },
+      "density_a": {
+        "key": {
+          "physics": {
+            "sources": {
+              "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+              "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+              "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+              "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d"
+            },
+            "versions": {
+              "numpy": "2.5.3",
+              "scipy": "1.18.1",
+              "pennylane": "0.44.1",
+              "matplotlib": "3.11.2"
+            },
+            "basis": "wire0 MSB",
+            "n": 8,
+            "compile": "literal unchanged NN NNN RX, target channel after every CNOT"
+          },
+          "params": "464f3d5d3abd49e5b55ce91e8f4e9847944358c26beb353b7bc41d6d21a93822",
+          "coordinate": "k0x1.999999999999ap-1_h0x1.3333333333333p-2",
+          "p": 0.01
+        },
+        "archive": "results/stage4_v1/density/850f696344f50cb5caf5de2a14bd140f8010d809853168b67aee0616711d0c70.npz",
+        "archive_sha256": "d5923a69d0d78c8cddfd35e4363213e3c37ba1ddf5bd7a3f130db44eea704544",
+        "kappa": 0.8,
+        "h": 0.3,
+        "layers": 6,
+        "p": 0.01,
+        "params_sha256": "464f3d5d3abd49e5b55ce91e8f4e9847944358c26beb353b7bc41d6d21a93822",
+        "energy": -2.976364398819608,
+        "mx": 0.13364443666261183,
+        "fidelity_ed": 0.1884468307220842,
+        "r_mix": 0.03866636544112426,
+        "d_mix": 0.4698495814171007,
+        "cnot_count": 192,
+        "target_counts": [
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "end_to_end_seconds": 0.1343664999876637,
+        "cache_status": "executed",
+        "created_utc": "2026-09-22T05:39:27.649895+00:00",
+        "trace_real": 0.9999999999999958,
+        "trace_imag": -3.805973141897748e-17,
+        "hermiticity_error": 1.435902883673646e-17,
+        "min_eigenvalue": 0.00036718081547134615,
+        "max_eigenvalue": 0.18864910989526973,
+        "purity": 0.042421574951119874
+      },
+      "density_b": {
+        "key": {
+          "fingerprint": {
+            "sources": {
+              "configs/stage3_v1.json": "11523a9562c693b55f2370661d197a1677ce8be8c25c2114de266d3f26a38d56",
+              "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+              "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+              "annni/vqe.py": "d2ad75b5625579dd9cd7472a4b7cb1266ab89011aecd0efb7875f8c8adc11f3c",
+              "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+              "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d",
+              "annni/diagnostics.py": "a3dd1553df1080e84c9a87448485d818f2185e8fe85b87f008be4807bb1d4adb",
+              "configs/diagnostics_v1.json": "2bbe641f2639cbd5c28e3c2148f8b2a1674b635a9f8417c360a3c8cfa4da6a6a",
+              "requirements.lock.txt": "4a17ebd6a02afa38831fb15a1d60df23fcb7f3bd62287bc19a0438e014c9235d"
+            },
+            "versions": {
+              "numpy": "2.5.3",
+              "scipy": "1.18.1",
+              "pennylane": "0.44.1",
+              "matplotlib": "3.11.2"
+            },
+            "n": 8,
+            "basis": "wire0 MSB"
+          },
+          "params_sha256": "9deab4058a91a5acc0a5a6194a5d8cb366d3b52f6918c712fb9267f70af4f122",
+          "kappa": 0.8,
+          "h": 0.3,
+          "L": 6,
+          "p": 0.01,
+          "backend": "dense_literal full256",
+          "compile": "original no cancellation",
+          "model": "periodic H=-sum ZZ_nn+kappa sum ZZ_nnn-h sum X; wire0 MSB"
+        },
+        "kappa": 0.8,
+        "h": 0.3,
+        "layers": 6,
+        "p": 0.01,
+        "energy": -3.143504380828511,
+        "mx": 0.10874765718679412,
+        "fidelity_ed": 0.18557863875080716,
+        "trace_real": 0.9999999999999992,
+        "trace_imag": 2.334285159778923e-17,
+        "hermiticity_error": 5.559409848832899e-17,
+        "min_eigenvalue": 0.00037030018240953496,
+        "max_eigenvalue": 0.18563839262785023,
+        "purity": 0.042140977696124834,
+        "r_mix": 0.03838466780473709,
+        "d_mix": 0.49245856042940994,
+        "cnot_count": 192,
+        "depth": 223,
+        "target_counts": [
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "params_sha256": "9deab4058a91a5acc0a5a6194a5d8cb366d3b52f6918c712fb9267f70af4f122",
+        "preparation_failed": false,
+        "diagnostic_uncertain": false,
+        "noise_degraded": true,
+        "branch_sensitive": false,
+        "numerical_error": false,
+        "diagnostic": "degraded",
+        "epsilon_c_total": 0.5663381634856104,
+        "epsilon_sf_total": 0.202838767295221,
+        "epsilon_mx_total": 0.10552079305120109,
+        "epsilon_c_noise": 0.5667125238892095,
+        "epsilon_sf_noise": 0.20295816566067792,
+        "epsilon_mx_noise": 0.10514473560601371,
+        "evolution_seconds": 0.12550854100845754,
+        "postprocess_seconds": 0.01241912500699982,
+        "source_optimization": "C_k0.80_L6_ascending_s101_h0.30",
+        "group_first_evaluated": "C",
+        "created_utc": "2026-09-22T04:29:11.361300+00:00",
+        "end_to_end_seconds": 0.1434886670031119,
+        "archive_sha256": "065e71991f6aa3516f86f73cab7f24bbd5727821a976173c458dc9cbb61f2ea5",
+        "archive": "results/stage3_v1/density_cache/a52c310164d4b9c5df3aa4544afee3cc53ddb08ecaba1799bfa387c0a2ed3e1d.npz",
+        "cache_status": "reused_stage3",
+        "physical_key": {
+          "physics": {
+            "sources": {
+              "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+              "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+              "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+              "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d"
+            },
+            "versions": {
+              "numpy": "2.5.3",
+              "scipy": "1.18.1",
+              "pennylane": "0.44.1",
+              "matplotlib": "3.11.2"
+            },
+            "basis": "wire0 MSB",
+            "n": 8,
+            "compile": "literal unchanged NN NNN RX, target channel after every CNOT"
+          },
+          "params": "9deab4058a91a5acc0a5a6194a5d8cb366d3b52f6918c712fb9267f70af4f122",
+          "coordinate": "k0x1.999999999999ap-1_h0x1.3333333333333p-2",
+          "p": 0.01
+        }
+      }
+    }
+  ],
+  "actual_switch_pair_checked": true,
+  "actual_switch_pair_sensitive": true,
+  "both_preparations_pass": true,
+  "pair_complete": true,
+  "decomposition": {
+    "correlations": {
+      "total": [
+        -4.440892098500626e-16,
+        0.011922874633276636,
+        -0.022588657972577586,
+        -0.001198685225605919,
+        0.04848197422976708,
+        -0.001198685225605919,
+        -0.022588657972577586,
+        0.011922874633276636
+      ],
+      "same_chain_change": [
+        -3.6637359812630166e-15,
+        -0.0010568192399164292,
+        -0.003361360821746151,
+        0.00026861129914530204,
+        -0.0033207743923219235,
+        0.00026861129914530204,
+        -0.003361360821746151,
+        -0.0010568192399164292
+      ],
+      "switch_change_at_right": [
+        3.219646771412954e-15,
+        0.012979693873193065,
+        -0.019227297150831435,
+        -0.001467296524751221,
+        0.051802748622089,
+        -0.001467296524751221,
+        -0.019227297150831435,
+        0.012979693873193065
+      ]
+    },
+    "structure_factor": {
+      "total": [
+        0.0030941296374941,
+        -0.0037406607897306765,
+        0.011707411271865198,
+        -0.008379832767711204,
+        -0.002267965066341242,
+        -0.008379832767711204,
+        0.011707411271865198,
+        -0.0037406607897306765
+      ],
+      "same_chain_change": [
+        -0.0014524889896700283,
+        0.00018079156849920563,
+        0.0004252434063958255,
+        0.0006494020295803593,
+        -0.001058385019284444,
+        0.0006494020295803593,
+        0.0004252434063958255,
+        0.00018079156849920563
+      ],
+      "switch_change_at_right": [
+        0.0045466186271641285,
+        -0.003921452358229882,
+        0.011282167865469372,
+        -0.009029234797291563,
+        -0.0012095800470567977,
+        -0.009029234797291563,
+        0.011282167865469372,
+        -0.003921452358229882
+      ]
+    },
+    "mx": {
+      "total": 0.0124222755894587,
+      "same_chain_change": 0.03731905506527641,
+      "switch_change_at_right": -0.024896779475817712
+    }
+  },
+  "opposite_direction_checked": null,
+  "opposite_direction_sensitive": null,
+  "actual_switch_pair_sensitive_at_left": true,
+  "actual_switch_pair_sensitive_at_right": true
+}

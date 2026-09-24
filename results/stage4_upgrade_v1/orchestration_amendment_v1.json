@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-22T07:19:37.759673+00:00",
+  "interrupted_pids": [
+    1005,
+    3895,
+    4268
+  ],
+  "reason": "Measured orchestration RSS: main~680MiB, high shard~1.65GiB, mid~944MiB; full trajectories duplicated in index and repeatedly parsed",
+  "change": "Compact orchestration records retain all scientific metrics/selected params and point to immutable full cache JSON/NPZ. Raw optimization archives unchanged. Shards inspect scalar progress, not huge index.",
+  "interrupted_attempts": "Any unfinished optimization at SIGINT was not claimed as a result; completed per-run archives retained. Original index snapshots gzipped and logs preserve KeyboardInterrupt.",
+  "method_or_threshold_changes": false,
+  "deadline_reset": false,
+  "source_snapshots": "results/stage4_upgrade_v1/verification/code_versions"
+}

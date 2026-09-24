@@ -1,0 +1,2079 @@
+{
+  "frozen_utc": "2026-09-24T00:52:19.309724+00:00",
+  "config_sha": "5e028eb7893e96cbd157d31d6ab4bcccb1de6106c64bd7abe21312048e980075",
+  "sampling_engine_sha": "cad687c45d953231c7f96f592b0d6c15d3fee123f4f9ca5c13bf29b02c2a3563",
+  "coordinates": 45,
+  "plans": [
+    {
+      "point_id": "bdd8c3d4964ae686dc5b8a1c40784c73af9414068f959cb28f6d5824b59f7496",
+      "kappa": 0.0,
+      "h": 0.2,
+      "gate_hash": "4ea926e5aae9c4528ff356356453c4ef9dad10ad8fa18cfefc152328e50d6f16",
+      "base_cnots": 31,
+      "fold_counts": {
+        "1": 31,
+        "3": 93,
+        "5": 155
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 3100000,
+      "target_G": 3100000,
+      "physical_label": "ferro-like"
+    },
+    {
+      "point_id": "bdd8c3d4964ae686dc5b8a1c40784c73af9414068f959cb28f6d5824b59f7496",
+      "kappa": 0.0,
+      "h": 0.2,
+      "gate_hash": "4ea926e5aae9c4528ff356356453c4ef9dad10ad8fa18cfefc152328e50d6f16",
+      "base_cnots": 31,
+      "fold_counts": {
+        "1": 31,
+        "3": 93,
+        "5": 155
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 9299938,
+      "target_G": 9300000,
+      "physical_label": "ferro-like"
+    },
+    {
+      "point_id": "e2ab58c6e8044ebc1fad9daf97153d2b020058d99bce5b89272d0472874fc121",
+      "kappa": 0.0,
+      "h": 0.875,
+      "gate_hash": "0736b08c0f9b8eea15762f7e8b8d6d5f3c6af459991677cd82b031bd6f3063c3",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9600000,
+      "target_G": 9600000,
+      "physical_label": null
+    },
+    {
+      "point_id": "e2ab58c6e8044ebc1fad9daf97153d2b020058d99bce5b89272d0472874fc121",
+      "kappa": 0.0,
+      "h": 0.875,
+      "gate_hash": "0736b08c0f9b8eea15762f7e8b8d6d5f3c6af459991677cd82b031bd6f3063c3",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28799808,
+      "target_G": 28800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "cce5401973a602223aa1d038601ec307c916caabaefe82bdfe8ccafe1570522c",
+      "kappa": 0.0,
+      "h": 0.8875,
+      "gate_hash": "e7b4864aaf9fd94b2a5a170a551f8b94cac0272a0ed40dc96d90ca737b71c685",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9600000,
+      "target_G": 9600000,
+      "physical_label": null
+    },
+    {
+      "point_id": "cce5401973a602223aa1d038601ec307c916caabaefe82bdfe8ccafe1570522c",
+      "kappa": 0.0,
+      "h": 0.8875,
+      "gate_hash": "e7b4864aaf9fd94b2a5a170a551f8b94cac0272a0ed40dc96d90ca737b71c685",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28799808,
+      "target_G": 28800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "b94db3eeaac7b057bced6cd89d20788d752a27ac581209c1aa7f6b2d16dc8e1f",
+      "kappa": 0.0,
+      "h": 0.9,
+      "gate_hash": "263b5515329bcc9447e1822bc4217b6e1841dcbcc4a551ada9c05052c1b2bd14",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9500000,
+      "target_G": 9500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "b94db3eeaac7b057bced6cd89d20788d752a27ac581209c1aa7f6b2d16dc8e1f",
+      "kappa": 0.0,
+      "h": 0.9,
+      "gate_hash": "263b5515329bcc9447e1822bc4217b6e1841dcbcc4a551ada9c05052c1b2bd14",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28499810,
+      "target_G": 28500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "a754d8be1166a222a08078f4eb53ab8ca427d217221c723775fb0d82590526ff",
+      "kappa": 0.0,
+      "h": 0.9125,
+      "gate_hash": "1cfa80c695d6f7a7acb56049ef0cffc64f1c1aca2defbef4061b39d2bb3342f0",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9600000,
+      "target_G": 9600000,
+      "physical_label": null
+    },
+    {
+      "point_id": "a754d8be1166a222a08078f4eb53ab8ca427d217221c723775fb0d82590526ff",
+      "kappa": 0.0,
+      "h": 0.9125,
+      "gate_hash": "1cfa80c695d6f7a7acb56049ef0cffc64f1c1aca2defbef4061b39d2bb3342f0",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28799808,
+      "target_G": 28800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "1ca6a05887316a80d5fd4656fe83fec2555de8606711c7c452a095a869a7d83d",
+      "kappa": 0.0,
+      "h": 0.925,
+      "gate_hash": "0a5928a5f9dbfe8bac9a4ae445e9d7bc9493308d95c2cd1caba58d44fac10ef3",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9500000,
+      "target_G": 9500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "1ca6a05887316a80d5fd4656fe83fec2555de8606711c7c452a095a869a7d83d",
+      "kappa": 0.0,
+      "h": 0.925,
+      "gate_hash": "0a5928a5f9dbfe8bac9a4ae445e9d7bc9493308d95c2cd1caba58d44fac10ef3",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28499810,
+      "target_G": 28500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "33ae626d013b3826baddd48b217b9d7fba6d78a78d1a6d0e0e6bb6bea9d6a766",
+      "kappa": 0.0,
+      "h": 0.9375,
+      "gate_hash": "98abf9ed3ab93489f346409cc5259bf6fcc3e807c85e0dbb1ca41f0e8a0404e6",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9500000,
+      "target_G": 9500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "33ae626d013b3826baddd48b217b9d7fba6d78a78d1a6d0e0e6bb6bea9d6a766",
+      "kappa": 0.0,
+      "h": 0.9375,
+      "gate_hash": "98abf9ed3ab93489f346409cc5259bf6fcc3e807c85e0dbb1ca41f0e8a0404e6",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28499810,
+      "target_G": 28500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "892fd43579139615934315cac0166d271d4f70007ea3d020d9b5b0c12171e3f4",
+      "kappa": 0.0,
+      "h": 0.95,
+      "gate_hash": "6fc88ce022032992647219182b774d9b558e35410a7fbbfb39b079b2fb8363d1",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9600000,
+      "target_G": 9600000,
+      "physical_label": null
+    },
+    {
+      "point_id": "892fd43579139615934315cac0166d271d4f70007ea3d020d9b5b0c12171e3f4",
+      "kappa": 0.0,
+      "h": 0.95,
+      "gate_hash": "6fc88ce022032992647219182b774d9b558e35410a7fbbfb39b079b2fb8363d1",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28799808,
+      "target_G": 28800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "a9da53b7b8d739837f1044cf1c5c1f3c7f0218bee0afe07968e6f02a32996c57",
+      "kappa": 0.0,
+      "h": 0.9625,
+      "gate_hash": "300fcfca643e802762eb815a897054311b884849f1b256b72db54be445664a96",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9500000,
+      "target_G": 9500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "a9da53b7b8d739837f1044cf1c5c1f3c7f0218bee0afe07968e6f02a32996c57",
+      "kappa": 0.0,
+      "h": 0.9625,
+      "gate_hash": "300fcfca643e802762eb815a897054311b884849f1b256b72db54be445664a96",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28499810,
+      "target_G": 28500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "83cf7bce04094f2ac1aa97a98ae62e611d4f4da945c0ef343ef6e5388ba0d93e",
+      "kappa": 0.0,
+      "h": 0.975,
+      "gate_hash": "d916cbda46c5ebbd5cc096e07c595f6fef8e3af9d0b0c571b805db2b36556e6e",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9500000,
+      "target_G": 9500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "83cf7bce04094f2ac1aa97a98ae62e611d4f4da945c0ef343ef6e5388ba0d93e",
+      "kappa": 0.0,
+      "h": 0.975,
+      "gate_hash": "d916cbda46c5ebbd5cc096e07c595f6fef8e3af9d0b0c571b805db2b36556e6e",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28499810,
+      "target_G": 28500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "aa5d1df482d8ce5ce24e581ab6ba4196e99bba1aa6e47bc37eb079436cdd5337",
+      "kappa": 0.0,
+      "h": 0.9875,
+      "gate_hash": "2afa26ce2c8e3bcfa08601cd502e609373e16960eb2862f14133ee05754c2260",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9600000,
+      "target_G": 9600000,
+      "physical_label": null
+    },
+    {
+      "point_id": "aa5d1df482d8ce5ce24e581ab6ba4196e99bba1aa6e47bc37eb079436cdd5337",
+      "kappa": 0.0,
+      "h": 0.9875,
+      "gate_hash": "2afa26ce2c8e3bcfa08601cd502e609373e16960eb2862f14133ee05754c2260",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28799808,
+      "target_G": 28800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "789ab764edb1314131c959ca6fe89fc3205e4ac56a75c279622f74f6121bb6aa",
+      "kappa": 0.0,
+      "h": 1.0,
+      "gate_hash": "7a7c188b4dd47124d71b1eb6d8f1948c085592bbd06fbe36c647b2a921e8fe6e",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9600000,
+      "target_G": 9600000,
+      "physical_label": null
+    },
+    {
+      "point_id": "789ab764edb1314131c959ca6fe89fc3205e4ac56a75c279622f74f6121bb6aa",
+      "kappa": 0.0,
+      "h": 1.0,
+      "gate_hash": "7a7c188b4dd47124d71b1eb6d8f1948c085592bbd06fbe36c647b2a921e8fe6e",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28799808,
+      "target_G": 28800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "893a570237d9b7e89d53a7a12bd6b54dc6aee2bedcdce60ddb538c6d9f53b791",
+      "kappa": 0.0,
+      "h": 1.0125,
+      "gate_hash": "738d440adb80b7a5c90d8adf0203224d8b3f27fb45214aec164bece48c4a59a6",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9500000,
+      "target_G": 9500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "893a570237d9b7e89d53a7a12bd6b54dc6aee2bedcdce60ddb538c6d9f53b791",
+      "kappa": 0.0,
+      "h": 1.0125,
+      "gate_hash": "738d440adb80b7a5c90d8adf0203224d8b3f27fb45214aec164bece48c4a59a6",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28499810,
+      "target_G": 28500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "63435ccd4d7787eacde9bfa8e0c10374c300f5a7dbe7f7f76aad4cb94afabdb4",
+      "kappa": 0.0,
+      "h": 1.025,
+      "gate_hash": "5f75644e70033729651a76cc7f3c92067f9027135a7da8e8ef13e9d17b399771",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9600000,
+      "target_G": 9600000,
+      "physical_label": null
+    },
+    {
+      "point_id": "63435ccd4d7787eacde9bfa8e0c10374c300f5a7dbe7f7f76aad4cb94afabdb4",
+      "kappa": 0.0,
+      "h": 1.025,
+      "gate_hash": "5f75644e70033729651a76cc7f3c92067f9027135a7da8e8ef13e9d17b399771",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28799808,
+      "target_G": 28800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "85bd5c43790c4fe1e324235ff5a59ea375b0856fcc73d2c60c87980674f2b1ee",
+      "kappa": 0.0,
+      "h": 1.0375,
+      "gate_hash": "cda6c0325ce832d5af8ba02597c7979e0cf57c7497d60a4b67faf25c40d1b9a6",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9600000,
+      "target_G": 9600000,
+      "physical_label": null
+    },
+    {
+      "point_id": "85bd5c43790c4fe1e324235ff5a59ea375b0856fcc73d2c60c87980674f2b1ee",
+      "kappa": 0.0,
+      "h": 1.0375,
+      "gate_hash": "cda6c0325ce832d5af8ba02597c7979e0cf57c7497d60a4b67faf25c40d1b9a6",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28799808,
+      "target_G": 28800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "1c4d2f999ae449c4a6c5c1126dcf6847084344ef1a51c7ecc6994465bb346230",
+      "kappa": 0.0,
+      "h": 1.05,
+      "gate_hash": "c0ac64851a85329a34594c81b2e226c42ace99b2fa4c9844044acbeff6f463e5",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "1c4d2f999ae449c4a6c5c1126dcf6847084344ef1a51c7ecc6994465bb346230",
+      "kappa": 0.0,
+      "h": 1.05,
+      "gate_hash": "c0ac64851a85329a34594c81b2e226c42ace99b2fa4c9844044acbeff6f463e5",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "72ce405051b7b443bb141cb5fa6e22757fd48663ff62b0f948dfad2af17b5212",
+      "kappa": 0.0,
+      "h": 1.0625,
+      "gate_hash": "eb0df04913bbedc90d0afefe96b7d757749659c3c954040aa2f27a65e00f96eb",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9600000,
+      "target_G": 9600000,
+      "physical_label": null
+    },
+    {
+      "point_id": "72ce405051b7b443bb141cb5fa6e22757fd48663ff62b0f948dfad2af17b5212",
+      "kappa": 0.0,
+      "h": 1.0625,
+      "gate_hash": "eb0df04913bbedc90d0afefe96b7d757749659c3c954040aa2f27a65e00f96eb",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28799808,
+      "target_G": 28800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "d4f58b9fb7141ef978c7c46d11bf13e065c2ac0556c67b95f4da45ea2e0085b6",
+      "kappa": 0.0,
+      "h": 1.075,
+      "gate_hash": "e6879cabe2b8e59e4e0bfbcfa000acc7fc8df18b540b99e9955e9eb89ea65cc8",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9600000,
+      "target_G": 9600000,
+      "physical_label": null
+    },
+    {
+      "point_id": "d4f58b9fb7141ef978c7c46d11bf13e065c2ac0556c67b95f4da45ea2e0085b6",
+      "kappa": 0.0,
+      "h": 1.075,
+      "gate_hash": "e6879cabe2b8e59e4e0bfbcfa000acc7fc8df18b540b99e9955e9eb89ea65cc8",
+      "base_cnots": 96,
+      "fold_counts": {
+        "1": 96,
+        "3": 288,
+        "5": 480
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28799808,
+      "target_G": 28800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "2f8d4135bd238af48c2827e32814690bffa7aec10cbadfff943341b510a5416e",
+      "kappa": 0.1,
+      "h": 0.2,
+      "gate_hash": "83d2d0a20eb6ec40a0af805145007f19d3c74081fe03c7f69dd1a995fbc39083",
+      "base_cnots": 31,
+      "fold_counts": {
+        "1": 31,
+        "3": 93,
+        "5": 155
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 3100000,
+      "target_G": 3100000,
+      "physical_label": "ferro-like"
+    },
+    {
+      "point_id": "2f8d4135bd238af48c2827e32814690bffa7aec10cbadfff943341b510a5416e",
+      "kappa": 0.1,
+      "h": 0.2,
+      "gate_hash": "83d2d0a20eb6ec40a0af805145007f19d3c74081fe03c7f69dd1a995fbc39083",
+      "base_cnots": 31,
+      "fold_counts": {
+        "1": 31,
+        "3": 93,
+        "5": 155
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 9299938,
+      "target_G": 9300000,
+      "physical_label": "ferro-like"
+    },
+    {
+      "point_id": "a5791df410e7b02fd8f310831695cd4f12980c1085216ead7233c219ab899853",
+      "kappa": 0.3,
+      "h": 0.1,
+      "gate_hash": "37ef4052c7ebee568e9d10edfcdcd529fa25571a5c2ac6e004962b5e72d3e22d",
+      "base_cnots": 31,
+      "fold_counts": {
+        "1": 31,
+        "3": 93,
+        "5": 155
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 3100000,
+      "target_G": 3100000,
+      "physical_label": "ferro-like"
+    },
+    {
+      "point_id": "a5791df410e7b02fd8f310831695cd4f12980c1085216ead7233c219ab899853",
+      "kappa": 0.3,
+      "h": 0.1,
+      "gate_hash": "37ef4052c7ebee568e9d10edfcdcd529fa25571a5c2ac6e004962b5e72d3e22d",
+      "base_cnots": 31,
+      "fold_counts": {
+        "1": 31,
+        "3": 93,
+        "5": 155
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 9299938,
+      "target_G": 9300000,
+      "physical_label": "ferro-like"
+    },
+    {
+      "point_id": "747177867ea347642d84df33459ce414a6df1a5c5c576f86cfd7125156f294af",
+      "kappa": 0.4,
+      "h": 1.8,
+      "gate_hash": "02891b502f38d86ae01de9c2c1a474e4f2ae048fe33a41ac746bb41663379690",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 9500000,
+      "target_G": 9500000,
+      "physical_label": "paramagnetic-like"
+    },
+    {
+      "point_id": "747177867ea347642d84df33459ce414a6df1a5c5c576f86cfd7125156f294af",
+      "kappa": 0.4,
+      "h": 1.8,
+      "gate_hash": "02891b502f38d86ae01de9c2c1a474e4f2ae048fe33a41ac746bb41663379690",
+      "base_cnots": 95,
+      "fold_counts": {
+        "1": 95,
+        "3": 285,
+        "5": 475
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 28499810,
+      "target_G": 28500000,
+      "physical_label": "paramagnetic-like"
+    },
+    {
+      "point_id": "99186103acb9c1d48a701913f080f50ead35c94d01671c80a26124bc3aacc410",
+      "kappa": 0.425,
+      "h": 0.02,
+      "gate_hash": "cbb067420ac9861f723f70888f834f04e52de86023b39690905afa60cc7d027b",
+      "base_cnots": 15,
+      "fold_counts": {
+        "1": 15,
+        "3": 45,
+        "5": 75
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 1500000,
+      "target_G": 1500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "99186103acb9c1d48a701913f080f50ead35c94d01671c80a26124bc3aacc410",
+      "kappa": 0.425,
+      "h": 0.02,
+      "gate_hash": "cbb067420ac9861f723f70888f834f04e52de86023b39690905afa60cc7d027b",
+      "base_cnots": 15,
+      "fold_counts": {
+        "1": 15,
+        "3": 45,
+        "5": 75
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 4499970,
+      "target_G": 4500000,
+      "physical_label": null
+    },
+    {
+      "point_id": "0b12b7f3a3c8dfc595551475d195bc7b5ddd02d82578a6273d41e80ce9dab851",
+      "kappa": 0.45,
+      "h": 0.15,
+      "gate_hash": "a10e27dca3a6c7f3b1f9737368bd10fe2c7b23db94feb795188cba0f54cdac7c",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "0b12b7f3a3c8dfc595551475d195bc7b5ddd02d82578a6273d41e80ce9dab851",
+      "kappa": 0.45,
+      "h": 0.15,
+      "gate_hash": "a10e27dca3a6c7f3b1f9737368bd10fe2c7b23db94feb795188cba0f54cdac7c",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "52fddcb62830afbdcfaf25247697a60561d2804cccb198cb31dd47febbd180cb",
+      "kappa": 0.5,
+      "h": 0.15,
+      "gate_hash": "40fd4981389b7486a1565a3cbd9323cd1e582a588551e3abc7d9a4efb6d1feb3",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "52fddcb62830afbdcfaf25247697a60561d2804cccb198cb31dd47febbd180cb",
+      "kappa": 0.5,
+      "h": 0.15,
+      "gate_hash": "40fd4981389b7486a1565a3cbd9323cd1e582a588551e3abc7d9a4efb6d1feb3",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "c9c991dec3474717a4d8d83bf6b4cd272b1261ef3d05029173873bc30e9dc037",
+      "kappa": 0.55,
+      "h": 0.15,
+      "gate_hash": "115b1dc55b1f97c09ccace83a5a01d356a225ccc7a1b271aeb270ada91887d25",
+      "base_cnots": 127,
+      "fold_counts": {
+        "1": 127,
+        "3": 381,
+        "5": 635
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12700000,
+      "target_G": 12700000,
+      "physical_label": null
+    },
+    {
+      "point_id": "c9c991dec3474717a4d8d83bf6b4cd272b1261ef3d05029173873bc30e9dc037",
+      "kappa": 0.55,
+      "h": 0.15,
+      "gate_hash": "115b1dc55b1f97c09ccace83a5a01d356a225ccc7a1b271aeb270ada91887d25",
+      "base_cnots": 127,
+      "fold_counts": {
+        "1": 127,
+        "3": 381,
+        "5": 635
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38099746,
+      "target_G": 38100000,
+      "physical_label": null
+    },
+    {
+      "point_id": "4244bec0042bed620166173fdc2cd657b73160994f2d450053a54b41059a3b30",
+      "kappa": 0.8,
+      "h": 0.1,
+      "gate_hash": "36d47448e25ed7ced0ff7a2783a20edb4aaad97906c0f852d7dc68426052e290",
+      "base_cnots": 32,
+      "fold_counts": {
+        "1": 32,
+        "3": 96,
+        "5": 160
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 3200000,
+      "target_G": 3200000,
+      "physical_label": "antiphase-like"
+    },
+    {
+      "point_id": "4244bec0042bed620166173fdc2cd657b73160994f2d450053a54b41059a3b30",
+      "kappa": 0.8,
+      "h": 0.1,
+      "gate_hash": "36d47448e25ed7ced0ff7a2783a20edb4aaad97906c0f852d7dc68426052e290",
+      "base_cnots": 32,
+      "fold_counts": {
+        "1": 32,
+        "3": 96,
+        "5": 160
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 9599936,
+      "target_G": 9600000,
+      "physical_label": "antiphase-like"
+    },
+    {
+      "point_id": "30ff76488c803cf6ef6831c8f2dc78fa446621c4492855d6509f7e647ab6260c",
+      "kappa": 0.8,
+      "h": 0.475,
+      "gate_hash": "bc9cc47bf10bf2ce67b557d12ffb75475f7a13b7f3e39c484a5bbaceacb267b1",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "30ff76488c803cf6ef6831c8f2dc78fa446621c4492855d6509f7e647ab6260c",
+      "kappa": 0.8,
+      "h": 0.475,
+      "gate_hash": "bc9cc47bf10bf2ce67b557d12ffb75475f7a13b7f3e39c484a5bbaceacb267b1",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "0d1703fcd72e1179d006c21c2df5eec72536e505af18caaee604edb078bc8c5b",
+      "kappa": 0.8,
+      "h": 0.4875,
+      "gate_hash": "407029ec50e47e7cdd504e047b851081bdfc4f9f23927467af4789afb9f8f629",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "0d1703fcd72e1179d006c21c2df5eec72536e505af18caaee604edb078bc8c5b",
+      "kappa": 0.8,
+      "h": 0.4875,
+      "gate_hash": "407029ec50e47e7cdd504e047b851081bdfc4f9f23927467af4789afb9f8f629",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "76e4b033fcee5c1a5654edb5de8268b009300564f0e702f2275fffcaa343ca04",
+      "kappa": 0.8,
+      "h": 0.5,
+      "gate_hash": "33284fefcbed1f3de6e2daa3d8e06f35d2981cb7707e86c8e2a6aa03f70e7334",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "76e4b033fcee5c1a5654edb5de8268b009300564f0e702f2275fffcaa343ca04",
+      "kappa": 0.8,
+      "h": 0.5,
+      "gate_hash": "33284fefcbed1f3de6e2daa3d8e06f35d2981cb7707e86c8e2a6aa03f70e7334",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "1726bc9d17a1d4c95092b81794af0a89d0ed9217daea0189703ebecf043d401e",
+      "kappa": 0.8,
+      "h": 0.5125,
+      "gate_hash": "c0588ff5dfea5eb10016dc46021b5ee4256e216011901bbe046b938bb80cd5c5",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "1726bc9d17a1d4c95092b81794af0a89d0ed9217daea0189703ebecf043d401e",
+      "kappa": 0.8,
+      "h": 0.5125,
+      "gate_hash": "c0588ff5dfea5eb10016dc46021b5ee4256e216011901bbe046b938bb80cd5c5",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "f2ea4d3e4986b905f769fd3ca8adfca98380353ca72105a9915a9483f2e037ac",
+      "kappa": 0.8,
+      "h": 0.525,
+      "gate_hash": "19f7c455e14ae4889fbfa78af2a409fc96d7d092774fe20d6b5d60cfa627d942",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "f2ea4d3e4986b905f769fd3ca8adfca98380353ca72105a9915a9483f2e037ac",
+      "kappa": 0.8,
+      "h": 0.525,
+      "gate_hash": "19f7c455e14ae4889fbfa78af2a409fc96d7d092774fe20d6b5d60cfa627d942",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "292681b0497ab56607442c75e8d6ae1d212c6957933e3b80ac66df0dbb573688",
+      "kappa": 0.8,
+      "h": 0.5375,
+      "gate_hash": "5a479e07ca4c2daa2670baa770737764d5dedb8d89ff3266f70640581e5fc171",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "292681b0497ab56607442c75e8d6ae1d212c6957933e3b80ac66df0dbb573688",
+      "kappa": 0.8,
+      "h": 0.5375,
+      "gate_hash": "5a479e07ca4c2daa2670baa770737764d5dedb8d89ff3266f70640581e5fc171",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "e64c330e58d683105216156f312adada3156a87ba869b6a758a71417532b5096",
+      "kappa": 0.8,
+      "h": 0.55,
+      "gate_hash": "64f0d64b15908ad04e95ad90c52581e62ff0372f5cd81c85cc525e409d5024c8",
+      "base_cnots": 127,
+      "fold_counts": {
+        "1": 127,
+        "3": 381,
+        "5": 635
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12700000,
+      "target_G": 12700000,
+      "physical_label": null
+    },
+    {
+      "point_id": "e64c330e58d683105216156f312adada3156a87ba869b6a758a71417532b5096",
+      "kappa": 0.8,
+      "h": 0.55,
+      "gate_hash": "64f0d64b15908ad04e95ad90c52581e62ff0372f5cd81c85cc525e409d5024c8",
+      "base_cnots": 127,
+      "fold_counts": {
+        "1": 127,
+        "3": 381,
+        "5": 635
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38099746,
+      "target_G": 38100000,
+      "physical_label": null
+    },
+    {
+      "point_id": "158bd399e488460db1fc3b9a9cdb947cd4aaca0f4eb5680d0e03e3d751c816e6",
+      "kappa": 0.8,
+      "h": 0.5625,
+      "gate_hash": "8e022c0f687190508caf66ee0a637d7a5c463cdb6e8589ca2b38c1629c0cd960",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "158bd399e488460db1fc3b9a9cdb947cd4aaca0f4eb5680d0e03e3d751c816e6",
+      "kappa": 0.8,
+      "h": 0.5625,
+      "gate_hash": "8e022c0f687190508caf66ee0a637d7a5c463cdb6e8589ca2b38c1629c0cd960",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "b004a52af994ddc190c1733c2c4e8c3de3fb8129deda152649ae29a33e573861",
+      "kappa": 0.8,
+      "h": 0.575,
+      "gate_hash": "907ec24b574e52fc35084b6c39cb0963accfb47ca3f37dbb0023b0d55f1a8cb2",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "b004a52af994ddc190c1733c2c4e8c3de3fb8129deda152649ae29a33e573861",
+      "kappa": 0.8,
+      "h": 0.575,
+      "gate_hash": "907ec24b574e52fc35084b6c39cb0963accfb47ca3f37dbb0023b0d55f1a8cb2",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "9f4ed48b623e93d43dc95b3521b74f75e5141e9ac9fcd02a87b2469aff52d562",
+      "kappa": 0.8,
+      "h": 0.5875,
+      "gate_hash": "5b221ccbfb7071d8d7c9bf8d2c9d9e4a35b0aacd6e62feb46f3f662ead470767",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "9f4ed48b623e93d43dc95b3521b74f75e5141e9ac9fcd02a87b2469aff52d562",
+      "kappa": 0.8,
+      "h": 0.5875,
+      "gate_hash": "5b221ccbfb7071d8d7c9bf8d2c9d9e4a35b0aacd6e62feb46f3f662ead470767",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "6456457c9102829b025a773c277636080181bda48072662a5d3eb608a0142675",
+      "kappa": 0.8,
+      "h": 0.6,
+      "gate_hash": "bab0036b5428f454fe60b8e62c8553f8f6b7b5193e89e3e71f211cf56833bba5",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "6456457c9102829b025a773c277636080181bda48072662a5d3eb608a0142675",
+      "kappa": 0.8,
+      "h": 0.6,
+      "gate_hash": "bab0036b5428f454fe60b8e62c8553f8f6b7b5193e89e3e71f211cf56833bba5",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "ade63dc78c99840e20fe353335ac556a4745108c7e3e6709412241914f6e071f",
+      "kappa": 0.8,
+      "h": 0.6125,
+      "gate_hash": "09c1618a9da360195c6f50e3169ace63b01f29ada3135845c7f8bb6641522d27",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "ade63dc78c99840e20fe353335ac556a4745108c7e3e6709412241914f6e071f",
+      "kappa": 0.8,
+      "h": 0.6125,
+      "gate_hash": "09c1618a9da360195c6f50e3169ace63b01f29ada3135845c7f8bb6641522d27",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "7664fc0a851bf2abf22fc675b8f91f2886c5b693c7f9dc9fe8813803e7663a46",
+      "kappa": 0.8,
+      "h": 0.625,
+      "gate_hash": "4928db52bb81c0381c703eace490ae24e9f509563e75974e24a7f8781406ef9b",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "7664fc0a851bf2abf22fc675b8f91f2886c5b693c7f9dc9fe8813803e7663a46",
+      "kappa": 0.8,
+      "h": 0.625,
+      "gate_hash": "4928db52bb81c0381c703eace490ae24e9f509563e75974e24a7f8781406ef9b",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "a517466722286fc93d7e84d1c1d9db5589712784d2a83cee9802aa3a2ca57332",
+      "kappa": 0.8,
+      "h": 0.6375,
+      "gate_hash": "8286c6ed3b6781562eabbb0f3a24f0f12a844032a3d6ac49210c51c081f4eeba",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "a517466722286fc93d7e84d1c1d9db5589712784d2a83cee9802aa3a2ca57332",
+      "kappa": 0.8,
+      "h": 0.6375,
+      "gate_hash": "8286c6ed3b6781562eabbb0f3a24f0f12a844032a3d6ac49210c51c081f4eeba",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "490cee80b31ef2169e6ad51fbea7897887f504819b9e02a59125e799246cb0b1",
+      "kappa": 0.8,
+      "h": 0.65,
+      "gate_hash": "e87c0fd88b001da971c0ef3c9cd3e4c82c51c963216e463f9db28bec576a07e3",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "490cee80b31ef2169e6ad51fbea7897887f504819b9e02a59125e799246cb0b1",
+      "kappa": 0.8,
+      "h": 0.65,
+      "gate_hash": "e87c0fd88b001da971c0ef3c9cd3e4c82c51c963216e463f9db28bec576a07e3",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "088d6f774a303bc9a1501d374b1d1e07b872101b56317734f913e1f3f9c38a32",
+      "kappa": 0.8,
+      "h": 0.6625,
+      "gate_hash": "108140df58932e894298f7a95d57df2b504366d0a8105036b3a4a6b007cca17d",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "088d6f774a303bc9a1501d374b1d1e07b872101b56317734f913e1f3f9c38a32",
+      "kappa": 0.8,
+      "h": 0.6625,
+      "gate_hash": "108140df58932e894298f7a95d57df2b504366d0a8105036b3a4a6b007cca17d",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "896acfac22a9b4d48c5b99ff5eb308427d8e563692a937f8c98315f262016b70",
+      "kappa": 0.8,
+      "h": 0.675,
+      "gate_hash": "fbc97a5faa7a2e46ec5cdf802ed55c64e0bf990cb9230dc737a4f242403dc6b6",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "896acfac22a9b4d48c5b99ff5eb308427d8e563692a937f8c98315f262016b70",
+      "kappa": 0.8,
+      "h": 0.675,
+      "gate_hash": "fbc97a5faa7a2e46ec5cdf802ed55c64e0bf990cb9230dc737a4f242403dc6b6",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "128a9585f9f62ac096df0900b389a4ef59ff0f328192742e501283db1e118487",
+      "kappa": 0.8,
+      "h": 0.8,
+      "gate_hash": "711e2a84c0efd4720f8971fba3839b4449a5330462ca67a90c0e2b35eea7ea85",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": null
+    },
+    {
+      "point_id": "128a9585f9f62ac096df0900b389a4ef59ff0f328192742e501283db1e118487",
+      "kappa": 0.8,
+      "h": 0.8,
+      "gate_hash": "711e2a84c0efd4720f8971fba3839b4449a5330462ca67a90c0e2b35eea7ea85",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": null
+    },
+    {
+      "point_id": "0749ecfec26f5a48d2f60b64de1c7235622686262c2bf0fe5746946e854dfc28",
+      "kappa": 0.9,
+      "h": 1.8,
+      "gate_hash": "cacc56acbdb581230b5bfa41f857d707da63de43942a23f073a0add2d6728969",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 100000,
+      "ZNE_total": 33334,
+      "ZNE_scale_totals": [
+        11112,
+        11111,
+        11111
+      ],
+      "raw_SV_total": 100000,
+      "G": 12800000,
+      "target_G": 12800000,
+      "physical_label": "paramagnetic-like"
+    },
+    {
+      "point_id": "0749ecfec26f5a48d2f60b64de1c7235622686262c2bf0fe5746946e854dfc28",
+      "kappa": 0.9,
+      "h": 1.8,
+      "gate_hash": "cacc56acbdb581230b5bfa41f857d707da63de43942a23f073a0add2d6728969",
+      "base_cnots": 128,
+      "fold_counts": {
+        "1": 128,
+        "3": 384,
+        "5": 640
+      },
+      "budget": 300000,
+      "ZNE_total": 100000,
+      "ZNE_scale_totals": [
+        33334,
+        33333,
+        33333
+      ],
+      "raw_SV_total": 299998,
+      "G": 38399744,
+      "target_G": 38400000,
+      "physical_label": "paramagnetic-like"
+    }
+  ],
+  "B_measurements_started": false
+}

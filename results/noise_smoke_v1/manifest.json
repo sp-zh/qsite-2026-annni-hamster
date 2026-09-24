@@ -1,0 +1,47 @@
+{
+  "created_utc": "2026-09-22T03:44:12.649465+00:00",
+  "input_hashes": {
+    "configs/noise_smoke_v1.json": "4f957b528102ab62f71eac1974ad34cc37abb9c9b108007ef72f0b396ba6462a",
+    "configs/diagnostics_v1.json": "2bbe641f2639cbd5c28e3c2148f8b2a1674b635a9f8417c360a3c8cfa4da6a6a",
+    "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+    "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+    "annni/diagnostics.py": "a3dd1553df1080e84c9a87448485d818f2185e8fe85b87f008be4807bb1d4adb",
+    "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+    "scripts/run_noise_smoke.py": "1ab83d0b9ce8c33e357a6364d22a81ec6341bef2d4a15b63ff2117cf3fa24c99",
+    "requirements.lock.txt": "4a17ebd6a02afa38831fb15a1d60df23fcb7f3bd62287bc19a0438e014c9235d",
+    "results/calibration_v1/selected.json": "bc8a400063b4c25ddd1b4159aaac7823d170db1615fb869f2eaf431e93ebfffd",
+    "results/calibration_v1/selected_params.npz": "ccbb576be59c7deb30c196b7a1a7c2411f11f8d318e0d8607a3acd0b09eeab0f",
+    "results/calibration_v1/runs/p00_L6_s11.npz": "232ab1081bfcfc24b6c278f3156794b4c41df2383600858db381d4123723a97d",
+    "results/calibration_v1/runs/p04_L4_s23.npz": "21c12b18c7c20c8a055a7adfab5c27ab29b692e54a1b6edd682a88c9e8d7665e",
+    "results/calibration_v1/runs/p09_L2_s23.npz": "9b4ba8e136033b1042b1d3304016e560d71c1e4c334264e985b1cd3463b08f83",
+    "results/calibration_v1/runs/p11_L8_s37.npz": "6de03652cdfb4c6e4d958f5209907e051f6067fad59498d4fe08ce5252af84ad",
+    "results/calibration_v1/runs/p14_L4_s23.npz": "7e0bbfa386eee8d440f73a47582e18ff2b3dbd68375b3b7fa02a98f5ccefacc7"
+  },
+  "config": {
+    "point_indices": [
+      0,
+      4,
+      9,
+      11,
+      14
+    ],
+    "probabilities": [
+      0,
+      0.01,
+      0.05
+    ],
+    "selection_reasons": {
+      "0": "low-field kappa=0, ferro-like ED correlations; smallest stable passing L=6",
+      "4": "high-field kappa=0, strong transverse polarization; smallest stable passing L=4",
+      "9": "low-field kappa=.8, strong period-four correlations; smallest stable passing L=2",
+      "11": "kappa=.8,h=.5 near same-N diagnostic changes; L=8 remediation passed 3/3",
+      "14": "high-field frustrated kappa=.8,h=1.2; smallest stable passing L=4"
+    },
+    "parameter_rule": "Use the energy-best run at selected smallest stable passing depth, fixed for all p; no noisy reoptimization",
+    "shots": null,
+    "device": "default.mixed",
+    "noise": "PennyLane DepolarizingChannel(p) on target immediately after every actual CNOT, including at p=0",
+    "connectivity": "NN/NNN ring logical edges directly available, no SWAP routing",
+    "comparison_limit": "Different points use different depths; do not infer intrinsic phase fragility from this smoke test"
+  }
+}

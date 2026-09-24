@@ -1,0 +1,584 @@
+[
+  {
+    "version": "branches",
+    "kappa": 0,
+    "global_peaks": [
+      {
+        "p": 0,
+        "metric": "full_observable_change",
+        "support": [
+          0.95,
+          0.975
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0,
+        "metric": "mx_derivative",
+        "support": [
+          0.875,
+          0.9
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0,
+        "metric": "state_access_chi",
+        "support": [
+          0.9,
+          0.925
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "full_observable_change",
+        "support": [
+          0.975,
+          1.0
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "mx_derivative",
+        "support": [
+          0.875,
+          0.9
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "state_access_chi",
+        "support": [
+          0.9,
+          0.925
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "full_observable_change",
+        "support": [
+          0.925,
+          0.95
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "mx_derivative",
+        "support": [
+          0.875,
+          0.9
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "state_access_chi",
+        "support": [
+          0.875,
+          0.9
+        ],
+        "quality_support": true,
+        "endpoint": false
+      }
+    ],
+    "interpretation": "Grid supports, not statistical confidence. Structure held fixed; pure preparation quality applies to full four-node peak stencil."
+  },
+  {
+    "version": "branches",
+    "kappa": 0.3,
+    "global_peaks": [
+      {
+        "p": 0,
+        "metric": "full_observable_change",
+        "support": [
+          0.45,
+          0.475
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0,
+        "metric": "mx_derivative",
+        "support": [
+          0.425,
+          0.45
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0,
+        "metric": "state_access_chi",
+        "support": [
+          0.425,
+          0.45
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "full_observable_change",
+        "support": [
+          0.45,
+          0.475
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "mx_derivative",
+        "support": [
+          0.45,
+          0.475
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "state_access_chi",
+        "support": [
+          0.45,
+          0.475
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "full_observable_change",
+        "support": [
+          0.475,
+          0.5
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "mx_derivative",
+        "support": [
+          0.475,
+          0.5
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "state_access_chi",
+        "support": [
+          0.475,
+          0.5
+        ],
+        "quality_support": true,
+        "endpoint": false
+      }
+    ],
+    "interpretation": "Grid supports, not statistical confidence. Structure held fixed; pure preparation quality applies to full four-node peak stencil."
+  },
+  {
+    "version": "branches",
+    "kappa": 0.8,
+    "global_peaks": [
+      {
+        "p": 0,
+        "metric": "full_observable_change",
+        "support": [
+          0.575,
+          0.6
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0,
+        "metric": "mx_derivative",
+        "support": [
+          0.525,
+          0.55
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0,
+        "metric": "state_access_chi",
+        "support": [
+          0.55,
+          0.575
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "full_observable_change",
+        "support": [
+          0.575,
+          0.6
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "mx_derivative",
+        "support": [
+          0.525,
+          0.55
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "state_access_chi",
+        "support": [
+          0.55,
+          0.575
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "full_observable_change",
+        "support": [
+          0.525,
+          0.55
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "mx_derivative",
+        "support": [
+          0.475,
+          0.5
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "state_access_chi",
+        "support": [
+          0.525,
+          0.55
+        ],
+        "quality_support": false,
+        "endpoint": false
+      }
+    ],
+    "interpretation": "Grid supports, not statistical confidence. Structure held fixed; pure preparation quality applies to full four-node peak stencil."
+  },
+  {
+    "version": "branches_refined",
+    "kappa": 0,
+    "global_peaks": [
+      {
+        "p": 0,
+        "metric": "full_observable_change",
+        "support": [
+          0.9625,
+          0.975
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0,
+        "metric": "mx_derivative",
+        "support": [
+          0.8875,
+          0.9
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0,
+        "metric": "state_access_chi",
+        "support": [
+          0.9125,
+          0.925
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "full_observable_change",
+        "support": [
+          0.95,
+          0.9625
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "mx_derivative",
+        "support": [
+          0.9,
+          0.9125
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "state_access_chi",
+        "support": [
+          0.9,
+          0.9125
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "full_observable_change",
+        "support": [
+          0.925,
+          0.9375
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "mx_derivative",
+        "support": [
+          0.8625,
+          0.875
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "state_access_chi",
+        "support": [
+          0.9,
+          0.9125
+        ],
+        "quality_support": true,
+        "endpoint": false
+      }
+    ],
+    "interpretation": "Grid supports, not statistical confidence. Structure held fixed; pure preparation quality applies to full four-node peak stencil."
+  },
+  {
+    "version": "branches_refined",
+    "kappa": 0.3,
+    "global_peaks": [
+      {
+        "p": 0,
+        "metric": "full_observable_change",
+        "support": [
+          0.45,
+          0.4625
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0,
+        "metric": "mx_derivative",
+        "support": [
+          0.4375,
+          0.45
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0,
+        "metric": "state_access_chi",
+        "support": [
+          0.4375,
+          0.45
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "full_observable_change",
+        "support": [
+          0.4625,
+          0.475
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "mx_derivative",
+        "support": [
+          0.45,
+          0.4625
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "state_access_chi",
+        "support": [
+          0.4875,
+          0.5
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "full_observable_change",
+        "support": [
+          0.4875,
+          0.5
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "mx_derivative",
+        "support": [
+          0.4875,
+          0.5
+        ],
+        "quality_support": true,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "state_access_chi",
+        "support": [
+          0.4875,
+          0.5
+        ],
+        "quality_support": true,
+        "endpoint": false
+      }
+    ],
+    "interpretation": "Grid supports, not statistical confidence. Structure held fixed; pure preparation quality applies to full four-node peak stencil."
+  },
+  {
+    "version": "branches_refined",
+    "kappa": 0.8,
+    "global_peaks": [
+      {
+        "p": 0,
+        "metric": "full_observable_change",
+        "support": [
+          0.575,
+          0.5875
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0,
+        "metric": "mx_derivative",
+        "support": [
+          0.5375,
+          0.55
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0,
+        "metric": "state_access_chi",
+        "support": [
+          0.55,
+          0.5625
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "full_observable_change",
+        "support": [
+          0.575,
+          0.5875
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "mx_derivative",
+        "support": [
+          0.525,
+          0.5375
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0.01,
+        "metric": "state_access_chi",
+        "support": [
+          0.55,
+          0.5625
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "full_observable_change",
+        "support": [
+          0.5375,
+          0.55
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "mx_derivative",
+        "support": [
+          0.475,
+          0.4875
+        ],
+        "quality_support": false,
+        "endpoint": false
+      },
+      {
+        "p": 0.05,
+        "metric": "state_access_chi",
+        "support": [
+          0.525,
+          0.5375
+        ],
+        "quality_support": false,
+        "endpoint": false
+      }
+    ],
+    "interpretation": "Grid supports, not statistical confidence. Structure held fixed; pure preparation quality applies to full four-node peak stencil."
+  }
+]

@@ -1,0 +1,6091 @@
+{
+  "rows": [
+    {
+      "kappa": 0,
+      "h": 0.2,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.008140120761664248,
+      "xz_joint_total_variation": 0.0034199549908021792,
+      "optimal_known_binary_single_copy_error": 0.49592993961916787,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999337782849259,
+        0.999999999477434
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "ferro-like",
+            "distances": [
+              0.2729632035554777,
+              10.102263754784532,
+              10.95528399757187,
+              8.519699749812675
+            ],
+            "margin": 8.246736546257198,
+            "accepted": true
+          },
+          "D5": {
+            "label": "ferro-like",
+            "distances": [
+              0.28301974875817215,
+              12.003305624542094,
+              13.033111772118733,
+              13.039258195109285
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "ferro-like",
+            "distances": [
+              0.2800465909319963,
+              10.099189226675414,
+              10.949599483036858,
+              8.517825039683341
+            ],
+            "margin": 8.237778448751344,
+            "accepted": true
+          },
+          "D5": {
+            "label": "ferro-like",
+            "distances": [
+              0.2905613023020449,
+              11.99991722986806,
+              13.027400978086343,
+              13.037680897841652
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/92dece74f00276f95df754b412554784bb8aa4f1b9ead819abc4ad4316857208.npz",
+        "results/stage6_v1/end_to_end/probabilities/5af37d81655091f3358b7ffba808a68ae68218e00d23a924925017f04c869e46.npz"
+      ],
+      "cnots": [
+        31,
+        96
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0,
+      "h": 0.2,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.35274038070408587,
+      "xz_joint_total_variation": 0.24237118350819237,
+      "optimal_known_binary_single_copy_error": 0.32362980964795707,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999337782849259,
+        0.999999999477434
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "ferro-like",
+            "distances": [
+              1.1980637739285753,
+              9.154342660363941,
+              10.07213670595553,
+              7.4134796412808255
+            ],
+            "margin": 6.215415867352251,
+            "accepted": true
+          },
+          "D5": {
+            "label": "ferro-like",
+            "distances": [
+              2.9472209355046184,
+              10.15833537558045,
+              10.932849384289257,
+              10.452059121238403
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              3.204635948005664,
+              7.529965868191002,
+              8.589182603186163,
+              5.407613321941083
+            ],
+            "margin": 2.2029773739354193,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              7.2329531134636715,
+              8.138383857865959,
+              8.427952469280836,
+              6.685940474925816
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/35d601feb6bef703c29457ad5d347a11d9183420e26010efbdabbcc6119bf4b6.npz",
+        "results/stage6_v1/end_to_end/probabilities/b5e190d5d0dc2f1a290236345f1640740cd5a39e3c97f550b2956f1fe585ea04.npz"
+      ],
+      "cnots": [
+        31,
+        96
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.3446002599424216,
+      "TV_minus_p0": 0.2389512285173902
+    },
+    {
+      "kappa": 0,
+      "h": 0.2,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.5034969960993144,
+      "xz_joint_total_variation": 0.3055966498640936,
+      "optimal_known_binary_single_copy_error": 0.2482515019503428,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999337782849259,
+        0.999999999477434
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              4.3645306383812725,
+              6.711415604055386,
+              7.902722589194328,
+              4.252281356044406
+            ],
+            "margin": 0.11224928233686615,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              9.208893769379758,
+              7.684222429780258,
+              7.793277849186003,
+              5.048993732213298
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              7.708683932913016,
+              5.093710216159358,
+              6.658529637199061,
+              0.927697795398454
+            ],
+            "margin": 4.166012420760904,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.635045106220723,
+              7.474353544568032,
+              7.868251071341572,
+              1.423813047431017
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/375914dcc3815e6be91b5933203f19ecca0fa9341ff44b1f802d8654026b1155.npz",
+        "results/stage6_v1/end_to_end/probabilities/3d2d3adb70e54fe88efd0d513ce30ceb1dd9569afbcc02593f85d63f92a17fe1.npz"
+      ],
+      "cnots": [
+        31,
+        96
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.49535687533765016,
+      "TV_minus_p0": 0.3021766948732914
+    },
+    {
+      "kappa": 0.0,
+      "h": 0.95,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.002802517190638912,
+      "xz_joint_total_variation": 0.0011468563365278676,
+      "optimal_known_binary_single_copy_error": 0.4985987414046805,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999921439079356,
+        0.9999999998557301
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              5.632051316007701,
+              7.3249186168589135,
+              5.8311624224094825,
+              6.55750801072226
+            ],
+            "margin": 0.19911110640178187,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              7.767702782625652,
+              7.876712755781993,
+              5.881126243054858,
+              8.875093991134634
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              5.63199905162229,
+              7.324794075169942,
+              5.831314041928594,
+              6.557954580542426
+            ],
+            "margin": 0.19931499030630384,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              7.767777727475235,
+              7.876715631855472,
+              5.8810739109484835,
+              8.875190781594174
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/65c2a0e6deac89791bc1919cd12d85e5d61e09cf0481f2504874bf202f62037e.npz",
+        "results/stage6_v1/end_to_end/probabilities/44ee686ad9db495afb520876675ce45630bc1f1beabc99303d6c2b5ccc8931f9.npz"
+      ],
+      "cnots": [
+        96,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.0,
+      "h": 0.95,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.17707884818156597,
+      "xz_joint_total_variation": 0.07875084770255833,
+      "optimal_known_binary_single_copy_error": 0.41146057590921703,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999921439079356,
+        0.9999999998557301
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.485925426666454,
+              5.846878219396379,
+              4.788366791283133,
+              4.55614807147842
+            ],
+            "margin": 0.2322187198047132,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.160864891360912,
+              6.681573618955507,
+              4.5804609403034675,
+              5.963224198479559
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.5941564742443175,
+              5.61424090937844,
+              4.825973050373432,
+              4.101416396405444
+            ],
+            "margin": 0.724556653967988,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.624957467647606,
+              6.645929941709031,
+              4.765155238967744,
+              5.288564260810794
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/b9e354d1053306abcc6e7595a85484e824843373c1db64f568165a6f9d5138f4.npz",
+        "results/stage6_v1/end_to_end/probabilities/b4e4e4b972f741f7e892a2ebe5e2b615ac461373b716c7eecc806fa069aa7186.npz"
+      ],
+      "cnots": [
+        96,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.17427633099092704,
+      "TV_minus_p0": 0.07760399136603047
+    },
+    {
+      "kappa": 0.0,
+      "h": 0.95,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.11554928360691528,
+      "xz_joint_total_variation": 0.07199513234000735,
+      "optimal_known_binary_single_copy_error": 0.44222535819654235,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999921439079356,
+        0.9999999998557301
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.20002826631253,
+              4.741157092415199,
+              5.6043990582049075,
+              1.3332709838915933
+            ],
+            "margin": 3.407886108523606,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.591331890986092,
+              6.967385510765196,
+              6.880239540065349,
+              1.8409767843839748
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.33084209479376,
+              4.812594018474036,
+              6.039324129108991,
+              0.8317626978128159
+            ],
+            "margin": 3.9808313206612205,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.792892264760425,
+              7.276832939121478,
+              7.521216572612986,
+              1.1494044346824506
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/2b7267188bdd9b8cc68d815e9c5d0ceee6a8668ecb49d7b3bc09cb91b8400b45.npz",
+        "results/stage6_v1/end_to_end/probabilities/3b213456db9cff2f7a80c11f95a9e5f3a5aed5b8e1cbbde710d3381c671ca9ae.npz"
+      ],
+      "cnots": [
+        96,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.11274676641627637,
+      "TV_minus_p0": 0.07084827600347948
+    },
+    {
+      "kappa": 0.0,
+      "h": 0.9625,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.006930311033680189,
+      "xz_joint_total_variation": 0.00311202871740262,
+      "optimal_known_binary_single_copy_error": 0.49653484448315993,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999519901471322,
+        0.9999995701325255
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              5.7850125265284955,
+              7.263785303182863,
+              5.678035990869077,
+              6.524666435309579
+            ],
+            "margin": 0.10697653565941856,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              7.958000071056508,
+              7.811102828267712,
+              5.700185800733329,
+              8.818288579542797
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              5.784695471824234,
+              7.2642513217761255,
+              5.678230471663883,
+              6.524155992325151
+            ],
+            "margin": 0.10646500016035088,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              7.958777115199189,
+              7.8117221014911555,
+              5.70017216560008,
+              8.818436149219329
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/5977469729f7e4adfb5f0c8e8a0ca1222d909663990a9901c586ccf94bb73480.npz",
+        "results/stage6_v1/end_to_end/probabilities/7564eebbf7aeb3163fb81ef000d13c03600c2118ed23c255441f67396b92ca86.npz"
+      ],
+      "cnots": [
+        95,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.0,
+      "h": 0.9625,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.18617770783948862,
+      "xz_joint_total_variation": 0.08827496515539418,
+      "optimal_known_binary_single_copy_error": 0.4069111460802557,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999519901471322,
+        0.9999995701325255
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.490872696231024,
+              5.833052345748182,
+              4.793641738143906,
+              4.517577117186262
+            ],
+            "margin": 0.2760646209576443,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.178508394029597,
+              6.677454398054556,
+              4.594700309147967,
+              5.940546504505905
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.675362923391132,
+              5.580079922349687,
+              4.750704426998312,
+              4.085524508753351
+            ],
+            "margin": 0.6651799182449611,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.669302998876502,
+              6.615563008903171,
+              4.708028126629047,
+              5.276119921770371
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/e63ccc16b9cd63ba1fd410b22dcff48b7ca112e1ab0920e6a11b18209abe8c82.npz",
+        "results/stage6_v1/end_to_end/probabilities/8e39740ade6706a85d54fcd5f2da39aaff4957cae2b09f678d3d6cc6dfaa5d87.npz"
+      ],
+      "cnots": [
+        95,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.17924739680580842,
+      "TV_minus_p0": 0.08516293643799155
+    },
+    {
+      "kappa": 0.0,
+      "h": 0.9625,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.11178821372314963,
+      "xz_joint_total_variation": 0.07262953849927815,
+      "optimal_known_binary_single_copy_error": 0.4441058931384252,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999519901471322,
+        0.9999995701325255
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.172407404363009,
+              4.77325976595503,
+              5.733222480649986,
+              1.2176010162826494
+            ],
+            "margin": 3.5556587496723813,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.607771383941504,
+              7.031956066339307,
+              7.021463320812997,
+              1.7151883809613908
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.341716389502308,
+              4.8158490235129445,
+              6.057565635061088,
+              0.8085405504283704
+            ],
+            "margin": 4.007308473084574,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.801849301333617,
+              7.301551969792173,
+              7.560239959437292,
+              1.1014065082235691
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/febe9b7004399ffba3c53c9314041bded0db7ca5b71ba5f4c2eb6ca8840620a2.npz",
+        "results/stage6_v1/end_to_end/probabilities/d63eefd8e064467caba6de2eb6037fccac0997824f27e3703f425c0b1c3179eb.npz"
+      ],
+      "cnots": [
+        95,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.10485790268946944,
+      "TV_minus_p0": 0.06951750978187553
+    },
+    {
+      "kappa": 0.0,
+      "h": 0.9875,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.00582338427189413,
+      "xz_joint_total_variation": 0.002773138903886258,
+      "optimal_known_binary_single_copy_error": 0.49708830786405295,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999661193290637,
+        0.9999999998493011
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.089139101987468,
+              7.150942087078479,
+              5.373075416061697,
+              6.463815392657705
+            ],
+            "margin": 0.7160636859257705,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              8.337254566567035,
+              7.693711907959035,
+              5.343721196275434,
+              8.716239369464178
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.089218662725659,
+              7.150699294400989,
+              5.3732749445197046,
+              6.464926144283407
+            ],
+            "margin": 0.7159437182059545,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              8.335097923938566,
+              7.693475553867283,
+              5.344827064115682,
+              8.71792976043246
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/170de5207176d15795406d4702af0d114901d9158ac3b89e3a78b027886ae14a.npz",
+        "results/stage6_v1/end_to_end/probabilities/8f976910a3027923d32dbf359a434fce2aca539f8dfd92b88b081331c8ee6bb2.npz"
+      ],
+      "cnots": [
+        96,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.0,
+      "h": 0.9875,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.19280454466470004,
+      "xz_joint_total_variation": 0.09469790936737883,
+      "optimal_known_binary_single_copy_error": 0.40359772766765,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999661193290637,
+        0.9999999998493011
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.724478218694671,
+              5.831537403415568,
+              4.540464349827392,
+              4.627653313457737
+            ],
+            "margin": 0.08718896363034467,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.370462618949318,
+              6.674913463317059,
+              4.339339900127485,
+              6.015401509608023
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.888338952811032,
+              5.502563916721675,
+              4.559371619478093,
+              4.042208851767534
+            ],
+            "margin": 0.517162767710559,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.812831156359946,
+              6.553080818768882,
+              4.560685321504325,
+              5.267197854511613
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/814e4cde52365c707513c21e8c860eb986a3171acbbf61d4ae9918a2cf3b0bd8.npz",
+        "results/stage6_v1/end_to_end/probabilities/a7c9b6632702a15e176bd1a6b18fb84ff65d348ab8bb869caccdcad6311ca5df.npz"
+      ],
+      "cnots": [
+        96,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.1869811603928059,
+      "TV_minus_p0": 0.09192477046349258
+    },
+    {
+      "kappa": 0.0,
+      "h": 0.9875,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.16364209754873144,
+      "xz_joint_total_variation": 0.10684950922632072,
+      "optimal_known_binary_single_copy_error": 0.4181789512256343,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999661193290637,
+        0.9999999998493011
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.213831452710929,
+              4.732994961923953,
+              5.498435200132731,
+              1.4366925703123543
+            ],
+            "margin": 3.296302391611598,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.583634129596923,
+              6.957147679835501,
+              6.794856425385159,
+              1.903239849950995
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.386900880758462,
+              4.811009639393867,
+              6.0524068674547395,
+              0.7961108817810044
+            ],
+            "margin": 4.014898757612863,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.818361636785168,
+              7.321653660731456,
+              7.591492351851669,
+              1.0501630025057862
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/0ffa161617c2c27c99968e5a0a71e2f70cc841ff7fb4f6fc4c27483cd9ffccb7.npz",
+        "results/stage6_v1/end_to_end/probabilities/fb1bf06a5241942f13020be28e37f8c366fa47bc408cc438f8064c6a9b6c0ead.npz"
+      ],
+      "cnots": [
+        96,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.1578187132768373,
+      "TV_minus_p0": 0.10407637032243447
+    },
+    {
+      "kappa": 0.0,
+      "h": 1.0,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.004641211684924587,
+      "xz_joint_total_variation": 0.002222317283370485,
+      "optimal_known_binary_single_copy_error": 0.4976793941575377,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999784498075863,
+        0.9999999999069891
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.239412018346832,
+              7.098005387694976,
+              5.223046681465368,
+              6.440041323096584
+            ],
+            "margin": 1.0163653368814645,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              8.521302450469307,
+              7.640700079760182,
+              5.170523103037728,
+              8.673587874153803
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.23989229235962,
+              7.09823388549745,
+              5.222661582302823,
+              6.439954681837274
+            ],
+            "margin": 1.017230710056797,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              8.51856672389008,
+              7.640452555662167,
+              5.17192185424682,
+              8.674477134640869
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/28d3f27f13ed5fd4034beb2c502ea8abfb66e1b555b74669b4f8b6ab75588b50.npz",
+        "results/stage6_v1/end_to_end/probabilities/8b755a408d6420588e770c5df42e3d838a67a12411b3dfe96905e1a40d54cd97.npz"
+      ],
+      "cnots": [
+        96,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.0,
+      "h": 1.0,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.19352836377870825,
+      "xz_joint_total_variation": 0.09590739236005177,
+      "optimal_known_binary_single_copy_error": 0.4032358181106459,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999784498075863,
+        0.9999999999069891
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.844650960467108,
+              5.754956750215537,
+              4.432337670033992,
+              4.563593934329923
+            ],
+            "margin": 0.1312562642959305,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.500701641170831,
+              6.62813826889002,
+              4.253391884691873,
+              5.98690622843427
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.9803913613819955,
+              5.520158333993753,
+              4.438240831875479,
+              4.127466333613266
+            ],
+            "margin": 0.31077449826221315,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.87076286497794,
+              6.556976246616885,
+              4.428581822921386,
+              5.372621843368401
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/1b82f29356cf4e6e69d48ffb5896511eaaca32565dfb4c0005f639f52931a3de.npz",
+        "results/stage6_v1/end_to_end/probabilities/b8b7870bb6b069595a5d3bad46df7b67a5c964760132f1d7a5598a05303319a5.npz"
+      ],
+      "cnots": [
+        96,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.18888715209378365,
+      "TV_minus_p0": 0.09368507507668129
+    },
+    {
+      "kappa": 0.0,
+      "h": 1.0,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.1333622730331544,
+      "xz_joint_total_variation": 0.08511760577447808,
+      "optimal_known_binary_single_copy_error": 0.4333188634834228,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999784498075863,
+        0.9999999999069891
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.205126615053786,
+              4.72269379541037,
+              5.528625775673745,
+              1.4079422487874136
+            ],
+            "margin": 3.3147515466229565,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.590697198975189,
+              6.929880889364211,
+              6.79111560659045,
+              1.9297456742935808
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.362386402003434,
+              4.792232425655748,
+              5.956605680570228,
+              0.9024359346811688
+            ],
+            "margin": 3.8897964909745797,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.782324313212657,
+              7.240048412054717,
+              7.442441340072945,
+              1.2120820479377918
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/0af464f2167a7487a42145f9cbe1906dbe7563fcfd3ebca0000de77252380970.npz",
+        "results/stage6_v1/end_to_end/probabilities/704d288303da2acf9766a2fd28b08251a4b53335894d695e5c77fdbad676d69d.npz"
+      ],
+      "cnots": [
+        96,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.1287210613482298,
+      "TV_minus_p0": 0.0828952884911076
+    },
+    {
+      "kappa": 0,
+      "h": 1.8,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.007561750200883422,
+      "xz_joint_total_variation": 0.00359281056169375,
+      "optimal_known_binary_single_copy_error": 0.4962191248995583,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999432133949454,
+        0.9999988040512026
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "paramagnetic-like",
+            "distances": [
+              10.612146904656877,
+              6.849787527233725,
+              1.286370774479811,
+              7.076466053767672
+            ],
+            "margin": 5.5634167527539145,
+            "accepted": true
+          },
+          "D5": {
+            "label": "paramagnetic-like",
+            "distances": [
+              13.042195503716668,
+              7.327834264105472,
+              1.2474023624806185,
+              8.672714368890263
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "paramagnetic-like",
+            "distances": [
+              10.598215138508769,
+              6.847879465862959,
+              1.2966642453497481,
+              7.074304475266655
+            ],
+            "margin": 5.55121522051321,
+            "accepted": true
+          },
+          "D5": {
+            "label": "paramagnetic-like",
+            "distances": [
+              13.032756314947205,
+              7.327895470710754,
+              1.2539925474440934,
+              8.666360229511891
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/e08bce9c37bdd020d9ae5be4415b8c2a12c99ada45ef13106e725bc2aeadbbba.npz",
+        "results/stage6_v1/end_to_end/probabilities/8f5573fe96ac339f3091fae5c17fdfb77cf3fde01a4e31cf3528b1d81e2906ed.npz"
+      ],
+      "cnots": [
+        63,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0,
+      "h": 1.8,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.25105843082957036,
+      "xz_joint_total_variation": 0.1427461360093017,
+      "optimal_known_binary_single_copy_error": 0.3744707845852148,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999432133949454,
+        0.9999988040512026
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "paramagnetic-like",
+            "distances": [
+              10.007429586178397,
+              6.031449170984904,
+              1.425250827661235,
+              5.900317529116496
+            ],
+            "margin": 4.475066701455261,
+            "accepted": true
+          },
+          "D5": {
+            "label": "paramagnetic-like",
+            "distances": [
+              12.773687648456404,
+              6.688400416820421,
+              1.7865480767946882,
+              7.186187477536672
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "paramagnetic-like",
+            "distances": [
+              9.631757875694985,
+              5.4844032658028254,
+              2.0458588595400693,
+              4.999530345292919
+            ],
+            "margin": 2.9536714857528494,
+            "accepted": true
+          },
+          "D5": {
+            "label": "paramagnetic-like",
+            "distances": [
+              12.65869721595118,
+              6.397187036618366,
+              2.7880793517905835,
+              6.004890258107991
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/e60a527d0b215d74ffb803653398406b866e226b9cd5c866acb9158aa73f2a44.npz",
+        "results/stage6_v1/end_to_end/probabilities/8be49204f45cb25240698e8e87ec1e50432fa6a7f379d35246335fd4429e97a4.npz"
+      ],
+      "cnots": [
+        63,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.24349668062868693,
+      "TV_minus_p0": 0.13915332544760795
+    },
+    {
+      "kappa": 0,
+      "h": 1.8,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.2806468644832739,
+      "xz_joint_total_variation": 0.17115417087978524,
+      "optimal_known_binary_single_copy_error": 0.35967656775836304,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999432133949454,
+        0.9999988040512026
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.905738596337434,
+              4.694787672612918,
+              4.001016289004214,
+              2.858139928715895
+            ],
+            "margin": 1.1428763602883194,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.590219976941972,
+              6.432333208122226,
+              5.244518775708199,
+              3.414442765186408
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.643293292978516,
+              4.686395607455269,
+              5.590605319535774,
+              1.2240101201689957
+            ],
+            "margin": 3.462385487286274,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.812106272562907,
+              7.1397092302293155,
+              7.2068454935969575,
+              1.4203866724867997
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/bfaf28fa7534b72437f938352a5d779936e68de69af53128ebb3d5bc67cf495c.npz",
+        "results/stage6_v1/end_to_end/probabilities/9977b20961a70c7372867646e3c9874e14344e73e0230d429f0c2adda9c017e5.npz"
+      ],
+      "cnots": [
+        63,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.2730851142823905,
+      "TV_minus_p0": 0.1675613603180915
+    },
+    {
+      "kappa": 0.1,
+      "h": 0.2,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.010074035956480674,
+      "xz_joint_total_variation": 0.004063646379056218,
+      "optimal_known_binary_single_copy_error": 0.49496298202175965,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9998986609223178,
+        0.9999999949087759
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "ferro-like",
+            "distances": [
+              0.36776358547227694,
+              10.060701144221673,
+              10.878945472259597,
+              8.493807308986922
+            ],
+            "margin": 8.126043723514645,
+            "accepted": true
+          },
+          "D5": {
+            "label": "ferro-like",
+            "distances": [
+              0.3878205208980933,
+              11.944164705361777,
+              12.939347541872882,
+              12.992388703087554
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "ferro-like",
+            "distances": [
+              0.3744182241000571,
+              10.057323427984748,
+              10.873186877855233,
+              8.491489649445898
+            ],
+            "margin": 8.117071425345841,
+            "accepted": true
+          },
+          "D5": {
+            "label": "ferro-like",
+            "distances": [
+              0.39508121306752575,
+              11.940513074703432,
+              12.933585170140812,
+              12.990682851568193
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/e35564fa15843f6b0f1ca2b00762688b479250fecb921f7d79726f1d270cd173.npz",
+        "results/stage6_v1/end_to_end/probabilities/c87503ec1b3f26214811f9a89e123eb15cb1a872561948aae66384b1fa501eaa.npz"
+      ],
+      "cnots": [
+        31,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.1,
+      "h": 0.2,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.43154497064729347,
+      "xz_joint_total_variation": 0.29996287271975897,
+      "optimal_known_binary_single_copy_error": 0.28422751467635327,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9998986609223178,
+        0.9999999949087759
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "ferro-like",
+            "distances": [
+              1.3033086705589352,
+              9.068479833414495,
+              9.953483688621208,
+              7.328747048175738
+            ],
+            "margin": 6.025438377616803,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              3.128886622711312,
+              10.021321023389548,
+              10.751447820217162,
+              10.285535815343797
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              3.7918931257240143,
+              7.082095295672837,
+              8.156941000664608,
+              4.826937963979743
+            ],
+            "margin": 1.035044838255729,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              8.365468507041044,
+              7.832466542704659,
+              7.95559746753083,
+              5.680122435763189
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/90ef9c86fb659213c5c833e913a928cfec61b4e33ab915fd5769881fba96fd52.npz",
+        "results/stage6_v1/end_to_end/probabilities/eeea20dbe5a32cad324b2ae3a0d31ac971badf02ebc5d60c228ecfe5e83ad665.npz"
+      ],
+      "cnots": [
+        31,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.4214709346908128,
+      "TV_minus_p0": 0.29589922634070276
+    },
+    {
+      "kappa": 0.1,
+      "h": 0.2,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.5986865964385425,
+      "xz_joint_total_variation": 0.35487068291953233,
+      "optimal_known_binary_single_copy_error": 0.20065670178072875,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9998986609223178,
+        0.9999999949087759
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              4.48573425039252,
+              6.634677412268633,
+              7.78852148153802,
+              4.136861707836531
+            ],
+            "margin": 0.34887254255598865,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              9.397465450415302,
+              7.637146414435628,
+              7.691726185461072,
+              4.876966386236555
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.066501936999602,
+              5.0306420204263365,
+              6.633957074378655,
+              0.5588522436235869
+            ],
+            "margin": 4.4717897768027495,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.845500182365068,
+              7.591433385792558,
+              8.081965629908511,
+              0.8745395109142747
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/b21ae3d16ff12e5f10da9dde2ab23bb9cac9035f9ffb0663e35a514e84431da0.npz",
+        "results/stage6_v1/end_to_end/probabilities/f39385519f6179b7ad18a7c25c8a0d058961881d4e39daffcb2ce24937f60357.npz"
+      ],
+      "cnots": [
+        31,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.5886125604820618,
+      "TV_minus_p0": 0.3508070365404761
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.45,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.010078134556281232,
+      "xz_joint_total_variation": 0.005522785321837253,
+      "optimal_known_binary_single_copy_error": 0.49496093272185937,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9998756039809883,
+        0.999987825169902
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              4.805873545239573,
+              7.398245740261017,
+              6.4880268201111235,
+              6.316231222559906
+            ],
+            "margin": 1.510357677320333,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              6.371396891530071,
+              8.299305643502128,
+              7.2431459016274555,
+              9.707581844567285
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              4.780249767133842,
+              7.413662006634502,
+              6.515210508676584,
+              6.334230713603933
+            ],
+            "margin": 1.5539809464700909,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              6.349534300108564,
+              8.312103418687117,
+              7.263268681775618,
+              9.712504668414084
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/45d7a9ff4b7e5a797a352cca6221aa4240cefe45dd72ae4ad348e35db4eb5a72.npz",
+        "results/stage6_v1/end_to_end/probabilities/a0131cdd48551667af386253785439366031f140990538ed832afcd1e8c22450.npz"
+      ],
+      "cnots": [
+        96,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.45,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.21089328057926457,
+      "xz_joint_total_variation": 0.10147358843222246,
+      "optimal_known_binary_single_copy_error": 0.3945533597103677,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9998756039809883,
+        0.999987825169902
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.05627381677901,
+              5.86935376750803,
+              5.3835651773403,
+              4.162268838771456
+            ],
+            "margin": 1.2212963385688438,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              9.452131165053613,
+              6.639673238149551,
+              5.2723912409623725,
+              6.058395303088921
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.239755926688716,
+              5.688726874535416,
+              5.293231517448313,
+              3.9110174483571263
+            ],
+            "margin": 1.3822140690911868,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.119491688742421,
+              6.636955289739741,
+              5.189669507297488,
+              5.507383804527737
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/64b75470bef3f4e95b838dc149568ff757a09daecb63948013f4646d22d98056.npz",
+        "results/stage6_v1/end_to_end/probabilities/07d5eb7d7fc172154f5d81adb5ab7dbb7a0c5019035604710f8d6740859c5467.npz"
+      ],
+      "cnots": [
+        96,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.20081514602298334,
+      "TV_minus_p0": 0.0959508031103852
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.45,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.11397637566895441,
+      "xz_joint_total_variation": 0.06841521037256779,
+      "optimal_known_binary_single_copy_error": 0.44301181216552277,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9998756039809883,
+        0.999987825169902
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.152480723286967,
+              4.847177995519346,
+              5.940355881169653,
+              1.039837410968039
+            ],
+            "margin": 3.8073405845513073,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.593632018704128,
+              7.077934657032942,
+              7.184146309769049,
+              1.6165437852680604
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.27236744197075,
+              4.854150172804688,
+              6.086468449704076,
+              0.8197670137773564
+            ],
+            "margin": 4.034383159027331,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.761885630207686,
+              7.262758376950324,
+              7.500885793796624,
+              1.216953672969607
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/b0c12a84ba7f9d84d9467d553a4291352945b94121d00bdd933a14f00aa1f747.npz",
+        "results/stage6_v1/end_to_end/probabilities/9365796dc9e7ced46f19100aaf5d455cf5dfbc2ad1608f353fddb48a783fb582.npz"
+      ],
+      "cnots": [
+        96,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.10389824111267318,
+      "TV_minus_p0": 0.06289242505073053
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.4625,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.005666409406259393,
+      "xz_joint_total_variation": 0.0028819861147635416,
+      "optimal_known_binary_single_copy_error": 0.4971667952968703,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999521589900058,
+        0.9999888870335203
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              5.206961851991773,
+              7.1978780073909405,
+              6.083897439774491,
+              6.16201263044837
+            ],
+            "margin": 0.8769355877827181,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              6.887592329309057,
+              8.075431628900656,
+              6.778246882648687,
+              9.529788475670074
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              5.197291022696824,
+              7.202999165667326,
+              6.093933442347882,
+              6.168400041640856
+            ],
+            "margin": 0.8966424196510578,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              6.882748910276024,
+              8.079519779987447,
+              6.783483116548365,
+              9.529169250168682
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/3ea2beefc297ae8c46f589be3c582eb4bfa26a3c21c46a98ff658938fee0065e.npz",
+        "results/stage6_v1/end_to_end/probabilities/4d57e13a899a9bdf643eac00c84c0356da71980c53caa5d9e10c66718aeb0004.npz"
+      ],
+      "cnots": [
+        96,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.4625,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.2054906181428296,
+      "xz_joint_total_variation": 0.09467102312968302,
+      "optimal_known_binary_single_copy_error": 0.39725469092858523,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999521589900058,
+        0.9999888870335203
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.184442670840463,
+              5.7864871248978575,
+              5.262159206298597,
+              4.119753185729647
+            ],
+            "margin": 1.1424060205689504,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              9.659667716043725,
+              6.596200146526589,
+              5.141821632235822,
+              6.015150791890886
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.46361356153237,
+              5.6062734680100395,
+              5.08546871705749,
+              3.8555948877561037
+            ],
+            "margin": 1.2298738293013867,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.288332666489685,
+              6.5640187283036635,
+              5.015734925371175,
+              5.432861904892374
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/b30b4b4ceddcbfbd11c6bc907825d38dac3279fae0cbd5d25f094bc45eef45f2.npz",
+        "results/stage6_v1/end_to_end/probabilities/5eaa5466484dbfb79a07693e862d8649523531e7d3b1476d9f9387d84f74ed22.npz"
+      ],
+      "cnots": [
+        96,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.1998242087365702,
+      "TV_minus_p0": 0.09178903701491949
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.4625,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.12738901459025762,
+      "xz_joint_total_variation": 0.07859144397545494,
+      "optimal_known_binary_single_copy_error": 0.4363054927048712,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999521589900058,
+        0.9999888870335203
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.124972043966734,
+              4.836355620734153,
+              5.986459001007607,
+              1.0106840021284005
+            ],
+            "margin": 3.8256716186057527,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.610677775743072,
+              7.088293049786341,
+              7.228191468019783,
+              1.6024455919913874
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.333796218555879,
+              4.8204260685619875,
+              6.046932192406475,
+              0.8244966610329182
+            ],
+            "margin": 3.9959294075290694,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.783978585850676,
+              7.272215458247932,
+              7.517980858342532,
+              1.156079298235982
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/cfce410ef224e02e9a1779ae3653f65beb201ccee61eb842ad874fb15c93d9bd.npz",
+        "results/stage6_v1/end_to_end/probabilities/145feaec1caf5da6fc2b1563d9dc26b076481441a5e74b7fd5ac7bd97d0116f2.npz"
+      ],
+      "cnots": [
+        96,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.12172260518399822,
+      "TV_minus_p0": 0.0757094578606914
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.4875,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.004245694038008994,
+      "xz_joint_total_variation": 0.0024033832093598314,
+      "optimal_known_binary_single_copy_error": 0.4978771529809955,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999730594015308,
+        0.9999955652873863
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.025428292409528,
+              6.840377455419333,
+              5.267101901818509,
+              5.905212080848931
+            ],
+            "margin": 0.6381101790304218,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              7.9176347304934716,
+              7.703347980324395,
+              5.879091142754854,
+              9.251024453437457
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.013239893934408,
+              6.845799669569703,
+              5.27927961390809,
+              5.9111154745637045
+            ],
+            "margin": 0.631835860655614,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              7.909642604228529,
+              7.707943696992752,
+              5.886699238880287,
+              9.250735542905602
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/41ba046a2d5249a2ca1b8d60dc6beaa2b3fd54d710f9d6a7952c2d4169e93565.npz",
+        "results/stage6_v1/end_to_end/probabilities/44cbcf9a69284fe40829a70b1a3b1cf22cac77264bd7e616fa3f443be23fc86e.npz"
+      ],
+      "cnots": [
+        96,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.4875,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.19369000522160829,
+      "xz_joint_total_variation": 0.09592674287430915,
+      "optimal_known_binary_single_copy_error": 0.40315499738919586,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999730594015308,
+        0.9999955652873863
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.823454389053721,
+              5.68460657621702,
+              4.579997112722055,
+              4.242728608818661
+            ],
+            "margin": 0.33726850390339447,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.117895657373287,
+              6.49445999956306,
+              4.480945849383365,
+              6.2874035149863134
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.981567776679655,
+              5.474182981406008,
+              4.56504724937306,
+              3.8829050595707306
+            ],
+            "margin": 0.6821421898023292,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.618361105817247,
+              6.430676161044914,
+              4.53343014705781,
+              5.607720169145807
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/61fd417e1831dafee4f489c95e125c52b67b7ce6dee95efb24a481a60d36e666.npz",
+        "results/stage6_v1/end_to_end/probabilities/797570e80371b8da233f15bf585776eeff92b4542700ac53bfdf26c41a6232aa.npz"
+      ],
+      "cnots": [
+        96,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.18944431118359928,
+      "TV_minus_p0": 0.09352335966494932
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.4875,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.14759497277473788,
+      "xz_joint_total_variation": 0.09635660094898303,
+      "optimal_known_binary_single_copy_error": 0.42620251361263106,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999730594015308,
+        0.9999955652873863
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.222489231589492,
+              4.760122674885261,
+              5.560563902136638,
+              1.3792806817662753
+            ],
+            "margin": 3.3808419931189864,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.542529137977874,
+              6.878359683724764,
+              6.7476483551653015,
+              2.00590295385641
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.39102324786583,
+              4.7930237668200535,
+              5.922242102270479,
+              0.9293776679366457
+            ],
+            "margin": 3.863646098883408,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.768613076783144,
+              7.213145926094879,
+              7.396627435232042,
+              1.252867105492058
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/da5c2de5a304b3db9a51ec9c3f733498eea365bf535fcbc6cf7f98c9b9df7c8e.npz",
+        "results/stage6_v1/end_to_end/probabilities/7f2f78ec3895459e03d7918fa357d91df00d74a67292a0056e16418eee94f090.npz"
+      ],
+      "cnots": [
+        96,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.14334927873672887,
+      "TV_minus_p0": 0.0939532177396232
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.5,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.00406794884823178,
+      "xz_joint_total_variation": 0.0020979055072376357,
+      "optimal_known_binary_single_copy_error": 0.4979660255758841,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999778157480684,
+        0.9999945248308718
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.4106029550125845,
+              6.700493989343426,
+              4.887859431850159,
+              5.818589970639447
+            ],
+            "margin": 0.9307305387892884,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              8.392447191367394,
+              7.568218484653191,
+              5.478978027519675,
+              9.157972908647272
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.398910540609588,
+              6.704951193908338,
+              4.899263981285126,
+              5.823630154019331
+            ],
+            "margin": 0.9243661727342047,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              8.381507572688621,
+              7.571527343581216,
+              5.487306488601717,
+              9.158375778781767
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/49f4c8cc1388d5a0d1d5fd296c881fe561450868e9916ff7a99b3a409f90978d.npz",
+        "results/stage6_v1/end_to_end/probabilities/5ccb77ebeebf8c2293c1b85e149cc47fb8886a86b5f42f444acec3ef1c1e5415.npz"
+      ],
+      "cnots": [
+        96,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.5,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.227585446784806,
+      "xz_joint_total_variation": 0.10278266783026394,
+      "optimal_known_binary_single_copy_error": 0.386207276607597,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999778157480684,
+        0.9999945248308718
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              7.076020845377836,
+              5.520518251853778,
+              4.443947507464501,
+              3.980036284368828
+            ],
+            "margin": 0.463911223095673,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.414134319087157,
+              6.34910349068529,
+              4.396097323249323,
+              5.865960908174528
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              7.13069991193292,
+              5.367185498196599,
+              4.496994443592567,
+              3.7470434187421926
+            ],
+            "margin": 0.7499510248503745,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.77453831650279,
+              6.368359387285961,
+              4.505327353288977,
+              5.534165151351626
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/94047ee64d9a1dfd18e349ebd9a466f5fe4975de12df82278a007fc8bd3dea84.npz",
+        "results/stage6_v1/end_to_end/probabilities/a886e5be6fb2e66be37cbdbc0abc7a8ed3850c01e56c4e5b70b1b67c51bff4d5.npz"
+      ],
+      "cnots": [
+        96,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.22351749793657422,
+      "TV_minus_p0": 0.1006847623230263
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.5,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.13544244733561672,
+      "xz_joint_total_variation": 0.07699870603248803,
+      "optimal_known_binary_single_copy_error": 0.43227877633219164,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999778157480684,
+        0.9999945248308718
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.318784975959655,
+              4.802757924023405,
+              5.822134517129354,
+              1.0643897824217803
+            ],
+            "margin": 3.738368141601625,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.672821954991308,
+              7.111691782105342,
+              7.198134230310953,
+              1.4807063790562445
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.393132463511442,
+              4.809554884651517,
+              6.0706164313266555,
+              0.7781280530134886
+            ],
+            "margin": 4.031426831638028,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.805526418736697,
+              7.263730474864322,
+              7.550995321559993,
+              1.1159853601162038
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/b18c972e8da2e7b6cb3412c05645f1497cca2c487e69232b3099caa522633286.npz",
+        "results/stage6_v1/end_to_end/probabilities/a334115e2442dbab3158e13ddd3776f330f73f8f24b54e6d9085b3ee09d6dadb.npz"
+      ],
+      "cnots": [
+        96,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.13137449848738494,
+      "TV_minus_p0": 0.07490080052525039
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.0875,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.05758490735934015,
+      "xz_joint_total_variation": 0.024352437229191136,
+      "optimal_known_binary_single_copy_error": 0.4712075463203299,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9966715866103487,
+        0.9999960343102066
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "ferro-like",
+            "distances": [
+              0.15004877080319826,
+              10.144212019625312,
+              11.043924709290938,
+              8.539530121330973
+            ],
+            "margin": 8.389481350527774,
+            "accepted": true
+          },
+          "D5": {
+            "label": "ferro-like",
+            "distances": [
+              0.15577118010922203,
+              12.061186274191428,
+              13.135764407556998,
+              13.080813273794513
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "ferro-like",
+            "distances": [
+              0.20256735553245678,
+              10.094251990087594,
+              10.97992788809482,
+              8.490572534113914
+            ],
+            "margin": 8.288005178581457,
+            "accepted": true
+          },
+          "D5": {
+            "label": "ferro-like",
+            "distances": [
+              0.22049411448039846,
+              12.000076650660773,
+              13.060323740872276,
+              13.030750000167092
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/76e918c2d4f79e3b4f2e9fc95883d2677d640ee8fc507293491368a3f1917eaf.npz",
+        "results/stage6_v1/end_to_end/probabilities/4b91d7f4509cce559a4e51736021eab7d49800de6938d421dbe19211fc97db34.npz"
+      ],
+      "cnots": [
+        63,
+        95
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.0875,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.32207075770686333,
+      "xz_joint_total_variation": 0.23238646189091786,
+      "optimal_known_binary_single_copy_error": 0.33896462114656833,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9966715866103487,
+        0.9999960343102066
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "ferro-like",
+            "distances": [
+              2.1699045821203686,
+              8.363923253927545,
+              9.402402981111473,
+              6.415727579515167
+            ],
+            "margin": 4.245822997394798,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              5.360072465591707,
+              8.94503199271561,
+              9.508432437724577,
+              8.264898145455001
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              4.029676139392535,
+              7.138014317970617,
+              8.183083677575441,
+              4.765218378182139
+            ],
+            "margin": 0.7355422387896038,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              6.619617645150975,
+              7.885432227710118,
+              8.452635800628816,
+              7.736191413458776
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/f4d877ffd975922dc5c3b81da51772645d79047db6713b27bf4995868d15d134.npz",
+        "results/stage6_v1/end_to_end/probabilities/994913dfcf10f22d1ffb5c8b6507065c6f4a3c426cb20a9f5252cb54adf5870a.npz"
+      ],
+      "cnots": [
+        63,
+        95
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.2644858503475232,
+      "TV_minus_p0": 0.2080340246617267
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.0875,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.3676970350017249,
+      "xz_joint_total_variation": 0.27832525747587267,
+      "optimal_known_binary_single_copy_error": 0.31615148249913755,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9966715866103487,
+        0.9999960343102066
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              6.534143096177047,
+              5.536712492741101,
+              7.005976596305299,
+              2.071446728781583
+            ],
+            "margin": 3.465265763959518,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              11.876709975079425,
+              7.544268303211534,
+              7.727745463633704,
+              2.5035894561502503
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              7.767816645676444,
+              5.171871111613389,
+              6.700635780255114,
+              1.1977662024402604
+            ],
+            "margin": 3.9741049091731284,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.283945891106582,
+              7.004789784586168,
+              7.4037322041600495,
+              2.650756710251983
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/a8ec4ad770d68ddbdc2421a3edf2d77614a101af223b69b4ca21912a9099f2bb.npz",
+        "results/stage6_v1/end_to_end/probabilities/b47a808146835524194616336d57ee59c1377e63e427fbbf24e769071d731cc4.npz"
+      ],
+      "cnots": [
+        63,
+        95
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.31011212764238477,
+      "TV_minus_p0": 0.25397282024668155
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.1,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.03122739436181968,
+      "xz_joint_total_variation": 0.016286744293193007,
+      "optimal_known_binary_single_copy_error": 0.4843863028190902,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.999116474171635,
+        0.9999903717399659
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "ferro-like",
+            "distances": [
+              0.43430092558447103,
+              9.927638539876819,
+              10.74786270214109,
+              8.338556661111516
+            ],
+            "margin": 7.9042557355270455,
+            "accepted": true
+          },
+          "D5": {
+            "label": "ferro-like",
+            "distances": [
+              0.5049055684299721,
+              11.789542868129006,
+              12.78329945841571,
+              12.858774210874229
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "ferro-like",
+            "distances": [
+              0.48895375207631075,
+              9.879630941784768,
+              10.68871621587451,
+              8.288794982611572
+            ],
+            "margin": 7.799841230535261,
+            "accepted": true
+          },
+          "D5": {
+            "label": "ferro-like",
+            "distances": [
+              0.5758959891566696,
+              11.730924654645131,
+              12.71283809648404,
+              12.808707979455402
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/7787523f137f028f68b6711ae54bb56dd77c98e291d4a19f19fe17e123f67ff0.npz",
+        "results/stage6_v1/end_to_end/probabilities/64ce92ee31740c3acb03b994617d9375ee6b3fbcfaec7ea2c7e5f2b61062b014.npz"
+      ],
+      "cnots": [
+        95,
+        95
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.1,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.3260227431687307,
+      "xz_joint_total_variation": 0.22402552553434377,
+      "optimal_known_binary_single_copy_error": 0.33698862841563465,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.999116474171635,
+        0.9999903717399659
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              3.5050648154948307,
+              7.310540441471624,
+              8.28085894341397,
+              5.15499463398776
+            ],
+            "margin": 1.6499298184929296,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              7.058468770780414,
+              7.906365354244701,
+              8.218449510111824,
+              6.820361211488868
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              4.166269573085146,
+              7.008810646143366,
+              7.924480171637635,
+              4.648862545013218
+            ],
+            "margin": 0.4825929719280717,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              6.837823264395716,
+              7.716689622765814,
+              8.140943478461518,
+              7.475806814723143
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/8407b2c9f57a94a484f59e54aad4dfae117d107d0c3eb0ff7de4b9219993567b.npz",
+        "results/stage6_v1/end_to_end/probabilities/846c3b965eb799a0e7400592922c7f75f4bae427736fb0c37a15ec1f1cc394f7.npz"
+      ],
+      "cnots": [
+        95,
+        95
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.294795348806911,
+      "TV_minus_p0": 0.20773878124115075
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.1,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.3282721123844441,
+      "xz_joint_total_variation": 0.23828374385846313,
+      "optimal_known_binary_single_copy_error": 0.33586394380777795,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.999116474171635,
+        0.9999903717399659
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              7.754733933527909,
+              5.045809080650934,
+              6.510611719120412,
+              0.9507668807832327
+            ],
+            "margin": 4.095042199867701,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.526058201875514,
+              7.323894361793285,
+              7.656778225046072,
+              1.5622281167175698
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              7.8192016599502105,
+              5.129254976684152,
+              6.577154204240455,
+              1.1014549472822481
+            ],
+            "margin": 4.027800029401904,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.355632219638915,
+              7.036547897981604,
+              7.378650825754334,
+              2.383785900914308
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/52fdb2eeced594b4ba958e278a8f64c325ce90d983480de9b3b98892d54cf8e9.npz",
+        "results/stage6_v1/end_to_end/probabilities/bd9c44f8dfdae1837332197f64b70ca7d2d23d0185101c4a959236614632d380.npz"
+      ],
+      "cnots": [
+        95,
+        95
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.2970447180226244,
+      "TV_minus_p0": 0.2219969995652701
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.125,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.18576163258108863,
+      "xz_joint_total_variation": 0.13225775238842688,
+      "optimal_known_binary_single_copy_error": 0.40711918370945566,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9611879605867497,
+        0.9997627264624074
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              4.610738386727766,
+              7.020726675380741,
+              6.8039921079939205,
+              5.287525022336631
+            ],
+            "margin": 0.676786635608865,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              5.847405793156983,
+              8.299667196864172,
+              8.106473669825162,
+              9.939956686101475
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.463205464810065,
+              6.269379925435335,
+              5.3632101499713505,
+              4.449801574231389
+            ],
+            "margin": 0.9134085757399619,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              8.035425201621816,
+              7.516502423342361,
+              6.590137525456355,
+              9.35202309131675
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/24b6e47ebd0fbc887918083181e93326232b28093251dc8c4e0edde3b4dead69.npz",
+        "results/stage6_v1/end_to_end/probabilities/4de5069caa0c7932b697d315f379c8a3afdfc7e29aa5d038c4cc92f144c1ae9e.npz"
+      ],
+      "cnots": [
+        127,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.125,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.41252986997640506,
+      "xz_joint_total_variation": 0.2598208532141534,
+      "optimal_known_binary_single_copy_error": 0.29373506501179747,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9611879605867497,
+        0.9997627264624074
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              6.332744139515517,
+              5.610346420466307,
+              5.935432012609848,
+              3.040744414012063
+            ],
+            "margin": 2.569602006454244,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              9.94284299990041,
+              6.509102343161678,
+              5.963472376511096,
+              5.056696090414408
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              7.287463052953671,
+              5.262196217710671,
+              5.4075663182332745,
+              2.736913793715061
+            ],
+            "margin": 2.52528242399561,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              10.530226713821943,
+              6.200006425226964,
+              5.485889610453964,
+              5.575284006134031
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/c0e7ef4edc3d7dd077d17643849e686ffafb1aa2cbb6874feb68c366649f9099.npz",
+        "results/stage6_v1/end_to_end/probabilities/a273aa1eb49ffb4cf7d049982ee1cee9e30f831e376e561ff8dbe9396bf59ffe.npz"
+      ],
+      "cnots": [
+        127,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.22676823739531643,
+      "TV_minus_p0": 0.1275631008257265
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.125,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.3141713919241864,
+      "xz_joint_total_variation": 0.20444110938278004,
+      "optimal_known_binary_single_copy_error": 0.3429143040379068,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9611879605867497,
+        0.9997627264624074
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.31519875559665,
+              4.96704219916125,
+              6.426185096957442,
+              0.49681808710590686
+            ],
+            "margin": 4.470224112055344,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.841843596191703,
+              7.452096396249458,
+              7.893635167390583,
+              0.8685875767668287
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.268204952548887,
+              4.937885391418917,
+              6.429814232973643,
+              0.641867147373219
+            ],
+            "margin": 4.296018244045698,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.76023825573169,
+              7.190301638707966,
+              7.641855139668327,
+              1.4308010168950351
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/73ae4d445dcb4d33d6b2ae9bb94bd9250edee27cf005e18074ec8fc15a4af96c.npz",
+        "results/stage6_v1/end_to_end/probabilities/1d7d00fbd6947533bdbdaecba25e9fafc3388941263ad92ce6b3fa94915315ee.npz"
+      ],
+      "cnots": [
+        127,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.12840975934309778,
+      "TV_minus_p0": 0.07218335699435316
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.1375,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.2215420967087163,
+      "xz_joint_total_variation": 0.14453939245765746,
+      "optimal_known_binary_single_copy_error": 0.38922895164564186,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9450711687819804,
+        0.9995039400528021
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              7.446880946746022,
+              6.015713413412813,
+              4.591878093187739,
+              4.357100058175888
+            ],
+            "margin": 0.23477803501185068,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              9.396813076972386,
+              7.335735057725749,
+              5.812642120496395,
+              9.229845631667095
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.256199187349756,
+              6.074568507531653,
+              3.8680755453938462,
+              4.571112093346367
+            ],
+            "margin": 0.7030365479525211,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              11.454366447209143,
+              7.505893440292667,
+              5.2556338988807765,
+              9.415975625364231
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/c32408d55fef5608e6e805ddf6aae3f485c673978cde158bdb8e0f673ccccfc6.npz",
+        "results/stage6_v1/end_to_end/probabilities/5a5267523a7e10d83446bfb3ae371fb86821973550e8ddcbef1c185178450dd2.npz"
+      ],
+      "cnots": [
+        128,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.1375,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.4366825144801261,
+      "xz_joint_total_variation": 0.23497073431877308,
+      "optimal_known_binary_single_copy_error": 0.28165874275993696,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9450711687819804,
+        0.9995039400528021
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              7.878508827599655,
+              5.107223610011572,
+              4.93834144375211,
+              2.576786470010834
+            ],
+            "margin": 2.361554973741276,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              11.16104210265628,
+              6.091140178729538,
+              5.112001609468203,
+              4.850545912735559
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.45837969178842,
+              5.059985755642753,
+              4.736879926215288,
+              2.6911310818568897
+            ],
+            "margin": 2.045748844358398,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              11.734767731710173,
+              6.071406477425919,
+              4.90155016138321,
+              5.286624864511081
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/11346f8f2243314801c5d56fb967a09dbe725fe24717f1f65dbf6f132d8dbaad.npz",
+        "results/stage6_v1/end_to_end/probabilities/bf8b9e657eb1547057b182da9bcf707dae3cd17ab1a4becf488fa180cefb8fcc.npz"
+      ],
+      "cnots": [
+        128,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.21514041777140983,
+      "TV_minus_p0": 0.09043134186111562
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.1375,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.31441539773059723,
+      "xz_joint_total_variation": 0.2040283996038066,
+      "optimal_known_binary_single_copy_error": 0.3427923011347014,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9450711687819804,
+        0.9995039400528021
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.504048938219805,
+              4.920010867605288,
+              6.393210320368606,
+              0.4278308303106999
+            ],
+            "margin": 4.492180037294588,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.91343972113023,
+              7.496257587272425,
+              7.985533710440079,
+              0.6556384742308454
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.38724321472694,
+              4.900220593284907,
+              6.360535985893969,
+              0.5627852596291524
+            ],
+            "margin": 4.337435333655754,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.844135286042288,
+              7.264024543960625,
+              7.7184965840715245,
+              1.1428233765613558
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/c50c5896bd66d29836ea2f3aba88d4f346d068f16a861429b45a78eb28527842.npz",
+        "results/stage6_v1/end_to_end/probabilities/959e0c12074a385cb03c0f50c3cd349cea6a70afe6e00f0bba13e9c535246073.npz"
+      ],
+      "cnots": [
+        128,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.09287330102188093,
+      "TV_minus_p0": 0.05948900714614913
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.0875,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.03564067878764228,
+      "xz_joint_total_variation": 0.008922644694121113,
+      "optimal_known_binary_single_copy_error": 0.48217966060617884,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9952430735222041,
+        0.9979598453964148
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              10.214235005704516,
+              0.0578935581446546,
+              5.987041514657173,
+              5.0811453907954
+            ],
+            "margin": 5.023251832650745,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.123540599111424,
+              0.05873171795970951,
+              6.298763814618441,
+              7.923079294885086
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              10.214915255457903,
+              0.07844932814107936,
+              5.966748574145029,
+              5.082958365369861
+            ],
+            "margin": 5.0045090372287815,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.12372039871452,
+              0.080002791252552,
+              6.2778049290270115,
+              7.92747282983749
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/a719556db0da6cc2eb4b5f448631fce153d4155eaeb44ed42b57ca5fc6bba75f.npz",
+        "results/stage6_v1/end_to_end/probabilities/b75720de06f8e167d402d260da5c6117d99f07affdaf0e4e140a50999b7e1824.npz"
+      ],
+      "cnots": [
+        32,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.0875,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.4480263105648855,
+      "xz_joint_total_variation": 0.35496484638523085,
+      "optimal_known_binary_single_copy_error": 0.27598684471755724,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9952430735222041,
+        0.9979598453964148
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              9.926191489700312,
+              0.5798371865575455,
+              5.840822943444211,
+              4.4862388994147935
+            ],
+            "margin": 3.906401712857248,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.20259867136963,
+              1.609112339010292,
+              6.128622758508904,
+              6.497664810957663
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              9.270602965348129,
+              2.116128503061821,
+              5.649275305460253,
+              2.9619557639574663
+            ],
+            "margin": 0.8458272608956454,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.511587119036031,
+              4.451226371889531,
+              6.567025591669748,
+              3.765185227849101
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/40e05d9a73091e51d662bba9bd4836b28441e72c66469961fc94f0b2a1d648ad.npz",
+        "results/stage6_v1/end_to_end/probabilities/d2058fcd414cfbf02c984caf8c9ada77edf2de3a7029b5a6304f4c1481813c77.npz"
+      ],
+      "cnots": [
+        32,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.41238563177724324,
+      "TV_minus_p0": 0.3460422016911097
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.0875,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.5633497505085552,
+      "xz_joint_total_variation": 0.41088523745246697,
+      "optimal_known_binary_single_copy_error": 0.2183251247457224,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9952430735222041,
+        0.9979598453964148
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.227916218821052,
+              2.3593382907679468,
+              5.776378407727898,
+              2.713553737790027
+            ],
+            "margin": 0.3542154470220802,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.842100782434155,
+              5.131735931752976,
+              7.04397806339568,
+              3.445021542126081
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.623311138640144,
+              4.701167621458472,
+              6.490030816321343,
+              0.39164351042306716
+            ],
+            "margin": 4.309524111035405,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              13.078224581256361,
+              7.582724673037826,
+              8.297477194248808,
+              0.45369048974794407
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/0d909ec568256a6a2b982c82ec67386a330ffe2107dcc3b4c9c9b3594aef405b.npz",
+        "results/stage6_v1/end_to_end/probabilities/51b812a109e1543c68314c3fa92ce3fbff316f29b6531dd789513646957374b8.npz"
+      ],
+      "cnots": [
+        32,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.5277090717209129,
+      "TV_minus_p0": 0.40196259275834584
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.034941805140722634,
+      "xz_joint_total_variation": 0.010956868587072016,
+      "optimal_known_binary_single_copy_error": 0.4825290974296387,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9844386327082093,
+        0.9887224275157712
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              10.23620114260718,
+              0.16325581996671465,
+              5.898583187870162,
+              5.112644317841168
+            ],
+            "margin": 4.949388497874454,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.13627392521428,
+              0.16376358613104972,
+              6.21632040793258,
+              7.952773365513403
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              10.236060085202688,
+              0.1807521534807302,
+              5.880504905376084,
+              5.112940765188524
+            ],
+            "margin": 4.932188611707794,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.135991747768905,
+              0.1818947025393247,
+              6.197213850216037,
+              7.955339734523213
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/abd20aea4a6047fc126f20c4b6229cba00e880cd9b135141d7e8b5b6ef242b7f.npz",
+        "results/stage6_v1/end_to_end/probabilities/ba954460f80ac7a2a470ba32d27e9cbd19293833614ec20a03bd5c235a5912fe.npz"
+      ],
+      "cnots": [
+        64,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.26739708041500815,
+      "xz_joint_total_variation": 0.20259727804239652,
+      "optimal_known_binary_single_copy_error": 0.36630145979249595,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9844386327082093,
+        0.9887224275157712
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              9.652710187963132,
+              1.171046694934243,
+              5.655534355140476,
+              3.908931378007928
+            ],
+            "margin": 2.737884683073685,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.240018735259948,
+              2.7267331570269944,
+              6.07637054923837,
+              5.384634956953765
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              9.297887973580057,
+              2.105883395164047,
+              5.541365785074817,
+              2.9958100020049154
+            ],
+            "margin": 0.8899266068408682,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.507745473348036,
+              4.403418737496144,
+              6.457856810927438,
+              3.824229077314836
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/0e3edc376e3d307750dce4667dd6700d3a968e32b7694e4301d763b72e564fa6.npz",
+        "results/stage6_v1/end_to_end/probabilities/5057cf7c8dae4bb7e5c19c3e9244af12e698617a50a84b38dc10601ae2ce19d5.npz"
+      ],
+      "cnots": [
+        64,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.2324552752742855,
+      "TV_minus_p0": 0.1916404094553245
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.25227926771565207,
+      "xz_joint_total_variation": 0.15661270656791298,
+      "optimal_known_binary_single_copy_error": 0.373860366142174,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9844386327082093,
+        0.9887224275157712
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.780995976496488,
+              3.713970619525655,
+              6.051653251259246,
+              1.3610074257142515
+            ],
+            "margin": 2.3529631938114033,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.990772454411518,
+              6.675572501991914,
+              7.728506737787448,
+              1.5981845828950825
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.635533490565633,
+              4.684556575474349,
+              6.443006376500796,
+              0.42759868849464144
+            ],
+            "margin": 4.256957886979707,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              13.068366925713725,
+              7.551529800131859,
+              8.24664881326824,
+              0.4917408164105257
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/a6fec24a97233c6511eb4c1b8130c2e912d741d5b25897f6e2667c29763a9ba4.npz",
+        "results/stage6_v1/end_to_end/probabilities/5a1c015806474874673b40d7045aea69bc01edd05954b85e20e0155cd419854b.npz"
+      ],
+      "cnots": [
+        64,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.21733746257492942,
+      "TV_minus_p0": 0.14565583798084097
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.125,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.9568920574083576,
+      "xz_joint_total_variation": 0.7096357110366618,
+      "optimal_known_binary_single_copy_error": 0.021553971295821206,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.39763401006604604,
+        0.7265114032176944
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              10.178835981691346,
+              0.7635922538058734,
+              5.286846227015853,
+              4.9059929016441
+            ],
+            "margin": 4.142400647838227,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.073407438917053,
+              0.8709145946346857,
+              5.556463014810881,
+              7.8907466049165755
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              10.800842967943513,
+              6.390572609835331,
+              3.8793487538708127,
+              5.166791681637234
+            ],
+            "margin": 1.287442927766421,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              13.231592198093516,
+              7.913174935094531,
+              5.332820089888119,
+              9.781160617176283
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/6d6e3218e4b809e9c912887a63b6e593dd7f88c676849d3da44f35ed2fb7f8b4.npz",
+        "results/stage6_v1/end_to_end/probabilities/43028bd9162c36aa0f2314181f50a870760ad66fbe1f8171b1c8e754ee8ce43a.npz"
+      ],
+      "cnots": [
+        128,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.125,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.7559972741739106,
+      "xz_joint_total_variation": 0.5064809557259969,
+      "optimal_known_binary_single_copy_error": 0.1220013629130447,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.39763401006604604,
+        0.7265114032176944
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.121917592254396,
+              2.792484249260189,
+              5.400114058460184,
+              2.407235230678221
+            ],
+            "margin": 0.3852490185819679,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.316871583306142,
+              4.608569374527083,
+              6.169964085842173,
+              3.4459642464945444
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              9.108769801982895,
+              4.982500604889414,
+              4.460069265980585,
+              2.887104487919359
+            ],
+            "margin": 1.572964778061226,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.340322178437978,
+              6.066668841734127,
+              4.702656543606612,
+              5.396645277777606
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/17f964348c9e4cd3f25a900e3af63a26fb20ca0336224e67d09356a6a97c9f68.npz",
+        "results/stage6_v1/end_to_end/probabilities/3a6451ecf36d086f8d30caad53fdbcf10461204b2b88ae4ddeb64965181fb946.npz"
+      ],
+      "cnots": [
+        128,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": -0.20089478323444698,
+      "TV_minus_p0": -0.20315475531066485
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.125,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.32790381254869716,
+      "xz_joint_total_variation": 0.22367380194164982,
+      "optimal_known_binary_single_copy_error": 0.3360480937256514,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.39763401006604604,
+        0.7265114032176944
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.60762837994334,
+              4.872539901436423,
+              6.592088748303061,
+              0.2358196613678878
+            ],
+            "margin": 4.636720240068535,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              13.050659509395635,
+              7.665066255201277,
+              8.349966760583184,
+              0.29489674547125455
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.448960606369358,
+              4.83676749818045,
+              6.261636944388747,
+              0.6116414632628252
+            ],
+            "margin": 4.225126034917625,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.8490119506563,
+              7.22676735759296,
+              7.657029827058449,
+              1.1287025261230423
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/24267e820021d63000e72e56f2dd4f1f4760d31ee16abd5f1400050a18115f03.npz",
+        "results/stage6_v1/end_to_end/probabilities/63b7c0b5e2ff07158e511b8d8500e38f2f66dfd27351b7b41c5537a4f5e043e5.npz"
+      ],
+      "cnots": [
+        128,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": -0.6289882448596604,
+      "TV_minus_p0": -0.48596190909501197
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1375,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.1362250867503471,
+      "xz_joint_total_variation": 0.08042737102995892,
+      "optimal_known_binary_single_copy_error": 0.4318874566248264,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.8888901376921273,
+        0.9267593311213592
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              10.595928092177777,
+              6.307591693846175,
+              3.7267783468060323,
+              5.110828195820435
+            ],
+            "margin": 1.3840498490144029,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              13.297565064783452,
+              8.059231739661831,
+              5.401909382419106,
+              9.846157785412805
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              10.796071570634968,
+              6.442825335846936,
+              3.845504997424895,
+              5.218150549605311
+            ],
+            "margin": 1.372645552180416,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              13.28084845380245,
+              8.018889664253575,
+              5.370065155621869,
+              9.855702159946595
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/4f86e8d3dcaf99a645337b964ef89dd65d3b8d055b07a1e243db659f834c8238.npz",
+        "results/stage6_v1/end_to_end/probabilities/db63a2d93c4d4ab4e1b3fe9ee175afb5db410877edbe92034508c4fee7a3594c.npz"
+      ],
+      "cnots": [
+        127,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1375,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.4066216854503031,
+      "xz_joint_total_variation": 0.21937145133642977,
+      "optimal_known_binary_single_copy_error": 0.29668915727484846,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.8888901376921273,
+        0.9267593311213592
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.247600640368827,
+              5.1252744825813705,
+              4.363726682825515,
+              3.0676306238191002
+            ],
+            "margin": 1.2960960590064148,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.432434173858223,
+              6.144398120826224,
+              4.57847050759489,
+              5.674225683323179
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              9.050741665417442,
+              4.953190322503208,
+              4.6005407420039495,
+              2.7397310229481446
+            ],
+            "margin": 1.8608097190558048,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.329924773773858,
+              6.0556150633673145,
+              4.854010932362232,
+              5.173989155608685
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/6203de94426b2a08f0a9cea6fa966d76ba93df0a92be09f908d13cb103edea5e.npz",
+        "results/stage6_v1/end_to_end/probabilities/2584fa53558ebcb51e9a31b86c8b03639397198378f4aab6c58d564ac84d6898.npz"
+      ],
+      "cnots": [
+        127,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.27039659869995597,
+      "TV_minus_p0": 0.13894408030647085
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1375,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.3083518087553481,
+      "xz_joint_total_variation": 0.18523849484675264,
+      "optimal_known_binary_single_copy_error": 0.34582409562232597,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.8888901376921273,
+        0.9267593311213592
+      ],
+      "both_clean_state_pass": false,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.518580167010981,
+              4.88840684394245,
+              6.33885192607237,
+              0.5043201773715256
+            ],
+            "margin": 4.384086666570925,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.89049598156278,
+              7.346743853536259,
+              7.8209196288603104,
+              0.8897942001348796
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.483933725919929,
+              4.859006048532961,
+              6.365579452639898,
+              0.49333712409410546
+            ],
+            "margin": 4.365668924438856,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.890544700728583,
+              7.327896563735403,
+              7.833212930700571,
+              0.9209471660211024
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/7445cc35f45eb4a73be10ec8c5febba5ee6ed40f42de7df3a74c4da680d9e67b.npz",
+        "results/stage6_v1/end_to_end/probabilities/7cdca7291e408a9f0fc37752f39edada1fcb1d97d6007bf7e478677216df88e4.npz"
+      ],
+      "cnots": [
+        127,
+        127
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.172126722005001,
+      "TV_minus_p0": 0.10481112381679372
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.1,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.0034227920075826385,
+      "xz_joint_total_variation": 0.000550940441535356,
+      "optimal_known_binary_single_copy_error": 0.49828860399620867,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999877607351642,
+        0.9999997970826074
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              10.182245061145007,
+              0.07593598056646608,
+              6.0950216379269255,
+              5.036441693691969
+            ],
+            "margin": 4.960505713125503,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.106128733020634,
+              0.07575773200684968,
+              6.396040900456951,
+              7.878119538672083
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              10.182487697939598,
+              0.07469862278172051,
+              6.0939898806059585,
+              5.036810439272681
+            ],
+            "margin": 4.962111816490961,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.106247838880007,
+              0.07449419269178399,
+              6.395089795577928,
+              7.87864221163701
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/40ea26ae7ddc1554c664c62091f1cc99e18b9e2a8ccd5534fff702cdeb1bdd0e.npz",
+        "results/stage6_v1/end_to_end/probabilities/cbebade1c3a55e782cf97ee502ed7e61fe220e16652c84f39c94a9668f915798.npz"
+      ],
+      "cnots": [
+        32,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.1,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.45038050866120166,
+      "xz_joint_total_variation": 0.35582100736541944,
+      "optimal_known_binary_single_copy_error": 0.2748097456693992,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999877607351642,
+        0.9999997970826074
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              9.892437986740934,
+              0.6294296278619588,
+              5.946417356975374,
+              4.433660369097606
+            ],
+            "margin": 3.8042307412356475,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.193658825217328,
+              1.6692944801341927,
+              6.231082411631325,
+              6.4297295126016545
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              9.23121131933021,
+              2.1796840484329327,
+              5.819943205619341,
+              2.88165715032016
+            ],
+            "margin": 0.7019731018872273,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.51585330681185,
+              4.541059404544062,
+              6.741714734161661,
+              3.659608998501241
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/5342c6c499e8a192d5ca14665cf8a7e2384f623a6f5bb442f276deb3d9b7e595.npz",
+        "results/stage6_v1/end_to_end/probabilities/d0aef53ec1351a3c75b8d3fc17dce44dae77b88e1238b0c2d3f05c9d12b91ae9.npz"
+      ],
+      "cnots": [
+        32,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.446957716653619,
+      "TV_minus_p0": 0.3552700669238841
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.1,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.5527129503858547,
+      "xz_joint_total_variation": 0.40111253947823167,
+      "optimal_known_binary_single_copy_error": 0.22364352480707267,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999877607351642,
+        0.9999997970826074
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.173458199065958,
+              2.4250742162220136,
+              5.8806207967338455,
+              2.6392168761408477
+            ],
+            "margin": 0.21414265991883408,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.853414178186148,
+              5.237652550327936,
+              7.1614558812676075,
+              3.3319299801343054
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.619311920235672,
+              4.7343640331719765,
+              6.579808990093672,
+              0.3342039380828379
+            ],
+            "margin": 4.400160095089139,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              13.094878815500403,
+              7.6319085139292975,
+              8.389272112141148,
+              0.39368834417556414
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/e315f191f9e7ddc28e946b847435e0c156d22f5c93b8c3b1dccc78881549d700.npz",
+        "results/stage6_v1/end_to_end/probabilities/9af6bada8f64074032816d8d3fc499e0b35be44ed65286bda1332a5b68fc8ac3.npz"
+      ],
+      "cnots": [
+        32,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.549290158378272,
+      "TV_minus_p0": 0.4005615990366963
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.55,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.0549278310432265,
+      "xz_joint_total_variation": 0.027335230635294944,
+      "optimal_known_binary_single_copy_error": 0.47253608447838674,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9945936256794601,
+        0.9957963606244252
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              10.971594101949503,
+              3.2533853811776714,
+              3.1503848407438224,
+              6.155386441475883
+            ],
+            "margin": 0.10300054043384899,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.830412343995322,
+              3.3474188861889393,
+              3.514672847300698,
+              8.13143904611403
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              10.967728246267606,
+              3.2662197469346625,
+              3.1323121152399525,
+              6.154452739829873
+            ],
+            "margin": 0.1339076316947101,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.826849472499367,
+              3.355692751871952,
+              3.488923652740551,
+              8.145237326658139
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/06b370a84e13dc3623cdef5dd83c7dfe8f7f6af1efca49202c85f658c27e9a24.npz",
+        "results/stage6_v1/end_to_end/probabilities/92da7da492f76bb8dbb0d5528165c469165b483e7de008d0515369e5efcb4ee1.npz"
+      ],
+      "cnots": [
+        127,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.55,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.1990738664469521,
+      "xz_joint_total_variation": 0.08778950284703231,
+      "optimal_known_binary_single_copy_error": 0.40046306677652393,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9945936256794601,
+        0.9957963606244252
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              9.718663072296533,
+              2.9227325516281737,
+              3.6860124360265623,
+              3.80866746942752
+            ],
+            "margin": 0.7632798843983886,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.681141388231758,
+              4.573292530211949,
+              4.732099292581755,
+              4.683276121972744
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.803908494776772,
+              3.0038827230449865,
+              3.5002339406019725,
+              3.990106557109374
+            ],
+            "margin": 0.49635121755698597,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.699162838672455,
+              4.568948548151686,
+              4.540761916418198,
+              4.859046229503071
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/905c38adab0a938a434f6955985716114efb5093c187ba4b5d21ea2e4ce8f736.npz",
+        "results/stage6_v1/end_to_end/probabilities/39b26be437ff5e6c66e36ec525e8cba03beb514dc2fec898cf531303168d57f0.npz"
+      ],
+      "cnots": [
+        127,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.14414603540372561,
+      "TV_minus_p0": 0.06045427221173737
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.55,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.09387975890419137,
+      "xz_joint_total_variation": 0.05744585369170526,
+      "optimal_known_binary_single_copy_error": 0.45306012054790434,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9945936256794601,
+        0.9957963606244252
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.668678124277726,
+              4.6379591493599595,
+              6.2012341534224875,
+              0.6235979027515623
+            ],
+            "margin": 4.014361246608397,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.99644834288479,
+              7.373531954986236,
+              7.935792458319359,
+              0.7354451417724573
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.707261299956485,
+              4.558304080698148,
+              5.9751682856771735,
+              0.8430663127194231
+            ],
+            "margin": 3.715237767978725,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.958400598673437,
+              7.2524047570080485,
+              7.707598100544781,
+              0.9586275393053677
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/4aa55980e990ca13f7b271a33d74e155db808627b7772dda4a750d62608fdc11.npz",
+        "results/stage6_v1/end_to_end/probabilities/fe38c0efabce3b37a3867b6d1bc691b0611d958d46a429b47d40ae913c470a27.npz"
+      ],
+      "cnots": [
+        127,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.038951927860964866,
+      "TV_minus_p0": 0.030110623056410317
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.5625,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.06292403706099838,
+      "xz_joint_total_variation": 0.03661202871351654,
+      "optimal_known_binary_single_copy_error": 0.4685379814695008,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9928344723075057,
+        0.9947031109650217
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              11.001378484453324,
+              3.385686160971317,
+              3.0213877995643337,
+              6.1993613972601365
+            ],
+            "margin": 0.36429836140698324,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.86623959494895,
+              3.4894197433608007,
+              3.3794768535553623,
+              8.133640994541764
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              11.005119070542765,
+              3.3984706514460754,
+              3.0045777839881924,
+              6.198571483196688
+            ],
+            "margin": 0.393892867457883,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.86835390525897,
+              3.503089521523796,
+              3.3605303148606467,
+              8.128052006528224
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/d26cc62c6a6c1c3dfc7ea67c18f6a8446af39b8d2ddce8d0d8bc172161381799.npz",
+        "results/stage6_v1/end_to_end/probabilities/aee9dd3f93aaad64d91750db6101d85fa0354046f5dde3d958f788d0ba297b27.npz"
+      ],
+      "cnots": [
+        128,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.5625,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.1502615269205621,
+      "xz_joint_total_variation": 0.06687874284761575,
+      "optimal_known_binary_single_copy_error": 0.424869236539719,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9928344723075057,
+        0.9947031109650217
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.871747509684047,
+              3.119006950281236,
+              3.33502435940792,
+              4.117219459813742
+            ],
+            "margin": 0.216017409126684,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.718409277387083,
+              4.604757843197389,
+              4.3853571552805,
+              4.982638480077859
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.780802647205599,
+              3.115341594965001,
+              3.4309347295153376,
+              3.966460479041221
+            ],
+            "margin": 0.31559313455033644,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.691846808494594,
+              4.657124790261293,
+              4.473164983839508,
+              4.818466514246624
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/5622025b313422fe3b7d861b50be3ea31b1ff3e43ebc9bd04eddeb4dba0d0699.npz",
+        "results/stage6_v1/end_to_end/probabilities/19dd913f7e90b6f29fa8e089a3ef41c6fa422c4a775327af4dafa141b766f729.npz"
+      ],
+      "cnots": [
+        128,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.08733748985956373,
+      "TV_minus_p0": 0.030266714134099204
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.5625,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.07879612321533043,
+      "xz_joint_total_variation": 0.04743902636993952,
+      "optimal_known_binary_single_copy_error": 0.46060193839233476,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9928344723075057,
+        0.9947031109650217
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.732268723906865,
+              4.533784372361056,
+              5.868019811135091,
+              0.9479189525356618
+            ],
+            "margin": 3.5858654198253936,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.943254660284014,
+              7.208920587786825,
+              7.607515239769245,
+              1.0606274512446845
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.673235881260995,
+              4.619245697329428,
+              6.0335764038789526,
+              0.7752429390707701
+            ],
+            "margin": 3.8440027582586582,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.953169034638643,
+              7.300965539177199,
+              7.7518561231000165,
+              0.8937831163574363
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/2c147c12cfdfa62e4b081fae484190d263e47ceb79ac671308dc7b06962b5ed6.npz",
+        "results/stage6_v1/end_to_end/probabilities/877c8786d143f55eef8399bd1f60511bf0948e40cd4ea62d371c26e589a96cc3.npz"
+      ],
+      "cnots": [
+        128,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.015872086154332055,
+      "TV_minus_p0": 0.010826997656422976
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.5875,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.0630622277381169,
+      "xz_joint_total_variation": 0.03135498859891524,
+      "optimal_known_binary_single_copy_error": 0.46846888613094156,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9960545262164029,
+        0.9947209339648433
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "paramagnetic-like",
+            "distances": [
+              11.074660233895717,
+              3.7069880698993916,
+              2.6868409200217487,
+              6.286108257525137
+            ],
+            "margin": 1.0201471498776429,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.936775842140007,
+              3.8165900700402813,
+              3.0241681635487585,
+              8.167448754494803
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "paramagnetic-like",
+            "distances": [
+              11.067105675420052,
+              3.6828366629875244,
+              2.7236336218820214,
+              6.29224939180032
+            ],
+            "margin": 0.959203041105503,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.94323940861442,
+              3.8005023088018572,
+              3.0707905793810224,
+              8.161380226415043
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/609a698a71c67bf3c9ea63d9dacb2cec0218dc1335fcad49f0e9d36af87901fe.npz",
+        "results/stage6_v1/end_to_end/probabilities/e799b51d81f22e73b16be8f5c9789e9bb68859d0bd06c79a97ec89bdc790758b.npz"
+      ],
+      "cnots": [
+        128,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.5875,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.1720022594530775,
+      "xz_joint_total_variation": 0.07295324651907743,
+      "optimal_known_binary_single_copy_error": 0.4139988702734613,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9960545262164029,
+        0.9947209339648433
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.870749718156052,
+              3.2593030968967165,
+              3.2412305563244126,
+              4.1036628646969255
+            ],
+            "margin": 0.018072540572303897,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.72896623813682,
+              4.729462677129781,
+              4.3142852523469895,
+              4.940617290935604
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.730584295328239,
+              3.22450983534573,
+              3.411204117889629,
+              3.8841058062532245
+            ],
+            "margin": 0.18669428254389864,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.673790312744249,
+              4.760683312741345,
+              4.449959952364312,
+              4.720438066203903
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/bc13f832606b2b91575642a6455479c06c02507d144e4ff993ba36cc8b539595.npz",
+        "results/stage6_v1/end_to_end/probabilities/84c0e27343b09bd361079942c65e9522cef917da4e49b15b208879ffe65370a7.npz"
+      ],
+      "cnots": [
+        128,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.10894003171496061,
+      "TV_minus_p0": 0.041598257920162196
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.5875,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.07768130356448458,
+      "xz_joint_total_variation": 0.04836461541674421,
+      "optimal_known_binary_single_copy_error": 0.4611593482177577,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9960545262164029,
+        0.9947209339648433
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.69814757392559,
+              4.5764314299967905,
+              5.998517657681874,
+              0.817582484794073
+            ],
+            "margin": 3.7588489452027174,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.963139308505248,
+              7.290602203659338,
+              7.747167065370213,
+              0.9165797023750996
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.654824189366042,
+              4.6672427551826585,
+              6.138006559294126,
+              0.6702219548413452
+            ],
+            "margin": 3.9970208003413132,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.966262147972975,
+              7.365328162620904,
+              7.8580411417813885,
+              0.7812384524795277
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/ca1d30d533b776af63d1bcd3a0b3b1286c5439f05abb86ba8129ebb24b222fef.npz",
+        "results/stage6_v1/end_to_end/probabilities/a837a93310dcd206548d5aa333c5d4979c1c47101c6539ccf65d4f1697bb4434.npz"
+      ],
+      "cnots": [
+        128,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.014619075826367678,
+      "TV_minus_p0": 0.01700962681782897
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.6,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.06485663530146336,
+      "xz_joint_total_variation": 0.026230717302351155,
+      "optimal_known_binary_single_copy_error": 0.4675716823492683,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9964608335177076,
+        0.9964605918243927
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "paramagnetic-like",
+            "distances": [
+              11.105200801030621,
+              3.8465412118592193,
+              2.5425056694573382,
+              6.326612191155025
+            ],
+            "margin": 1.304035542401881,
+            "accepted": true
+          },
+          "D5": {
+            "label": "paramagnetic-like",
+            "distances": [
+              12.97176307835257,
+              3.96119592624472,
+              2.873265236326305,
+              8.186339368635778
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "paramagnetic-like",
+            "distances": [
+              11.10519925934799,
+              3.846529932634769,
+              2.542522914827674,
+              6.326615272491578
+            ],
+            "margin": 1.3040070178070948,
+            "accepted": true
+          },
+          "D5": {
+            "label": "paramagnetic-like",
+            "distances": [
+              12.97176417733584,
+              3.961186884241967,
+              2.873285643323261,
+              8.186336453343017
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/0d183265ba90f246890198c8b5dc6cbd1f1de339b754442ec5cd6be1c3ebcaeb.npz",
+        "results/stage6_v1/end_to_end/probabilities/0e46cb1915e7f8a99aa8ff9eef958adefe30124be8f28427261fd9ad1547b3f1.npz"
+      ],
+      "cnots": [
+        128,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.6,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.20876405035688944,
+      "xz_joint_total_variation": 0.08969321577003284,
+      "optimal_known_binary_single_copy_error": 0.39561797482155525,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9964608335177076,
+        0.9964605918243927
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.809950936595312,
+              3.352572120305787,
+              3.2599249107509003,
+              3.984018749078512
+            ],
+            "margin": 0.0926472095548867,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.705859983186926,
+              4.819203734597409,
+              4.328758955545349,
+              4.815960068270188
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.846593582941958,
+              3.3723900609509703,
+              3.218532316921725,
+              4.029135597948143
+            ],
+            "margin": 0.15385774402924524,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.722534548872696,
+              4.824643008130547,
+              4.305580487931882,
+              4.858244161220721
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/2e48f5c6d4aed455043ba6017125d40366aaefb01e57ad799a6262351472efc1.npz",
+        "results/stage6_v1/end_to_end/probabilities/dd4e9955826d4641a575bfc942d4984cc6e8e4e202a11a6c89b20ca8974122b2.npz"
+      ],
+      "cnots": [
+        128,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.1439074150554261,
+      "TV_minus_p0": 0.06346249846768168
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.6,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.09432154778660948,
+      "xz_joint_total_variation": 0.057596022211871836,
+      "optimal_known_binary_single_copy_error": 0.45283922610669525,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9964608335177076,
+        0.9964605918243927
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.693328859217761,
+              4.614432487720895,
+              6.0336361369221105,
+              0.7782186132467698
+            ],
+            "margin": 3.836213874474125,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.95864229223742,
+              7.300069653967671,
+              7.759751161946642,
+              0.8900630657131265
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.711106694593374,
+              4.619078290497064,
+              6.013986392251022,
+              0.7987906953379804
+            ],
+            "margin": 3.8202875951590833,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.961597415324132,
+              7.313703104526982,
+              7.760856131274479,
+              0.8929406952621934
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/c939ecf0552531ee7eb302052b346208507febbb1dbc3647140f521db8c30722.npz",
+        "results/stage6_v1/end_to_end/probabilities/a5dfe15f00ee33b53365c7e01b594ead4c2093a4a9b88af19aef3016987adb8e.npz"
+      ],
+      "cnots": [
+        128,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.029464912485146114,
+      "TV_minus_p0": 0.03136530490952068
+    },
+    {
+      "kappa": 0.9,
+      "h": 1.8,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.007140344835886238,
+      "xz_joint_total_variation": 0.002970130471312693,
+      "optimal_known_binary_single_copy_error": 0.4964298275820569,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999529632326123,
+        0.9999718044769399
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "paramagnetic-like",
+            "distances": [
+              11.893992185760347,
+              6.554819374704237,
+              0.8777980933737823,
+              7.51507459279835
+            ],
+            "margin": 5.677021281330454,
+            "accepted": true
+          },
+          "D5": {
+            "label": "paramagnetic-like",
+            "distances": [
+              13.867503997679998,
+              6.783829450803608,
+              1.379859643697022,
+              8.724147403222592
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "paramagnetic-like",
+            "distances": [
+              11.894817702940852,
+              6.554465310102349,
+              0.8777480361932403,
+              7.515145658536174
+            ],
+            "margin": 5.676717273909109,
+            "accepted": true
+          },
+          "D5": {
+            "label": "paramagnetic-like",
+            "distances": [
+              13.866323804316194,
+              6.783187427049722,
+              1.379435460978339,
+              8.723571735635794
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/e4cee09a3ca5cd50a7a8b9f6df51d316ea8f641a1f1233bceb83d03de3fc92f3.npz",
+        "results/stage6_v1/end_to_end/probabilities/340b3cb9e59694fdfad23451979ef6c018bf5df816d738173bb81d091891a03c.npz"
+      ],
+      "cnots": [
+        128,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 0.9,
+      "h": 1.8,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.10652513126951964,
+      "xz_joint_total_variation": 0.048762676955551226,
+      "optimal_known_binary_single_copy_error": 0.44673743436524016,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999529632326123,
+        0.9999718044769399
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "paramagnetic-like",
+            "distances": [
+              10.411072745412836,
+              5.129842588494012,
+              1.6414210765561768,
+              5.226615184669052
+            ],
+            "margin": 3.488421511937835,
+            "accepted": true
+          },
+          "D5": {
+            "label": "paramagnetic-like",
+            "distances": [
+              13.08142416283798,
+              6.02522221511783,
+              2.9321321609840982,
+              5.992137347044268
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "paramagnetic-like",
+            "distances": [
+              10.393704866333666,
+              5.098691152522986,
+              1.6743656315246738,
+              5.187128590414419
+            ],
+            "margin": 3.424325520998312,
+            "accepted": true
+          },
+          "D5": {
+            "label": "paramagnetic-like",
+            "distances": [
+              13.072446384363131,
+              5.996745152769469,
+              2.944301506213912,
+              5.9632088600019255
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/f15eca81f73522e851315e9bad5176bd04e8675e7c3a86b7d0d096745ce5b0ee.npz",
+        "results/stage6_v1/end_to_end/probabilities/46f10ff3e3709d9c44a3ab9397b2063b8eeaa3a38b42dc51ef6023bee654b25b.npz"
+      ],
+      "cnots": [
+        128,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0993847864336334,
+      "TV_minus_p0": 0.045792546484238535
+    },
+    {
+      "kappa": 0.9,
+      "h": 1.8,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.060266819216737155,
+      "xz_joint_total_variation": 0.035270488888961976,
+      "optimal_known_binary_single_copy_error": 0.4698665903916314,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999529632326123,
+        0.9999718044769399
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.754981966251682,
+              4.602495690047891,
+              5.534291624576896,
+              1.2743450498674038
+            ],
+            "margin": 3.3281506401804872,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.8533618220565,
+              7.104229215150844,
+              7.2154327861638405,
+              1.430745607541003
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.738547957256953,
+              4.617385715881833,
+              5.637699099728494,
+              1.1687012735850273
+            ],
+            "margin": 3.4486844422968064,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              12.870986405184517,
+              7.146978555146215,
+              7.322835145761887,
+              1.317520613266644
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/74fac90565e8e31c5250fc4fef7735748469bb57f2e9271b0c7b27e2c638fc8d.npz",
+        "results/stage6_v1/end_to_end/probabilities/71ae5dff76193aa82544df6284bb2d6afd4bf271564d485527d29f2bb072d15d.npz"
+      ],
+      "cnots": [
+        128,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.05312647438085092,
+      "TV_minus_p0": 0.032300358417649284
+    },
+    {
+      "kappa": 1,
+      "h": 0.2,
+      "p": 0,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.0055836573035998,
+      "xz_joint_total_variation": 0.0008562074952105155,
+      "optimal_known_binary_single_copy_error": 0.4972081713482001,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999666828494969,
+        0.9999990846067914
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              10.253704528791934,
+              0.22141784472830192,
+              5.854122064367476,
+              5.136330087478534
+            ],
+            "margin": 4.914912242750232,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.146938167969545,
+              0.22115916725760623,
+              6.177791298032041,
+              7.970139812179177
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              10.254228516074688,
+              0.22424480279187764,
+              5.85171040343257,
+              5.1371856037138315
+            ],
+            "margin": 4.9129408009219535,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.14727644421435,
+              0.2240326185727469,
+              6.175512415544318,
+              7.971244628456369
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/c2fb27f569009e87c94f676883e1adc909310cc01c460fa6edebc0bc4b101a52.npz",
+        "results/stage6_v1/end_to_end/probabilities/aa6d165641f0379e437c7da84af05aa738bdef285aecfc32c27188f3cbe983f2.npz"
+      ],
+      "cnots": [
+        32,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.0,
+      "TV_minus_p0": 0.0
+    },
+    {
+      "kappa": 1,
+      "h": 0.2,
+      "p": 0.01,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.44987019522802724,
+      "xz_joint_total_variation": 0.35357458967582894,
+      "optimal_known_binary_single_copy_error": 0.27506490238598635,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999666828494969,
+        0.9999990846067914
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              9.963736457000609,
+              0.5839969261302087,
+              5.692788878204071,
+              4.531672752885691
+            ],
+            "margin": 3.947675826755482,
+            "accepted": true
+          },
+          "D5": {
+            "label": "antiphase-like",
+            "distances": [
+              12.232471888039017,
+              1.626049310046675,
+              5.998978232542525,
+              6.530744902579982
+            ],
+            "accepted": true
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "antiphase-like",
+            "distances": [
+              9.266758220959812,
+              2.1362189942795076,
+              5.625699145094179,
+              2.9464179614202695
+            ],
+            "margin": 0.8101989671407619,
+            "accepted": true
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.505032834293607,
+              4.468786724495131,
+              6.549483429390673,
+              3.736510833060551
+            ],
+            "accepted": false
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/f1d268e5e931e61c60e12203c27d11032f769f4ea9904712c428b208c2571a58.npz",
+        "results/stage6_v1/end_to_end/probabilities/8e38c1f18f636025229b8e13aea6d592a44a9510ca92db83d0416cabb489894a.npz"
+      ],
+      "cnots": [
+        32,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.44428653792442746,
+      "TV_minus_p0": 0.3527183821806184
+    },
+    {
+      "kappa": 1,
+      "h": 0.2,
+      "p": 0.05,
+      "methods": [
+        "B3",
+        "H6"
+      ],
+      "trace_distance": 0.549407539178911,
+      "xz_joint_total_variation": 0.40458791023539115,
+      "optimal_known_binary_single_copy_error": 0.22529623041054447,
+      "quantum_access": "Full simulated density matrix, not local100k-shot protocol",
+      "measurement": "Equal allocation to complete Z/X bitstrings",
+      "clean_fidelity_to_same_ED": [
+        0.9999666828494969,
+        0.9999990846067914
+      ],
+      "both_clean_state_pass": true,
+      "predictions": {
+        "B3": {
+          "D4": {
+            "label": "uncertain",
+            "distances": [
+              9.247254898849773,
+              2.3653882756513247,
+              5.620136340665931,
+              2.73157651611911
+            ],
+            "margin": 0.3661882404677854,
+            "accepted": false
+          },
+          "D5": {
+            "label": "uncertain",
+            "distances": [
+              12.866092306600166,
+              5.154763987396562,
+              6.935661355432926,
+              3.463145564508977
+            ],
+            "accepted": false
+          }
+        },
+        "H6": {
+          "D4": {
+            "label": "degraded",
+            "distances": [
+              8.617686677023494,
+              4.735131902490643,
+              6.547515532196501,
+              0.34272160459427525
+            ],
+            "margin": 4.392410297896368,
+            "accepted": true
+          },
+          "D5": {
+            "label": "degraded",
+            "distances": [
+              13.086861117261806,
+              7.622952535624819,
+              8.356652698611597,
+              0.3996940448511902
+            ],
+            "accepted": true
+          }
+        }
+      },
+      "source_archives": [
+        "results/stage6_v1/end_to_end/probabilities/9b53d1ec689305e174fe1af9bcbfb9b811fd52dcfd16b2b87292e780f36f391f.npz",
+        "results/stage6_v1/end_to_end/probabilities/2610d16f24be8adf738227fa6ae6627caafd76d3b117cb9c5361e46709394d3c.npz"
+      ],
+      "cnots": [
+        32,
+        128
+      ],
+      "scope": "Same physical target and coordinate, distinct preparation channels; cross-structure output disagreement cannot establish a physical phase change. Clean-ED training uses neither p nor circuit identity.",
+      "DQ_minus_p0": 0.5438238818753113,
+      "TV_minus_p0": 0.4037317027401806
+    }
+  ],
+  "coordinates": 26,
+  "resource": "Analysis of previously saved full density matrices and detector outputs; no added measurement samples. State access is not a local-shot resource.",
+  "interpretation": "Noise may distinguish circuit implementations rather than physical phases. A retained oracle binary signal is not automatically retained universal phase information; same-coordinate controls expose this confound. No common-channel contraction assumption."
+}

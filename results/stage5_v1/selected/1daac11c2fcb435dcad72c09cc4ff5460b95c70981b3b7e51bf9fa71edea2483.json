@@ -1,0 +1,384 @@
+{
+  "n": 12,
+  "kappa": 0.8,
+  "h": 0.1,
+  "ref": "antiphase",
+  "seed": 11,
+  "selected": {
+    "words": [
+      "IIIIIZIYIIII",
+      "IIIIIIZIYIII",
+      "IIIIIIIIIZIY",
+      "IIIIYIZIIIII",
+      "IIIYIZIIIIII",
+      "YIIIIIIIIIZI",
+      "IIIIIIIIZIYI",
+      "IIIIIIYIZIII",
+      "IIIZIYIIIIII",
+      "IYIZIIIIIIII",
+      "IIYIZIIIIIII",
+      "IIIIIIIZIYII",
+      "IIIIIIZIYIII",
+      "IIIIIIIIYIZI",
+      "IIIYIZIIIIII",
+      "IZIYIIIIIIII",
+      "IIIIIZIYIIII",
+      "IIIIYIZIIIII",
+      "YZIIIIIIIIII",
+      "YIIIIIIIIIIZ",
+      "XYIIIIIIIIIZ",
+      "YIIIIIIIIIZX",
+      "IIIIIIIIIIZY",
+      "IYZIIIIIIIII",
+      "IIIIIIIIZYII"
+    ],
+    "params": [
+      -0.015511091347355956,
+      0.061864242716271736,
+      -0.03132565943043766,
+      -0.015510800345920218,
+      0.0618826083416869,
+      -0.0313102792029097,
+      -0.031314371302713175,
+      -0.03123678267544009,
+      -0.031236765046615208,
+      -0.03133046101414314,
+      -0.031195523303449976,
+      -0.03119539691880645,
+      -0.04661156245107005,
+      -0.04652178881260942,
+      -0.04663812955635752,
+      -0.04651348025848716,
+      -0.015638549490971935,
+      -0.01563825154581023,
+      -0.01595298008366091,
+      -0.015952877510949374,
+      -0.0006221763318064961,
+      -0.0006211320693665788,
+      -0.0001003687321226597,
+      -9.995047746792204e-05,
+      -7.615944643826769e-05
+    ],
+    "reason": "budget_checkpoint_64",
+    "optimizer_success": true,
+    "cnots": 64,
+    "gate_count": 155,
+    "unitary_depth": 58,
+    "target_counts": [
+      0,
+      4,
+      3,
+      5,
+      3,
+      7,
+      5,
+      5,
+      7,
+      5,
+      9,
+      11
+    ],
+    "cnot_order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "energy": -9.637483117514144,
+    "ed_energy": -9.637585857773033,
+    "delta_e": 8.561688240741697e-06,
+    "epsilon_c": 5.6097066251870054e-05,
+    "epsilon_sf": 2.172156363666744e-05,
+    "epsilon_mx": 0.00034679421413615075,
+    "fidelity": 0.999965003384321,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage5_v1/ed/n12_k0x1.999999999999ap-1_h0x1.999999999999ap-4.npz",
+    "parity": 0.9999999999999999,
+    "w_plus": 1.0,
+    "T_real": 0.9999864380302056,
+    "T_imag": 0.0,
+    "eta_T": 1.3561969794406714e-05,
+    "w0": 0.9999901191476597,
+    "w_plus_0": 0.9999901191476597,
+    "variance": 0.0003495594018261272,
+    "n": 12,
+    "kappa": 0.8,
+    "h": 0.1,
+    "ref": "antiphase",
+    "seed": 11,
+    "uid": "1daac11c2fcb435dcad72c09cc4ff5460b95c70981b3b7e51bf9fa71edea2483",
+    "source": "results/stage5_v1/adaptive/cache/dab4cb3e21e6d38a4767ad2c8e32be2fa3f9bc0fd157df31e7a63f023678a274.json",
+    "source_sha": "b6a7f5dd88d12738153836b169589ec89790cbe7fd8d9ea45a37acaeba19f5f3",
+    "checkpoint": 2,
+    "source_stop": "energy_stagnation",
+    "source_budget": 192,
+    "disposition": "newly_executed"
+  },
+  "archive": "results/stage5_v1/selected/1daac11c2fcb435dcad72c09cc4ff5460b95c70981b3b7e51bf9fa71edea2483.npz",
+  "sha256": "106e355abcb14a7ae67d0335dbc46d030396c41099e0f972ff8398621edad380",
+  "energy": -9.637483117514144,
+  "ed_energy": -9.637585857773033,
+  "delta_e": 8.561688240741697e-06,
+  "epsilon_c": 5.6097066251870054e-05,
+  "epsilon_sf": 2.172156363666744e-05,
+  "epsilon_mx": 0.00034679421413615075,
+  "fidelity": 0.999965003384321,
+  "observable_pass": true,
+  "state_pass": true,
+  "joint_pass": true,
+  "ed_source": "results/stage5_v1/ed/n12_k0x1.999999999999ap-1_h0x1.999999999999ap-4.npz"
+}

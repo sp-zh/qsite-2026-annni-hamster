@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-09-22T18:38:31.294994+00:00",
+  "status": "planned_not_executed",
+  "point": [
+    1.0,
+    0.7
+  ],
+  "n": 160,
+  "chi": [
+    128,
+    256
+  ],
+  "initial": "plus",
+  "reason": "The user singled out the already known Stage4 elevated c~1.09-1.15 at(1,.7). Freeze one further size before this center new N128 results; test size trend rather than select a fit window.",
+  "prerequisites": "Finish all39 main MPS runs and any triggered main chi512 first; require at least2h remaining on original12h deadline.",
+  "additional_run_cap": 3,
+  "chi512_trigger": "delta E/site>=1e-5 or maxC change>=.01 or max entropy change>=.03 between128/256; one chi512 if triggered and budget allows.",
+  "analysis": "Same raw/connected models, fit windows and OBC entropy formula. Report new actual c/q windows and chi sensitivity. This optional size check does not retroactively change the frozen N128 criteria or erase failed blocks.",
+  "allocation_unchanged": true
+}

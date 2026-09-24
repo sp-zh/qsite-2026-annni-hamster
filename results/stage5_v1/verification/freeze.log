@@ -1,0 +1,54 @@
+{
+  "selector": {
+    "w0_min": 0.99,
+    "parity_min": 0.999999,
+    "energy_tolerance_per_site": 1e-06
+  },
+  "validation_results": [
+    {
+      "selector": {
+        "w0_min": 0.99,
+        "parity_min": 0.999999,
+        "energy_tolerance_per_site": 1e-06
+      },
+      "passed": 20,
+      "unresolved": 0,
+      "mean_cnots": 124.20833333333333
+    },
+    {
+      "selector": {
+        "w0_min": 0.99,
+        "parity_min": 0.999999,
+        "energy_tolerance_per_site": 1e-08
+      },
+      "passed": 20,
+      "unresolved": 0,
+      "mean_cnots": 126.29166666666667
+    },
+    {
+      "selector": {
+        "w0_min": 0.999,
+        "parity_min": 0.999999,
+        "energy_tolerance_per_site": 1e-06
+      },
+      "passed": 19,
+      "unresolved": 0,
+      "mean_cnots": 105.08333333333333
+    },
+    {
+      "selector": {
+        "w0_min": 0.999,
+        "parity_min": 0.999999,
+        "energy_tolerance_per_site": 1e-08
+      },
+      "passed": 19,
+      "unresolved": 0,
+      "mean_cnots": 107.16666666666667
+    }
+  ],
+  "rule": "maximize validation joint passes, then unresolved count, then CNOT cost, then smaller energy tolerance; fixed before test_v2 unsealing",
+  "timestamp": "2026-09-22T17:01:00.331572+00:00",
+  "validation_sha": "07e21f9ea493ea5034473af884db700760cb6c35f7ddcc4268f2219d646e1632",
+  "code_sha": "c2b7d909917fc33a9175cb04b0fce8947f440c4bcdf376f6b7b72682d8b9630a",
+  "access": "state-access-assisted design; no free hardware translation measurement; no projection"
+}

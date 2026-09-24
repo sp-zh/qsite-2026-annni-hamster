@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0",
+    "pillow": "12.3.0"
+  },
+  "officecli": "1.0.143",
+  "scope": "Separate artifact runtime. Scientific and tensor-network environments are unchanged. This records actual available packages; exported files have their own QA records."
+}

@@ -1,0 +1,126 @@
+--- stage3/README.md
++++ stage4/README.md
+@@ -1,101 +1,36 @@
+-# ANNNI Scientific Track：可复现基线
++# ANNNI Scientific Track — submission candidate
+ 
+-本项目为 QSITE 2026 Quantum Coalition Scientific Track 建立无噪声精确解参考。
+-上游原始文件保存在 `upstream/`；我们新增的实现位于 `annni/`、`scripts/` 和 `tests/`。
+-上游版本与来源见 `upstream/PROVENANCE.json`。本轮结果不是完整比赛 submission。
++**Preparation-Protocol Dependence of Noisy ANNNI Phase Diagnostics**
+ 
+-## Stage 2：已执行的 VQE 校准与噪声检查
++The project has executed ED baselines, VQE calibration, matched depth/noise experiments, a 420-point positive-field grid, a corrected actual-branch audit, bounded repair and local nested-grid experiments. It is not an ED-only starter.
+ 
+-已完成 180 次主校准与 15 次 L=8 补救、冻结的诊断 v1，以及 5 点×3 噪声水平的真实密度矩阵模拟。
+-14/15 点达到至少 2/3 轨迹通过全部工程门槛；(κ,h)=(0.3,0.4) 仍不稳定。
+-当前对完整含噪全网格的判断为 **NO-GO**，主要因为初始化稳定性与累积门噪声。
+-25 项测试已通过。全部原始 baseline 与 upstream 文件保持不变。
++Start with [the executed submission notebook](submission/submission.ipynb), [the three-page English report](submission/report.pdf), and [the seven-slide presentation](submission/presentation.html). Author/team placeholders require completion; scientific claims and remaining deliverable gaps are explicit in the [requirements checklist](submission/requirements_checklist.csv).
+ 
+-- 主报告：[results/calibration_v1/REPORT.md](results/calibration_v1/REPORT.md)
+-- 已执行 notebook：[calibration.ipynb](calibration.ipynb)
+-- 全部运行及按点/层数汇总：[all_runs.csv](results/calibration_v1/all_runs.csv)、[summary.csv](results/calibration_v1/summary.csv)
+-- 诊断：[results/diagnostics_v1/REPORT.md](results/diagnostics_v1/REPORT.md)
+-- 逐门噪声：[results/noise_smoke_v1/REPORT.md](results/noise_smoke_v1/REPORT.md)
+-- 原配置：[configs/calibration_v1.json](configs/calibration_v1.json)
+-- 下一轮建议（未执行）：[configs/next_stage_proposal.json](configs/next_stage_proposal.json)
++Current results are generated from [statistics.json](submission/statistics.json) and linked to raw evidence in [evidence_table.csv](submission/evidence_table.csv): fixed L6 grid preparation coverage 411/420; 33 actual switching intervals audited; 78 repair attempts; 230 local preparations and 690 local noise configurations. These are selected deterministic simulations, not independent-start success rates or statistical confidence estimates.
+ 
+-在项目根目录使用锁定环境运行：
++No universal nonzero boundary displacement, floating phase or quantum advantage is claimed. Continuous diagnostics and quality masks retain preparation failures, unresolved features and protocol dependence.
+ 
+-```bash
+-OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python scripts/run_calibration.py --pilot
+-OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python scripts/run_calibration.py
+-OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python scripts/run_calibration.py --fallback
+-.venv/bin/python scripts/run_diagnostics.py
+-OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python scripts/run_noise_smoke.py
+-OPENBLAS_NUM_THREADS=1 .venv/bin/python scripts/verify_stage2.py
+-.venv/bin/python scripts/report_calibration.py
+-.venv/bin/python scripts/build_calibration_notebook.py
++## Reproduce
++
++```sh
++bash scripts/reproduce_submission.sh
+ ```
+ 
+-校准命令按代码、配置、输入和单次 NPZ 哈希校验后断点续算，不重复计算已完成记录。
+-不要修改 v1 配置再强行复用旧结果；新配置使用独立版本目录。无噪声选择按能量，所有失败都保留。
+-下一阶段 notebook 读取历史全量结果，并实际重跑一个轻量优化，明确标注两者来源。
++The default validates archives, rebuilds the submission and executes lightweight ideal/noisy checks. Explicit `--compute` is required to resume the Stage4 experiment; its independent 90-minute session is not silently reset. See [environment and export instructions](submission/REPRODUCE.md). Numerical requirements remain in [requirements.lock.txt](requirements.lock.txt); PDF export uses a separate optional environment.
+ 
+-以下内容记录 Stage 1 的 ED 基线及其复现方式。
++## Model and protocols
+ 
+-## 快速开始
++N=8 periodic ANNNI, H=-ΣZZ_NN+κΣZZ_NNN-hΣX. The main HVA uses L=6, 192 literal CNOTs; after each CNOT only its target receives the prescribed depolarizing channel with p=0,.01,.05. Full 256×256 density matrices, shots=None, no symmetry projection or gate cancellation. All p share frozen parameters at a point. h=0 is absent from the circuit grid.
+ 
+-需要 Python 3.14 和 uv。依赖精确版本已保存到 `requirements.lock.txt`。
++All eight discrete structure factors are stored, including the self term. The control-resemblance classifier itself uses only three features: [m0²,2m(π/2)²,Mx]. Its labels are not proof of thermodynamic phases.
+ 
+-```bash
+-uv venv --python 3.14 .venv
+-uv pip sync --python .venv/bin/python requirements.lock.txt
+-MPLCONFIGDIR=.mplconfig OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m pytest -q
+-MPLCONFIGDIR=.mplconfig OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python scripts/run_baseline.py
+-MPLCONFIGDIR=.mplconfig OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python scripts/build_notebook.py
+-```
++## Traceability and historical results
+ 
+-如本机代理不可用，可仅为该命令清空 `HTTP_PROXY`、`HTTPS_PROXY`、`ALL_PROXY` 及对应小写变量。
+-不要修改系统代理配置。受限环境可设置 `UV_CACHE_DIR=/tmp/quantum-uv-cache`。
++- [Stage4 execution report and limitations](results/stage4_v1/REPORT.md)
++- [Stage4 decision fields](results/stage4_v1/decision.json)
++- [Stage3 historical report](results/stage3_v1/REPORT.md)
++- [VQE calibration](results/calibration_v1/REPORT.md)
++- [ED baseline](results/baseline/REPORT.md)
++- [Unmodified competition snapshot](upstream/Scientific%20Track/README.md) and [provenance](upstream/PROVENANCE.json)
+ 
+-打开 `baseline.ipynb` 可查看已保存的数值结果和图表，并重跑一个代表点。
+-默认运行 notebook 不会重跑全部扫描；全扫描命令如上。
+-
+-## 实验配置
+-
+-- 模型：`H = -sum Z_i Z_(i+1) + kappa sum Z_i Z_(i+2) - h sum X_i`，周期边界，最近邻耦合为 1。
+-- 主网格：N=8，κ∈[0,1]、h∈[0,2]，21×21 点。
+-- 尺寸切片：N=8、12、16；κ=0、0.3、0.8；h∈[0,2]，41 点，步长 0.05。
+-- 不相容尺寸对照：N=6、8、10、12、16，固定 (κ,h)=(0.8,0.2)。
+-- 求解：SciPy CSR + `eigsh(which='SA', k=1)`，容差 1e-11，确定性的均匀正初始向量；每点检查本征残差。
+-- h>0：在全局自旋翻转的偶对称扇区求解。非正非对角元与连通性保证基态唯一、正振幅，因此属于此扇区。
+-- 均匀初始向量保持平移对称性，输出再投影到零动量以去除舍入误差泄漏；避免低场近简并动量态污染保真度。
+-- h=0：直接枚举经典最低能量构型，以等权**非相干混合**计算可观测量；不把它当作 h→0+ 的唯一极限。
+-
+-## 可观测量及解释
+-
+-`C(r) = (1/N) sum_i <Z_i Z_(i+r)>`，`Mx = (1/N) sum_i <X_i>`。
+-
+-`m_q² = (1/N²) sum_ij exp[iq(i-j)] <Z_i Z_j>`，保存全部离散动量及 q=0、π/2 指标。
+-定义保留 i=j 项，因此独立横向自旋态有 1/N 背景；理想四周期反相在 q=π/2 的指标为 1/2。
+-
+-保真度诊断：`chi_F = -log(|<psi(h)|psi(h+dh)>|²)/dh²`，结果位于区间中点。
+-涉及 h=0 混合态的区间留空。`diagnostic_peaks.csv` 保存每条切片最大的保真度峰和
+-序参量负导数峰，并标记端点最大值。**这些是离散网格上的有限尺寸特征，不是拟合后的热力学相边界。**
+-多个局部峰、步长敏感性和不确定性需要在下一阶段单独研究。
+-
+-本轮没有通过参考曲线或人为阈值给每点贴四相标签，也没有确认 floating phase。
+-没有运行 VQE、CNOT 后退极化噪声或 ZNE；ED 数据将作为这些实验的校准依据。
+-
+-## 文件
+-
+-| 路径 | 内容 |
+-|---|---|
+-| `annni/model.py` | 稀疏 Hamiltonian、偶扇区求解、关联函数与保真度 |
+-| `scripts/run_baseline.py` | 全部扫描、数据落盘、图表及元数据 |
+-| `scripts/build_notebook.py` | 根据已保存数据生成报告并执行 notebook |
+-| `tests/test_physics.py` | 上游 PennyLane / 密集矩阵 / 解析极限交叉验证 |
+-| `baseline.ipynb` | 已执行的基线阅读与代表点复算 notebook |
+-| `results/baseline/REPORT.md` | 本次运行的结果与局限 |
+-| `results/baseline/grid_n8.npz` | 全网格全部可观测量及基态；h=0 的 state 为 NaN |
+-| `results/baseline/slices_n*.npz` | 尺寸切片、关联函数、动量结构因子与保真度 |
+-| `results/baseline/*.csv` | 便于查看的标量数据与诊断峰 |
+-| `results/baseline/metadata.json` | 环境、配置、上游版本、代码哈希、本征残差 |
+-
+-数据数组以 `[kappa_index, h_index, ...]` 排列；`chi_f` 的第二维对应 `h_mid`。
+-每次全扫描重新生成结果，不隐式复用旧缓存。大型态向量只在 N=8 主网格保存。
++Stage3 data, original configuration and logs remain unchanged. Corrected branch/support logic is versioned in new Stage4 modules. The previous README and source fingerprints are retained in results/stage4_v1/verification/source_before. Final manifests distinguish unchanged history, newly created files and modified entry/source artifacts. No remote publication is performed by the reproduction command.

@@ -1,0 +1,198 @@
+{
+  "timestamp": "2026-09-22T23:35:43.162183+00:00",
+  "low_fidelity_observables": {
+    "n": 8,
+    "kappa": 0.8,
+    "h": 0.01,
+    "gates": [
+      [
+        "H",
+        0
+      ],
+      [
+        "X",
+        2
+      ],
+      [
+        "X",
+        4
+      ],
+      [
+        "X",
+        6
+      ],
+      [
+        "CNOT",
+        0,
+        1
+      ],
+      [
+        "CNOT",
+        1,
+        2
+      ],
+      [
+        "CNOT",
+        2,
+        3
+      ],
+      [
+        "CNOT",
+        3,
+        4
+      ],
+      [
+        "CNOT",
+        4,
+        5
+      ],
+      [
+        "CNOT",
+        5,
+        6
+      ],
+      [
+        "CNOT",
+        6,
+        7
+      ]
+    ],
+    "cnots": 7,
+    "gate_count": 11,
+    "unitary_depth": 8,
+    "target_counts": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "cnot_order": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "energy": -6.3999999999999995,
+    "ed_energy": -6.40025001777963,
+    "delta_e": 3.125222245381476e-05,
+    "epsilon_c": 3.907473015729579e-05,
+    "epsilon_sf": 1.4652451484187257e-05,
+    "epsilon_mx": 0.006250889011127067,
+    "fidelity": 0.4999609297518947,
+    "observable_pass": true,
+    "state_pass": false,
+    "joint_pass": false,
+    "reference_numerical_ambiguous": false,
+    "ed_source": "results/stage6_v1/reference_atlas/cache/29cd0a57567294f5121df52002bddf433fc0a9f16d968711073187e7bd87cf5a.npz",
+    "observables": [
+      0.9999999999999998,
+      0.0,
+      -0.9999999999999998,
+      0.0,
+      0.9999999999999998,
+      0.0,
+      -0.9999999999999998,
+      0.0,
+      0.0,
+      0.0,
+      0.4999999999999999,
+      0.0,
+      0.0,
+      0.0,
+      0.4999999999999999,
+      0.0,
+      0.0
+    ],
+    "ed_observables": [
+      0.9999999999999997,
+      1.2850288294565246e-09,
+      -0.9999609275591417,
+      -3.9894258565928463e-13,
+      0.9999609252698425,
+      -3.9894258565928463e-13,
+      -0.9999609275591417,
+      1.2850288294565246e-09,
+      4.884090102335027e-06,
+      4.88456850332168e-06,
+      0.4999853475485157,
+      4.884114035974512e-06,
+      4.883447787391591e-06,
+      4.884114035974512e-06,
+      0.4999853475485157,
+      4.88456850332168e-06,
+      0.006250889011127067
+    ],
+    "explanation": "A real paid two-configuration global-flip cat: translationally averaged C/SF are close to the full four-translation low-field antiphase cat; state overlap about1/2. No symmetry projection or ED loading."
+  },
+  "unit_fidelity_not_phase_truth": {
+    "n": 8,
+    "kappa": 0.5,
+    "h": 0.035,
+    "fidelity": 1.0,
+    "old_detector": {
+      "D1": "uncertain",
+      "D3": "paramagnetic-like",
+      "D1_distances": [
+        0.7929372859080848,
+        0.6329530406038478,
+        0.4164905841342165,
+        0.3756783621501627
+      ],
+      "D3_distances": [
+        6.614570554549421,
+        2.3373141090663476,
+        6.460683566115449
+      ],
+      "full_features": [
+        0.9999999999999993,
+        0.499690262859412,
+        3.092208989829275e-05,
+        -0.41223205813370245,
+        -0.5759007143948247,
+        -0.41223205813370245,
+        3.092208989829275e-05,
+        0.499690262859412,
+        0.07488469240454879,
+        0.3581942035717547,
+        0.05300468017817225,
+        0.03578097502695132,
+        0.03115559004169402,
+        0.03578097502695132,
+        0.05300468017817225,
+        0.3581942035717547,
+        0.45150473767305177
+      ]
+    },
+    "reference": "results/stage6_v1/reference_atlas/cache/9e3d8551f5033b58f92a62ea9bd745dd29d66b157d74c7fc2cf240d6348e287d.npz",
+    "independent_label": null,
+    "explanation": "Exact ED data at competing multiphase vicinity remain RN continuous diagnostics; an output resemblance label is not independently established thermodynamic phase truth. This is an ideal-information example, not free quantum StatePrep."
+  }
+}

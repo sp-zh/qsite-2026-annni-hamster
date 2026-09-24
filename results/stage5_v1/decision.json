@@ -1,0 +1,403 @@
+{
+  "timestamp": "2026-09-22T20:29:22.992154+00:00",
+  "implementation_validation": {
+    "status": "PASS",
+    "evidence": "verification/result_audit.json and final tests"
+  },
+  "selection_improvement": {
+    "status": "LIMITED_GAIN_WITH_TAIL_FAILURES",
+    "new_test": "60/72 ->62/72; S1 also62/72",
+    "deployment": "NO-GO for unconditional S2/B5 replacement"
+  },
+  "end_to_end_recovery": {
+    "status": "LIMITED_ANCHOR_RECOVERY",
+    "full_map": "37 anchors \u00d732: at p.05 D1 B5 raw0 -> ZNE96 correct; D3 raw96 -> ZNE97. No wrong accepted in this anchor set, remaining trials rejected.",
+    "p01": "B3 and B5 already recover all12 anchors at100k; no added anchor coverage",
+    "p05": "D1: B5 ZNE64/384 correct versus raw0. D3: B3 raw192/384 versus B5 raw/ZNE/SV64/384. All0 wrong in these12 anchors. Detector-specific partial recovery, not superiority to best old combination or full-map recovery"
+  },
+  "n12": {
+    "status": "COMPLETED_PAIRED_RESOURCE_TEST",
+    "summary": [
+      {
+        "cohort": "old_descriptive60",
+        "method": "S0",
+        "total": 60,
+        "passed": 40,
+        "observable_pass": 40,
+        "state_pass": 52,
+        "optimizer_success": 49,
+        "reference_selections": 0,
+        "raw_checkpoint_success_flags": 49,
+        "median_cnots": 127.0,
+        "cnots_quantiles": [
+          63.0,
+          96.0,
+          127.0,
+          128.0,
+          128.0
+        ],
+        "energy_error_quantiles": [
+          6.668374092910767e-07,
+          6.211904850713286e-05,
+          0.0001435207606096019,
+          0.0007295589175347524,
+          0.01028499012950664
+        ],
+        "fidelity_quantiles": [
+          0.8265630358884606,
+          0.9973917034975096,
+          0.9995032279497684,
+          0.9998302886042425,
+          0.9999979784584323
+        ],
+        "selected_near_cap_count": 40,
+        "cap_warning": "Selected cost near cap is not proof every failure is resource limited; per-point candidate availability, maximum searched gates and actual source stops are separate."
+      },
+      {
+        "cohort": "old_descriptive60",
+        "method": "S1",
+        "total": 60,
+        "passed": 40,
+        "observable_pass": 41,
+        "state_pass": 51,
+        "optimizer_success": 42,
+        "reference_selections": 0,
+        "raw_checkpoint_success_flags": 42,
+        "median_cnots": 128.0,
+        "cnots_quantiles": [
+          86.0,
+          128.0,
+          128.0,
+          128.0,
+          128.0
+        ],
+        "energy_error_quantiles": [
+          1.1701431675466742e-08,
+          1.843215294328182e-05,
+          0.00010410523452630827,
+          0.0007295589175347524,
+          0.01028499012950664
+        ],
+        "fidelity_quantiles": [
+          0.5000003412879179,
+          0.9972012827025087,
+          0.9995007355895366,
+          0.9999544718477786,
+          0.9999999645807872
+        ],
+        "selected_near_cap_count": 58,
+        "cap_warning": "Selected cost near cap is not proof every failure is resource limited; per-point candidate availability, maximum searched gates and actual source stops are separate."
+      },
+      {
+        "cohort": "old_descriptive60",
+        "method": "S2",
+        "total": 60,
+        "passed": 41,
+        "observable_pass": 41,
+        "state_pass": 52,
+        "optimizer_success": 40,
+        "reference_selections": 1,
+        "raw_checkpoint_success_flags": 41,
+        "median_cnots": 128.0,
+        "cnots_quantiles": [
+          10.0,
+          127.0,
+          128.0,
+          128.0,
+          128.0
+        ],
+        "energy_error_quantiles": [
+          2.3601532876208844e-07,
+          1.843215294328182e-05,
+          0.00010410523452630827,
+          0.0007295589175347524,
+          0.2197753540951141
+        ],
+        "fidelity_quantiles": [
+          0.06722293465035983,
+          0.9973917034975096,
+          0.9995638164583052,
+          0.9999583236202172,
+          0.9999992707183989
+        ],
+        "selected_near_cap_count": 57,
+        "cap_warning": "Selected cost near cap is not proof every failure is resource limited; per-point candidate availability, maximum searched gates and actual source stops are separate."
+      },
+      {
+        "cohort": "old_descriptive60",
+        "method": "S2_192",
+        "total": 60,
+        "passed": 52,
+        "observable_pass": 52,
+        "state_pass": 57,
+        "optimizer_success": 22,
+        "reference_selections": 1,
+        "raw_checkpoint_success_flags": 23,
+        "median_cnots": 192.0,
+        "cnots_quantiles": [
+          10.0,
+          191.0,
+          192.0,
+          192.0,
+          192.0
+        ],
+        "energy_error_quantiles": [
+          1.723048269989628e-07,
+          2.6496152865836584e-06,
+          2.446305244648469e-05,
+          0.0001552929552944097,
+          0.2197753540951141
+        ],
+        "fidelity_quantiles": [
+          0.06722293465035983,
+          0.9995909690858344,
+          0.9999198856748914,
+          0.9999957895149428,
+          0.9999995139731455
+        ],
+        "selected_near_cap_count": 51,
+        "cap_warning": "Selected cost near cap is not proof every failure is resource limited; per-point candidate availability, maximum searched gates and actual source stops are separate."
+      },
+      {
+        "cohort": "old_descriptive60",
+        "method": "B5_192",
+        "total": 60,
+        "passed": 52,
+        "observable_pass": 52,
+        "state_pass": 57,
+        "optimizer_success": 22,
+        "reference_selections": 1,
+        "raw_checkpoint_success_flags": 23,
+        "median_cnots": 192.0,
+        "cnots_quantiles": [
+          10.0,
+          191.0,
+          192.0,
+          192.0,
+          192.0
+        ],
+        "energy_error_quantiles": [
+          1.723048269989628e-07,
+          2.6496152865836584e-06,
+          2.446305244648469e-05,
+          0.0001552929552944097,
+          0.2197753540951141
+        ],
+        "fidelity_quantiles": [
+          0.06722293465035983,
+          0.9995909690858344,
+          0.9999198856748914,
+          0.9999957895149428,
+          0.9999995139731455
+        ],
+        "selected_near_cap_count": 51,
+        "cap_warning": "Selected cost near cap is not proof every failure is resource limited; per-point candidate availability, maximum searched gates and actual source stops are separate."
+      },
+      {
+        "cohort": "new_test24",
+        "method": "S0",
+        "total": 24,
+        "passed": 10,
+        "observable_pass": 11,
+        "state_pass": 17,
+        "optimizer_success": 20,
+        "reference_selections": 0,
+        "raw_checkpoint_success_flags": 20,
+        "median_cnots": 128.0,
+        "cnots_quantiles": [
+          63.0,
+          127.0,
+          128.0,
+          128.0,
+          128.0
+        ],
+        "energy_error_quantiles": [
+          7.880272286264756e-06,
+          0.0001902904671499117,
+          0.0005635807296921296,
+          0.002256952881397415,
+          0.010788306187516547
+        ],
+        "fidelity_quantiles": [
+          0.4997067748444765,
+          0.9794102710681307,
+          0.9981709748299377,
+          0.9994589687869833,
+          0.9999874251603607
+        ],
+        "selected_near_cap_count": 20,
+        "cap_warning": "Selected cost near cap is not proof every failure is resource limited; per-point candidate availability, maximum searched gates and actual source stops are separate."
+      },
+      {
+        "cohort": "new_test24",
+        "method": "S1",
+        "total": 24,
+        "passed": 9,
+        "observable_pass": 11,
+        "state_pass": 16,
+        "optimizer_success": 20,
+        "reference_selections": 0,
+        "raw_checkpoint_success_flags": 20,
+        "median_cnots": 128.0,
+        "cnots_quantiles": [
+          127.0,
+          128.0,
+          128.0,
+          128.0,
+          128.0
+        ],
+        "energy_error_quantiles": [
+          4.778196673882462e-07,
+          0.00018462812369487064,
+          0.0005635807296921296,
+          0.002256952881397415,
+          0.010788306187516547
+        ],
+        "fidelity_quantiles": [
+          0.4997067748444765,
+          0.9468150986360496,
+          0.9977648120647487,
+          0.9993025114196846,
+          0.9999991629799305
+        ],
+        "selected_near_cap_count": 24,
+        "cap_warning": "Selected cost near cap is not proof every failure is resource limited; per-point candidate availability, maximum searched gates and actual source stops are separate."
+      },
+      {
+        "cohort": "new_test24",
+        "method": "S2",
+        "total": 24,
+        "passed": 11,
+        "observable_pass": 11,
+        "state_pass": 18,
+        "optimizer_success": 19,
+        "reference_selections": 1,
+        "raw_checkpoint_success_flags": 20,
+        "median_cnots": 128.0,
+        "cnots_quantiles": [
+          10.0,
+          127.75,
+          128.0,
+          128.0,
+          128.0
+        ],
+        "energy_error_quantiles": [
+          4.778196673882462e-07,
+          0.00018462812369487064,
+          0.0007610657394352405,
+          0.002256952881397415,
+          0.13803108334720507
+        ],
+        "fidelity_quantiles": [
+          0.0006374423600732365,
+          0.9897769496696043,
+          0.9981709748299377,
+          0.9994589687869833,
+          0.9999991629799305
+        ],
+        "selected_near_cap_count": 20,
+        "cap_warning": "Selected cost near cap is not proof every failure is resource limited; per-point candidate availability, maximum searched gates and actual source stops are separate."
+      },
+      {
+        "cohort": "new_test24",
+        "method": "S2_192",
+        "total": 24,
+        "passed": 17,
+        "observable_pass": 17,
+        "state_pass": 20,
+        "optimizer_success": 9,
+        "reference_selections": 1,
+        "raw_checkpoint_success_flags": 10,
+        "median_cnots": 192.0,
+        "cnots_quantiles": [
+          10.0,
+          191.75,
+          192.0,
+          192.0,
+          192.0
+        ],
+        "energy_error_quantiles": [
+          1.714693098620046e-07,
+          3.9009629450211435e-05,
+          0.00017767447094851896,
+          0.0007298398572098316,
+          0.13803108334720507
+        ],
+        "fidelity_quantiles": [
+          0.0006374423600732365,
+          0.9950899080042519,
+          0.9995442007907097,
+          0.9999307154351895,
+          0.9999992199771277
+        ],
+        "selected_near_cap_count": 19,
+        "cap_warning": "Selected cost near cap is not proof every failure is resource limited; per-point candidate availability, maximum searched gates and actual source stops are separate."
+      },
+      {
+        "cohort": "new_test24",
+        "method": "B5_192",
+        "total": 24,
+        "passed": 17,
+        "observable_pass": 17,
+        "state_pass": 20,
+        "optimizer_success": 9,
+        "reference_selections": 1,
+        "raw_checkpoint_success_flags": 10,
+        "median_cnots": 192.0,
+        "cnots_quantiles": [
+          10.0,
+          191.75,
+          192.0,
+          192.0,
+          192.0
+        ],
+        "energy_error_quantiles": [
+          1.714693098620046e-07,
+          3.9009629450211435e-05,
+          0.00017767447094851896,
+          0.0007298398572098316,
+          0.13803108334720507
+        ],
+        "fidelity_quantiles": [
+          0.0006374423600732365,
+          0.9950899080042519,
+          0.9995442007907097,
+          0.9999307154351895,
+          0.9999992199771277
+        ],
+        "selected_near_cap_count": 19,
+        "cap_warning": "Selected cost near cap is not proof every failure is resource limited; per-point candidate availability, maximum searched gates and actual source stops are separate."
+      }
+    ],
+    "scope": "128/192 and selector effects,12 paired three-p coordinates,6 mitigation coordinates"
+  },
+  "floating": {
+    "status": "DISCRETE_EVIDENCE_REVIEW",
+    "center_grades": [
+      {
+        "kappa": 0.6,
+        "h": 0.2,
+        "grade": "support_strengthened"
+      },
+      {
+        "kappa": 0.8,
+        "h": 0.5,
+        "grade": "support_strengthened"
+      },
+      {
+        "kappa": 1,
+        "h": 0.7,
+        "grade": "support_strengthened"
+      }
+    ],
+    "preregistration_limit": "Composite aggregation clauses disclosed after start; numeric settings frozen"
+  },
+  "submission_readiness": {
+    "status": "READY_WITH_PRESENTATION_VISUAL_LIMIT",
+    "evidence": "submission/export_status.json",
+    "limitation": "Editable8-slide PPTX passes schema, text and HTML checks; actual slide playback was not visually verified because renderer unavailable, local-file browser preview blocked and native UI unavailable while the Mac was locked. PDF3pages visually checked; notebook executed.",
+    "archive_integrity": "The final ZIP has its own external SHA256 and fresh-extraction verification record; no circular self-hash is embedded in this decision."
+  },
+  "full_phase_map_claim": "NO-GO",
+  "hardware_advantage_claim": false
+}

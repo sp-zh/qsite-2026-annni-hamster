@@ -1,0 +1,6384 @@
+{
+  "n": 8,
+  "kappa": 0.05,
+  "h": 0.2,
+  "group": "map",
+  "candidates": [
+    {
+      "words": [],
+      "params": [],
+      "reason": "reference",
+      "optimizer_success": true,
+      "cnots": 0,
+      "gate_count": 8,
+      "unitary_depth": 1,
+      "target_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cnot_order": [],
+      "energy": -1.5999999999999974,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 0.7605609806571831,
+      "epsilon_c": 0.9888030694427594,
+      "epsilon_sf": 0.8651336612529976,
+      "epsilon_mx": 0.8940371714410247,
+      "fidelity": 0.01827036205700524,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999999,
+      "w_plus": 1.0,
+      "T_real": 0.9999999999999996,
+      "T_imag": 0.0,
+      "eta_T": 4.440892098500626e-16,
+      "w0": 0.9999999999999996,
+      "w_plus_0": 0.9999999999999996,
+      "variance": 8.019999999999992,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "plus",
+      "seed": 11,
+      "uid": "57a86607c49d4bcc66bfff805791d140f321fd09a9d9dca79487732610cefaf2",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/4f53c3a345ca4482033f0fbfb145ed8b7733be29b4f9f90a126faf401f45a66c.json",
+      "source_sha": "db8e7662426271b8666232329ec6e543ea58eda172427f1eacb99439fd2ae54a",
+      "checkpoint": 0,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIZYIIII",
+        "IIIIYZII",
+        "YIIIIIIZ",
+        "IIIIIIYZ",
+        "IYZIIIII",
+        "IIIIYXZI",
+        "ZYIIIIII"
+      ],
+      "params": [
+        -0.6105109399829185,
+        -0.7325905632861206,
+        -0.7029039545775823,
+        -0.7634827141303497,
+        -0.335873884534012,
+        -0.7687252735486975,
+        -0.3801293755882662
+      ],
+      "reason": "budget_checkpoint_16",
+      "optimizer_success": true,
+      "cnots": 16,
+      "gate_count": 47,
+      "unitary_depth": 14,
+      "target_counts": [
+        0,
+        2,
+        2,
+        2,
+        0,
+        4,
+        2,
+        4
+      ],
+      "cnot_order": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "energy": -5.98986606269584,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 0.2118277228202029,
+      "epsilon_c": 0.6103864518357653,
+      "epsilon_sf": 0.41541043740766614,
+      "epsilon_mx": 0.07088000583363498,
+      "fidelity": 0.4975155466706372,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999989,
+      "w_plus": 0.9999999999999994,
+      "T_real": 0.5465605121827599,
+      "T_imag": 0.0,
+      "eta_T": 0.4534394878172401,
+      "w0": 0.5806605219053282,
+      "w_plus_0": 0.5806605219053282,
+      "variance": 2.9486578785254878,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "plus",
+      "seed": 11,
+      "uid": "1de8565656e7c53b3a14b3d1d5c11e8dfd63b58cfc55fa9f90456820570a39a4",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/4f53c3a345ca4482033f0fbfb145ed8b7733be29b4f9f90a126faf401f45a66c.json",
+      "source_sha": "db8e7662426271b8666232329ec6e543ea58eda172427f1eacb99439fd2ae54a",
+      "checkpoint": 1,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIZYIIII",
+        "IIIIYZII",
+        "YIIIIIIZ",
+        "IIIIIIYZ",
+        "IYZIIIII",
+        "IIIIYXZI",
+        "ZYIIIIII",
+        "IIYXZIII",
+        "IIIIYIZI",
+        "IIIIIIYZ",
+        "ZIIIIIIY",
+        "YZIIIIII",
+        "IIYZIIII",
+        "IYXZIIII",
+        "XZIIIIIY",
+        "IIIYXZII",
+        "IIIIIZXY",
+        "IIIIZXYI",
+        "IIIZXYII",
+        "IIZXYIII",
+        "IIYXZIII",
+        "IIIIYXZI",
+        "IIIIIYXZ",
+        "YIIIIIZX",
+        "YXZIIIII",
+        "IZIYIIII",
+        "IIZIYIII",
+        "YIIIIIZI",
+        "IIIIYIZI",
+        "ZIYIIIII",
+        "IIIYIZII",
+        "IYIIIIIZ",
+        "IIIIIYIZ",
+        "ZIIIIIYX"
+      ],
+      "params": [
+        -0.7349989020519622,
+        -0.7338787970052222,
+        -0.7737325111787049,
+        -0.7828088491268266,
+        -0.0006514648383549586,
+        -0.7849498455331264,
+        -0.7342786816433777,
+        -0.7540605799951551,
+        0.05077722577302257,
+        0.05210533702598383,
+        0.05202813758971111,
+        0.052494321739524084,
+        0.05181843844569764,
+        0.0030778929720058036,
+        0.009668240885745638,
+        -0.015981439375645584,
+        3.285709987153952e-05,
+        0.00639109486185261,
+        0.012654762290448637,
+        0.019136517688673648,
+        -0.022928791060155256,
+        -0.009506674550897574,
+        -0.003240054788121465,
+        -0.0066533332771620424,
+        -0.0033140098542920457,
+        0.0006789257356688346,
+        0.0006866854487471306,
+        0.0006812100096228749,
+        0.0006699963905973657,
+        0.0006863036946230112,
+        0.0006469238493173023,
+        0.0006680349125465592,
+        0.0006292112952917111,
+        0.003119504703557427
+      ],
+      "reason": "pool_gradient",
+      "optimizer_success": true,
+      "cnots": 98,
+      "gate_count": 238,
+      "unitary_depth": 119,
+      "target_counts": [
+        0,
+        8,
+        8,
+        14,
+        12,
+        14,
+        20,
+        22
+      ],
+      "cnot_order": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "energy": -7.684487709847004,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 1.6926307355724646e-08,
+      "epsilon_c": 3.661016290124053e-07,
+      "epsilon_sf": 2.2641831609604424e-07,
+      "epsilon_mx": 7.210279089758798e-07,
+      "fidelity": 0.9999999642078848,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999982,
+      "w_plus": 0.9999999999999991,
+      "T_real": 0.9999999714911629,
+      "T_imag": 0.0,
+      "eta_T": 2.850883706884133e-08,
+      "w0": 0.9999999740591039,
+      "w_plus_0": 0.9999999740591039,
+      "variance": 5.490443655276067e-07,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "plus",
+      "seed": 11,
+      "uid": "dbaaa8cfb46fbc6f12784a4bed66cb6fee40a7d0dc79b1ecaedbd3b7a99ce10e",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/4f53c3a345ca4482033f0fbfb145ed8b7733be29b4f9f90a126faf401f45a66c.json",
+      "source_sha": "db8e7662426271b8666232329ec6e543ea58eda172427f1eacb99439fd2ae54a",
+      "checkpoint": 2,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [],
+      "params": [],
+      "reason": "reference",
+      "optimizer_success": true,
+      "cnots": 7,
+      "gate_count": 8,
+      "unitary_depth": 8,
+      "target_counts": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "energy": -7.599999999999998,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 0.010560980657183139,
+      "epsilon_c": 0.01130771560438859,
+      "epsilon_sf": 0.009866338747002379,
+      "epsilon_mx": 0.10596282855897511,
+      "fidelity": 0.977759373909523,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999998,
+      "w_plus": 0.9999999999999999,
+      "T_real": 0.9999999999999998,
+      "T_imag": 0.0,
+      "eta_T": 2.220446049250313e-16,
+      "w0": 0.9999999999999998,
+      "w_plus_0": 0.9999999999999998,
+      "variance": 0.3200000000000074,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "3b47426de28b5b61fac376a12cad8ebaa0aa6c799c64771457f644e463f82e85",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/c9f081e6a77a9eae4244e83c1fac1f3e376460d3e816e619604701a7fe03a80b.json",
+      "source_sha": "e87f875d7a60f5ca9e2b064e6f3eeb694a32ae7b2339274d8b01a6e802de4c20",
+      "checkpoint": 0,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIIIZYI",
+        "IIIZYIII",
+        "IYIIIIIZ",
+        "IIIIIYIZ"
+      ],
+      "params": [
+        0.05258358717594723,
+        0.05258358717594722,
+        0.05243846936511699,
+        0.05274295909902438
+      ],
+      "reason": "budget_checkpoint_16",
+      "optimizer_success": true,
+      "cnots": 15,
+      "gate_count": 28,
+      "unitary_depth": 17,
+      "target_counts": [
+        0,
+        1,
+        1,
+        1,
+        3,
+        1,
+        3,
+        5
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "energy": -7.642048649278841,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 0.005304899497327709,
+      "epsilon_c": 0.0057896074691546895,
+      "epsilon_sf": 0.005037038273076444,
+      "epsilon_mx": 0.05347257543209427,
+      "fidelity": 0.9887439577033882,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999998,
+      "w_plus": 0.9999999999999999,
+      "T_real": 0.9944978043967272,
+      "T_imag": 0.0,
+      "eta_T": 0.005502195603272808,
+      "w0": 0.9944847243902,
+      "w_plus_0": 0.9944847243902,
+      "variance": 0.16024462762858604,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "82f14cb6b5f29e72a7e5cafa55da6e820c50dff81346bf7543819cc917718779",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/c9f081e6a77a9eae4244e83c1fac1f3e376460d3e816e619604701a7fe03a80b.json",
+      "source_sha": "e87f875d7a60f5ca9e2b064e6f3eeb694a32ae7b2339274d8b01a6e802de4c20",
+      "checkpoint": 1,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIIIZYI",
+        "IIIZYIII",
+        "IYIIIIIZ",
+        "IIIIIYIZ",
+        "YIIIIIIZ",
+        "IIZYIIII",
+        "IIIIIIZY",
+        "IIYZIIII",
+        "IIIIIZXY",
+        "IIYXZIII"
+      ],
+      "params": [
+        0.05316942278929475,
+        0.05271853323138454,
+        0.05273051431918351,
+        0.052718519002005,
+        0.05273051368144526,
+        0.05316943902127763,
+        0.052276280823232116,
+        0.052276269381912495,
+        0.008531998834634348,
+        0.008531996134167608
+      ],
+      "reason": "budget_checkpoint_32",
+      "optimizer_success": true,
+      "cnots": 31,
+      "gate_count": 66,
+      "unitary_depth": 30,
+      "target_counts": [
+        0,
+        1,
+        1,
+        7,
+        5,
+        1,
+        5,
+        11
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "energy": -7.684270393417652,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 2.7181479976379208e-05,
+      "epsilon_c": 0.00017880735585229512,
+      "epsilon_sf": 0.00013498817084678372,
+      "epsilon_mx": 0.0005604113302102587,
+      "fidelity": 0.9999365850074701,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999998,
+      "w_plus": 0.9999999999999999,
+      "T_real": 0.9999815241016731,
+      "T_imag": 0.0,
+      "eta_T": 1.847589832693064e-05,
+      "w0": 0.9999861342549028,
+      "w_plus_0": 0.9999861342549028,
+      "variance": 0.0007639669868026999,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "510746ff25058c7016418d256a6114997f9ff2d2cab5ec23efff5dc004259c15",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/c9f081e6a77a9eae4244e83c1fac1f3e376460d3e816e619604701a7fe03a80b.json",
+      "source_sha": "e87f875d7a60f5ca9e2b064e6f3eeb694a32ae7b2339274d8b01a6e802de4c20",
+      "checkpoint": 2,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIIIZYI",
+        "IIIZYIII",
+        "IYIIIIIZ",
+        "IIIIIYIZ",
+        "YIIIIIIZ",
+        "IIZYIIII",
+        "IIIIIIZY",
+        "IIYZIIII",
+        "IIIIIZXY",
+        "IIYXZIII",
+        "ZXYIIIII",
+        "XZIIIIIY",
+        "IIIIYXZI",
+        "IIIYXZII",
+        "XYIIIIIZ",
+        "IIIIZXYI",
+        "ZIIIIIYX",
+        "IZXYIIII"
+      ],
+      "params": [
+        0.052572340413794064,
+        0.05273715254297157,
+        0.05273744167325758,
+        0.05304632294619604,
+        0.0530459909090824,
+        0.05258405811428249,
+        0.05258233014951369,
+        0.05257610201957254,
+        0.0042282733643338845,
+        0.004313535596571915,
+        0.003003398981943464,
+        0.0029528149482659933,
+        0.0029615166425157034,
+        0.0030026567160289746,
+        0.0029595875962499098,
+        0.002953630464216135,
+        0.004322587384243843,
+        0.004238424615547645
+      ],
+      "reason": "budget_checkpoint_64",
+      "optimizer_success": true,
+      "cnots": 63,
+      "gate_count": 138,
+      "unitary_depth": 55,
+      "target_counts": [
+        0,
+        7,
+        5,
+        9,
+        7,
+        7,
+        11,
+        17
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "energy": -7.684468242222929,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 2.4503793167873766e-06,
+      "epsilon_c": 2.338643944721497e-05,
+      "epsilon_sf": 1.7412039499231646e-05,
+      "epsilon_mx": 7.394067981349173e-05,
+      "fidelity": 0.9999940914666667,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999998,
+      "w_plus": 0.9999999999999999,
+      "T_real": 0.9999998558762033,
+      "T_imag": 0.0,
+      "eta_T": 1.4412379667483322e-07,
+      "w0": 0.9999999023561827,
+      "w_plus_0": 0.9999999023561827,
+      "variance": 6.792268175814797e-05,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "8268115fd29e50310a6309e68fdc7778fe46a38485d56a4fb7c6193f29b61fdc",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/c9f081e6a77a9eae4244e83c1fac1f3e376460d3e816e619604701a7fe03a80b.json",
+      "source_sha": "e87f875d7a60f5ca9e2b064e6f3eeb694a32ae7b2339274d8b01a6e802de4c20",
+      "checkpoint": 3,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIIIIZYI",
+        "IIIZYIII",
+        "IYIIIIIZ",
+        "IIIIIYIZ",
+        "YIIIIIIZ",
+        "IIZYIIII",
+        "IIIIIIZY",
+        "IIYZIIII",
+        "IIIIIZXY",
+        "IIYXZIII",
+        "ZXYIIIII",
+        "XZIIIIIY",
+        "IIIIYXZI",
+        "IIIYXZII",
+        "XYIIIIIZ",
+        "IIIIZXYI",
+        "ZIIIIIYX",
+        "IZXYIIII",
+        "YXZIIIII",
+        "ZIIIIIYI",
+        "IIIZIYII",
+        "IIZIYIII",
+        "IIIZXYII",
+        "IIIIYIZI",
+        "IIIIIYIZ",
+        "IYIZIIII",
+        "YIZIIIII",
+        "IYIIIIIZ"
+      ],
+      "params": [
+        0.052018429245189485,
+        0.05175285007241395,
+        0.05175953765692844,
+        0.05175485482866861,
+        0.05232991062257426,
+        0.05258752687553447,
+        0.05258017632549415,
+        0.05258460912594652,
+        0.004286642305658048,
+        0.00428912830562285,
+        0.002975666178808287,
+        0.002976987057309966,
+        0.0015838658062941032,
+        0.0029784337437271133,
+        0.001468311094978204,
+        0.0029755957056985067,
+        0.004204485599324676,
+        0.0042619348317518594,
+        0.0015062830332128727,
+        0.0005750854971054082,
+        0.0005747388593704054,
+        0.0005606744836677845,
+        0.0013923516688798606,
+        0.0005786444125239442,
+        0.0005809159730068319,
+        0.0005758645004065159,
+        0.0005670405949623255,
+        0.0005669478140508222
+      ],
+      "reason": "pool_gradient",
+      "optimizer_success": true,
+      "cnots": 87,
+      "gate_count": 196,
+      "unitary_depth": 78,
+      "target_counts": [
+        0,
+        9,
+        9,
+        11,
+        11,
+        11,
+        15,
+        21
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "energy": -7.684468810167354,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 2.3793862635734797e-06,
+      "epsilon_c": 2.295835954002623e-05,
+      "epsilon_sf": 1.671124750612929e-05,
+      "epsilon_mx": 7.215421596272475e-05,
+      "fidelity": 0.9999942136262469,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999998,
+      "w_plus": 0.9999999999999999,
+      "T_real": 0.999999997905761,
+      "T_imag": 0.0,
+      "eta_T": 2.0942390044353942e-09,
+      "w0": 0.9999999979823333,
+      "w_plus_0": 0.9999999979823333,
+      "variance": 6.479215735311072e-05,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "e90e67550d34680b01729ed7c1bf4c6f05e699a2a1196f162b6b5d641cb77f9d",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/c9f081e6a77a9eae4244e83c1fac1f3e376460d3e816e619604701a7fe03a80b.json",
+      "source_sha": "e87f875d7a60f5ca9e2b064e6f3eeb694a32ae7b2339274d8b01a6e802de4c20",
+      "checkpoint": 4,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [],
+      "params": [],
+      "reason": "reference",
+      "optimizer_success": true,
+      "cnots": 6,
+      "gate_count": 14,
+      "unitary_depth": 7,
+      "target_counts": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "energy": -0.3999999999999998,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 0.9105609806571829,
+      "epsilon_c": 1.988693089947441,
+      "epsilon_sf": 0.9901336612529974,
+      "epsilon_mx": 0.10596282855897511,
+      "fidelity": 9.386286910939152e-09,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999996,
+      "w_plus": 0.9999999999999998,
+      "T_real": 0.9999999999999996,
+      "T_imag": 0.0,
+      "eta_T": 4.440892098500626e-16,
+      "w0": 0.9999999999999998,
+      "w_plus_0": 0.9999999999999998,
+      "variance": 0.31999999999999995,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "4fcfc8f19a72938792339e913a168a2c6a7ff9a307a0a473082c11cdc7413dd2",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/2c1b7f04f4eaee98cf1090f1c132f3fdd7a4bc10e1f1f70dd97d76c5c9275b3a.json",
+      "source_sha": "5d27b0b1dc29a4dbc60b6fab6d6bbc0d3de8efbf241611a8a28daeedb0f76d7d",
+      "checkpoint": 0,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIZIYIII",
+        "IZIYIIII",
+        "IIIIYZII",
+        "IIZYIIII",
+        "IYIIIIIZ"
+      ],
+      "params": [
+        -0.8355266830658042,
+        -1.031097835323195,
+        -0.6826856706744157,
+        -0.4882131090916042,
+        -0.6944442954998729
+      ],
+      "reason": "budget_checkpoint_16",
+      "optimizer_success": true,
+      "cnots": 16,
+      "gate_count": 39,
+      "unitary_depth": 16,
+      "target_counts": [
+        0,
+        0,
+        1,
+        5,
+        3,
+        3,
+        1,
+        3
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "energy": -2.4542593234798646,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 0.6537785652221998,
+      "epsilon_c": 1.342197561482712,
+      "epsilon_sf": 0.8886588603118646,
+      "epsilon_mx": 0.10406028887806544,
+      "fidelity": 1.594580542800542e-05,
+      "observable_pass": false,
+      "state_pass": false,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999999,
+      "w_plus": 1.0,
+      "T_real": 0.011118275459817018,
+      "T_imag": 0.0,
+      "eta_T": 0.988881724540183,
+      "w0": 0.23803521815001183,
+      "w_plus_0": 0.23803521815001183,
+      "variance": 3.360928037846743,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "f3ea055793a5fc1738ebec1fe662a2952899a7d0347d94db701b7fa95924d490",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/2c1b7f04f4eaee98cf1090f1c132f3fdd7a4bc10e1f1f70dd97d76c5c9275b3a.json",
+      "source_sha": "5d27b0b1dc29a4dbc60b6fab6d6bbc0d3de8efbf241611a8a28daeedb0f76d7d",
+      "checkpoint": 1,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIZIYIII",
+        "IZIYIIII",
+        "IIIIYZII",
+        "IIZYIIII",
+        "IYIIIIIZ",
+        "IIIIIZIY",
+        "IIIIIYZI",
+        "YIIIIIZI",
+        "YZIIIIII",
+        "ZIIIIIIY",
+        "IYZIIIII",
+        "ZIIIIIYI",
+        "ZIYIIIII"
+      ],
+      "params": [
+        -1.5178973901107964,
+        -0.7853359716866591,
+        -0.0030601241247575958,
+        -0.732667125067597,
+        -0.7853977709829125,
+        -0.7853267468699314,
+        -0.7324990553079359,
+        -1.5650343377836287,
+        -0.00031193365285850415,
+        -0.7322256623775927,
+        -0.7328188158593615,
+        0.052732615330632754,
+        0.05272580592802394
+      ],
+      "reason": "budget_checkpoint_32",
+      "optimizer_success": true,
+      "cnots": 32,
+      "gate_count": 79,
+      "unitary_depth": 41,
+      "target_counts": [
+        0,
+        2,
+        5,
+        5,
+        3,
+        3,
+        7,
+        7
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "energy": -7.673808695802879,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 0.0013348936818230461,
+      "epsilon_c": 0.0015328200826166816,
+      "epsilon_sf": 0.001320729184075109,
+      "epsilon_mx": 0.013550844376013046,
+      "fidelity": 0.9971811834187995,
+      "observable_pass": false,
+      "state_pass": true,
+      "joint_pass": false,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 1.0,
+      "w_plus": 1.0,
+      "T_real": 0.9972118621074939,
+      "T_imag": 0.0,
+      "eta_T": 0.002788137892506093,
+      "w0": 0.9975797028022514,
+      "w_plus_0": 0.9975797028022514,
+      "variance": 0.040627399728947466,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "a232ac70c96758cbef018a57798aa65a572150604668b4439efc9f1d8a43e91d",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/2c1b7f04f4eaee98cf1090f1c132f3fdd7a4bc10e1f1f70dd97d76c5c9275b3a.json",
+      "source_sha": "5d27b0b1dc29a4dbc60b6fab6d6bbc0d3de8efbf241611a8a28daeedb0f76d7d",
+      "checkpoint": 2,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIZIYIII",
+        "IZIYIIII",
+        "IIIIYZII",
+        "IIZYIIII",
+        "IYIIIIIZ",
+        "IIIIIZIY",
+        "IIIIIYZI",
+        "YIIIIIZI",
+        "YZIIIIII",
+        "ZIIIIIIY",
+        "IYZIIIII",
+        "ZIIIIIYI",
+        "ZIYIIIII",
+        "YIIIIIIZ",
+        "IIIIIZXY",
+        "XYIIIIIZ",
+        "IIZXYIII",
+        "IYXZIIII",
+        "IIIIZXYI",
+        "IIYXZIII",
+        "XZIIIIIY",
+        "IIIIYXZI",
+        "IIIIIYXZ",
+        "IIIYXZII",
+        "IIIZXYII",
+        "IZXYIIII",
+        "IIZIYIII",
+        "IIIIYIZI",
+        "IZIIIIIY",
+        "YXZIIIII",
+        "ZIYIIIII",
+        "IZIYIIII"
+      ],
+      "params": [
+        -1.5166308166079827,
+        -0.7853289241923198,
+        -0.032857620508669354,
+        -0.7338487996440982,
+        -0.7853980496676267,
+        -0.7853313034270041,
+        -0.7297145744540334,
+        -1.5715409087911778,
+        -0.0018614629232726488,
+        -0.7339295615032355,
+        -0.7332517614062821,
+        0.05213594087045616,
+        0.05150178167157593,
+        0.053711570527505074,
+        0.0031190746000702985,
+        0.005596257569815736,
+        -0.011806155505677523,
+        0.0031248695925883887,
+        0.009095875516833662,
+        0.008218815208719933,
+        0.009432829293344585,
+        -0.011493045176216162,
+        -0.005957958496610806,
+        0.014960971802175892,
+        -0.018592586449651127,
+        -0.00507914988815977,
+        0.0007611440537204526,
+        0.0006738365476994349,
+        0.0006565620266264866,
+        -0.002654932627665626,
+        0.0007414887022773665,
+        0.0005496048216980583
+      ],
+      "reason": "budget_checkpoint_96",
+      "optimizer_success": true,
+      "cnots": 96,
+      "gate_count": 226,
+      "unitary_depth": 110,
+      "target_counts": [
+        0,
+        8,
+        13,
+        15,
+        13,
+        11,
+        17,
+        19
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "energy": -7.68448596325366,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 2.352504753222462e-07,
+      "epsilon_c": 3.609170320051369e-06,
+      "epsilon_sf": 2.5580983581408034e-06,
+      "epsilon_mx": 9.199962957576191e-06,
+      "fidelity": 0.9999994596074357,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999986,
+      "w_plus": 0.9999999999999993,
+      "T_real": 0.9999996910378064,
+      "T_imag": 0.0,
+      "eta_T": 3.089621936069875e-07,
+      "w0": 0.9999997653911765,
+      "w_plus_0": 0.9999997653911765,
+      "variance": 6.93108091098793e-06,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "f7365b3df36e03f50235b9ce154f37d04efd1839b09d8978bd5918fd766225e9",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/2c1b7f04f4eaee98cf1090f1c132f3fdd7a4bc10e1f1f70dd97d76c5c9275b3a.json",
+      "source_sha": "5d27b0b1dc29a4dbc60b6fab6d6bbc0d3de8efbf241611a8a28daeedb0f76d7d",
+      "checkpoint": 3,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    {
+      "words": [
+        "IIZIYIII",
+        "IZIYIIII",
+        "IIIIYZII",
+        "IIZYIIII",
+        "IYIIIIIZ",
+        "IIIIIZIY",
+        "IIIIIYZI",
+        "YIIIIIZI",
+        "YZIIIIII",
+        "ZIIIIIIY",
+        "IYZIIIII",
+        "ZIIIIIYI",
+        "ZIYIIIII",
+        "YIIIIIIZ",
+        "IIIIIZXY",
+        "XYIIIIIZ",
+        "IIZXYIII",
+        "IYXZIIII",
+        "IIIIZXYI",
+        "IIYXZIII",
+        "XZIIIIIY",
+        "IIIIYXZI",
+        "IIIIIYXZ",
+        "IIIYXZII",
+        "IIIZXYII",
+        "IZXYIIII",
+        "IIZIYIII",
+        "IIIIYIZI",
+        "IZIIIIIY",
+        "YXZIIIII",
+        "ZIYIIIII",
+        "IZIYIIII",
+        "YIIIIIZI",
+        "YIIIIIZX",
+        "IIYXZIII",
+        "YXZIIIII",
+        "ZIIIIIYX"
+      ],
+      "params": [
+        -1.5154889514528884,
+        -0.785327799831957,
+        -0.04226839592499976,
+        -0.7339481289676099,
+        -0.7853982688127594,
+        -0.7853288345430937,
+        -0.7287201117544708,
+        -1.5705760976027003,
+        -0.001758772650408208,
+        -0.7342971097500676,
+        -0.7333218506016833,
+        0.0520296924277272,
+        0.05136551609665847,
+        0.05280915029265837,
+        0.008511522631670966,
+        0.006433487321003108,
+        -0.013564711404082384,
+        0.0031634779525362335,
+        0.015512724190203405,
+        -0.0107827653719515,
+        0.006405076254893719,
+        -0.018578312257631752,
+        -0.012355334813141772,
+        0.01672739615676474,
+        -0.021030407657182094,
+        -0.0069008466221503195,
+        0.0006300925467895831,
+        0.0006524833012228018,
+        0.0006898128208185587,
+        0.00918945875082439,
+        0.0006671630302091735,
+        0.0006590802117684597,
+        0.0006849364635790932,
+        0.001973726937884671,
+        0.020846896489009725,
+        -0.012640589096256016,
+        -0.005345259120352986
+      ],
+      "reason": "pool_gradient",
+      "optimizer_success": true,
+      "cnots": 114,
+      "gate_count": 267,
+      "unitary_depth": 134,
+      "target_counts": [
+        0,
+        10,
+        15,
+        17,
+        15,
+        11,
+        23,
+        23
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "energy": -7.684487836413181,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 1.1055352189259793e-09,
+      "epsilon_c": 1.1853999337674281e-07,
+      "epsilon_sf": 6.557399256923446e-08,
+      "epsilon_mx": 2.367902241923181e-07,
+      "fidelity": 0.9999999984775934,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999984,
+      "w_plus": 0.9999999999999992,
+      "T_real": 0.9999999987693171,
+      "T_imag": 0.0,
+      "eta_T": 1.2306828889308008e-09,
+      "w0": 0.9999999990596917,
+      "w_plus_0": 0.9999999990596917,
+      "variance": 5.791079615846684e-08,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "402a51ee2d62a8bca1dd5185f2f4460737138ba8c2381d826f7a663e44abb6a0",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/2c1b7f04f4eaee98cf1090f1c132f3fdd7a4bc10e1f1f70dd97d76c5c9275b3a.json",
+      "source_sha": "5d27b0b1dc29a4dbc60b6fab6d6bbc0d3de8efbf241611a8a28daeedb0f76d7d",
+      "checkpoint": 4,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    }
+  ],
+  "selector_code": "c2b7d909917fc33a9175cb04b0fce8947f440c4bcdf376f6b7b72682d8b9630a",
+  "same_candidate_set": true,
+  "selectors": {
+    "S0": {
+      "candidate": {
+        "words": [
+          "IIIIIZYI",
+          "IIIZYIII",
+          "IYIIIIIZ",
+          "IIIIIYIZ",
+          "YIIIIIIZ",
+          "IIZYIIII",
+          "IIIIIIZY",
+          "IIYZIIII",
+          "IIIIIZXY",
+          "IIYXZIII"
+        ],
+        "params": [
+          0.05316942278929475,
+          0.05271853323138454,
+          0.05273051431918351,
+          0.052718519002005,
+          0.05273051368144526,
+          0.05316943902127763,
+          0.052276280823232116,
+          0.052276269381912495,
+          0.008531998834634348,
+          0.008531996134167608
+        ],
+        "reason": "budget_checkpoint_32",
+        "optimizer_success": true,
+        "cnots": 31,
+        "gate_count": 66,
+        "unitary_depth": 30,
+        "target_counts": [
+          0,
+          1,
+          1,
+          7,
+          5,
+          1,
+          5,
+          11
+        ],
+        "cnot_order": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "energy": -7.684270393417652,
+        "ed_energy": -7.684487845257463,
+        "delta_e": 2.7181479976379208e-05,
+        "epsilon_c": 0.00017880735585229512,
+        "epsilon_sf": 0.00013498817084678372,
+        "epsilon_mx": 0.0005604113302102587,
+        "fidelity": 0.9999365850074701,
+        "observable_pass": true,
+        "state_pass": true,
+        "joint_pass": true,
+        "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+        "parity": 0.9999999999999998,
+        "w_plus": 0.9999999999999999,
+        "T_real": 0.9999815241016731,
+        "T_imag": 0.0,
+        "eta_T": 1.847589832693064e-05,
+        "w0": 0.9999861342549028,
+        "w_plus_0": 0.9999861342549028,
+        "variance": 0.0007639669868026999,
+        "n": 8,
+        "kappa": 0.05,
+        "h": 0.2,
+        "ref": "ghz",
+        "seed": 11,
+        "uid": "510746ff25058c7016418d256a6114997f9ff2d2cab5ec23efff5dc004259c15",
+        "source": "results/stage4_upgrade_v1/adaptive/cache/c9f081e6a77a9eae4244e83c1fac1f3e376460d3e816e619604701a7fe03a80b.json",
+        "source_sha": "e87f875d7a60f5ca9e2b064e6f3eeb694a32ae7b2339274d8b01a6e802de4c20",
+        "checkpoint": 2,
+        "source_stop": "pool_gradient",
+        "source_budget": 128,
+        "disposition": "historical_reused"
+      },
+      "selection_unresolved": false,
+      "rule": "S0",
+      "energy_tolerance_total": 0.0008,
+      "state_access_assisted": false
+    },
+    "S1": {
+      "candidate": {
+        "words": [
+          "IIZIYIII",
+          "IZIYIIII",
+          "IIIIYZII",
+          "IIZYIIII",
+          "IYIIIIIZ",
+          "IIIIIZIY",
+          "IIIIIYZI",
+          "YIIIIIZI",
+          "YZIIIIII",
+          "ZIIIIIIY",
+          "IYZIIIII",
+          "ZIIIIIYI",
+          "ZIYIIIII",
+          "YIIIIIIZ",
+          "IIIIIZXY",
+          "XYIIIIIZ",
+          "IIZXYIII",
+          "IYXZIIII",
+          "IIIIZXYI",
+          "IIYXZIII",
+          "XZIIIIIY",
+          "IIIIYXZI",
+          "IIIIIYXZ",
+          "IIIYXZII",
+          "IIIZXYII",
+          "IZXYIIII",
+          "IIZIYIII",
+          "IIIIYIZI",
+          "IZIIIIIY",
+          "YXZIIIII",
+          "ZIYIIIII",
+          "IZIYIIII",
+          "YIIIIIZI",
+          "YIIIIIZX",
+          "IIYXZIII",
+          "YXZIIIII",
+          "ZIIIIIYX"
+        ],
+        "params": [
+          -1.5154889514528884,
+          -0.785327799831957,
+          -0.04226839592499976,
+          -0.7339481289676099,
+          -0.7853982688127594,
+          -0.7853288345430937,
+          -0.7287201117544708,
+          -1.5705760976027003,
+          -0.001758772650408208,
+          -0.7342971097500676,
+          -0.7333218506016833,
+          0.0520296924277272,
+          0.05136551609665847,
+          0.05280915029265837,
+          0.008511522631670966,
+          0.006433487321003108,
+          -0.013564711404082384,
+          0.0031634779525362335,
+          0.015512724190203405,
+          -0.0107827653719515,
+          0.006405076254893719,
+          -0.018578312257631752,
+          -0.012355334813141772,
+          0.01672739615676474,
+          -0.021030407657182094,
+          -0.0069008466221503195,
+          0.0006300925467895831,
+          0.0006524833012228018,
+          0.0006898128208185587,
+          0.00918945875082439,
+          0.0006671630302091735,
+          0.0006590802117684597,
+          0.0006849364635790932,
+          0.001973726937884671,
+          0.020846896489009725,
+          -0.012640589096256016,
+          -0.005345259120352986
+        ],
+        "reason": "pool_gradient",
+        "optimizer_success": true,
+        "cnots": 114,
+        "gate_count": 267,
+        "unitary_depth": 134,
+        "target_counts": [
+          0,
+          10,
+          15,
+          17,
+          15,
+          11,
+          23,
+          23
+        ],
+        "cnot_order": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "energy": -7.684487836413181,
+        "ed_energy": -7.684487845257463,
+        "delta_e": 1.1055352189259793e-09,
+        "epsilon_c": 1.1853999337674281e-07,
+        "epsilon_sf": 6.557399256923446e-08,
+        "epsilon_mx": 2.367902241923181e-07,
+        "fidelity": 0.9999999984775934,
+        "observable_pass": true,
+        "state_pass": true,
+        "joint_pass": true,
+        "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+        "parity": 0.9999999999999984,
+        "w_plus": 0.9999999999999992,
+        "T_real": 0.9999999987693171,
+        "T_imag": 0.0,
+        "eta_T": 1.2306828889308008e-09,
+        "w0": 0.9999999990596917,
+        "w_plus_0": 0.9999999990596917,
+        "variance": 5.791079615846684e-08,
+        "n": 8,
+        "kappa": 0.05,
+        "h": 0.2,
+        "ref": "antiphase",
+        "seed": 11,
+        "uid": "402a51ee2d62a8bca1dd5185f2f4460737138ba8c2381d826f7a663e44abb6a0",
+        "source": "results/stage4_upgrade_v1/adaptive/cache/2c1b7f04f4eaee98cf1090f1c132f3fdd7a4bc10e1f1f70dd97d76c5c9275b3a.json",
+        "source_sha": "5d27b0b1dc29a4dbc60b6fab6d6bbc0d3de8efbf241611a8a28daeedb0f76d7d",
+        "checkpoint": 4,
+        "source_stop": "pool_gradient",
+        "source_budget": 128,
+        "disposition": "historical_reused"
+      },
+      "selection_unresolved": false,
+      "rule": "S1",
+      "energy_tolerance_total": 1e-10,
+      "state_access_assisted": false
+    },
+    "S2": {
+      "candidate": {
+        "words": [
+          "IIZIYIII",
+          "IZIYIIII",
+          "IIIIYZII",
+          "IIZYIIII",
+          "IYIIIIIZ",
+          "IIIIIZIY",
+          "IIIIIYZI",
+          "YIIIIIZI",
+          "YZIIIIII",
+          "ZIIIIIIY",
+          "IYZIIIII",
+          "ZIIIIIYI",
+          "ZIYIIIII",
+          "YIIIIIIZ",
+          "IIIIIZXY",
+          "XYIIIIIZ",
+          "IIZXYIII",
+          "IYXZIIII",
+          "IIIIZXYI",
+          "IIYXZIII",
+          "XZIIIIIY",
+          "IIIIYXZI",
+          "IIIIIYXZ",
+          "IIIYXZII",
+          "IIIZXYII",
+          "IZXYIIII",
+          "IIZIYIII",
+          "IIIIYIZI",
+          "IZIIIIIY",
+          "YXZIIIII",
+          "ZIYIIIII",
+          "IZIYIIII"
+        ],
+        "params": [
+          -1.5166308166079827,
+          -0.7853289241923198,
+          -0.032857620508669354,
+          -0.7338487996440982,
+          -0.7853980496676267,
+          -0.7853313034270041,
+          -0.7297145744540334,
+          -1.5715409087911778,
+          -0.0018614629232726488,
+          -0.7339295615032355,
+          -0.7332517614062821,
+          0.05213594087045616,
+          0.05150178167157593,
+          0.053711570527505074,
+          0.0031190746000702985,
+          0.005596257569815736,
+          -0.011806155505677523,
+          0.0031248695925883887,
+          0.009095875516833662,
+          0.008218815208719933,
+          0.009432829293344585,
+          -0.011493045176216162,
+          -0.005957958496610806,
+          0.014960971802175892,
+          -0.018592586449651127,
+          -0.00507914988815977,
+          0.0007611440537204526,
+          0.0006738365476994349,
+          0.0006565620266264866,
+          -0.002654932627665626,
+          0.0007414887022773665,
+          0.0005496048216980583
+        ],
+        "reason": "budget_checkpoint_96",
+        "optimizer_success": true,
+        "cnots": 96,
+        "gate_count": 226,
+        "unitary_depth": 110,
+        "target_counts": [
+          0,
+          8,
+          13,
+          15,
+          13,
+          11,
+          17,
+          19
+        ],
+        "cnot_order": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "energy": -7.68448596325366,
+        "ed_energy": -7.684487845257463,
+        "delta_e": 2.352504753222462e-07,
+        "epsilon_c": 3.609170320051369e-06,
+        "epsilon_sf": 2.5580983581408034e-06,
+        "epsilon_mx": 9.199962957576191e-06,
+        "fidelity": 0.9999994596074357,
+        "observable_pass": true,
+        "state_pass": true,
+        "joint_pass": true,
+        "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+        "parity": 0.9999999999999986,
+        "w_plus": 0.9999999999999993,
+        "T_real": 0.9999996910378064,
+        "T_imag": 0.0,
+        "eta_T": 3.089621936069875e-07,
+        "w0": 0.9999997653911765,
+        "w_plus_0": 0.9999997653911765,
+        "variance": 6.93108091098793e-06,
+        "n": 8,
+        "kappa": 0.05,
+        "h": 0.2,
+        "ref": "antiphase",
+        "seed": 11,
+        "uid": "f7365b3df36e03f50235b9ce154f37d04efd1839b09d8978bd5918fd766225e9",
+        "source": "results/stage4_upgrade_v1/adaptive/cache/2c1b7f04f4eaee98cf1090f1c132f3fdd7a4bc10e1f1f70dd97d76c5c9275b3a.json",
+        "source_sha": "5d27b0b1dc29a4dbc60b6fab6d6bbc0d3de8efbf241611a8a28daeedb0f76d7d",
+        "checkpoint": 3,
+        "source_stop": "pool_gradient",
+        "source_budget": 128,
+        "disposition": "historical_reused"
+      },
+      "selection_unresolved": false,
+      "rule": "S2",
+      "energy_tolerance_total": 8e-06,
+      "state_access_assisted": true
+    }
+  },
+  "reoptimization": {
+    "triggered": false
+  },
+  "B5_selection": {
+    "candidate": {
+      "words": [
+        "IIZIYIII",
+        "IZIYIIII",
+        "IIIIYZII",
+        "IIZYIIII",
+        "IYIIIIIZ",
+        "IIIIIZIY",
+        "IIIIIYZI",
+        "YIIIIIZI",
+        "YZIIIIII",
+        "ZIIIIIIY",
+        "IYZIIIII",
+        "ZIIIIIYI",
+        "ZIYIIIII",
+        "YIIIIIIZ",
+        "IIIIIZXY",
+        "XYIIIIIZ",
+        "IIZXYIII",
+        "IYXZIIII",
+        "IIIIZXYI",
+        "IIYXZIII",
+        "XZIIIIIY",
+        "IIIIYXZI",
+        "IIIIIYXZ",
+        "IIIYXZII",
+        "IIIZXYII",
+        "IZXYIIII",
+        "IIZIYIII",
+        "IIIIYIZI",
+        "IZIIIIIY",
+        "YXZIIIII",
+        "ZIYIIIII",
+        "IZIYIIII"
+      ],
+      "params": [
+        -1.5166308166079827,
+        -0.7853289241923198,
+        -0.032857620508669354,
+        -0.7338487996440982,
+        -0.7853980496676267,
+        -0.7853313034270041,
+        -0.7297145744540334,
+        -1.5715409087911778,
+        -0.0018614629232726488,
+        -0.7339295615032355,
+        -0.7332517614062821,
+        0.05213594087045616,
+        0.05150178167157593,
+        0.053711570527505074,
+        0.0031190746000702985,
+        0.005596257569815736,
+        -0.011806155505677523,
+        0.0031248695925883887,
+        0.009095875516833662,
+        0.008218815208719933,
+        0.009432829293344585,
+        -0.011493045176216162,
+        -0.005957958496610806,
+        0.014960971802175892,
+        -0.018592586449651127,
+        -0.00507914988815977,
+        0.0007611440537204526,
+        0.0006738365476994349,
+        0.0006565620266264866,
+        -0.002654932627665626,
+        0.0007414887022773665,
+        0.0005496048216980583
+      ],
+      "reason": "budget_checkpoint_96",
+      "optimizer_success": true,
+      "cnots": 96,
+      "gate_count": 226,
+      "unitary_depth": 110,
+      "target_counts": [
+        0,
+        8,
+        13,
+        15,
+        13,
+        11,
+        17,
+        19
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "energy": -7.68448596325366,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 2.352504753222462e-07,
+      "epsilon_c": 3.609170320051369e-06,
+      "epsilon_sf": 2.5580983581408034e-06,
+      "epsilon_mx": 9.199962957576191e-06,
+      "fidelity": 0.9999994596074357,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999986,
+      "w_plus": 0.9999999999999993,
+      "T_real": 0.9999996910378064,
+      "T_imag": 0.0,
+      "eta_T": 3.089621936069875e-07,
+      "w0": 0.9999997653911765,
+      "w_plus_0": 0.9999997653911765,
+      "variance": 6.93108091098793e-06,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "f7365b3df36e03f50235b9ce154f37d04efd1839b09d8978bd5918fd766225e9",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/2c1b7f04f4eaee98cf1090f1c132f3fdd7a4bc10e1f1f70dd97d76c5c9275b3a.json",
+      "source_sha": "5d27b0b1dc29a4dbc60b6fab6d6bbc0d3de8efbf241611a8a28daeedb0f76d7d",
+      "checkpoint": 3,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    "selection_unresolved": false,
+    "rule": "S2",
+    "energy_tolerance_total": 8e-06,
+    "state_access_assisted": true
+  },
+  "B5": {
+    "n": 8,
+    "kappa": 0.05,
+    "h": 0.2,
+    "ref": "antiphase",
+    "seed": 11,
+    "selected": {
+      "words": [
+        "IIZIYIII",
+        "IZIYIIII",
+        "IIIIYZII",
+        "IIZYIIII",
+        "IYIIIIIZ",
+        "IIIIIZIY",
+        "IIIIIYZI",
+        "YIIIIIZI",
+        "YZIIIIII",
+        "ZIIIIIIY",
+        "IYZIIIII",
+        "ZIIIIIYI",
+        "ZIYIIIII",
+        "YIIIIIIZ",
+        "IIIIIZXY",
+        "XYIIIIIZ",
+        "IIZXYIII",
+        "IYXZIIII",
+        "IIIIZXYI",
+        "IIYXZIII",
+        "XZIIIIIY",
+        "IIIIYXZI",
+        "IIIIIYXZ",
+        "IIIYXZII",
+        "IIIZXYII",
+        "IZXYIIII",
+        "IIZIYIII",
+        "IIIIYIZI",
+        "IZIIIIIY",
+        "YXZIIIII",
+        "ZIYIIIII",
+        "IZIYIIII"
+      ],
+      "params": [
+        -1.5166308166079827,
+        -0.7853289241923198,
+        -0.032857620508669354,
+        -0.7338487996440982,
+        -0.7853980496676267,
+        -0.7853313034270041,
+        -0.7297145744540334,
+        -1.5715409087911778,
+        -0.0018614629232726488,
+        -0.7339295615032355,
+        -0.7332517614062821,
+        0.05213594087045616,
+        0.05150178167157593,
+        0.053711570527505074,
+        0.0031190746000702985,
+        0.005596257569815736,
+        -0.011806155505677523,
+        0.0031248695925883887,
+        0.009095875516833662,
+        0.008218815208719933,
+        0.009432829293344585,
+        -0.011493045176216162,
+        -0.005957958496610806,
+        0.014960971802175892,
+        -0.018592586449651127,
+        -0.00507914988815977,
+        0.0007611440537204526,
+        0.0006738365476994349,
+        0.0006565620266264866,
+        -0.002654932627665626,
+        0.0007414887022773665,
+        0.0005496048216980583
+      ],
+      "reason": "budget_checkpoint_96",
+      "optimizer_success": true,
+      "cnots": 96,
+      "gate_count": 226,
+      "unitary_depth": 110,
+      "target_counts": [
+        0,
+        8,
+        13,
+        15,
+        13,
+        11,
+        17,
+        19
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "energy": -7.68448596325366,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 2.352504753222462e-07,
+      "epsilon_c": 3.609170320051369e-06,
+      "epsilon_sf": 2.5580983581408034e-06,
+      "epsilon_mx": 9.199962957576191e-06,
+      "fidelity": 0.9999994596074357,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999986,
+      "w_plus": 0.9999999999999993,
+      "T_real": 0.9999996910378064,
+      "T_imag": 0.0,
+      "eta_T": 3.089621936069875e-07,
+      "w0": 0.9999997653911765,
+      "w_plus_0": 0.9999997653911765,
+      "variance": 6.93108091098793e-06,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "antiphase",
+      "seed": 11,
+      "uid": "60d59575974a70142226a76457f8fea649cb225d8a89f163007e3536913f0cfd",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/2c1b7f04f4eaee98cf1090f1c132f3fdd7a4bc10e1f1f70dd97d76c5c9275b3a.json",
+      "source_sha": "5d27b0b1dc29a4dbc60b6fab6d6bbc0d3de8efbf241611a8a28daeedb0f76d7d",
+      "checkpoint": 3,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    "archive": "results/stage5_v1/selected/60d59575974a70142226a76457f8fea649cb225d8a89f163007e3536913f0cfd.npz",
+    "sha256": "dde5b9191976fd0d6104714428b4da36717c5fdc2f77e1fa7d3484c1e571d404",
+    "energy": -7.68448596325366,
+    "ed_energy": -7.684487845257463,
+    "delta_e": 2.352504753222462e-07,
+    "epsilon_c": 3.609170320051369e-06,
+    "epsilon_sf": 2.5580983581408034e-06,
+    "epsilon_mx": 9.199962957576191e-06,
+    "fidelity": 0.9999994596074357,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz"
+  },
+  "B3": {
+    "n": 8,
+    "kappa": 0.05,
+    "h": 0.2,
+    "ref": "ghz",
+    "seed": 11,
+    "selected": {
+      "words": [
+        "IIIIIZYI",
+        "IIIZYIII",
+        "IYIIIIIZ",
+        "IIIIIYIZ",
+        "YIIIIIIZ",
+        "IIZYIIII",
+        "IIIIIIZY",
+        "IIYZIIII",
+        "IIIIIZXY",
+        "IIYXZIII"
+      ],
+      "params": [
+        0.05316942278929475,
+        0.05271853323138454,
+        0.05273051431918351,
+        0.052718519002005,
+        0.05273051368144526,
+        0.05316943902127763,
+        0.052276280823232116,
+        0.052276269381912495,
+        0.008531998834634348,
+        0.008531996134167608
+      ],
+      "reason": "budget_checkpoint_32",
+      "optimizer_success": true,
+      "cnots": 31,
+      "gate_count": 66,
+      "unitary_depth": 30,
+      "target_counts": [
+        0,
+        1,
+        1,
+        7,
+        5,
+        1,
+        5,
+        11
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "energy": -7.684270393417652,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 2.7181479976379208e-05,
+      "epsilon_c": 0.00017880735585229512,
+      "epsilon_sf": 0.00013498817084678372,
+      "epsilon_mx": 0.0005604113302102587,
+      "fidelity": 0.9999365850074701,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+      "parity": 0.9999999999999998,
+      "w_plus": 0.9999999999999999,
+      "T_real": 0.9999815241016731,
+      "T_imag": 0.0,
+      "eta_T": 1.847589832693064e-05,
+      "w0": 0.9999861342549028,
+      "w_plus_0": 0.9999861342549028,
+      "variance": 0.0007639669868026999,
+      "n": 8,
+      "kappa": 0.05,
+      "h": 0.2,
+      "ref": "ghz",
+      "seed": 11,
+      "uid": "2f9cb09be8b061cc926135dcd1db831b5dd5adc07cc81c8872605e22695e286f",
+      "source": "results/stage4_upgrade_v1/adaptive/cache/c9f081e6a77a9eae4244e83c1fac1f3e376460d3e816e619604701a7fe03a80b.json",
+      "source_sha": "e87f875d7a60f5ca9e2b064e6f3eeb694a32ae7b2339274d8b01a6e802de4c20",
+      "checkpoint": 2,
+      "source_stop": "pool_gradient",
+      "source_budget": 128,
+      "disposition": "historical_reused"
+    },
+    "archive": "results/stage5_v1/selected/2f9cb09be8b061cc926135dcd1db831b5dd5adc07cc81c8872605e22695e286f.npz",
+    "sha256": "19cfe192de4af706839d4d4af33e081f673b536585574337a18af87ebe7be69e",
+    "energy": -7.684270393417652,
+    "ed_energy": -7.684487845257463,
+    "delta_e": 2.7181479976379208e-05,
+    "epsilon_c": 0.00017880735585229512,
+    "epsilon_sf": 0.00013498817084678372,
+    "epsilon_mx": 0.0005604113302102587,
+    "fidelity": 0.9999365850074701,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz"
+  },
+  "oracle": {
+    "words": [
+      "IIIIIZYI",
+      "IIIZYIII",
+      "IYIIIIIZ",
+      "IIIIIYIZ",
+      "YIIIIIIZ",
+      "IIZYIIII",
+      "IIIIIIZY",
+      "IIYZIIII",
+      "IIIIIZXY",
+      "IIYXZIII"
+    ],
+    "params": [
+      0.05316942278929475,
+      0.05271853323138454,
+      0.05273051431918351,
+      0.052718519002005,
+      0.05273051368144526,
+      0.05316943902127763,
+      0.052276280823232116,
+      0.052276269381912495,
+      0.008531998834634348,
+      0.008531996134167608
+    ],
+    "reason": "budget_checkpoint_32",
+    "optimizer_success": true,
+    "cnots": 31,
+    "gate_count": 66,
+    "unitary_depth": 30,
+    "target_counts": [
+      0,
+      1,
+      1,
+      7,
+      5,
+      1,
+      5,
+      11
+    ],
+    "cnot_order": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "energy": -7.684270393417652,
+    "ed_energy": -7.684487845257463,
+    "delta_e": 2.7181479976379208e-05,
+    "epsilon_c": 0.00017880735585229512,
+    "epsilon_sf": 0.00013498817084678372,
+    "epsilon_mx": 0.0005604113302102587,
+    "fidelity": 0.9999365850074701,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage5_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+    "parity": 0.9999999999999998,
+    "w_plus": 0.9999999999999999,
+    "T_real": 0.9999815241016731,
+    "T_imag": 0.0,
+    "eta_T": 1.847589832693064e-05,
+    "w0": 0.9999861342549028,
+    "w_plus_0": 0.9999861342549028,
+    "variance": 0.0007639669868026999,
+    "n": 8,
+    "kappa": 0.05,
+    "h": 0.2,
+    "ref": "ghz",
+    "seed": 11,
+    "uid": "510746ff25058c7016418d256a6114997f9ff2d2cab5ec23efff5dc004259c15",
+    "source": "results/stage4_upgrade_v1/adaptive/cache/c9f081e6a77a9eae4244e83c1fac1f3e376460d3e816e619604701a7fe03a80b.json",
+    "source_sha": "e87f875d7a60f5ca9e2b064e6f3eeb694a32ae7b2339274d8b01a6e802de4c20",
+    "checkpoint": 2,
+    "source_stop": "pool_gradient",
+    "source_budget": 128,
+    "disposition": "historical_reused"
+  },
+  "historical_selected": {
+    "key": {
+      "n": 8,
+      "k": 0.05,
+      "h": 0.2,
+      "ref": "ghz",
+      "seed": 11,
+      "budget": 128,
+      "rule": "cost",
+      "extended": true,
+      "fixed": false,
+      "fp": {
+        "annni/upgrade_gates.py": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "annni/upgrade_adapt.py": "ea8a80ef94e45ba6eb945597b4aff57bbb7ef0b46e38da879e33ca8dbcce7fe0",
+        "configs/stage4_upgrade_v1.json": "6cf834f32f76a8131e5b811cf13c8c7b211baed2cc782b2264a96227ce878ff6",
+        "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef"
+      }
+    },
+    "n": 8,
+    "kappa": 0.05,
+    "h": 0.2,
+    "ref": "ghz",
+    "seed": 11,
+    "group_first": "map",
+    "method": "cost",
+    "selected": {
+      "words": [
+        "IIIIIZYI",
+        "IIIZYIII",
+        "IYIIIIIZ",
+        "IIIIIYIZ",
+        "YIIIIIIZ",
+        "IIZYIIII",
+        "IIIIIIZY",
+        "IIYZIIII",
+        "IIIIIZXY",
+        "IIYXZIII"
+      ],
+      "params": [
+        0.05316942278929475,
+        0.05271853323138454,
+        0.05273051431918351,
+        0.052718519002005,
+        0.05273051368144526,
+        0.05316943902127763,
+        0.052276280823232116,
+        0.052276269381912495,
+        0.008531998834634348,
+        0.008531996134167608
+      ],
+      "reason": "budget_checkpoint_32",
+      "optimizer_success": true,
+      "cnots": 31,
+      "gate_count": 66,
+      "unitary_depth": 30,
+      "target_counts": [
+        0,
+        1,
+        1,
+        7,
+        5,
+        1,
+        5,
+        11
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "energy": -7.684270393417652,
+      "ed_energy": -7.684487845257463,
+      "delta_e": 2.7181479976379208e-05,
+      "epsilon_c": 0.00017880735585229512,
+      "epsilon_sf": 0.00013498817084678372,
+      "epsilon_mx": 0.0005604113302102587,
+      "fidelity": 0.9999365850074701,
+      "observable_pass": true,
+      "state_pass": true,
+      "joint_pass": true,
+      "ed_source": "results/stage4_upgrade_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz"
+    },
+    "stop": "pool_gradient",
+    "seconds": 0.12019108299864456,
+    "nfev": 380,
+    "nit": 291,
+    "pool_gradient_evaluations": 1344,
+    "gradient_measurement_note": "analytic statevector derivatives; parameter shift hardware upper bound 2*pool size energies per step, each energy has 2 commuting bases",
+    "archive": "results/stage4_upgrade_v1/adaptive/cache/c9f081e6a77a9eae4244e83c1fac1f3e376460d3e816e619604701a7fe03a80b.npz",
+    "sha256": "f110e4910b207cd929fc6bed7f9dd01ee5b405a56840784726b71f7f06735cd3",
+    "disposition": "newly_executed",
+    "energy": -7.684270393417652,
+    "ed_energy": -7.684487845257463,
+    "delta_e": 2.7181479976379208e-05,
+    "epsilon_c": 0.00017880735585229512,
+    "epsilon_sf": 0.00013498817084678372,
+    "epsilon_mx": 0.0005604113302102587,
+    "fidelity": 0.9999365850074701,
+    "observable_pass": true,
+    "state_pass": true,
+    "joint_pass": true,
+    "ed_source": "results/stage4_upgrade_v1/ed/n8_k0x1.999999999999ap-5_h0x1.999999999999ap-3.npz",
+    "run_record": "results/stage4_upgrade_v1/adaptive/cache/c9f081e6a77a9eae4244e83c1fac1f3e376460d3e816e619604701a7fe03a80b.json"
+  },
+  "failure_category": "candidate_available"
+}

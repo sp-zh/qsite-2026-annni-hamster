@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-09-22T07:16:55.369968+00:00",
+  "processes": [
+    {
+      "pid": 769,
+      "rss_kib": 572800,
+      "cpu_percent": 99.9,
+      "elapsed": "44:20",
+      "command": ".venv-tn/bin/python scripts/run_upgrade_floating.py --task refine"
+    },
+    {
+      "pid": 1005,
+      "rss_kib": 696784,
+      "cpu_percent": 100.0,
+      "elapsed": "42:19",
+      "command": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_upgrade.py --task map"
+    },
+    {
+      "pid": 3895,
+      "rss_kib": 1725056,
+      "cpu_percent": 100.0,
+      "elapsed": "15:05",
+      "command": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_upgrade_map_shard.py"
+    },
+    {
+      "pid": 4268,
+      "rss_kib": 966592,
+      "cpu_percent": 99.8,
+      "elapsed": "12:31",
+      "command": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_upgrade_map_shard_mid.py"
+    },
+    {
+      "pid": 6106,
+      "rss_kib": 512,
+      "cpu_percent": 0.0,
+      "elapsed": "03:56",
+      "command": "/usr/bin/time -l env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MPLCONFIGDIR=.mplconfig .venv/bin/python scripts/run_upgrade_n12_noise.py"
+    },
+    {
+      "pid": 6114,
+      "rss_kib": 1088384,
+      "cpu_percent": 100.0,
+      "elapsed": "03:55",
+      "command": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_upgrade_n12_noise.py"
+    }
+  ],
+  "scope": "instantaneous RSS, not peak; NumPy uses Accelerate and SciPy OpenBLAS; requested OMP/OpenBLAS1, snapshot CPU shown"
+}

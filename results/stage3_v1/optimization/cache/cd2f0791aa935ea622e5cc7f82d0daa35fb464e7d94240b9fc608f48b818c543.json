@@ -1,0 +1,65 @@
+{
+  "key": {
+    "fingerprint": {
+      "sources": {
+        "configs/stage3_v1.json": "11523a9562c693b55f2370661d197a1677ce8be8c25c2114de266d3f26a38d56",
+        "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+        "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+        "annni/vqe.py": "d2ad75b5625579dd9cd7472a4b7cb1266ab89011aecd0efb7875f8c8adc11f3c",
+        "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+        "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d",
+        "annni/diagnostics.py": "a3dd1553df1080e84c9a87448485d818f2185e8fe85b87f008be4807bb1d4adb",
+        "configs/diagnostics_v1.json": "2bbe641f2639cbd5c28e3c2148f8b2a1674b635a9f8417c360a3c8cfa4da6a6a",
+        "requirements.lock.txt": "4a17ebd6a02afa38831fb15a1d60df23fcb7f3bd62287bc19a0438e014c9235d"
+      },
+      "versions": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pennylane": "0.44.1",
+        "matplotlib": "3.11.2"
+      },
+      "n": 8,
+      "basis": "wire0 MSB"
+    },
+    "kappa": 0.15,
+    "h": 1.3,
+    "L": 6,
+    "seed": 307,
+    "options": {
+      "maxiter": 2000,
+      "maxfun": 100000,
+      "ftol": 1e-12,
+      "gtol": 1e-08,
+      "maxls": 30
+    },
+    "initial_hash": "28237651e4267a4498405e103a8e85d9787eb1fb5b98a5565684a6d39d6d6517"
+  },
+  "created_utc": "2026-09-22T04:35:45.338704+00:00",
+  "kappa": 0.15,
+  "h": 1.3,
+  "layers": 6,
+  "seed": 307,
+  "reference_source": "results/baseline/grid_n8.npz",
+  "energy": -11.780603895342178,
+  "nit": 213,
+  "nfev": 230,
+  "njev": 230,
+  "optimization_success": true,
+  "status": 0,
+  "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 1.540425715251814e-05,
+  "seconds": 0.06187983401468955,
+  "ed_energy": -11.78060561117135,
+  "delta_e": 2.1447864639867475e-07,
+  "fidelity": 0.9999998190334252,
+  "epsilon_c": 2.0560707320677052e-05,
+  "epsilon_sf": 1.2080179688733761e-05,
+  "epsilon_mx": 1.981316322008375e-06,
+  "mx": 0.8792511327622505,
+  "observable_pass": true,
+  "state_pass": true,
+  "joint_pass": true,
+  "optimizer_success": true,
+  "end_to_end_seconds": 0.06365866598207504,
+  "archive_sha256": "49c2cfa650f8cddf58769d709226dee0521f497461ada537c598502d7db062ee"
+}

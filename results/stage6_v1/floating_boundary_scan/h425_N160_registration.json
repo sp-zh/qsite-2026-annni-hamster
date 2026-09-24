@@ -1,0 +1,29 @@
+{
+  "registered_utc": "2026-09-23T05:46:28.395679+00:00",
+  "reason": "Existing h=.425 N96 andN128 Friedel estimates differ despite being in the same proposed range; a directed larger-N check can distinguish size drift from the stopping defect of oneN128chain. Registered before the finalN128continuation outcome. This is a two-initial-state size check, not a search for a point whose fittedc isclosestto1.",
+  "jobs": [
+    {
+      "n": 160,
+      "k": 0.8,
+      "h": 0.425,
+      "chi": 256,
+      "initial": "plus",
+      "sweeps": 24,
+      "max_seconds": 600
+    },
+    {
+      "n": 160,
+      "k": 0.8,
+      "h": 0.425,
+      "chi": 256,
+      "initial": "antiphase",
+      "sweeps": 24,
+      "max_seconds": 600
+    }
+  ],
+  "hard_timeout_per_job_seconds": 780,
+  "execution_condition": "Only in the released N8 lane after originalmainmap,96confirmationnoise and the oneN128continuation complete, if at least90minutes remain before the originaldeadline. Two independent product starts, atmostoneattempt each. No third primary numerical worker.",
+  "worker_sha": "9fa39216ae7448866aadd17b2e5e5e63689b202c27ff3c9f2f3aeec7951726d7",
+  "prior_evidence_sha": "70f92e7cb444d2d80f1eb35d84a0cc33c106e6d220f31ee828db3ccca4c0bc25",
+  "interpretation": "Same model, Pauli normalization, pair-sampling and stopping criteria. No selector/detector change or relabelling of confirmation. Larger-size conflicts count against floating support; failure does not exclude a phase. Preserve every previous evidenceversion."
+}

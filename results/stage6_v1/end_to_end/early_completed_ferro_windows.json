@@ -1,0 +1,178 @@
+{
+  "timestamp": "2026-09-23T02:58:24.425193+00:00",
+  "rows": [
+    {
+      "kappa": 0.0,
+      "method": "H6",
+      "reference_resolvable": true,
+      "algorithm_estimatable": true,
+      "matched": true,
+      "position_error": 0.0,
+      "position_error_unconditional_primary": 0.0,
+      "raw_maximum_coordinate": 0.96875,
+      "raw_maximum_endpoint": false,
+      "interval_width": 0.012499999999999956,
+      "result": {
+        "peaks": [
+          {
+            "index": 7,
+            "coordinate": 0.96875,
+            "value": 0.9701621304160425,
+            "interval_low": 0.9625,
+            "interval_high": 0.975,
+            "endpoint": false,
+            "step": 0.012500000000000067
+          }
+        ],
+        "primary": {
+          "index": 7,
+          "coordinate": 0.96875,
+          "value": 0.9701621304160425,
+          "interval_low": 0.9625,
+          "interval_high": 0.975,
+          "endpoint": false,
+          "step": 0.012500000000000067
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference": {
+        "peaks": [
+          {
+            "index": 7,
+            "coordinate": 0.96875,
+            "value": 0.969475690070606,
+            "interval_low": 0.9625,
+            "interval_high": 0.975,
+            "endpoint": false,
+            "step": 0.012500000000000067
+          }
+        ],
+        "primary": {
+          "index": 7,
+          "coordinate": 0.96875,
+          "value": 0.969475690070606,
+          "interval_low": 0.9625,
+          "interval_high": 0.975,
+          "endpoint": false,
+          "step": 0.012500000000000067
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "status": "same_named_RN_feature_matched",
+      "match_scope": "Named response feature only, not independently established thermodynamic transition",
+      "curve": [
+        0.8979462413792426,
+        0.915788400269641,
+        0.9311986228097646,
+        0.9441316849986098,
+        0.9546710197932952,
+        0.96233659411482,
+        0.9657627976339838,
+        0.9701621304160425,
+        0.969748340114082,
+        0.9654369629780603,
+        0.9594113996840238,
+        0.9509356236470745,
+        0.9378547842221474,
+        0.9286076659707587,
+        0.9129760037883937,
+        0.8955018317559148
+      ]
+    },
+    {
+      "kappa": 0.3,
+      "method": "H6",
+      "reference_resolvable": true,
+      "algorithm_estimatable": true,
+      "matched": true,
+      "position_error": -0.012499999999999956,
+      "position_error_unconditional_primary": -0.012499999999999956,
+      "raw_maximum_coordinate": 0.45625000000000004,
+      "raw_maximum_endpoint": false,
+      "interval_width": 0.012500000000000011,
+      "result": {
+        "peaks": [
+          {
+            "index": 6,
+            "coordinate": 0.45625000000000004,
+            "value": 2.7722479923841954,
+            "interval_low": 0.45,
+            "interval_high": 0.4625,
+            "endpoint": false,
+            "step": 0.012499999999999956
+          }
+        ],
+        "primary": {
+          "index": 6,
+          "coordinate": 0.45625000000000004,
+          "value": 2.7722479923841954,
+          "interval_low": 0.45,
+          "interval_high": 0.4625,
+          "endpoint": false,
+          "step": 0.012499999999999956
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference": {
+        "peaks": [
+          {
+            "index": 7,
+            "coordinate": 0.46875,
+            "value": 2.762411253644564,
+            "interval_low": 0.4625,
+            "interval_high": 0.475,
+            "endpoint": false,
+            "step": 0.012499999999999956
+          }
+        ],
+        "primary": {
+          "index": 7,
+          "coordinate": 0.46875,
+          "value": 2.762411253644564,
+          "interval_low": 0.4625,
+          "interval_high": 0.475,
+          "endpoint": false,
+          "step": 0.012499999999999956
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "status": "same_named_RN_feature_matched",
+      "match_scope": "Named response feature only, not independently established thermodynamic transition",
+      "curve": [
+        1.6953440632581869,
+        1.9248239066049226,
+        2.168585230379979,
+        2.382709114214625,
+        2.5625738483966454,
+        2.6982816332057413,
+        2.7722479923841954,
+        2.7651136687383113,
+        2.6957441219498413,
+        2.595069988612637,
+        2.422667753480576,
+        2.266408576679219,
+        1.993000416057205,
+        1.8770178725277986,
+        1.6790915242601983,
+        1.5455757606311737
+      ]
+    }
+  ],
+  "scope": "Interim pure-circuit result on two fully executed17point windows only. Same-size RN response, no physical phase-boundary inference and no B3 comparison yet. Frozen protocol unchanged."
+}

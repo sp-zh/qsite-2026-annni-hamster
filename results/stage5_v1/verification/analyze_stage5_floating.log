@@ -1,0 +1,95 @@
+[
+  {
+    "kappa": 0.6,
+    "h": 0.2,
+    "old_grade": "supported_in_tested_window",
+    "new_grade": "support_strengthened",
+    "bond_converged": true,
+    "delta_e_per_site": 3.453085595239713e-10,
+    "delta_c": 2.883026271383038e-06,
+    "delta_entropy": 1.4160056169387758e-05,
+    "initialization_delta_c": 1.046077718891425e-08,
+    "entropy_c": [
+      1.0128013211240288,
+      1.0494876389252745
+    ],
+    "old_n96_c": [
+      1.0234271747882588,
+      1.0676462973718444
+    ],
+    "q": [
+      1.2678745324282876,
+      1.2682421401819828
+    ],
+    "power_wins_heldout_blocks": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "scope": "Discrete tested center and separate neighboring points only; no inferred continuous interval",
+    "needs_chi512": false
+  },
+  {
+    "kappa": 0.8,
+    "h": 0.5,
+    "old_grade": "supported_in_tested_window",
+    "new_grade": "support_strengthened",
+    "bond_converged": true,
+    "delta_e_per_site": 6.678922970237977e-10,
+    "delta_c": 5.974097241623344e-06,
+    "delta_entropy": 1.1039518573952023e-05,
+    "initialization_delta_c": 6.150659176418216e-09,
+    "entropy_c": [
+      0.9798721293393502,
+      0.9752169961592869
+    ],
+    "old_n96_c": [
+      1.019960958496629,
+      0.9899847949780392
+    ],
+    "q": [
+      1.3578086040324093,
+      1.3584509759799361
+    ],
+    "power_wins_heldout_blocks": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "scope": "Discrete tested center and separate neighboring points only; no inferred continuous interval",
+    "needs_chi512": false
+  },
+  {
+    "kappa": 1,
+    "h": 0.7,
+    "old_grade": "supported_in_tested_window",
+    "new_grade": "support_strengthened",
+    "bond_converged": true,
+    "delta_e_per_site": 8.964080588924617e-10,
+    "delta_c": 5.13731135493023e-06,
+    "delta_entropy": 1.0835894611149754e-05,
+    "initialization_delta_c": 1.807439031775715e-09,
+    "entropy_c": [
+      1.0835854083632497,
+      1.0685409359399176
+    ],
+    "old_n96_c": [
+      1.1327405582624859,
+      1.13941448007713
+    ],
+    "q": [
+      1.4224981516967339,
+      1.4229095096156539
+    ],
+    "power_wins_heldout_blocks": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "scope": "Discrete tested center and separate neighboring points only; no inferred continuous interval",
+    "needs_chi512": false
+  }
+]

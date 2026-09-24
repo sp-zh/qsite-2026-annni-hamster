@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-09-21T16:21:08.316559+00:00",
+  "elapsed_seconds": 4.207419249985833,
+  "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "initial_vector": "uniform positive, deterministic",
+  "tolerance": 1e-11,
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pennylane": "0.44.1"
+  },
+  "upstream": {
+    "repository": "https://github.com/benmcdonough20/QSITE-2026-QuantumCoalition",
+    "commit": "57f9a537d24c69328dedf915ad58d1d2bf505135",
+    "retrieved_utc": "2026-09-21T16:16:28.427374+00:00",
+    "scope": "Scientific Track plus root README and LICENSE; unmodified snapshot"
+  },
+  "source_sha256": {
+    "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+    "scripts/run_baseline.py": "3aa486999abbfadadfa45053d17b0e7292aeded25ac5129ff82c353b666e57a5"
+  },
+  "point_count": 815,
+  "boundary_conditions": "periodic",
+  "solver": "CSR, even spin-flip sector, uniform start, momentum-zero projection, eigsh k=1 SA; h=0 classical mixture",
+  "max_residual": 2.5598650788998776e-10,
+  "commensurability_check": [
+    {
+      "n": 6,
+      "kappa": 0.8,
+      "h": 0.2,
+      "c2": -0.327918371293333,
+      "energy_per_site": -0.702444543431351,
+      "residual": 4.3946569339952855e-15
+    },
+    {
+      "n": 8,
+      "kappa": 0.8,
+      "h": 0.2,
+      "c2": -0.9826306847021815,
+      "energy_per_site": -0.812866025175266,
+      "residual": 6.918813573775893e-15
+    },
+    {
+      "n": 10,
+      "kappa": 0.8,
+      "h": 0.2,
+      "c2": -0.5893787306720939,
+      "energy_per_site": -0.758997617832655,
+      "residual": 6.212605197354439e-13
+    },
+    {
+      "n": 12,
+      "kappa": 0.8,
+      "h": 0.2,
+      "c2": -0.9835894430962491,
+      "energy_per_site": -0.8126243419179827,
+      "residual": 2.1345893261117333e-12
+    },
+    {
+      "n": 16,
+      "kappa": 0.8,
+      "h": 0.2,
+      "c2": -0.9836458861042428,
+      "energy_per_site": -0.8126161224242916,
+      "residual": 3.840626410061632e-12
+    }
+  ],
+  "limitations": [
+    "No VQE or gate noise in this baseline.",
+    "No four-phase classification or floating-phase confirmation.",
+    "Peak positions are grid diagnostics, not uncertainty intervals or thermodynamic boundaries.",
+    "h=0 uses equal incoherent mixture; it need not equal the h->0+ state."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "time": "2026-09-22T23:46:04.418045+00:00",
+  "counts": {
+    "B0_joint": 407,
+    "B0_total": 420,
+    "B3_joint": 385,
+    "B3_median_cnot": 96.0,
+    "B5_joint": 388,
+    "B5_median_cnot": 128.0,
+    "has_qualified_old_candidate": 388
+  },
+  "checks": [
+    {
+      "index": 0,
+      "method": "B3",
+      "archive": "results/stage5_v1/selected/8c2259b02347afd56875c73cfd8c9372e9e0731620d6fea0cd5c4a586cc186d8.npz",
+      "state_max_error": 3.3401480014798617e-16,
+      "energy_error": 7.105427357601002e-15
+    },
+    {
+      "index": 0,
+      "method": "B5",
+      "archive": "results/stage5_v1/selected/a4af0dbc05db2670425c73c53c3ffc8749cc205f2969832a92da7ad3f73fe1f5.npz",
+      "state_max_error": 1.236145983288842e-15,
+      "energy_error": 2.842170943040401e-14
+    },
+    {
+      "index": 201,
+      "method": "B3",
+      "archive": "results/stage5_v1/selected/ea7c9aa4dba7b2d5242cc122cb09fb9bf6e59c5e52d9c41ff97e5f32682d4c4b.npz",
+      "state_max_error": 5.010558904084739e-16,
+      "energy_error": 2.1316282072803006e-14
+    },
+    {
+      "index": 201,
+      "method": "B5",
+      "archive": "results/stage5_v1/selected/e1c721773882ea97651cf3f723cc620ccd509eb0bc5a7f96cf92a5a753622dad.npz",
+      "state_max_error": 5.362288137511955e-16,
+      "energy_error": 1.9539925233402755e-14
+    },
+    {
+      "index": 419,
+      "method": "B3",
+      "archive": "results/stage5_v1/selected/fbf465c9bd3cd6f74aa7e139c0408774a83db130688a0393bdbe018c42cd61e9.npz",
+      "state_max_error": 4.847302891456678e-16,
+      "energy_error": 9.237055564881302e-14
+    },
+    {
+      "index": 419,
+      "method": "B5",
+      "archive": "results/stage5_v1/selected/fbf465c9bd3cd6f74aa7e139c0408774a83db130688a0393bdbe018c42cd61e9.npz",
+      "state_max_error": 4.847302891456678e-16,
+      "energy_error": 9.237055564881302e-14
+    }
+  ],
+  "source_hashes": {
+    "results/stage3_v1/grid/selection_frozen.json": "809e7b4746cf5d696a3399edf11adcaa44303d394096369178ba1109e3c9d868",
+    "results/stage5_v1/selector_benchmark/map/index.json": "06647b9e4d3094226b8380e0a45824a895f04e9f5639078a7d2ef4375a19bdd9"
+  },
+  "scope": "Recounted raw indices and6literal circuit/state/energy recomputations. Not a repeated full420point optimization or audit."
+}

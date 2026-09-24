@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-09-22T19:53:02.513640+00:00",
+  "activated_after_pass": "verification/measurement_reuse.json",
+  "previous_source": "results/stage5_v1/verification/stage5_e2e_n12_before_measurement_reuse.py",
+  "new_source": "annni/stage5_e2e_n12.py",
+  "new_sha256": "794092d3b13797140a52abdb7b10d899f38b386e48909ee79358df3a6b6bd068",
+  "N12_measurement_records_before_activation": 0,
+  "changes": "Exact classical representation reuse for SV joint probabilities. Same physical rotations, settings, shots, seeds, selection, noisy circuits and diagnostic configuration. New backend SHA included in both probability and measurement cache keys.",
+  "resource_allocation_unchanged": true,
+  "randomization": "Master seed and SeedSequence algorithm unchanged. Cache-key-derived RNG namespaces include the new implementation fingerprint; this was fixed before any N12 measurement samples were generated. No N8 records or frozen detector/shot settings changed.",
+  "benchmark_context": "One other N12 density process was active during the pilot;8.09x is a measured pilot ratio, not an overall speedup guarantee."
+}

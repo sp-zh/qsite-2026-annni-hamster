@@ -1,0 +1,30 @@
+[
+  {
+    "method": "D1",
+    "mechanism": "Full C(r), SF, Mx reference distances and changes",
+    "input": "2N+1 real observables",
+    "measurement_settings": 2,
+    "training": "Analytic reference prototypes; frozen limits",
+    "reference_consistency": "Control tests and cross-method agreement only",
+    "error_rate": null
+  },
+  {
+    "method": "D2",
+    "mechanism": "Squared pure/Uhlmann overlap sensitivity",
+    "input": "State vector or full density matrix",
+    "measurement_settings": null,
+    "training": "No classifier training",
+    "reference_consistency": "Pure limit, self-fidelity, nested step and fixed-structure peak tests",
+    "error_rate": null,
+    "cost": "Full simulator state access; no hardware measurement implementation"
+  },
+  {
+    "method": "D3",
+    "mechanism": "Development-scaled PCA3 + kmeans3, analytic control mapping, anomaly cutoff",
+    "input": "Same 2N+1 observables as D1",
+    "measurement_settings": 2,
+    "training": "Clean development only; shared D1 degraded veto",
+    "reference_consistency": "Frozen control, held-out and noise outputs",
+    "error_rate": null
+  }
+]

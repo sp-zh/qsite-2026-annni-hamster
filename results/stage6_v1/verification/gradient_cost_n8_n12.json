@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-09-22T23:37:24.000737+00:00",
+  "rows": [
+    {
+      "n": 8,
+      "basis": "physical",
+      "parameters": 40,
+      "calls": 50,
+      "seconds": 0.02752025000518188,
+      "gradient_norm": 7.723496826349792,
+      "normalization": 0.9999999999999991
+    },
+    {
+      "n": 8,
+      "basis": "wall",
+      "parameters": 40,
+      "calls": 50,
+      "seconds": 0.027111041999887675,
+      "gradient_norm": 10.528801366790844,
+      "normalization": 0.9999999999999991
+    },
+    {
+      "n": 12,
+      "basis": "physical",
+      "parameters": 40,
+      "calls": 50,
+      "seconds": 0.171509874984622,
+      "gradient_norm": 9.796424004808202,
+      "normalization": 0.9999999999999987
+    },
+    {
+      "n": 12,
+      "basis": "wall",
+      "parameters": 40,
+      "calls": 50,
+      "seconds": 0.17023591697216034,
+      "gradient_norm": 10.625255140580908,
+      "normalization": 0.9999999999999982
+    }
+  ],
+  "scope": "Fixed40parameter energy/adjoint microbenchmark, not an optimization or extrapolated completed experiment"
+}

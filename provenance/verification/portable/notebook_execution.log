@@ -1,0 +1,34 @@
+/private/tmp/annni-release-portable-env/lib/python3.12/site-packages/IPython/paths.py:67: UserWarning: IPython parent 'LOCAL_USER is not a writable location, using a temp directory.
+  warn("IPython parent '{}' is not a writable location,"
+/private/tmp/annni-release-portable-env/lib/python3.12/site-packages/IPython/paths.py:67: UserWarning: IPython parent 'LOCAL_USER is not a writable location, using a temp directory.
+  warn("IPython parent '{}' is not a writable location,"
+[IPKernelApp] ERROR | Exception during subprocesses termination [Errno 1] Operation not permitted (originated from sysctl() malloc 1/3)
+Traceback (most recent call last):
+  File "/private/tmp/annni-release-portable-env/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 1401, in _at_shutdown
+    await self._progressively_terminate_all_children()
+  File "/private/tmp/annni-release-portable-env/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 1379, in _progressively_terminate_all_children
+    if not self._process_children():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/annni-release-portable-env/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 1362, in _process_children
+    all_children = kernel_process.children(recursive=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/annni-release-portable-env/lib/python3.12/site-packages/psutil/__init__.py", line 978, in children
+    ppid_map = _ppid_map()
+               ^^^^^^^^^^^
+  File "/private/tmp/annni-release-portable-env/lib/python3.12/site-packages/psutil/__init__.py", line 256, in _ppid_map
+    for pid in pids():
+               ^^^^^^
+  File "/private/tmp/annni-release-portable-env/lib/python3.12/site-packages/psutil/__init__.py", line 1485, in pids
+    ret = sorted(_psplatform.pids())
+                 ^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/annni-release-portable-env/lib/python3.12/site-packages/psutil/_psosx.py", line 320, in pids
+    ls = cext.pids()
+         ^^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted (originated from sysctl() malloc 1/3)
+{
+  "status": "PASS",
+  "seconds": 30.528379083028995,
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "code_cells": 9,
+  "errors": 0
+}

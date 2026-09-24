@@ -1,0 +1,3 @@
+scripts/plot_stage6_candidates.py:20: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  fig.suptitle(f'{task}: state acceptance is distinct from phase identification');fig.tight_layout(rect=[0,0,.92,1]);fig.savefig(dest/f'{task}_accuracy_resources.png',dpi=160);plt.close(fig)
+plotted development

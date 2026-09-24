@@ -1,0 +1,66 @@
+{
+  "key": {
+    "physics": {
+      "sources": {
+        "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+        "annni/circuits.py": "b126b5b5247272dbec56bbecf4b3f9a7956bcc7ab69d55d7bdf534e1f6d63938",
+        "annni/noise.py": "0dcc73fe821bdd03505696299467d0a1f8f5e1452c672e5d2de3206b08e46d9b",
+        "annni/stage3.py": "2f412519bc7fe54c5c44c7da5ef461295eeea2e3cb38be00436fe2af8d73c59d"
+      },
+      "versions": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "pennylane": "0.44.1",
+        "matplotlib": "3.11.2"
+      },
+      "basis": "wire0 MSB",
+      "n": 8,
+      "compile": "literal unchanged NN NNN RX, target channel after every CNOT"
+    },
+    "initial": "0ae9c414d116b9f399a56d4dc3dd323e3869aa5c41f6269f843da80a0941a9f2",
+    "coordinate": "k0x1.999999999999ap-2_h0x1.3333333333333p-2",
+    "seed": 701,
+    "options": {
+      "maxiter": 4000,
+      "maxfun": 100000,
+      "ftol": 1e-12,
+      "gtol": 1e-08,
+      "maxls": 30
+    },
+    "optimizer_source": "d2ad75b5625579dd9cd7472a4b7cb1266ab89011aecd0efb7875f8c8adc11f3c"
+  },
+  "name": "B_point00_attempt4",
+  "kappa": 0.4,
+  "h": 0.3,
+  "layers": 6,
+  "seed": 701,
+  "source": "uniform[-.5,.5]",
+  "reference_source": "results/baseline/grid_n8.npz",
+  "archive": "results/stage4_v1/optimization/B_point00_attempt4.npz",
+  "archive_sha256": "6b313b4c7a68d7214319d5c6228a6e1a1142afa046442d262a483e7e69e0ccb8",
+  "end_to_end_seconds": 0.43965395900886506,
+  "cache_status": "executed",
+  "created_utc": "2026-09-22T05:41:20.851444+00:00",
+  "energy": -5.277777045867091,
+  "nit": 1549,
+  "nfev": 1685,
+  "njev": 1685,
+  "optimization_success": true,
+  "status": 0,
+  "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "gradient_inf": 2.441937739483535e-05,
+  "seconds": 0.43668058299226686,
+  "ed_energy": -5.279295997458967,
+  "delta_e": 0.00018986894898453954,
+  "fidelity": 0.9988720514812841,
+  "epsilon_c": 0.02720239055019684,
+  "epsilon_sf": 0.01288393947599159,
+  "epsilon_mx": 0.0014330857789182083,
+  "mx": 0.5694113861565601,
+  "observable_pass": false,
+  "state_pass": true,
+  "joint_pass": false,
+  "failed_metrics": [
+    "epsilon_c"
+  ]
+}

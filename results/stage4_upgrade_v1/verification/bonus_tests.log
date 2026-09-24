@@ -1,0 +1,47 @@
+FF...                                                                    [100%]
+=================================== FAILURES ===================================
+__________________________ test_sv_and_joint_sampling __________________________
+
+    def test_sv_and_joint_sampling():
+     g=compile_circuit(8,'antiphase',pool(8)[:2],[.2,.3]);rho=density(g,8,.05);algebra_check(rho)
+     d=groups(rho);v,c=sample_estimate(d,8,10000,np.random.default_rng(22),True)
+     assert c['shots']==10000 and c['groups']==30;assert len(v)==17
+     # The same Z bitstring covariance gives exactly C(r)==C(N-r).
+>    v,_=sample_estimate(d,8,10000,np.random.default_rng(23),False);np.testing.assert_allclose(v[1:8],v[7:0:-1])
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E    AssertionError: 
+E    Not equal to tolerance rtol=1e-07, atol=0
+E    
+E    Mismatched elements: 2 / 7 (28.6%)
+E    Mismatch at indices:
+E     [0]: -1.474514954580286e-17 (ACTUAL), -1.4501204056993622e-17 (DESIRED)
+E     [6]: -1.4501204056993622e-17 (ACTUAL), -1.474514954580286e-17 (DESIRED)
+E    Max absolute difference among violations: 2.43945489e-19
+E    Max relative difference among violations: 0.01682243
+E     ACTUAL: array([-1.474515e-17, -7.918000e-01, -6.000000e-04,  7.594000e-01,
+E           -6.000000e-04, -7.918000e-01, -1.450120e-17])
+E     DESIRED: array([-1.450120e-17, -7.918000e-01, -6.000000e-04,  7.594000e-01,
+E           -6.000000e-04, -7.918000e-01, -1.474515e-17])
+
+tests/test_upgrade_bonus.py:14: AssertionError
+___________________________ test_uhlmann_pure_limit ____________________________
+
+    def test_uhlmann_pure_limit():
+     a=evolve(compile_circuit(8,'ghz',pool(8)[:2],[.2,.3]),8);b=evolve(compile_circuit(8,'ghz',pool(8)[:2],[.3,.4]),8)
+     np.testing.assert_allclose(uhlmann_squared(np.outer(a,a.conj()),np.outer(b,b.conj())),abs(np.vdot(a,b))**2,atol=1e-9)
+>    rho=density(compile_circuit(8,'ghz',pool(8)[:2],[.2,.3]),8,.05);np.testing.assert_allclose(uhlmann_squared(rho,rho),1,atol=1e-8)
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E    AssertionError: 
+E    Not equal to tolerance rtol=1e-07, atol=1e-08
+E    
+E    Mismatched elements: 1 / 1 (100%)
+E    Max absolute difference among violations: 2.40959381e-06
+E    Max relative difference among violations: 2.40959381e-06
+E     ACTUAL: array(0.999998)
+E     DESIRED: array(1)
+
+tests/test_upgrade_bonus.py:18: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_upgrade_bonus.py::test_sv_and_joint_sampling - AssertionErr...
+FAILED tests/test_upgrade_bonus.py::test_uhlmann_pure_limit - AssertionError: 
+2 failed, 3 passed in 1.32s

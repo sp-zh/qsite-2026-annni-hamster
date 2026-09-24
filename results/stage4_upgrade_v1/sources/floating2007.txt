@@ -1,0 +1,660 @@
+arXiv:cond-mat/0702676v2  [cond-mat.stat-mech]  27 Aug 2007
+Evidence for a ﬂoating phase of the
+transverse ANNNI model at high frustration
+Matteo Beccaria, 1, ∗ Massimo Campostrini, 2, † and Alessandra Feo 3, ‡
+1Dipartimento di Fisica dell’Universit` a di Lecce and I.N.F .N.,
+Sezione di Lecce, Via Arnesano, 73100 Lecce, Italy
+2Dipartimento di Fisica dell’Universit` a di Pisa and I.N.F. N.,
+Sezione di Pisa, Largo Bruno Pontecorvo 3, 56127 Pisa, Italy
+3Dipartimento di Fisica dell’Universit` a di Parma and I.N.F .N.,
+Gruppo coll. di Parma, Viale G. P. Usberti 7/A, 43100 Parma, I taly
+(Dated: July 30, 2007)
+Abstract
+We study the transverse quantum ANNNI model in the region of h igh frustration ( κ > 0.5)
+using the DMRG algorithm. We obtain a precise determination of the phase diagram, showing
+clear evidence for the existence of a ﬂoating phase, separat ed from the paramagnetic modulated
+phase by a high-order critical line ending at the multicriti cal point. We obtain simple and accurate
+formulae for the two critical lines.
+PACS numbers: 75.10.Jm, 73.43.Nq, 05.10.Cc
+1
+I. THE MODEL
+The ANNNI model is an axial Ising model with competing next-neares t-neighbor antifer-
+romagnetic coupling in one direction. It is a paradigm for the study of competition between
+magnetic ordering, frustration and thermal disordering eﬀects.
+In the Hamiltonian limit, we consider a one-dimensional quantum spin S = 1
+2 chain
+interacting with an external magnetic ﬁeld, called the TAM model (tr ansverse ANNNI).
+The TAM Hamiltonian for L spins with open boundary conditions reads 1,2
+H = −J1
+L− 1∑
+i=1
+σ z
+iσ z
+i+1 − J2
+L− 2∑
+i=1
+σ z
+iσ z
+i+2 − B
+L∑
+i=1
+σ x
+i. (1)
+We use the “traditional” notation κ = −J2/J 1. The notations λ = J1/B and Γ = B are
+sometimes used in the literature.
+The sign of J1 is immaterial, since the Hamiltonian is invariant under the transformat ion
+J1 → − J1, σ y
+i → (− 1)iσ y
+i, σ z
+i → (− 1)iσ z
+i. (2)
+Likewise, the sign of B is immaterial. Without loss of generality, we set J1 = 1. We restrict
+ourselves to positive κ and even L.
+We also consider ﬁxed boundary conditions, where we add to the ext remities of the chain
+two ﬁxed spins σ0 and σL+1, with the possibilities of parallel ( σ0,σ L+1 =↑↑) or antiparallel
+(σ0,σ L+1 =↑↓) boundary conditions.
+In the region of high frustration ( κ> 0. 5), despite extensive studies 3–7, the phase diagram
+of the transverse ANNNI model is not well known. For low B, the model is known to be in
+the gapless “antiphase” ↑↑↓↓. It undergoes a second-order phase transition at a magnetic
+ﬁeld B1(κ). The existence of a “ﬂoating” phase, massless and with slowly deca ying spin
+correlation functions, up to a Kosterliz-Thouless phase transition at a magnetic ﬁeld B2(κ),
+is an open question. For high B, the TAM is known to be in a paramagnetic modulated
+phase.
+II. OBSER V ABLES
+We measure the two lowest energies E0 andE1, the mass gap ∆ = E1 − E0, the entangle-
+ment entropySA (see below), and two spin-spin correlation functions: the “slow” co rrelation
+2
+function
+cs(d) = ⟨σ z
+L/2+1σ z
+L/2+1+d⟩, 1 ≤ d ≤ L/ 2 (3)
+and the “fast” correlation function 16
+cf (d) = ⟨σ z
+L/2− dσ z
+L/2+1+d⟩, 0 ≤ d ≤ L/ 2. (4)
+Interesting quantities related to the correlation functions are:
+the overlap o of cs(d) with the antiphase correlation function
+ca(d) = ( − 1)⌊(d− L/2)/2⌋, o = 2
+L
+L/2∑
+d=1
+cs(d)ca(d); (5)
+the average fast correlation function (times an oscillating sign)
+cf = (− 1)L/2 2
+L + 2
+L/2∑
+d=0
+cf (d); (6)
+the range of the fast correlation function
+R =
+∑L/2
+d=0dc 2
+f (d)
+∑L/2
+d=0c2
+f (d)
+. (7)
+A. Entanglement entropy
+It is possible to study an order-disorder phase transition using the entanglement entropy8.
+We divide the system of size L into a left subsystem of size ℓ and a right subsystem of size
+L − ℓ, and deﬁne
+SA(ℓ;L) = − Tr(ρA lnρA), (8)
+where A denotes the degrees of freedom of the left subsystem, B the degrees of freedom of
+the right subsystem, and ρA = TrB |Ψ0⟩⟨Ψ0|; note that SA(ℓ;L) = SA(L−ℓ;L). For a critical
+system we expect (neglecting lattice artifacts)
+SA(ℓ;L) ∼ (c/ 6) log(L sin(πℓ/L )), (9)
+where c is the conformal anomaly number (central charge) of the corres ponding conformal
+ﬁeld theory, and ∼ means “up to a (non-universal) additive constant”; for the case o f interest
+for the inﬁnite-volume DMRG, ℓ = 1
+2L, and sin(πℓ/L ) only shifts the additive constant. For
+a noncritical system, we expect
+SA( 1
+2L;L) ∼ (c/ 6)[logL +s(L/ξ )], (10)
+3
+where s(x) is a universal ﬁnite-size scaling function satisfying the constraints s(0) = 0 and
+s(x) ∼ − logx for large x.
+B. Domain-wall energy
+So far, we only considered open boundary conditions. Following Ref. 9, we deﬁne the
+domain-wall energy (note that our deﬁnition of L diﬀers by 2 from the deﬁnition of Ref. 9)
+EDW(κ,B,L ) = ( − 1)L/2+1
+[
+E↑↑
+0 (κ,B,L ) − E↑↓
+0 (κ,B,L )
+]
+, (11)
+where E↑↑
+0 and E↑↓
+0 are the ground state energies with parallel and antiparallel bounda ry
+conditions respectively.
+III. THE ALGORITHM
+We implement the density matrix renormalization group (DMRG) algorit hm described in
+Ref. 10. We sample the ns lowest energy levels with equal weights, i.e., we use the reduced
+density matrix
+ˆρS = 1
+ns
+TrE
+ns− 1∑
+i=0
+|ψ i⟩⟨ψ i| (12)
+(see Eq. (26) of Ref. 10). Usually, since we are interested in the ma ss gap ∆, we set ns = 2.
+We identify system and environment (for antiparallel boundary con ditions, up to a spin ﬂip
+σ y
+i → − σ y
+i , σ z
+i → − σ z
+i ). The typical dimensions of the truncated system and environmen t
+M range from 80 to 160; in the following, M = 80 will be understood, unless M is explicitly
+quoted.
+The crucial part of the numerical computation is ﬁnding the lowest e igenvalues and
+eigenvectors of the superblock Hamiltonian; we employ the Implicitly R estarted Arnoldi Al-
+gorithm implemented in Arpack 11, in the routine dsaupd used in mode 1. We use (typically)
+100 Lanczos vectors and require convergence to machine precisio n, obtaining residual norms
+|Hx − λx|/ |λ| ∼ 10− 14.
+We observe a truncated weight (the sum of the eigenvalues of the d ensity matrix whose
+eigenvectors are dropped in the truncation) ε ∼ 10− 8 for “normal” conﬁgurations, and
+ε ∼ 10− 7 for peaks of ∆ (see below).
+4
+We managed to diagonalize the system exactly up to L = 22; both the ﬁnite- and the
+inﬁnite-volume DMRG algorithm reproduce the results of exact diago nalization. For moder-
+ateL, ﬁnite- and the inﬁnite-volume DMRG give consistent results. For hig herL, discrepan-
+cies between ﬁnite- and inﬁnite-volume DMRG and M-dependence of ∆ becomes noticeable;
+they are strongly observable-dependent, and they will be discuss ed below, where results on
+observables are presented.
+During a run of the ﬁnite-volume DMRG algorithm on a system with Ln sites, information
+about the system/environment for all smaller system is available. It is therefore possible,
+with a moderate extra numerical eﬀort, to estimate the observab les for all the systems
+with L < Ln sites. These estimates almost coincide with the results obtained run ning
+independently at each L. The additional errors introduced by this procedure will also be
+discussed below.
+The ﬁnite-volume DMRG algorithm at large L requires a very large amount of memory;
+however, since the observables at each lattice size are accessed o nly twice per cycle, they can
+be conveniently kept on disk, requiring only a very large amount of dis k space; for L = 600
+and M = 80, e.g., ca. 6 Gbytes are required.
+IV. PHASES A T κ = 0.75
+We will ﬁrst focus our attention on the model at κ = 0. 75, and later on extend the study
+to other values of κ.
+Running the inﬁnite-volume DMRG algorithm at κ = 0. 75 and B ≤ 0. 257, with open
+boundary conditions, we observe that the mass gap ∆ vanishes exp onentially in L, apart
+from numerical errors due to the fact that ∆ is computed as E1 − E0: see, e.g., Fig. 1.
+The slow correlation function cs(d) almost coincides with ca(d); the overlap o approaches
+a value very close to 1 with corrections proportional to 1 /L . The fast correlation function
+cf (d) is constant and close to ± 1, apart from d = 0 and ds close to L/ 2; the range R is
+almost exactly L/ 4 (the value for a constant cf (d)) and the average cf approaches a value
+very close to − 1 with corrections proportional to 1 /L .
+There is a very sharp phase transition at 0 . 257 < B1 < 0. 258. We will postpone its
+detailed study, since it is best done using EDW.
+Running at κ = 0. 75 and B ≥ 0. 258, the mass gap ∆ as a function of L at ﬁxed B shows
+5
+0 100 200 300 400 500
+L
+10
+−13
+10
+−12
+10
+−11
+10
+−10
+10
+−9
+10
+−8
+10
+−7
+10
+−6
+10
+−5
+10
+−4
+10
+−3
+10
+−2
+∆
+FIG. 1: Mass gap vs. L for κ = 0.75 and B = 0.257. To appreciate the eﬀect of numerical errors,
+note that E0(B=0.257) ∼
+= − 0.8L.
+sharp peaks with a frequency increasing with B: see Fig. 2. Each peak match exactly a
+change of sign of
+cf . At each B, for L smaller than the ﬁrst peak we observe signals very
+similar to the case B ≤ 0. 257; for higher L, we observe that the minima of ∆ seem to go
+to zero for B ≤ 0. 4 and to a nonzero limit for B ≥ 0. 5; however, the determination of ∆
+from the inﬁnite-volume DMRG is not accurate for L ≳ 200; ﬁnite-volume DMRG data with
+M = 80 become unreliable for L> 300; we show in Fig. 3 the case B = 0. 3.
+We performed a ﬁnite-size analysis of ∆, similar to the analysis of Ref. 2, but with a
+complication arising from the peak structure. We run the ﬁnite-volu me DMRG algorithm
+for B = 0. 4, 0.41, 0.42, 0.43, 0.44, 0.45, 0.46 and Ln ≥ 292 corresponding to a minimum
+of ∆. For each B, we select the minima of ∆ and deﬁne ∆ L(B,κ ) outside the minima by
+interpolation inL. We now take two values L1 andL2 and look for the intersection Bi(L1,L 2)
+of the two curves L1∆L1(B,κ ) and L2∆L2(B,κ ) vs. B (interpolating in B at ﬁxed L andκ as
+needed). The results are shown in Fig. 4: we note that M = 120 and M = 160 data almost
+coincide, and even M = 80 data are adequate in the range of Ls considered; we quote as a
+ﬁnal result B2 = 0. 424(3). The data presented here were obtained from a run at a sin gleLn
+for each B (see Sect. III); in order to check that the error introduced is un der control, we
+6
+0.3 0.4 0.5 0.6 0.7
+B
+0
+100
+200
+300
+400
+500
+L
+FIG. 2: Mass gap peaks in the L–B plane for κ = 0.75.
+0 100 200 300 400 500 600 700
+L
+10
+−7
+10
+−6
+10
+−5
+10
+−4
+10
+−3
+minima of ∆
+inf. vol.,  M = 80
+inf. vol.,  M = 120
+inf. vol.,  M = 160
+Ln = 726, M = 80
+Ln = 598, M = 80
+Ln = 598, M = 120
+FIG. 3: Minima of mass gap ∆ vs. L for κ = 0.75 and B = 0.3.
+also performed separate runs for all the values of L required, for N = 80 and for N = 120
+atB = 0. 42, and repeated the analysis: the values of Bi(L1,L 2) never change by more than
+0.0005.
+7
+100 150 200 250 300
+L
+0.422
+0.424
+0.426
+0.428
+Bi
+Bi(1/2 L, L),  M = 80
+Bi(1/2 L, L),  M = 120
+Bi(1/2 L, L),  M = 160
+Bi(2/3 L, L),  M = 80
+Bi(2/3 L, L),  M = 120
+Bi(2/3 L, L),  M = 160
+FIG. 4: The intersection Bi vs. L, for κ = 0.75.
+For 0. 258 ≤ B ≲ 0. 45, the slow correlation function cs(d) at ﬁxed L shows oscillations
+with power-law damping, in rough agreement with
+cs(d) ∼=ad− η cos(qd +φ), (13)
+with η ∼ 0 for B = 0. 258, increasing with B but remaining smaller than 1
+3. For B ≳ 0. 5,
+cs(d) at ﬁxed L shows oscillations with exponential damping. We tried to extract η by ﬁtting
+c2
+s(d), smoothed by taking a running average over ⌊2π/q + 1
+2⌋ points, to the form ad− 2η. In
+Fig. 5 we show the typical case B = 0. 425; c2
+s(d) for diﬀerent values of L converge not to
+a single curve but to two separate curves, with diﬀerent values of η, preventing a precise
+determination of η.
+The range of the fast correlation function R should distinguish clearly the ﬂoating phase,
+whereR → ∞ asL → ∞ (sinceη <1
+2) , from the paramagnetic phase, where R has a ﬁnite
+limit as L → ∞ . A ﬁrst problem is the presence of oscillations, with dips correspond ing to
+the peaks of ∆ (see Fig. 6); it is solved by selecting the values of R at the Ls corresponding
+to the peaks of ∆. After this operation, R vs.L at ﬁxed B andM is well ﬁtted to the form
+R(L) = sRL2 +pL
+L +q ; (14)
+if we plot the asymptotic slope sR vs. B we should be able to see a drop towards 0 in cor-
+8
+7 10 30 100 400
+d
+0.02
+0.05
+0.1
+0.2
+smoothed  cs
+2
+data,  L = 252, 266, 280, 294, 308, 322, 336, 350, 364, 378, 392, 406
+data,  L = 418, 432, 446, 460, 474, 488, 502, 516, 530, 544, 558, 572
+data,  L = 584, 598, 612, 626, 640, 654, 668, 682, 696, 710
+fit,  η = 0.240
+fit,  η = 0.197
+FIG. 5: The smoothed squared slow correlation function c2
+s(d) for κ = 0 .75 and B = 0 .425, from
+the ﬁnite-volume DMRG at Ln = 710 and M = 120, for values of L corresponding to minima of
+∆. (Data at M = 80 give a very similar plot.)
+0 200 400 600 800 1000
+L
+0
+50
+100
+150
+200
+R
+M = 80:    R at the minima of ∆
+M = 80:    fit with sR = 0.165
+M = 120:  R at the minima of ∆
+M = 120:  fit with sR = 0.141
+M = 160:  R,  all values
+M = 160:  R at the minima of ∆
+M = 160:  fit with sR = 0.128
+FIG. 6: R, at the Ls corresponding to minima of ∆, with ﬁts to Eq. (14), for κ = 0 .75, B = 0.45
+and diﬀerent M s. For M = 160, all the values of R are also plotted.
+9
+0 100 200 300 400 500 600 700
+L
+1.1
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+SA
+240
+160
+120
+80
+M
+Ln = 710
+inf. vol.
+FIG. 7: The entanglement entropy SA( 1
+2 L; L) vs. the size of the system L, for κ = 0.75, B = 0.425,
+Ln = 710, and inﬁnite-volume DMRG.
+respondence with the phase transition. However, in the critical re gion, R (and sR) strongly
+depend on M: see Fig. 6; we can only conclude that B2 ≃ 0. 45.
+The analysis of the range of the slow correlation function gives similar , but even less
+precise, results. We conclude that the spin correlation functions a re unsuitable for the
+precise determination of the ﬂoating/paramagnetic phase transit ion.
+A. Entanglement entropy
+We show in Fig. 7 the entanglement entropy SA for the typical case B = 0. 425. Finite-
+volume DMRG essentially reproduces the results of inﬁnite-volume DM RG at the same M.
+We can estimate that the DMRG determination of SA is reliable up to L = 200 for M = 80,
+up to L = 300 for M = 120, and up to L = 400 for M = 160. For each value of M, within
+the given range of L, the diﬀerence between ﬁnite- and inﬁnite-volume DMRG results is les s
+than 0.001. We can therefore compute SA using the faster inﬁnite-volume DMRG, and this
+allows us to work at larger values of M.
+In the antiphase, SA is essentially constant, indicating a very small correlation length.
+10
+0.40 0.42 0.44 0.46 0.48
+B
+0.000
+0.002
+0.004
+0.006
+1/ξ
+M = 80,    c ≡ 1,  L from 20 to 200
+M = 120,  c ≡ 1,  L from 20 to 300
+M = 160,  c ≡ 1,  L from 20 to 400
+FIG. 8: The reciprocal correlation length 1 /ξ (determined from SA) vs. B, for κ = 0 .75. Fitting
+the M = 120 and M = 160 data for 20 ≤ L ≤ 200 we obtain results almost identical to the
+M = 80 results plotted; likewise, ﬁtting the M = 160 data for 20 ≤ L ≤ 300 we obtain results
+almost identical to the M = 120 results plotted; we omit these results from the plot for readability.
+All data for B ≤ 0.43 are consistent with zero, with a very small error ( ∼ 10− 6) which is not visible
+at the scale of the plot.
+The simple Ansatz for the ﬁnite-size scaling function entering Eq. (1 0),
+s(x) = − ln(x +e− αx) (15)
+withα ≡ 1, is found to ﬁt the entanglement entropy data very well (excludin g just the very
+smallest lattices with L ≲ 10) in all cases for the ﬂoating and paramagnetic phases; c is
+always compatible with 1. The best determination of ξ, obtained by ﬁtting SA with c ≡ 1
+ﬁxed, is shown in Fig. 8; our ﬁnal estimate is B2 = 0. 44(1).
+B. Domain-wall energy
+So far, we only considered open boundary conditions. We now switch to ﬁxed boundary
+conditions, in order to compute the domain-wall energy EDW; with ﬁxed boundary condi-
+tions, there are no problems with quasi-degenerate energy levels ( typically, ∆ > 0. 01) or
+11
+0.20 0.22 0.24 0.26
+B
+0.0
+0.1
+0.2
+0.3
+E∞
+linear fit:  B1 = 0.25726
+quad. fit:  B1 = 0.25730
+M = 80 inf. vol. DMRG
+FIG. 9: The inﬁnite-volume domain-wall energy E∞ vs. B, for κ = 0.75.
+peaks in ∆ associated with level crossings, and truncated weights a re ε ∼ 10− 9 or smaller
+forM = 80. Even if we are not interested in the mass gap, we run with ns = 2, which gives
+results more stable than ns = 1.
+We may ﬁt EDW to the form
+EDW =a exp(−dL)L− ν +E∞ (16)
+in the antiphase and
+EDW = a exp(−dL)
+L
+[
+|cos(kL +φ)| − |sin(kL +φ)|
+]
+(17)
+in the ﬂoating phase (with d = 0) and in the paramagnetic phase 9. The ﬁts, excluding
+(typically) lattices with L< 16, are of very good quality and stable.
+Eq. (16), ﬁts perfectly EDW for B ≤ 0. 257, giving E∞ → 0, constant ν ≃ 1. 6 and
+d ≃ 0. 008 for B ր B1. Eq. (17), with d = 0, ﬁts perfectly EDW for B > 0. 257 and gives
+k → 0 for B ց B1. The best estimators of B1 areE∞ in the antiphase and k2 in the ﬂoating
+phase, both vanishing linearly at B1, see Figs. 9 and 10; the ﬁnal estimate of the critical
+ﬁeld is B1 = 0. 2574(2).
+So far, we obtained results very similar to those of Ref. 9. We turn n ow to the problem
+of identifying the ﬂoating phase, i.e., a region with d = 0. The data generated with the
+12
+0.25 0.26 0.27 0.28 0.29 0.30 0.31
+B
+0.000
+0.001
+0.002
+0.003
+0.004
+0.005
+k
+2
+linear  fit:  B1 = 0.25761
+quadr. fit:  B1 = 0.25764
+M = 80 inf. vol. DMRG
+FIG. 10: The squared modulation parameter k2 vs. B, for κ = 0.75.
+inﬁnite-volume DMRG at 0 . 3 < B <0. 4 seem to indicate d < 0; this appears to be an
+artifact of the inﬁnite-volume DMRG, as we can see from the compar ison of EDW evaluated
+with the ﬁnite- and inﬁnite-volume DMRG at B = 0. 3, shown in Fig. 11.
+We must therefore resort to the resource-consuming ﬁnite-volu me DMRG. We checked in
+several instances that M = 80 is suﬃcient to obtain accurate results and that obtaining the
+data for all Ls from a run at a single Ln is acceptable: in all cases, the determinations of d
+are well within the error quoted.
+We show the results in Fig. 12. The value of d obtained from the ﬁnite-volume DMRG is
+consistent with zero up to B = 0. 425, where we estimate ξ ≡ 1/d> 104. The smoothness of
+d vs.B suggest a higher-order, possibly Kosterliz-Thouless, phase tran sition. Note that d is
+quite compatible with 1/ξ of Fig. 8 (apart from a normalization stemming from the diﬀerent
+deﬁnition of correlation length), and so is the resulting B2 = 0. 435(10).
+The precise determination of the transition point of a Kosterliz-Tho uless phase transition
+is a notoriously diﬃcult problem: it is always possible that a system with a huge correlation
+length is mistaken for a critical system 12. Indeed, the correlation length is expected to
+diverge very rapidly when the Kosterliz-Thouless critical coupling is a pproached; following
+Ref. 13, we could conjecture a behavior ξ ∝ exp(b/ (B − B2)) for B ց B2. A ﬁt to the above
+13
+0 100 200 300
+L
+−4
+−2
+0
+2
+4
+L EDW
+data,  Ln = 368 fit,  d = 4×10
+−6
+± a
+data,  M = 80 data,  M = 120 data,  M = 160
+FIG. 11: Determinations of the domain-wall energy EDW, multiplied by L, vs. L, for κ = 0.75 and
+B = 0.3: ﬁnite-volume DMRG at M = 80, 120, 160; inﬁnite-volume DMRG at Ln = 368, M = 80;
+ﬁt to Eq. (17) of the Ln = 368 data.
+0.35 0.40 0.45 0.50
+B
+0.000
+0.001
+0.002
+0.003
+d
+finite-volume DMRG,  Ln ≈ 370,  L from 16
+finite-volume DMRG,  Ln ≈ 710,  L from 16
+FIG. 12: The decay parameter d of the domain-wall energy EDW, computed with the ﬁnite-volume
+DMRG, vs. B, for κ = 0.75.
+14
+form of the data of Fig. 12 gives unstable results for B2, indicating that the determination
+of B2 from EDW should be treated with some caution. On the other hand, a ﬁt to the data
+of Fig. 8 gives results which are stable and fully consistent with the es timate of B2 fromSA
+given above.
+The two determinations of B2 from ∆ L andSA, obtained by quite diﬀerent methods, are
+accurate and in agreement with each other (and with the less reliable determination from
+EDW); moreover, for each method, we see no trend of B2 decreasing with increasing L or
+M (see especially Figs. 4 and 8). We can conclude that, while it is possible t hat the errors
+on B2 are underestimated, it is diﬃcult to believe that the ﬂoating phase mig ht disappear
+completely on larger systems.
+V. PHASE DIAGRAM
+The study of the phase transitions at other values of κs is very similar to the one at
+κ = 0. 75 presented in Sect. IV and we can avoid repeating the details. We s elected for our
+analysis the values κ = 0. 5, 0.52, 0.55, 0.6, 0.75, 1.0, 1.25, 1.5, 2.0, 5.0.
+At κ = 0. 5, the DMRG algorithm becomes ineﬃcient at low B, and we are unable to
+run at B < 0. 01. We see no sign of a ﬂoating phase: the curves L∆L(B,κ ) vs. B almost
+coincide for B <0. 06, and the intersections are very unstable. Determining ξ by ﬁtting SA
+withc ≡ 1 ﬁxed, we see no sign of ξ = ∞ , see Fig. 13; given the poor convergence in M for
+small B, we estimate B2 < 0. 04. The analysis of EDW does not give precise results for B2.
+The behavior of the modulation parameter k (see Fig. 14), which goes to a nonzero value as
+B → 0, hints at the very peculiar nature of the multicritical point at κ = 0. 5, B = 0 1,14.
+Forκ = 0. 52 and 0.55, the quality of the determinations of B1 and of the determination
+of B2 from SA is similar to those at κ = 0. 75; on the other hand, the analysis of ∆ L and
+EDW do not give precise results for B2. We present the plot of 1 /ξ for κ = 0. 52 in Fig. 15:
+the diﬀerence from Fig. 13 is remarkable.
+For 0. 6 ≤ κ ≤ 1. 5, there are no relevant diﬀerences from the case κ = 0. 75 described in
+Sect. IV; we only present the determinations of B1 and B2 in Table I. For κ = 2, the only
+diﬀerence is that EDW is not ﬁtted well by Eq. (17) in the ﬂoating and paramagnetic phases ,
+and therefore the determination of B2 from EDW is unreliable.
+In the case κ = 5, the determination of B1 and B2 is rather imprecise: EDW is not ﬁtted
+15
+0.00 0.02 0.04 0.06 0.08 0.10 0.12
+B
+0.000
+0.002
+0.004
+0.006
+1/ξ
+M = 80,    c ≡ 1,  L from 13 to 200
+M = 120,  c ≡ 1,  L from 13 to 300
+M = 160,  c ≡ 1,  L from 13 to 400
+FIG. 13: The reciprocal correlation length 1 /ξ (determined from SA) vs. B, for κ = 0.5.
+0.00 0.05 0.10 0.15 0.20
+B
+0.092
+0.094
+0.096
+0.098
+k
+2
+quadratic fit
+data,  M = 80
+FIG. 14: The squared modulation parameter k2 vs. B, for κ = 0.5.
+well by Eq. (16) in the antiphase, and it is ﬁtted poorly by Eq. (17) in t he ﬂoating and
+paramagnetic phases; it is very hard to get precise results from ∆ L, since the modulation
+parameter is very small ( k ≲ 0. 01 in the ﬂoating phase). It is still possible to estimate B1
+16
+0.08 0.10 0.12 0.14
+B
+−0.001
+0.000
+0.001
+0.002
+0.003
+0.004
+1/ξ
+M = 80,  c ≡ 1,  L from 10 to 200
+M = 120,  c ≡ 1,  L from 10 to 300
+M = 160,  c ≡ 1,  L from 10 to 400
+FIG. 15: The reciprocal correlation length 1 /ξ (determined from SA) vs. B, for κ = 0.52.
+κ B1 (EDW) B1 (o) B2 (∆L) B2 (SA) B2 (EDW)
+0.5 0 0 < 0.06 < 0.04 < 0.08
+0.52 0.0201(1) 0.021(1) 0.095(15) 0.115(5) 0.12(3)
+0.55 0.0501(2) 0.052(2) 0.160(15) 0.175(5) 0.18(2)
+0.6 0.1015(2) 0.103(2) 0.235(6) 0.25(1) 0.25(1)
+0.75 0.2574(2) 0.2575(5) 0.424(3) 0.44(1) 0.425(10)
+1.0 0.5213(2) 0.522(2) 0.700(5) 0.72(1) 0.71(1)
+1.25 0.7867(2) 0.785(2) 0.972(4) 1.00(1) 0.98(1)
+1.5 1.0514(2) 1.045(5) 1.235(3) 1.26(1) 1.26(1)
+2.0 1.5775(2) 1.576(2) 1.756(6) 1.79(1) 1.79(3)
+5.0 — 4.667(3) — 4.88(1) —
+TABLE I: Determinations of the transition ﬁelds B1 and B2 by diﬀerent techniques.
+from o and B2 from SA.
+For all the values of κ considered, the diﬀerent determinations of B1 and B2 are in
+substantial agreement with each other: this is a strong argument supporting the reliability
+of our results. It should be noticed, however, that the determina tion of B2 from ∆ L is
+17
+0.0 0.5 1.0 1.5
+κ
+0.0
+0.5
+1.0
+1.5
+B/J1
+paramagnetic
+modulated
+antiphase
+ferromagnetic
+floating
+paramagnetic
+unmodulated
+B2 from L ∆L
+B2 from SA
+B1 from EDW or o
+Ref. [2]
+Ref. [13]
+FIG. 16: Phase diagram in the κ–B plane; the solid lines for κ ≥ 0.5 correspond to Eq. (18).
+systematically lower than the determination from SA, possibly indicating that the error on
+the determination from ∆ L reported in Table I is underestimated.
+We can beautifully summarize all the above results by noticing that all the determinations
+of B1 and B2 are consistent with
+B1(κ) ∼= 1. 05(κ − 1
+2 ), B 2(κ) ∼= 1. 05
+√
+(κ − 1
+2)(κ − 0. 1). (18)
+Finally, we draw the phase diagram in the κ–B plane in Fig. 16. The region κ< 0. 5 was
+studied in Ref. 2; the critical line separating the paramagnetic modu lated and paramagnetic
+unmodulated phases is known analytically 15. The data in the region κ> 0. 5 are taken from
+the present work; note that earlier results 3–6 provided only a qualitative picture of the phase
+diagram in this region.
+A very interesting question is whether the ﬂoating phase extends u p to κ = ∞ or it
+terminates at ﬁnite κ; we found that the ﬂoating phase extends at least up to κ = 5.
+VI. SUMMAR Y AND CONCLUSIONS
+We applied the DMRG algorithm to the study of the quantum transver se ANNNI model
+in the region of high frustration ( κ> 0. 5).
+18
+We obtained clear evidence for the existence of a ﬂoating phase for κ> 0. 5, extending at
+least up to κ = 5. The ﬂoating phase is separated from the paramagnetic modulat ed phase
+by a high-order (possibly Kosterliz-Thouless) critical line, ending at the multicritical point
+(κ = 0. 5, B = 0); the corresponding central charge is c = 1. In Ref. 7, the ﬂoating phase
+was shown to have a ﬁnite extent at κ = 0. 5; our study cannot exclude a ﬂoating phase of
+very small extent, i.e., 0 <B 2(κ=0. 5) ≲ 0. 04.
+We obtained precise estimates for the critical points, verifying tha t diﬀerent methods give
+consistent results. Simple and accurate formulae for the two critic al lines are reported in
+Eq. (18).
+Very helpful discussions with Walter Selke and Pasquale Calabrese ar e gratefully acknowl-
+edged.
+∗ Electronic address: matteo.beccaria@le.infn.it
+† Electronic address: massimo.campostrini@df.unipi.it
+‡ Electronic address: feo@fis.unipr.it
+1 W. Selke, Phys. Rep. 170, 213 (1998).
+2 M. Beccaria, M. Campostrini, and A. Feo, Phys. Rev. B 73 , 052402 (2006).
+3 Ph. Duxbury and M. Barber, J. Phys. A: Math. Gen. 14, L251 (1981).
+4 C. M. Arizmendi, A. H. Rizzo, L. N. Epele, and C. A. Garcia Cana l, Z. Phys. B 83 , 273 (1991).
+5 P. Sen, S. Chakraborty, S. Dasgupta, and B. K. Chakrabarti, Z . Phys. B 88 , 333 (1992).
+6 P. R. Colares Guimar˜ aes, J. A. Plascak, F. C. S` a Barreto, an d J. Florencio, Phys. Rev. B66,
+064413 (2002).
+7 A. K. Chandra and S. Dasgupta, Phys. Rev. E 75 , 021105 (2007).
+8 P. Calabrese and J. L. Cardy, J. Stat. Mech. 0406, P002 (2004).
+9 R. Derian, A. Gendiar, and T. Nishino, J. Phys. Soc. Jpn. 75, 114001 (2006).
+10 U. Schollw¨ ock, Rev. Mod. Phys. 77, 259 (2005); see also
+http://quattro.phys.sci.kobe-u.ac.jp/dmrg.html
+11 http://www.caam.rice.edu/software/ARPACK/
+12 T. Shirahata and T. Nakamura, Phys. Rev. B 65 , 024402 (2001).
+13 Xiao Hu, Prog. Theor. Phys. 89, 545 (1993); Xiao Hu, J. Phys. A: Math. Gen. 27, 2313 (1994).
+19
+14 P. Sen and P. K. Das, “Dynamical frustration in ANNNI model an d annealing”, in “Quantum
+Annealing and Related Optimization Methods”, A. Das and B. K . Chakrabarti, eds., Lecture
+Notes in Physics 679, Springer, New York, 2005.
+15 I. Peschel and V. J. Emery, Z. Phys. B43, 241 (1981).
+16 The labels “slow” and “fast” only refer to the diﬀerent distan ces involved and have no physical
+meaning.
+20

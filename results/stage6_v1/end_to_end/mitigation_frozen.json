@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-09-23T02:29:10.300039+00:00",
+  "selected": {
+    "B3": "zne_quadratic",
+    "H6": "zne_quadratic"
+  },
+  "all_options": {
+    "B3": [
+      {
+        "estimator": "raw",
+        "macro_ED_MSE": 0.05345693955760317,
+        "region_MSE": {
+          "interior": 0.045670974091776034,
+          "low_field": 0.049620311191028554,
+          "transition_band": 0.06507953339000493
+        },
+        "nonfinite": 0
+      },
+      {
+        "estimator": "zne",
+        "macro_ED_MSE": 0.04513140817165951,
+        "region_MSE": {
+          "interior": 0.03731233982094413,
+          "low_field": 0.03845228954214452,
+          "transition_band": 0.059629595151889904
+        },
+        "nonfinite": 0
+      },
+      {
+        "estimator": "zne_quadratic",
+        "macro_ED_MSE": 0.02693931219085845,
+        "region_MSE": {
+          "interior": 0.018062488582893107,
+          "low_field": 0.01774796740826174,
+          "transition_band": 0.04500748058142051
+        },
+        "nonfinite": 0
+      },
+      {
+        "estimator": "sv",
+        "macro_ED_MSE": 0.04802778571092441,
+        "region_MSE": {
+          "interior": 0.04002123207171388,
+          "low_field": 0.04220683670577796,
+          "transition_band": 0.06185528835528139
+        },
+        "nonfinite": 0
+      }
+    ],
+    "H6": [
+      {
+        "estimator": "raw",
+        "macro_ED_MSE": 0.10495143514555895,
+        "region_MSE": {
+          "interior": 0.09809578386963637,
+          "low_field": 0.13978158094810011,
+          "transition_band": 0.07697694061894038
+        },
+        "nonfinite": 0
+      },
+      {
+        "estimator": "zne",
+        "macro_ED_MSE": 0.0964137012615434,
+        "region_MSE": {
+          "interior": 0.09008559027822764,
+          "low_field": 0.12746811254943327,
+          "transition_band": 0.07168740095696931
+        },
+        "nonfinite": 0
+      },
+      {
+        "estimator": "zne_quadratic",
+        "macro_ED_MSE": 0.07340810144922899,
+        "region_MSE": {
+          "interior": 0.06817093675138004,
+          "low_field": 0.09382979185155627,
+          "transition_band": 0.05822357574475068
+        },
+        "nonfinite": 0
+      },
+      {
+        "estimator": "sv",
+        "macro_ED_MSE": 0.10029012389166109,
+        "region_MSE": {
+          "interior": 0.09243775731002983,
+          "low_field": 0.13482141743679074,
+          "transition_band": 0.07361119692816269
+        },
+        "nonfinite": 0
+      }
+    ]
+  },
+  "validation_sha": "c6e14c2b261807d9759b2586c03dde75364cc2f49b252164c8e8dbbf4cd69aa8",
+  "code_sha": "b287a21243b7eab33e7cc90b7184016de2d9205b264eac98659242ca68441875",
+  "selection": "At100k totalshots, equal macro-weight to low-field/band/interior, average p=.01/.05 and all32 repetitions, ED MSE primary. One estimator per preparation at every p. All estimators retained in core/windows; full maps always retain raw.",
+  "confirmation_used": false
+}

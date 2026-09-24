@@ -1,0 +1,3495 @@
+{
+  "generated_utc": "2026-09-23T04:10:20.090028+00:00",
+  "curve_source_sha": "8b1bde905d20fd78bafef4c39429d03a5aa25571e957403db62bae13060a7f51",
+  "curve_errors": [
+    {
+      "curve": "0.0_B3_pure",
+      "kappa": 0.0,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 0.01401699493995376,
+      "response_max_error": 0.043893644010779775,
+      "reference_response_max": 0.969475690070606,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.0_H6_pure",
+      "kappa": 0.0,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 0.000856502990676529,
+      "response_max_error": 0.002247569424387308,
+      "reference_response_max": 0.969475690070606,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.3_B3_pure",
+      "kappa": 0.3,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 0.3149697285873815,
+      "response_max_error": 0.9184854129350029,
+      "reference_response_max": 2.762411253644564,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.3_H6_pure",
+      "kappa": 0.3,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 0.02038991446077323,
+      "response_max_error": 0.07262657565787523,
+      "reference_response_max": 2.762411253644564,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_pure",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 4.018422252914925,
+      "response_max_error": 12.354853229552948,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 2,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_0_raw",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 4.01842225291492,
+      "response_max_error": 12.354853229552948,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 2,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_0_zne",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 4.018422252914921,
+      "response_max_error": 12.354853229552948,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 2,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_0_zne_quadratic",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 4.018422252914919,
+      "response_max_error": 12.35485322955294,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 2,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_0_sv",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 4.018422252914921,
+      "response_max_error": 12.354853229552948,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 2,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_0.01_raw",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 6.091824157740597,
+      "response_max_error": 18.21374546539238,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_0.01_zne",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 5.342925704882489,
+      "response_max_error": 15.984184079655538,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_0.01_zne_quadratic",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 3.7892656522189414,
+      "response_max_error": 12.613626491464796,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 1,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_0.01_sv",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 5.331432706786134,
+      "response_max_error": 15.95002696204573,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 3,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_0.05_raw",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 11.778044972388066,
+      "response_max_error": 30.032823778783026,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 5,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_0.05_zne",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 12.24837144486017,
+      "response_max_error": 29.72003234284699,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 5,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_0.05_zne_quadratic",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 11.524261124163141,
+      "response_max_error": 27.277141206328196,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_B3_0.05_sv",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 12.158195010052447,
+      "response_max_error": 29.593333111033264,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 5,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_pure",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 0.30981331474192575,
+      "response_max_error": 0.7657488960515266,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 1,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_0_raw",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 0.30981331474190055,
+      "response_max_error": 0.76574889605142,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 1,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_0_zne",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 0.30981331474189916,
+      "response_max_error": 0.7657488960514129,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 1,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_0_zne_quadratic",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 0.30981331474190216,
+      "response_max_error": 0.7657488960514272,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 1,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_0_sv",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 0.30981331474190155,
+      "response_max_error": 0.7657488960514272,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 1,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_0.01_raw",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 6.436393521435047,
+      "response_max_error": 20.62754565273464,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 3,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_0.01_zne",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 6.227890995614636,
+      "response_max_error": 19.1491093211309,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 3,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_0.01_zne_quadratic",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 4.358956212603484,
+      "response_max_error": 12.939484015506899,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_0.01_sv",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 6.5731007765470375,
+      "response_max_error": 20.391655187205515,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_0.05_raw",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 9.624428185401158,
+      "response_max_error": 31.8235078982514,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_0.05_zne",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 9.636901650739878,
+      "response_max_error": 31.613905808333726,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_0.05_zne_quadratic",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 9.69451736428517,
+      "response_max_error": 31.01604929597392,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.45_H6_0.05_sv",
+      "kappa": 0.45,
+      "response": "minus_dm0_dh",
+      "intervals": 16,
+      "response_RMSE": 9.638602923496993,
+      "response_max_error": 31.76270864312687,
+      "reference_response_max": 33.34821215211711,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.5_B3_pure",
+      "kappa": 0.5,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.34788856090397574,
+      "response_max_error": 0.7041182921700909,
+      "reference_response_max": -0.03530870997874803,
+      "negative_response_intervals": 10,
+      "reference_negative_response_intervals": 16,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.5_H6_pure",
+      "kappa": 0.5,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.050331239079868216,
+      "response_max_error": 0.14380422447423383,
+      "reference_response_max": -0.03530870997874803,
+      "negative_response_intervals": 15,
+      "reference_negative_response_intervals": 16,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_pure",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 6.66292209331161,
+      "response_max_error": 22.04982114739823,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 3,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_0_raw",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 6.6629220933116295,
+      "response_max_error": 22.049821147398298,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 3,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_0_zne",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 6.662922093311632,
+      "response_max_error": 22.04982114739831,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 3,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_0_zne_quadratic",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 6.6629220933116295,
+      "response_max_error": 22.049821147398298,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 3,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_0_sv",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 6.662922093311628,
+      "response_max_error": 22.049821147398294,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 3,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_0.01_raw",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 3.0841547860837264,
+      "response_max_error": 10.070773876877656,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_0.01_zne",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 2.9949469839904084,
+      "response_max_error": 8.853211954193243,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_0.01_zne_quadratic",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 4.303262375915549,
+      "response_max_error": 13.911762208479711,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 3,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_0.01_sv",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 3.4504855746767933,
+      "response_max_error": 10.647468593010021,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 5,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_0.05_raw",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 5.298821551462082,
+      "response_max_error": 14.3895578993899,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_0.05_zne",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 5.367779299567663,
+      "response_max_error": 14.117659270395622,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_0.05_zne_quadratic",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 4.6547499119517495,
+      "response_max_error": 11.914342197452129,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 5,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_B3_0.05_sv",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 5.354101550000311,
+      "response_max_error": 14.303410225946472,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_pure",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 4.663217596497027,
+      "response_max_error": 16.03707309109137,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_0_raw",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 4.663217596497011,
+      "response_max_error": 16.03707309109131,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_0_zne",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 4.663217596497014,
+      "response_max_error": 16.037073091091326,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_0_zne_quadratic",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 4.663217596497011,
+      "response_max_error": 16.03707309109131,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_0_sv",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 4.663217596497013,
+      "response_max_error": 16.03707309109132,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_0.01_raw",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 2.9459824201882348,
+      "response_max_error": 9.328997340498312,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_0.01_zne",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 2.912603771097245,
+      "response_max_error": 9.344307726547262,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_0.01_zne_quadratic",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 2.7717256949095206,
+      "response_max_error": 9.225710845704066,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_0.01_sv",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 2.941647539365288,
+      "response_max_error": 9.33230844688597,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_0.05_raw",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 5.041514626642967,
+      "response_max_error": 16.90053363224965,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_0.05_zne",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 5.072439965756326,
+      "response_max_error": 16.864009093761297,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_0.05_zne_quadratic",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 5.228703577020498,
+      "response_max_error": 16.520688803201278,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.55_H6_0.05_sv",
+      "kappa": 0.55,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 5.066444306497764,
+      "response_max_error": 16.86917299530933,
+      "reference_response_max": 17.33565621163279,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 1,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_pure",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.12515478148180295,
+      "response_max_error": 0.3253483406221592,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_0_raw",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.1251547814818147,
+      "response_max_error": 0.32534834062219475,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_0_zne",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.1251547814818168,
+      "response_max_error": 0.32534834062220364,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_0_zne_quadratic",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.12515478148181378,
+      "response_max_error": 0.3253483406221903,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_0_sv",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.12515478148181636,
+      "response_max_error": 0.3253483406221992,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_0.01_raw",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.4224374012229174,
+      "response_max_error": 0.7850780787762094,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_0.01_zne",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.4512427074719717,
+      "response_max_error": 0.81728544036499,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 4,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_0.01_zne_quadratic",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.33298246946908494,
+      "response_max_error": 0.7009069999865287,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 1,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_0.01_sv",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.4059490685444533,
+      "response_max_error": 0.822002503144117,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 3,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_0.05_raw",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.579951417466452,
+      "response_max_error": 0.9572434537191337,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_0.05_zne",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.5822794551623292,
+      "response_max_error": 0.9875662345423689,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_0.05_zne_quadratic",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.6153666782538203,
+      "response_max_error": 1.2275595383697246,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 7,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_B3_0.05_sv",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.5801057021601721,
+      "response_max_error": 0.9615686261686045,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_pure",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.16348575638980561,
+      "response_max_error": 0.3449580017559585,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_0_raw",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.1634857563898057,
+      "response_max_error": 0.34495800175599844,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_0_zne",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.163485756389806,
+      "response_max_error": 0.34495800175599844,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_0_zne_quadratic",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.16348575638980734,
+      "response_max_error": 0.34495800175599844,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_0_sv",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.1634857563898046,
+      "response_max_error": 0.344958001755994,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_0.01_raw",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.3234146755782775,
+      "response_max_error": 0.6948047604296999,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 1,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_0.01_zne",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.3137324937094469,
+      "response_max_error": 0.7217459101877527,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 1,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_0.01_zne_quadratic",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.19834194338563063,
+      "response_max_error": 0.4718759830531224,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 0,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_0.01_sv",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.3080083775911003,
+      "response_max_error": 0.648582255061113,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 1,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_0.05_raw",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.5765321483603932,
+      "response_max_error": 0.7847372993835047,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_0.05_zne",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.5771876307562945,
+      "response_max_error": 0.7987566624585021,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_0.05_zne_quadratic",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.5860416577745066,
+      "response_max_error": 0.9254877501113397,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    },
+    {
+      "curve": "0.8_H6_0.05_sv",
+      "kappa": 0.8,
+      "response": "minus_dmap_dh",
+      "intervals": 16,
+      "response_RMSE": 0.5766780948257032,
+      "response_max_error": 0.786435649764943,
+      "reference_response_max": 0.6336145773150481,
+      "negative_response_intervals": 6,
+      "reference_negative_response_intervals": 0,
+      "scope": "No smoothing, normalization or peak retuning. Curve accuracy is separate from primary-peak coordinate agreement."
+    }
+  ],
+  "endpoint_audit": [
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "pure_circuit",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 6,
+      "executed_curve_repetitions": 6,
+      "frozen_matched_repetitions": 4,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 4,
+      "by_kappa": [
+        {
+          "kappa": 0.0,
+          "curve_repetitions": 1,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.3,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.5,
+          "curve_repetitions": 1,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "raw",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "zne",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "zne_quadratic",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "sv",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "estimator": "raw",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "estimator": "zne",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "estimator": "zne_quadratic",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "estimator": "sv",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "estimator": "raw",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 2,
+      "frozen_matched_but_endpoint_global_maximum": 2,
+      "matched_without_endpoint_global_maximum": 1,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 1
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 1
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "estimator": "zne",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 2,
+      "frozen_matched_but_endpoint_global_maximum": 2,
+      "matched_without_endpoint_global_maximum": 1,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 1
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 1
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "estimator": "zne_quadratic",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "estimator": "sv",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 2,
+      "frozen_matched_but_endpoint_global_maximum": 2,
+      "matched_without_endpoint_global_maximum": 1,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 1
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 1
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "pure_circuit",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 6,
+      "executed_curve_repetitions": 6,
+      "frozen_matched_repetitions": 5,
+      "endpoint_global_maximum_repetitions": 1,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 5,
+      "by_kappa": [
+        {
+          "kappa": 0.0,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.3,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.5,
+          "curve_repetitions": 1,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "raw",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "zne",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "zne_quadratic",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "sv",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "estimator": "raw",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "estimator": "zne",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "estimator": "zne_quadratic",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 1,
+      "frozen_matched_but_endpoint_global_maximum": 1,
+      "matched_without_endpoint_global_maximum": 2,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 1
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "estimator": "sv",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 3,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 3,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "estimator": "raw",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 1,
+      "endpoint_global_maximum_repetitions": 1,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 1,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "estimator": "zne",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 1,
+      "endpoint_global_maximum_repetitions": 1,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 1,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "estimator": "zne_quadratic",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 1,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 1,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "estimator": "sv",
+      "budget": null,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 3,
+      "frozen_matched_repetitions": 1,
+      "endpoint_global_maximum_repetitions": 1,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 1,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 1,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 1,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 1,
+          "matched": 1,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "raw",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 85,
+      "endpoint_global_maximum_repetitions": 6,
+      "frozen_matched_but_endpoint_global_maximum": 6,
+      "matched_without_endpoint_global_maximum": 79,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 21,
+          "matched_endpoint": 6
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "raw",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 94,
+      "endpoint_global_maximum_repetitions": 2,
+      "frozen_matched_but_endpoint_global_maximum": 2,
+      "matched_without_endpoint_global_maximum": 92,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 30,
+          "matched_endpoint": 2
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "zne",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 85,
+      "endpoint_global_maximum_repetitions": 3,
+      "frozen_matched_but_endpoint_global_maximum": 2,
+      "matched_without_endpoint_global_maximum": 83,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 21,
+          "matched_endpoint": 2
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "zne",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 86,
+      "endpoint_global_maximum_repetitions": 5,
+      "frozen_matched_but_endpoint_global_maximum": 4,
+      "matched_without_endpoint_global_maximum": 82,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 22,
+          "matched_endpoint": 4
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "zne_quadratic",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 84,
+      "endpoint_global_maximum_repetitions": 3,
+      "frozen_matched_but_endpoint_global_maximum": 3,
+      "matched_without_endpoint_global_maximum": 81,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 20,
+          "matched_endpoint": 3
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "zne_quadratic",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 90,
+      "endpoint_global_maximum_repetitions": 5,
+      "frozen_matched_but_endpoint_global_maximum": 5,
+      "matched_without_endpoint_global_maximum": 85,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 26,
+          "matched_endpoint": 5
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "sv",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 88,
+      "endpoint_global_maximum_repetitions": 8,
+      "frozen_matched_but_endpoint_global_maximum": 7,
+      "matched_without_endpoint_global_maximum": 81,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 24,
+          "matched_endpoint": 7
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0,
+      "estimator": "sv",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 89,
+      "endpoint_global_maximum_repetitions": 5,
+      "frozen_matched_but_endpoint_global_maximum": 4,
+      "matched_without_endpoint_global_maximum": 85,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 25,
+          "matched_endpoint": 4
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "estimator": "raw",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 95,
+      "endpoint_global_maximum_repetitions": 1,
+      "frozen_matched_but_endpoint_global_maximum": 1,
+      "matched_without_endpoint_global_maximum": 94,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 31,
+          "matched_endpoint": 1
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "estimator": "raw",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 96,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 96,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "estimator": "zne",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 86,
+      "endpoint_global_maximum_repetitions": 6,
+      "frozen_matched_but_endpoint_global_maximum": 4,
+      "matched_without_endpoint_global_maximum": 82,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 22,
+          "matched_endpoint": 4
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "estimator": "zne",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 96,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 96,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "estimator": "zne_quadratic",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 88,
+      "endpoint_global_maximum_repetitions": 6,
+      "frozen_matched_but_endpoint_global_maximum": 4,
+      "matched_without_endpoint_global_maximum": 84,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 24,
+          "matched_endpoint": 4
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "estimator": "zne_quadratic",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 94,
+      "endpoint_global_maximum_repetitions": 1,
+      "frozen_matched_but_endpoint_global_maximum": 1,
+      "matched_without_endpoint_global_maximum": 93,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 30,
+          "matched_endpoint": 1
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "estimator": "sv",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 85,
+      "endpoint_global_maximum_repetitions": 8,
+      "frozen_matched_but_endpoint_global_maximum": 5,
+      "matched_without_endpoint_global_maximum": 80,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 21,
+          "matched_endpoint": 5
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "estimator": "sv",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 89,
+      "endpoint_global_maximum_repetitions": 2,
+      "frozen_matched_but_endpoint_global_maximum": 1,
+      "matched_without_endpoint_global_maximum": 88,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 25,
+          "matched_endpoint": 1
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "estimator": "raw",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 88,
+      "endpoint_global_maximum_repetitions": 66,
+      "frozen_matched_but_endpoint_global_maximum": 66,
+      "matched_without_endpoint_global_maximum": 22,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 32
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 32
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 24,
+          "matched_endpoint": 2
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "estimator": "raw",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 95,
+      "endpoint_global_maximum_repetitions": 64,
+      "frozen_matched_but_endpoint_global_maximum": 64,
+      "matched_without_endpoint_global_maximum": 31,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 32
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 32
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 31,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "estimator": "zne",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 87,
+      "endpoint_global_maximum_repetitions": 59,
+      "frozen_matched_but_endpoint_global_maximum": 59,
+      "matched_without_endpoint_global_maximum": 28,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 30
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 26
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 23,
+          "matched_endpoint": 3
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "estimator": "zne",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 96,
+      "endpoint_global_maximum_repetitions": 64,
+      "frozen_matched_but_endpoint_global_maximum": 64,
+      "matched_without_endpoint_global_maximum": 32,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 32
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 32
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "estimator": "zne_quadratic",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 88,
+      "endpoint_global_maximum_repetitions": 3,
+      "frozen_matched_but_endpoint_global_maximum": 2,
+      "matched_without_endpoint_global_maximum": 86,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 24,
+          "matched_endpoint": 2
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "estimator": "zne_quadratic",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 92,
+      "endpoint_global_maximum_repetitions": 3,
+      "frozen_matched_but_endpoint_global_maximum": 2,
+      "matched_without_endpoint_global_maximum": 90,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 28,
+          "matched_endpoint": 2
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "estimator": "sv",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 86,
+      "endpoint_global_maximum_repetitions": 56,
+      "frozen_matched_but_endpoint_global_maximum": 56,
+      "matched_without_endpoint_global_maximum": 30,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 28
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 25
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 22,
+          "matched_endpoint": 3
+        }
+      ]
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "estimator": "sv",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 84,
+      "endpoint_global_maximum_repetitions": 71,
+      "frozen_matched_but_endpoint_global_maximum": 66,
+      "matched_without_endpoint_global_maximum": 18,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 32
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 32
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 20,
+          "matched_endpoint": 2
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "raw",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 91,
+      "endpoint_global_maximum_repetitions": 1,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 91,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 27,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "raw",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 94,
+      "endpoint_global_maximum_repetitions": 0,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 94,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 30,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "zne",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 88,
+      "endpoint_global_maximum_repetitions": 3,
+      "frozen_matched_but_endpoint_global_maximum": 1,
+      "matched_without_endpoint_global_maximum": 87,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 24,
+          "matched_endpoint": 1
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "zne",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 92,
+      "endpoint_global_maximum_repetitions": 2,
+      "frozen_matched_but_endpoint_global_maximum": 1,
+      "matched_without_endpoint_global_maximum": 91,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 28,
+          "matched_endpoint": 1
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "zne_quadratic",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 86,
+      "endpoint_global_maximum_repetitions": 4,
+      "frozen_matched_but_endpoint_global_maximum": 4,
+      "matched_without_endpoint_global_maximum": 82,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 22,
+          "matched_endpoint": 4
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "zne_quadratic",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 89,
+      "endpoint_global_maximum_repetitions": 4,
+      "frozen_matched_but_endpoint_global_maximum": 2,
+      "matched_without_endpoint_global_maximum": 87,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 25,
+          "matched_endpoint": 2
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "sv",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 84,
+      "endpoint_global_maximum_repetitions": 8,
+      "frozen_matched_but_endpoint_global_maximum": 3,
+      "matched_without_endpoint_global_maximum": 81,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 20,
+          "matched_endpoint": 3
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "estimator": "sv",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 91,
+      "endpoint_global_maximum_repetitions": 3,
+      "frozen_matched_but_endpoint_global_maximum": 2,
+      "matched_without_endpoint_global_maximum": 89,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 27,
+          "matched_endpoint": 2
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "estimator": "raw",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 89,
+      "endpoint_global_maximum_repetitions": 3,
+      "frozen_matched_but_endpoint_global_maximum": 1,
+      "matched_without_endpoint_global_maximum": 88,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 25,
+          "matched_endpoint": 1
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "estimator": "raw",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 95,
+      "endpoint_global_maximum_repetitions": 4,
+      "frozen_matched_but_endpoint_global_maximum": 4,
+      "matched_without_endpoint_global_maximum": 91,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 31,
+          "matched_endpoint": 4
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "estimator": "zne",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 83,
+      "endpoint_global_maximum_repetitions": 6,
+      "frozen_matched_but_endpoint_global_maximum": 3,
+      "matched_without_endpoint_global_maximum": 80,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 19,
+          "matched_endpoint": 3
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "estimator": "zne",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 94,
+      "endpoint_global_maximum_repetitions": 5,
+      "frozen_matched_but_endpoint_global_maximum": 4,
+      "matched_without_endpoint_global_maximum": 90,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 30,
+          "matched_endpoint": 4
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "estimator": "zne_quadratic",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 83,
+      "endpoint_global_maximum_repetitions": 7,
+      "frozen_matched_but_endpoint_global_maximum": 5,
+      "matched_without_endpoint_global_maximum": 78,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 19,
+          "matched_endpoint": 5
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "estimator": "zne_quadratic",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 80,
+      "endpoint_global_maximum_repetitions": 8,
+      "frozen_matched_but_endpoint_global_maximum": 6,
+      "matched_without_endpoint_global_maximum": 74,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 16,
+          "matched_endpoint": 6
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "estimator": "sv",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 83,
+      "endpoint_global_maximum_repetitions": 4,
+      "frozen_matched_but_endpoint_global_maximum": 2,
+      "matched_without_endpoint_global_maximum": 81,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 30,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 21,
+          "matched_endpoint": 2
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "estimator": "sv",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 84,
+      "endpoint_global_maximum_repetitions": 1,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 84,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 32,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 20,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "estimator": "raw",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 23,
+      "endpoint_global_maximum_repetitions": 42,
+      "frozen_matched_but_endpoint_global_maximum": 1,
+      "matched_without_endpoint_global_maximum": 22,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 23,
+          "matched_endpoint": 1
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "estimator": "raw",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 29,
+      "endpoint_global_maximum_repetitions": 34,
+      "frozen_matched_but_endpoint_global_maximum": 0,
+      "matched_without_endpoint_global_maximum": 29,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 29,
+          "matched_endpoint": 0
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "estimator": "zne",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 18,
+      "endpoint_global_maximum_repetitions": 41,
+      "frozen_matched_but_endpoint_global_maximum": 2,
+      "matched_without_endpoint_global_maximum": 16,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 18,
+          "matched_endpoint": 2
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "estimator": "zne",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 29,
+      "endpoint_global_maximum_repetitions": 40,
+      "frozen_matched_but_endpoint_global_maximum": 1,
+      "matched_without_endpoint_global_maximum": 28,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 29,
+          "matched_endpoint": 1
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "estimator": "zne_quadratic",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 23,
+      "endpoint_global_maximum_repetitions": 13,
+      "frozen_matched_but_endpoint_global_maximum": 1,
+      "matched_without_endpoint_global_maximum": 22,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 23,
+          "matched_endpoint": 1
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "estimator": "zne_quadratic",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 26,
+      "endpoint_global_maximum_repetitions": 6,
+      "frozen_matched_but_endpoint_global_maximum": 1,
+      "matched_without_endpoint_global_maximum": 25,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 26,
+          "matched_endpoint": 1
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "estimator": "sv",
+      "budget": 10000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 23,
+      "endpoint_global_maximum_repetitions": 26,
+      "frozen_matched_but_endpoint_global_maximum": 3,
+      "matched_without_endpoint_global_maximum": 20,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 23,
+          "matched_endpoint": 3
+        }
+      ]
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "estimator": "sv",
+      "budget": 100000,
+      "requested_physical_slices": 6,
+      "executed_physical_slices": 3,
+      "executed_curve_repetitions": 96,
+      "frozen_matched_repetitions": 16,
+      "endpoint_global_maximum_repetitions": 33,
+      "frozen_matched_but_endpoint_global_maximum": 2,
+      "matched_without_endpoint_global_maximum": 14,
+      "by_kappa": [
+        {
+          "kappa": 0.45,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.55,
+          "curve_repetitions": 32,
+          "matched": 0,
+          "matched_endpoint": 0
+        },
+        {
+          "kappa": 0.8,
+          "curve_repetitions": 32,
+          "matched": 16,
+          "matched_endpoint": 2
+        }
+      ]
+    }
+  ],
+  "scope": "Secondary descriptive audit after viewing results, not a newly validated detector or replacement matching rule. Original frozen rule selects the largest interior peak and retains endpoints separately. An endpoint-dominated matched curve is not claimed as robust physical-boundary recovery. All32 repeats and all6 requested slices remain explicit; no successful-repeat filtering."
+}

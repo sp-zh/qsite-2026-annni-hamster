@@ -1,0 +1,116 @@
+{
+  "n": 12,
+  "kappa": 0.8,
+  "h": 0.7,
+  "ref": "antiphase",
+  "seed": 11,
+  "selected": {
+    "words": [],
+    "params": [],
+    "reason": "reference",
+    "optimizer_success": true,
+    "cnots": 10,
+    "gate_count": 22,
+    "unitary_depth": 11,
+    "target_counts": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "cnot_order": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "energy": -9.599999999999998,
+    "ed_energy": -12.237304249141367,
+    "delta_e": 0.2197753540951141,
+    "epsilon_c": 1.063052565068217,
+    "epsilon_sf": 0.35193188037794554,
+    "epsilon_mx": 0.7327855243166814,
+    "fidelity": 0.06722293465035983,
+    "observable_pass": false,
+    "state_pass": false,
+    "joint_pass": false,
+    "ed_source": "results/stage5_v1/ed/n12_k0x1.999999999999ap-1_h0x1.6666666666666p-1.npz",
+    "parity": 0.9999999999999996,
+    "w_plus": 0.9999999999999998,
+    "T_real": 0.9999999999999996,
+    "T_imag": 0.0,
+    "eta_T": 4.440892098500626e-16,
+    "w0": 0.9999999999999996,
+    "w_plus_0": 0.9999999999999996,
+    "variance": 5.88000000000001,
+    "n": 12,
+    "kappa": 0.8,
+    "h": 0.7,
+    "ref": "antiphase",
+    "seed": 11,
+    "uid": "4819af2229a8a4a5196e2669181d49db4557a250cdea3f12c543e8f670235e69",
+    "source": "results/stage5_v1/adaptive/cache/3c7a353c8664c891ea14cabf6f8c59ee9d6c7585878a6037094050c52d07d094.json",
+    "source_sha": "e6badaf90c2bcbfec3eb008a60170bc6a36c10c48df5af322b22c668a0e1a980",
+    "checkpoint": 0,
+    "source_stop": "budget",
+    "source_budget": 192,
+    "disposition": "newly_executed"
+  },
+  "archive": "results/stage5_v1/selected/4819af2229a8a4a5196e2669181d49db4557a250cdea3f12c543e8f670235e69.npz",
+  "sha256": "56870acb0a656de5533760c2e52a0b0e94b6230c6eaf2d9735e87ba2119cf662",
+  "energy": -9.599999999999998,
+  "ed_energy": -12.237304249141367,
+  "delta_e": 0.2197753540951141,
+  "epsilon_c": 1.063052565068217,
+  "epsilon_sf": 0.35193188037794554,
+  "epsilon_mx": 0.7327855243166814,
+  "fidelity": 0.06722293465035983,
+  "observable_pass": false,
+  "state_pass": false,
+  "joint_pass": false,
+  "ed_source": "results/stage5_v1/ed/n12_k0x1.999999999999ap-1_h0x1.6666666666666p-1.npz"
+}

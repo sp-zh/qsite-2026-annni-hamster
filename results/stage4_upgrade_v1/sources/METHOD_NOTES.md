@@ -1,0 +1,13 @@
+# Method reading and implementation map
+
+Access records and SHA256 identify the exact downloaded primary-source files. arXiv PDFs were extracted and relevant method sections read; they are methodological sources, never project result data. ReadTheDocs returned HTTP 403, so the installed TeNPy 1.1.1 source/docstrings and its tagged upstream model source were inspected. Mitiq documentation was read from the official repository snapshot; its source hash is recorded (main is mutable).
+
+- Tang et al., arXiv:1911.10205, Sec. II: append a pool operator from energy derivatives, reoptimize existing parameters, and pay measurement overhead. Our finite local symmetry-preserving pool has **no completeness guarantee** inherited from their constructed complete pools. Cost-normalized ranking is our engineering variant.
+- Cea et al., arXiv:2402.11022: the XX/Z convention is mapped by global Hadamards to our ZZ/X convention; the signs and Pauli normalization stay fixed. We use classical MPS evidence separately, with no free circuit StatePrep. PT is the antiphase–floating boundary; KT/BKT is floating–paramagnetic. The upstream snapshot's lower-boundary BKT naming is preserved as historical text, not adopted as the physical interpretation.
+- Beccaria et al., cond-mat/0702676: OBC DMRG, spatial correlations, entropy, finite-size and wavevector evidence motivate complementary tests. Their numerical phase diagram is not copied as our output; small gap splittings in ordered phases are not counted as floating evidence.
+- Bonet-Monroig et al., arXiv:1807.10050: commuting symmetry projector identities motivate global-X verification. The term 'zero cost' does not eliminate repeated measurement cost; our 30 measurement settings and shared finite shot budget are explicit.
+- Mitiq official ZNE guide: digital folding preserves noiseless logic while changing noise exposure. We implement literal 1/3/5 CNOT folds, rather than replacing p by scale*p. Linear intercept and quadratic Richardson are separate fixed estimators.
+- PennyLane official DepolarizingChannel and TrotterProduct pages are saved. Actual 0.44.1 behavior is verified against explicit gates. We implement exp(-iHt) ourselves, since SDK exponent sign conventions must not be assumed.
+- TeNPy 1.1.1: SpinHalfSite Sigmax/Sigmaz are Pauli matrices; conserve=None, finite MPS and open lattice. N8/N12 full MPO matrices match independent ED, and small-N DMRG energies are checked before large-N scans.
+
+Downloaded papers are retained for local research provenance, but should be excluded from the redistributable submission ZIP; include citations, access hashes and our notes instead.

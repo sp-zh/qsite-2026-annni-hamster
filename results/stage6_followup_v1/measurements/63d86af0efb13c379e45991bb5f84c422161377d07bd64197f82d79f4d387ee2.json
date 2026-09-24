@@ -1,0 +1,317 @@
+{
+  "key": {
+    "n": 8,
+    "kappa": 0.45,
+    "h": 0.0125,
+    "bc": "PBC",
+    "source_sha": "d76aa64fddce7a58a223040a21658edbd7b5fca6410fb849974a0db4d92e34c0",
+    "gate_hash": "7bc8174a2bdf34dc38a4ef121fafb515cace5466b0f2f9f70bbdde45c3ecd333",
+    "parameters_hash": "2d31d2df89cac99af92858014790de310d33002cab3bf299fc216385763d82a2",
+    "p": 0,
+    "method": "raw",
+    "mode": "equal_shots",
+    "budget": 10000,
+    "settings": [
+      {
+        "fold": 1,
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          5000,
+          5000
+        ]
+      }
+    ],
+    "probability_keys": [
+      {
+        "n": 8,
+        "kappa": 0.45,
+        "h": 0.0125,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ]
+        ],
+        "p": 0.0,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      }
+    ],
+    "repeats": 32,
+    "seed": 9230626,
+    "code": "cad687c45d953231c7f96f592b0d6c15d3fee123f4f9ca5c13bf29b02c2a3563",
+    "estimator": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+    "numpy": "2.5.3"
+  },
+  "point_id": "f34d5f2ddbcdfdf6a7cea11c681b58881805d0d2fa3f4ac47a3d9ab0424c1b51",
+  "kappa": 0.45,
+  "h": 0.0125,
+  "p": 0,
+  "method": "raw",
+  "mode": "equal_shots",
+  "budget": 10000,
+  "settings": [
+    {
+      "fold": 1,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "allocations": [
+        5000,
+        5000
+      ]
+    }
+  ],
+  "archive": "results/stage6_followup_v1/measurements/63d86af0efb13c379e45991bb5f84c422161377d07bd64197f82d79f4d387ee2.npz",
+  "sha256": "4063290211b7642bd142524a1feaa3f05e6d43b61ad08db85e3fc20ea4aa1f28",
+  "probabilities": [
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.45,
+        "h": 0.0125,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ]
+        ],
+        "p": 0.0,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "archive": "results/stage6_followup_v1/probabilities/f221add87cdc66b749f13f25c551cc1d80292364b2f5daa7d168a357d86369e0.npz",
+      "sha256": "46ec7045c5b50dba440d88f8608978bf9c3c4b6366b2916f185594fba3b00d70",
+      "fold": 1,
+      "p": 0,
+      "sv": false,
+      "seconds": 0.0010901250061579049,
+      "disposition": "historical_reused",
+      "source": {
+        "metadata": "results/stage6_v1/end_to_end/probabilities/f221add87cdc66b749f13f25c551cc1d80292364b2f5daa7d168a357d86369e0.json",
+        "metadata_sha": "da6c0a0a4dc1d4473d10cd86174b4053934332e6cc2641de542c992802421fcf",
+        "archive": "results/stage6_v1/end_to_end/probabilities/f221add87cdc66b749f13f25c551cc1d80292364b2f5daa7d168a357d86369e0.npz",
+        "sha256": "46ec7045c5b50dba440d88f8608978bf9c3c4b6366b2916f185594fba3b00d70"
+      },
+      "noise_channels": 7,
+      "one_qubit_gates": 1,
+      "process_peak_rss_bytes": 972914688,
+      "cnots": 7,
+      "gate_count": 8,
+      "unitary_depth": 8,
+      "target_counts": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "trace_real": 0.9999999999999998,
+      "hermiticity": 0.0,
+      "min_eigenvalue": 0.0
+    }
+  ],
+  "shots_per_repeat": 10000,
+  "CNOT_shots_per_repeat": 70000,
+  "one_qubit_gate_shots_per_repeat": 50000,
+  "measurement_settings": 2,
+  "target_CNOT_shots": 70000,
+  "zero_CNOT_control": false,
+  "equal_CNOT_verified": false,
+  "budget_shortfall": null,
+  "seconds": 0.4582340409979224,
+  "disposition": "historical_reused",
+  "source": {
+    "archive": "results/stage6_v1/end_to_end/measurements/ddf10da4f3f82a067cfa696eee527f99247bd5deebae63cecd4e3d4aef0f3a87.npz",
+    "sha256": "66f747e4143d9871697f5a44396659f912203b7f3c144d7480b2306df09875c6",
+    "counts_archive": "results/stage6_v1/end_to_end/measurements/ddf10da4f3f82a067cfa696eee527f99247bd5deebae63cecd4e3d4aef0f3a87.npz",
+    "counts_sha": "66f747e4143d9871697f5a44396659f912203b7f3c144d7480b2306df09875c6",
+    "key": {
+      "probability_keys": [
+        {
+          "n": 8,
+          "kappa": 0.45,
+          "h": 0.0125,
+          "bc": "PBC",
+          "gates": [
+            [
+              "H",
+              0
+            ],
+            [
+              "CNOT",
+              0,
+              1
+            ],
+            [
+              "CNOT",
+              1,
+              2
+            ],
+            [
+              "CNOT",
+              2,
+              3
+            ],
+            [
+              "CNOT",
+              3,
+              4
+            ],
+            [
+              "CNOT",
+              4,
+              5
+            ],
+            [
+              "CNOT",
+              5,
+              6
+            ],
+            [
+              "CNOT",
+              6,
+              7
+            ]
+          ],
+          "p": 0.0,
+          "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+          "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+          "sv": false,
+          "keep": false,
+          "shots": null
+        }
+      ],
+      "method": "raw",
+      "budgets": [
+        10000,
+        100000
+      ],
+      "repeats": 32,
+      "master_seed": 62026,
+      "estimator_code": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+      "code": "01cce0e06ae66a96035f668c3e75510471836e8979a44fac523f0358d6b86fc7"
+    }
+  },
+  "random_stream": "Historical Stage6 shared streams, preserved counts; paired same-coordinate/repeat analysis",
+  "unclipped": true
+}

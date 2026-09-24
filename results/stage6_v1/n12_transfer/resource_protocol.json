@@ -1,0 +1,147 @@
+{
+  "n": 12,
+  "seed": 631,
+  "first_budget": 128,
+  "full_coordinates": 36,
+  "window_coordinates": 16,
+  "paired_192_coordinates": [
+    {
+      "kappa": 0.443,
+      "h": 0.013,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.4757,
+      "h": 0.013,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.013,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.539,
+      "h": 0.013,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.235,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.763,
+      "h": 0.235,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.235,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.963,
+      "h": 0.235,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.083,
+      "h": 0.085,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.183,
+      "h": 1.675,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.383,
+      "h": 0.085,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.683,
+      "h": 1.675,
+      "region": "interior"
+    }
+  ],
+  "paired_192_rule": "Every third frozen coordinate:4low,4band,4interior; bounded12point resource diagnostic. Expand only after completing all core packages.",
+  "noise_coordinates": [
+    {
+      "kappa": 0.443,
+      "h": 0.013,
+      "region": "low_field",
+      "source_task": "n12"
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.013,
+      "region": "low_field",
+      "source_task": "n12"
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.235,
+      "region": "antiphase_band",
+      "source_task": "n12"
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.235,
+      "region": "antiphase_band",
+      "source_task": "n12"
+    },
+    {
+      "kappa": 0.083,
+      "h": 0.085,
+      "region": "interior",
+      "source_task": "n12"
+    },
+    {
+      "kappa": 0.383,
+      "h": 0.085,
+      "region": "interior",
+      "source_task": "n12"
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.01,
+      "source_task": "n12_window",
+      "region": "N12_antiphase_response_window"
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.0375,
+      "source_task": "n12_window",
+      "region": "N12_antiphase_response_window"
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.075,
+      "source_task": "n12_window",
+      "region": "N12_antiphase_response_window"
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1125,
+      "source_task": "n12_window",
+      "region": "N12_antiphase_response_window"
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.15,
+      "source_task": "n12_window",
+      "region": "N12_antiphase_response_window"
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1875,
+      "source_task": "n12_window",
+      "region": "N12_antiphase_response_window"
+    }
+  ],
+  "noise_policy": "All12predeclaredpoints at p0/.01/.05, including any failed preparations. Exact density first, serial within worker; no post-hoc pass filtering",
+  "structure_scaling": "Same frozen H6 dispatch and local wall/physical pools, parameter cap160 and per-optimization400iterations. Reference/decode cost grows with N and is included.",
+  "coordinate_sha": "0a1917595238d2a9fba58af48ea7cf6894515ec84d3e2dd68f021c1dbf295218"
+}

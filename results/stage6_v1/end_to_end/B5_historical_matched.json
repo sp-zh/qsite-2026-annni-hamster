@@ -1,0 +1,4272 @@
+{
+  "rows": [
+    {
+      "kappa": 0.45,
+      "h": 0.15,
+      "region": "difficult",
+      "historical": false,
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.5,
+      "h": 0.15,
+      "region": "difficult",
+      "historical": false,
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.15,
+      "region": "difficult",
+      "historical": false,
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.6,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/32ce73ca7211464e0b5477f06d3989c7c76b8a864961e107aab337e4ec850666.npz",
+      "gates_sha": "cc4076621766d48519a15a2825f00b535bd8fe69c454887ffe30a2d0ab24e54d",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/cbcb3548ead138243e95e577ed5aa87a78dc02ea692b45f869bfa09ebaf20822.npz",
+          "sha256": "19fbfefd9f612b9e7abb36207547be71bcf469a2a74fd69119b26bc617a83549",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 6.881080178555117e-05,
+          "MSE_own_p0_100k": 1.1076881100876667e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/5d32d6e2487442f079f8e3157f7125b6c6cbc6e928189581e6a7674da25b0efc.npz",
+          "sha256": "441fbce7c74e85349d95c87d2d6a38eb1a91c9d1bf3d834895c82d0fbb0beed6",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 7.789852893485619e-05,
+          "MSE_own_p0_100k": 5.701696995109845e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/b42c2bb5fe70dcddfa555ed1b0343cf08c9feb55cd1e3808eea4309447456cdb.npz",
+          "sha256": "aaccceaeffb9b38f18e2d280404977290367f6f1c296664dfb0a39868d09bf56",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 7.400078760776843e-05,
+          "MSE_own_p0_100k": 7.930077380722197e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/1ec246ec38c7afb1372bae85a9530c339184db868e09a224a22201ea4a355a7b.npz",
+          "sha256": "c7c3e5b73b7631a362133521cd155e3634cf996a3777369c5bb58ad31b114b63",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.017241184394513248,
+          "MSE_own_p0_100k": 0.018742545688858508,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/dc5fde0cc311fc91789fb324fa35b511fe20715bf610e08a1f42cdb9fdb74bd9.npz",
+          "sha256": "1b63b02fa4dfa3bfe3366167636dc883eb24e1812244e857c8e774bd320c7c6f",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.010977895127289267,
+          "MSE_own_p0_100k": 0.012228013924100382,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/58d302b16617c3fd39c8a3cd16ef39be9ee9446289d05e7f03f2f51582e2af85.npz",
+          "sha256": "e9fce3f914e4022902a6404c913a3b70a12b7bbfb6429e53a9cda277c214203b",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.012090294757539127,
+          "MSE_own_p0_100k": 0.013370988379052021,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/b635a01d3d8580bf0086b6095720dc68f63477b173ea4647427f9130e1bef3bb.npz",
+          "sha256": "1147e17819dff034806ba3be953be490950eb9ed2ca327b3fa8640dc0f2bbe74",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.08377279836501819,
+          "MSE_own_p0_100k": 0.08681763169245282,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/294a900ace906fb9292e1a10d9ab260948bd9c2e83c7cbc00d51fe508ec8dfa5.npz",
+          "sha256": "3c2d11f765c0762e30b19f4bca9ac77f269c452392c704f3f81d698fcc9710a8",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.08266537358622678,
+          "MSE_own_p0_100k": 0.0857023769314634,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/648987afd36806c03f34030001b39f80684354cbc4cf993a214bc43a47517b18.npz",
+          "sha256": "dc9ccf34cd37d4b5b09f23a7535924a526d06895df3a6640add2078501c7596d",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.08304111848662755,
+          "MSE_own_p0_100k": 0.0860656012268516,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.8,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/04bcc4eacb8848971269caebb7158d09598d353c635a7e2bfcc4058dc2f57d8c.npz",
+      "gates_sha": "8cd51596c2d77f58b70c3b9b21abdf6a15fdf041503dda69c638ce8d6ad068b1",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/a5a1d1d606dfda23812a5303d14fcbebf56bcb4ac5f5a97b5270a03c64422b99.npz",
+          "sha256": "f83175ee16e1135d5dd46c7684e8c52cd9f84efe699c087ddfdd800324074cc8",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1270000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12700000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 3.13247237343406e-06,
+          "MSE_own_p0_100k": 1.6553024031668996e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/74b9f45caa77b2a4740d40124f0e2d285a179a1ccb3a6542757d42f7a74078bf.npz",
+          "sha256": "194414b382f1c44bd571131cda3fef746a2b2e5b13f7850264fa5849d43c4485",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3809746,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38099746,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 7.002668818145796e-06,
+          "MSE_own_p0_100k": 5.93774828656437e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/5a8369128d6d431b4c18559f2caa318eb8e510b7fef364518d4d791d79fe64c3.npz",
+          "sha256": "3961dcaa3ade7aae1dcc5a06d345f90ea4eea0c010d1f630342308ab8eca2857",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1270000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12700000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.4751555770322433e-05,
+          "MSE_own_p0_100k": 1.4003095037209933e-05,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/54f420072f25e0c00858a932fa2ab798d019c69cba8a4cafe0f80263a763c056.npz",
+          "sha256": "d0f75b902a59333997da35e414dbc378add9333dedd33d6447281ff2b05eaea2",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1270000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12700000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.008651973421132914,
+          "MSE_own_p0_100k": 0.008591941445126318,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/a441a305ea8b72174163df1b92c10d34902d0e91a34f31e4ea21e49e494760e1.npz",
+          "sha256": "05c9fed05685401e90f70c45dc986ab92a3631797c776e9a1799f26b719b06f1",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3809746,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38099746,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0048022957194713885,
+          "MSE_own_p0_100k": 0.004753673637665092,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/94f8e9d652888ba5669ca8acffb901db89d6c6217ceb05113a170b8463283dca.npz",
+          "sha256": "c4eb5ac185b2996e55a44346de61f7831a6690ae987b931bf691c5b354f70ac3",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1270000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12700000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.005790172928327526,
+          "MSE_own_p0_100k": 0.005741570217384741,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/9119296aefd114147bfba203f438a329308133c40d38590c06a9f27427355bb4.npz",
+          "sha256": "101cf4a99b9935697324a93e4ebe51fb8ae596e5f10b96edf9980d6fd4594e2b",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1270000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12700000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.051892498737814687,
+          "MSE_own_p0_100k": 0.051760508213739315,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/87da9bcf46bd4abb8c705ff19e40e3d017964503f8e4c09b73575644b63eb8ff.npz",
+          "sha256": "5c64befa7762d2cfe361448c4304e85ff09965fabea33ad85537881d8d8e8228",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3809746,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38099746,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.05075375073271676,
+          "MSE_own_p0_100k": 0.05062288061151252,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/857e734637dba212ed9c2c9314106afbbc80bd1d7437ca4d0406fd50638ffd62.npz",
+          "sha256": "1b9b7098e595d134ee08aea0722e484a5d8780a0c04e59ba484b89f2c1c4f003",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1270000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12700000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.051874292474488264,
+          "MSE_own_p0_100k": 0.05174322295985439,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.425,
+      "h": 0.02,
+      "region": "difficult",
+      "historical": false,
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.035,
+      "region": "difficult",
+      "historical": false,
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.475,
+      "h": 0.05,
+      "region": "difficult",
+      "historical": false,
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.5,
+      "h": 0.01,
+      "region": "difficult",
+      "historical": false,
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.5,
+      "h": 0.075,
+      "region": "difficult",
+      "historical": false,
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.525,
+      "h": 0.035,
+      "region": "difficult",
+      "historical": false,
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.05,
+      "region": "difficult",
+      "historical": false,
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.575,
+      "h": 0.075,
+      "region": "difficult",
+      "historical": false,
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.4,
+      "h": 0.3,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/b66770186c02e0b11ce7ec027825c824dc0eb4cbb19441736379acd9fb5410b4.npz",
+      "gates_sha": "b9906e80d21597daa2bb2ccc4baaaaebf4331df03ae9bbd70d4aa595526e271b",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/3a189e7e40846c742dce892d4e6636ec539e58a1d05aaf865007675714375463.npz",
+          "sha256": "35a397e365f5b69bef60c0add68518c59c4987784cd8c36a381abf5577504966",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.00036521456529709455,
+          "MSE_own_p0_100k": 2.6415518235815627e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/403a40a69e0529078bac8c54c60450b7e6e8857d4efb3a72e42d74db30c149de.npz",
+          "sha256": "23c2c69c64a9fed7a78c6a64d3223fe315332941a46c59082abdabf1a84513d6",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0004018962570055984,
+          "MSE_own_p0_100k": 8.468609396660303e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/839c7dd66a565f4b36603ab8d70372a19e736015ca9a4ee705ec6e994f2f21d2.npz",
+          "sha256": "99ea0443023ab5a59ac9d2e1c491801c36f2498217076b792e70795c2baa9af3",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.009154389810598466,
+          "MSE_own_p0_100k": 0.00970237096043541,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/f3222a5b030d13e48da8978268d9676fe795846de2aac2f7ef280a6b7c1c1790.npz",
+          "sha256": "076c4964da133c93720ed0a7acc52b1976b7e61577812057a9064db2783350dd",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.005176932551585498,
+          "MSE_own_p0_100k": 0.005551202156908534,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/222c92d480fc4dc71b85d8d0e6e6c1b0917743a934d8550e677547511463aecb.npz",
+          "sha256": "139142866ef3f29c8fa872f5da4afad8f0256af4890fcac49525b4d9d6052788",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.054561896591615935,
+          "MSE_own_p0_100k": 0.05613900627256645,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/c56d33b7e9703c9562adef363ab2823d1c20ca73b394fd00f8294b06f2216988.npz",
+          "sha256": "19d3611ce9321829ad73a2f82259f6fe49cbad64684a65868b05ae369f6f82da",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.053122680753070785,
+          "MSE_own_p0_100k": 0.05469083298158898,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.45,
+      "h": 0.2,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/942680af5b88f5c854af1647ea66d617b9c3ec923533ff73b8374d96fb0567a0.npz",
+      "gates_sha": "e26e67a52181f2c14fee3389e8c24b0954585be5b25f83651b06c836de84df00",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/94a7a588a8f73d8217b1d2c630f7230a5a8a21f84885de5417d855734f8d9559.npz",
+          "sha256": "90cd60622c52c962bf767a00df9aad745fd7c89966c5835b1a486fd8758f35c8",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.00016643869877479162,
+          "MSE_own_p0_100k": 1.0729403905146743e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/e1364743893fd1d61505c3d371000fcd24a0a6261e0107cce7e62862f8592e86.npz",
+          "sha256": "2c0b82bfabbfe26ce9dd640735949240fd0a4c92f70a150b14246ff03b991acd",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.00016831489597118475,
+          "MSE_own_p0_100k": 3.2882093732912846e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/29d455c8385ac918d9be0b6c0deffbeca5e4bf461d5ebc0c59cb02ea7cdb2901.npz",
+          "sha256": "5b7299669969d8f14828c8b9128226d69a4b34d8e8cf85519166dbad5f2c5bdc",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.017548420577479674,
+          "MSE_own_p0_100k": 0.015009433033350708,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/b91dc25f91a98b19d6d4ebf47cd050d71aa418fb1515c14d3f689676616c59e2.npz",
+          "sha256": "24997df63c166c802362bcde7eed392c19246348969d41a0363d45c852fcc97e",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.013079988183824139,
+          "MSE_own_p0_100k": 0.01071133528574166,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/43e3f3873a3a286751ff60f3eb7e14657c812a78081770d5c45d363fdb485369.npz",
+          "sha256": "6d7a435a447a2ee8a4f77752bd4e0b50c83c99d336bb6e7cde0de8a0000b7019",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.06582086890595405,
+          "MSE_own_p0_100k": 0.0620362232817434,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/f2b78dd6188808bee0a015113250a8326c08ad358b5b62adf81b718c3bc738d9.npz",
+          "sha256": "0f5278ececde52e68a1e1c2b889c746ae599c9366f55a697450226a5f98c5cca",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.06472512152347575,
+          "MSE_own_p0_100k": 0.06094661004121077,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.5,
+      "h": 0.1,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/365cd25759c646a9849bdfe543d9d379007c71e4819594a89084f3b99a35e309.npz",
+      "gates_sha": "2a5ea419eb923a8084c0598bafa99d556409931e276fa3a1907e0aef710eb893",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/2e892ff2d96daa0901ef788a91abac355b6e8cc59171fcba32fa03ab9fd1113e.npz",
+          "sha256": "3ff2f620dccb3ff36d13bb0d5c11ec5a9d9609909bd49bde7d4822f16f0dbdf0",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 320000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 3200000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.35020652278144077,
+          "MSE_own_p0_100k": 2.169405179267285e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/92b88c87faabacc29dfd9d902ff1891235a83f741d3fea0fff9d4d51770e6e26.npz",
+          "sha256": "e09c888da4d8abacf5d7f35581e734f40dd51a2a703928d0f40b0ef22de0a0fa",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 959936,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9599936,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.3502124490174194,
+          "MSE_own_p0_100k": 7.624683490147507e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/196bc667219f48f5acb4cecfdf18e7d68bbe21f503671abf804cef70d8358d17.npz",
+          "sha256": "0c6ae681f0089d35a29e2f8899862dd8d493f7e2ef796a5e43b8960304c784ef",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 320000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 3200000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.299439716658946,
+          "MSE_own_p0_100k": 0.0025663516193974974,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/49aa8817e23f03b89ea59a88b29db82a211d1e98aca9e35f7da5a7c391c97213.npz",
+          "sha256": "d9d98a9fe6f2dd3a28ee73273f5160cc0f43ac3718d90f9229f255e9a199b8ec",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 959936,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9599936,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.3326144416781518,
+          "MSE_own_p0_100k": 0.0002870341477282839,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/299be4416ed694a3a603c663b65f6fa6a9aa438f8676dc25d14785f5dbb7637c.npz",
+          "sha256": "4bc2c3da99957fb9c7afc69ffca6fd619591ec1d7690f5d04816e99498a8b847",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 320000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 3200000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.17817958313583995,
+          "MSE_own_p0_100k": 0.041253368346812085,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/731bdbc4c8434004757c896ab98654100fc0b8eb38f0bbcf1a8da914aa2cc2ec.npz",
+          "sha256": "ac7338bbace1948ae7b585f5db2d3d7fd5db2de8f6fa7f713d69b500dc91fa6f",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 959936,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9599936,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.20055428571563313,
+          "MSE_own_p0_100k": 0.028505832995209264,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.5,
+      "h": 0.2,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/e1c721773882ea97651cf3f723cc620ccd509eb0bc5a7f96cf92a5a753622dad.npz",
+      "gates_sha": "018ca457c0a95508c37fbc3dc711784369341a043d9b34b55563d09bd126595b",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/85d27ac5e12842ce9c0a377dfd954e7b47d9e3b171b38a260ef4ad71cbb8460d.npz",
+          "sha256": "ff530ae434d6adb8914d13bf9009095c6e8590dc0c611d59b86e5a5040c6013a",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 3.832095107787167e-05,
+          "MSE_own_p0_100k": 5.300661171368505e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/fb50ef5bed1de62b833ccf1af088d9c88151c52b8983f71d21be67bf172c7564.npz",
+          "sha256": "120f80609713c364074c5e41f790f79904faf7260690bb638f811d36d3bf0256",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 3.8597296206735114e-05,
+          "MSE_own_p0_100k": 2.2670812627316652e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/c27d047b180a9ce0aa30244ab37395b76415f0445d6f618f054f9db84909a195.npz",
+          "sha256": "54826c7333e50f48a9d572548c949d81c44abd3fb794e8ebbdcadebcd6632a79",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.019093502605440005,
+          "MSE_own_p0_100k": 0.018053406556828137,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/eefe7d4fa2851b500fed870cb01d3ab4dacb791e6e7d74ffe14669b4b466560c.npz",
+          "sha256": "40dfca795eb5ec63640049758612a044560ae10c3ea914be0d32b74912ee357d",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.01398725774872215,
+          "MSE_own_p0_100k": 0.013037535135592498,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/d73c4cc985807726109ba5053ee62183a59fae73ad2df8183daab855a3fe24ee.npz",
+          "sha256": "ece970fa71963bb9c9292a38dd8f5eb43c445b2caedc9c9d825e9714af84d407",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.07303864574139549,
+          "MSE_own_p0_100k": 0.07132584318198065,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/61c6093fbe69b9dd23060c21a8514b6d9488cc8728f564524fdfc6025eee9f1d.npz",
+          "sha256": "e2fd982039274ddcd329467c7e1149656199d39d331c442ef655184abac6f11d",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.07234219172469399,
+          "MSE_own_p0_100k": 0.0706264635829715,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/6766efa09bcc345a8e868f525cde27e21f25e0366f776f4088b3b3c5419a3c60.npz",
+      "gates_sha": "985ee934ab07e321d74335fdbcb16f4a754fe302b4509f81d2932bf862da05c5",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/412b76dd44ae87faf6b0e3b507ddc3c8d2c0c41229cbe026c82dbe3109508773.npz",
+          "sha256": "a7048da467d809a622b899c3f2a041e3b2487ff87ac0ee4545e6b05c88d1117c",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.00010357946885893368,
+          "MSE_own_p0_100k": 1.705784931291841e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/73745208159e2539c6d2d9e86850472233567274c792a4ddda5bcbb66fcf5204.npz",
+          "sha256": "9754c0fac963a629a014d78bc56179e0f844a71760f1417a8a2a0f5db1016cba",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.00010447780247403345,
+          "MSE_own_p0_100k": 1.2341646887190308e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/0e327214333946586550480b37d6ebcb60f46fadfdc8a68c7c65766eea0aa015.npz",
+          "sha256": "1903cc99cb0c29fdb6e52a97d73dbc1fa389925e58f2d4f1c2bad1ebc89b7a8a",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.033358820584781665,
+          "MSE_own_p0_100k": 0.03662765402785905,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/113f02d595f777c16c956d074595110ca99437896d52e8ad816ab2b48311828d.npz",
+          "sha256": "faee24409fb1170f7bf4e45bd1c8bc93b66c4e2fdc29b5d8429039f31434e06e",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.02128612256994157,
+          "MSE_own_p0_100k": 0.023925618338710285,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/637f8b2caef556604644fb47baf5bf5b06f983f64b4729f40bf7945a356f4c99.npz",
+          "sha256": "b5dc8ad97ffea85d38fcdf9ca732a805c33390e441055b3abd3b0be96b29a02d",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.1651355234914837,
+          "MSE_own_p0_100k": 0.1722671648526359,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/20b84c612836988a6dd4a5ee22720c73a913d592df5d92442301efd9506341fe.npz",
+          "sha256": "b6259317a5b09ba95c09e2c8801312b717eb50faee7efb787ddeaef30de39104",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.1634961947437545,
+          "MSE_own_p0_100k": 0.17059400191657853,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.2,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/102a38177343d7b19ace7922cd0d46721554b95efd8cded823e42274959aacd9.npz",
+      "gates_sha": "855dfbb8f1c375dbd0a1f9cd1f08989739ab9b4f352f65cd81cf50938a831839",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/4a17545020a9fcb7dbf7dccc126df879ff0588d592cee1e4b646973d27acbe80.npz",
+          "sha256": "30fca2deca8d352c28062fe059b230e26720e432cd45b5a9c177be748d3898a3",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0002666828214113448,
+          "MSE_own_p0_100k": 4.341256618512332e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/11d18e4d0cb0926856c0fcc616c1948bf1fb67265c92b0a62223c0ec03232041.npz",
+          "sha256": "da20e4a5ca2d7c5083b1f585f4ae68567d34a19b4f03b40357a52741e0042fed",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0002793191038198358,
+          "MSE_own_p0_100k": 3.2096551634825433e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/f8a0c297faa86abbe6eb006047cdbe6735314c72b4a6a788adc5722ca75e1d88.npz",
+          "sha256": "e42b5d6ef2c4f9f3e9e5ddda61b416dac88a0cb76e0f88bbd229a7150578c51a",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.01534752605004854,
+          "MSE_own_p0_100k": 0.018129739666097277,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/fe979ce5d98034cc81baf455c27d2a513f9374747cd10f442dc1340c3c98909a.npz",
+          "sha256": "dbe4f74e005e987d817a775f25f62e3ef9f9f376f23246b54cc75787413b9c72",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.010403305409065124,
+          "MSE_own_p0_100k": 0.012798890519783392,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/2002fcab745b5ac7d80ff33f254c56ab39fdfd4c4b954014e6f60d72d82b2eed.npz",
+          "sha256": "1700c96d632dab0cd0d49fb6f3e30d2f50c5e2291c9420d84e94a9fa1435f3e1",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0681256065340261,
+          "MSE_own_p0_100k": 0.07347296560319742,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/388d781bd967348cad1e45f58ae06b7b498c9ee63f8262a3ca44b2f0520c308b.npz",
+          "sha256": "3225e74b5c1c6e1bd815afdbd6118fe8dfb4ecdee65dd987b9ca8c41c0502768",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.06734568023492582,
+          "MSE_own_p0_100k": 0.07267207053057007,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.6,
+      "h": 0.2,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/b4bc59c0c335bd684b4d3ca12b277fe742df482998c8e00383b3de2483f18369.npz",
+      "gates_sha": "732a88caa3b4b5f665204b1a345bdd26d5330a18bec1cb4769e6c022baa0b0db",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/67adf962d9fd9866708be270a73aca372f0e57458d973c630f2730a50030845f.npz",
+          "sha256": "42864bc47d7eded1ddcbee618ebfb657156b1972819e8f10ce06bbf472cf72e4",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0008274205275549695,
+          "MSE_own_p0_100k": 2.1745949794239707e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/ee733d6d8c4f21c6990ba88bc400f0c42c8007cf935a7370fbd6a283c3bb0deb.npz",
+          "sha256": "d5d924ec6c51d8f7780e5c3e02846a7abaf3dbc9e56e2283308676da98a6d7e4",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0008416528077983021,
+          "MSE_own_p0_100k": 1.142366130238796e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/7810c66151a23eaa419257bd7e1e07686b8fef3199463d71fde5a825d517a260.npz",
+          "sha256": "3a46a7ab5921170ceb4dc71b289a8e1118240902f38336bdbb5193bbd7d98dd7",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.027122777152699434,
+          "MSE_own_p0_100k": 0.035678831391060165,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/88cf63a9de493a0727ff64712bc1e1bd8b2ce9c1dfa3c7061dbbe0e490faf710.npz",
+          "sha256": "691bbe35b1a996eabb4d1232b7ca3faa4cba7611ff4c5dfcf042b1040d06b5a4",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.01687724185671868,
+          "MSE_own_p0_100k": 0.023813445278319197,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/7632dba31ecece6eead4255d89965eeed902d924dfc72d13e523d111acbfefdb.npz",
+          "sha256": "47110e79a62fdf22a7147a927c1667a96afae08c0335e486ba529ac5b04cac6e",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.143030073640698,
+          "MSE_own_p0_100k": 0.16175280295362515,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/2462d625f59b871fcfbd30ce14771bf0c5f26c5e0c7b39ffa68c0e9631534287.npz",
+          "sha256": "632166eac28a3eaf9b3a95f322fda6fb7d274ac9659bc645015a5de5fa22bf8e",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.14169330508946287,
+          "MSE_own_p0_100k": 0.16035377528389222,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.6,
+      "h": 0.3,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/99c680aa37d08ed948c52c7d3394683364dab6da278f0ff6956db9c6d7657df0.npz",
+      "gates_sha": "358ab5915c6f1772d64847812e431231ba0ba8544e56813cf91760b490250f83",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/cc8b138152e0627285c3cbe4a22176b4013152709e6807d92cf50ef1466c04e2.npz",
+          "sha256": "9bdd8a5b82a53e515917fec048eeeb382f344096544b7323d7fb54b65df7e34d",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 960000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9600000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.07325199440257926,
+          "MSE_own_p0_100k": 1.142614244809786e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/249ac5c85ee70c98102a98b42c626b4a99151ac7251acd821af418d742935995.npz",
+          "sha256": "0fe3cbd929e18938636992022517df6541ff1baba3467fb07fc774fc00aab978",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2879808,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 28799808,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.07307624386176355,
+          "MSE_own_p0_100k": 5.5442810172641486e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/3ce561fd3455d7a5f12c6b599dbdaf3518a6ca1875fc23e64176c20ad6da4399.npz",
+          "sha256": "e3c2414a0ac35f029e87ebd8dc536ffdd5c396d22675ebf4aff2b365f76bbc18",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 960000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9600000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.03847075578650819,
+          "MSE_own_p0_100k": 0.01125660101025705,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/c34d794e8f3928aa8eb91a4fd4377ba188aa6a6b3be0516d7c1f4a3e6ad14fc1.npz",
+          "sha256": "9006a94823faf65e07938b9d40f9b6923f359af91ce3a7e250805532215d747a",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2879808,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 28799808,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.04495129209015768,
+          "MSE_own_p0_100k": 0.005607483964109005,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/b25958a84cff2e4eb7d8e371ca0e266bdf0ab09fce6656c57bff93a3541a981c.npz",
+          "sha256": "b16b6979c9893a507b5ee6507aea8cedc3a1d476e331323c45f1818ed26a5ced",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 960000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9600000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.03590820847172423,
+          "MSE_own_p0_100k": 0.07675598415390765,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/a02ac90388399fa72508be8175886c81fdc33b91eb76b6164af7b3f794592604.npz",
+          "sha256": "92531ab658f87e31dc4fcc5657bd626be2b5c2c1e06cc790577bbbb11b750a86",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2879808,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 28799808,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.03433512808676277,
+          "MSE_own_p0_100k": 0.07382798150022238,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.6,
+      "h": 0.4,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/5cb73264416dc498bb6383974962128ad2caacc3a3a5661fc40fd3e898058ed0.npz",
+      "gates_sha": "4f6bc86672d1571fc8dda3fcddde8e8cacbd4f6c2b1f9df829321ec62977a782",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/3dcea8ec93ee15fa332b0247fd9c01d54d82ad8884b199c3157298291ae1851f.npz",
+          "sha256": "aaa7f47d8fb24d7e3544826b31031a2c3fa07b88c35a824b7cc374d977c7739f",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.00043930966897585527,
+          "MSE_own_p0_100k": 9.389705068782114e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/067e83fff6b7c146b247019055b109ad107fef5cc64ccbf7e941c7decc4007c9.npz",
+          "sha256": "2f86fa4331838d41266926b0adfb79377bb23c0562f4f307f76441ef9ec28e59",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0004376225732847963,
+          "MSE_own_p0_100k": 4.9270910535218895e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/2d1599c0a3e9e8fc53adb93ab49ae6792eaee75468d17240e593e9337f1813d3.npz",
+          "sha256": "3c2a10359422f451790ef4b1167050bb4690b5071385b28666d6bb016df6b9db",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.008579442228892049,
+          "MSE_own_p0_100k": 0.009981072068999524,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/08558a814aaa5f44978dc0d5129fc7e27ffa89ca5333fa3fae3ac04e3755863d.npz",
+          "sha256": "754117cafa7a1f4991cfb3a228ceebeb06d9fa151e78bc6ed19ec2ed49226ef0",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.005261648019265311,
+          "MSE_own_p0_100k": 0.0064721363618509276,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/d3d96ae7c022f3f89aef5567d8b7ed0cf50b35c2dc863c93555ef67c5ea24b6b.npz",
+          "sha256": "c1c7c5fba02bc6a32319510df1c32c6e0e8b1d6e71f0b4f2b157443829fac06f",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.045492851753980816,
+          "MSE_own_p0_100k": 0.0482503280893495,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/e3a09aef82c9da74f6a483f35f5055819aacdce1dd081bdca437e03a33e1f200.npz",
+          "sha256": "a09dcd5a90b0fa610c4e3027dc72015aec9f12d70c1c495b3934ed546d07e9ef",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.044390725527353105,
+          "MSE_own_p0_100k": 0.047112272118391904,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.6,
+      "h": 0.5,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/2cd76619c11537a6e679a46821679381a538b9d95a2d90a1c8361e55bac7d9ce.npz",
+      "gates_sha": "a007e6cee21d40856d29a2a3c045cff5c7d9fbf779c828ad79496756e28a2f95",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/b172a341540bed254c472c048149a31471a0e26e0a690a56c69963a01c5fd7c6.npz",
+          "sha256": "37a6cd5cf725099245922d2e89062cb55281e69b8fbade4530091e50c8175b26",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0001731432209658609,
+          "MSE_own_p0_100k": 1.1843837556490569e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/b779dbf100562f8f3cf4b17fab54c3b510e0c1e1e4c5878dfe776ae8e78878e2.npz",
+          "sha256": "9678007cf0af05d9cea01c7f3712ec068ffd972a831924bf90e88c2b117c5b58",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.00018158897800092766,
+          "MSE_own_p0_100k": 4.776931460053444e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/0ca5405279bc4413cd3dac2cd031fc9d5ba41d28110da82f5a743e5c9d64f75a.npz",
+          "sha256": "abc6d81ab99dc7557298ffa5ff5cb4c97b2956dcfef2d9c22d51a9c7050f17c2",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.007513843474604813,
+          "MSE_own_p0_100k": 0.008102463195751305,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/b3cd08c6e6f59cb06927f46d7f92929135d5fe870495c6212c8a24aa0288a115.npz",
+          "sha256": "0b5009951afa009293921c43140747e06ad186f18fe7f12636bc8e236b99c8f2",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.004282513613910573,
+          "MSE_own_p0_100k": 0.0047387813484874725,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/a2a2ea6fb7bc85344b7c2fef86eee6a960f6bd120c26b86f91a54a8c673df1fb.npz",
+          "sha256": "2c39d771393ce0d1aa977bdf0e59b4f82f60c3f1852f2e3992863ad0df1be182",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.04451014464506758,
+          "MSE_own_p0_100k": 0.04593547725986067,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/453ebde562e7c603e466d84d53b2a75d5f9c74d6bccc6e9a5cf9626a608de2f9.npz",
+          "sha256": "64b582d675c69f9f9c6df0942bf9aab29ee69d60bd27b91e01609995decc1832",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.043291239709924004,
+          "MSE_own_p0_100k": 0.044696977534275276,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.65,
+      "h": 0.3,
+      "region": "difficult",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/0e5dfda3e7f7f825e05d8576ad3e6b678a0a3624e6663b7f4fc7916a81cfd309.npz",
+      "gates_sha": "b07bf783e8c245c1e7033e23acbd60a4f65f697b97f48215f0c3e9a384baca63",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/fb61f159c8c93d8d71359da4f8bf4849e0b9db43075352a48b2801e69ce594b6.npz",
+          "sha256": "ebf589ca0a76ccacb1ab96a408941ad861756493345b80bb4949ab003f495a8d",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.001559085001316894,
+          "MSE_own_p0_100k": 6.164634239930879e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/6508751b3e98593f41cf7fea847a0f1fc84d7f232a6142d6335f99cbefcf8628.npz",
+          "sha256": "495f4c9495f8d8000d49fdb0ebe24a511136c6a22750f3985ef6ac10f213466f",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0015592498032846625,
+          "MSE_own_p0_100k": 2.513907791059548e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/4b516f188225f7941009899065676f5116a287455b7b1c4432bbc0ac0f8f91ed.npz",
+          "sha256": "ac8b00ff562a186b7f073aeb15156f3b0168bacac07385d42f6dbf3b78432cab",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.01957209193047357,
+          "MSE_own_p0_100k": 0.02946381329869728,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/d7e022dc37e3ce57eb4901d0b3155187d81517e156de51621e0d448e0571efc4.npz",
+          "sha256": "60f87bc1c2dadacb0406dd717ddff0257bf4b7d78882050dc8a002270d339bcb",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.011156648986471668,
+          "MSE_own_p0_100k": 0.018937389914443006,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/d573fb17287fa375527d2a2a9fdb1b1878e1d1d0fe25c78a2b9536f400df9d5f.npz",
+          "sha256": "4fec5278766fb6635126cf7dfc6ae287b2b89230999beea17fe8153ff8026a9c",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.11837317742673235,
+          "MSE_own_p0_100k": 0.14117305638106292,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/cb5d76c4aebe8fd9020949d9c7b1291b80a186b3d561781b38df3c7f9f774b64.npz",
+          "sha256": "8785ce44e1ede1a66e617bf532252cce4a945dc6abb3effa395510dc722e5730",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.11675693315600737,
+          "MSE_own_p0_100k": 0.1394742062070115,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.0,
+      "h": 0.2,
+      "region": "interior_control",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/97d4b08b38ebb62582b9bdac0d1f00f7b9bde1d4e5e7b1978b94856874c8402b.npz",
+      "gates_sha": "04c2b5b2b8aadb5eedd24c51f2643eaa9f7a42a2436146b413ee80757f786bc1",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/a3ef10037b3ed52d2578648e01405563427377dbab126e1e47b7d7e36c60c906.npz",
+          "sha256": "38587f8bd4780cda4f8385018fe92d6977bab1fc1129d5b6a49d05ce8f4cee58",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 640000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 6400000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 2.370931630888512e-07,
+          "MSE_own_p0_100k": 2.3830208629930413e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/240d61cdc456809d5b38f91ad73d4a1dbd28c4ad7b25cb949d65146963e5a205.npz",
+          "sha256": "36fccde84c955ea0de80e8e89963e3758b4674303d4c5f42881b9342229c948a",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1919872,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 19199872,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 8.233547137140243e-07,
+          "MSE_own_p0_100k": 8.217718437017875e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/0d4a9e97a22e92c0b3e10909aa77b3d1adfe327a009ce3bef4c608b709ca68ed.npz",
+          "sha256": "1ee4c36f759e4d1a2e1c5206ca94be75eca64fe2287fede60ded150403b6be1f",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 640000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 6400000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 2.4249237739017225e-06,
+          "MSE_own_p0_100k": 2.424737742992026e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/c98a6a28ddd4bbf779ad25d567ad384ad1840db4d2d1e6724f5192714d79a71b.npz",
+          "sha256": "f0c44c9db77650fdc3c5c5d07cd6bc9e2a8acbcb603443f3fc192055c28275a4",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 640000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 6400000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.030373933832768468,
+          "MSE_own_p0_100k": 0.030375437707509417,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/d247a9223fb29ef0cf802000ff8f74a1ede45439c25c00d95746c0a6fe1f0d7c.npz",
+          "sha256": "6eb2e764f5e57002edffffc6a5d4739ac44c9e7bbb2e050f402d69a2571a5fe8",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1919872,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 19199872,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.011402242012745168,
+          "MSE_own_p0_100k": 0.011403178424934726,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/93d873eb3154e496a6d13d9452599ff4645bc4a7031a445f672ba2d1d13b3e6b.npz",
+          "sha256": "3d1e781ddb13cc7f0d19f6ed24345723510e9f3d8a84701d2bfd47d04a49b623",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 640000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 6400000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.017876667575853124,
+          "MSE_own_p0_100k": 0.017877828801170097,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/f052e90785a53285a8bdb76230c68cc701de0b7e05c0bd2c496bfe9cc3307d67.npz",
+          "sha256": "787a5b8815f5b8f7f5ff15b495e4afd88e8c37069d1783bd916995f6169476b7",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 640000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 6400000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.27033781163584,
+          "MSE_own_p0_100k": 0.2703422365622268,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/334a06046611b410ec64f39b7d90a73e9c9c356b3949703eff47d93ae7dfd518.npz",
+          "sha256": "68f34beff5d2fce5e062a3e08b8ea4f26cb9e3b35c2f90df4aecca4a0b8a8faa",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1919872,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 19199872,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.2533955738382694,
+          "MSE_own_p0_100k": 0.2533998736478638,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/a6443f5c917d8caeeeb4b95a276cdba30c16ed658c770e243c864d6933835dbb.npz",
+          "sha256": "383e6998a1d3081d0222ea4a81b5412a5099a7cde72ee8dd4a84dd607a9e62f8",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 640000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 6400000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.2590465072278515,
+          "MSE_own_p0_100k": 0.25905083943785406,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.0,
+      "h": 1.8,
+      "region": "interior_control",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/97d5c0b0d3186eb652f5490e60dc53dff355cdba82157d002d7329a5566e53e3.npz",
+      "gates_sha": "ea2cbab5dbd37900764824ca7171722ad90cfdb3be0d4ff640ff39b7b57f8bb3",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/7db07a3dd942bdc4e39ae80ed916d6b88681bd2db3d49923166bb55c5e3a1b1a.npz",
+          "sha256": "ff97b83a3fc3968261728c41491507407313e2d1404b303d98ab8ba2fb81fb1c",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1270000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12700000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 2.0097043693027453e-06,
+          "MSE_own_p0_100k": 1.9394856160253963e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/85878c345c7a2164b2d8239902aeddf45ffbc15b00dff351b8cdf77f27aa9ee2.npz",
+          "sha256": "bd2b2553a66b1c5ec71b359b557626e5d136e4d47af2fc78cdcfe2397b77d5fa",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3809746,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38099746,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 7.185021067172014e-06,
+          "MSE_own_p0_100k": 7.186213699025343e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/96e32308d88756eb5e5561db764ebb33d6136ef915efd4347a699da22e1b8f69.npz",
+          "sha256": "62e27246029e026233cea68bdf15a3bafa0f24aff00498fcbb11a864cabd6053",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1270000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12700000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.2756944427638136e-05,
+          "MSE_own_p0_100k": 1.273067505014921e-05,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/903730240f1c5373b44f306323cb1df36f95fb07c3e39ed563fd2e30aea217be.npz",
+          "sha256": "2a38f848e6d8d8929884680a139a7b998f83c3089e93968644331b38a0dc9e42",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1270000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12700000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.006837176938030154,
+          "MSE_own_p0_100k": 0.006834359566026444,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/158122fdad6a93aa07d1a41c4c56f5cde3804307cf48f87c3744cb9f065a2129.npz",
+          "sha256": "127d1b26feb45bfdb73bfd02743d558db39d2128d4a88096dbd86ffcd37d7b1e",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3809746,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38099746,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.003383438650398991,
+          "MSE_own_p0_100k": 0.003381152660214287,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/8a10a414d63b9f2696c892d24ed10dd3dffd2f2c71d1627bbbf90fc8a1f19eb3.npz",
+          "sha256": "a440793b156c081f8700ea64440c499dad861722981499cf6f4225b3eb9a43ca",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1270000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12700000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.004570024171704849,
+          "MSE_own_p0_100k": 0.004567507833411636,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/46a32c1ea9f9e09da708958241ef8f39c2c05e7550ce9e438b514517146431bc.npz",
+          "sha256": "4b9e411e5abbf229350ade2b77d1e234c47ec4a2726b58e070cc143ecf4153e2",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1270000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12700000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.04682967473856388,
+          "MSE_own_p0_100k": 0.046823736115987176,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/39eee7efa04c70fb3a8a725ccf1a26cc3d645e45ec0e164c46a9ed6cc0800849.npz",
+          "sha256": "3eea440e2203af6abe9f02b8836b276e287ccb316cf1f0f026db8077ac742cf4",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3809746,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38099746,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.045305322279375206,
+          "MSE_own_p0_100k": 0.0452994220390349,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/dbc5920353374f8d5f2ac1610b9950a0103bc3adba1f9473fb7cfdcfe0d65634.npz",
+          "sha256": "f937c792f267918e6cb6f8191384edf7d05543e724930bdfcd967a912e13c9a8",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1270000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12700000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.04686143968060377,
+          "MSE_own_p0_100k": 0.046855604711502755,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.1,
+      "h": 0.2,
+      "region": "interior_control",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/0552b6962a8d99ec539c13a6e900d1e8705a1021f6e89a506f1dcfe7036f2ee0.npz",
+      "gates_sha": "d3712f3db08904bad10d3ec6cfb9ec504438f2b81b65f68979cd7b079decd402",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/fed8450c7888c102b271f1edbe84c0446f07fe57a3596f4b80f6fb08bd278caa.npz",
+          "sha256": "8f0a95f395cd7bd72d92ff8d97c8b16d18a996ed29b4bb3765e03dc5dadd9616",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 960000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9600000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.7130507984823164e-07,
+          "MSE_own_p0_100k": 1.7011843314023284e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/f11a7e567156ae9d176edf50c530e4cf34cc01214387c792bc3db415b4f0609b.npz",
+          "sha256": "0ce69617004984a2449128c5acda7402a3f49f7d0d49de5adfb29018dc4c9e0c",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2879808,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 28799808,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.0711472501083868e-06,
+          "MSE_own_p0_100k": 1.0699457231835263e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/a0384ec8ef3f4afc76f51a6d881a7052a2d39033485b8fdbb0022eaf3faffaab.npz",
+          "sha256": "64065a5e0dbacc25aaedabfb1767112ccd21db30d871f0504804b36f20b1de68",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 960000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9600000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.06195567576922206,
+          "MSE_own_p0_100k": 0.06195926910498882,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/0354f89e868d524495ba848506895eefec3181a2c268674c1583488a12fcc5a2.npz",
+          "sha256": "359fef5eeb0e3ac844866caf692a01eb533160cae1c536784dec7d9fd548ab5b",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2879808,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 28799808,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.03522191919264482,
+          "MSE_own_p0_100k": 0.035224659540138814,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/9205e4e42d7e1e662f8c67f9a56a886a22d5d36a1cae944d0af184309f53d8a6.npz",
+          "sha256": "e826ebbc178cbc98943298507e205a14ff696158b4554eca45fb4a6bd7d1e2e9",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 960000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9600000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.36118003354135664,
+          "MSE_own_p0_100k": 0.36118856816672745,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/9ae93e65e4aa0f75b503e5927a95accaed795a589894661396d2ff8251b8d023.npz",
+          "sha256": "618a832f6fa68449f0b829f12d6f283fb374097f50242f540006fd54729bc324",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2879808,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 28799808,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.35381873192483426,
+          "MSE_own_p0_100k": 0.35382719371962823,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.2,
+      "h": 1.5,
+      "region": "interior_control",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/db30484edbbc4ee88a1fd5eb886f2582b3c07b8919466c0303f2080ef7e85905.npz",
+      "gates_sha": "7f0de408a970fd7700558a2fed1950fd551b99abe536588fc6ce739e58322c32",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/f0d1b13ed03a3c1b73d4a9bcc5b4c301ddafea6b6a8595b3d0193253a4ff83b8.npz",
+          "sha256": "582987dffdca7246edcb8f7ae9db38195d10242b2ff81a5e1597067becc56b83",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 950000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9500000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.3122144255889185e-06,
+          "MSE_own_p0_100k": 1.2964623411403778e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/1324457bcb444475edb1c94e25c8842b3b8f65b002420c10bd45dea2bf07807b.npz",
+          "sha256": "3a42eee6b9ea366dbcbdc0f9c4973bc3d3e50b89b2ac101fafebe647734eba9c",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2849810,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 28499810,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 7.284687204412434e-06,
+          "MSE_own_p0_100k": 7.212863743168047e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/d9879c5552ec0626a27e1dc93ce23d6af0e59c8d151662df5b39148df73e42b0.npz",
+          "sha256": "1d186cbbbdcbba75dac44f8f43418ba48e712e8940e09f3abefa30f412d51c62",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 950000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9500000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.003956199357910915,
+          "MSE_own_p0_100k": 0.003956651430024923,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/869320ada0a0468b267cae0a3b76a57cb75dabeb6cd204efa55891f40290bc95.npz",
+          "sha256": "16802ca7a2b19b4ba10850e913798799a78c6b4e549da5d0d6f264c1ab0b820c",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2849810,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 28499810,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0014630913885936893,
+          "MSE_own_p0_100k": 0.001463424225985472,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/11a2523ea9d8b3ea6c9f48b94153d7e799e568fd06a4b27c8ac70e34699e98ea.npz",
+          "sha256": "6a403474c9af26a3bdb017603dbc8dd21a7959cedb7935de9c379aeddec72e3e",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 950000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9500000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.03545383609171376,
+          "MSE_own_p0_100k": 0.03545491555034214,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/b98c60c1097a2a178e1238ee74d278b2d308e2d66c52aae505641d8c12736a4f.npz",
+          "sha256": "cc024a81adbf176ac793e421b06f354dcaa853bf896598cd9f5a900e9154fff5",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2849810,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 28499810,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.03329571923318486,
+          "MSE_own_p0_100k": 0.03329689183363949,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.1,
+      "region": "interior_control",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/d40ca96de738404df9fb44d8c7212eab5f42dd3bdc5f4513970d9feaf6a20904.npz",
+      "gates_sha": "ab3ba4e62ff2be7cecd397e20b47ce83c165b402875aa9924164f1be8955d66c",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/c05c8c16f353ac5ad9ed49abcac3f2e17e4aa3f803341281b923890378aaf2be.npz",
+          "sha256": "4890e5280ca1a7922ee4b8ae00e9aa0a0016977421c79e47f66530a18093dc3e",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 630000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 6300000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.2641731015633602e-07,
+          "MSE_own_p0_100k": 1.2691352964407433e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/9985144011f173c5dd683a8b5cc76271771ec7da5e2cc85a68087e0c0abf9145.npz",
+          "sha256": "99efec292664c351ca44e656f8361c2cd1086938fe1b7c274672ec6c2dcb9090",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1889874,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 18899874,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 4.513497918497477e-07,
+          "MSE_own_p0_100k": 4.515320940813238e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/d2b0d55d1dbe786287ce56f15b23aeb648009cb76e96f49ffec9da6592f706f3.npz",
+          "sha256": "a9ad7237d1c47fb2c7e333f1ee2e21f5c532e03ff6c9c3eedec1e0d0c350e884",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 630000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 6300000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 2.7781170106046297e-06,
+          "MSE_own_p0_100k": 2.7728384292579252e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/c29ca83225cda32f694e9b135b9d38977e8fafe96babf5dd5f194d59136fc600.npz",
+          "sha256": "44aa9cbabfe123b334fdba66d5ee01bafbdbd20e55329e4fcac1027c646200db",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 630000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 6300000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.028632014212475004,
+          "MSE_own_p0_100k": 0.028634803181231003,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/f80de4364b7f5bbafebd294626e3ceb75945b229ba5f18708c2f03cd5468e213.npz",
+          "sha256": "8b3ed1b4a227644faa7f2e204d88111eada1367da2e353fcd4b223cc3527c3d0",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1889874,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 18899874,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.009952933361664102,
+          "MSE_own_p0_100k": 0.009954599484206949,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/0cc082f1ac5c978755234d3f36e52d820f2fd3b9ea7742474e56ded1e17ac01e.npz",
+          "sha256": "0b524b0f9d2bc156b2f43a00f38b73b58a480e48246a2b0eea5b1023e704377d",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 630000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 6300000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.017545625530566905,
+          "MSE_own_p0_100k": 0.01754779914708128,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/aba1c5ce5cd4b151ed96759f3a035d20e4a30545a96ca143df5e19fab28aca56.npz",
+          "sha256": "c50e0e2ec6a09a95ff8255c1ae19825a01ce5c88b8f2fabcdb0147007b0c442f",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 630000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 6300000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.2680551923530558,
+          "MSE_own_p0_100k": 0.268063635436655,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/4474c10af1631e04d6f692d153ca462d5444dd194ac112e6d36ad2104aced535.npz",
+          "sha256": "5b52f3660731914c67c2c76c6f567d936b948b85d4b16d5a87999ce54f1837b2",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1889874,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 18899874,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.25107066650151966,
+          "MSE_own_p0_100k": 0.2510788611337938,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/1f446061e53d9213dfde060f4a3257a069edf6d5ba9829cc554d292dbfdda0e3.npz",
+          "sha256": "d50b6ca54866c70a2ee53336a69fd9bae40eaf05740c128a0048f22586194f86",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 630000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 6300000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.2569440351828968,
+          "MSE_own_p0_100k": 0.2569523067738051,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.3,
+      "h": 1.2,
+      "region": "interior_control",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/90c20b67128105622b10d777f99d187f8603b728ca5fd40d3e90ab7f3acc9987.npz",
+      "gates_sha": "00fa337c44423f6da5f2c8cb1c0f9180f7faf8b57dafcdf5b662ca8c24d7d9a5",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/ba84ce385c3d76dbf00331016cd6eb7a6999f103f623c9eca6a44b75cd927b35.npz",
+          "sha256": "e84f1c402db83ed9f89411aeb0f718ee2c47dfe577269658b89fc30300adcfc1",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.345168328977347e-06,
+          "MSE_own_p0_100k": 1.3344604968230373e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/2880f376a8b7a4680fa563e38c59999a452f9c949a2b31e41403b6d7d9c34468.npz",
+          "sha256": "90bca65c06bc34bdcac763f570c9c19933e8c1dff0125cc12238e32b93cce21a",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 8.282068780711462e-06,
+          "MSE_own_p0_100k": 8.37274519896846e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/780c292038668ff2f96c64fe84ee4e30f6c7824796eaef63627bb5730e57481c.npz",
+          "sha256": "23bc5717bfd9d3dfac502e8037c51ced4fbb1c536ab8f25a5ae3c3714528edcf",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.2192542338076144e-05,
+          "MSE_own_p0_100k": 1.2174363730648039e-05,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/2a779ec21178a81bbfdac51db87d5cf4abdb8291ff86e5200d3eaef47fc2d116.npz",
+          "sha256": "9f5f9563a1059ced26000f3000e41b7b9c4bb59f2f8000fe66b7585f4f9df928",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.005252056899877507,
+          "MSE_own_p0_100k": 0.005251079736088851,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/5e79587f862628772e4070a23a166e8a6c51034b0ce657d63572650548d426d8.npz",
+          "sha256": "152a364fbec957614ca68ef6deb871bbc3a4efbc79dd2d062a3aa4864716bdd3",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.002376213013738488,
+          "MSE_own_p0_100k": 0.0023754327438139607,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/8cfd01de080f2503117d2f4c546c0fc1f55433162b8d8e687b6753b4c831cb20.npz",
+          "sha256": "a15ce27ed775211dc0b4b84c0bdbbae266ef908df8395c97bf70bf500653df67",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.00354215729242983,
+          "MSE_own_p0_100k": 0.0035411485422887725,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/957acb9433c28bcf66bac086c9209ac306eee7adcfa76f1a3638939d74d73eae.npz",
+          "sha256": "dd976c234e5828e62b8ffc07e2afce5c5665eb8a6f2b3561f6a92908d5313946",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.03970802276018744,
+          "MSE_own_p0_100k": 0.039706399224955904,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/ac08ebc8257c52ae2ad55053d2e22ec5716f15bf4a1ded09c74e62a3acbc518e.npz",
+          "sha256": "12337343198f1225e900ccf40196370a1aced2953b2ae4207318a7c68ea77a45",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.03790802858233824,
+          "MSE_own_p0_100k": 0.037906411041491804,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/31420145b9ac27bf36b7e387123ebcda4661315e5e74fcfc2573e2bc78cbeb65.npz",
+          "sha256": "013bfe63cec970c5aa8baa56e21c862e0771b7beb393ede8d5c373276740ac88",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.03924034170249788,
+          "MSE_own_p0_100k": 0.03923869845509439,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.4,
+      "h": 1.8,
+      "region": "interior_control",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/e7bef8bf5cd23fbfb663c263352cc651d9c59317c1ec24da0e0edbe80c8ffc91.npz",
+      "gates_sha": "4ba478d4dd0c6a5ef718d60e724048b640e81502857c7cb0092ec8dd811c2132",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/d5319a6e87e79b40cb9a86caa253c7c15d02e1e44bd845c57caddf0e1379dfea.npz",
+          "sha256": "ca119367dd40ed1b1e719950becdae27cad73381b3320cedbd57cbfb11d644c7",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.146431754637162e-06,
+          "MSE_own_p0_100k": 1.1506013469202474e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/9f12112faba666540581729fcb2c2098ede2d0540de64039a152e9fc3b0b12e4.npz",
+          "sha256": "5b2810aa35297b3fdbb07886888143597141023fa3ca3f2f79f6d8121ae33321",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 5.5759333380190395e-06,
+          "MSE_own_p0_100k": 5.564145551333147e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/9da60c3eed84afe57e31eb890ae4b9cc636cd08198f4a5d91c59649bacf19adb.npz",
+          "sha256": "7a8ff5fdac71025f71fb5b4fdc4f58b92f85b7c4b4d8e360786fa0c67a4388a5",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.004956197155896894,
+          "MSE_own_p0_100k": 0.004956037532703987,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/084c4713649d8dacd3a718924f504ee64db9dfdaacd24378766124c4d71c1163.npz",
+          "sha256": "76e61826c94a395439e6b0c6d8493ee14b2b9b3e9ef139c0ffa59059fc5c6893",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.002155968933194313,
+          "MSE_own_p0_100k": 0.002155822707529851,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/a3d70f2e1fa953d2f2499c3f5fb26c15de573638e7db0b1cc20c53725a7bc584.npz",
+          "sha256": "72db52faa33a3f49fa38508d3b6d58ba3ae02cc8aca9145913d1c07364ef92c8",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.03881703401165776,
+          "MSE_own_p0_100k": 0.03881674082441075,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/b19c49eea5e53f3742781a4e09601c1636942ff31df2ee5ac545a62226b7477d.npz",
+          "sha256": "519ec52dfb00eb85ff479df387e91aeaf271adca2ac5e9a43970e3771e8c0c04",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.03698066651589854,
+          "MSE_own_p0_100k": 0.03698037201904063,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.6,
+      "h": 0.1,
+      "region": "interior_control",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/57bfbff210d8167f5c4384fc7631b3da2e27e4dc6f003df4364c57fa2115e346.npz",
+      "gates_sha": "92b647b7ee1666d29f022efb773fe953065d7e2c3d0a1731137e7d7c46fd407a",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/ef764dc93629a1aefd6614928288c44e47b7dbcea1aa46cfb905afa7d529a709.npz",
+          "sha256": "fb2cf5b3eab66b01996ef8af989904ff098a0e6554d7e5cb707483b787b879b1",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.5588932977718934e-07,
+          "MSE_own_p0_100k": 1.4268920081878652e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/e48f3671a17928555b8ffab00028af96bd453769003594e78dcf356338dda4ad.npz",
+          "sha256": "5e8f77afd3a4e8427d4e3e29121bb16aee967d6097597f80549c2eb80843d72e",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 5.866402436486498e-07,
+          "MSE_own_p0_100k": 5.854623418516937e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/26859e91c9afa324b5f6cc56fde4d099f4bae6dc2f01ba2ccf40f6f77aaa1285.npz",
+          "sha256": "438cc7a46d5b7449fe57832df88241b25019ff46d6af3d54a7a20e390f3f0882",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.03512077239319146,
+          "MSE_own_p0_100k": 0.03515202477049031,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/b6151e6231c8c748c9f864f67dee03f60b36c9885361f847c6b08a50350cfcf7.npz",
+          "sha256": "f16df98e10ee8948eb6d9398f8e47389201387cba1b0e73c363e0ffd26b58900",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.02253032271943794,
+          "MSE_own_p0_100k": 0.022555605078390523,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/ce39dee3915b7b0a62811058973ed1306eb717d64434c2a1a9a6aa1a6fbd0ad5.npz",
+          "sha256": "6c169382f6aa8be90c275275dd0e34e3cfde3884aea8c18f536883125e5b81ea",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.17066956649934373,
+          "MSE_own_p0_100k": 0.17073758924497598,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/9a174ddf955f5db479e6319cf7cd9c0df0bff305036639dbe124e3b4971cd3c1.npz",
+          "sha256": "0dcaf68c3d8a8de3f1e2d87032fb07735efad695d8858f21b7da58332ccd8315",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.16863345973358157,
+          "MSE_own_p0_100k": 0.16870109189042348,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.7,
+      "h": 1.5,
+      "region": "interior_control",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/5a80b179856c7cab1cf2ba3729b77234baf3be0419dc3fe76beb654d0c75d5c3.npz",
+      "gates_sha": "a4597b815883ebbc15d60a759ec0813450b7efb67cdd8dd1bf6a1ad388de90ad",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/6db97798aefa5e5d8a1b4afb8fabea85d31c98cacaa1f45281462ae632f30e15.npz",
+          "sha256": "af301e889bedb9f61e0debe9d4bf17e594d90359a3a0690dab218bdf9d3744e1",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.4105669716683118e-06,
+          "MSE_own_p0_100k": 1.2870452355888226e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/c92ddc2df064c28e828d922892b819b64d9c431ddf0279460b9e503e875de8cc.npz",
+          "sha256": "91a23d0dc69cf863b29736a24ec0735eb58b505a178b6f3dacea1a848389c567",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 5.436323295177135e-06,
+          "MSE_own_p0_100k": 5.161919408717495e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/5966e09729f4ae07763750d7704ca0f607ad3e838afc0d1b65263fa017e50a73.npz",
+          "sha256": "4f0cac1f8d4c16ad84df17ccced7e56f22300e560dbd3430898d7df05e643c29",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.005273394280802227,
+          "MSE_own_p0_100k": 0.005267229579596731,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/ca41850c42b7a97151f25e02fc11e3760f8237e0af8a09fc24b2c07efc5bd32d.npz",
+          "sha256": "f8790df6c754561310e94016c4b77a51a15fa00851ff6ab0514472e533d62f2b",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.002405313450215161,
+          "MSE_own_p0_100k": 0.0023995837428530914,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/71dbbe7a0d2b2055ea158a9ad2d09e7dad07ccf0ee6b766c257550d999af632b.npz",
+          "sha256": "8c4faa06aeb0bc2d02482c8485ff6066d6818f1687489c1b3f49e25bbe0f04d0",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.039733549831716515,
+          "MSE_own_p0_100k": 0.03972250846053959,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/77920e1578c313757f6ebd5d0629af7d9957742919c5ce0fa75b329fdba26d5b.npz",
+          "sha256": "16ba03fadb89a61d11e97335cffab1b8bf44ad90d0d18db8f4d1ddca1ec0da55",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.038196001332793446,
+          "MSE_own_p0_100k": 0.03818472672612589,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.1,
+      "region": "interior_control",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/15dcb617b5833690c8826d602cb4f8ff93787af935ff18581e6bf89e2c1946f7.npz",
+      "gates_sha": "ee64bd0b0b30903d3eff813f6cfa2c109c5c41d16c32aebab852856ad0acfca3",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/3a06337beadcab16a5e5fa5f295992dc357269073072b0553d092d0f86757153.npz",
+          "sha256": "24a52e6ec167b1ba90d8e05e3bf32b90655479bf7769a97cb0e4081c4f64f5ac",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 900000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9000000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.2733483097268162e-07,
+          "MSE_own_p0_100k": 1.2748149605577204e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/04ad4491df3df9e1ba10dd2cdcb44f66736b870784f0b638235a8a56a1b05a1a.npz",
+          "sha256": "520e375adc97aa1e9d9f595f2291cf68d7273ca2a4542a236dc11f85db65f8d2",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2699820,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 26999820,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 4.335771005210367e-07,
+          "MSE_own_p0_100k": 4.3350705192144296e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/2e365fb46c07ad3359562d6c1f7595e6b625f5f81f436ae93da8110a8e737a87.npz",
+          "sha256": "38c3d1e2bef9debb73ddd1e8965f7f4b0016667a65569d089af4d05ef490a209",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 900000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9000000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 5.985122896205519e-06,
+          "MSE_own_p0_100k": 5.98447999660673e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/6d083b2ce2b29e513fca86f5f6ca13e6634d3a024b72251ab17ef8411a4fbf9c.npz",
+          "sha256": "215b01774941872e536415ca01089f0a8eda703916d7e44a7065241cc524632a",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 900000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9000000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.02154242805768849,
+          "MSE_own_p0_100k": 0.021542569031656713,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/8aabc56c21008fc4b05e976b1173a53ce1eb54dde801def6d16c60eb18b26917.npz",
+          "sha256": "e49faba815d132aa7b22aca7275c4b34273b4c6bfa8fa96719c2bcc8895a1986",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2699820,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 26999820,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.010637361162602296,
+          "MSE_own_p0_100k": 0.010637462124480291,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/9bbf89749cf8751397a7b97cfc85f2d45bd56226f7fef05a7cbb49f788cd73fb.npz",
+          "sha256": "be32870cf96abf6ed1b906e367f1b18847bdab5c987da3f070b46570167830f0",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 900000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9000000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0152818221868485,
+          "MSE_own_p0_100k": 0.015281941903106548,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/5f61ebd981c127a7c670dd873e9517f2ef2318669098bef2a8c9402aaf6c7c57.npz",
+          "sha256": "3be23aa27ade91129b2d98b5c676aa957b2480fc9842fdacea8d29fd6d7e6125",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 900000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9000000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.1489400401043964,
+          "MSE_own_p0_100k": 0.14894040580815432,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/0a591c57afa6a70f2e76e1176b996102bf08d2b14e12b680f58bf60c5aa0de68.npz",
+          "sha256": "532ec94a006c4d99c6ae4165a03d9bce816d818a6a7c70810ba0ed78a329df5c",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2699820,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 26999820,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.1444165896682923,
+          "MSE_own_p0_100k": 0.14441695102751562,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/2d4fc72139af88ff2a3dfa3a4eea809614ca9dc7d9045f81b7cf8b35dd03c678.npz",
+          "sha256": "9d4d5c25e6dc5a83e17ab8683b0681804f938dfcaaf0985dfbeeafc45707f342",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 900000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9000000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.14650517882582684,
+          "MSE_own_p0_100k": 0.1465055423285925,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.9,
+      "h": 1.8,
+      "region": "interior_control",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/75fdbca952be25805ba76b936e7707dea69de6c2a4453461564d339cc439d14e.npz",
+      "gates_sha": "4872e763afb28caf682a31c93613f6998ccee04192574fa2675a9430f26fb12b",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/dd551c973f205e4bfa29e7879c024f47846b0c6e3fcaef48b143394b6ff92fb3.npz",
+          "sha256": "3dc0d2791ff1dac96eb1863b418036451822856eb944c6ce3e37e2b4e2d1e871",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 1.3859584390914989e-06,
+          "MSE_own_p0_100k": 1.2843550330035433e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/6960835fbd17d41f7746440eda8e49d364c6762d5efdd9fb565c18dec66c3bb5.npz",
+          "sha256": "5cf94c55a725d37093c4d3c13dfc17aad0322216f140845362d2866568635d6e",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 5.232259996650431e-06,
+          "MSE_own_p0_100k": 5.224897909260581e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/7746cca5ee802c2d91814b337474e60185ff42575e8b538ef427dc5152688131.npz",
+          "sha256": "9837aa7921c6f679f9c1c12795fe900210c06d6c9720daa9e3df34fbd01131f9",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.006107044676340359,
+          "MSE_own_p0_100k": 0.006102098941762168,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/35f6e2cc04e3898208e3b0bb47796a761a0f488eac5001096691df8cdc3ff8a4.npz",
+          "sha256": "86be436d53922a0507edac8b08acd87f150466c991fdca1ab691a0e0e34e2f98",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.0029552346681866637,
+          "MSE_own_p0_100k": 0.0029509935733116666,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/c58a3f684f6daf82c93f5be8fc45cc1d531f32b860db72627908b2647c08c13e.npz",
+          "sha256": "3790f41e05fe4969ce3fdf0b06c521899ee48ba7eec832c9fdd6214bfc144178",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 1280000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 12800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.043413987700247354,
+          "MSE_own_p0_100k": 0.04340429222234804,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/af234eacd59f06ab3d0251ff3723ddaaad1a2d1c4f1f9e1c68006864292a7ebf.npz",
+          "sha256": "fbb92bee8c59482952b135369f290d1465468449e1d5932edeb2282c09f847ff",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 3839744,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 38399744,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.042050238769873585,
+          "MSE_own_p0_100k": 0.042040510593617596,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 1.0,
+      "h": 0.2,
+      "region": "interior_control",
+      "historical": true,
+      "status": "matched",
+      "circuit": "results/stage5_v1/selected/83209a2eefd7a8454ecd99981d21c1f109307fcf90fcbc9621a0b46ae3ac0dbf.npz",
+      "gates_sha": "947c0ec083e3102c541bbfdc2a07f44a897a5c9f2bc6685f50aa1061df13f8a8",
+      "measurements": [
+        {
+          "p": 0,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/4ffcdafb5ddfe5663061d69c4968cff9f489e3118223b02567d1d02218c7c44c.npz",
+          "sha256": "3a55fc7e29efdd5233b1e258a5abd6143cdb171c484f1d71644921d5d23cdd21",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 980000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 2.1895664735798922e-07,
+          "MSE_own_p0_100k": 2.1868897968341991e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/fd01790abeb6089d0f8a89e65dc37acc347d12bbe5ad44db106c2e34af649f77.npz",
+          "sha256": "3684cc1abd5b85b0d3ecf5ff376735c369777da4801b818d67956353fc93799f",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2939804,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 29399804,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 5.825654895974727e-07,
+          "MSE_own_p0_100k": 5.831749077444924e-07,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/d9c77631dd857f7c85acbc24059b9178f7dc3975ae2eef92ef6efa42726b240a.npz",
+          "sha256": "62765e75af530e94c713b175c48f1fc6294086f877ead91f9677973b9826faa4",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 980000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9800000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 5.715864020760365e-06,
+          "MSE_own_p0_100k": 5.717079069419591e-06,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/868928881eddefe81609187c80ae4d0ca5e96ed106141c3c57f58c5b15656c1e.npz",
+          "sha256": "5746ab4230b9f7fea0e29bccc47412af35e7839709a353d279757d8cd781a9d4",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 980000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.022814901410870902,
+          "MSE_own_p0_100k": 0.022815528815173906,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/2e3d7f7d5c0a681ce8b649c9961ae857f6fbf52e1b06b13531fa7c14e8fdf09e.npz",
+          "sha256": "2b7b5e5913f1026f265beb88ca027f327e1292e29d14474bcf7c87ed067bd7bd",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2939804,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 29399804,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.011546149845838027,
+          "MSE_own_p0_100k": 0.011546604888842408,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.01,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/6894d380a65c8b1d8b7ccdc31d8bcb12c5abd52e05c00f542dfb0fc8f2041c03.npz",
+          "sha256": "30c072a951403839fea21cb522352c5edcbff9bac439b6535ba62ea78c0e2fe9",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 980000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9800000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.01687146409445132,
+          "MSE_own_p0_100k": 0.01687200579275449,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "raw",
+          "archive": "results/stage5_v1/end_to_end/measurements/3100c67f02f7ec52a132d881e78702d2e04b592f9a9b1acaebbc81b2d0d88462.npz",
+          "sha256": "1063f39cd6d158bbcbdfaf39f2771aef67c831501646d597fe45f48e2f56cfab",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 980000,
+              "measurement_settings": 2
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9800000,
+              "measurement_settings": 2
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.15044671340540414,
+          "MSE_own_p0_100k": 0.15044829467875687,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "zne",
+          "archive": "results/stage5_v1/end_to_end/measurements/862aed5d85905f7bc6a750f9215c1ce65f0cfa69028c3980b397c0d9c7fd206d.npz",
+          "sha256": "5ef0412369d30f4ca4bb4e0b7265f980d6c7d6c0ae3851c40803a1bab0762c11",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 2939804,
+              "measurement_settings": 6
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 29399804,
+              "measurement_settings": 6
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.14651261033048418,
+          "MSE_own_p0_100k": 0.14651417587080526,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        },
+        {
+          "p": 0.05,
+          "estimator": "sv",
+          "archive": "results/stage5_v1/end_to_end/measurements/030320b68c0de34c456b6d46b551abc0b19b002b743417ad823995e48a4f7e6d.npz",
+          "sha256": "fb5a3b09acbb5926e31e0fd7e21d9424488a99267c24278130742f493c1b6953",
+          "cost": {
+            "10000": {
+              "total_shots": 10000,
+              "gate_shots": 980000,
+              "measurement_settings": 30
+            },
+            "100000": {
+              "total_shots": 100000,
+              "gate_shots": 9800000,
+              "measurement_settings": 30
+            }
+          },
+          "replicates": 32,
+          "MSE_ED_100k": 0.14900508171581694,
+          "MSE_own_p0_100k": 0.14900665760927248,
+          "disposition": "historical_reused_exact_coordinate_gates"
+        }
+      ]
+    },
+    {
+      "kappa": 0.443,
+      "h": 0.013,
+      "region": "low_field",
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.459,
+      "h": 0.044,
+      "region": "low_field",
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.4757,
+      "h": 0.093,
+      "region": "low_field",
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.013,
+      "region": "low_field",
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.523,
+      "h": 0.044,
+      "region": "low_field",
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.539,
+      "h": 0.093,
+      "region": "low_field",
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.235,
+      "region": "antiphase_band",
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.763,
+      "h": 0.375,
+      "region": "antiphase_band",
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.515,
+      "region": "antiphase_band",
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.083,
+      "h": 0.085,
+      "region": "interior",
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.283,
+      "h": 0.085,
+      "region": "interior",
+      "status": "historical_B5_circuit_unavailable"
+    },
+    {
+      "kappa": 0.683,
+      "h": 0.085,
+      "region": "interior",
+      "status": "historical_B5_circuit_unavailable"
+    }
+  ],
+  "sources": [
+    {
+      "path": "results/stage5_v1/end_to_end/core_index.json",
+      "sha256": "a6c90ae89f81fad06d6f6edcf490c79edfa86024e087a444d15f38dbcbbf8215"
+    },
+    {
+      "path": "results/stage5_v1/end_to_end/full_raw_index.json",
+      "sha256": "9f9655be445643852a4ac26b0e72e542594379d729ddc992df7129b9525c0b19"
+    },
+    {
+      "path": "results/stage5_v1/end_to_end/full_best_index.json",
+      "sha256": "f7ca5e21618df53e4889e9a0a268feeef59286648b626e90b9bd6764f4eb5aca"
+    }
+  ],
+  "rule": "Only exact coordinates and literal gate-table identity, no approximate coordinate match or replacement structure. Historical seed/selection remains distinct from new B3/H6 independent runs. Missing common-cohort entries explicit.",
+  "new_measurements": 0
+}

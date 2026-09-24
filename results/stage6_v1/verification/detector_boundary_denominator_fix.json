@@ -1,0 +1,13 @@
+{
+  "time": "2026-09-23T07:24:20.877109+00:00",
+  "before_actual_detector_boundary_execution": true,
+  "change": "Keep row/repetition statistics separately; canonical detector_boundary_coverage now enumerates all6requested physical slices at each detector/method/p/estimator/budget. Missing windows zero measurement repeats. D5/SV unmeasured at both budgets.",
+  "unchanged": [
+    "detector parameters",
+    "raw curves",
+    "matching tolerance",
+    "reference features",
+    "measurements"
+  ],
+  "test": "Actual-output integration test added; run after detector boundary analysis completes."
+}

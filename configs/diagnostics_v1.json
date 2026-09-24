@@ -1,0 +1,19 @@
+{
+  "version": "operational_diagnostics_v1",
+  "frozen_before_noise": true,
+  "reference_source": "Analytical noiseless ferro, period-four antiphase, plus-product and maximally mixed controls, not fitted phase labels",
+  "features": ["m0_squared", "2*m_pi_over_2_squared", "Mx"],
+  "normalization": "Fixed analytic scales 1, 1/2, 1; self correlations retained",
+  "prototype_max_distance": 0.45,
+  "prototype_min_margin": 0.1,
+  "distance": "Euclidean, equal feature weights; all four controls included",
+  "near_peak_relative_tolerance": 0.1,
+  "near_peak_absolute_tolerance": 0.005,
+  "wavevector_folding": "average m(k) and m(N-k), preserving amplitude; report both partner indices",
+  "derivative": "numpy.gradient edge_order=2, h>0 only",
+  "smoothing": "none",
+  "interpolation": "none",
+  "local_peak_prominence": 0.0,
+  "peak_intervals": "derivative: neighboring h nodes; chiF: supporting original h interval; grid resolution only",
+  "phase_claim": "No thermodynamic phase or floating-phase confirmation; prototype output is a control resemblance diagnostic"
+}

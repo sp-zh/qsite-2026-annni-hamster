@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "timestamp": "2026-09-22T19:52:39.410876+00:00",
+  "n": 12,
+  "source": "results/stage5_v1/noise/cache/ff897b61bb75935554390a82f7107d6a4886e195aca38467c97d8d15cbeb2432.npz",
+  "source_sha": "25d5094bb8dce46da619ad4eddbb7be11ad88e27cc03b4e936fce71ba70b6e22",
+  "old_implementation_sha": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+  "new_implementation_sha": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+  "settings": 68,
+  "max_absolute_probability_difference": 1.3010426069826053e-18,
+  "literal_rotation_seconds": 210.6376962499926,
+  "reused_representation_seconds": 26.02292741695419,
+  "speedup": 8.094312099289802,
+  "process_peak_rss_bytes": 1659387904,
+  "scope": "Classical simulator probability calculation only; exactly the same physical basis rotations, joint outcomes, CNOT/noise/shot budgets and sampling order. Pilot extra cost retained."
+}

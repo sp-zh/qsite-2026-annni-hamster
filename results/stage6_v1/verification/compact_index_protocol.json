@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-09-23T05:08:38.408979+00:00",
+  "scope": "Future batch index representation only; existing full per-computation JSON/NPZ retained and hash-linked. No simulator, parameters, estimator, random stream or scientific cache identity changed. Existing batch indices retained.",
+  "reason": "Measured existing core/window batch indices approximately296/330MiB; avoid projected gigabyte-scale redundant main-map metadata.",
+  "example_full_record_json_bytes": 20612,
+  "example_compact_record_json_bytes": 3799,
+  "validation": "verification/compact_index_test.log: 1 passed; full roundtrip and raw/ZNE/quadratic/SV numerical estimator checks."
+}

@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "wall_register_qubits": 3,
+      "physical_qubits": 4,
+      "initial_generators": 15,
+      "lie_dimension": 28,
+      "real_SO_dimension": 28,
+      "seconds": 0.00014308298705145717
+    },
+    {
+      "wall_register_qubits": 4,
+      "physical_qubits": 5,
+      "initial_generators": 24,
+      "lie_dimension": 120,
+      "real_SO_dimension": 120,
+      "seconds": 0.0006588340038433671
+    },
+    {
+      "wall_register_qubits": 7,
+      "physical_qubits": 8,
+      "initial_generators": 51,
+      "lie_dimension": 8128,
+      "real_SO_dimension": 8128,
+      "seconds": 0.09286000003339723
+    }
+  ],
+  "meaning": "Exact commutator closure spans all odd-Y Pauli generators, hence full real antisymmetric algebra for these finite registers. N8 has full real-state reachability in its global-flip-even wall representation with unrestricted depth. Does NOT prove reachability at64/96/128CNOT, successful greedy search, or N12 verification.",
+  "n12_full_closure": "not_run"
+}

@@ -1,0 +1,422 @@
+{
+  "grid_n8": {
+    "energy_per_site": {
+      "shape": [
+        21,
+        21
+      ],
+      "dtype": "float64"
+    },
+    "mx": {
+      "shape": [
+        21,
+        21
+      ],
+      "dtype": "float64"
+    },
+    "c1": {
+      "shape": [
+        21,
+        21
+      ],
+      "dtype": "float64"
+    },
+    "c2": {
+      "shape": [
+        21,
+        21
+      ],
+      "dtype": "float64"
+    },
+    "m2_ferro": {
+      "shape": [
+        21,
+        21
+      ],
+      "dtype": "float64"
+    },
+    "m2_antiphase": {
+      "shape": [
+        21,
+        21
+      ],
+      "dtype": "float64"
+    },
+    "residual": {
+      "shape": [
+        21,
+        21
+      ],
+      "dtype": "float64"
+    },
+    "classical_degeneracy": {
+      "shape": [
+        21,
+        21
+      ],
+      "dtype": "float64"
+    },
+    "correlations": {
+      "shape": [
+        21,
+        21,
+        8
+      ],
+      "dtype": "float64"
+    },
+    "structure_factor": {
+      "shape": [
+        21,
+        21,
+        8
+      ],
+      "dtype": "float64"
+    },
+    "chi_f": {
+      "shape": [
+        21,
+        20
+      ],
+      "dtype": "float64"
+    },
+    "n": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "kappa": {
+      "shape": [
+        21
+      ],
+      "dtype": "float64"
+    },
+    "h": {
+      "shape": [
+        21
+      ],
+      "dtype": "float64"
+    },
+    "h_mid": {
+      "shape": [
+        20
+      ],
+      "dtype": "float64"
+    },
+    "states": {
+      "shape": [
+        21,
+        21,
+        256
+      ],
+      "dtype": "float64"
+    }
+  },
+  "slices_n8": {
+    "energy_per_site": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "mx": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "c1": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "c2": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "m2_ferro": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "m2_antiphase": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "residual": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "classical_degeneracy": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "correlations": {
+      "shape": [
+        3,
+        41,
+        8
+      ],
+      "dtype": "float64"
+    },
+    "structure_factor": {
+      "shape": [
+        3,
+        41,
+        8
+      ],
+      "dtype": "float64"
+    },
+    "chi_f": {
+      "shape": [
+        3,
+        40
+      ],
+      "dtype": "float64"
+    },
+    "n": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "kappa": {
+      "shape": [
+        3
+      ],
+      "dtype": "float64"
+    },
+    "h": {
+      "shape": [
+        41
+      ],
+      "dtype": "float64"
+    },
+    "h_mid": {
+      "shape": [
+        40
+      ],
+      "dtype": "float64"
+    }
+  },
+  "slices_n12": {
+    "energy_per_site": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "mx": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "c1": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "c2": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "m2_ferro": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "m2_antiphase": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "residual": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "classical_degeneracy": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "correlations": {
+      "shape": [
+        3,
+        41,
+        12
+      ],
+      "dtype": "float64"
+    },
+    "structure_factor": {
+      "shape": [
+        3,
+        41,
+        12
+      ],
+      "dtype": "float64"
+    },
+    "chi_f": {
+      "shape": [
+        3,
+        40
+      ],
+      "dtype": "float64"
+    },
+    "n": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "kappa": {
+      "shape": [
+        3
+      ],
+      "dtype": "float64"
+    },
+    "h": {
+      "shape": [
+        41
+      ],
+      "dtype": "float64"
+    },
+    "h_mid": {
+      "shape": [
+        40
+      ],
+      "dtype": "float64"
+    }
+  },
+  "slices_n16": {
+    "energy_per_site": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "mx": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "c1": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "c2": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "m2_ferro": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "m2_antiphase": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "residual": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "classical_degeneracy": {
+      "shape": [
+        3,
+        41
+      ],
+      "dtype": "float64"
+    },
+    "correlations": {
+      "shape": [
+        3,
+        41,
+        16
+      ],
+      "dtype": "float64"
+    },
+    "structure_factor": {
+      "shape": [
+        3,
+        41,
+        16
+      ],
+      "dtype": "float64"
+    },
+    "chi_f": {
+      "shape": [
+        3,
+        40
+      ],
+      "dtype": "float64"
+    },
+    "n": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "kappa": {
+      "shape": [
+        3
+      ],
+      "dtype": "float64"
+    },
+    "h": {
+      "shape": [
+        41
+      ],
+      "dtype": "float64"
+    },
+    "h_mid": {
+      "shape": [
+        40
+      ],
+      "dtype": "float64"
+    }
+  }
+}

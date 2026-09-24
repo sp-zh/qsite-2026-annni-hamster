@@ -1,0 +1,8 @@
+36552    02:00:12   0.0  40704 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_confirmation_queue.py
+38652    01:21:49   0.0  21152 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_main_queue.py
+38856    01:16:50   0.0  17200 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_second_lane.py
+42120       11:48   0.0  25920 .venv-tn/bin/python scripts/run_stage6_mps_followup.py
+42361       09:17 100.0  78256 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_candidates.py --task confirmation
+42894       00:43 100.0 291984 .venv-tn/bin/python scripts/run_stage6_mps_bounded.py --jobfile results/stage6_v1/floating_boundary_scan/followup_jobs/416ca6bf3ae8dae47c87eb9ebe1264988287c94d5a1cf25b319884c329c42833.job.json
+42921       00:01   0.0   2320 /bin/zsh -c ps -axo pid,etime,%cpu,rss,command | rg 'python.*(run_stage6|analyze_stage6)' > results/stage6_v1/verification/process_snapshot_0050.txt
+42923       00:01   0.0    160 rg python.*(run_stage6|analyze_stage6)

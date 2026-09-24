@@ -1,0 +1,11 @@
+# Positive-field PBC target symmetry — new derivation
+
+For finite N and h>0, in the computational Z basis every off-diagonal single-spin-flip matrix entry of H is -h. The hypercube graph is connected. Choose a scalar shift a large enough that aI-H is entrywise nonnegative; irreducibility gives a unique maximal positive eigenvector, hence a unique strictly positive ground vector of H. This is a Perron–Frobenius argument, not an assumption of a finite-size thermodynamic phase.
+
+P and T are permutation matrices commuting with this PBC Hamiltonian. They map its normalized positive ground vector to another normalized positive ground vector. Uniqueness forces eigenvalue +1 for both. Thus the ideal finite-positive-field ground state has P=+1 and total lattice momentum0. h=0 loses irreducibility and is excluded; OBC does not have this lattice-translation symmetry.
+
+The code computes momentum-projector weights solely for state-access-assisted selection. It never replaces a circuit state with its projected vector. Global parity and momentum0 are necessary, not sufficient: the tests explicitly construct an excited eigenstate in the same sector with zero variance. A nonzero-momentum eigenstate has |<T>|=1 and is another counterexample to an invalid shortcut. The ground state's total momentum is distinct from two-point structure-factor wavevector q; it may have nonzero-q correlation peaks.
+
+Selection information is exact simulator state access. P has an X-basis measurement route; no low-cost hardware measurement scheme for T or Pi0 is claimed or charged as already implemented. Stage4 sources and installed PennyLane0.44.1 channel conventions are reused; target-only noisy CNOT tests are rerun.
+
+Primary theorem checked: Stephen Boyd, Stanford EE363 Winter2008–09, lecture17, pp5–7, https://web.stanford.edu/class/ee363/archive/lectures/pf.pdf (saved source hash in sources/primary_source.json). Choosing a strictly positive diagonal for aI-H makes it regular: any hypercube path of length<=N can be padded by self-loops to length N, so (aI-H)^N is strictly positive. The application to this Hamiltonian above is our derivation. Initial current-course URLs returned404; archive access succeeded.

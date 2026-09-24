@@ -1,0 +1,794 @@
+{
+  "run_id": "stage6_20260922T221830Z",
+  "started_utc": "2026-09-22T22:18:30.473067+00:00",
+  "deadline": "2026-09-23T10:18:30.473067+00:00",
+  "wall_budget_seconds": 43200,
+  "python": "3.14.5",
+  "budget_fraction": {
+    "reference": 0.2,
+    "candidates": 0.35,
+    "noise": 0.2,
+    "mps": 0.2,
+    "report": 0.05
+  },
+  "resources": {
+    "max_heavy_processes": 2,
+    "working_memory_cap_bytes": 6442450944,
+    "blas_threads_requested": 1,
+    "cpus": 10,
+    "disk_free": 314048851968
+  },
+  "validation": [
+    [
+      0.407,
+      0.018
+    ],
+    [
+      0.407,
+      0.058
+    ],
+    [
+      0.407,
+      0.118
+    ],
+    [
+      0.427,
+      0.018
+    ],
+    [
+      0.427,
+      0.058
+    ],
+    [
+      0.427,
+      0.118
+    ],
+    [
+      0.577,
+      0.018
+    ],
+    [
+      0.577,
+      0.058
+    ],
+    [
+      0.577,
+      0.118
+    ],
+    [
+      0.597,
+      0.018
+    ],
+    [
+      0.597,
+      0.058
+    ],
+    [
+      0.597,
+      0.118
+    ],
+    [
+      0.715,
+      0.29
+    ],
+    [
+      0.715,
+      0.43
+    ],
+    [
+      0.715,
+      0.57
+    ],
+    [
+      0.915,
+      0.29
+    ],
+    [
+      0.915,
+      0.43
+    ],
+    [
+      0.915,
+      0.57
+    ],
+    [
+      0.115,
+      0.165
+    ],
+    [
+      0.115,
+      1.715
+    ],
+    [
+      0.315,
+      0.165
+    ],
+    [
+      0.315,
+      1.715
+    ],
+    [
+      0.815,
+      0.165
+    ],
+    [
+      0.815,
+      1.715
+    ]
+  ],
+  "confirmation": [
+    {
+      "kappa": 0.443,
+      "h": 0.013,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.443,
+      "h": 0.028,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.443,
+      "h": 0.044,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.443,
+      "h": 0.068,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.443,
+      "h": 0.093,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.443,
+      "h": 0.138,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.459,
+      "h": 0.013,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.459,
+      "h": 0.028,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.459,
+      "h": 0.044,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.459,
+      "h": 0.068,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.459,
+      "h": 0.093,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.459,
+      "h": 0.138,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.4757,
+      "h": 0.013,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.4757,
+      "h": 0.028,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.4757,
+      "h": 0.044,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.4757,
+      "h": 0.068,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.4757,
+      "h": 0.093,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.4757,
+      "h": 0.138,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.491,
+      "h": 0.013,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.491,
+      "h": 0.028,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.491,
+      "h": 0.044,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.491,
+      "h": 0.068,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.491,
+      "h": 0.093,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.491,
+      "h": 0.138,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.013,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.028,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.044,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.068,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.093,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.138,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.523,
+      "h": 0.013,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.523,
+      "h": 0.028,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.523,
+      "h": 0.044,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.523,
+      "h": 0.068,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.523,
+      "h": 0.093,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.523,
+      "h": 0.138,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.539,
+      "h": 0.013,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.539,
+      "h": 0.028,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.539,
+      "h": 0.044,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.539,
+      "h": 0.068,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.539,
+      "h": 0.093,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.539,
+      "h": 0.138,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.555,
+      "h": 0.013,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.555,
+      "h": 0.028,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.555,
+      "h": 0.044,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.555,
+      "h": 0.068,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.555,
+      "h": 0.093,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.555,
+      "h": 0.138,
+      "region": "low_field"
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.235,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.305,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.375,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.445,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.515,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.585,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.763,
+      "h": 0.235,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.763,
+      "h": 0.305,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.763,
+      "h": 0.375,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.763,
+      "h": 0.445,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.763,
+      "h": 0.515,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.763,
+      "h": 0.585,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.235,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.305,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.375,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.445,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.515,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.585,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.963,
+      "h": 0.235,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.963,
+      "h": 0.305,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.963,
+      "h": 0.375,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.963,
+      "h": 0.445,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.963,
+      "h": 0.515,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.963,
+      "h": 0.585,
+      "region": "antiphase_band"
+    },
+    {
+      "kappa": 0.083,
+      "h": 0.085,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.083,
+      "h": 0.175,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.083,
+      "h": 1.675,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.083,
+      "h": 1.875,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.183,
+      "h": 0.085,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.183,
+      "h": 0.175,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.183,
+      "h": 1.675,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.183,
+      "h": 1.875,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.283,
+      "h": 0.085,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.283,
+      "h": 0.175,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.283,
+      "h": 1.675,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.283,
+      "h": 1.875,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.383,
+      "h": 0.085,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.383,
+      "h": 0.175,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.383,
+      "h": 1.675,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.383,
+      "h": 1.875,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.683,
+      "h": 0.085,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.683,
+      "h": 0.175,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.683,
+      "h": 1.675,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.683,
+      "h": 1.875,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.883,
+      "h": 0.085,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.883,
+      "h": 0.175,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.883,
+      "h": 1.675,
+      "region": "interior"
+    },
+    {
+      "kappa": 0.883,
+      "h": 1.875,
+      "region": "interior"
+    }
+  ],
+  "seeds": {
+    "development": [
+      101,
+      211,
+      307
+    ],
+    "validation": [
+      419
+    ],
+    "confirmation": [
+      631
+    ],
+    "stability": [
+      743
+    ]
+  },
+  "thresholds": {
+    "delta_e": 0.001,
+    "epsilon_c": 0.02,
+    "epsilon_sf": 0.02,
+    "epsilon_mx": 0.02,
+    "fidelity": 0.99
+  },
+  "optimization": {
+    "maxiter": 400,
+    "ftol": 1e-12,
+    "gtol": 1e-07,
+    "maxls": 30,
+    "gradient_stop": 1e-08,
+    "selection_energy_tolerance_per_site": 1e-06
+  },
+  "search": {
+    "top_k": 4,
+    "probe_maxiter": 35,
+    "budgets_n8": [
+      64,
+      96,
+      128
+    ],
+    "budgets_n12": [
+      128,
+      192
+    ],
+    "refs_physical": [
+      "plus",
+      "ghz",
+      "antiphase"
+    ],
+    "refs_wall": [
+      "uniform",
+      "empty",
+      "alternating"
+    ]
+  },
+  "atlas": {
+    "kappa_n8": [
+      0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.45,
+      0.475,
+      0.5,
+      0.525,
+      0.55,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1
+    ],
+    "kappa_large": [
+      0,
+      0.3,
+      0.45,
+      0.5,
+      0.55,
+      0.8
+    ],
+    "low_kappa": [
+      0.4,
+      0.425,
+      0.45,
+      0.475,
+      0.5,
+      0.525,
+      0.55,
+      0.575,
+      0.6
+    ],
+    "low_h": [
+      0.01,
+      0.02,
+      0.035,
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35
+    ],
+    "peak_refine_halfwidth": 0.05,
+    "refine_step": 0.0125,
+    "diagnostics": [
+      "dmx_dh",
+      "minus_dm0_dh",
+      "minus_dmap_dh",
+      "chi_f",
+      "binder",
+      "sector_gap"
+    ]
+  },
+  "mps": {
+    "kappa": 0.8,
+    "coarse_h": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8
+    ],
+    "coarse_n": 64,
+    "coarse_chi": 128,
+    "max_sweeps": 32,
+    "midpoint_halfwidth": 2,
+    "max_r_fraction": 0.3333333333333333,
+    "fit_windows": [
+      [
+        2,
+        0.25
+      ],
+      [
+        4,
+        0.3333333333333333
+      ]
+    ],
+    "high_extension": [
+      0.9,
+      1.0,
+      1.2,
+      1.5
+    ],
+    "low_extension": [
+      0.05,
+      0.025
+    ],
+    "refinement_chi": [
+      128,
+      256
+    ],
+    "refinement_n": [
+      96,
+      128
+    ],
+    "initials": [
+      "plus",
+      "antiphase"
+    ],
+    "rule": "Locate two strongest distinct changes in central correlation tail, q and entropy/response; if no two, preserve unresolved and sample both endpoint neighborhoods and central crossover. Never select by c closest to1.",
+    "max_refinement_points": 9
+  },
+  "measurement": {
+    "p": [
+      0,
+      0.01,
+      0.05
+    ],
+    "budgets": [
+      10000,
+      100000
+    ],
+    "repeats": 32,
+    "seed": 62026
+  },
+  "split_limit": "Spatial kappa blocks separate new low-field validation and confirmation; old development grid spans domain, so confirmation measures new-coordinate interpolation, not unseen-phase extrapolation.",
+  "physics": "PBC circuits; OBC MPS; wire0 MSB; full Hamiltonian; all literal CNOTs target-depolarized; direct NN/NNN connectivity",
+  "historical_stage5": "results/stage5_v1",
+  "new_stage6": true,
+  "coordinate_hash": "8df5d0a2b2c650cbf9986abc8a8d6631a257baefeb815a41d738ba49b02f3986"
+}

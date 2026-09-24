@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<PROJECT_ROOT>/scripts/run_stage4.py", line 131, in <module>
+    if a.task in ['C','all']:local_windows()
+                             ~~~~~~~~~~~~~^^
+  File "<PROJECT_ROOT>/scripts/run_stage4.py", line 105, in local_windows
+    assert source['joint_pass'];theta=params(source);previous=None;rows=[]
+           ~~~~~~^^^^^^^^^^^^^^
+AssertionError

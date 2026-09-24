@@ -1,0 +1,1699 @@
+{
+  "key": {
+    "n": 8,
+    "kappa": 0.55,
+    "h": 0.0125,
+    "bc": "PBC",
+    "source_sha": "190cb7b780614341748c821bb6a5e987aeed88fa0a536190ad115cd27f21d3da",
+    "gate_hash": "6e1e8d0226edc871436a28559180ccd0de603d72e20766fe2582f2bb563fc19e",
+    "parameters_hash": "fda9e8516cb173c17cc361075872f1276b9573f7eace22c167f7ffdd6fa89331",
+    "p": 0.05,
+    "method": "zne_quadratic",
+    "mode": "equal_shots",
+    "budget": 100000,
+    "settings": [
+      {
+        "fold": 1,
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          16667,
+          16667
+        ]
+      },
+      {
+        "fold": 3,
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          16667,
+          16666
+        ]
+      },
+      {
+        "fold": 5,
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          16667,
+          16666
+        ]
+      }
+    ],
+    "probability_keys": [
+      {
+        "n": 8,
+        "kappa": 0.55,
+        "h": 0.0125,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ]
+        ],
+        "p": 0.05,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      {
+        "n": 8,
+        "kappa": 0.55,
+        "h": 0.0125,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ]
+        ],
+        "p": 0.05,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      {
+        "n": 8,
+        "kappa": 0.55,
+        "h": 0.0125,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ]
+        ],
+        "p": 0.05,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      }
+    ],
+    "repeats": 32,
+    "seed": 9230626,
+    "code": "cad687c45d953231c7f96f592b0d6c15d3fee123f4f9ca5c13bf29b02c2a3563",
+    "estimator": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+    "numpy": "2.5.3"
+  },
+  "point_id": "14e5b9cb7b0e041c428351cf430073ea3ddb0893dab13177881a4fc496d450bd",
+  "kappa": 0.55,
+  "h": 0.0125,
+  "p": 0.05,
+  "method": "zne_quadratic",
+  "mode": "equal_shots",
+  "budget": 100000,
+  "settings": [
+    {
+      "fold": 1,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "allocations": [
+        16667,
+        16667
+      ]
+    },
+    {
+      "fold": 3,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "allocations": [
+        16667,
+        16666
+      ]
+    },
+    {
+      "fold": 5,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "allocations": [
+        16667,
+        16666
+      ]
+    }
+  ],
+  "archive": "results/stage6_followup_v1/measurements/9423e5f37e270933bed1aa6c893d1817774757d5c34bd115d4bb6b558711230c.npz",
+  "sha256": "fe969a9437870f491ce84706ac9fb9724dde1a1e7ebc4563034f48bf99316126",
+  "probabilities": [
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.55,
+        "h": 0.0125,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ]
+        ],
+        "p": 0.05,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "archive": "results/stage6_followup_v1/probabilities/98fb883fbfab9e5caf5abc3e94e5f649b3801101e4b399895728a40921cada3a.npz",
+      "sha256": "97f3221a2aefd5082790aef7e3d80aec77dc24a1f5fe0e72debb714be2f48267",
+      "fold": 1,
+      "p": 0.05,
+      "sv": false,
+      "seconds": 0.0011303750216029584,
+      "disposition": "historical_reused",
+      "source": {
+        "metadata": "results/stage6_v1/end_to_end/probabilities/98fb883fbfab9e5caf5abc3e94e5f649b3801101e4b399895728a40921cada3a.json",
+        "metadata_sha": "d8fc520976a981d1d2b06e8eadceb2e04f040e60aabba6f3d1b080d7024d849d",
+        "archive": "results/stage6_v1/end_to_end/probabilities/98fb883fbfab9e5caf5abc3e94e5f649b3801101e4b399895728a40921cada3a.npz",
+        "sha256": "97f3221a2aefd5082790aef7e3d80aec77dc24a1f5fe0e72debb714be2f48267"
+      },
+      "noise_channels": 6,
+      "one_qubit_gates": 8,
+      "process_peak_rss_bytes": 972914688,
+      "cnots": 6,
+      "gate_count": 14,
+      "unitary_depth": 7,
+      "target_counts": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "trace_real": 0.9999999999999991,
+      "hermiticity": 0.0,
+      "min_eigenvalue": 3.429355275843682e-10
+    },
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.55,
+        "h": 0.0125,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ]
+        ],
+        "p": 0.05,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "archive": "results/stage6_followup_v1/probabilities/5c427e2aa173639236b2739792dde843abb491dee3d57b568330dfe5013a0f85.npz",
+      "sha256": "5b9403606647383abcb4b9b5cadbd5ecec4a9e53f5a771cc9c1887091233d544",
+      "fold": 3,
+      "p": 0.05,
+      "sv": false,
+      "seconds": 0.0013332919916138053,
+      "disposition": "historical_reused",
+      "source": {
+        "metadata": "results/stage6_v1/end_to_end/probabilities/5c427e2aa173639236b2739792dde843abb491dee3d57b568330dfe5013a0f85.json",
+        "metadata_sha": "f7eb594196f536398c34b78afb02d4e9eccf8cd8811d29da611eacc49f85c86d",
+        "archive": "results/stage6_v1/end_to_end/probabilities/5c427e2aa173639236b2739792dde843abb491dee3d57b568330dfe5013a0f85.npz",
+        "sha256": "5b9403606647383abcb4b9b5cadbd5ecec4a9e53f5a771cc9c1887091233d544"
+      },
+      "noise_channels": 18,
+      "one_qubit_gates": 8,
+      "process_peak_rss_bytes": 972914688,
+      "cnots": 18,
+      "gate_count": 26,
+      "unitary_depth": 13,
+      "target_counts": [
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "trace_real": 0.9999999999999991,
+      "hermiticity": 0.0,
+      "min_eigenvalue": 1.5698720851569996e-07
+    },
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.55,
+        "h": 0.0125,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ]
+        ],
+        "p": 0.05,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "archive": "results/stage6_followup_v1/probabilities/f027f9f98e71c043ae345b380beab2e3b2b98a168864984b1b464141cfd7d601.npz",
+      "sha256": "91db6176788f493223e90a4e159323f5928e632d794d243d12a99b5e271337fb",
+      "fold": 5,
+      "p": 0.05,
+      "sv": false,
+      "seconds": 0.0006489999941550195,
+      "disposition": "historical_reused",
+      "source": {
+        "metadata": "results/stage6_v1/end_to_end/probabilities/f027f9f98e71c043ae345b380beab2e3b2b98a168864984b1b464141cfd7d601.json",
+        "metadata_sha": "f1d425ccc22c1c0c96cded08824579cc246ef7cad920bff074afefaa8943bf49",
+        "archive": "results/stage6_v1/end_to_end/probabilities/f027f9f98e71c043ae345b380beab2e3b2b98a168864984b1b464141cfd7d601.npz",
+        "sha256": "91db6176788f493223e90a4e159323f5928e632d794d243d12a99b5e271337fb"
+      },
+      "noise_channels": 30,
+      "one_qubit_gates": 8,
+      "process_peak_rss_bytes": 972914688,
+      "cnots": 30,
+      "gate_count": 38,
+      "unitary_depth": 19,
+      "target_counts": [
+        0,
+        0,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "trace_real": 0.9999999999999979,
+      "hermiticity": 0.0,
+      "min_eigenvalue": 2.1910620852941217e-06
+    }
+  ],
+  "shots_per_repeat": 100000,
+  "CNOT_shots_per_repeat": 1799988,
+  "one_qubit_gate_shots_per_repeat": 1199992,
+  "measurement_settings": 6,
+  "target_CNOT_shots": 600000,
+  "zero_CNOT_control": false,
+  "equal_CNOT_verified": false,
+  "budget_shortfall": null,
+  "seconds": 0.481065290980041,
+  "disposition": "historical_reused",
+  "source": {
+    "archive": "results/stage6_v1/end_to_end/measurements/7c6f3600d2469b96e43a71c76eb23ad4e6eb51eb5cdde587f6afd1ac11adf7a5.npz",
+    "sha256": "106ec3a7e246bfa8db29e0360c9c4cbbd01db8138c10f72935280a93d53bef55",
+    "counts_archive": "results/stage6_v1/end_to_end/measurements/f711b11858627250a51f2b2529aa853f30d6ff4fe4e610c05a868e2b43d3b7d6.npz",
+    "counts_sha": "42a5f2ee14be58885fc5393e973bb9a72292eff120c47fdd0ce6768a37540767",
+    "key": {
+      "source": "42a5f2ee14be58885fc5393e973bb9a72292eff120c47fdd0ce6768a37540767",
+      "source_key": {
+        "probability_keys": [
+          {
+            "n": 8,
+            "kappa": 0.55,
+            "h": 0.0125,
+            "bc": "PBC",
+            "gates": [
+              [
+                "H",
+                0
+              ],
+              [
+                "H",
+                1
+              ],
+              [
+                "CNOT",
+                0,
+                2
+              ],
+              [
+                "X",
+                2
+              ],
+              [
+                "CNOT",
+                1,
+                3
+              ],
+              [
+                "X",
+                3
+              ],
+              [
+                "CNOT",
+                2,
+                4
+              ],
+              [
+                "X",
+                4
+              ],
+              [
+                "CNOT",
+                3,
+                5
+              ],
+              [
+                "X",
+                5
+              ],
+              [
+                "CNOT",
+                4,
+                6
+              ],
+              [
+                "X",
+                6
+              ],
+              [
+                "CNOT",
+                5,
+                7
+              ],
+              [
+                "X",
+                7
+              ]
+            ],
+            "p": 0.05,
+            "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+            "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+            "sv": false,
+            "keep": false,
+            "shots": null
+          },
+          {
+            "n": 8,
+            "kappa": 0.55,
+            "h": 0.0125,
+            "bc": "PBC",
+            "gates": [
+              [
+                "H",
+                0
+              ],
+              [
+                "H",
+                1
+              ],
+              [
+                "CNOT",
+                0,
+                2
+              ],
+              [
+                "CNOT",
+                0,
+                2
+              ],
+              [
+                "CNOT",
+                0,
+                2
+              ],
+              [
+                "X",
+                2
+              ],
+              [
+                "CNOT",
+                1,
+                3
+              ],
+              [
+                "CNOT",
+                1,
+                3
+              ],
+              [
+                "CNOT",
+                1,
+                3
+              ],
+              [
+                "X",
+                3
+              ],
+              [
+                "CNOT",
+                2,
+                4
+              ],
+              [
+                "CNOT",
+                2,
+                4
+              ],
+              [
+                "CNOT",
+                2,
+                4
+              ],
+              [
+                "X",
+                4
+              ],
+              [
+                "CNOT",
+                3,
+                5
+              ],
+              [
+                "CNOT",
+                3,
+                5
+              ],
+              [
+                "CNOT",
+                3,
+                5
+              ],
+              [
+                "X",
+                5
+              ],
+              [
+                "CNOT",
+                4,
+                6
+              ],
+              [
+                "CNOT",
+                4,
+                6
+              ],
+              [
+                "CNOT",
+                4,
+                6
+              ],
+              [
+                "X",
+                6
+              ],
+              [
+                "CNOT",
+                5,
+                7
+              ],
+              [
+                "CNOT",
+                5,
+                7
+              ],
+              [
+                "CNOT",
+                5,
+                7
+              ],
+              [
+                "X",
+                7
+              ]
+            ],
+            "p": 0.05,
+            "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+            "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+            "sv": false,
+            "keep": false,
+            "shots": null
+          },
+          {
+            "n": 8,
+            "kappa": 0.55,
+            "h": 0.0125,
+            "bc": "PBC",
+            "gates": [
+              [
+                "H",
+                0
+              ],
+              [
+                "H",
+                1
+              ],
+              [
+                "CNOT",
+                0,
+                2
+              ],
+              [
+                "CNOT",
+                0,
+                2
+              ],
+              [
+                "CNOT",
+                0,
+                2
+              ],
+              [
+                "CNOT",
+                0,
+                2
+              ],
+              [
+                "CNOT",
+                0,
+                2
+              ],
+              [
+                "X",
+                2
+              ],
+              [
+                "CNOT",
+                1,
+                3
+              ],
+              [
+                "CNOT",
+                1,
+                3
+              ],
+              [
+                "CNOT",
+                1,
+                3
+              ],
+              [
+                "CNOT",
+                1,
+                3
+              ],
+              [
+                "CNOT",
+                1,
+                3
+              ],
+              [
+                "X",
+                3
+              ],
+              [
+                "CNOT",
+                2,
+                4
+              ],
+              [
+                "CNOT",
+                2,
+                4
+              ],
+              [
+                "CNOT",
+                2,
+                4
+              ],
+              [
+                "CNOT",
+                2,
+                4
+              ],
+              [
+                "CNOT",
+                2,
+                4
+              ],
+              [
+                "X",
+                4
+              ],
+              [
+                "CNOT",
+                3,
+                5
+              ],
+              [
+                "CNOT",
+                3,
+                5
+              ],
+              [
+                "CNOT",
+                3,
+                5
+              ],
+              [
+                "CNOT",
+                3,
+                5
+              ],
+              [
+                "CNOT",
+                3,
+                5
+              ],
+              [
+                "X",
+                5
+              ],
+              [
+                "CNOT",
+                4,
+                6
+              ],
+              [
+                "CNOT",
+                4,
+                6
+              ],
+              [
+                "CNOT",
+                4,
+                6
+              ],
+              [
+                "CNOT",
+                4,
+                6
+              ],
+              [
+                "CNOT",
+                4,
+                6
+              ],
+              [
+                "X",
+                6
+              ],
+              [
+                "CNOT",
+                5,
+                7
+              ],
+              [
+                "CNOT",
+                5,
+                7
+              ],
+              [
+                "CNOT",
+                5,
+                7
+              ],
+              [
+                "CNOT",
+                5,
+                7
+              ],
+              [
+                "CNOT",
+                5,
+                7
+              ],
+              [
+                "X",
+                7
+              ]
+            ],
+            "p": 0.05,
+            "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+            "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+            "sv": false,
+            "keep": false,
+            "shots": null
+          }
+        ],
+        "method": "zne",
+        "budgets": [
+          10000,
+          100000
+        ],
+        "repeats": 32,
+        "master_seed": 62026,
+        "estimator_code": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+        "code": "01cce0e06ae66a96035f668c3e75510471836e8979a44fac523f0358d6b86fc7"
+      },
+      "estimator": "existing_Richardson_1_3_5",
+      "code": "5e6244844f44bcb1789fa265e69985e12a0c76e7e229a63479e728ae5602a049"
+    }
+  },
+  "random_stream": "Historical Stage6 shared streams, preserved counts; paired same-coordinate/repeat analysis",
+  "unclipped": true
+}

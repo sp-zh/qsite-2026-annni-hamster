@@ -1,0 +1,479 @@
+EE363 Winter 2008-09
+Lecture 17
+Perron-Frobenius Theory
+• Positive and nonnegative matrices and vectors
+• Perron-Frobenius theorems
+• Markov chains
+• Economic growth
+• Population dynamics
+• Max-min and min-max characterization
+• Power control
+• Linear Lyapunov functions
+• Metzler matrices
+17–1
+Positive and nonnegative vectors and matrices
+we say a matrix or vector is
+• positive (or elementwise positive ) if all its entries are positive
+• nonnegative (or elementwise nonnegative ) if all its entries are
+nonnegative
+we use the notation x > y (x ≥ y) to mean x − y is elementwise positive
+(nonnegative)
+warning: if A and B are square and symmetric, A ≥ B can mean:
+• A − B is PSD ( i.e., zT Az ≥ zT Bz for all z), or
+• A − B elementwise positive ( i.e., Aij ≥ Bij for all i, j )
+in this lecture, > and ≥ mean elementwise
+Perron-Frobenius Theory 17–2
+Application areas
+nonnegative matrices arise in many ﬁelds, e.g.,
+• economics
+• population models
+• graph theory
+• Markov chains
+• power control in communications
+• Lyapunov analysis of large scale systems
+Perron-Frobenius Theory 17–3
+Basic facts
+if A ≥ 0 and z ≥ 0, then we have Az ≥ 0
+conversely: if for all z ≥ 0, we have Az ≥ 0, then we can conclude A ≥ 0
+in other words, matrix multiplication preserves nonnegativity i f and only if
+the matrix is nonnegative
+if A > 0 and z ≥ 0, z ̸= 0, then Az > 0
+conversely, if whenever z ≥ 0, z ̸= 0, we have Az > 0, then we can
+conclude A > 0
+if x ≥ 0 and x ̸= 0, we refer to d = (1/ 1T x)x as its distribution or
+normalized form
+di = xi/ (∑
+j xj) gives the fraction of the total of x, given by xi
+Perron-Frobenius Theory 17–4
+Regular nonnegative matrices
+suppose A ∈ Rn×n, with A ≥ 0
+A is called regular if for some k ≥ 1, Ak > 0
+meaning: form directed graph on nodes 1, . . . , n , with an arc from j to i
+whenever Aij > 0
+then (Ak)ij > 0 if and only if there is a path of length k from j to i
+A is regular if for some k there is a path of length k from every node to
+every other node
+Perron-Frobenius Theory 17–5
+examples:
+• any positive matrix is regular
+•
+[
+1 1
+0 1
+]
+and
+[
+0 1
+1 0
+]
+are not regular
+•
+
+
+1 1 0
+0 0 1
+1 0 0
+
+ is regular
+Perron-Frobenius Theory 17–6
+Perron-Frobenius theorem for regular matrices
+suppose A ∈ Rn×n is nonnegative and regular, i.e., Ak > 0 for some k
+then
+• there is an eigenvalue λ pf of A that is real and positive, with positive
+left and right eigenvectors
+• for any other eigenvalue λ , we have |λ |< λ pf
+• the eigenvalue λ pf is simple, i.e., has multiplicity one, and corresponds
+to a 1 × 1 Jordan block
+the eigenvalue λ pf is called the Perron-Frobenius (PF) eigenvalue of A
+the associated positive (left and right) eigenvectors are called the (left and
+right) PF eigenvectors (and are unique, up to positive scaling)
+Perron-Frobenius Theory 17–7
+Perron-Frobenius theorem for nonnegative matrices
+suppose A ∈ Rn×n and A ≥ 0
+then
+• there is an eigenvalue λ pf of A that is real and nonnegative, with
+associated nonnegative left and right eigenvectors
+• for any other eigenvalue λ of A, we have |λ | ≤λ pf
+λ pf is called the Perron-Frobenius (PF) eigenvalue of A
+the associated nonnegative (left and right) eigenvectors are cal led (left and
+right) PF eigenvectors
+in this case, they need not be unique, or positive
+Perron-Frobenius Theory 17–8
+Markov chains
+we consider stochastic process X0, X 1, . . . with values in {1, . . . , n }
+Prob(Xt+1 = i|Xt = j) = Pij
+P is called the transition matrix ; clearly Pij ≥ 0
+let pt ∈ Rn be the distribution of Xt, i.e., (pt)i = Prob(Xt = i)
+then we have pt+1 = P pt
+note: standard notation uses transpose of P , and row vectors for
+probability distributions
+P is a stochastic matrix , i.e., P ≥ 0 and 1T P = 1T
+so 1 is a left eigenvector with eigenvalue 1, which is in fact the PF
+eigenvalue of P
+Perron-Frobenius Theory 17–9
+Equilibrium distribution
+let π denote a PF (right) eigenvector of P , with π ≥ 0 and 1T π = 1
+since P π = π , π corresponds to an invariant distribution or equilibrium
+distribution of the Markov chain
+now suppose P is regular, which means for some k, P k > 0
+since (P k)ij is Prob(Xt+k = i|Xt = j), this means there is positive
+probability of transitioning from any state to any other in k steps
+since P is regular, there is a unique invariant distribution π , which satisﬁes
+π > 0
+the eigenvalue 1 is simple and dominant, so we have pt → π , no matter
+what the initial distribution p0
+in other words: the distribution of a regular Markov chain always converges
+to the unique invariant distribution
+Perron-Frobenius Theory 17–10
+Rate of convergence to equilibrium distribution
+rate of convergence to equilibrium distribution depends on seco nd largest
+eigenvalue magnitude, i.e.,
+µ = max{|λ 2|, . . . , |λ n|}
+where λ i are the eigenvalues of P , and λ 1 = λ pf = 1
+(µ is sometimes called the SLEM of the Markov chain)
+the mixing time of the Markov chain is given by
+T = 1
+log(1/µ )
+(roughly, number of steps over which deviation from equilibri um
+distribution decreases by factor e)
+Perron-Frobenius Theory 17–11
+Dynamic interpretation
+consider xt+1 = Axt, with A ≥ 0 and regular
+then by PF theorem, λ pf is the unique dominant eigenvalue
+let v, w > 0 be the right and left PF eigenvectors of A, with 1T v = 1,
+wT v = 1
+then as t → ∞ , (λ −1
+pf A)t → vwT
+for any x0 ≥ 0, x0 ̸= 0, we have
+1
+1T xt
+xt → v
+as t → ∞ , i.e., the distribution of xt converges to v
+we also have (xt+1)i/ (xt)i → λ pf, i.e., the one-period growth factor in
+each component always converges to λ pf
+Perron-Frobenius Theory 17–12
+Economic growth
+we consider an economy, with activity level xi ≥ 0 in sector i, i = 1, . . . , n
+given activity level x in period t, in period t + 1 we have xt+1 = Axt, with
+A ≥ 0
+Aij ≥ 0 means activity in sector j does not decrease activity in sector i,
+i.e., the activities are mutually noninhibitory
+we’ll assume that A is regular, with PF eigenvalue λ pf, and left and right
+PF eigenvectors w, v , with 1T v = 1, wT v = 1
+PF theorem tells us:
+• (xt+1)i/ (xt)i, the growth factor in sector i over the period from t to
+t + 1, each converge to λ pf as t → ∞
+• the distribution of economic activity ( i.e., x normalized) converges to v
+Perron-Frobenius Theory 17–13
+• asymptotically the economy exhibits (almost) balanced growth, by the
+factor λ pf, in each sector
+these hold independent of the original economic activity, prov ided it is
+nonnegative and nonzero
+what does left PF eigenvector w mean?
+for large t we have
+xt ∼ λ t
+pfwT x0v
+where ∼ means we have dropped terms small compared to dominant term
+so asymptotic economic activity is scaled by wT x0
+in particular, wi gives the relative value of activity i in terms of long term
+economic activity
+Perron-Frobenius Theory 17–14
+Population model
+(xt)i denotes number of individuals in group i at period t
+groups could be by age, location, health, marital status, etc.
+population dynamics is given by xt+1 = Axt, with A ≥ 0
+Aij gives the fraction of members of group j that move to group i, or the
+number of members in group i created by members of group j (e.g., in
+births)
+Aij ≥ 0 means the more we have in group j in a period, the more we have
+in group i in the next period
+• if ∑
+i Aij = 1, population is preserved in transitions out of group j
+• we can have ∑
+i Aij > 1, if there are births (say) from members of
+group j
+• we can have ∑
+i Aij < 1, if there are deaths or attrition in group j
+Perron-Frobenius Theory 17–15
+now suppose A is regular
+• PF eigenvector v gives asymptotic population distribution
+• PF eigenvalue λ pf gives asymptotic growth rate (if > 1) or decay rate
+(if < 1)
+• wT x0 scales asymptotic population, so wi gives relative value of initial
+group i to long term population
+Perron-Frobenius Theory 17–16
+Path count in directed graph
+we have directed graph on n nodes, with adjacency matrix A ∈ Rn×n
+Aij =
+{
+1 there is an edge from node j to node i
+0 otherwise
+(
+Ak)
+ij is number of paths from j to i of length k
+now suppose A is regular
+then for large k,
+Ak ∼ λ k
+pfvwT = λ k
+pf(1T w)v(w/ 1T w)T
+(∼ means: keep only dominant term)
+v, w are right, left PF eigenvectors, normalized as 1T v = 1, wT v = 1
+Perron-Frobenius Theory 17–17
+total number of paths of length k: 1T Ak1 ≈ λ k
+pf(1T w)
+for k large, we have (approximately)
+• λ pf is factor of increase in number of paths when length increases by one
+• vi: fraction of length k paths that end at i
+• wj/ 1T w: fraction of length k paths that start at j
+• viwj/ 1T w: fraction of length k paths that start at j, end at i
+• vi measures importance/connectedness of node i as a sink
+• wj/ 1T w measures importance/connectedness of node j as a source
+Perron-Frobenius Theory 17–18
+(Part of) proof of PF theorem for positive matrices
+suppose A > 0, and consider the optimization problem
+maximize δ
+subject to Ax ≥ δx for some x ≥ 0, x ̸= 0
+note that we can assume 1T x = 1
+interpretation: with yi = (Ax)i, we can interpret yi/x i as the ‘growth
+factor’ for component i
+problem above is to ﬁnd the input distribution that maximizes the
+minimum growth factor
+let λ 0 be the optimal value of this problem, and let v be an optimal point,
+i.e., v ≥ 0, v ̸= 0, and Av ≥ λ 0v
+Perron-Frobenius Theory 17–19
+we will show that λ 0 is the PF eigenvalue of A, and v is a PF eigenvector
+ﬁrst let’s show Av = λ 0v, i.e., v is an eigenvector associated with λ 0
+if not, suppose that (Av)k > λ 0vk
+now let’s look at ˜v = v + ǫe k
+we’ll show that for small ǫ > 0, we have A˜v > λ 0˜v, which means that
+A˜v ≥ δ ˜v for some δ > λ 0, a contradiction
+for i ̸= k we have
+(A˜v)i = (Av)i + Aikǫ > (Av)i ≥ λ 0vi = λ 0˜vi
+so for any ǫ > 0 we have (A˜v)i > λ 0˜vi
+(A˜v)k − λ 0˜vk = ( Av)k + Akkǫ − λ 0vk − λ 0ǫ
+= ( Av)k − λ 0vk − ǫ(λ 0 − Akk)
+Perron-Frobenius Theory 17–20
+since (Av)k − λ 0vk > 0, we conclude that for small ǫ > 0,
+(A˜v)k − λ 0˜vk > 0
+to show that v > 0, suppose that vk = 0
+from Av = λ 0v, we conclude (Av)k = 0, which contradicts Av > 0
+(which follows from A > 0, v ≥ 0, v ̸= 0)
+now suppose λ ̸= λ 0 is another eigenvalue of A, i.e., Az = λz , where
+z ̸= 0
+let |z|denote the vector with |z|i = |zi|
+since A ≥ 0 we have A|z| ≥ |Az|= |λ ||z|
+from the deﬁnition of λ 0 we conclude |λ | ≤λ 0
+(to show strict inequality is harder)
+Perron-Frobenius Theory 17–21
+Max-min ratio characterization
+proof shows that PF eigenvalue is optimal value of optimization pr oblem
+maximize mini
+(Ax)i
+xi
+subject to x > 0
+and that PF eigenvector v is optimal point:
+• PF eigenvector v maximizes the minimum growth factor over
+components
+• with optimal v, growth factors in all components are equal (to λ pf)
+in other words: by maximizing minimum growth factor, we actually a chieve
+balanced growth
+Perron-Frobenius Theory 17–22
+Min-max ratio characterization
+a related problem is
+minimize maxi
+(Ax)i
+xi
+subject to x > 0
+here we seek to minimize the maximum growth factor in the coordinates
+the solution is surprising: the optimal value is λ pf and the optimal x is the
+PF eigenvector v
+• if A is nonnegative and regular, and x > 0, the n growth factors
+(Ax)i/x i ‘straddle’ λ pf: at least one is ≥ λ pf, and at least one is ≤ λ pf
+• when we take x to be the PF eigenvector v, all the growth factors are
+equal, and solve both max-min and min-max problems
+Perron-Frobenius Theory 17–23
+Power control
+we consider n transmitters with powers P1, . . . , P n > 0, transmitting to n
+receivers
+path gain from transmitter j to receiver i is Gij > 0
+signal power at receiver i is Si = GiiPi
+interference power at receiver i is Ii = ∑
+k̸=i GikPk
+signal to interference ratio (SIR) is
+Si/I i = GiiPi
+∑
+k̸=i GikPk
+how do we set transmitter powers to maximize the minimum SIR?
+Perron-Frobenius Theory 17–24
+we can just as well minimize the maximum interference to signal ra tio, i.e.,
+solve the problem
+minimize maxi
+( ˜GP )i
+Pi
+subject to P > 0
+where
+˜Gij =
+{
+Gij/G ii i ̸= j
+0 i = j
+since ˜G2 > 0, ˜G is regular, so solution is given by PF eigenvector of ˜G
+PF eigenvalue λ pf of ˜G is the optimal interference to signal ratio, i.e.,
+maximum possible minimum SIR is 1/λ pf
+with optimal power allocation, all SIRs are equal
+note: ˜G is the matrix of ratios of interference to signal path gains
+Perron-Frobenius Theory 17–25
+Nonnegativity of resolvent
+suppose A is nonnegative, with PF eigenvalue λ pf, and λ ∈ R
+then (λI − A)−1 exists and is nonnegative, if and only if λ > λ pf
+for any square matrix A the power series expansion
+(λI − A)−1 = 1
+λ I + 1
+λ 2A + 1
+λ 3A2 + · · ·
+converges provided |λ |is larger than all eigenvalues of A
+if λ > λ pf, this shows that (λI − A)−1 is nonnegative
+to show converse, suppose (λI − A)−1 exists and is nonnegative, and let
+v ̸= 0, v ≥ 0 be a PF eigenvector of A
+then we have
+(λI − A)−1v = 1
+λ − λ pf
+v ≥ 0
+and it follows that λ > λ pf
+Perron-Frobenius Theory 17–26
+Equilibrium points
+consider xt+1 = Axt + b, where A and b are nonnegative
+equilibrium point is given by xeq = (I − A)−1b
+by resolvent result, if A is stable, then (I − A)−1 is nonnegative, so
+equilibrium point xeq is nonnegative for any nonnegative b
+moreover, equilibrium point is monotonic function of b: for ˜b ≥ b, we have
+˜xeq ≥ xeq
+conversely, if system has a nonnegative equilibrium point, for every
+nonnegative choice of b, then we can conclude A is stable
+Perron-Frobenius Theory 17–27
+Iterative power allocation algorithm
+we consider again the power control problem
+suppose γ is the desired or target SIR
+simple iterative algorithm: at each step t,
+1. ﬁrst choose ˜Pi so that
+Gii ˜Pi
+∑
+k̸=i Gik(Pt)k
+= γ
+˜Pi is the transmit power that would make the SIR of receiver i equal to
+γ , assuming none of the other powers change
+2. set (Pt+1)i = ˜Pi + σ i, where σ i > 0 is a parameter
+i.e., add a little extra power to each transmitter)
+Perron-Frobenius Theory 17–28
+each receiver only needs to know its current SIR to adjust its powe r: if
+current SIR is α dB below (above) γ , then increase (decrease) transmitter
+power by α dB, then add the extra power σ
+i.e., this is a distributed algorithm
+question: does it work? (we assume that P0 > 0)
+answer: yes, if and only if γ is less than the maximum achievable SIR, i.e.,
+γ < 1/λ pf( ˜G)
+to see this, algorithm can be expressed as follows:
+• in the ﬁrst step, we have ˜P = γ ˜GPt
+• in the second step we have Pt+1 = ˜P + σ
+and so we have
+Pt+1 = γ ˜GPt + σ
+a linear system with constant input
+Perron-Frobenius Theory 17–29
+PF eigenvalue of γ ˜G is γλ pf, so linear system is stable if and only if
+γλ pf < 1
+power converges to equilibrium value
+Peq = (I − γ ˜G)−1σ
+(which is positive, by resolvent result)
+now let’s show this equilibrium power allocation achieves SIR a t least γ for
+each receiver
+we need to verify γ ˜GPeq ≤ Peq, i.e.,
+γ ˜G(I − γ ˜G)−1σ ≤ (I − γ ˜G)−1σ
+or, equivalently,
+(I − γ ˜G)−1σ − γ ˜G(I − γ ˜G)−1σ ≥ 0
+which holds, since the lefthand side is just σ
+Perron-Frobenius Theory 17–30
+Linear Lyapunov functions
+suppose A ≥ 0
+then Rn
++ is invariant under system xt+1 = Axt
+suppose c > 0, and consider the linear Lyapunov function V (z) = cT z
+if V (Az) ≤ δV (z) for some δ < 1 and all z ≥ 0, then V proves
+(nonnegative) trajectories converge to zero
+fact: a nonnegative regular system is stable if and only if there is a lin ear
+Lyapunov function that proves it
+to show the ‘only if’ part, suppose A is stable, i.e., λ pf < 1
+take c = w, the (positive) left PF eigenvector of A
+then we have V (Az) = wT Az = λ pfwT z, i.e., V proves all nonnegative
+trajectories converge to zero
+Perron-Frobenius Theory 17–31
+Weighted ℓ 1-norm Lyapunov function
+to make the analysis apply to all trajectories, we can consider the weighted
+sum absolute value (or weighted ℓ 1-norm) Lyapunov function
+V (z) =
+n∑
+i=1
+wi|zi|= wT |z|
+then we have
+V (Az) =
+n∑
+i=1
+wi|(Az)i| ≤
+n∑
+i=1
+wi(A|z|)i = wT A|z|= λ pfwT |z|
+which shows that V decreases at least by the factor λ pf
+conclusion: a nonnegative regular system is stable if and only i f there is a
+weighted sum absolute value Lyapunov function that proves it
+Perron-Frobenius Theory 17–32
+SVD analysis
+suppose A ∈ Rm×n, A ≥ 0
+then AT A ≥ 0 and AAT ≥ 0 are nonnegative
+hence, there are nonnegative left & right singular vectors v1, w1 associated
+with σ 1
+in particular, there is an optimal rank- 1 approximation of A that is
+nonnegative
+if AT A, AAT are regular, then we conclude
+• σ 1 > σ 2, i.e., maximum singular value is isolated
+• associated singular vectors are positive: v1 > 0, w1 > 0
+Perron-Frobenius Theory 17–33
+Continuous time results
+we have already seen that Rn
++ is invariant under ˙x = Ax if and only if
+Aij ≥ 0 for i ̸= j
+such matrices are called Metzler matrices
+for a Metzler matrix, we have
+• there is an eigenvalue λ metzler of A that is real, with associated
+nonnegative left and right eigenvectors
+• for any other eigenvalue λ of A, we have ℜλ ≤ λ metzler
+i.e., the eigenvalue λ metzler is dominant for system ˙x = Ax
+• if λ > λ metzler, then (λI − A)−1 ≥ 0
+Perron-Frobenius Theory 17–34
+the analog of the stronger Perron-Frobenius results:
+if (τ I + A)k > 0, for some τ and some k, then
+• the left and right eigenvectors associated with eigenvalue λ metzler of A
+are positive
+• for any other eigenvalue λ of A, we have ℜλ < λ metzler
+i.e., the eigenvalue λ metzler is strictly dominant for system ˙x = Ax
+Perron-Frobenius Theory 17–35
+Derivation from Perron-Frobenius Theory
+suppose A is Metzler, and choose τ s.t. τ I + A ≥ 0
+(e.g., τ = 1 − mini Aii)
+by PF theory, τ I + A has PF eigenvalue λ pf, with associated right and left
+eigenvectors v ≥ 0, w ≥ 0
+from (τ I + A)v = λ pfv we get Av = (λ pf − τ )v = λ 0v, and similarly for w
+we’ll show that ℜλ ≤ λ 0 for any eigenvalue λ of A
+suppose λ is an eigenvalue of A
+suppose τ + λ is an eigenvalue of τ I + A
+by PF theory, we have |τ + λ | ≤λ pf = τ + λ 0
+this means λ lies inside a circle, centered at − τ , that passes through λ 0
+which implies ℜλ ≤ λ 0
+Perron-Frobenius Theory 17–36
+Linear Lyapunov function
+suppose ˙x = Ax is stable, and A is Metzler, with (τ I + A)k > 0 for some
+τ and some k
+we can show that all nonnegative trajectories converge to zero usin g a
+linear Lyapunov function
+let w > 0 be left eigenvector associated with dominant eigenvalue λ metzler
+then with V (z) = wT z we have
+˙V (z) = wT Az = λ metzlerwT z = λ metzlerV (z)
+since λ metzler < 0, this proves wT z → 0
+Perron-Frobenius Theory 17–37

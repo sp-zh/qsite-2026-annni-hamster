@@ -1,0 +1,26 @@
+{
+  "time": "2026-09-22T23:39:22.743826+00:00",
+  "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pennylane": "0.44.1",
+    "matplotlib": "3.11.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "tensor_environment": {
+    "python": "3.12.14",
+    "tenpy": "1.1.1",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "locks": {
+    "requirements.lock.txt": "4a17ebd6a02afa38831fb15a1d60df23fcb7f3bd62287bc19a0438e014c9235d",
+    "requirements-tn.lock.txt": "984a36e2089ef14cdc5b9f57339378661a60e6285fd6e8bc1ebd560c53bd3e2b"
+  },
+  "environment_changes": "None; original locked scientific and isolated TeNPy environments reused",
+  "blas_threads_requested": 1
+}

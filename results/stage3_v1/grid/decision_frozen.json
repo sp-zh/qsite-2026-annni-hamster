@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-09-22T04:35:23.056142+00:00",
+  "layers": 6,
+  "coverage": {
+    "4": {
+      "passed": 107,
+      "total": 120
+    },
+    "6": {
+      "passed": 120,
+      "total": 120
+    }
+  },
+  "technical_verified": true,
+  "diagnostic_scope": "Continuous observables and masks only; unresolved or unchecked branch neighborhoods cannot support boundary claims",
+  "resource_remaining_seconds": 4761.004893,
+  "estimated_seconds": 1200,
+  "estimate_basis": "Measured slice optimization and density timings, conservative allowance",
+  "selection": "maximum noiseless joint coverage then lowest CNOT",
+  "kappa": [
+    0,
+    1,
+    0.05
+  ],
+  "h": [
+    0.1,
+    2,
+    0.1
+  ]
+}

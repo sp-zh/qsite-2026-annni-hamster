@@ -1,0 +1,10 @@
+2026-09-23 03:08:16 UTC
+38652 33729   0.0  17152    03:41:05 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_main_queue.py
+38856 33729   0.0  17152    03:36:06 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_second_lane.py
+45651 33729   0.0  21008    01:26:58 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_final_analysis_queue.py
+47752 33729   0.0   1632    01:01:11 /usr/bin/caffeinate -i -t 29400
+48448 38856  99.1  72656       49:42 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_candidates.py --task n12
+51051 38652  99.1  72160       27:04 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_candidates.py --task windows
+51787 33729   0.0  21120       15:12 /opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_stage6_map_analysis_queue.py
+52403 33729   0.0   2320       00:00 /bin/zsh -c ps -axo pid,ppid,%cpu,rss,etime,command | rg '(stage6|caffeinate)'
+52405 52403   0.0    192       00:00 rg (stage6|caffeinate)

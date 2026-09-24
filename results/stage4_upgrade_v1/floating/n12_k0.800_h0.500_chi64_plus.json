@@ -1,0 +1,158 @@
+{
+  "n": 12,
+  "kappa": 0.8,
+  "h": 0.5,
+  "chi_max": 64,
+  "actual_chi": 59,
+  "init": "plus",
+  "energy": -10.35661322054418,
+  "seconds": 0.5370774169859942,
+  "bc": "OBC",
+  "pauli_normalization": true,
+  "conserve": null,
+  "tenpy": "1.1.1",
+  "source_sha256": "4f9d4be4152b26dd924d79196aa8671f0e8aaffc5c66396ac1f1c51d6f9aaa16",
+  "options": {
+    "mixer": true,
+    "max_sweeps": 20,
+    "min_sweeps": 4,
+    "max_E_err": 1e-09,
+    "max_S_err": 1e-06,
+    "trunc_params": "Config, name='trunc_params', options:\n{'chi_max': 64,\n 'chi_min': None,\n 'degeneracy_tol': None,\n 'svd_min': 1e-11,\n 'trunc_cut': 1e-14}",
+    "lanczos_params": "Config, name='lanczos_params', options:\n{'E_shift': None,\n 'E_tol': inf,\n 'N_cache': 20,\n 'N_max': 20,\n 'N_min': 2,\n 'P_tol': np.float64(5.689251238344004e-24),\n 'cutoff': np.float64(2.220446049250313e-14),\n 'min_gap': 1e-12,\n 'reortho': False}",
+    "diag_method": "default",
+    "max_N_sites_per_ring": 18,
+    "combine": false,
+    "chi_list": null,
+    "N_sweeps_check": 1,
+    "mixer_params": "Config, name='mixer_params', options:\n{'amplitude': 1e-05, 'decay': 2.0, 'disable_after': 15}",
+    "max_hours": 8760,
+    "P_tol_to_trunc": 0.05,
+    "P_tol_min": 5e-24,
+    "P_tol_max": 0.0001,
+    "E_tol_to_trunc": null,
+    "max_N_for_ED": 400,
+    "norm_tol": 1e-05,
+    "norm_tol_final": 1e-10,
+    "max_trunc_err": 0.0001
+  },
+  "sweeps": {
+    "sweep": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "N_updates": [
+      20,
+      40,
+      60,
+      80,
+      100,
+      120
+    ],
+    "E": [
+      -10.356613154544924,
+      -10.356613220544217,
+      -10.35661322054417,
+      -10.356613220544201,
+      -10.356613220544194,
+      -10.35661322054418
+    ],
+    "Delta_E": [
+      NaN,
+      -6.599929314177189e-08,
+      4.618527782440651e-14,
+      -3.019806626980426e-14,
+      7.105427357601002e-15,
+      1.4210854715202004e-14
+    ],
+    "S": [
+      0.7189639210025275,
+      0.7471285508604076,
+      0.7471283881918752,
+      0.7471283011294975,
+      0.7471282575981685,
+      0.7471282140666765
+    ],
+    "Delta_S": [
+      0.7189639210025275,
+      0.028164629857880152,
+      -1.626685324218613e-07,
+      -8.706237775157888e-08,
+      -4.353132898593515e-08,
+      -4.353149196667516e-08
+    ],
+    "max_S": [
+      0.9097707009530476,
+      0.9212909094623134,
+      0.921290909443021,
+      0.9212909094429459,
+      0.921290909442984,
+      0.9212909094429782
+    ],
+    "time": [
+      0.10364699363708496,
+      0.2292790412902832,
+      0.30850982666015625,
+      0.38510799407958984,
+      0.46115779876708984,
+      0.5112659931182861
+    ],
+    "max_trunc_err": [
+      3.398948440359584e-19,
+      1.169002768760853e-17,
+      8.838261528823916e-18,
+      6.098121851679419e-18,
+      2.8174837158757324e-18,
+      1.1378502476688009e-22
+    ],
+    "max_E_trunc": [
+      2.842170943040401e-14,
+      2.3092638912203256e-14,
+      1.4210854715202004e-14,
+      8.881784197001252e-15,
+      1.2434497875801753e-14,
+      2.1316282072803006e-14
+    ],
+    "max_chi": [
+      30,
+      56,
+      55,
+      56,
+      55,
+      59
+    ],
+    "norm_err": [
+      0.12336005217453103,
+      1.2274882137035386e-05,
+      1.6595316127251848e-12,
+      8.611245522868674e-13,
+      1.068542736830833e-12,
+      1.399518934275909e-13
+    ]
+  },
+  "max_discarded_weight": 1.169002768760853e-17,
+  "fit_raw": [],
+  "fit_connected": [],
+  "entropy_fits": [
+    {
+      "edge_fraction": 0.15,
+      "c": 1.993857248801552,
+      "intercept": 0.2131029771069328,
+      "rms": 0.04756474552739072
+    },
+    {
+      "edge_fraction": 0.25,
+      "c": 0.9610055496671939,
+      "intercept": 0.5430238986655433,
+      "rms": 0.04717970543369778
+    }
+  ],
+  "archive": "results/stage4_upgrade_v1/floating/n12_k0.800_h0.500_chi64_plus.npz",
+  "checkpoint": "results/stage4_upgrade_v1/floating/n12_k0.800_h0.500_chi64_plus.pkl",
+  "disposition": "newly_executed",
+  "evidence_grade": "not_resolved"
+}

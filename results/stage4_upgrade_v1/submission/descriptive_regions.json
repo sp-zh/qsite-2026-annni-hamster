@@ -1,0 +1,605 @@
+{
+  "protocol": "Post-computation descriptive coordinate strata, overlapping and not used for selection or training; no significance claim.",
+  "rows": [
+    {
+      "stratum": "all",
+      "method": "B3",
+      "p": 0,
+      "mask": "all",
+      "points": 420,
+      "mean_c_new": 0.004703970688472746,
+      "mean_c_old": 0.0019264822058457755,
+      "new_wins": 17
+    },
+    {
+      "stratum": "all",
+      "method": "B3",
+      "p": 0,
+      "mask": "common_pass",
+      "points": 383,
+      "mean_c_new": 0.002457526424468546,
+      "mean_c_old": 0.0005670437271270868,
+      "new_wins": 9
+    },
+    {
+      "stratum": "all",
+      "method": "B3",
+      "p": 0.01,
+      "mask": "all",
+      "points": 420,
+      "mean_c_new": 0.1431838708115352,
+      "mean_c_old": 0.2637546695248888,
+      "new_wins": 402
+    },
+    {
+      "stratum": "all",
+      "method": "B3",
+      "p": 0.01,
+      "mask": "common_pass",
+      "points": 383,
+      "mean_c_new": 0.1357403199615195,
+      "mean_c_old": 0.25538748725425464,
+      "new_wins": 365
+    },
+    {
+      "stratum": "all",
+      "method": "B3",
+      "p": 0.05,
+      "mask": "all",
+      "points": 420,
+      "mean_c_new": 0.36661281532549406,
+      "mean_c_old": 0.44536145816306466,
+      "new_wins": 418
+    },
+    {
+      "stratum": "all",
+      "method": "B3",
+      "p": 0.05,
+      "mask": "common_pass",
+      "points": 383,
+      "mean_c_new": 0.3531750770754975,
+      "mean_c_old": 0.4326896576960182,
+      "new_wins": 381
+    },
+    {
+      "stratum": "all",
+      "method": "B4",
+      "p": 0,
+      "mask": "all",
+      "points": 420,
+      "mean_c_new": 0.004703970688472751,
+      "mean_c_old": 0.0019264822058457755,
+      "new_wins": 17
+    },
+    {
+      "stratum": "all",
+      "method": "B4",
+      "p": 0,
+      "mask": "common_pass",
+      "points": 383,
+      "mean_c_new": 0.0024575264244685556,
+      "mean_c_old": 0.0005670437271270868,
+      "new_wins": 9
+    },
+    {
+      "stratum": "all",
+      "method": "B4",
+      "p": 0.01,
+      "mask": "all",
+      "points": 420,
+      "mean_c_new": 0.14142516680602388,
+      "mean_c_old": 0.2637546695248888,
+      "new_wins": 405
+    },
+    {
+      "stratum": "all",
+      "method": "B4",
+      "p": 0.01,
+      "mask": "common_pass",
+      "points": 383,
+      "mean_c_new": 0.134193890361843,
+      "mean_c_old": 0.25538748725425464,
+      "new_wins": 368
+    },
+    {
+      "stratum": "all",
+      "method": "B4",
+      "p": 0.05,
+      "mask": "all",
+      "points": 420,
+      "mean_c_new": 0.3643525765665762,
+      "mean_c_old": 0.44536145816306466,
+      "new_wins": 418
+    },
+    {
+      "stratum": "all",
+      "method": "B4",
+      "p": 0.05,
+      "mask": "common_pass",
+      "points": 383,
+      "mean_c_new": 0.3509782450094442,
+      "mean_c_old": 0.4326896576960182,
+      "new_wins": 381
+    },
+    {
+      "stratum": "low_field_h<=0.5",
+      "method": "B3",
+      "p": 0,
+      "mask": "all",
+      "points": 105,
+      "mean_c_new": 0.010181122730664363,
+      "mean_c_old": 0.005995416046403605,
+      "new_wins": 9
+    },
+    {
+      "stratum": "low_field_h<=0.5",
+      "method": "B3",
+      "p": 0,
+      "mask": "common_pass",
+      "points": 83,
+      "mean_c_new": 0.0027370323272216425,
+      "mean_c_old": 0.0012517932750138983,
+      "new_wins": 4
+    },
+    {
+      "stratum": "low_field_h<=0.5",
+      "method": "B3",
+      "p": 0.01,
+      "mask": "all",
+      "points": 105,
+      "mean_c_new": 0.24976529622838672,
+      "mean_c_old": 0.5614284989344881,
+      "new_wins": 105
+    },
+    {
+      "stratum": "low_field_h<=0.5",
+      "method": "B3",
+      "p": 0.01,
+      "mask": "common_pass",
+      "points": 83,
+      "mean_c_new": 0.2567649208801196,
+      "mean_c_old": 0.6061295873075151,
+      "new_wins": 83
+    },
+    {
+      "stratum": "low_field_h<=0.5",
+      "method": "B3",
+      "p": 0.05,
+      "mask": "all",
+      "points": 105,
+      "mean_c_new": 0.6370548849911092,
+      "mean_c_old": 0.8221173688390563,
+      "new_wins": 105
+    },
+    {
+      "stratum": "low_field_h<=0.5",
+      "method": "B3",
+      "p": 0.05,
+      "mask": "common_pass",
+      "points": 83,
+      "mean_c_new": 0.6679552663174239,
+      "mean_c_old": 0.8759812933167105,
+      "new_wins": 83
+    },
+    {
+      "stratum": "low_field_h<=0.5",
+      "method": "B4",
+      "p": 0,
+      "mask": "all",
+      "points": 105,
+      "mean_c_new": 0.01018112273066439,
+      "mean_c_old": 0.005995416046403605,
+      "new_wins": 9
+    },
+    {
+      "stratum": "low_field_h<=0.5",
+      "method": "B4",
+      "p": 0,
+      "mask": "common_pass",
+      "points": 83,
+      "mean_c_new": 0.0027370323272216915,
+      "mean_c_old": 0.0012517932750138983,
+      "new_wins": 4
+    },
+    {
+      "stratum": "low_field_h<=0.5",
+      "method": "B4",
+      "p": 0.01,
+      "mask": "all",
+      "points": 105,
+      "mean_c_new": 0.24753334506117863,
+      "mean_c_old": 0.5614284989344881,
+      "new_wins": 105
+    },
+    {
+      "stratum": "low_field_h<=0.5",
+      "method": "B4",
+      "p": 0.01,
+      "mask": "common_pass",
+      "points": 83,
+      "mean_c_new": 0.25516872286070025,
+      "mean_c_old": 0.6061295873075151,
+      "new_wins": 83
+    },
+    {
+      "stratum": "low_field_h<=0.5",
+      "method": "B4",
+      "p": 0.05,
+      "mask": "all",
+      "points": 105,
+      "mean_c_new": 0.6344842075200273,
+      "mean_c_old": 0.8221173688390563,
+      "new_wins": 105
+    },
+    {
+      "stratum": "low_field_h<=0.5",
+      "method": "B4",
+      "p": 0.05,
+      "mask": "common_pass",
+      "points": 83,
+      "mean_c_new": 0.6657213598922068,
+      "mean_c_old": 0.8759812933167105,
+      "new_wins": 83
+    },
+    {
+      "stratum": "high_field_h>=1.2",
+      "method": "B3",
+      "p": 0,
+      "mask": "all",
+      "points": 189,
+      "mean_c_new": 0.0017808603355937622,
+      "mean_c_old": 8.313958585405006e-05,
+      "new_wins": 1
+    },
+    {
+      "stratum": "high_field_h>=1.2",
+      "method": "B3",
+      "p": 0,
+      "mask": "common_pass",
+      "points": 189,
+      "mean_c_new": 0.0017808603355937622,
+      "mean_c_old": 8.313958585405006e-05,
+      "new_wins": 1
+    },
+    {
+      "stratum": "high_field_h>=1.2",
+      "method": "B3",
+      "p": 0.01,
+      "mask": "all",
+      "points": 189,
+      "mean_c_new": 0.06951392929673203,
+      "mean_c_old": 0.10710573968902759,
+      "new_wins": 172
+    },
+    {
+      "stratum": "high_field_h>=1.2",
+      "method": "B3",
+      "p": 0.01,
+      "mask": "common_pass",
+      "points": 189,
+      "mean_c_new": 0.06951392929673203,
+      "mean_c_old": 0.10710573968902759,
+      "new_wins": 172
+    },
+    {
+      "stratum": "high_field_h>=1.2",
+      "method": "B3",
+      "p": 0.05,
+      "mask": "all",
+      "points": 189,
+      "mean_c_new": 0.1934526006086581,
+      "mean_c_old": 0.2340040533777642,
+      "new_wins": 187
+    },
+    {
+      "stratum": "high_field_h>=1.2",
+      "method": "B3",
+      "p": 0.05,
+      "mask": "common_pass",
+      "points": 189,
+      "mean_c_new": 0.1934526006086581,
+      "mean_c_old": 0.2340040533777642,
+      "new_wins": 187
+    },
+    {
+      "stratum": "high_field_h>=1.2",
+      "method": "B4",
+      "p": 0,
+      "mask": "all",
+      "points": 189,
+      "mean_c_new": 0.0017808603355937637,
+      "mean_c_old": 8.313958585405006e-05,
+      "new_wins": 1
+    },
+    {
+      "stratum": "high_field_h>=1.2",
+      "method": "B4",
+      "p": 0,
+      "mask": "common_pass",
+      "points": 189,
+      "mean_c_new": 0.0017808603355937637,
+      "mean_c_old": 8.313958585405006e-05,
+      "new_wins": 1
+    },
+    {
+      "stratum": "high_field_h>=1.2",
+      "method": "B4",
+      "p": 0.01,
+      "mask": "all",
+      "points": 189,
+      "mean_c_new": 0.06838949817593157,
+      "mean_c_old": 0.10710573968902759,
+      "new_wins": 175
+    },
+    {
+      "stratum": "high_field_h>=1.2",
+      "method": "B4",
+      "p": 0.01,
+      "mask": "common_pass",
+      "points": 189,
+      "mean_c_new": 0.06838949817593157,
+      "mean_c_old": 0.10710573968902759,
+      "new_wins": 175
+    },
+    {
+      "stratum": "high_field_h>=1.2",
+      "method": "B4",
+      "p": 0.05,
+      "mask": "all",
+      "points": 189,
+      "mean_c_new": 0.19151615685149256,
+      "mean_c_old": 0.2340040533777642,
+      "new_wins": 187
+    },
+    {
+      "stratum": "high_field_h>=1.2",
+      "method": "B4",
+      "p": 0.05,
+      "mask": "common_pass",
+      "points": 189,
+      "mean_c_new": 0.19151615685149256,
+      "mean_c_old": 0.2340040533777642,
+      "new_wins": 187
+    },
+    {
+      "stratum": "competition_0.4<=k<=0.6",
+      "method": "B3",
+      "p": 0,
+      "mask": "all",
+      "points": 100,
+      "mean_c_new": 0.007402271813592125,
+      "mean_c_old": 0.004940328291521159,
+      "new_wins": 8
+    },
+    {
+      "stratum": "competition_0.4<=k<=0.6",
+      "method": "B3",
+      "p": 0,
+      "mask": "common_pass",
+      "points": 88,
+      "mean_c_new": 0.002449311491464869,
+      "mean_c_old": 0.0011968514813799711,
+      "new_wins": 5
+    },
+    {
+      "stratum": "competition_0.4<=k<=0.6",
+      "method": "B3",
+      "p": 0.01,
+      "mask": "all",
+      "points": 100,
+      "mean_c_new": 0.1146057246094211,
+      "mean_c_old": 0.17736322469107754,
+      "new_wins": 100
+    },
+    {
+      "stratum": "competition_0.4<=k<=0.6",
+      "method": "B3",
+      "p": 0.01,
+      "mask": "common_pass",
+      "points": 88,
+      "mean_c_new": 0.09895497083297976,
+      "mean_c_old": 0.15550397952817785,
+      "new_wins": 88
+    },
+    {
+      "stratum": "competition_0.4<=k<=0.6",
+      "method": "B3",
+      "p": 0.05,
+      "mask": "all",
+      "points": 100,
+      "mean_c_new": 0.28046023747688326,
+      "mean_c_old": 0.3250318093493364,
+      "new_wins": 100
+    },
+    {
+      "stratum": "competition_0.4<=k<=0.6",
+      "method": "B3",
+      "p": 0.05,
+      "mask": "common_pass",
+      "points": 88,
+      "mean_c_new": 0.25305454788443255,
+      "mean_c_old": 0.29732495387029867,
+      "new_wins": 88
+    },
+    {
+      "stratum": "competition_0.4<=k<=0.6",
+      "method": "B4",
+      "p": 0,
+      "mask": "all",
+      "points": 100,
+      "mean_c_new": 0.00740227181359211,
+      "mean_c_old": 0.004940328291521159,
+      "new_wins": 8
+    },
+    {
+      "stratum": "competition_0.4<=k<=0.6",
+      "method": "B4",
+      "p": 0,
+      "mask": "common_pass",
+      "points": 88,
+      "mean_c_new": 0.0024493114914648675,
+      "mean_c_old": 0.0011968514813799711,
+      "new_wins": 5
+    },
+    {
+      "stratum": "competition_0.4<=k<=0.6",
+      "method": "B4",
+      "p": 0.01,
+      "mask": "all",
+      "points": 100,
+      "mean_c_new": 0.11264397559954517,
+      "mean_c_old": 0.17736322469107754,
+      "new_wins": 100
+    },
+    {
+      "stratum": "competition_0.4<=k<=0.6",
+      "method": "B4",
+      "p": 0.01,
+      "mask": "common_pass",
+      "points": 88,
+      "mean_c_new": 0.09744107027077491,
+      "mean_c_old": 0.15550397952817785,
+      "new_wins": 88
+    },
+    {
+      "stratum": "competition_0.4<=k<=0.6",
+      "method": "B4",
+      "p": 0.05,
+      "mask": "all",
+      "points": 100,
+      "mean_c_new": 0.2791383511356486,
+      "mean_c_old": 0.3250318093493364,
+      "new_wins": 100
+    },
+    {
+      "stratum": "competition_0.4<=k<=0.6",
+      "method": "B4",
+      "p": 0.05,
+      "mask": "common_pass",
+      "points": 88,
+      "mean_c_new": 0.2519305602034019,
+      "mean_c_old": 0.29732495387029867,
+      "new_wins": 88
+    },
+    {
+      "stratum": "frustrated_k>=0.7",
+      "method": "B3",
+      "p": 0,
+      "mask": "all",
+      "points": 140,
+      "mean_c_new": 0.004372648105505091,
+      "mean_c_old": 0.0015451911161895309,
+      "new_wins": 5
+    },
+    {
+      "stratum": "frustrated_k>=0.7",
+      "method": "B3",
+      "p": 0,
+      "mask": "common_pass",
+      "points": 118,
+      "mean_c_new": 0.0023487588370710902,
+      "mean_c_old": 0.0006621601022867863,
+      "new_wins": 1
+    },
+    {
+      "stratum": "frustrated_k>=0.7",
+      "method": "B3",
+      "p": 0.01,
+      "mask": "all",
+      "points": 140,
+      "mean_c_new": 0.1593338745646264,
+      "mean_c_old": 0.2663173725072698,
+      "new_wins": 125
+    },
+    {
+      "stratum": "frustrated_k>=0.7",
+      "method": "B3",
+      "p": 0.01,
+      "mask": "common_pass",
+      "points": 118,
+      "mean_c_new": 0.14809403521516232,
+      "mean_c_old": 0.24831255232540306,
+      "new_wins": 103
+    },
+    {
+      "stratum": "frustrated_k>=0.7",
+      "method": "B3",
+      "p": 0.05,
+      "mask": "all",
+      "points": 140,
+      "mean_c_new": 0.39134986470299565,
+      "mean_c_old": 0.4639667572944223,
+      "new_wins": 138
+    },
+    {
+      "stratum": "frustrated_k>=0.7",
+      "method": "B3",
+      "p": 0.05,
+      "mask": "common_pass",
+      "points": 118,
+      "mean_c_new": 0.36669634016378083,
+      "mean_c_old": 0.43643661584122495,
+      "new_wins": 116
+    },
+    {
+      "stratum": "frustrated_k>=0.7",
+      "method": "B4",
+      "p": 0,
+      "mask": "all",
+      "points": 140,
+      "mean_c_new": 0.004372648105505113,
+      "mean_c_old": 0.0015451911161895309,
+      "new_wins": 5
+    },
+    {
+      "stratum": "frustrated_k>=0.7",
+      "method": "B4",
+      "p": 0,
+      "mask": "common_pass",
+      "points": 118,
+      "mean_c_new": 0.0023487588370711184,
+      "mean_c_old": 0.0006621601022867863,
+      "new_wins": 1
+    },
+    {
+      "stratum": "frustrated_k>=0.7",
+      "method": "B4",
+      "p": 0.01,
+      "mask": "all",
+      "points": 140,
+      "mean_c_new": 0.1570487153744895,
+      "mean_c_old": 0.2663173725072698,
+      "new_wins": 128
+    },
+    {
+      "stratum": "frustrated_k>=0.7",
+      "method": "B4",
+      "p": 0.01,
+      "mask": "common_pass",
+      "points": 118,
+      "mean_c_new": 0.14608979121097532,
+      "mean_c_old": 0.24831255232540306,
+      "new_wins": 106
+    },
+    {
+      "stratum": "frustrated_k>=0.7",
+      "method": "B4",
+      "p": 0.05,
+      "mask": "all",
+      "points": 140,
+      "mean_c_new": 0.3884700263426961,
+      "mean_c_old": 0.4639667572944223,
+      "new_wins": 138
+    },
+    {
+      "stratum": "frustrated_k>=0.7",
+      "method": "B4",
+      "p": 0.05,
+      "mask": "common_pass",
+      "points": 118,
+      "mean_c_new": 0.36391209023846194,
+      "mean_c_old": 0.43643661584122495,
+      "new_wins": 116
+    }
+  ]
+}

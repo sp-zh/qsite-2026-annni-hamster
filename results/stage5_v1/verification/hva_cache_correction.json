@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-09-22T19:13:58.472249+00:00",
+  "issue": "Path.with_suffix treated fractional h as a filename suffix in auxiliary HVA cache stems, aliasing distinct h at fixed kappa. Affected B0 auxiliary comparisons were physically executed but not independently energy-optimized at every intended coordinate.",
+  "preserved": "verification/hva_before_fix plus unchanged end_to_end/hva and all old physical archives",
+  "correction": "New helper uses a SHA256 key including full coordinates, six-layer structure, seeds, optimizer, software and code hashes; saved JSON validates the full key and NPZ hash. All auxiliary B0 coordinates are actually optimized again, and affected raw noise/shot comparisons recomputed.",
+  "unaffected": [
+    "Stage3 original420 unique HVA archives",
+    "B3 and B5 circuits, frozen selectors and their noise/mitigation",
+    "D2 B3/B5 and fixed-structure controls",
+    "MPS and N12 candidate generation"
+  ],
+  "retuning": false,
+  "status": "completed_and_verified",
+  "completed_utc": "2026-09-22T19:28:06.571375+00:00",
+  "auxiliary_coordinates": 70,
+  "actual_seed_optimizations": 210,
+  "core_coordinates": 94,
+  "refined_coordinates": 40,
+  "verification": "verification/result_audit.json; all corrected keys, per-coordinate energies, selected parameters and B0 literal gates checked",
+  "legacy_audit": "verification/hva_legacy_coordinate_audit.json"
+}

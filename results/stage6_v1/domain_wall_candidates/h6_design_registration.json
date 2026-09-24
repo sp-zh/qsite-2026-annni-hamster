@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-09-22T23:24:30.711386+00:00",
+  "status": "registered_before_validation_and_confirmation_results",
+  "rule": "H6 wall component if .4<=kappa<=.6 and h<=.35, otherwise matched-effort physical greedy C0. H coefficients used only for generation dispatch, not detector inputs.",
+  "wall_choice": "C2 or C3 by frozen validation ranking; C1 and H6 are the only two new formal confirmation candidates",
+  "evidence": "Development: wall fixes at(.45,.15),(.5,.15); no joint fix at(.55,.15),(.8,.6); at(.3,1.2) wall C2/C3 cost59.27/98.56s versus C0/C1 13.97/13.82s. These are public development observations, not confirmation.",
+  "preserved": "All pure C0/C1/C2/C3 development/validation runs, including failures. H6 is an explicit fixed composite, never oracle method selection.",
+  "search_code": "8edfd4f3bf433fdf7d59a1732c444c067eff319b3b34981ee6116bd75e123990",
+  "runner_sha": "52c0deabb3cf8139a259912d67faf120b4771d17f844a69a243ba987051fde95",
+  "freeze_script_sha": "4f6bb8258160b4c87b62168e2cb3acf1995cc53bca6dea87530998f58eb84e9b"
+}

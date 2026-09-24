@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "n": 8,
+      "matrix_max_error": 1.7763568394002505e-15,
+      "dmrg_energy_error": -7.105427357601002e-15,
+      "obc_energy": -6.736044164111209,
+      "pbc_energy": -7.159576653851681
+    },
+    {
+      "n": 12,
+      "matrix_max_error": 3.552713678800501e-15,
+      "dmrg_energy_error": 1.0658141036401503e-14,
+      "obc_energy": -10.35661322054419,
+      "pbc_energy": -10.683189317027086
+    }
+  ]
+}

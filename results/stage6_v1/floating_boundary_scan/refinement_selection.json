@@ -1,0 +1,20 @@
+{
+  "time": "2026-09-22T22:30:21.486384+00:00",
+  "coarse_sha": "7b4934c9d6206f6be6cee9e1a79c451ee32387500cfc62691c757157e759a782",
+  "h": [
+    0.3,
+    0.325,
+    0.35,
+    0.4,
+    0.5,
+    0.525,
+    0.55,
+    0.6,
+    0.7
+  ],
+  "reason": "First locking/tail/response change .30-.35; upper broad crossover .50-.70 from tail decay and changing model extrapolation with increasing field. Include.40 middle control and.70 exponential/high-field control. .025 spacing in lower and first upper neighborhood. No c-nearest1 selection.",
+  "upper_boundary_not_assumed": 0.5,
+  "maximum_refined_points": 9,
+  "followup_trigger": "Contradictory bond/init/size evidence -> .0125 local windows orN160/192, not posthoc forced c=1",
+  "pair_sampling": "Midpointswithin2sitesofcenter; both ends central half; r<=N/3"
+}

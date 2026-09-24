@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "protected_files_unchanged": 20208,
+  "mps_artifacts_checked": 294,
+  "adaptive_states_reloaded": 2131,
+  "noise_archives_checked": 4197,
+  "full_density_archives": 1330,
+  "seconds": 13.074640167003963,
+  "checks": "all pure parameter reloads, global-X symmetry, full observable identities, signed error decomposition, literal CNOT channel counts, input axes and missing h0, real branch archive pairs",
+  "coverage_limit": "N8 PSD eigenchecks on deterministic every-20th stored matrix plus runtime each newly simulated N8; N12 trace/Hermiticity and validated CPTP gates, no full spectra",
+  "timestamp": "2026-09-22T07:57:34.317048+00:00"
+}

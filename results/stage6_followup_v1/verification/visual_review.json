@@ -1,0 +1,27 @@
+{
+  "time": "2026-09-24T01:06:22.322618+00:00",
+  "figures": [
+    {
+      "path": "results/stage6_followup_v1/figures/coverage_and_issues.png",
+      "sha256": "e474871faecc20b489ee48d6642d126ed3bef22049aa620218cc40dc7976cb51"
+    },
+    {
+      "path": "results/stage6_followup_v1/figures/equal_resource_MSE_cost.png",
+      "sha256": "e59c7ff368f30e49a5f7257b46491eb8fb76b409d5edbcd671f6c930aff05bba"
+    },
+    {
+      "path": "results/stage6_followup_v1/figures/equal_resource_window_features.png",
+      "sha256": "ef69c48902038f683430e4cd17813403f01a75a0842e16855a64b49aebfb402b"
+    },
+    {
+      "path": "results/stage6_followup_v1/figures/six_window_orders.png",
+      "sha256": "d69786102e8e1a1e5d62aef072141fb3231af12fb2a37f1e2483d3bad5c53635"
+    },
+    {
+      "path": "results/stage6_followup_v1/figures/six_window_responses.png",
+      "sha256": "28846e50c00b5161822c14604c0df4c7268312ecad72cdb6697390433c5b8cfd"
+    }
+  ],
+  "review": "All five figures visually inspected. Order axes anchored consistently, response axes shared across p per window, MSE uses shared log scale across p, resource axes start at zero. All peaks/endpoints, preparation failures, branch switches and empirical bands retained; no clipping or overlapping labels observed.",
+  "notebook_outputs": "Six executed cells; figures embedded and fresh count reconstruction passed."
+}

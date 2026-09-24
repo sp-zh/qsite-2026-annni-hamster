@@ -1,0 +1,2144 @@
+{
+  "version": 4,
+  "source": "results/stage6_v1/floating_boundary_scan/evidence_map_v4.json",
+  "source_sha256": "7949eba745eef185c049d9db1a70f3fcc1f9b85d97000f2d0781507ff0f2d798",
+  "rows": [
+    {
+      "h": 0.1,
+      "original_status": "antiphase_compatible_incomplete_controls",
+      "unmet_floating_evidence_gates": [
+        "required_control_missing",
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "OBC_c_outside_0.7_1.3",
+            "wavevector_not_resolved_from_pi_over_2"
+          ],
+          "power_heldout_ratios": [
+            1.0000084133565232,
+            1.0038141127970126
+          ],
+          "K": [],
+          "c": [
+            2.331862404413462e-05,
+            6.275063693247801e-05
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/a121541775c00d12acfb22ba873d2964f2ade2e824aeed20e8fd2ec6f1b57d24.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.15,
+      "original_status": "antiphase_compatible_incomplete_controls",
+      "unmet_floating_evidence_gates": [
+        "required_control_missing",
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "OBC_c_outside_0.7_1.3",
+            "wavevector_not_resolved_from_pi_over_2"
+          ],
+          "power_heldout_ratios": [
+            1.0000087672482914,
+            1.00381396727873
+          ],
+          "K": [],
+          "c": [
+            0.00010544149695806387,
+            0.0002837727580487854
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/c76738943be4316d49fde824543d149522bb01285091086d08a334bbb94a6860.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.2,
+      "original_status": "antiphase_compatible_incomplete_controls",
+      "unmet_floating_evidence_gates": [
+        "required_control_missing",
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "OBC_c_outside_0.7_1.3",
+            "wavevector_not_resolved_from_pi_over_2"
+          ],
+          "power_heldout_ratios": [
+            1.000010049745836,
+            1.003813648834429
+          ],
+          "K": [],
+          "c": [
+            0.0003094429629947833,
+            0.0008345684820282819
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/8e916f0398b64a6b3ef2a711c037895382a912a2f6e90639e83a0aeda7a85ecc.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.25,
+      "original_status": "antiphase_compatible_incomplete_controls",
+      "unmet_floating_evidence_gates": [
+        "required_control_missing",
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "OBC_c_outside_0.7_1.3",
+            "wavevector_not_resolved_from_pi_over_2"
+          ],
+          "power_heldout_ratios": [
+            1.0000133527373225,
+            1.00381269483768
+          ],
+          "K": [
+            0.4
+          ],
+          "c": [
+            0.0006998506373596905,
+            0.0019622398970224894
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/0259b5e7ed9438fd43bd881fb08085efe4d9928935dce7023a10b076875b01a5.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.3,
+      "original_status": "supported_antiphase_sample",
+      "unmet_floating_evidence_gates": [
+        "N96_power_wavevector_consistency_missing",
+        "plus:power_not_10_percent_better_than_both_competitors_in_all_windows",
+        "plus:Friedel_fit_not_valid",
+        "plus:Friedel_windows_not_stable",
+        "plus:OBC_c_outside_0.7_1.3",
+        "plus:wavevector_not_resolved_from_pi_over_2",
+        "antiphase:power_not_10_percent_better_than_both_competitors_in_all_windows",
+        "antiphase:Friedel_fit_not_valid",
+        "antiphase:Friedel_windows_not_stable",
+        "antiphase:OBC_c_outside_0.7_1.3",
+        "antiphase:wavevector_not_resolved_from_pi_over_2"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "OBC_c_outside_0.7_1.3",
+            "wavevector_not_resolved_from_pi_over_2"
+          ],
+          "power_heldout_ratios": [
+            1.0000250182021342,
+            1.0038086557850432
+          ],
+          "K": [
+            0.4,
+            0.4
+          ],
+          "c": [
+            -0.0002849710549876822,
+            0.0037609655346967363
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/f4975d7a29fbddcf4420dc0a3363a8a541a16066666e06d3e1704b98ce45382b.npz"
+        },
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "OBC_c_outside_0.7_1.3",
+            "wavevector_not_resolved_from_pi_over_2"
+          ],
+          "power_heldout_ratios": [
+            0.9997640557731833,
+            0.9998834402332426
+          ],
+          "K": [
+            0.4
+          ],
+          "c": [
+            -0.0012113176916011892,
+            0.0027924806532428218
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/d843fd1bc226f767f0d53417ef52e0ed261886792295765b92d4df95b86c7476.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "OBC_c_outside_0.7_1.3",
+            "wavevector_not_resolved_from_pi_over_2"
+          ],
+          "power_heldout_ratios": [
+            1.0007771207363596,
+            1.0000095041997477
+          ],
+          "K": [
+            0.4
+          ],
+          "c": [
+            0.0007673442688095443,
+            0.0021361071932223703
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/5d4536c966d068ad259b23835e61854437217f63feb9256f8213918c13e32875.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "OBC_c_outside_0.7_1.3",
+            "wavevector_not_resolved_from_pi_over_2"
+          ],
+          "power_heldout_ratios": [
+            1.0007771351718673,
+            1.000009502753944
+          ],
+          "K": [
+            0.4
+          ],
+          "c": [
+            0.0007673442688646232,
+            0.002136107193332126
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/2de01a50b5965911247e406a1c16e07622b0eded2dcaffb4674ffd65b0c60b25.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "OBC_c_outside_0.7_1.3",
+            "wavevector_not_resolved_from_pi_over_2"
+          ],
+          "power_heldout_ratios": [
+            1.0007771110835042,
+            1.0000095031639018
+          ],
+          "K": [
+            0.4
+          ],
+          "c": [
+            0.0007673442688508901,
+            0.002136107193345352
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/626dc9b3c8af573982aaabb449376cc865d4d1f6a59f5d0d03cc044f6b0b7303.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.3125,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "required_control_missing",
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing"
+      ],
+      "signatures": [
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": false,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            1.6633534139049118,
+            1.2025371634008217
+          ],
+          "K": [
+            0.17457954739253245,
+            0.0823314106184538
+          ],
+          "c": [
+            1.4863674712155195,
+            -1.6520088890401223
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/28e3adb6d93afa48d7df4a796f2ef5ce218d4b2743b5a87c882fd17bd047cd9c.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            1.6320741161937313,
+            1.0471405741396473
+          ],
+          "K": [
+            0.26971549486944424,
+            0.11759771620837367
+          ],
+          "c": [
+            1.481864264422002,
+            -1.9159816538832364
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/b1bdb1d9f5dcca99c97e825e11b95ada61afa391671fde30f60899af02d52d4b.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.325,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing",
+        "antiphase:power_not_10_percent_better_than_both_competitors_in_all_windows",
+        "antiphase:OBC_c_outside_0.7_1.3",
+        "plus:power_not_10_percent_better_than_both_competitors_in_all_windows",
+        "plus:OBC_c_outside_0.7_1.3"
+      ],
+      "signatures": [
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": false,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.8967447379884751,
+            1.0244892540397563
+          ],
+          "K": [
+            0.2930078908335191,
+            0.24304600845962504
+          ],
+          "c": [
+            0.6198143530576633,
+            1.7183605245115718
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/5fb975c084adafaa6b4172159555cb84d63184e3d3ad630c4b00e67dd4cc016e.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": false,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.8943475135210666,
+            1.151103105540673
+          ],
+          "K": [
+            0.28123313271005235,
+            0.256101765427398
+          ],
+          "c": [
+            0.5919715748765828,
+            1.8703487363162923
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/6660266ad612b23194a11c692bf75e8c4bba0ffcdf75a14876c15ed33db6e813.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": false,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.8943600793773876,
+            1.1511086299321796
+          ],
+          "K": [
+            0.2811951048323859,
+            0.2560583179402818
+          ],
+          "c": [
+            0.5897167506849842,
+            1.8685312223804376
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/df61bfb21bce2aef9607e6cc30eb647b3a0e5939967e3e0531051969343a4c7d.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": false,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.8943431021672187,
+            1.1511009129501946
+          ],
+          "K": [
+            0.2812411880351787,
+            0.2561188762539713
+          ],
+          "c": [
+            0.5923634501857371,
+            1.8707771082460196
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/16bfaa537f310bd9509bf86c1ed3fc6b08e9d8046fa24d9e094e320562786099.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.3375,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "required_control_missing",
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing"
+      ],
+      "signatures": [
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": false,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.8978123389399889,
+            1.0207839731697093
+          ],
+          "K": [
+            0.3009349696232665,
+            0.2511378785373123
+          ],
+          "c": [
+            0.6457334946867872,
+            1.709586878626106
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/9b6c50e2d8d6367bc08bf0f8dbcd76c32dfb11c489c27fdf521bdd853275d9b1.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": false,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.8045900161510635,
+            1.2045527558502007
+          ],
+          "K": [
+            0.3122826849091988,
+            0.299005801677546
+          ],
+          "c": [
+            1.139394543805904,
+            0.6211901785607352
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/abdfd6d26147a9b271d633d3b4a84f389a19a80fe1b8622777fa4f80bfb89821.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.35,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing",
+        "antiphase:power_not_10_percent_better_than_both_competitors_in_all_windows",
+        "plus:power_not_10_percent_better_than_both_competitors_in_all_windows"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.9179254615588669,
+            0.9901670613256396
+          ],
+          "K": [
+            0.32762232016125076,
+            0.19788417068717143
+          ],
+          "c": [
+            0.7535777748068808,
+            1.4177640148841353
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/8c91172aad84400357c26db2a248866c476373b07bb855ccd898e5028b263a62.npz"
+        },
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": false,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.7875773711397469,
+            1.3788194359730248
+          ],
+          "K": [
+            0.3289088496394623,
+            0.3212906112807217
+          ],
+          "c": [
+            1.1336157891239265,
+            0.6843740869861852
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/1f08678c8aca18bfe11390ad675a63520cf5166b6ebbb0d96c8f6338de93ed55.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": false,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows"
+          ],
+          "power_heldout_ratios": [
+            1.120095675858164,
+            0.9772394266586775
+          ],
+          "K": [
+            0.32214836366416644,
+            0.3230889288124055
+          ],
+          "c": [
+            0.9978590154010863,
+            1.2035663631723663
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/b40aa080489caa9b67d8553e58f163809c3e4c3d28caf52dd05683bf7fdf891f.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": false,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows"
+          ],
+          "power_heldout_ratios": [
+            1.120246473679668,
+            0.9772901142403869
+          ],
+          "K": [
+            0.321720908024663,
+            0.32262886553971853
+          ],
+          "c": [
+            0.9867052313814777,
+            1.1947364310590936
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/b01aa8cdd129255100a5d00bf62fe2499ef70e08c80eac5aa1f10a836be52eba.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": false,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows"
+          ],
+          "power_heldout_ratios": [
+            1.1200831547491217,
+            0.9772410584465836
+          ],
+          "K": [
+            0.32220639267459333,
+            0.323155083526364
+          ],
+          "c": [
+            0.9990392060183544,
+            1.2045708571741018
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/1dc156606ebdad12cbb2d5d73f5c2d0ff688c16c4f62910834583b0d999ab055.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.375,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "required_control_missing",
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing"
+      ],
+      "signatures": [
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows"
+          ],
+          "power_heldout_ratios": [
+            1.11452758113219,
+            0.9636746376679708
+          ],
+          "K": [
+            0.35187653930813756,
+            0.3508640751939901
+          ],
+          "c": [
+            1.0681797396554558,
+            1.1732333334008513
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/5a6df06aa321cbd65f6e9e406f5ff795871517eaf750e4e6e09c0d5e0f33d031.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": false,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows"
+          ],
+          "power_heldout_ratios": [
+            1.1139779138380599,
+            0.8945975571479733
+          ],
+          "K": [
+            0.3394273174014954,
+            0.3380919619500189
+          ],
+          "c": [
+            0.9390842355088445,
+            0.9541389837944844
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/d87669b644059950b9cabe195954bdb67165c691db52c9333cad09e9b69607eb.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.4,
+      "original_status": "candidate_floating_missing_convergence_or_size_controls",
+      "unmet_floating_evidence_gates": [
+        "converged_size_has_valid_K_outside_floating_range",
+        "larger_size_conflicting_signature"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows"
+          ],
+          "power_heldout_ratios": [
+            1.258979132327735,
+            1.2422788387506367
+          ],
+          "K": [
+            0.3692579404286029,
+            0.37601632478935054
+          ],
+          "c": [
+            1.047930245770792,
+            0.8308555095514834
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/43b3700a8f0c9f10417e6b2e3133f7cd5390fcec89bd093460e3469b5d51db30.npz"
+        },
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.599692982907387,
+            0.8507005823561795
+          ],
+          "K": [
+            1.398755534386187,
+            1.6909598698256245
+          ],
+          "c": [
+            1.40518615458294,
+            1.5124384429962854
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/6b790e8404d881118afe47ef2191b84d82533185a2e35b54033eda9dbff08c5c.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [],
+          "power_heldout_ratios": [
+            0.6928005381845915,
+            0.8086902418163238
+          ],
+          "K": [
+            0.3591875212609159,
+            0.359716819274866
+          ],
+          "c": [
+            1.0146023142497083,
+            0.9771262919766122
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/d73c55c9f3e412e8daadb4241b341025ddeae009df1dea596b3f552a55fc71b8.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [],
+          "power_heldout_ratios": [
+            0.6927994217434114,
+            0.8087178477734779
+          ],
+          "K": [
+            0.35919260705255035,
+            0.35972214352187426
+          ],
+          "c": [
+            1.014672443769224,
+            0.977227040878085
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/ec1dab124ef111f36c29979241c38d0260a9eff1086991a6b61779a24da5fe19.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [],
+          "power_heldout_ratios": [
+            0.6927993909607315,
+            0.8087178187574419
+          ],
+          "K": [
+            0.35919261000914715,
+            0.35972213699480443
+          ],
+          "c": [
+            1.014672504629251,
+            0.9772270871238319
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/fe5db10cc1834ae36c5e2101f4127193f2f84afc7f2e2f7a7a9abfbf4ad76fd5.npz"
+        },
+        {
+          "n": 96,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.59970332105664,
+            0.8507276363083748
+          ],
+          "K": [
+            1.3987609278449746,
+            1.6909679045107615
+          ],
+          "c": [
+            1.4052017215543757,
+            1.5124610998146504
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/7140a92fdeb2841e72b79cf3e068c263d3f29658791f38def1bcb97426c7541c.npz"
+        },
+        {
+          "n": 96,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.5997033173630316,
+            0.850727659937567
+          ],
+          "K": [
+            1.3987608953272404,
+            1.6909678538312385
+          ],
+          "c": [
+            1.4052017127354306,
+            1.5124610900143405
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/4a99ab84b89f38ba4cdff5485ccef92425bd783c4b2e2e0ac11f9ad28897c0c5.npz"
+        },
+        {
+          "n": 160,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.6609106571007802,
+            0.710146864863381
+          ],
+          "K": [
+            0.539550260175927,
+            0.5592817390502902
+          ],
+          "c": [
+            1.1376825700456936,
+            1.1846182698714167
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/1478720020cc6eb50f1cc1e9fe886c57b02faef016d75bb6812be20def4bf268.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.425,
+      "original_status": "candidate_floating_missing_convergence_or_size_controls",
+      "unmet_floating_evidence_gates": [
+        "plus:power_not_10_percent_better_than_both_competitors_in_all_windows",
+        "antiphase:power_not_10_percent_better_than_both_competitors_in_all_windows"
+      ],
+      "signatures": [
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [],
+          "power_heldout_ratios": [
+            0.8520067345311145,
+            0.8829242803066265
+          ],
+          "K": [
+            0.38088685384373594,
+            0.3785737884498057
+          ],
+          "c": [
+            1.0330662241679212,
+            1.038182836725149
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/0e2bb9704f43d4c813e5a3043c4d7f3ac4f29d9e7295a062d481595d2444d337.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows"
+          ],
+          "power_heldout_ratios": [
+            0.6764768586847759,
+            0.9356076688248113
+          ],
+          "K": [
+            0.4190517458705869,
+            0.4194489530910054
+          ],
+          "c": [
+            1.0699145415722289,
+            1.0016990057364672
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/b5a05f251a0abae8511ea9bc28f8b0017b365f73d70eb9319a9da24798ae7862.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows"
+          ],
+          "power_heldout_ratios": [
+            0.6764813756914799,
+            0.9356525414565297
+          ],
+          "K": [
+            0.4190583497247989,
+            0.4194556096326068
+          ],
+          "c": [
+            1.070004289652923,
+            1.0018280880972812
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/d46e5686f827a7a2bb2a937c17a07cf33ea72a335f1febc3a82841c8ddf15d31.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows"
+          ],
+          "power_heldout_ratios": [
+            0.6764813679759254,
+            0.9356525758689044
+          ],
+          "K": [
+            0.41905834722200946,
+            0.41945560730082937
+          ],
+          "c": [
+            1.0700042882308927,
+            1.0018280870842269
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/6d3c2ab32dfac49d28d3848d0a5455d422d9c9cf8ccaf13c287e7c40705dd67d.npz"
+        },
+        {
+          "n": 160,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.06405069874037089,
+            0.19448592238665247
+          ],
+          "K": [
+            1.9999999999999998,
+            1.9999999999999998
+          ],
+          "c": [
+            1.2928974176937034,
+            1.3478034841056092
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/2f529f93fcb5ad3343be462584a347bc91ccbd49574567c372cec70005c9720a.npz"
+        },
+        {
+          "n": 160,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.06405105018866447,
+            0.1944863349128986
+          ],
+          "K": [
+            1.9999999999999998,
+            1.9999999999999998
+          ],
+          "c": [
+            1.2928972701698662,
+            1.347803254889488
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/e32d347191d4e869d42b8626187721e15f0ce1ae6025d71390389ca6171a90ce.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.45,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "plus:Friedel_fit_not_valid",
+        "plus:Friedel_windows_not_stable",
+        "plus:K_outside_open_interval_0.25_0.5",
+        "antiphase:Friedel_fit_not_valid",
+        "antiphase:Friedel_windows_not_stable",
+        "antiphase:K_outside_open_interval_0.25_0.5"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.23282514906796237,
+            0.6360194852031517
+          ],
+          "K": [
+            1.9605769467877747,
+            1.9999999999999998
+          ],
+          "c": [
+            1.2095608188128864,
+            1.2292054288190557
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/d156c580048455199290c46a6c9c384861d34b2c2b8bd896ee7971b830b58dbc.npz"
+        },
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.10156184602888792,
+            0.20600899826777383
+          ],
+          "K": [
+            1.9999999999999267,
+            1.9999999999999998
+          ],
+          "c": [
+            1.202654727814014,
+            1.2136018402608109
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/105ae86ed4066078bb21b27ee290e71f4737a266b4eafdff026f64e9abb02a14.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.29404496387214085,
+            0.5108102678953858
+          ],
+          "K": [
+            1.0627699997609847,
+            1.1663013800993347
+          ],
+          "c": [
+            1.161909053390962,
+            1.1276019185202815
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/8e9d694d00fe680ad212a87afc1bc672dac626dc5c9f68267dcd39874b938af5.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.2940349055153997,
+            0.5108256747812613
+          ],
+          "K": [
+            1.0627806413055003,
+            1.1663128185930043
+          ],
+          "c": [
+            1.1620113908223768,
+            1.1277491984820174
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/f710fdfda039c991df7fa1bed53fac809182339a9a97bb36d9b733ba1649616d.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.2940348906321572,
+            0.51082587685991
+          ],
+          "K": [
+            1.062780647529602,
+            1.166312833536841
+          ],
+          "c": [
+            1.1620113605180211,
+            1.1277491636052188
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/2cf7e8636b901f0ed193510682340bc58f84f92b76106a33f999889691d82b9c.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.475,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "converged_size_has_valid_K_outside_floating_range"
+      ],
+      "signatures": [
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.5485550613097623,
+            0.8927019838802491
+          ],
+          "K": [
+            0.5268638668645736,
+            0.5323363817232771
+          ],
+          "c": [
+            1.0795744664510887,
+            1.0493447373404283
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/29f2509fa8e186d7f51b123920d68b83911df249c2625a3ecf00176f2df917a2.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [],
+          "power_heldout_ratios": [
+            0.37459578306830393,
+            0.7327190373815892
+          ],
+          "K": [
+            0.49523259389134294,
+            0.49802656333843337
+          ],
+          "c": [
+            1.0764496380292843,
+            1.0871319295249846
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/b652d7297016303a6ee67d4b9e3be60e574e069bab21cbc5a155a43764327f5b.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [],
+          "power_heldout_ratios": [
+            0.3746055468896473,
+            0.7327697822409124
+          ],
+          "K": [
+            0.4952393221677662,
+            0.4980330989191146
+          ],
+          "c": [
+            1.0765420742646339,
+            1.0872645408022077
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/0057cd2c324f909b5d4f993ec2fd9f3c204fbb2a2585311be55f409e00953482.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [],
+          "power_heldout_ratios": [
+            0.37460556011815316,
+            0.7327698536275077
+          ],
+          "K": [
+            0.49523934237039474,
+            0.49803312257604637
+          ],
+          "c": [
+            1.0765420799436924,
+            1.0872645451021494
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/e29936f3ec1c730c89f3695700c38821bb27f7e5d82b82772b50694b12c37c0c.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.4875,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "required_control_missing",
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing",
+        "converged_size_has_valid_K_outside_floating_range"
+      ],
+      "signatures": [
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.4723513074249003,
+            0.8317315815677163
+          ],
+          "K": [
+            0.5510834393482635,
+            0.5558824622665963
+          ],
+          "c": [
+            1.0663456709287145,
+            1.0365705018009637
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/a38a2978ef6968b407717c36253c1fe13bc296c93890e8be4d63b9f453ed384b.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.24919034540719504,
+            0.5562325785515512
+          ],
+          "K": [
+            0.6124825452836337,
+            0.6337309295397057
+          ],
+          "c": [
+            1.0580584668511475,
+            1.0643893456537463
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/0a7c827dd56fcd12c7f43b65d281aa7659d3e28fd7e6dedf2cea2b9fa924e6da.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.5,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "converged_size_has_valid_K_outside_floating_range",
+        "antiphase:Friedel_fit_not_valid",
+        "antiphase:Friedel_windows_not_stable",
+        "antiphase:K_outside_open_interval_0.25_0.5",
+        "plus:Friedel_fit_not_valid",
+        "plus:Friedel_windows_not_stable",
+        "plus:K_outside_open_interval_0.25_0.5"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.5503637997493495,
+            0.6413892198364219
+          ],
+          "K": [
+            0.6324569254462847,
+            0.6290544891158234
+          ],
+          "c": [
+            1.054441796834155,
+            1.1137899696162168
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/b3c6cba5cc0d7dfe6277aef2d155930338032cc207beea82ba4f4ced69c87cbf.npz"
+        },
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.27001110599079287,
+            0.5238932616895722
+          ],
+          "K": [
+            0.8046910559342003,
+            0.8671542647068755
+          ],
+          "c": [
+            1.0199476120747988,
+            0.9899652915458252
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/6ecc0dd8853ee23ec59ce7e5e19ae5b51f806d955b938da5a7023d87ce340b97.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.04837497781634454,
+            0.12088015733652352
+          ],
+          "K": [
+            1.6697893799954708,
+            1.999999999386931
+          ],
+          "c": [
+            0.9797921942733953,
+            0.975102543410163
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/8d9d30673cf442cfdcd435970253cb6f0a95a4bdc1127d354a52b612dd37db04.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.048377097490844664,
+            0.12086286333011949
+          ],
+          "K": [
+            1.6697949425873888,
+            1.9999999993870408
+          ],
+          "c": [
+            0.9798721241219073,
+            0.9752169936165787
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/81986acc00ac38735700d3e3a2afcd4d7e6f1a997addaea8110fb3b798715e02.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.04837709241008835,
+            0.12086287189760492
+          ],
+          "K": [
+            1.6697949699535086,
+            1.9999999993870277
+          ],
+          "c": [
+            0.9798721241586628,
+            0.9752169909351784
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/7cbc2a617f60168602bc5169659eeb370a3ed66b76333141ab55ce0d68d83bdd.npz"
+        },
+        {
+          "n": 192,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.11027376989437501,
+            0.16170036902424031
+          ],
+          "K": [
+            1.0266887328749024,
+            1.1165783430805472
+          ],
+          "c": [
+            0.9695958667016269,
+            0.9667953010583163
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/a243d0886b7cb6174710b52d04465f50b378d0aa9a062fa68d15c10aee94d25d.npz"
+        },
+        {
+          "n": 192,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.1102654275089215,
+            0.16164928134709813
+          ],
+          "K": [
+            1.026752098941086,
+            1.1166411841651656
+          ],
+          "c": [
+            0.9702874392840893,
+            0.9677770757979636
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/b1cd8968ac983dae03edbc43ec627e620e5560a6c7b1db1eac5556304ba42724.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.525,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "antiphase:Friedel_windows_not_stable",
+        "antiphase:K_outside_open_interval_0.25_0.5",
+        "plus:Friedel_windows_not_stable",
+        "plus:K_outside_open_interval_0.25_0.5"
+      ],
+      "signatures": [
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.0534368491272265,
+            0.1360819062385843
+          ],
+          "K": [
+            1.9999999999999996,
+            1.9999999999999998
+          ],
+          "c": [
+            0.85632120794419,
+            0.8220713782283976
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/0fbe12d7f0a0d85c78c4f8603656c5256dbf7d0a27fdf49b25c2f5d0a07c562b.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.0858239223973572,
+            0.2459669825112077
+          ],
+          "K": [
+            1.1274828001758046,
+            1.2570565867506671
+          ],
+          "c": [
+            0.8669557797569468,
+            0.8573516510762313
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/4d2f8031e4398c56717cb42076bc62ae71edd44236528e3f67849538e42e0fb7.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.08582607520562437,
+            0.24591213302391932
+          ],
+          "K": [
+            1.1274864787144503,
+            1.257059733120905
+          ],
+          "c": [
+            0.8670162322109791,
+            0.8574378689459262
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/883e0a3c664d736ed5f6c4a3f0a03cea30019ac972fb694a53a2dff4faedd748.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.08582606393452709,
+            0.24591221056466647
+          ],
+          "K": [
+            1.127486480218556,
+            1.2570597381318551
+          ],
+          "c": [
+            0.8670162422131229,
+            0.8574378840441162
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/a52a81871212b2c1cec5d2746e5a7effe0476a9c387ee13e4a9f61321fd0ccc8.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.55,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "antiphase:Friedel_windows_not_stable",
+        "antiphase:K_outside_open_interval_0.25_0.5",
+        "antiphase:OBC_c_outside_0.7_1.3",
+        "plus:Friedel_windows_not_stable",
+        "plus:K_outside_open_interval_0.25_0.5",
+        "plus:OBC_c_outside_0.7_1.3"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5"
+          ],
+          "power_heldout_ratios": [
+            0.08661430888128716,
+            0.2017986998501605
+          ],
+          "K": [
+            1.9999999999999998,
+            1.9999999999999998
+          ],
+          "c": [
+            0.7710187377144014,
+            0.7741665551749123
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/8cff3980c2bf2f3edcc0204b8bd2c1fad00811b5df62c45be87be9cbf5a6e493.npz"
+        },
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.10086234789923094,
+            0.35233955316698273
+          ],
+          "K": [
+            1.5108606711944401,
+            1.8267279896257214
+          ],
+          "c": [
+            0.7303056258765896,
+            0.6966840379896897
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/b2949736789facf762ad58bf19bd9aaac3010a107aedb6375630d332e545002b.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.08268138573828986,
+            0.2691169295405457
+          ],
+          "K": [
+            1.5025002589022212,
+            1.6729902178502003
+          ],
+          "c": [
+            0.6807013891482141,
+            0.6584439441796891
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/40b27101c0e043b19a9825393fadcfc66b6fc5330144d6be37d777a5b8c4fdc1.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.08268078241100743,
+            0.26907884076314353
+          ],
+          "K": [
+            1.5025013517421602,
+            1.672991085156085
+          ],
+          "c": [
+            0.6807395353532752,
+            0.6584979641112049
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/7b1b3168e7b2a9632cfdb0ea89982cc3820f2ff9f13ae824fa8a7a8599937396.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.08268075883862025,
+            0.26907888408554825
+          ],
+          "K": [
+            1.5025013464159698,
+            1.6729910740288125
+          ],
+          "c": [
+            0.680739546028089,
+            0.6584979765685286
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/198eb974fbad6bac6b8861b623fa08c529dff32d4f3d8fdef60e4c9529d84a58.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.6,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "antiphase:Friedel_fit_not_valid",
+        "antiphase:Friedel_windows_not_stable",
+        "antiphase:K_outside_open_interval_0.25_0.5",
+        "antiphase:OBC_c_outside_0.7_1.3",
+        "plus:Friedel_fit_not_valid",
+        "plus:Friedel_windows_not_stable",
+        "plus:K_outside_open_interval_0.25_0.5",
+        "plus:OBC_c_outside_0.7_1.3"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.15416646123596126,
+            0.5085124064275627
+          ],
+          "K": [
+            1.9999999999999998,
+            1.9999999972396572
+          ],
+          "c": [
+            0.5079166816315217,
+            0.485331688827383
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/2bea793514f4df77c10f8548c1ba9db5b91e923dc534abcb01c35e6d8c7358d7.npz"
+        },
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.3195186697025313,
+            0.7459535232306737
+          ],
+          "K": [
+            1.9999999999999998,
+            1.999999976519606
+          ],
+          "c": [
+            0.38821600295465586,
+            0.34258269578417444
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/f739286cf9e6dcbcab4a72c6beeae7bd0ce1897a00dbf53965c678084a66498e.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.3996137221044497,
+            0.8243524182402798
+          ],
+          "K": [
+            1.9999999999999998,
+            1.9999999999998708
+          ],
+          "c": [
+            0.2998419086197237,
+            0.25728670439025386
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/7210c6ab9afe324b6392e0b6cf6e4109d05e22b2bc3f0a16f08d739be6b89e61.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.39960363807187843,
+            0.8244297269722297
+          ],
+          "K": [
+            1.9999999999999998,
+            1.9999999999998708
+          ],
+          "c": [
+            0.2998492979591593,
+            0.2572970155369095
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/f2521270635f68e5d676569bb3551f8b194f235a9b428b9b647d7d75fcb160cf.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.3996036388394982,
+            0.8244295802047802
+          ],
+          "K": [
+            1.9999999999999998,
+            1.9999999999998708
+          ],
+          "c": [
+            0.29984929890963596,
+            0.2572970165720835
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/29a72e68ba36f284a2686d62df40af0e586c56e4c1cdf41b7308d062e896e72d.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.65,
+      "original_status": "finite_size_crossover_unresolved",
+      "unmet_floating_evidence_gates": [
+        "required_control_missing",
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            0.4981851035571826,
+            1.2655659625431204
+          ],
+          "K": [
+            1.999999999905776,
+            1.9999999999999998
+          ],
+          "c": [
+            0.28255357881878074,
+            0.2483749703605473
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/8f23015ae1d980eb4ed9e0ee1bbfe27a51228bac936c0b0f06640829e06914d1.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.7,
+      "original_status": "supported_paramagnetic_side_sample",
+      "unmet_floating_evidence_gates": [
+        "N96_power_wavevector_consistency_missing",
+        "antiphase:power_not_10_percent_better_than_both_competitors_in_all_windows",
+        "antiphase:Friedel_fit_not_valid",
+        "antiphase:Friedel_windows_not_stable",
+        "antiphase:K_outside_open_interval_0.25_0.5",
+        "antiphase:OBC_c_outside_0.7_1.3",
+        "plus:power_not_10_percent_better_than_both_competitors_in_all_windows",
+        "plus:Friedel_fit_not_valid",
+        "plus:Friedel_windows_not_stable",
+        "plus:K_outside_open_interval_0.25_0.5",
+        "plus:OBC_c_outside_0.7_1.3"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            1.159799583241519,
+            2.6108294613596374
+          ],
+          "K": [
+            1.9999999999999998,
+            1.9999999999999998
+          ],
+          "c": [
+            0.14324517257695912,
+            0.11069579038373327
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/134bfc7b2c5298495aa6102424f19d6f29a37df79e5e02ba2e1fcfe91eb04203.npz"
+        },
+        {
+          "n": 96,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            2.2332732711770262,
+            4.20506301348169
+          ],
+          "K": [
+            1.9999999999999998,
+            1.999999999525478
+          ],
+          "c": [
+            0.06117759670588861,
+            0.03528046152914521
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/4f896450ad33b716105723bdc4343ab89cca81bcedcd26ff67130a23f57c92c3.npz"
+        },
+        {
+          "n": 128,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            3.327350276979568,
+            6.290996974976964
+          ],
+          "K": [
+            1.9999999999999967,
+            1.9999995318105859
+          ],
+          "c": [
+            0.027275928756615588,
+            0.01223287041362042
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/26f58ee8c1c471e06794d6af45e4f18651314d608b6cefd05a62fb02f177ca07.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "antiphase",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            3.3273381503974493,
+            6.291104657922072
+          ],
+          "K": [
+            1.9999999999999967,
+            1.999999531811538
+          ],
+          "c": [
+            0.02727598738257317,
+            0.012232946580955334
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/d2dbeb0ce266b14410e21fe162c0f9a6fd9dfbe00a54211a2644d5955b80d138.npz"
+        },
+        {
+          "n": 128,
+          "chi": 256,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            3.327338118301327,
+            6.291104425802263
+          ],
+          "K": [
+            1.9999999999999967,
+            1.999999531810914
+          ],
+          "c": [
+            0.027275987389463113,
+            0.012232946587894488
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/064bfba59287447b2e5039957608ace692f55f8db800e758d392f564fe55d9ad.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.75,
+      "original_status": "paramagnetic_compatible_incomplete_controls",
+      "unmet_floating_evidence_gates": [
+        "required_control_missing",
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            2.141746212983315,
+            4.583964108674336
+          ],
+          "K": [
+            1.9999999999999996,
+            1.999999999999923
+          ],
+          "c": [
+            0.0709508606544114,
+            0.04660961202769169
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/fd1fa61b5506092b93e049cf74dc1226fc9cd4d38ea48e9da521793504368d94.npz"
+        }
+      ]
+    },
+    {
+      "h": 0.8,
+      "original_status": "paramagnetic_compatible_incomplete_controls",
+      "unmet_floating_evidence_gates": [
+        "required_control_missing",
+        "required_solver_stop_missing",
+        "bond_or_initial_agreement_not_established",
+        "N96_power_wavevector_consistency_missing"
+      ],
+      "signatures": [
+        {
+          "n": 64,
+          "chi": 128,
+          "initial": "plus",
+          "solver_stopping_pass": true,
+          "failed_signature_checks": [
+            "power_not_10_percent_better_than_both_competitors_in_all_windows",
+            "Friedel_fit_not_valid",
+            "Friedel_windows_not_stable",
+            "K_outside_open_interval_0.25_0.5",
+            "OBC_c_outside_0.7_1.3"
+          ],
+          "power_heldout_ratios": [
+            3.4616364972485827,
+            7.231064776477009
+          ],
+          "K": [
+            1.9999999990586346,
+            1.9999678465031487
+          ],
+          "c": [
+            0.03542324794469253,
+            0.01938996504318189
+          ],
+          "source": "results/stage6_v1/floating_boundary_scan/cache/644895da460476dbbfe43345339477f741990c143f21155d42a3853f19943c02.npz"
+        }
+      ]
+    }
+  ],
+  "scope": "Descriptive expansion of the existing frozen criteria, not new phase assignments. The legacy candidate status name can mention missing controls even when all solver/bond/initial controls pass and correlation-model separation instead fails. A10percent predictive-error margin is a predeclared engineering discriminator, not a statistical significance test or a proof excluding a phase."
+}

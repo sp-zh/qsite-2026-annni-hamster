@@ -1,0 +1,21 @@
+{
+  "measurement": "results/stage6_followup_v1/measurements/03d1fafa94b8f23e6f98180065b972246037d3dcaddfd62b043c6831cce6e564.json",
+  "environment": {
+    "python": "3.14.5",
+    "python_build": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "bit_generator": "PCG64"
+  },
+  "input_hashes": {
+    "results/stage6_followup_v1/measurements/03d1fafa94b8f23e6f98180065b972246037d3dcaddfd62b043c6831cce6e564.json": "42f7107d06c3d030dc282e36e7fc711a300b36fe9e1a7d983877e69f65394a8e",
+    "results/stage6_followup_v1/measurements/03d1fafa94b8f23e6f98180065b972246037d3dcaddfd62b043c6831cce6e564.npz": "51f533bb20ea3328d80eadc35896311b4be9714fb75d5e42ebebd410d4f94214",
+    "annni/upgrade_mitigation.py": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+    "annni/stage6_followup.py": "cad687c45d953231c7f96f592b0d6c15d3fee123f4f9ca5c13bf29b02c2a3563",
+    "results/stage6_followup_v1/probabilities/28cf9b231aeab86e7191a95b4128420b059f6f35e6701093be5fea49e4ce41af.npz": "a9fe18a70cd548dcb826b15467f70fc11e064c813351da57e56abb55dea10d11"
+  },
+  "original_seed_construction": "SeedSequence([9230626, *little-endian uint32 SHA256(json.dumps({key: archived key, repeat, fold, basis}, sort_keys=True))]); default_rng.multinomial",
+  "frozen_before_replay": true
+}

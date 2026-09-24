@@ -1,0 +1,41 @@
+{
+  "recorded_utc": "2026-09-23T04:22:14.991437+00:00",
+  "changes": [
+    {
+      "kind": "postprocessing_execution_error",
+      "script": "scripts/analyze_stage6_cross_structure.py",
+      "exception": "TypeError: 'PosixPath' object is not subscriptable",
+      "cause": "np.load(ROOT[path]) instead of np.load(ROOT/path)",
+      "resolution": "Path join corrected; all26 coordinates and78 method-pair density comparisons executed successfully. No scientific result file was written by the failed attempt.",
+      "raw_scientific_data_changed": false
+    },
+    {
+      "kind": "physical_denominator_bug",
+      "script": "scripts/summarize_stage6_boundary_denominators.py",
+      "cause": "Budget-specific groups omitted missing windows because missing rows had budget=None.",
+      "resolution": "Every group explicitly enumerates all6 requested kappa slices; all74 groups checked for6requested/5reference-resolvable. Original v1 preserved.",
+      "preserved_original": "results/stage6_v1/end_to_end/boundary_coordinate_coverage_v1.json",
+      "current": "results/stage6_v1/end_to_end/boundary_coordinate_coverage.json",
+      "raw_scientific_data_changed": false
+    },
+    {
+      "kind": "plotting_execution_error",
+      "script": "scripts/plot_stage6_n12_window.py",
+      "cause": "First plot call supplied16h coordinates for15 finite-difference response values; Matplotlib rejected the shape.",
+      "resolution": "Plot uses the actual15 h_mid coordinates. No result image was written by the failed attempt; corrected full figure executed and visually reviewed.",
+      "raw_scientific_data_changed": false
+    },
+    {
+      "kind": "cost_estimate_read_error",
+      "script": "scripts/estimate_stage6_n12_density_cost.py",
+      "cause": "Initial inline exploration tried to access redundant keys removed from compact index copies.",
+      "resolution": "Standalone estimator reads and hash-verifies the linked full original metadata. Estimated79.58minutes from actual gate tables, distinctly labelled as an estimate. Simulation data unchanged.",
+      "raw_scientific_data_changed": false
+    }
+  ],
+  "targeted_tests": {
+    "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m pytest tests/test_stage6.py -k 'executed_boundary or executed_same_coordinate' -q",
+    "actual_result": "2 passed,24 deselected in0.45s",
+    "scope": "Executed current workspace; full final suite remains separately recorded."
+  }
+}

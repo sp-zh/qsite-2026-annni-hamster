@@ -1,0 +1,13 @@
+{
+  "time": "2026-09-23T07:37:52.730719+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "executable": "LOCAL_USER/.cache/scientific-runtimes/python-runtime/dependencies/python/bin/python3",
+  "packages": {
+    "reportlab": "4.4.9",
+    "Pillow": "12.3.0",
+    "charset-normalizer": "3.5.1"
+  },
+  "minimal_lock": "requirements-stage6-documents.lock.txt",
+  "minimal_lock_sha256": "021c11c89b744d28ee4edfbdcfe5b764059ae8acb0a41241795f39d236319120",
+  "scope": "Separate bundled document runtime, used only for PDF generation. No scientific dependency or original lock upgraded. This is the minimal document dependency set, not the complete bundled runtime inventory."
+}

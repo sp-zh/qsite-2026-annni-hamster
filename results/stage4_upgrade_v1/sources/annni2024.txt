@@ -1,0 +1,1390 @@
+Exploring the Phase Diagram of the quantum one-dimensional ANNNI model
+M. Cea, 1, 2, ∗ M. Grossi, 3, † S. Monaco, 4, 5, ‡ E. Rico, 6, 7, 8, 9, § L. Tagliacozzo,10, ¶ and S. Vallecorsa 3, ∗∗
+1Max-Plank-Institut f¨ ur Quantenoptik, Hans-Kopfermann-Str. 1, D-85748 Garching, Germany
+2Munich Center for Quantum Science and Technology (MCQST), Schellingstr. 4, D-80799 M¨ unchen
+3European Organization for Nuclear Research (CERN), Geneva 1211, Switzerland
+4RWTH Aachen University, 52062 Aachen, Germany
+5Deutsches Elektronen-Synchrotron (DESY), D-22607 Hamburg, Germany
+6Department of Physical Chemistry, University of the Basque Country UPV/EHU, Box 644, 48080 Bilbao, Spain
+7Donostia International Physics Center, 20018 Donostia-San Sebasti´ an, Spain
+8EHU Quantum Center, University of the Basque Country UPV/EHU, P.O. Box 644, 48080 Bilbao, Spain
+9IKERBASQUE, Basque Foundation for Science, Plaza Euskadi 5, 48009 Bilbao, Spain
+10Institute of Fundamental Physics IFF-CSIC, Calle Serrano 113b, Madrid 28006, Spain
+(Dated: February 20, 2024)
+In this manuscript, we explore the intersection of Quantum Machine Learning (QML) and Tensor
+Networks (TNs) in the context of the one-dimensional Axial Next-Nearest-Neighbour Ising (ANNNI)
+model with a transverse field. The study aims to concretely connect QML and TN by combining
+them in various stages of algorithm construction, focusing on phase diagram reconstruction for the
+ANNNI model, with supervised and unsupervised techniques. The model’s significance lies in its
+representation of quantum fluctuations and frustrated exchange interactions, making it a paradigm
+for studying magnetic ordering, frustration, and the presence of a floating phase. It concludes
+with discussions of the results, including insights from increased system sizes and considerations for
+future work, such as addressing limitations in Quantum Convolutional Neural Networks (QCNNs)
+and exploring more realistic implementations of Quantum Circuits (QCs).
+I. INTRODUCTION
+QML and TNs are both advanced topics at the in-
+tersection of quantum computing and Machine Learning
+(ML), but they have different focuses and applications.
+Both QML and TNs involve concepts from quantum me-
+chanics. QML has the potential to provide exponential
+speedup for certain ML tasks, where quantum states can
+represent data and quantum gates can manipulate these
+states. However, it faces the challenge of the current non-
+fault tolerant era where, in practice, dealing with noise
+and the limited capacity of quantum chips is an active
+area of research. On the other hand, TNs are versatile
+mathematical tools for handling high-dimensional data in
+quantum physics and ML. They efficiently break down
+complex systems into manageable components, finding
+applications in quantum information theory, condensed
+matter physics, and deep learning, providing researchers
+with enhanced computational efficiency.
+In this paper we want to concretely connect these two
+sides of quantum computing, exploiting one or the other
+in the various stages of construction of the overall algo-
+rithm. While some literature explored the comparison of
+these two approaches, only a few examples focus on the
+proposed idea of combining these two techniques. Indeed,
+∗ maria.cea@mpq.mpg.de
+† michele.grossi@cern.ch
+‡ saverio.monaco@desy.de
+§ enrique.rico.ortega@gmail.com
+¶ luca.tagliacozzo@iff.csic.es
+∗∗ sofia.vallecorsa@cern.ch
+in the context of variational quantum algorithms, in [1, 2]
+the authors explored the use of Parametrized Quantum
+Circuits (PQCs) for calculating diverse properties of com-
+plex many-body systems, describing the benefits of this
+method relative to the use of TNs. While in [3], the paper
+describes a joint optimization framework utilizing both
+TNs and PQCs, the benefits of this style of joint train-
+ing are predicted to give improved performance in QML,
+eventually numerically verified in [4].
+Finally, [5] proposed a synergistic pretraining of quan-
+tum circuits via TNs applicable to a diverse range of
+circuit architectures and learning tasks, which was pre-
+dicted to yield benefits in performance and trainability
+within general ML tasks.
+In our work, we use TNs to prepare the initial state
+to be classified by a PQC. Specifically, we focus on the
+phase diagram reconstruction for the ANNNI model.
+The ANNNI model [6–9] with transverse field consists
+of ferromagnetic interactions, J1 > 0, between nearest
+neighbors and antiferromagnetic interactions, J2 < 0,
+between next-nearest neighbors, competing with each
+other. The Hamiltonian is written as
+HAN N N I = − J1
+N −1X
+i=1
+σx
+i σx
+i+1 − J2
+N −2X
+i=1
+σx
+i σx
+i+2
+− B
+NX
+i=1
+σz
+i , (1)
+which we can rewrite in terms of the adimensional ratios
+κ = −J2/J1 and h = B/J1. The former is called the
+frustration parameter.
+This is the simplest model combining the effect of
+quantum fluctuations (owing to the presence of a trans-
+arXiv:2402.11022v1  [cond-mat.str-el]  16 Feb 2024
+2
+FIG. 1: Summary of the workflow: the left panel illustrates the graphical representation of the one-dimensional
+ANNNI model (Eq. 1) and its phase diagram. For the middle panel, we stress the use of TN as a tool to get the
+phase diagram of the model applying finite-size scaling analysis and as a source of the quantum state for the next
+level. The right panel showcases the QML analysis, with input data sourced from the DMRG, to classify different
+phases of the model.
+verse magnetic field), and frustrated exchange interac-
+tions. As a consequence, it is a paradigm for the study of
+competition between magnetic ordering, frustration, and
+disordering effects. Competition can introduce dramatic
+effects in spin systems [10], leading to the appearance of
+a rich phase diagram.
+Despite seeming too simple to describe realistic mate-
+rials, this model may reproduce important features ob-
+served experimentally in systems that can be described
+by discrete models with effectively short-range competing
+interactions [8]. Some of these experimental findings in-
+clude Lifshitz points, adsorbates, ferroelectrics, magnetic
+systems, alloys or polytypes. On the other side, the so-
+called floating phase emerging in the model is appealing
+to experimental researchers to explore it. This critical
+incommensurate phase has been observed very recently
+by using Rydberg-atom ladder arrays [11].
+Several works have already studied the structure of the
+phase diagram of this model. Some of them treat the 2D
+classical model [7, 12–20] and others tackle the 1D quan-
+tum model [16, 19, 21–29]. Of the latter, some deal with
+finite systems and other with infinite systems [30]. How-
+ever, in intermediate frustration and finite-transverse
+field regimes, the statements about phases and phase
+transitions are quite different. Two phases, paramagnetic
+and floating phase, have been addressed [19, 23, 30] and
+the former has been further divided into unmodulated
+and modulated one in some works [21, 22, 26, 28, 31].
+However, the floating phase generates controversy in the
+literature since it was even not found in some of the pre-
+vious studies [18, 24, 32, 33].
+Building upon recent literature [34], we extend the
+analysis of the ANNNI model through QML techniques
+to larger spin models than previously studied, moving
+from a maximum of 12 spins to 20. The primary objec-
+tives involve investigating how an increase in the num-
+ber of qubits brings enhancements in overall accuracy
+and in the claimed generalization capabilities [35]. Addi-
+tionally, our exploration of the generalization properties
+aims to comprehend how these models might extend to
+phase states not represented in the dataset, akin to the
+approach in [29].
+Furthermore, we subject the ANNNI model to an in-
+depth TN analysis, bringing the finite-size analysis to
+models far larger than any currently reachable through
+fully quantum means, reaching up to 480 sites.
+The paper is structured as follows: Section II delin-
+eates the applied methodologies derived from both TNs
+and QML. Section III showcases the numerical results ob-
+tained through the TN analysis providing some insights
+about the different phases emerging in the model and
+the phase transitions delimiting them. Section IV delves
+into the examination of the phase diagram, employing
+both supervised and unsupervised approaches by simu-
+lating Quantum Circuits. The structure of both analyses
+is highlighted in Figure 1. The paper concludes with
+a discussion of the results and potential future work in
+Section V.
+II. METHODS
+A. T ensor Networks
+TNs [36–47] serve as versatile mathematical constructs
+designed for the representation and manipulation of high-
+dimensional data, particularly in the realms of quan-
+tum physics and ML [48–50]. TNs provide a general-
+ization of the original ideas beyond the density matrix
+renormalization group (DMRG) [51–57] which as today
+3
+stands as the best algorithm to simulate one-dimensional
+quantum-many body systems. A generic TNs is built to
+provide an efficient encoding and manipulation of large
+data structures, by appropriately compressing them into
+small chunks according to specific patterns of correla-
+tions. Such small chunks become the individual tensors
+in the network. TNs have witnessed widespread applica-
+tions across diverse fields, including quantum information
+theory, condensed matter physics at and out of equilib-
+rium, and deep learning [58–60].
+Matrix Product States (MPSs) [61–63] are the rele-
+vant TNs for DMRG and represent a particular class of
+TNs predominantly used for depicting quantum states in
+one-dimensional systems. Within the MPS framework,
+a quantum state is built as a product of matrices, each
+corresponding to a specific site within the system. The
+entanglement structure of the state is succinctly encapsu-
+lated through these matrices, providing a concise repre-
+sentation of many-body quantum states. Proving itself as
+a potent tool, MPSs have been instrumental in monitor-
+ing the properties of one-dimensional quantum systems
+[64, 65], involving aspects like ground state properties
+and dynamic behaviors.
+In the context of MPSs, DMRG [51–57] becomes an
+iterative numerical algorithm that allows obtaining the
+best MPS for encoding the ground state of quantum sys-
+tems in one and two dimensions [66–71].
+Originally formulated for gapped Hamiltonians,
+DMRG can also be used to describe critical systems by
+leveraging on an appropriate finite-size scaling procedure
+[72–76] or by directly working in the thermodynamic
+limit [77–79]. Beyond its origins in condensed matter
+physics, it has evolved into a standard tool, finding appli-
+cations in diverse domains, including quantum chemistry,
+high-energy physics, and ML.
+As a result, DMRG has emerged as the de facto stan-
+dard for analyzing phase diagrams of one-dimensional
+systems. Here, to make contact with QML results we
+characterize the phase diagram on a finite chain, and
+thus make use of finite-size scaling (FSS) techniques [80–
+82] which allows us to make predictions about the ther-
+modynamic limit by studying local order parameters of
+finite systems. In addition to this, some insights on one-
+dimensional quantum field theory [83] are necessary to
+understand some of the phases and their limits. Numeri-
+cal simulations have been carried out with TeNPy’s two-
+site DMRG [84].
+B. Quantum Machine Learning
+QML is an interdisciplinary field that merges the prin-
+ciples of quantum mechanics with the computational
+paradigms of ML. The intersection of quantum physics
+and ML has led to the development of algorithms and
+models designed to harness the unique properties of
+quantum systems to solve complex computational prob-
+lems more efficiently than classical counterparts [85].
+FIG. 2: Architecture of the QCNN: Input state prepara-
+tion (blue), then alternating Convolution layers (green)
+and Pooling layers (red) and a Fully Connected layer
+(dark green) at the end [34]
+QML algorithms often aim to outperform classical al-
+gorithms on specific tasks, capitalizing on the inherent
+advantages provided by quantum mechanics. Examples
+include quantum support vector machines, quantum clus-
+tering algorithms, and quantum neural networks. Re-
+searchers in this field are actively exploring the capa-
+bilities and limitations of quantum computers for ML
+applications. As quantum computing hardware contin-
+ues to advance, and as more quantum devices become
+accessible, the field of quantum ML holds promise for
+revolutionizing the way we approach complex computa-
+tional challenges. However, it also presents unique chal-
+lenges, including issues related to qubit coherence, er-
+ror correction, and the development of scalable quantum
+processors. In this work we focus mainly on algorithms
+that can, to some extent, be executed on current noisy
+quantum processors, leaving the discussion of quantum
+linear-algebra based methods to speed up an otherwise
+computationally costly training method in the context of
+large-scale fault-tolerant quantum computers.
+Indeed, the design of genuinely quantum methods may
+yet offer advantages based on the idea of PQC (PQC-
+based methods) as the key building block of the model
+more generally, so-called quantum neural network mod-
+els. It is important to note that learning separations
+(so, provable exponential advantages) for learning us-
+ing quantum models have already been proven in most
+learning settings [86], subject to standard assumptions in
+complexity theory, and it can be shown [87] that these
+separations may be much more common when data is
+generated by a quantum process (under slightly stronger
+computational assumptions).
+A fundamental limitation to the scaling up of most
+PQC-based ML methods is the so-called barren plateau
+phenomenon, where the gradients [88] of the cost func-
+tion vanishes exponentially with the number of qubits
+employed. On such barren plateau landscapes, the cost
+function sharply concentrates on its mean, leading to an
+exponentially narrow minimum and typically requiring
+an exponential number of shots. While this phenomenon
+was originally identified in the context of variational
+4
+quantum algorithms and quantum neural networks, it
+has recently been shown that exponential concentration
+is also a barrier to the scalability of quantum generative
+modeling [89].
+Quantum cost landscapes for a large class of problems
+can exhibit highly complex and non-convex landscapes
+that are resource intensive to optimize [90]. Recently, in
+[91] the authors provide a perspective article about the
+capabilities of PQC for barren plateau-free landscapes
+and connect them also to is classically simulable. This
+represents an important bridge between the connection
+we are making in this work, assigning different tasks to
+a quantum algorithm and a classical quantum-inspired
+one.
+In the context of QML models for detecting phases
+in spin systems, two models stand out. The first, the
+QCNN, is a supervised learning model where the labels
+represent the different phases. The second, known as
+Quantum Anomaly Detection (AD), follows an unsuper-
+vised approach.
+1. Quantum Convolutional Neural Network
+QCNNs are a category of quantum circuits inspired by
+the widely popular classical counterpart, Convolutional
+Neural Networks (CNNs). These quantum architectures,
+much like CNNs, aim to learn representations from input
+data by exploiting their inherent local properties. Indeed,
+the model was originally proposed in [92] for the task of
+detecting phase transitions, where these local properties
+equate to the interactions between the neighboring spins
+Figure 2 provides a visualization of the employed
+QCNN, composed of three primary components:
+• Convolution layers: these involve the application of
+alternating unitaries to pairs of neighboring spins.
+• Pooling layers: half of the qubits are measured, and
+depending on the result of the measurement, a dif-
+ferent rotation is applied to the remaining qubits.
+• Fully connected layer: following alternating convo-
+lution and pooling layers, a final unitary is applied
+to the remaining qubits.
+This architecture is an excellent choice for a super-
+vised approach to learning the phase of spin models. Its
+strength lies not only in its ability to utilize local prop-
+erties of the input data but also in its proven remarkable
+training capabilities compared to other PQCs. This ad-
+vantage stems from its unique structure, which includes
+a local final measurement [93] and a total number of
+parametrized gates that scale logarithmically with the
+number of qubits. These two properties contribute to a
+resulting suppression of Barren Plateaus [94].
+Furthermore, recent advancements have significantly
+optimized the effective implementation of such architec-
+ture on real hardware [95, 96].
+FIG. 3: Architecture of the Anomaly detection circuit
+(yellow) and input state preparation (blue). An exam-
+ple architecture for 6 qubits, with half designated trash
+qubits positioned at the center. [34]
+2. Quantum Anomaly Detection
+Quantum AD is another architecture inspired by deep
+learning models. This architecture functions as the quan-
+tum equivalent of an Autoencoder. Due to the inversion
+property of quantum circuits, only the forward encod-
+ing part is considered and trained. The training process
+involves minimizing the Pauli-Z expectation values of a
+subset of the qubits, known astrash qubits. The objective
+is for the model to learn an effective unitary operation ca-
+pable of compressing all the information in the remaining
+un-measured qubits:
+U(⃗θ)|ψ⟩N = |0⟩⊗K ⊗ |ϕ⟩N −K (2)
+where N is the total number of qubits, and K is the
+number of trash qubits.
+Figure 3 shows an example of a 6-qubit AD ( N = 6)
+with 3 trash qubits ( K = 3).
+III. TENSOR NETWORK ANAL YSIS
+Before moving on to the hybrid TN/QML approach we
+first show that TNs fully captures interesting features in
+the phase diagram of the ANNNI model, giving results in
+good agreement with other state-of-the-art approaches.
+From earlier studies including simulations of both fi-
+nite [26] and infinite [30, 97] systems and the study of
+a spin chain that can be mapped onto our model using
+a non-local transformation [97, 98], we expect a phase
+diagram like the one in Fig. 4, with four different phases
+(the ferromagnetic phase, the paramagnetic phase, the
+floating phase and the antiphase) and a disordered line
+[13]. All phases are gapped except the gapless floating
+phase. A system is known to be gapless if there are ex-
+citations at arbitrarily low energies in the infinite lattice
+limit (and gapped if not) [99]. In this work, as we simu-
+late finite systems, there is necessarily a nonzero energy
+separating the ground state and the first excited state.
+However, this energy spacing can either remain finite or
+approach zero in the thermodynamic limit.
+To observe the transitions and the properties of the dif-
+ferent phases, we fix the value of the transverse field, h,
+and vary the frustration parameter, κ. When the system
+5
+1
+1 1
+1
+2 2
+2
+0.00 0.25 0.50 0.75 1.00 1.25 1.50
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+I
+KT
+PT
+PE 2
+1
+FIG. 4: Phase diagram of the quantum one-dimensional
+ANNNI model of Eq. 1. The dotted line is the
+exactly-solvable Peschel-Emery (PE) line h = 1 /4κ − κ
+[13]. Dashed lines represent Ising (I), Kosterlitz-Thouless
+(KT), and Pokrovsky-Talapov (PT) phase transitions.
+The spin chain can be seen as a ladder of two spin chains
+as sketched in the cartoon spin configurations.
+goes through a phase transition (i.e., at a critical point),
+a qualitative change in correlations of the ground state
+occurs. A measure of the range over which these correla-
+tions approach zero is called the correlation length, ξ. In
+gapped phases, ξ is finite and the correlation functions of
+local operators typically exhibit exponential decay with
+distance,
+C zz
+i,j = ⟨σz
+i σz
+j ⟩ − ⟨σz
+i ⟩⟨σz
+j ⟩ ∝ e−|i−j|/ξ. (3)
+In gapless phases, this quantity can become infinite and
+the correlation functions follow a power-law behavior
+with distance.
+C zz
+i,j ∝ 1
+|i − j|η . (4)
+When the system is approaching a critical point, the cor-
+relation length diverges and how it does so allows us to
+know the nature of the transition. Notice that correla-
+tion length extracted from different operators could have
+different values but they are all proportional and scale in
+the same way with the system size.
+In Fig. 5, the inverse of the correlation length along the
+horizontal cut at h = 0.5 is shown, providing qualitative
+insights into the nature of the phase transitions. At low
+values of frustration, the inverse of the correlation length
+vanishes linearly in agreement with the Ising (I) critical
+exponent ν = 1. After this, it reaches its maximum at a
+sharp kink that corresponds to the disorder point [13, 15].
+Beyond this point, it decreases quickly, in agreement with
+the exponential divergence of the correlation length typ-
+ical for a Kosterlitz-Thouless (KT) transition [100]. Ap-
+proaching the phase transition between the critical phase
+0.0 0.5 1.0 1.5
+0.0
+0.5
+1.0
+1.51
+I KT PT PE
+FIG. 5: Inverse of the correlation length computed
+from C zz
+i,j as a function of κ along the horizontal cut at
+h = 0 .5 obtained on a finite-size system with N = 240
+sites with open boundary conditions. Colors indicate
+different phases: the ferromagnetic phase (light green),
+the paramagnetic phase (dark green), the floating phase
+(light blue), and the antiphase (dark blue) from left
+to right. Phase transitions according to previous re-
+sults [13, 26, 102] are also shown by dashed lines: Ising
+(I) transition, Kosterlitz-Thouless (KT) transition, and
+Pokrovsky-Talapov (PT) transition. The dotted line is
+the exactly solvable Peschel-Emery (PE) line [13].
+and the antiphase from the latter, the inverse of the cor-
+relation length vanishes with a critical exponent smaller
+than one, in agreement with the Pokrovsky-Talapov (PT)
+critical exponent ν = 1/2 [101]. Details can be found in
+Appendix A.
+A. F erromagnetic Phase and Paramagnetic Phase
+We now examine more closely the phase transition be-
+tween the ferromagnetic and paramagnetic phases.
+In the ferromagnetic phase, the next neighbor in-
+teractions dominate and all the spins are aligned in
+the x direction, |→→ · · · →⟩ or |←← · · · ←⟩ (note that
+σx
+j |⇆⟩ = ± |⇆⟩), leading to a uniform magnetization.
+In the paramagnetic phase, the transverse magnetic field
+dominates and makes the spins be aligned in the z direc-
+tion, |↑↑ · · · ↑⟩ (note that σz
+j |↑⟩ = |↑⟩). As a result, the
+magnetization along the x direction is a relevant order
+parameter to characterize the quantum phase transition,
+M x = 1
+N
+NX
+j=1
+σx
+j . (5)
+At low values of frustration, the magnetization is ex-
+pected to be non-zero, indicating an ordered phase. As
+the frustration increases, there is a critical value where
+the magnetization undergoes a sudden change, signaling
+a quantum phase transition to a disordered phase with
+the magnetization approaching zero. Although the mag-
+netization of an infinite system shows a discontinuity, this
+6
+FIG. 6: (Up) Magnetization along x (see Eq. 5) ob-
+tained on four finite-size systems ( N = 60, 120, 240, 480)
+with open boundary conditions along the horizontal cut
+at h = 0.5. As expected, magnetization in the ferromag-
+netic phase is non-zero and in the paramagnetic phase is
+zero. Note that the phase transition approaches the per-
+turbative analysis prediction as the length of the chain
+increases. (Down) Binder’s cumulant (see Eq. 6) for κ-
+values in the surroundings of the critical point extracted
+form Eq. 7.
+abrupt step is rounded when the system size N is finite
+[80]. Consequently, the critical frustration value at which
+the phase transition occurs may shift slightly for finite
+systems compared to the thermodynamic limit. To make
+predictions of this limit by working with finite systems,
+we make use of Finite-Size Scaling (FSS) [80, 81]. Within
+this framework, Binder’s cumulant can be used to locate
+the precise transition point [82]
+UN = 1 − ⟨(M
+x
+)
+4
+⟩N
+3⟨(M
+x
+)
+2
+⟩
+2
+N
+. (6)
+Since this ratio is built to be size-independent at the
+critical point, by plotting it as a function of the parameter
+of the model for different system sizes, one can identify
+the critical point as the crossing of the lines.
+The phase boundary between the ferromagnetic and
+the paramagnetic phases can be obtained by using per-
+turbation theory for κ < 0.5, splitting the Hamiltonian in
+a classical Ising part and a small transverse fluctuation,
+an approximate expression for the critical line is obtained
+in [9] and reads
+hI ≈ 1 − κ
+κ
+ 
+1 −
+r
+1 − 3κ + 4κ2
+1 − κ
+!
+, (7)
+and it is supposed to be an Ising-like transition [102].
+Fig. 6 (upper panel) shows the behavior of the local or-
+der parameter ⟨M x⟩, which allows us to differentiate both
+the ferromagnetic and the paramagnetic phases. Finite-
+size effects appear and it can be seen how the disconti-
+nuity in magnetization approaches the critical point and
+becomes steeper as the system size increases. By comput-
+ing Binder’s cumulant through Eq. 6, we get κI = 0.270,
+see Fig. 6 (lower panel).
+B. Floating Phase
+1. Luttinger Liquid and Friedel Oscillations
+In 1D quantum physics, the floating phase [101, 103,
+104] is described by a Luttinger liquid with algebraic in-
+commensurate correlations [83]. Its properties are de-
+scribed by a bosonic conformal field theory and the de-
+cay of all the correlation functions is controlled by the
+parameter K, often referred to as the Luttinger liquid
+parameter [83, 105]. This Luttinger liquid phase is stable
+against superconducting perturbations and spontaneous
+translation symmetry breaking due to an emergent U(1)
+symmetry when the Luttinger exponent lies within the
+interval 1/4 < K < 1/2 [97]. Furthermore, open and
+fixed boundary conditions act as an impurity and lead to
+Friedel oscillations in spin density (also reflected in the
+entanglement entropy profile). According to Boundary
+Conformal Field Theory (BCFT), the profile takes the
+following form [106–108]:
+⟨fσz
+j ⟩ ∝ cos(qj + α)
+[(N/π) sin(πj/N )]K , (8)
+where K is the Luttinger exponent, q is the incommensu-
+rate wave-vector and α is a phase shift. By fitting Friedel
+oscillations we can get an accurate estimate of both the
+Luttinger parameter K and the incommensurate wave-
+vector q [109]. One example of such fits is shown in Fig.
+7, where the uniform part of the spin-density, ⟨σz
+j ⟩, has
+been subtracted. Details can be found in Appendix B.
+2. Kosterlitz-Thouless transition
+A Kosterlitz-Thouless (KT) transition appears be-
+tween the paramagnetic phase and the floating phase.
+7
+FIG. 7: Friedel oscillation pattern inside the floating
+phase for h = 0 .5 κ = 0 .900 obtained on a finite-size
+system with N = 240 sites with open boundary condi-
+tions. Green points are DMRG data and blue circles are
+the result of the fit with Eq. 8 (note the very accurate
+agreement). The uniform part of the spin-density ⟨σz
+j ⟩
+has been subtracted (see Appendix B).
+0.5 0.6 0.7 0.8 0.9 1.0
+0.6
+0.7
+0.8
+0.9
+1.0
+KT
+FIG. 8: Incommensurate wave-vector q obtained on a
+finite-size system with N = 240 sites with open bound-
+ary conditions along the horizontal cut ath = 0.5. As it is
+shown, incommensurability doesn’t vanish in the param-
+agnetic phase. Therefore, the Kosterlitz-Thouless (KT)
+transition is an incommensurate-incommensurate phase
+transition.
+In this model, it is an incommensurate-incommensurate
+transition, as we see in Fig. 8. As mentioned in [97, 98],
+the critical point is associated with the Luttinger liquid
+exponent taking the value K = 1/2. Then, we can locate
+the transition by extracting the Luttinger liquid expo-
+nent and finding the value corresponding to K = 1/2.
+Numerical simulations involving different techniques
+suggest that the KT critical line is given by [26]
+FIG. 9: (a) Luttinger liquid exponent K and (b) incom-
+mensurate wave-vector q obtained on a finite-size sys-
+tem with N = 240 sites with open boundary conditions
+along the horizontal cut at h = 0 .5. The Kosterlitz-
+Thouless (KT) transition appears when K = 1 /2 and
+the Pokrovsky-Talapov (PT) transition arises when in-
+commensurability vanishes. The solid line in (b) is a fit
+assuming the Pokrovsky-Talapov (PT) critical exponent
+ν = 1/2.
+hKT (κ) ∼= 1.05
+s
+κ − 1
+2
+
+(κ − 0.1). (9)
+Fig. 9(a) shows the K exponent in terms of frustration.
+The value we get for the critical point is κKT = 0 .814.
+This means that our result presents a relative error of
+0.36% concerning previous calculations.
+3. Pokrovsky-Talapov transition
+The transition between the floating phase and
+the antiphase (discussed below) is a commensurate-
+incommensurate transition expected to be in the
+Pokrovsky-Talapov (PT) [101, 110] universality class.
+Then, we can fit the incommensurate wave-vector q as
+q/π ∝ (κP T − κ)ν, where ν takes the value of ν = 1 /2
+at the PT transition. Close to the critical point a square
+root-like behavior arises and we can extract a numerical
+value for the critical point with high accuracy. We obtain
+κP T = 0.977 with a root mean squared error of ≈ 10−3.
+Also from [26], we have an expression for this critical
+line given by
+hP T (κ) ∼= 1.05
+
+κ − 1
+2
+
+, (10)
+from which we estimate a relative error of 0 .10%.
+8
+4.00 4.25 4.50 4.75 5.00
+ln dN (n)
+1.25
+1.30
+1.35
+1.40
+1.45
+SN (n)
+κ = 0.814
+c ≃ 1.036
+Fit
+DMRG
+FIG. 10: Entanglement entropy with conformal distance
+dN(n) at h = 0.5 and κ = 0.814 for a finite-size system
+with N = 240 sites for open boundary conditions. The
+obtained value for the central charge in the critical point
+agrees within 3 .6% with the CFT prediction c = 1 for a
+Luttinger liquid.
+4. Entanglement entropy
+According to Conformal Field Theory (CFT), the en-
+tanglement entropy at critical points in a finite-size chain
+with open boundary conditions scales with the block size
+n as [73, 74, 76, 111, 112]
+SN(n) = c
+6 ln dN(n) + s1 + ln g, (11)
+where dN(n) = 2N
+π sin
+  πn
+N
+
+is the conformal distance,
+and s1 and ln g are non-universal constants.
+We use Eq. 11 to extract the central charge numeri-
+cally. Close to the KT critical line, the central charge can
+be extracted with sufficient accuracy even from relatively
+small chains, see Fig. 10 [113].
+The obtained value for the central charge in the criti-
+cal point agrees within 3 .6% for N = 240 with the CFT
+prediction c = 1 for a Luttinger liquid. This value of the
+central charge could be understood if we see the model as
+two quantum Ising chains coupled by a “zig-zag” interac-
+tion with strength J1 [16]. Inside the floating phase and
+in the large κ limit, the model is conformally invariant
+with central charge c = 1/2 + 1/2 = 1, i.e. two critical
+Ising models.
+C. Antiphase
+In the antiphase, the antiferromagnetic next-nearest
+neighbor interactions dominate and the ground state is
+|→→←← . . .⟩ or |←←→→ . . .⟩. From the relative po-
+sition of spins, it is easy to see that a convenient local
+order parameter to identify this phase is the so-called
+“staggered magnetization”, defined as
+Sx = 1
+N (σx
+1 + σx
+2 − σx
+3 − σx
+4 + . . .) . (12)
+However, the critical points extracted from the finite-
+size scaling analysis are not as accurate as the ones ex-
+tracted from the incommensurate wave vector vanishing
+in the PT transition.
+IV. QUANTUM MACHINE LEARNING
+ANAL YSIS
+A. States preparation
+Both QML architectures aforementioned use the
+ground states of the Hamiltonian of the ANNNI model
+(Eq. 1) at different values of κ and h as inputs. A
+standard approach to access and load the states into the
+quantum circuits is to use the technique called Varia-
+tional Quantum Eigensolver (VQE). Through VQE, it is
+possible to find a set of parameters ⃗θ∗ for a given Ansatz
+U such that the output state of the circuit U(⃗θ∗)|0⟩⊗N
+is close to the sought ground-state wavefunction [114].
+This is accomplished by using the Rayleigh-Ritz varia-
+tional principle, by minimizing the energy expectation
+value of the parametrized output wavefunction:
+argmin
+⃗θ
+⟨ψ(⃗θ)|H|ψ(⃗θ)⟩
+⟨ψ(⃗θ)|ψ(⃗θ)⟩
+(13)
+where
+|ψ(⃗θ)⟩ := U(⃗θ)|0⟩⊗N
+During training, the output of the circuit is expected
+to converge toward the state with the lowest achievable
+energy, thus the ground state.
+However, for this analysis, it has been considered more
+convenient to avoid using the VQE technique altogether
+due to the need for training for each combination ofκ and
+h at each studied system size. Moreover, training VQE
+on a simulator becomes inefficient as both simulation
+times and the number of shots required exponentially in-
+crease with a high number N of qubits. The decision in-
+stead has been made to employ the MPS states acquired
+from the DMRG analysis as inputs. These states are
+integrated into the circuit through the Pennylane func-
+tion qml.QubitStateVector, allowing the overwrite of
+the initial state ( |0⟩⊗N) with any desired state.
+This approach, however, is possible only in simulator-
+based analyses, where full access to wavefunctions is
+available. On real hardware, such an operation is un-
+feasible. Moreover, this approach is limited by the com-
+putation of the full state vector. An alternative approach
+would require transposing the MPS directly into a PQC
+[115], which might eventually facilitate the implementa-
+tion of this analysis on real quantum hardware.
+9
+B. QCNN
+QCNNs offer a supervised approach for detecting the
+phase transitions of the ANNNI model. Like any super-
+vised approach, the core objective is to build a model
+where the predictions closely match their corresponding
+labels.
+In this scenario, the labels are encoded in a 2-qubit
+quantum state:
+• Ferromagnetic : |00⟩
+• Paramagnetic : |01⟩
+• Antiphase : |10⟩
+• Floating phase : |11⟩
+The training procedure consists of the minimization of
+the following cross-entropy loss function:
+L = − 1
+|M|
+X
+(κ,h)∈M
+KX
+j=1
+yj(κ, h) log (pj(κ, h)), (14)
+where M is the set of parameters of the training set,
+yi(κ, h) is the probability vector of the label of the cor-
+responding ground state of H(κ, h), and pi(κ, h) is the
+probability vector of the output state of the QCNN.
+Two distinct analyses were conducted, each employing
+different regions in the phase diagram as the training set.
+The first analysis mirrors the approach outlined in [34],
+utilizing exclusively the points within the integrable part
+of the phase diagram {(κ, h) ∈ { 0} × [0, 2]} ∪ {(κ, h) ∈
+[0, 1] × { 0}}, specifically, the points lying on the two
+axes, κ = 0 (representing the simple transverse field
+case) and h = 0 (representing the quasi-classical model).
+This choice allows for the analytical derivation of labels,
+however, it omits any points associated with the float-
+ing phase case, as none are present on the two axes,
+thus making the classifier entirely agnostic regarding the
+fourth phase.
+For the second analysis, the training set includes the
+entire phase diagram within the ranges of h and κ, and
+the labels are derived from the DMRG analysis. This
+second analysis is not made to showcase the proficiency
+of the QCNN in a conventional setting. The main goal is
+to evaluate how the finite system size considered affects
+the indistinguishability of the points of this particular
+phase.
+Both analyses were carried out using different values
+for the number of spins N specifically, 12, 16, and 20.
+Given the considerable size of the circuits simulated, the
+training was structured with the primary goal of loading
+the minimal amount of state vectors into memory simul-
+taneously.
+At the start of training, a limited number s of input
+state vectors are drawn randomly from each class. After
+each set number of epochs e, new input vectors are ran-
+domly drawn, and the training process continues. In this
+setup, the total number of input state vectors loaded at
+any given time is given by s × K where s is significantly
+smaller than the total number of training inputs, and K
+represents the number of classes present in the training
+set. The selection of s was determined based on the size
+of each state vector, as defined by N, ensuring that the
+highest number of inputs could be processed without ex-
+ceeding memory constraints.
+1. Analytical points only
+In the first analysis, the training set comprises solely
+the analytical points located on the axes. Following the
+training process, the model is subsequently employed
+across the entire phase diagram to predict the phase at
+each combination of κ and h, leveraging the high general-
+ization capabilities highlighted in [35] for quantum mod-
+els. Given the absence of floating phase points within
+the training set, the model tends to avoid predicting any
+points belonging to that particular class.
+Figure 11 displays the QCNN predictions at N being
+12 (left), 16 (middle), and 20 (right).
+The comparison of the three images reveals two dis-
+tinct patterns. Firstly, the accuracy of the transition be-
+tween ferromagnetic and paramagnetic phases improves
+with an increase in the number of spins in the system. In-
+stead, the predicted transition between the antiphase and
+paramagnetic phases shifts as the number of spins rises
+from the Kosterlitz-Thouless transition line to possibly
+plateauing on the Pokrovsky-Talapov line. The presence
+of the floating phase becomes increasingly evident with
+a higher number of spins, and this is speculated to be
+the main reason why the predicted transition line shifts
+as the system size increases with larger models tending
+to classify floating phase points as paramagnetic rather
+than anti-phase.
+2. All classes
+In the second analysis, every point, including those be-
+longing to the floating phase, is integrated into the pool
+of training points randomly drawn. Figure 12 showcases
+the prediction outcomes of the QCNN for N being of 12,
+16, and 20. As in the previous analysis, the accuracy of
+the transition line between ferromagnetic and paramag-
+netic phases increases with the system’s size. However,
+at every system size, all models faced difficulties in pre-
+cisely defining the region of the floating phase. This sug-
+gests that a system with only 20 spins still experiences
+significant limitations due to its constrained size. It is
+reasonable to assume that this analysis would improve in
+accuracy with a higher number of spins.
+10
+FIG. 11: Predictions of the QCNNs trained on the analytical points of the ANNNI Spin Model at different system sizes:
+N = 12 (left), N = 16 (middle), and N = 20 (right). Colors represent Ferromagnetic (light green), Paramagnetic
+(dark green), Antiphase (dark blue), and Floating Phase (light blue) as a function of the external magnetic field
+(h = B/J1) and interaction strength ratio ( κ = −J2/J1) (refer to eq. 1).
+FIG. 12: Predictions of the QCNNs, trained on a subset of points from each phase of the ANNNI model at various
+system sizes: N = 12 (left), N = 16 (middle), and N = 20 (right). The color scheme indicates Ferromagnetic
+(light green), Paramagnetic (dark green), Antiphase (dark blue), and Floating Phase (light blue), as a function of the
+external magnetic field ( h = B/J1) and interaction strength ratio ( κ = −J2/J1) (refer to eq. 1).
+C. Anomaly Detection
+An alternative approach to discovering the phase land-
+scape of a spin system consists of employing the AD ar-
+chitecture. By operating in an unsupervised manner, it
+effectively bypasses the bottleneck of acquiring training
+labels inherent in such a model. For this main reason,
+the AD architecture stands as a suitable choice for iden-
+tifying phases beyond the analytical ranges, such as the
+Floating phase.
+The training process for this architecture is as follows:
+a single state is selected as the training event, and the
+training is carried out to achieve the compression out-
+lined in equation 2. This involves the minimization of
+the following loss function:
+C = 1
+2
+X
+j∈qT
+(1 −
+
+σz
+j
+
+), (15)
+where qT refers to the selected trash qubits, constituting
+N/2 out of the total N.
+After training, each other state of the phase diagram
+is compressed through anomaly detection, and the corre-
+sponding cost value is assigned.
+Typically, states belonging to the same phase as the
+training event undergo optimal compression, given their
+inherent similarity. Conversely, states from other phases
+tend to exhibit higher values in the cost function. No-
+tably, the compression shares values consistently across
+different phases, allowing for the outline of all existing
+phases in the spin model.
+Contrary to the previous analysis [34], the anomaly de-
+tection has been applied to even larger spin models. The
+aim is to identify the floating phase in the phase diagram
+through this model, which may have been previously ob-
+scured by the constraints of the smaller system size.
+Figure 13 depicts the compression scores generated by
+the anomaly detection for N equals 6, 12, and 18.
+All anomaly detection models were trained to compress
+the point ( κ, h) = (0 , 0) of the Hamiltonian, represent-
+11
+ing the case with no magnetic field and no next-nearest
+neighbor interaction between spins.
+Two main observations can be drawn from the figure.
+Firstly the boundaries between different phases become
+increasingly sharp with larger system sizes. Secondly,
+up to 12 qubits (the maximum limit from the previous
+analysis), no floating phase can be discerned from the
+compression score. However, at N = 18, the presence of
+a fourth phase becomes evident, indicated by a dark blue
+shade in the area associated with the floating phase.
+When N = 18, the system size is sufficiently large to
+identify the presence of the Floating Phase. However, it
+seems that the size is still limited for the detection of this
+phase, as the boundaries of the dark green shade appear
+imprecise and fuzzy.
+V. SUMMAR Y AND DISCUSSION
+In this work, we defined a QML pipeline, made by
+TN and QCNN to perform the classification of differ-
+ent phases of the ANNNI model. Starting from training
+data obtained with DMRG we input those wavefunctions
+in the QCNN. In this configuration, we benefit from the
+flexibility and scalability of TN together with the train-
+ability guarantee and performance of QCNN.
+The TN analysis provides us with numerical pieces
+of evidence of changes in the properties of the ground
+state, leading to the understanding of the phase dia-
+gram. By using the most recent techniques proposed in
+[98, 109, 113], we have identified the phase transitions
+appearing in the model by fixing the value of the trans-
+verse magnetic field. We have found agreement with
+previous DMRG results [26] and perturbative analysis
+[102]. Moreover, our results also coincide with those
+extracted from the model resulting from the Kramers-
+Wannier transformation of the ANNNI model, given by
+analyses with both finite [98] and infinite systems [97].
+On theQCNN side, we confirmed the validity of the
+architecture in identifying the phase transitions of the
+ANNNI model, as previously demonstrated in [34]. Ad-
+ditionally, by increasing significantly the system size of
+the model from 12 to a maximum of 20 sites, we have
+been able to track the behavior of the classifier as the
+number of qubits N increases. As a supervised learn-
+ing model, the QCNN lacks an out-of-the-box mecha-
+nism for training to recognize the floating phase, as no
+points within that phase belong to the analytical sub-
+space of the phase diagram. A related study [29] suc-
+cessfully identified the Antiphase - Paramagnetic phase
+transition through a similar generalization approach em-
+ployed in this analysis. This suggests that a comparable
+approach could be eventually implemented to the QCNN
+to detect the floating phase region by plain generaliza-
+tion.
+An alternative approach, that has shown promising re-
+sults, is the AD architecture first introduced in [116]. By
+employing the architecture on the ANNNI model at a
+higher system size than ever before, here, it has been
+demonstrated that the AD can detect the floating phase
+in a fully unsupervised manner, furthermore, the scaling
+analysis presented suggest that by increasing even more
+the system size, the model will be able to accurately trace
+the floating phase.
+One of the main features shared by both architec-
+tures is the use of the ground-state wavefunctions of
+the ANNNI model as inputs. This can be achieved
+by employing the VQE, as demonstrated previously
+in [34]. Alternatively, the ground-state wavefunctions
+can be obtained classically through the DMRG and
+then transposed into PQCs using techniques outlined in
+[115, 117]. These methods create a bridge between TNs
+and QML, enabling faster state preparation with greater
+accuracy[117]. In this work, we followed the latter ap-
+proach, implementing the MPS wavefunctions as input
+obtained through DMRG in the TN analysis.
+In summary, although TN analysis provides more ac-
+curate results as larger system sizes can be achieved,
+the amount of entanglement in the system could limit
+the study of more complex models. On the other hand,
+quantum computers promise to simulate states of high
+entanglement more effectively than classical ones. There-
+fore, despite not being at this point right now, classifying
+phase diagrams through QML techniques seems to be a
+promising avenue.
+ACKNOWLEDGMENTS
+M.C. acknowledges Natalia Chepiga for useful discus-
+sions regarding the nature of the KT transition and the
+effects of boundary conditions. M.C is partly funded
+by the Deutsche Forschungsgemeinschaft (DFG, Ger-
+man Research Foundation) under Germany’s Excellence
+Strategy –EXC-2111–390814868 and by Research Unit
+FOR 5522 (grant nr. 499180199).
+M.G. and S.V. are supported by CERN through the
+CERN Quantum Technology Initiative.
+E.R. is supported by the grant PID2021-126273NB-
+I00 funded by MCIN/AEI/ 10.13039/501100011033 and
+by “ERDF A way of making Europe” and the Basque
+Government through Grant No. IT1470-22.
+L.T. acknowledges support from the Proyecto
+Sin´ ergico CAM 2020 Y2020/TCS-6545 (NanoQuCo-
+CM), the CSIC Research Platform on Quantum Tech-
+nologies PTI-001, and from Spanish projects PID2021-
+127968NB-I00 and TED2021-130552B-C22 funded by
+MCIN/AEI/10.13039/501100011033/FEDER, UE and
+MCIN/AEI/10.13039/501100011033, respectively.
+This work was supported by the EU via Quan-
+tERA project T-NiSQ grant PCI2022-132984 funded by
+MCIN/AEI/10.13039/501100011033 and by the Euro-
+pean Union “NextGenerationEU”/PRTR. This work has
+been financially supported by the Ministry of Economic
+Affairs and Digital Transformation of the Spanish Gov-
+ernment through the QUANTUM ENIA project called
+12
+FIG. 13: Compression Scores C of the AD circuits trained on the ( κ, h) = (0 , 0) point of the ANNNI model phase
+diagram at different system sizes N: 6 (left), 12 (middle), and 18 (right). The scores are showcased as a function of
+the interaction strength ratio ( κ = −J2/J1) and the external magnetic field ( h = B/J1). Lower compression scores
+indicate better disentanglement of trash qubits from others, as defined by eq. 2.
+– Quantum Spain project, and by the European Union
+through the Recovery, Transformation, and Resilience
+Plan – NextGenerationEU within the framework of the
+Digital Spain 2026 Agenda.
+Appendix A: Extraction of the Correlation Length
+Despite the different behavior of the correlation length
+in gapped and gapless phases, since we work with finite
+systems (i.e., with finite bond dimensions), we do not
+expect its divergence at criticality. Therefore, we can
+extract the value of the correlation length, as proposed
+in [98, 109, 113], by considering the correlation function
+C zz
+i,j = ⟨σz
+i σz
+j ⟩ − ⟨σz
+i ⟩⟨σz
+j ⟩, (A1)
+where i, j denote different sites. This function is related
+to the Ornstein-Zenicke form [118]:
+C zz
+i,j ∝ e−|i−j|/ξ
+p
+|i − j|
+cos(q|i − j| + ϕ0), (A2)
+where the correlation length ξ, the wave-vector q and the
+initial phase ϕ0 are fitting parameters. One example of
+such fits is shown in Fig. 14. We discard the oscillations
+and fit the main slope of the decay as shown for high
+precision in the value obtained for ξ. Note that the fit
+is performed in a semi-log scale ln C zz(x = |i − j|) ≈
+cte − x/ξ − ln(x)/2.
+FIG. 14: Extraction of the correlation length ξ from cor-
+relations in the z direction. These transverse correlations
+are obtained for h = 0 .5 inside the floating phase on a
+finite-size system with N = 240 and open boundary con-
+ditions. The green points are DMRG data and the blue
+line is the result of the fit with Eq. A2. Oscillations have
+been removed to fit the main slope of the decay. Note
+the semi-log scale.
+Appendix B: Extraction of the Luttinger Liquid
+Parameters
+To extract the Luttinger liquid exponent inside the
+floating phase, we have fitted the Friedel oscillations of
+the spin-density profile induced by the open boundary
+conditions with Eq. 8. Open ends in the chain break
+translational invariance and there is a slowly decaying
+alternating term in the spin-density
+⟨σz
+j ⟩ = ⟨σz
+j ⟩ + (−1)jg⟨σz
+j ⟩, (B1)
+where g⟨σz
+j ⟩ becomes non-zero near the boundary and de-
+cays slowly away from it [119]. In order to obtain both
+13
+⟨σz
+j ⟩ and g⟨σz
+j ⟩, we follow the 7-point formulas derived in
+[119]:
+⟨σz
+j ⟩ = − 15
+496 f(j − 3) − 1
+248 f(j − 2) + 71
+248 f(j − 1)
++ 1
+2 f(j) + 137
+496 f(j + 1) + 1
+248 f(j + 2) − 1
+31 f(j + 3),
+g⟨σz
+j ⟩ = 15
+496 f(j − 3) + 1
+248 f(j − 2) − 71
+248 f(j − 1)
++ 1
+2 f(j) − 137
+496 f(j + 1) − 1
+248 f(j + 2) + 1
+31 f(j + 3).
+(B2)
+An example of a typical fit is provided in Fig. 15. As
+we see, 20% of sites close to each end of the chain are
+discarded and we only fit the middle part to reduce edge
+effects. The root mean squared error (‘RMSE’) obtained
+is ≈ 10−5.
+FIG. 15: Extraction of Luttinger liquid parameters from
+Friedel oscillations profile. This is the Friedel oscillation
+pattern for h = 0 .5 inside the floating phase obtained
+on a finite-size system with N = 240 and open boundary
+conditions. Green points are DMRG data and blue circles
+are the result of the fit with Eq. 8 (all green points are in-
+side blue circles). Note that the uniform part of the spin
+density ⟨σz
+j ⟩ has been subtracted, and the fitting window
+is restricted to the range j ∈ [48, 191] to avoid edge ef-
+fects. The root mean squared error (‘RMSE’) obtained
+is ≈ 10−5.
+[1] S.-H. Lin, R. Dilip, A. G. Green, A. Smith, and F. Poll-
+mann, PRX Quantum 2, 010342 (2021).
+[2] F. Barratt, J. Dborin, M. Bal, V. Stojevic, F. Poll-
+mann, and A. G. Green, npj Quantum Information 7,
+10.1038/s41534-021-00420-3 (2021).
+[3] W. Huggins, P. Patil, B. Mitchell, K. B. Whaley, and
+E. M. Stoudenmire, Quantum Science and Technology
+4, 024001 (2019).
+[4] J. Dborin, F. Barratt, V. Wimalaweera, L. Wright,
+and A. G. Green, Quantum Science and Technology 7,
+035014 (2022).
+[5] M. Rudolph, J. Miller, D. Motlagh, J. Chen,
+A. Acharya, and A. Perdomo-Ortiz, Nature Communi-
+cations 14 (2023).
+[6] R. J. Elliott, Physical Review 124, 346 (1961).
+[7] M. E. Fisher and W. Selke, Physical Review Letters 44,
+1502 (1980).
+[8] W. Selke, Physics Reports 170, 213 (1988).
+[9] B. K. Chakrabarti, A. Dutta, and P. Sen, Quantum
+Ising phases and transitions in transverse Ising models ,
+Vol. 41 (Springer Science & Business Media, 2008).
+[10] C. Domb, Phase transitions and critical phenomena (El-
+sevier, 2000).
+[11] J. Zhang, S. H. Cant´ u, F. Liu, A. Bylinskii, B. Braver-
+man, F. Huber, J. Amato-Grill, A. Lukin, N. Gemelke,
+A. Keesling, et al. , arXiv preprint arXiv:2401.08087
+(2024).
+[12] W. Selke and M. E. Fisher, Physical Review B 20, 257
+(1979).
+[13] I. Peschel and V. Emery, Zeitschrift f¨ ur Physik B Con-
+densed Matter 43, 241 (1981).
+[14] P. Rujan, Physical Review B 24, 6620 (1981).
+[15] W. Pesch and J. Kroemer, Zeitschrift f¨ ur Physik B Con-
+densed Matter 59, 317 (1985).
+[16] D. Allen, P. Azaria, and P. Lecheminant, Journal of
+Physics A: Mathematical and General 34, L305 (2001).
+[17] T. Shirahata and T. Nakamura, Physical Review B 65,
+024402 (2001).
+[18] R. Derian, A. Gendiar, and T. Nishino, Journal of the
+Physical Society of Japan 75, 114001 (2006).
+[19] A. K. Chandra and S. Dasgupta, Journal of Physics A:
+Mathematical and Theoretical 40, 6251 (2007).
+[20] F. Matsubara, T. Shirakura, and N. Suzuki, Physical
+Review B 95, 174409 (2017).
+[21] C. Arizmendi, A. Rizzo, L. N. Epele, and C. A.
+Garc´ ıa Canal, Zeitschrift f¨ ur Physik B Condensed Mat-
+ter 83, 273 (1991).
+[22] P. Sen, S. Chakraborty, S. Dasgupta, and
+B. Chakrabarti, Zeitschrift f¨ ur Physik B Condensed
+Matter 88, 333 (1992).
+[23] H. Rieger and G. Uimin, Zeitschrift f¨ ur Physik B Con-
+densed Matter 101, 597 (1996).
+[24] P. Sen, Physical Review B 55, 11367 (1997).
+[25] A. Dutta and D. Sen, Physical Review B 67, 094435
+(2003).
+[26] M. Beccaria, M. Campostrini, and A. Feo, Physical Re-
+view B 76, 094410 (2007).
+[27] I. Mahyaeh and E. Ardonne, Physical Review B 101,
+14
+085125 (2020).
+[28] F. K. Fumani, S. Nemati, and S. Mahdavifar, Annalen
+der Physik 533, 2000384 (2021).
+[29] A. J. Ferreira-Martins, L. Silva, A. Palhares, R. Pereira,
+D. O. Soares-Pinto, R. Chaves, and A. Canabarro, arXiv
+preprint arXiv:2309.15339 (2023).
+[30] A. Nagy, New Journal of Physics 13, 023015 (2011).
+[31] M. Beccaria, M. Campostrini, and A. Feo, Physical Re-
+view B 73, 052402 (2006).
+[32] M. D. Grynberg and H. Ceva, Physical Review B 36,
+7091 (1987).
+[33] P. R. C. Guimaraes, J. A. Plascak, F. C. S. Barreto,
+and J. Florencio, Physical Review B 66, 064413 (2002).
+[34] S. Monaco, O. Kiss, A. Mandarino, S. Vallecorsa,
+and M. Grossi, Physical Review B 107, 10.1103/phys-
+revb.107.l081105 (2023).
+[35] M. C. Caro, H.-Y. Huang, M. Cerezo, K. Sharma,
+A. Sornborger, L. Cincio, and P. J. Coles, Nature com-
+munications 13, 4919 (2022).
+[36] R. Or´ us, Annals of physics349, 117 (2014).
+[37] N. Schuch, arXiv preprint arXiv:1306.5551 (2013).
+[38] J. Eisert, arXiv preprint arXiv:1308.3318 (2013).
+[39] R. Augusiak, F. Cucchietti, and M. Lewenstein, in Mod-
+ern Theories of Many-Particle Systems in Condensed
+Matter Physics (Springer, 2012) pp. 245–294.
+[40] F. Verstraete, V. Murg, and J. I. Cirac, Advances in
+physics 57, 143 (2008).
+[41] J. I. Cirac and F. Verstraete, Journal of physics a: math-
+ematical and theoretical 42, 504004 (2009).
+[42] J. Biamonte and V. Bergholm, arXiv preprint
+arXiv:1708.00006 (2017).
+[43] S. Montangero, E. Montangero, and Evenson, Introduc-
+tion to tensor network methods (Springer, 2018).
+[44] P. Silvi, F. Tschirsich, M. Gerster, J. J¨ unemann,
+D. Jaschke, M. Rizzi, and S. Montangero, SciPost
+Physics Lecture Notes , 008 (2019).
+[45] S. Montangero, E. Rico, and P. Silvi, Philosophical
+Transactions of the Royal Society A 380, 20210065
+(2022).
+[46] S.-J. Ran, E. Tirrito, C. Peng, X. Chen, L. Tagliacozzo,
+G. Su, and M. Lewenstein, Tensor Network Contrac-
+tions : Methods and Applications to Quantum Many-
+Body Systems (Springer Nature, 2020).
+[47] M. C. Ba˜ nuls, Annu. Rev. Condens. Matter Phys. 14,
+173 (2023).
+[48] E. M. Stoudenmire, Quantum Science and Technology
+3, 034003 (2018).
+[49] D. Liu, S.-J. Ran, P. Wittek, C. Peng, R. B. Garc´ ıa,
+G. Su, and M. Lewenstein, New Journal of Physics 21,
+073059 (2019).
+[50] Z.-Y. Han, J. Wang, H. Fan, L. Wang, and P. Zhang,
+Physical Review X 8, 031012 (2018).
+[51] S. R. White, Physical review letters 69, 2863 (1992).
+[52] S. R. White, Physical review b 48, 10345 (1993).
+[53] S. ¨Ostlund and S. Rommer, Physical review letters 75,
+3537 (1995).
+[54] F. Verstraete, D. Porras, and J. I. Cirac, Physical review
+letters 93, 227205 (2004).
+[55] A. J. Daley, C. Kollath, U. Schollw¨ ock, and G. Vidal,
+Journal of Statistical Mechanics: Theory and Experi-
+ment 2004, P04005 (2004).
+[56] U. Schollw¨ ock, Reviews of modern physics 77, 259
+(2005).
+[57] U. Schollw¨ ock, Annals of physics326, 96 (2011).
+[58] Y. Levine, O. Sharir, N. Cohen, and A. Shashua, Phys-
+ical review letters 122, 065301 (2019).
+[59] M. Qin, T. Sch¨ afer, S. Andergassen, P. Corboz, and
+E. Gull, Annual Review of Condensed Matter Physics
+13, 275 (2022).
+[60] M. Fr´ ıas-P´ erez, L. Tagliacozzo, and M. C. Ba˜ nuls,
+Converting long-range entanglement into mixture:
+Tensor-network approach to local equilibration (2023),
+arxiv:2308.04291 [cond-mat, physics:quant-ph].
+[61] M. Fannes, B. Nachtergaele, and R. F. Werner, Com-
+munications in mathematical physics 144, 443 (1992).
+[62] A. Klumper, A. Schadschneider, and J. Zittartz, Jour-
+nal of Physics A: Mathematical and General 24, L955
+(1991).
+[63] A. Kl¨ umper, A. Schadschneider, and J. Zittartz, Euro-
+physics Letters 24, 293 (1993).
+[64] M. B. Hastings, Physical review b 73, 085115 (2006).
+[65] M. B. Hastings, Journal of statistical mechanics: theory
+and experiment 2007, P08024 (2007).
+[66] L. Tagliacozzo, G. Evenbly, and G. Vidal, Physical Re-
+view B 80, 235127 (2009).
+[67] S. Yan, D. A. Huse, and S. R. White, Science 332, 1173
+(2011).
+[68] S. R. White, Annu. Rev. Condens. Matter Phys. 3, 111
+(2012).
+[69] B.-X. Zheng, C.-M. Chung, P. Corboz, G. Ehlers, M.-P.
+Qin, R. M. Noack, H. Shi, S. R. White, S. Zhang, and
+G. K.-L. Chan, Science 358, 1155 (2017).
+[70] H.-C. Jiang and T. P. Devereaux, Science 365, 1424
+(2019).
+[71] M. Qin, C.-M. Chung, H. Shi, E. Vitali, C. Hubig,
+U. Schollw¨ ock, S. R. White, S. Zhang, et al. , Physical
+Review X 10, 031016 (2020).
+[72] J. L. Cardy, J. Phys. A: Math. Gen. 17, L385 (1984).
+[73] C. Holzhey, F. Larsen, and F. Wilczek, Nuclear physics
+b 424, 443 (1994).
+[74] G. Vidal, J. I. Latorre, E. Rico, and A. Kitaev, Physical
+review letters 90, 227902 (2003).
+[75] J. I. Latorre, E. Rico, and G. Vidal, arXiv preprint
+quant-ph/0304098 (2003).
+[76] P. Calabrese and J. Cardy, Journal of statistical me-
+chanics: theory and experiment 2004, P06002 (2004).
+[77] T. Nishino, K. Okunishi, and M. Kikuchi, Physics Let-
+ters A 213, 69 (1996).
+[78] L. Tagliacozzo, Thiago. R. de Oliveira, S. Iblisdir, and
+J. I. Latorre, Phys. Rev. B 78, 024410 (2008).
+[79] F. Pollmann, S. Mukerjee, A. M. Turner, and J. E.
+Moore, Phys. Rev. Lett. 102, 255701 (2009).
+[80] M. Henkel, Conformal invariance and critical phenom-
+ena (Springer Science & Business Media, 1999).
+[81] M. E. Fisher and M. N. Barber, Physical Review Letters
+28, 1516 (1972).
+[82] K. Binder, D. W. Heermann, and K. Binder, Monte
+Carlo simulation in statistical physics , Vol. 8 (Springer,
+1992).
+[83] T. Giamarchi, Quantum physics in one dimension , Vol.
+121 (Clarendon press, 2003).
+[84] J. Hauschild and F. Pollmann, SciPost Physics Lecture
+Notes , 005 (2018).
+[85] V. Dunjko and H. J. Briegel, Reports on Progress in
+Physics 81, 074001 (2018).
+[86] Y. Liu, S. Arunachalam, and K. Temme, Nature Physics
+, 1 (2021).
+15
+[87] C. Gyurik and V. Dunjko, arXiv:2208.06339 , (2022).
+[88] J. R. McClean, S. Boixo, V. N. Smelyanskiy, R. Bab-
+bush, and H. Neven, Nat. Commun. 9, 4812 (2018),
+arXiv:1803.11173 [quant-ph].
+[89] M. S. Rudolph, S. Lerch, S. Thanasilp, O. Kiss, S. Val-
+lecorsa, M. Grossi, and Z. Holmes, arXiv:2305.02881 ,
+(2023).
+[90] L. Bittel and M. Kliesch, Phys. Rev. Lett. 127, 120502
+(2021).
+[91] M. Cerezo, M. Larocca, D. Garc´ ıa-Mart´ ın, N. L. Diaz,
+P. Braccia, E. Fontana, M. S. Rudolph, P. Bermejo,
+A. Ijaz, S. Thanasilp, E. R. Anschuetz, and Z. Holmes,
+Does provable absence of barren plateaus imply classical
+simulability? or, why we need to rethink variational
+quantum computing (2023), arXiv:2312.09121 [quant-
+ph].
+[92] I. Cong, S. Choi, and M. D. Lukin, Nat. Phys. 15,
+1273–1278 (2019).
+[93] M. Cerezo, A. Sone, T. Volkoff, L. Cincio, and P. J.
+Coles, Nature communications 12, 1791 (2021).
+[94] A. Pesah, M. Cerezo, S. Wang, T. Volkoff, A. T. Sorn-
+borger, and P. J. Coles, Phys. Rev. X11, 041011 (2021).
+[95] F. Hua, Y. Jin, Y. Chen, S. Vittal, K. Krsulich, L. S.
+Bishop, J. Lapeyre, A. Javadi-Abhari, and E. Z. Zhang,
+Exploiting qubit reuse through mid-circuit measure-
+ment and reset (2023), arXiv:2211.01925 [quant-ph].
+[96] K. Chinzei, Q. H. Tran, K. Maruyama, H. Oshima, and
+S. Sato, Splitting and parallelizing of quantum convolu-
+tional neural networks for learning translationally sym-
+metric data (2023), arXiv:2306.07331 [quant-ph].
+[97] R. Verresen, A. Vishwanath, and F. Pollmann, arXiv
+preprint arXiv:1903.09179 (2019).
+[98] N. Chepiga and F. Mila, Physical Review B 107,
+L081106 (2023).
+[99] S. Sachdev, Physics world 12, 33 (1999).
+[100] T. Shirakura, F. Matsubara, and N. Suzuki, Physical
+Review B 90, 144410 (2014).
+[101] V. Pokrovsky and A. Talapov, Physical Review Letters
+42, 65 (1979).
+[102] S. Suzuki, J.-i. Inoue, and B. K. Chakrabarti, Quantum
+Ising phases and transitions in transverse Ising models ,
+Vol. 862 (Springer, 2012).
+[103] P. Bak, Reports on Progress in Physics 45, 587 (1982).
+[104] D. A. Huse and M. E. Fisher, Physical Review B 29,
+239 (1984).
+[105] F. Haldane, Journal of Physics C: Solid State Physics
+14, 2585 (1981).
+[106] J. L. Cardy and D. C. Lewellen, Physics Letters B 259,
+274 (1991).
+[107] S. R. White, I. Affleck, and D. J. Scalapino, Physical
+Review B 65, 165122 (2002).
+[108] M. Fabrizio and A. O. Gogolin, Physical Review B 51,
+17827 (1995).
+[109] N. Chepiga and F. Mila, Physical Review Research 3,
+023049 (2021).
+[110] G. Dzhaparidze and A. Nersesyan, Soviet Journal of
+Experimental and Theoretical Physics Letters 27, 334
+(1978).
+[111] I. Affleck and A. W. Ludwig, Physical Review Letters
+67, 161 (1991).
+[112] P. Calabrese and J. Cardy, Journal of physics a: math-
+ematical and theoretical 42, 504005 (2009).
+[113] N. Chepiga, I. Affleck, and F. Mila, Physical Review B
+101, 174407 (2020).
+[114] A. Peruzzo, J. McClean, P. Shadbolt, M.-H. Yung,
+X.-Q. Zhou, P. J. Love, A. Aspuru-Guzik, and J. L.
+O’Brien, Nature Communications 5, 4123 (2014).
+[115] M. S. Rudolph, J. Chen, J. Miller, A. Acharya, and
+A. Perdomo-Ortiz, Quantum Science and Technology
+9, 015012 (2023).
+[116] K. Kottmann, F. Metz, J. Fraxanet, and N. Baldelli,
+Phys. Rev. Research 3, 043184 (2021).
+[117] J. Dborin, F. Barratt, V. Wimalaweera, L. Wright,
+and A. G. Green, Quantum Science and Technology 7,
+035014 (2022).
+[118] L. Ornstein and F. Zernike, Koninklijke Nederlandsche
+Akademie van Wetenschappen Proceedings 19, 1312
+(1914).
+[119] E. S. Sørensen, M.-S. Chang, N. Laflorencie, and I. Af-
+fleck, Journal of Statistical Mechanics: Theory and Ex-
+periment 2007, P08003 (2007).

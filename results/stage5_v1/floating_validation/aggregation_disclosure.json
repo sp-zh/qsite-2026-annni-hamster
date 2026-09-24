@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-22T17:37:44.925570+00:00",
+  "frozen_before_calculations": [
+    "sizes, chi, centers/neighbors, initial states, controls",
+    "signed four-parameter power/exponential models and two fit windows",
+    "last25percent contiguous-distance validation",
+    "delta energy/C/entropy tolerances, c range and q size-change threshold",
+    "chi512 trigger"
+  ],
+  "not_fully_preregistered": [
+    "The analysis script additionally requires all four held-out block comparisons to favor power and initialization maxC difference <.01 for the support_strengthened composite label. Those aggregation clauses were not explicitly present in experiment_plan.json before calculations."
+  ],
+  "interpretation": "Report constituent frozen checks separately. Composite grade is a conservative evidence review introduced after calculations started, not a fully preregistered statistical or phase test. No thresholds or computed results are retroactively changed.",
+  "original_plan_unchanged": true
+}

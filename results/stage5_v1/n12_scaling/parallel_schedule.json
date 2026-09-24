@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-22T18:02:58.048534+00:00",
+  "reason": "Finish the last12 already frozen N12 test coordinates while primary worker is still on old60; no extra coordinates, references, seeds or iterations.",
+  "isolated_point_directory": "selector_benchmark/n12_192_tail",
+  "shared_physical_cache": "adaptive/cache keyed by unchanged algorithm/config/coordinate/ref/seed/budget fingerprints",
+  "primary_behavior": "Primary reaches these coordinates later and loads completed identical cache results; unique computation cost counted by cache file, not repeated index references.",
+  "memory": "Additional 4096-amplitude pure-state optimization process, not a second density-matrix job; DMRG and any eventual N12 density remain bounded separately.",
+  "budget_allocation_unchanged": true
+}

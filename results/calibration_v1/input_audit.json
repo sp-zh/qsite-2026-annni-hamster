@@ -1,0 +1,815 @@
+{
+  "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pennylane": "0.44.1",
+    "matplotlib": "3.11.2"
+  },
+  "lock_differences": {},
+  "protected_sha256": {
+    "results/baseline/slices_n12.csv": "5814e9adc9742fbcffe36a0edc63f516dbb4c4f5eec9403e5edc512dfd340309",
+    "results/baseline/finite_size_slices.png": "86d83e93b14b8c7d2ccc100c3de61d787e502c74c0d0a5f03b237f114295ebcb",
+    "results/baseline/grid_n8.npz": "09ad1a227d7ff346aae940468f4d67ff4587832b982986b920db2957c3af3dc2",
+    "results/baseline/slices_n8.csv": "ff229d574fc70e5237b980ad6df230d1908cdebf0ccb6a20fa3f98534159bc8c",
+    "results/baseline/finite_size_slices.pdf": "5ff749adfeeaf0675216f69583f533bd1d4287bfade8b34c4e5987423bc83e8c",
+    "results/baseline/slices_n16.csv": "8b7624e24da64bfee855f925d61e72bcf35b9174cb2cd9cf21bd50c88a4dd048",
+    "results/baseline/REPORT.md": "b1588d8e19c5b671803936e550e493e723c7bb3c83c8e9a960d8cce3c0f063cd",
+    "results/baseline/diagnostic_peaks.csv": "5d640e1a1d939f0e586125e4e0a93b69c138acddb4ffce85985d7b31cdf7924b",
+    "results/baseline/metadata.json": "562eb493018687bd5f6a4b015309e017886e50d905a6bd2a4e932175c8bf8b8f",
+    "results/baseline/ed_n8_maps.pdf": "4089dfccd61c6c6a66d11a99e46a493661fe5a5358d29ef0e96cc4d1b1106b74",
+    "results/baseline/ed_n8_maps.png": "4fa2aa4dd3e780a4276de89c5d90855137244f7ca104408c51721231c2c77b05",
+    "results/baseline/slices_n8.npz": "a374e520bbfb6b2f905da1ccf4d294c943fcd97c2d3b389c62e3e27b91bf7184",
+    "results/baseline/grid_n8.csv": "15550f95c108c5153dcb5c95c431a8a3ce8a8ca4fa2d594087c9adcfc65fd3ca",
+    "results/baseline/slices_n12.npz": "fdbaba3b0c0dd88c27c01496d4c67e5ea30e35339c31ee66ad8918043f79c67c",
+    "results/baseline/slices_n16.npz": "e42324e957c44f6596ca77c839a1616700b086c73b432ffc15de2db3318380f0",
+    "upstream/PROVENANCE.json": "9f100f330b62fb1682d3e6d545e6a1af7801326889477a87a20a1f78e788f6e0",
+    "upstream/LICENSE": "ad4dc5338d308b20555b09f349692ecedf0650bc3d981d0188683aecbe1e0e84",
+    "upstream/README.md": "8cc9ba4f7a293cb6df6faf3d775808084904ac41b3b70b3318b6c25359a331cc",
+    "upstream/Scientific Track/pyproject.toml": "3169e3d38815ba7667d40cc76d5c872107b63572a284f0486171f4af1f16d78c",
+    "upstream/Scientific Track/README.md": "78267af2bc549d236aab464edac65dd5e6bf76297d9db5a5a03b5960b8c275d8",
+    "upstream/Scientific Track/starter.ipynb": "835ad435e9dfe394910ffb0ee27d5aa31d49f2436e5967145b4c5af8101fc4da",
+    "upstream/Scientific Track/starter_kit/plotting.py": "1dd344f979f35aeaa3a0e6f226d98e8cf528c3775f45ffa050ecb3af79493ed6",
+    "upstream/Scientific Track/starter_kit/annni.py": "447843e1cc07238e492919cff72a2cb1ef58fe5f9076cd68f4ebf07c3416f890",
+    "upstream/Scientific Track/starter_kit/README.md": "029325464a407cc6f67224298629c1ab68c94833316169881837ce9f57b6bda5",
+    "upstream/Scientific Track/starter_kit/exact_diag.py": "b1871fb8f6a9c1b6cb005c3dbd14c47530b5bb5ab85a4602f57b201582fbbd79",
+    "upstream/Scientific Track/starter_kit/reference.py": "32a6bb452e2ae0825e00f0b9eb98bea426c0517a8da108d455a8d610b6dca552",
+    "upstream/Scientific Track/starter_kit/noise_utils.py": "b1e19320548dd56561ccf3f9612ac1df3fd0199d4adef1b3b63a9e325c120dbf",
+    "upstream/Scientific Track/starter_kit/observables.py": "cfbe175124b1596c88394e0c8fd96225930e72cc0c520f96d97ee507f3fd8e83",
+    "annni/model.py": "2db945090de3f2a23cc5bfcc4f49afec64df99821acade95b81c131cf81748ef",
+    "requirements.lock.txt": "4a17ebd6a02afa38831fb15a1d60df23fcb7f3bd62287bc19a0438e014c9235d"
+  },
+  "npz": {
+    "results/baseline/grid_n8.npz": {
+      "energy_per_site": {
+        "shape": [
+          21,
+          21
+        ],
+        "dtype": "float64"
+      },
+      "mx": {
+        "shape": [
+          21,
+          21
+        ],
+        "dtype": "float64"
+      },
+      "c1": {
+        "shape": [
+          21,
+          21
+        ],
+        "dtype": "float64"
+      },
+      "c2": {
+        "shape": [
+          21,
+          21
+        ],
+        "dtype": "float64"
+      },
+      "m2_ferro": {
+        "shape": [
+          21,
+          21
+        ],
+        "dtype": "float64"
+      },
+      "m2_antiphase": {
+        "shape": [
+          21,
+          21
+        ],
+        "dtype": "float64"
+      },
+      "residual": {
+        "shape": [
+          21,
+          21
+        ],
+        "dtype": "float64"
+      },
+      "classical_degeneracy": {
+        "shape": [
+          21,
+          21
+        ],
+        "dtype": "float64"
+      },
+      "correlations": {
+        "shape": [
+          21,
+          21,
+          8
+        ],
+        "dtype": "float64"
+      },
+      "structure_factor": {
+        "shape": [
+          21,
+          21,
+          8
+        ],
+        "dtype": "float64"
+      },
+      "chi_f": {
+        "shape": [
+          21,
+          20
+        ],
+        "dtype": "float64"
+      },
+      "n": {
+        "shape": [],
+        "dtype": "int64"
+      },
+      "kappa": {
+        "shape": [
+          21
+        ],
+        "dtype": "float64"
+      },
+      "h": {
+        "shape": [
+          21
+        ],
+        "dtype": "float64"
+      },
+      "h_mid": {
+        "shape": [
+          20
+        ],
+        "dtype": "float64"
+      },
+      "states": {
+        "shape": [
+          21,
+          21,
+          256
+        ],
+        "dtype": "float64"
+      },
+      "coordinates": {
+        "n": 8,
+        "kappa": [
+          0.0,
+          0.05,
+          0.1,
+          0.15000000000000002,
+          0.2,
+          0.25,
+          0.30000000000000004,
+          0.35000000000000003,
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6000000000000001,
+          0.65,
+          0.7000000000000001,
+          0.75,
+          0.8,
+          0.8500000000000001,
+          0.9,
+          0.9500000000000001,
+          1.0
+        ],
+        "h": [
+          0.0,
+          0.1,
+          0.2,
+          0.30000000000000004,
+          0.4,
+          0.5,
+          0.6000000000000001,
+          0.7000000000000001,
+          0.8,
+          0.9,
+          1.0,
+          1.1,
+          1.2000000000000002,
+          1.3,
+          1.4000000000000001,
+          1.5,
+          1.6,
+          1.7000000000000002,
+          1.8,
+          1.9000000000000001,
+          2.0
+        ],
+        "h_mid": [
+          0.05,
+          0.15000000000000002,
+          0.25,
+          0.35000000000000003,
+          0.45,
+          0.55,
+          0.6500000000000001,
+          0.75,
+          0.8500000000000001,
+          0.95,
+          1.05,
+          1.1500000000000001,
+          1.25,
+          1.35,
+          1.4500000000000002,
+          1.55,
+          1.6500000000000001,
+          1.75,
+          1.85,
+          1.9500000000000002
+        ]
+      }
+    },
+    "results/baseline/slices_n8.npz": {
+      "energy_per_site": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "mx": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "c1": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "c2": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "m2_ferro": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "m2_antiphase": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "residual": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "classical_degeneracy": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "correlations": {
+        "shape": [
+          3,
+          41,
+          8
+        ],
+        "dtype": "float64"
+      },
+      "structure_factor": {
+        "shape": [
+          3,
+          41,
+          8
+        ],
+        "dtype": "float64"
+      },
+      "chi_f": {
+        "shape": [
+          3,
+          40
+        ],
+        "dtype": "float64"
+      },
+      "n": {
+        "shape": [],
+        "dtype": "int64"
+      },
+      "kappa": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64"
+      },
+      "h": {
+        "shape": [
+          41
+        ],
+        "dtype": "float64"
+      },
+      "h_mid": {
+        "shape": [
+          40
+        ],
+        "dtype": "float64"
+      },
+      "coordinates": {
+        "n": 8,
+        "kappa": [
+          0.0,
+          0.3,
+          0.8
+        ],
+        "h": [
+          0.0,
+          0.05,
+          0.1,
+          0.15000000000000002,
+          0.2,
+          0.25,
+          0.30000000000000004,
+          0.35000000000000003,
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6000000000000001,
+          0.65,
+          0.7000000000000001,
+          0.75,
+          0.8,
+          0.8500000000000001,
+          0.9,
+          0.9500000000000001,
+          1.0,
+          1.05,
+          1.1,
+          1.1500000000000001,
+          1.2000000000000002,
+          1.25,
+          1.3,
+          1.35,
+          1.4000000000000001,
+          1.4500000000000002,
+          1.5,
+          1.55,
+          1.6,
+          1.6500000000000001,
+          1.7000000000000002,
+          1.75,
+          1.8,
+          1.85,
+          1.9000000000000001,
+          1.9500000000000002,
+          2.0
+        ],
+        "h_mid": [
+          0.025,
+          0.07500000000000001,
+          0.125,
+          0.17500000000000002,
+          0.225,
+          0.275,
+          0.32500000000000007,
+          0.375,
+          0.42500000000000004,
+          0.475,
+          0.525,
+          0.5750000000000001,
+          0.625,
+          0.675,
+          0.7250000000000001,
+          0.775,
+          0.8250000000000001,
+          0.875,
+          0.925,
+          0.9750000000000001,
+          1.025,
+          1.0750000000000002,
+          1.125,
+          1.1750000000000003,
+          1.225,
+          1.275,
+          1.3250000000000002,
+          1.375,
+          1.4250000000000003,
+          1.475,
+          1.525,
+          1.5750000000000002,
+          1.625,
+          1.6750000000000003,
+          1.725,
+          1.775,
+          1.8250000000000002,
+          1.875,
+          1.9250000000000003,
+          1.975
+        ]
+      }
+    },
+    "results/baseline/slices_n12.npz": {
+      "energy_per_site": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "mx": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "c1": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "c2": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "m2_ferro": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "m2_antiphase": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "residual": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "classical_degeneracy": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "correlations": {
+        "shape": [
+          3,
+          41,
+          12
+        ],
+        "dtype": "float64"
+      },
+      "structure_factor": {
+        "shape": [
+          3,
+          41,
+          12
+        ],
+        "dtype": "float64"
+      },
+      "chi_f": {
+        "shape": [
+          3,
+          40
+        ],
+        "dtype": "float64"
+      },
+      "n": {
+        "shape": [],
+        "dtype": "int64"
+      },
+      "kappa": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64"
+      },
+      "h": {
+        "shape": [
+          41
+        ],
+        "dtype": "float64"
+      },
+      "h_mid": {
+        "shape": [
+          40
+        ],
+        "dtype": "float64"
+      },
+      "coordinates": {
+        "n": 12,
+        "kappa": [
+          0.0,
+          0.3,
+          0.8
+        ],
+        "h": [
+          0.0,
+          0.05,
+          0.1,
+          0.15000000000000002,
+          0.2,
+          0.25,
+          0.30000000000000004,
+          0.35000000000000003,
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6000000000000001,
+          0.65,
+          0.7000000000000001,
+          0.75,
+          0.8,
+          0.8500000000000001,
+          0.9,
+          0.9500000000000001,
+          1.0,
+          1.05,
+          1.1,
+          1.1500000000000001,
+          1.2000000000000002,
+          1.25,
+          1.3,
+          1.35,
+          1.4000000000000001,
+          1.4500000000000002,
+          1.5,
+          1.55,
+          1.6,
+          1.6500000000000001,
+          1.7000000000000002,
+          1.75,
+          1.8,
+          1.85,
+          1.9000000000000001,
+          1.9500000000000002,
+          2.0
+        ],
+        "h_mid": [
+          0.025,
+          0.07500000000000001,
+          0.125,
+          0.17500000000000002,
+          0.225,
+          0.275,
+          0.32500000000000007,
+          0.375,
+          0.42500000000000004,
+          0.475,
+          0.525,
+          0.5750000000000001,
+          0.625,
+          0.675,
+          0.7250000000000001,
+          0.775,
+          0.8250000000000001,
+          0.875,
+          0.925,
+          0.9750000000000001,
+          1.025,
+          1.0750000000000002,
+          1.125,
+          1.1750000000000003,
+          1.225,
+          1.275,
+          1.3250000000000002,
+          1.375,
+          1.4250000000000003,
+          1.475,
+          1.525,
+          1.5750000000000002,
+          1.625,
+          1.6750000000000003,
+          1.725,
+          1.775,
+          1.8250000000000002,
+          1.875,
+          1.9250000000000003,
+          1.975
+        ]
+      }
+    },
+    "results/baseline/slices_n16.npz": {
+      "energy_per_site": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "mx": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "c1": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "c2": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "m2_ferro": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "m2_antiphase": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "residual": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "classical_degeneracy": {
+        "shape": [
+          3,
+          41
+        ],
+        "dtype": "float64"
+      },
+      "correlations": {
+        "shape": [
+          3,
+          41,
+          16
+        ],
+        "dtype": "float64"
+      },
+      "structure_factor": {
+        "shape": [
+          3,
+          41,
+          16
+        ],
+        "dtype": "float64"
+      },
+      "chi_f": {
+        "shape": [
+          3,
+          40
+        ],
+        "dtype": "float64"
+      },
+      "n": {
+        "shape": [],
+        "dtype": "int64"
+      },
+      "kappa": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64"
+      },
+      "h": {
+        "shape": [
+          41
+        ],
+        "dtype": "float64"
+      },
+      "h_mid": {
+        "shape": [
+          40
+        ],
+        "dtype": "float64"
+      },
+      "coordinates": {
+        "n": 16,
+        "kappa": [
+          0.0,
+          0.3,
+          0.8
+        ],
+        "h": [
+          0.0,
+          0.05,
+          0.1,
+          0.15000000000000002,
+          0.2,
+          0.25,
+          0.30000000000000004,
+          0.35000000000000003,
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6000000000000001,
+          0.65,
+          0.7000000000000001,
+          0.75,
+          0.8,
+          0.8500000000000001,
+          0.9,
+          0.9500000000000001,
+          1.0,
+          1.05,
+          1.1,
+          1.1500000000000001,
+          1.2000000000000002,
+          1.25,
+          1.3,
+          1.35,
+          1.4000000000000001,
+          1.4500000000000002,
+          1.5,
+          1.55,
+          1.6,
+          1.6500000000000001,
+          1.7000000000000002,
+          1.75,
+          1.8,
+          1.85,
+          1.9000000000000001,
+          1.9500000000000002,
+          2.0
+        ],
+        "h_mid": [
+          0.025,
+          0.07500000000000001,
+          0.125,
+          0.17500000000000002,
+          0.225,
+          0.275,
+          0.32500000000000007,
+          0.375,
+          0.42500000000000004,
+          0.475,
+          0.525,
+          0.5750000000000001,
+          0.625,
+          0.675,
+          0.7250000000000001,
+          0.775,
+          0.8250000000000001,
+          0.875,
+          0.925,
+          0.9750000000000001,
+          1.025,
+          1.0750000000000002,
+          1.125,
+          1.1750000000000003,
+          1.225,
+          1.275,
+          1.3250000000000002,
+          1.375,
+          1.4250000000000003,
+          1.475,
+          1.525,
+          1.5750000000000002,
+          1.625,
+          1.6750000000000003,
+          1.725,
+          1.775,
+          1.8250000000000002,
+          1.875,
+          1.9250000000000003,
+          1.975
+        ]
+      }
+    }
+  }
+}

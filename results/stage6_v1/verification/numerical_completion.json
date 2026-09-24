@@ -1,0 +1,38 @@
+{
+  "time": "2026-09-23T08:41:06.031237+00:00",
+  "queues": {
+    "main_queue": {
+      "time": "2026-09-23T08:13:19.611956+00:00",
+      "completed": "noise_map",
+      "next_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python scripts/run_stage6_main_queue.py"
+    },
+    "second_lane": {
+      "time": "2026-09-23T08:09:55.243452+00:00",
+      "completed": "n12_noise_analyze",
+      "next_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python scripts/run_stage6_second_lane.py"
+    },
+    "final_analysis_done": {
+      "time": "2026-09-23T08:26:07.908384+00:00",
+      "completed": "all",
+      "next_command": ".venv/bin/python scripts/run_stage6_final_analysis_queue.py"
+    },
+    "map_analysis_done": {
+      "time": "2026-09-23T08:15:05.950902+00:00",
+      "completed": "all",
+      "next_command": ".venv/bin/python scripts/run_stage6_map_analysis_queue.py"
+    },
+    "free_lane_done": {
+      "time": "2026-09-23T08:25:20.786857+00:00",
+      "completed": "all",
+      "next_command": ".venv/bin/python scripts/run_stage6_free_lane.py"
+    },
+    "h425_size_done": {
+      "time": "2026-09-23T08:37:28.078650+00:00",
+      "completed": "all",
+      "next_command": ".venv/bin/python scripts/run_stage6_h425_size_check.py"
+    }
+  },
+  "confirmation_canonical_denominator": 96,
+  "remaining_numerical_jobs": 0,
+  "scope": "Registered queues completed, including failed/scientifically unresolved outcomes. Computational completion is not complete four-phase reconstruction or strong-noise recovery."
+}

@@ -1,0 +1,900 @@
+{
+  "timestamp": "2026-09-23T05:43:07.661532+00:00",
+  "code_sha": "202c4110566cd6f2c76550ffb62142ca3b94048e09eccd8982c8e50aed72b328",
+  "pilot_sha": "509cd3344544dc8aca9600f780b8718fad78f6175be25004e5a82fa6faa8d9e9",
+  "design": [
+    "one_qubit_gates",
+    "CNOTs",
+    "noisy_CNOTs"
+  ],
+  "nonnegative_seconds_per_gate": [
+    0.16206803204470638,
+    0.379673866240198,
+    0.19647188186015047
+  ],
+  "fit_residual_L2": 0.9759575814999376,
+  "pilot_actual_seconds": [
+    4.262639874999877,
+    5.853259666997474,
+    7.221923540986609,
+    50.835988917038776,
+    63.252939375001006,
+    63.1347695000004
+  ],
+  "pilot_fitted_seconds": [
+    4.338480560686884,
+    6.499671261148539,
+    6.499671261148539,
+    50.82274689255374,
+    63.200475449743216,
+    63.200475449743216
+  ],
+  "rows": [
+    {
+      "kappa": 0.443,
+      "h": 0.013,
+      "method": "B3",
+      "p": 0,
+      "gate_counts": [
+        1,
+        11,
+        0
+      ],
+      "estimated_density_seconds": 4.338480560686884
+    },
+    {
+      "kappa": 0.443,
+      "h": 0.013,
+      "method": "B3",
+      "p": 0.01,
+      "gate_counts": [
+        1,
+        11,
+        11
+      ],
+      "estimated_density_seconds": 6.499671261148539
+    },
+    {
+      "kappa": 0.443,
+      "h": 0.013,
+      "method": "B3",
+      "p": 0.05,
+      "gate_counts": [
+        1,
+        11,
+        11
+      ],
+      "estimated_density_seconds": 6.499671261148539
+    },
+    {
+      "kappa": 0.443,
+      "h": 0.013,
+      "method": "H6",
+      "p": 0,
+      "gate_counts": [
+        166,
+        63,
+        0
+      ],
+      "estimated_density_seconds": 50.82274689255374
+    },
+    {
+      "kappa": 0.443,
+      "h": 0.013,
+      "method": "H6",
+      "p": 0.01,
+      "gate_counts": [
+        166,
+        63,
+        63
+      ],
+      "estimated_density_seconds": 63.200475449743216
+    },
+    {
+      "kappa": 0.443,
+      "h": 0.013,
+      "method": "H6",
+      "p": 0.05,
+      "gate_counts": [
+        166,
+        63,
+        63
+      ],
+      "estimated_density_seconds": 63.200475449743216
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.013,
+      "method": "B3",
+      "p": 0,
+      "gate_counts": [
+        12,
+        10,
+        0
+      ],
+      "estimated_density_seconds": 5.741555046938457
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.013,
+      "method": "B3",
+      "p": 0.01,
+      "gate_counts": [
+        12,
+        10,
+        10
+      ],
+      "estimated_density_seconds": 7.706273865539961
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.013,
+      "method": "B3",
+      "p": 0.05,
+      "gate_counts": [
+        12,
+        10,
+        10
+      ],
+      "estimated_density_seconds": 7.706273865539961
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.013,
+      "method": "H6",
+      "p": 0,
+      "gate_counts": [
+        200,
+        128,
+        0
+      ],
+      "estimated_density_seconds": 81.01186128768663
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.013,
+      "method": "H6",
+      "p": 0.01,
+      "gate_counts": [
+        200,
+        128,
+        128
+      ],
+      "estimated_density_seconds": 106.1602621657859
+    },
+    {
+      "kappa": 0.507,
+      "h": 0.013,
+      "method": "H6",
+      "p": 0.05,
+      "gate_counts": [
+        200,
+        128,
+        128
+      ],
+      "estimated_density_seconds": 106.1602621657859
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.235,
+      "method": "B3",
+      "p": 0,
+      "gate_counts": [
+        178,
+        128,
+        0
+      ],
+      "estimated_density_seconds": 77.44636458270308
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.235,
+      "method": "B3",
+      "p": 0.01,
+      "gate_counts": [
+        178,
+        128,
+        128
+      ],
+      "estimated_density_seconds": 102.59476546080234
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.235,
+      "method": "B3",
+      "p": 0.05,
+      "gate_counts": [
+        178,
+        128,
+        128
+      ],
+      "estimated_density_seconds": 102.59476546080234
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.235,
+      "method": "H6",
+      "p": 0,
+      "gate_counts": [
+        178,
+        128,
+        0
+      ],
+      "estimated_density_seconds": 77.44636458270308
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.235,
+      "method": "H6",
+      "p": 0.01,
+      "gate_counts": [
+        178,
+        128,
+        128
+      ],
+      "estimated_density_seconds": 102.59476546080234
+    },
+    {
+      "kappa": 0.663,
+      "h": 0.235,
+      "method": "H6",
+      "p": 0.05,
+      "gate_counts": [
+        178,
+        128,
+        128
+      ],
+      "estimated_density_seconds": 102.59476546080234
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.235,
+      "method": "B3",
+      "p": 0,
+      "gate_counts": [
+        178,
+        128,
+        0
+      ],
+      "estimated_density_seconds": 77.44636458270308
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.235,
+      "method": "B3",
+      "p": 0.01,
+      "gate_counts": [
+        178,
+        128,
+        128
+      ],
+      "estimated_density_seconds": 102.59476546080234
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.235,
+      "method": "B3",
+      "p": 0.05,
+      "gate_counts": [
+        178,
+        128,
+        128
+      ],
+      "estimated_density_seconds": 102.59476546080234
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.235,
+      "method": "H6",
+      "p": 0,
+      "gate_counts": [
+        179,
+        128,
+        0
+      ],
+      "estimated_density_seconds": 77.60843261474778
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.235,
+      "method": "H6",
+      "p": 0.01,
+      "gate_counts": [
+        179,
+        128,
+        128
+      ],
+      "estimated_density_seconds": 102.75683349284705
+    },
+    {
+      "kappa": 0.863,
+      "h": 0.235,
+      "method": "H6",
+      "p": 0.05,
+      "gate_counts": [
+        179,
+        128,
+        128
+      ],
+      "estimated_density_seconds": 102.75683349284705
+    },
+    {
+      "kappa": 0.083,
+      "h": 0.085,
+      "method": "B3",
+      "p": 0,
+      "gate_counts": [
+        72,
+        63,
+        0
+      ],
+      "estimated_density_seconds": 35.58835188035133
+    },
+    {
+      "kappa": 0.083,
+      "h": 0.085,
+      "method": "B3",
+      "p": 0.01,
+      "gate_counts": [
+        72,
+        63,
+        63
+      ],
+      "estimated_density_seconds": 47.96608043754081
+    },
+    {
+      "kappa": 0.083,
+      "h": 0.085,
+      "method": "B3",
+      "p": 0.05,
+      "gate_counts": [
+        72,
+        63,
+        63
+      ],
+      "estimated_density_seconds": 47.96608043754081
+    },
+    {
+      "kappa": 0.083,
+      "h": 0.085,
+      "method": "H6",
+      "p": 0,
+      "gate_counts": [
+        72,
+        63,
+        0
+      ],
+      "estimated_density_seconds": 35.58835188035133
+    },
+    {
+      "kappa": 0.083,
+      "h": 0.085,
+      "method": "H6",
+      "p": 0.01,
+      "gate_counts": [
+        72,
+        63,
+        63
+      ],
+      "estimated_density_seconds": 47.96608043754081
+    },
+    {
+      "kappa": 0.083,
+      "h": 0.085,
+      "method": "H6",
+      "p": 0.05,
+      "gate_counts": [
+        72,
+        63,
+        63
+      ],
+      "estimated_density_seconds": 47.96608043754081
+    },
+    {
+      "kappa": 0.383,
+      "h": 0.085,
+      "method": "B3",
+      "p": 0,
+      "gate_counts": [
+        72,
+        63,
+        0
+      ],
+      "estimated_density_seconds": 35.58835188035133
+    },
+    {
+      "kappa": 0.383,
+      "h": 0.085,
+      "method": "B3",
+      "p": 0.01,
+      "gate_counts": [
+        72,
+        63,
+        63
+      ],
+      "estimated_density_seconds": 47.96608043754081
+    },
+    {
+      "kappa": 0.383,
+      "h": 0.085,
+      "method": "B3",
+      "p": 0.05,
+      "gate_counts": [
+        72,
+        63,
+        63
+      ],
+      "estimated_density_seconds": 47.96608043754081
+    },
+    {
+      "kappa": 0.383,
+      "h": 0.085,
+      "method": "H6",
+      "p": 0,
+      "gate_counts": [
+        115,
+        95,
+        0
+      ],
+      "estimated_density_seconds": 54.70684097796004
+    },
+    {
+      "kappa": 0.383,
+      "h": 0.085,
+      "method": "H6",
+      "p": 0.01,
+      "gate_counts": [
+        115,
+        95,
+        95
+      ],
+      "estimated_density_seconds": 73.37166975467434
+    },
+    {
+      "kappa": 0.383,
+      "h": 0.085,
+      "method": "H6",
+      "p": 0.05,
+      "gate_counts": [
+        115,
+        95,
+        95
+      ],
+      "estimated_density_seconds": 73.37166975467434
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.01,
+      "method": "B3",
+      "p": 0,
+      "gate_counts": [
+        12,
+        10,
+        0
+      ],
+      "estimated_density_seconds": 5.741555046938457
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.01,
+      "method": "B3",
+      "p": 0.01,
+      "gate_counts": [
+        12,
+        10,
+        10
+      ],
+      "estimated_density_seconds": 7.706273865539961
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.01,
+      "method": "B3",
+      "p": 0.05,
+      "gate_counts": [
+        12,
+        10,
+        10
+      ],
+      "estimated_density_seconds": 7.706273865539961
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.01,
+      "method": "H6",
+      "p": 0,
+      "gate_counts": [
+        127,
+        55,
+        0
+      ],
+      "estimated_density_seconds": 41.464702712888595
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.01,
+      "method": "H6",
+      "p": 0.01,
+      "gate_counts": [
+        127,
+        55,
+        55
+      ],
+      "estimated_density_seconds": 52.27065621519687
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.01,
+      "method": "H6",
+      "p": 0.05,
+      "gate_counts": [
+        127,
+        55,
+        55
+      ],
+      "estimated_density_seconds": 52.27065621519687
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.0375,
+      "method": "B3",
+      "p": 0,
+      "gate_counts": [
+        45,
+        32,
+        0
+      ],
+      "estimated_density_seconds": 19.442625161698125
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.0375,
+      "method": "B3",
+      "p": 0.01,
+      "gate_counts": [
+        45,
+        32,
+        32
+      ],
+      "estimated_density_seconds": 25.72972538122294
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.0375,
+      "method": "B3",
+      "p": 0.05,
+      "gate_counts": [
+        45,
+        32,
+        32
+      ],
+      "estimated_density_seconds": 25.72972538122294
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.0375,
+      "method": "H6",
+      "p": 0,
+      "gate_counts": [
+        154,
+        63,
+        0
+      ],
+      "estimated_density_seconds": 48.87793050801726
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.0375,
+      "method": "H6",
+      "p": 0.01,
+      "gate_counts": [
+        154,
+        63,
+        63
+      ],
+      "estimated_density_seconds": 61.255659065206736
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.0375,
+      "method": "H6",
+      "p": 0.05,
+      "gate_counts": [
+        154,
+        63,
+        63
+      ],
+      "estimated_density_seconds": 61.255659065206736
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.075,
+      "method": "B3",
+      "p": 0,
+      "gate_counts": [
+        134,
+        96,
+        0
+      ],
+      "estimated_density_seconds": 58.165807453049666
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.075,
+      "method": "B3",
+      "p": 0.01,
+      "gate_counts": [
+        134,
+        96,
+        96
+      ],
+      "estimated_density_seconds": 77.0271081116241
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.075,
+      "method": "B3",
+      "p": 0.05,
+      "gate_counts": [
+        134,
+        96,
+        96
+      ],
+      "estimated_density_seconds": 77.0271081116241
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.075,
+      "method": "H6",
+      "p": 0,
+      "gate_counts": [
+        217,
+        95,
+        0
+      ],
+      "estimated_density_seconds": 71.23778024652009
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.075,
+      "method": "H6",
+      "p": 0.01,
+      "gate_counts": [
+        217,
+        95,
+        95
+      ],
+      "estimated_density_seconds": 89.90260902323439
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.075,
+      "method": "H6",
+      "p": 0.05,
+      "gate_counts": [
+        217,
+        95,
+        95
+      ],
+      "estimated_density_seconds": 89.90260902323439
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1125,
+      "method": "B3",
+      "p": 0,
+      "gate_counts": [
+        171,
+        127,
+        0
+      ],
+      "estimated_density_seconds": 75.93221449214994
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1125,
+      "method": "B3",
+      "p": 0.01,
+      "gate_counts": [
+        171,
+        127,
+        127
+      ],
+      "estimated_density_seconds": 100.88414348838904
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1125,
+      "method": "B3",
+      "p": 0.05,
+      "gate_counts": [
+        171,
+        127,
+        127
+      ],
+      "estimated_density_seconds": 100.88414348838904
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1125,
+      "method": "H6",
+      "p": 0,
+      "gate_counts": [
+        169,
+        127,
+        0
+      ],
+      "estimated_density_seconds": 75.60807842806052
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1125,
+      "method": "H6",
+      "p": 0.01,
+      "gate_counts": [
+        169,
+        127,
+        127
+      ],
+      "estimated_density_seconds": 100.56000742429963
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1125,
+      "method": "H6",
+      "p": 0.05,
+      "gate_counts": [
+        169,
+        127,
+        127
+      ],
+      "estimated_density_seconds": 100.56000742429963
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.15,
+      "method": "B3",
+      "p": 0,
+      "gate_counts": [
+        171,
+        127,
+        0
+      ],
+      "estimated_density_seconds": 75.93221449214994
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.15,
+      "method": "B3",
+      "p": 0.01,
+      "gate_counts": [
+        171,
+        127,
+        127
+      ],
+      "estimated_density_seconds": 100.88414348838904
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.15,
+      "method": "B3",
+      "p": 0.05,
+      "gate_counts": [
+        171,
+        127,
+        127
+      ],
+      "estimated_density_seconds": 100.88414348838904
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.15,
+      "method": "H6",
+      "p": 0,
+      "gate_counts": [
+        171,
+        127,
+        0
+      ],
+      "estimated_density_seconds": 75.93221449214994
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.15,
+      "method": "H6",
+      "p": 0.01,
+      "gate_counts": [
+        171,
+        127,
+        127
+      ],
+      "estimated_density_seconds": 100.88414348838904
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.15,
+      "method": "H6",
+      "p": 0.05,
+      "gate_counts": [
+        171,
+        127,
+        127
+      ],
+      "estimated_density_seconds": 100.88414348838904
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1875,
+      "method": "B3",
+      "p": 0,
+      "gate_counts": [
+        172,
+        127,
+        0
+      ],
+      "estimated_density_seconds": 76.09428252419464
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1875,
+      "method": "B3",
+      "p": 0.01,
+      "gate_counts": [
+        172,
+        127,
+        127
+      ],
+      "estimated_density_seconds": 101.04621152043374
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1875,
+      "method": "B3",
+      "p": 0.05,
+      "gate_counts": [
+        172,
+        127,
+        127
+      ],
+      "estimated_density_seconds": 101.04621152043374
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1875,
+      "method": "H6",
+      "p": 0,
+      "gate_counts": [
+        171,
+        127,
+        0
+      ],
+      "estimated_density_seconds": 75.93221449214994
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1875,
+      "method": "H6",
+      "p": 0.01,
+      "gate_counts": [
+        171,
+        127,
+        127
+      ],
+      "estimated_density_seconds": 100.88414348838904
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.1875,
+      "method": "H6",
+      "p": 0.05,
+      "gate_counts": [
+        171,
+        127,
+        127
+      ],
+      "estimated_density_seconds": 100.88414348838904
+    }
+  ],
+  "total_estimated_seconds": 4774.52078330987,
+  "scope": "Estimate only from six actual probability calculations at one coordinate; not observed batch duration. Includes all12coordinates andbothmethods/all3p before cache reuse, excludes sampling and analysis. Gate timing model is an engineering extrapolation, not a guaranteed completion time or a new experiment allocation. Original deadline and scientific configuration unchanged."
+}

@@ -1,0 +1,46 @@
+A 1 102 0.0 0.875 1.2
+A 2 102 0.0 0.8875 13.49
+A 3 102 0.0 0.9 25.64
+A 4 102 0.0 0.9125 37.98
+A 5 102 0.0 0.925 50.06
+A 6 102 0.0 0.9375 62.0
+A 7 102 0.0 0.95 74.19
+A 8 102 0.0 0.9625 86.23
+A 9 102 0.0 0.975 98.42
+A 10 102 0.0 0.9875 110.71
+A 11 102 0.0 1.0 123.0
+A 12 102 0.0 1.0125 135.12
+A 13 102 0.0 1.025 147.61
+A 14 102 0.0 1.0375 159.8
+A 15 102 0.0 1.05 173.22
+A 16 102 0.0 1.0625 185.51
+A 17 102 0.0 1.075 197.84
+A 18 102 0.3 0.375 209.84
+A 19 102 0.3 0.3875 222.25
+A 20 102 0.3 0.4 234.65
+A 21 102 0.3 0.4125 246.58
+A 22 102 0.3 0.425 258.47
+A 23 102 0.3 0.4375 270.81
+A 24 102 0.3 0.45 282.85
+A 25 102 0.3 0.4625 295.21
+A 26 102 0.3 0.475 307.44
+A 27 102 0.3 0.4875 319.85
+A 28 102 0.3 0.5 332.32
+A 29 102 0.3 0.5125 345.64
+A 30 102 0.3 0.525 356.43
+A 31 102 0.3 0.5375 368.32
+A 32 102 0.3 0.55 380.5
+A 33 102 0.3 0.5625 392.49
+A 34 102 0.3 0.575 403.63
+A 35 102 0.5 0.05 413.55
+A 36 102 0.5 0.0625 426.74
+Traceback (most recent call last):
+  File "scripts/run_stage6_followup.py", line 19, in <module>
+    r=measure(row,p,method,mode,budget);records.append(str((OUT/'measurements'/f"{uid(r['key'])}.json").relative_to(ROOT)))
+  File "annni/stage6_followup.py", line 73, in measure
+    t=time.perf_counter();old=historical_measurement(row,p,method,budget) if mode=='equal_shots' else None
+                              ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "annni/stage6_followup.py", line 55, in historical_measurement
+    assert prob['key']['gates']==[list(g) for g in folded(row['gates'],prob['fold'])]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

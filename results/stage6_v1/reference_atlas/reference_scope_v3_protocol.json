@@ -1,0 +1,20 @@
+{
+  "registered_utc": "2026-09-23T01:20:54.230140+00:00",
+  "code_sha256": "09c2a641aa287daf066d9868e0e3100518da6640f0fdf827ca6072aef31b07e0",
+  "confirmation_unsealed": false,
+  "version2_retained": "reference_scope_v2_protocol.json and verification/reference_scopes_v2.py",
+  "criterion": {
+    "classical_defect_gap": "4*abs(1-2*kappa), N divisible by4, PBC,kappa in[0,1],kappa!=.5",
+    "h_over_gap_max": 0.05,
+    "ferro_m0_min": 0.8,
+    "ferro_Binder_min": 0.62,
+    "AP_structure_factor_min": 0.45,
+    "AP_complex_Binder_min": 0.47,
+    "mx_max": 0.3,
+    "N16_over_N12_order_min": 0.98
+  },
+  "reason": "Provide explicitly qualified low-field ordered interiors from the classical defect scale PLUS independent N12/16 fourth moments and size trends. Multi-size apparent order alone remains a proxy. This rule depends on no circuit/optimizer/noisy outcome and is frozen before confirmation reference generation/scoring.",
+  "limit": "Local energy-scale perturbative plausibility, not rigorous thermodynamic gap bound. Separate R0_extension level, never exact R0.",
+  "training_and_raw_labels_changed": false,
+  "requested_coordinates_removed": false
+}

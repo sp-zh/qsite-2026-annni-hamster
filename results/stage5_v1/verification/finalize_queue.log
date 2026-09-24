@@ -1,0 +1,10 @@
+2026-09-22T20:25:49.750486+00:00 Starting ['bash', 'scripts/reproduce_stage5.sh', '--report-only']
+2026-09-22T20:26:51.110330+00:00 Starting ['.venv/bin/python', 'scripts/stage5_metadata.py']
+Traceback (most recent call last):
+  File "scripts/run_stage5_finalize_queue.py", line 15, in <module>
+    with (O/'verification'/f'final_queue_{i}.log').open('w') as f:subprocess.run(cmd,cwd=R,env=env,stdout=f,stderr=subprocess.STDOUT,check=True)
+                                                                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['.venv/bin/python', 'scripts/stage5_metadata.py']' returned non-zero exit status 1.

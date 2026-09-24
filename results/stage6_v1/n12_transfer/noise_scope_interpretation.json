@@ -1,0 +1,274 @@
+{
+  "noise": [
+    {
+      "method": "B3",
+      "p": 0,
+      "coordinates": 12,
+      "MSE_ED": 0.0288270691989881,
+      "MSE_own_p0": 1.2521445814345476e-07,
+      "total_shots": 38400000,
+      "total_gate_shots": 2950400000
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "coordinates": 12,
+      "MSE_ED": 0.036836478405265626,
+      "MSE_own_p0": 0.009757175983815668,
+      "total_shots": 38400000,
+      "total_gate_shots": 2950400000
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "coordinates": 12,
+      "MSE_ED": 0.11104250740063883,
+      "MSE_own_p0": 0.08955127360960939,
+      "total_shots": 38400000,
+      "total_gate_shots": 2950400000
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "coordinates": 12,
+      "MSE_ED": 9.050686539357333e-05,
+      "MSE_own_p0": 1.4611892016088058e-07,
+      "total_shots": 38400000,
+      "total_gate_shots": 3836800000
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "coordinates": 12,
+      "MSE_ED": 0.019596043582688856,
+      "MSE_own_p0": 0.020302125976514276,
+      "total_shots": 38400000,
+      "total_gate_shots": 3836800000
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "coordinates": 12,
+      "MSE_ED": 0.14475476717955707,
+      "MSE_own_p0": 0.14649760222829697,
+      "total_shots": 38400000,
+      "total_gate_shots": 3836800000
+    }
+  ],
+  "sparse_response": [
+    {
+      "method": "B3",
+      "p": 0,
+      "coordinates": 6,
+      "frozen_rule_match": true,
+      "position_error": 0.0,
+      "reference_peak": {
+        "index": 2,
+        "coordinate": 0.09375,
+        "value": 11.956161962852208,
+        "interval_low": 0.075,
+        "interval_high": 0.1125,
+        "endpoint": false,
+        "step": 0.037500000000000006
+      },
+      "selected_peak": {
+        "index": 2,
+        "coordinate": 0.09375,
+        "value": 12.154601882302137,
+        "interval_low": 0.075,
+        "interval_high": 0.1125,
+        "endpoint": false,
+        "step": 0.037500000000000006
+      },
+      "amplitude_ratio_to_same_sparse_ED": 1.0165972926819227,
+      "interval_width": 0.037500000000000006
+    },
+    {
+      "method": "B3",
+      "p": 0.01,
+      "coordinates": 6,
+      "frozen_rule_match": true,
+      "position_error": 0.0,
+      "reference_peak": {
+        "index": 2,
+        "coordinate": 0.09375,
+        "value": 11.956161962852208,
+        "interval_low": 0.075,
+        "interval_high": 0.1125,
+        "endpoint": false,
+        "step": 0.037500000000000006
+      },
+      "selected_peak": {
+        "index": 2,
+        "coordinate": 0.09375,
+        "value": 9.01126326532613,
+        "interval_low": 0.075,
+        "interval_high": 0.1125,
+        "endpoint": false,
+        "step": 0.037500000000000006
+      },
+      "amplitude_ratio_to_same_sparse_ED": 0.7536919701593306,
+      "interval_width": 0.037500000000000006
+    },
+    {
+      "method": "B3",
+      "p": 0.05,
+      "coordinates": 6,
+      "frozen_rule_match": true,
+      "position_error": -0.037500000000000006,
+      "reference_peak": {
+        "index": 2,
+        "coordinate": 0.09375,
+        "value": 11.956161962852208,
+        "interval_low": 0.075,
+        "interval_high": 0.1125,
+        "endpoint": false,
+        "step": 0.037500000000000006
+      },
+      "selected_peak": {
+        "index": 1,
+        "coordinate": 0.056249999999999994,
+        "value": 4.0805208716234,
+        "interval_low": 0.0375,
+        "interval_high": 0.075,
+        "endpoint": false,
+        "step": 0.037500000000000006
+      },
+      "amplitude_ratio_to_same_sparse_ED": 0.341290196996459,
+      "interval_width": 0.0375
+    },
+    {
+      "method": "H6",
+      "p": 0,
+      "coordinates": 6,
+      "frozen_rule_match": true,
+      "position_error": 0.0,
+      "reference_peak": {
+        "index": 2,
+        "coordinate": 0.09375,
+        "value": 11.956161962852208,
+        "interval_low": 0.075,
+        "interval_high": 0.1125,
+        "endpoint": false,
+        "step": 0.037500000000000006
+      },
+      "selected_peak": {
+        "index": 2,
+        "coordinate": 0.09375,
+        "value": 12.186566850436693,
+        "interval_low": 0.075,
+        "interval_high": 0.1125,
+        "endpoint": false,
+        "step": 0.037500000000000006
+      },
+      "amplitude_ratio_to_same_sparse_ED": 1.0192708068275047,
+      "interval_width": 0.037500000000000006
+    },
+    {
+      "method": "H6",
+      "p": 0.01,
+      "coordinates": 6,
+      "frozen_rule_match": true,
+      "position_error": 0.0,
+      "reference_peak": {
+        "index": 2,
+        "coordinate": 0.09375,
+        "value": 11.956161962852208,
+        "interval_low": 0.075,
+        "interval_high": 0.1125,
+        "endpoint": false,
+        "step": 0.037500000000000006
+      },
+      "selected_peak": {
+        "index": 2,
+        "coordinate": 0.09375,
+        "value": 7.016337648895257,
+        "interval_low": 0.075,
+        "interval_high": 0.1125,
+        "endpoint": false,
+        "step": 0.037500000000000006
+      },
+      "amplitude_ratio_to_same_sparse_ED": 0.5868386251955281,
+      "interval_width": 0.037500000000000006
+    },
+    {
+      "method": "H6",
+      "p": 0.05,
+      "coordinates": 6,
+      "frozen_rule_match": true,
+      "position_error": 0.0,
+      "reference_peak": {
+        "index": 2,
+        "coordinate": 0.09375,
+        "value": 11.956161962852208,
+        "interval_low": 0.075,
+        "interval_high": 0.1125,
+        "endpoint": false,
+        "step": 0.037500000000000006
+      },
+      "selected_peak": {
+        "index": 2,
+        "coordinate": 0.09375,
+        "value": 1.0914243191934068,
+        "interval_low": 0.075,
+        "interval_high": 0.1125,
+        "endpoint": false,
+        "step": 0.037500000000000006
+      },
+      "amplitude_ratio_to_same_sparse_ED": 0.09128550805722287,
+      "interval_width": 0.037500000000000006
+    }
+  ],
+  "largest_preparation_errors": {
+    "B3": [
+      {
+        "kappa": 0.507,
+        "h": 0.013,
+        "preparation_MSE": 0.34544537449442286
+      },
+      {
+        "kappa": 0.55,
+        "h": 0.1125,
+        "preparation_MSE": 0.00015493856763169723
+      },
+      {
+        "kappa": 0.55,
+        "h": 0.15,
+        "preparation_MSE": 0.0001217578268725349
+      }
+    ],
+    "H6": [
+      {
+        "kappa": 0.507,
+        "h": 0.013,
+        "preparation_MSE": 0.0003897314176661636
+      },
+      {
+        "kappa": 0.55,
+        "h": 0.15,
+        "preparation_MSE": 0.00025971902795398423
+      },
+      {
+        "kappa": 0.55,
+        "h": 0.1125,
+        "preparation_MSE": 0.00020665393736714528
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "results/stage6_v1/end_to_end/n12_summary.json",
+      "sha256": "a75d43cf88e212bc59dc19b3bae6b784f1a2e3dc431436b1b55de9500d742ad1"
+    },
+    {
+      "path": "results/stage6_v1/n12_transfer/window_boundary_comparison.json",
+      "sha256": "81ed9976e59c8fbdabd99c40abd5d88f6f9e1cd7dc7b3f620ba62d523a73f70c"
+    },
+    {
+      "path": "results/stage6_v1/end_to_end/n12_error_decomposition.json",
+      "sha256": "7298b83b06404af671053e049019b45bfe0cfacdd8f119a0cbaabf915dd6069c"
+    }
+  ],
+  "scope": "Twelve preselected coordinates comprise six main-cohort points and six window points. The registered stride selects low-field interior controls and includes no high-field paramagnetic control; no claim of all-phase N12 noise coverage is made. They are not the full36-point transfer cohort or an area-weighted map.100k totalshots per coordinate/p/preparation per repetition;32repetitions. MSE uses the full[C,SF,Mx]vector with acknowledged Fourier redundancy. The sparse6-point ED response differs from the full16-point reference. Frozen matching and failures are unchanged; amplitude retention is a secondary descriptive audit, not a newly tuned acceptance criterion.",
+  "interpretation": "On this fixed subset H6 reduces ED-target MSE at p0/.01 but increases it at p.05. B3 p0 mean is dominated by the retained failure at(.507,.013), which H6 improves substantially in observable MSE. This is not universal N12 improvement. A same-coordinate sparse peak at p.05 survives with only about9% of the ED response amplitude; position agreement alone does not demonstrate boundary recovery."
+}

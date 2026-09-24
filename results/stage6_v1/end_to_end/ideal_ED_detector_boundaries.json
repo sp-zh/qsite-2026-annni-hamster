@@ -1,0 +1,4863 @@
+{
+  "rows": [
+    {
+      "kappa": 0.0,
+      "detector": "D4",
+      "h": [
+        0.875,
+        0.8875,
+        0.9,
+        0.9125,
+        0.925,
+        0.9375,
+        0.95,
+        0.9625,
+        0.975,
+        0.9875,
+        1.0,
+        1.0125,
+        1.025,
+        1.0375,
+        1.05,
+        1.0625,
+        1.075
+      ],
+      "h_mid": [
+        0.88125,
+        0.89375,
+        0.90625,
+        0.91875,
+        0.93125,
+        0.94375,
+        0.95625,
+        0.96875,
+        0.98125,
+        0.99375,
+        1.00625,
+        1.0187499999999998,
+        1.03125,
+        1.0437500000000002,
+        1.05625,
+        1.06875
+      ],
+      "contrast": [
+        2.007641355359696,
+        1.7135675289952168,
+        1.4155892963464627,
+        1.1144065670244787,
+        0.8107696606915678,
+        0.5054681683942439,
+        0.19931859702896393,
+        -0.1068487510467353,
+        -0.4122031712586187,
+        -0.7159267237731486,
+        -1.017226700697309,
+        -1.3153469751910496,
+        -1.609577892659762,
+        -1.8992644580998492,
+        -2.183812674270577,
+        -2.4626939842764077,
+        -2.735447862192842
+      ],
+      "response": [
+        23.525906109158413,
+        23.8382586119002,
+        24.094618345758803,
+        24.29095250663275,
+        24.424119383785992,
+        24.491965709222484,
+        24.493387846055807,
+        24.42835361695076,
+        24.29788420116226,
+        24.10399815393292,
+        23.84962195949933,
+        23.53847339749707,
+        23.174925235206654,
+        22.763857293658287,
+        22.310504800466553,
+        21.820310233314835
+      ],
+      "ED_named_response": [
+        0.8980446016465603,
+        0.915724862426885,
+        0.9311715146661237,
+        0.9441919126866732,
+        0.9546285239306086,
+        0.9623636431764772,
+        0.9673226570714226,
+        0.969475690070606,
+        0.9688375710320721,
+        0.9654661708504565,
+        0.9594592643099932,
+        0.9509501539917531,
+        0.9401023536465347,
+        0.927103659473264,
+        0.9121599404489654,
+        0.8954889565546807
+      ],
+      "reference": {
+        "peaks": [
+          {
+            "index": 7,
+            "coordinate": 0.96875,
+            "value": 0.969475690070606,
+            "interval_low": 0.9625,
+            "interval_high": 0.975,
+            "endpoint": false,
+            "step": 0.012500000000000067
+          }
+        ],
+        "primary": {
+          "index": 7,
+          "coordinate": 0.96875,
+          "value": 0.969475690070606,
+          "interval_low": 0.9625,
+          "interval_high": 0.975,
+          "endpoint": false,
+          "step": 0.012500000000000067
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "result": {
+        "peaks": [
+          {
+            "index": 6,
+            "coordinate": 0.95625,
+            "value": 24.493387846055807,
+            "interval_low": 0.95,
+            "interval_high": 0.9625,
+            "endpoint": false,
+            "step": 0.012500000000000067
+          }
+        ],
+        "primary": {
+          "index": 6,
+          "coordinate": 0.95625,
+          "value": 24.493387846055807,
+          "interval_low": 0.95,
+          "interval_high": 0.9625,
+          "endpoint": false,
+          "step": 0.012500000000000067
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference_resolvable": true,
+      "algorithm_estimatable": true,
+      "matched": true,
+      "position_error": -0.012499999999999956,
+      "predictions": [
+        {
+          "label": "uncertain",
+          "distances": [
+            4.729897605241142,
+            7.726970179995037,
+            6.737538960600838,
+            6.810681178200954
+          ],
+          "margin": 2.007641355359696,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            4.876558694847596,
+            7.656825186082633,
+            6.590126223842812,
+            6.763924946104831
+          ],
+          "margin": 1.7135675289952168,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            5.025167686840384,
+            7.5875207918161225,
+            6.440756983186847,
+            6.718665973446622
+          ],
+          "margin": 1.4155892963464627,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            5.175387547268031,
+            7.519365003217591,
+            6.289794114292509,
+            6.6751824055582345
+          ],
+          "margin": 1.1144065670244787,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            5.3268560469408754,
+            7.452663355393847,
+            6.137625707632443,
+            6.633740831273087
+          ],
+          "margin": 0.8107696606915678,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            5.479191156376156,
+            7.387712547153999,
+            5.9846593247704,
+            6.594589921396407
+          ],
+          "margin": 0.5054681683942439,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            5.6319970554961625,
+            7.324794155202078,
+            5.831315652525126,
+            6.55795444389115
+          ],
+          "margin": 0.19931859702896393,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            5.784870537515154,
+            7.2641687087631,
+            5.678021786468419,
+            6.524029951101298
+          ],
+          "margin": 0.1068487510467353,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            5.937407565714223,
+            7.206070390792409,
+            5.525204394455605,
+            6.492978400386204
+          ],
+          "margin": 0.4122031712586187,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.089209737255929,
+            7.150702596920222,
+            5.37328301348278,
+            6.464924913877513
+          ],
+          "margin": 0.7159267237731486,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.239890419902674,
+            7.098234531064681,
+            5.222663719205365,
+            6.439955810901881
+          ],
+          "margin": 1.017226700697309,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.389080353892284,
+            7.0487989522169565,
+            5.073733378701235,
+            6.418117965165448
+          ],
+          "margin": 1.3153469751910496,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.5364325493217015,
+            7.002491116525882,
+            4.92685465666194,
+            6.399419456278293
+          ],
+          "margin": 1.4725647996163538,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.681626355296561,
+            6.959368889135175,
+            4.7823618971967115,
+            6.38383140960836
+          ],
+          "margin": 1.601469512411649,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.824370626520873,
+            6.919453937404295,
+            4.640557952250296,
+            6.37129085648469
+          ],
+          "margin": 1.7307329042343946,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.964405961771598,
+            6.882733866075575,
+            4.50171197749519,
+            6.361704402982336
+          ],
+          "margin": 1.859992425487146,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            7.101506033255804,
+            6.849165118796651,
+            4.366058171062962,
+            6.354952471954531
+          ],
+          "margin": 1.9888943008915696,
+          "accepted": false
+        }
+      ],
+      "state_sources": [
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/5d1f24156e7a34acde7c33262ae8dcfe78807c738e1586ba0768877337d3f61a.npz",
+          "sha256": "2ed49b15788b6fdc7a70f9bc9bf94944bde4f9aec95e87c900dc793700f337da"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d8b105dc5e3a9b7a4f8db274dda19a98e534c79b085f81fb3530bb3981bdb584.npz",
+          "sha256": "25564826f505a8aef0a55eac74733f4cfd469cabed67eabfb1496b0f14e9d377"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/9697841750af6fa601fde93ab5b38b1a3cc7fdd0e496e8825a8a9ebd234e89f1.npz",
+          "sha256": "0e69ce01169ab7dd8abbd087af7270b2f7bc8950ff93c7bf9499101ba33c6439"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/bcb12c12f1422c6c7af6f4322505bb2b1de71295154ddadba3af5f25dace9fcb.npz",
+          "sha256": "b932bb5948e7c8354aaa4529855f5c67d713381864a9dce98f212060e70e63fa"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/36f7e7c412f6616c8a692ae5cb0c4c9a1f59bde2c1213230e58651300ef96a90.npz",
+          "sha256": "aac7913c608b19690bff07423a73f7878cbd565b382375757e2d6722726e0170"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/bd28ed3326af839e930483e6693206a82be98989873250db52015deca4e05cd8.npz",
+          "sha256": "de1042e0507c967dd4d8df420cb09cab02f042556263821be792ba3ac48976e8"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d5f619445c5e0f811160c4becafcb1bdd41f912f6b735118d22baa319d580d6f.npz",
+          "sha256": "ab2efb88fd21f648c82ea6cec6d6506598c113320bdd4471d598a515bdb06b1b"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/1835dd8fe7528e7d4170a4de90f8fafa469111c09b432093e4a88edcc9306b60.npz",
+          "sha256": "a18b5d65e589e0cc77871e80a460e6d441b182e5e87f138ceee6ce25b2bc3153"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d22646d9c553eac1ace85d192631c89821e01bd02303df0f0a65877cd790e985.npz",
+          "sha256": "91bd1753ee1f42e3167d06b3b16f286eb97349775d0af2813627af3ce3ce1f96"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/65b4ecfd5391fa926edad405b71557dcd7a91c70afeb45747860f193173a65de.npz",
+          "sha256": "5f847ddc88885699b512ea28c0a539156447e82e03f3d1a5082f285c81b96ec3"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/6752a1b26484b1e4feb31344db99d00479fbf009363072002add6c7d42d8903d.npz",
+          "sha256": "0ecde6b0769517cf6ab09847526bf03d74f974eb77d222d312b3f240f0913081"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/4968dfffef6538b8d83f176539bba946c08e2f9fbf9794ecb47ca283dd5b64f8.npz",
+          "sha256": "b114157e1185c672a29c09fb5e4491c0874f9a604694b5a9e8040ab7d757693f"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/33244ade8478306a0ba6d134e7b838fc76ae14db2d96e275fdf6c031dd68e33f.npz",
+          "sha256": "427a44cf056f92cc10c1bb4964bb0718c80a6948eb4b2482638c38a7a8575b2f"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/53c542b138bf149e05ac6ea2773375efbcbdf5316b46f891be2b523e087e77ca.npz",
+          "sha256": "0a2182a43c14cdd9c1a0d4effc2ec9cd9d2466b3715114923309fe5040959764"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/916fa41ff4b1f1075da9d4caa641b47fe256c0e1a68ebd06a8fa42f42e8f3f80.npz",
+          "sha256": "269d9c6244aec2c67f374d1697ed6aafbecf02e624db35df98fcd4b12a4da99e"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/0b16fd0cc31745155cb952a5bdc75c59fe1e7a0044b24f98068f4289f5657052.npz",
+          "sha256": "bd01a9c1169a290f7299d12a555b8fdfd58ef371d7e678a7acc0a85808bee2f9"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/22779313cc81dfa4cf664c20b0944ae960f5093d8f93560430f6b4a385195e1d.npz",
+          "sha256": "f3e9beef20ac55c1b322d709aff806b5aae657e119cb643e10b6e347261ae25c"
+        }
+      ]
+    },
+    {
+      "kappa": 0.0,
+      "detector": "D5",
+      "h": [
+        0.875,
+        0.8875,
+        0.9,
+        0.9125,
+        0.925,
+        0.9375,
+        0.95,
+        0.9625,
+        0.975,
+        0.9875,
+        1.0,
+        1.0125,
+        1.025,
+        1.0375,
+        1.05,
+        1.0625,
+        1.075
+      ],
+      "h_mid": [
+        0.88125,
+        0.89375,
+        0.90625,
+        0.91875,
+        0.93125,
+        0.94375,
+        0.95625,
+        0.96875,
+        0.98125,
+        0.99375,
+        1.00625,
+        1.0187499999999998,
+        1.03125,
+        1.0437500000000002,
+        1.05625,
+        1.06875
+      ],
+      "contrast": [
+        0.39259682506831517,
+        0.012434940939067829,
+        -0.36888718386279074,
+        -0.7504335910703404,
+        -1.131239490093094,
+        -1.5103259466219088,
+        -1.8867152368426794,
+        -2.2594462973810208,
+        -2.627589694240876,
+        -2.9902615652510622,
+        -3.3466360566338382,
+        -3.695955868582492,
+        -4.037540638040408,
+        -4.37079300887505,
+        -4.695202360087177,
+        -5.010346272601305,
+        -5.315889907652068
+      ],
+      "response": [
+        30.412950730339894,
+        30.50576998414852,
+        30.52371257660408,
+        30.464471921820127,
+        30.32691652230529,
+        30.111143217661756,
+        29.81848484306715,
+        29.45147174878851,
+        29.013749680814755,
+        28.509959310622182,
+        27.945584955892386,
+        27.32678155663339,
+        26.66018966677098,
+        25.95274809697026,
+        25.211513001130346,
+        24.44349080406107
+      ],
+      "ED_named_response": [
+        0.8980446016465603,
+        0.915724862426885,
+        0.9311715146661237,
+        0.9441919126866732,
+        0.9546285239306086,
+        0.9623636431764772,
+        0.9673226570714226,
+        0.969475690070606,
+        0.9688375710320721,
+        0.9654661708504565,
+        0.9594592643099932,
+        0.9509501539917531,
+        0.9401023536465347,
+        0.927103659473264,
+        0.9121599404489654,
+        0.8954889565546807
+      ],
+      "reference": {
+        "peaks": [
+          {
+            "index": 7,
+            "coordinate": 0.96875,
+            "value": 0.969475690070606,
+            "interval_low": 0.9625,
+            "interval_high": 0.975,
+            "endpoint": false,
+            "step": 0.012500000000000067
+          }
+        ],
+        "primary": {
+          "index": 7,
+          "coordinate": 0.96875,
+          "value": 0.969475690070606,
+          "interval_low": 0.9625,
+          "interval_high": 0.975,
+          "endpoint": false,
+          "step": 0.012500000000000067
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "result": {
+        "peaks": [
+          {
+            "index": 2,
+            "coordinate": 0.90625,
+            "value": 30.52371257660408,
+            "interval_low": 0.9,
+            "interval_high": 0.9125,
+            "endpoint": false,
+            "step": 0.012500000000000067
+          }
+        ],
+        "primary": {
+          "index": 2,
+          "coordinate": 0.90625,
+          "value": 30.52371257660408,
+          "interval_low": 0.9,
+          "interval_high": 0.9125,
+          "endpoint": false,
+          "step": 0.012500000000000067
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference_resolvable": true,
+      "algorithm_estimatable": true,
+      "matched": false,
+      "position_error": -0.0625,
+      "predictions": [
+        {
+          "label": "uncertain",
+          "distances": [
+            6.598864440850608,
+            8.338786016227997,
+            6.9914612659189235,
+            9.302767902080248
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.793628795325899,
+            8.254488858729543,
+            6.806063736264967,
+            9.22232887828495
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.989055202088029,
+            8.172716370727944,
+            6.620168018225239,
+            9.145204794129427
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            7.18467273427284,
+            8.093780057231479,
+            6.4342391432024995,
+            9.071688549655864
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            7.379995680153392,
+            8.017968207190863,
+            6.248756190060298,
+            9.002040114255422
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            7.574530843313631,
+            7.945539252487468,
+            6.064204896691722,
+            8.936480338860461
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            7.767785183621819,
+            7.876715911270976,
+            5.88106994677914,
+            8.875185853568365
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            7.959273516914997,
+            7.811680408417378,
+            5.699827219533976,
+            8.818285315893048
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            8.148525987415994,
+            7.750571004738615,
+            5.520936293175118,
+            8.76585719548423
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            8.335095041897375,
+            7.693479986125972,
+            5.344833476646313,
+            8.717929185970494
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            8.518561666900247,
+            7.640453171894963,
+            5.171925610266409,
+            8.674479233037834
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            8.698540696632056,
+            7.591490907417638,
+            5.002584828049565,
+            8.635438070112057
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            8.87468505500015,
+            7.546550418899874,
+            4.837144416959742,
+            8.600693068447088
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            9.04668885547863,
+            7.505549335827164,
+            4.67589584660358,
+            8.57009314432434
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            9.214289342081813,
+            7.468370134808417,
+            4.5190869819946355,
+            8.543454426783905
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            9.377267709171832,
+            7.434865230072186,
+            4.366921436570527,
+            8.520566375914212
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            9.535448883734265,
+            7.404862430575824,
+            4.219558976082197,
+            8.501198052283215
+          ],
+          "accepted": false
+        }
+      ],
+      "state_sources": [
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/5d1f24156e7a34acde7c33262ae8dcfe78807c738e1586ba0768877337d3f61a.npz",
+          "sha256": "2ed49b15788b6fdc7a70f9bc9bf94944bde4f9aec95e87c900dc793700f337da"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d8b105dc5e3a9b7a4f8db274dda19a98e534c79b085f81fb3530bb3981bdb584.npz",
+          "sha256": "25564826f505a8aef0a55eac74733f4cfd469cabed67eabfb1496b0f14e9d377"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/9697841750af6fa601fde93ab5b38b1a3cc7fdd0e496e8825a8a9ebd234e89f1.npz",
+          "sha256": "0e69ce01169ab7dd8abbd087af7270b2f7bc8950ff93c7bf9499101ba33c6439"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/bcb12c12f1422c6c7af6f4322505bb2b1de71295154ddadba3af5f25dace9fcb.npz",
+          "sha256": "b932bb5948e7c8354aaa4529855f5c67d713381864a9dce98f212060e70e63fa"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/36f7e7c412f6616c8a692ae5cb0c4c9a1f59bde2c1213230e58651300ef96a90.npz",
+          "sha256": "aac7913c608b19690bff07423a73f7878cbd565b382375757e2d6722726e0170"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/bd28ed3326af839e930483e6693206a82be98989873250db52015deca4e05cd8.npz",
+          "sha256": "de1042e0507c967dd4d8df420cb09cab02f042556263821be792ba3ac48976e8"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d5f619445c5e0f811160c4becafcb1bdd41f912f6b735118d22baa319d580d6f.npz",
+          "sha256": "ab2efb88fd21f648c82ea6cec6d6506598c113320bdd4471d598a515bdb06b1b"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/1835dd8fe7528e7d4170a4de90f8fafa469111c09b432093e4a88edcc9306b60.npz",
+          "sha256": "a18b5d65e589e0cc77871e80a460e6d441b182e5e87f138ceee6ce25b2bc3153"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d22646d9c553eac1ace85d192631c89821e01bd02303df0f0a65877cd790e985.npz",
+          "sha256": "91bd1753ee1f42e3167d06b3b16f286eb97349775d0af2813627af3ce3ce1f96"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/65b4ecfd5391fa926edad405b71557dcd7a91c70afeb45747860f193173a65de.npz",
+          "sha256": "5f847ddc88885699b512ea28c0a539156447e82e03f3d1a5082f285c81b96ec3"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/6752a1b26484b1e4feb31344db99d00479fbf009363072002add6c7d42d8903d.npz",
+          "sha256": "0ecde6b0769517cf6ab09847526bf03d74f974eb77d222d312b3f240f0913081"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/4968dfffef6538b8d83f176539bba946c08e2f9fbf9794ecb47ca283dd5b64f8.npz",
+          "sha256": "b114157e1185c672a29c09fb5e4491c0874f9a604694b5a9e8040ab7d757693f"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/33244ade8478306a0ba6d134e7b838fc76ae14db2d96e275fdf6c031dd68e33f.npz",
+          "sha256": "427a44cf056f92cc10c1bb4964bb0718c80a6948eb4b2482638c38a7a8575b2f"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/53c542b138bf149e05ac6ea2773375efbcbdf5316b46f891be2b523e087e77ca.npz",
+          "sha256": "0a2182a43c14cdd9c1a0d4effc2ec9cd9d2466b3715114923309fe5040959764"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/916fa41ff4b1f1075da9d4caa641b47fe256c0e1a68ebd06a8fa42f42e8f3f80.npz",
+          "sha256": "269d9c6244aec2c67f374d1697ed6aafbecf02e624db35df98fcd4b12a4da99e"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/0b16fd0cc31745155cb952a5bdc75c59fe1e7a0044b24f98068f4289f5657052.npz",
+          "sha256": "bd01a9c1169a290f7299d12a555b8fdfd58ef371d7e678a7acc0a85808bee2f9"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/22779313cc81dfa4cf664c20b0944ae960f5093d8f93560430f6b4a385195e1d.npz",
+          "sha256": "f3e9beef20ac55c1b322d709aff806b5aae657e119cb643e10b6e347261ae25c"
+        }
+      ]
+    },
+    {
+      "kappa": 0.3,
+      "detector": "D4",
+      "h": [
+        0.375,
+        0.3875,
+        0.4,
+        0.4125,
+        0.425,
+        0.4375,
+        0.45,
+        0.4625,
+        0.475,
+        0.4875,
+        0.5,
+        0.5125,
+        0.525,
+        0.5375,
+        0.55,
+        0.5625,
+        0.575
+      ],
+      "h_mid": [
+        0.38125,
+        0.39375000000000004,
+        0.40625,
+        0.41874999999999996,
+        0.43125,
+        0.44375,
+        0.45625000000000004,
+        0.46875,
+        0.48124999999999996,
+        0.49375,
+        0.50625,
+        0.51875,
+        0.53125,
+        0.54375,
+        0.55625,
+        0.56875
+      ],
+      "contrast": [
+        5.980593303248284,
+        5.418047042423249,
+        4.791710888334413,
+        4.102467841815169,
+        3.3559719137286375,
+        2.5631121895059144,
+        1.7394832326992615,
+        0.9037940862023648,
+        0.07555737351869585,
+        -0.7273052369505058,
+        -1.4903070772979818,
+        -2.203334447206096,
+        -2.8606854895841423,
+        -3.4604696675730886,
+        -4.003700478841235,
+        -4.4933535738435975,
+        -4.933552413703685
+      ],
+      "response": [
+        45.00370086600273,
+        50.10689232710685,
+        55.139443721539706,
+        59.71967424692251,
+        63.42877793781779,
+        65.89031654453217,
+        66.85513171975168,
+        66.25893701469376,
+        64.22900883753607,
+        61.04014722779803,
+        57.04218959264934,
+        52.58808339024342,
+        47.98273423911588,
+        43.45846490145151,
+        39.17224760018911,
+        35.21590718880715
+      ],
+      "ED_named_response": [
+        1.686615039056026,
+        1.9220579333549175,
+        2.15751421317896,
+        2.3765204993996014,
+        2.560667845519118,
+        2.692972228412047,
+        2.761580352036998,
+        2.762411253644564,
+        2.699671342852532,
+        2.584168755027434,
+        2.430318554539452,
+        2.2530667325574485,
+        2.0656269917150802,
+        1.8783240130845502,
+        1.6983719613830999,
+        1.530230388465755
+      ],
+      "reference": {
+        "peaks": [
+          {
+            "index": 7,
+            "coordinate": 0.46875,
+            "value": 2.762411253644564,
+            "interval_low": 0.4625,
+            "interval_high": 0.475,
+            "endpoint": false,
+            "step": 0.012499999999999956
+          }
+        ],
+        "primary": {
+          "index": 7,
+          "coordinate": 0.46875,
+          "value": 2.762411253644564,
+          "interval_low": 0.4625,
+          "interval_high": 0.475,
+          "endpoint": false,
+          "step": 0.012499999999999956
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "result": {
+        "peaks": [
+          {
+            "index": 6,
+            "coordinate": 0.45625000000000004,
+            "value": 66.85513171975168,
+            "interval_low": 0.45,
+            "interval_high": 0.4625,
+            "endpoint": false,
+            "step": 0.012499999999999956
+          }
+        ],
+        "primary": {
+          "index": 6,
+          "coordinate": 0.45625000000000004,
+          "value": 66.85513171975168,
+          "interval_low": 0.45,
+          "interval_high": 0.4625,
+          "endpoint": false,
+          "step": 0.012499999999999956
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference_resolvable": true,
+      "algorithm_estimatable": true,
+      "matched": true,
+      "position_error": -0.012499999999999956,
+      "predictions": [
+        {
+          "label": "ferro-like",
+          "distances": [
+            2.684835712424404,
+            8.682157365479492,
+            8.665429015672688,
+            7.406921811800033
+          ],
+          "margin": 4.722086099375629,
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            2.9617540687677097,
+            8.500474960227045,
+            8.37980111119096,
+            7.250744565030015
+          ],
+          "margin": 4.288990496262305,
+          "accepted": true
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            3.2699919304292857,
+            8.30147019046602,
+            8.061702818763699,
+            7.079530661938498
+          ],
+          "margin": 3.809538731509212,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            3.609440704479557,
+            8.087841269604718,
+            7.711908546294726,
+            6.896403133329044
+          ],
+          "margin": 3.286962428849487,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            3.9776731210255316,
+            7.864302365208402,
+            7.333645034754169,
+            6.706530115541994
+          ],
+          "margin": 2.728856994516462,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            4.369672163629253,
+            7.637426534025538,
+            6.932784353135167,
+            6.516903640425936
+          ],
+          "margin": 2.1472314767966836,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            4.778047003233528,
+            7.414992171498817,
+            6.51753023593279,
+            6.335584732768648
+          ],
+          "margin": 1.5575377295351203,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            5.19378054043162,
+            7.2049134710391325,
+            6.0975746266339845,
+            6.170514205702674
+          ],
+          "margin": 0.9037940862023648,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            5.607348721619908,
+            7.0140392132125395,
+            5.682906095138604,
+            6.02821594186134
+          ],
+          "margin": 0.07555737351869585,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.0099005623767425,
+            6.847194247894392,
+            5.282595325426237,
+            5.912816387982595
+          ],
+          "margin": 0.630221062556358,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.394182920836478,
+            6.706739719680746,
+            4.903875843538496,
+            5.825681257131605
+          ],
+          "margin": 0.9218054135931091,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.755028047705866,
+            6.5927011399755635,
+            4.55169360049977,
+            5.765697720402156
+          ],
+          "margin": 1.2140041199023859,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            7.0894005062710885,
+            6.503302626251873,
+            4.228715016686946,
+            5.729984101634106
+          ],
+          "margin": 1.5012690849471602,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            7.396126466416269,
+            6.435658241177687,
+            3.9356567988431803,
+            5.71472041149206
+          ],
+          "margin": 1.7790636126488795,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            7.67546667472642,
+            6.38641042635333,
+            3.6717661958851844,
+            5.71585969973401
+          ],
+          "margin": 2.044093503848826,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            7.928666492764438,
+            6.352204007376424,
+            3.43531291892084,
+            5.72961112378677
+          ],
+          "margin": 2.2942982048659304,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            8.157563335025598,
+            6.3299750119353595,
+            3.224010921321913,
+            5.7526952785271
+          ],
+          "margin": 2.5286843572051874,
+          "accepted": false
+        }
+      ],
+      "state_sources": [
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/e62f68e82c1cff6c78ca2da151e6139dd5b39351d13b4189a101b6708065b998.npz",
+          "sha256": "6f2b41370162f137045ea6499953dc28e86cb4df95b3d4756055d52af6bea9e5"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/6c0814a018d72640c2c922d80ad5675e78a705f680843326967e86bfdc8b833d.npz",
+          "sha256": "1a69b782096a4daf1a8e1ce491f3ffd63be138b2bc3f24204d0874d9d8b66f13"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/2973750c722b39ab9647b2ce3e4d3dc3a64007a9375afbb956f8d50f6a3c9fca.npz",
+          "sha256": "701a1b5ef33f9789b828ed6e6b8768e60c6eeed0bea266f08887301b63c15b98"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/5328f544987bd2a0685fd869e58b00b9950b19a238db714e7dc7fb2a3a4ed7cd.npz",
+          "sha256": "4cfa20685ab88575060af54f1ecf200aefb99f72db24297d0072a76958332c37"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/bc5a8c53489c00671de764cd93a11135c3f733126f0b25455da4e9fc821f7a96.npz",
+          "sha256": "2b228c461becb260ca1a431296d991b994a7ae05335a59b6bc422e236c896d90"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/6e1efb849192b420b9b92f3a5b39f4d1d17ee036d83d92ce83bb0f7a2575d147.npz",
+          "sha256": "8559fc85a7376459d27a212f04d0264da031245c366706127356b67231015713"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/8367a0bb2eaa1501763df69b228bdf0fd815849e44a15c893123bc56d7752a81.npz",
+          "sha256": "a9f9f02f30d452c2cece41fd2e3ffa18abe402e893b82ae95249589dec27fe08"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/cb32aa4c018ac14b7c9670c94dbb7202abf61f80d055bae0c562cdbf34c54bc3.npz",
+          "sha256": "0fe37fcdcb4fd88c7245babdcab09cb88a362bd93c9af885423085c45320609f"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/cbc81c5056a8f5e32cae20bc0e96379f18675956b0a05314421a47988a00e8e6.npz",
+          "sha256": "a30c0700378d40607aecf8383441f5174372d87943c62e7070fc0965b5a3b48f"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ad2de586262f96cea086c6f82b463421e3e778d843e071e36c1ff1e1a527f102.npz",
+          "sha256": "620e58c0db9c19db8d2701672bb7e8ffc9e0c668debd8885cf2af8fdc14e6fca"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/5b06fe27c7ac3524f2a877acc6f6bf2ea24fbc5a178247998ffb16b1094ad1b1.npz",
+          "sha256": "2423724db31e0527fe6c298fde6132bfefd3b7bd53dd4b1d0c4a212e71279c69"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/64706e03de6b34558ea8f5bb466ff1904eb990bd8eb106c041566a429897ffe1.npz",
+          "sha256": "917dbc463bccd5eb67df51eb8dc24bca9b2a3479d6d666a93a29acd0df291c79"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/2f9babf1915fa2f220b8a922dceaf10f36bbd1f5e73eb19958e852d7c4e5caaa.npz",
+          "sha256": "00e3710c8d1ed4cf03a66432516ff1c5557e5166b82dcd39bc2089683ed3069d"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ee7ef5bf36430843698dc8b774caeaa1441809888c44dbd79b301091904a3e8d.npz",
+          "sha256": "2596cf206fa93905b7e47aea43d99d1ce94d585b1dfc65f4681917f4dddafc46"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/0add3495754b886fbb1933b859723c34326c839fa4a1e90cf6f138438092e44f.npz",
+          "sha256": "041264e6fe892eead07fb9be6e9fb168136216514cacc549d9b55ae1cddb22c9"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/cc8660c02d7dade4fe93cf7cb13ff3ea819d2c0fafb5256ca6dbc246924ee3a5.npz",
+          "sha256": "39291aaf4c22cad4759779426ed2c45211ce94da6835a067740e00c428ae138c"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/2967d8b79e4dcd0ed4608d4dd184217a7dd4e730aabcafe3a140693de61e59c1.npz",
+          "sha256": "692c3544adbf561c62394b4c971244fcbe0195360c3ec3a037db23f4c6dc5f0d"
+        }
+      ]
+    },
+    {
+      "kappa": 0.3,
+      "detector": "D5",
+      "h": [
+        0.375,
+        0.3875,
+        0.4,
+        0.4125,
+        0.425,
+        0.4375,
+        0.45,
+        0.4625,
+        0.475,
+        0.4875,
+        0.5,
+        0.5125,
+        0.525,
+        0.5375,
+        0.55,
+        0.5625,
+        0.575
+      ],
+      "h_mid": [
+        0.38125,
+        0.39375000000000004,
+        0.40625,
+        0.41874999999999996,
+        0.43125,
+        0.44375,
+        0.45625000000000004,
+        0.46875,
+        0.48124999999999996,
+        0.49375,
+        0.50625,
+        0.51875,
+        0.53125,
+        0.54375,
+        0.55625,
+        0.56875
+      ],
+      "contrast": [
+        6.352618381725435,
+        5.5962734298736585,
+        4.767527043412038,
+        3.87088136835305,
+        2.916722645958914,
+        1.9214624551013673,
+        0.9064378746092627,
+        -0.10439172202164215,
+        -1.087428786145117,
+        -2.0222846359663897,
+        -2.8937541482508644,
+        -3.6925765131631776,
+        -4.4150908178912065,
+        -5.062176260026347,
+        -5.637917055817558,
+        -6.148326314804226,
+        -6.600310013865535
+      ],
+      "response": [
+        60.507596148142056,
+        66.2997109169296,
+        71.73165400471927,
+        76.33269779153082,
+        79.62081526860366,
+        81.20196643936829,
+        80.86636773047232,
+        78.64296512987828,
+        74.78846798570174,
+        69.71756098275792,
+        63.90578919298528,
+        57.80114437824201,
+        51.766835370811435,
+        46.059263663296655,
+        40.832740718933564,
+        36.15869592490482
+      ],
+      "ED_named_response": [
+        1.686615039056026,
+        1.9220579333549175,
+        2.15751421317896,
+        2.3765204993996014,
+        2.560667845519118,
+        2.692972228412047,
+        2.761580352036998,
+        2.762411253644564,
+        2.699671342852532,
+        2.584168755027434,
+        2.430318554539452,
+        2.2530667325574485,
+        2.0656269917150802,
+        1.8783240130845502,
+        1.6983719613830999,
+        1.530230388465755
+      ],
+      "reference": {
+        "peaks": [
+          {
+            "index": 7,
+            "coordinate": 0.46875,
+            "value": 2.762411253644564,
+            "interval_low": 0.4625,
+            "interval_high": 0.475,
+            "endpoint": false,
+            "step": 0.012499999999999956
+          }
+        ],
+        "primary": {
+          "index": 7,
+          "coordinate": 0.46875,
+          "value": 2.762411253644564,
+          "interval_low": 0.4625,
+          "interval_high": 0.475,
+          "endpoint": false,
+          "step": 0.012499999999999956
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "result": {
+        "peaks": [
+          {
+            "index": 5,
+            "coordinate": 0.44375,
+            "value": 81.20196643936829,
+            "interval_low": 0.4375,
+            "interval_high": 0.45,
+            "endpoint": false,
+            "step": 0.012499999999999956
+          }
+        ],
+        "primary": {
+          "index": 5,
+          "coordinate": 0.44375,
+          "value": 81.20196643936829,
+          "interval_low": 0.4375,
+          "interval_high": 0.45,
+          "endpoint": false,
+          "step": 0.012499999999999956
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference_resolvable": true,
+      "algorithm_estimatable": true,
+      "matched": true,
+      "position_error": -0.025000000000000022,
+      "predictions": [
+        {
+          "label": "uncertain",
+          "distances": [
+            3.5424652140676787,
+            9.878671092172416,
+            9.895083595793114,
+            11.062288922744886
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            3.9287238823675765,
+            9.63637311858735,
+            9.524997312241235,
+            10.842621345305878
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            4.35325667304887,
+            9.378221362240302,
+            9.120783716460908,
+            10.61234061322684
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            4.814283540153845,
+            9.108954281383843,
+            8.685164908506895,
+            10.376504885416997
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            5.307084194414158,
+            8.835556220795787,
+            8.223806840373072,
+            10.141974608617867
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            5.823871988134901,
+            8.566793379490251,
+            7.745334443236268,
+            9.916820547042304
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.354277820195101,
+            8.312158450183352,
+            7.260715694804364,
+            9.709242304629727
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.886437828625892,
+            8.080419330782073,
+            6.78204610660425,
+            9.526243334527607
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            7.4084390224610495,
+            7.878201513302411,
+            6.321010236315932,
+            9.372484471984608
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            7.909726755548515,
+            7.709075777905336,
+            5.887442119582126,
+            9.249706425110665
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            8.382111990140277,
+            7.573412738897234,
+            5.488357841889413,
+            9.15686488496939
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            8.820203852328548,
+            7.468933511148932,
+            5.127627339165371,
+            9.090820621332204
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            9.221310510461661,
+            7.391643038657219,
+            4.806219692570455,
+            9.047258301882778
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            9.584988379155632,
+            7.336792640894956,
+            4.522812119129285,
+            9.021530469466363
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            9.912445789061158,
+            7.299635647594309,
+            4.274528733243599,
+            9.009259287917281
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.205958680163468,
+            7.275896798698105,
+            4.057632365359241,
+            9.006668005724315
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.468384895141055,
+            7.261987292425871,
+            3.8680748812755197,
+            9.010696728226906
+          ],
+          "accepted": false
+        }
+      ],
+      "state_sources": [
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/e62f68e82c1cff6c78ca2da151e6139dd5b39351d13b4189a101b6708065b998.npz",
+          "sha256": "6f2b41370162f137045ea6499953dc28e86cb4df95b3d4756055d52af6bea9e5"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/6c0814a018d72640c2c922d80ad5675e78a705f680843326967e86bfdc8b833d.npz",
+          "sha256": "1a69b782096a4daf1a8e1ce491f3ffd63be138b2bc3f24204d0874d9d8b66f13"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/2973750c722b39ab9647b2ce3e4d3dc3a64007a9375afbb956f8d50f6a3c9fca.npz",
+          "sha256": "701a1b5ef33f9789b828ed6e6b8768e60c6eeed0bea266f08887301b63c15b98"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/5328f544987bd2a0685fd869e58b00b9950b19a238db714e7dc7fb2a3a4ed7cd.npz",
+          "sha256": "4cfa20685ab88575060af54f1ecf200aefb99f72db24297d0072a76958332c37"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/bc5a8c53489c00671de764cd93a11135c3f733126f0b25455da4e9fc821f7a96.npz",
+          "sha256": "2b228c461becb260ca1a431296d991b994a7ae05335a59b6bc422e236c896d90"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/6e1efb849192b420b9b92f3a5b39f4d1d17ee036d83d92ce83bb0f7a2575d147.npz",
+          "sha256": "8559fc85a7376459d27a212f04d0264da031245c366706127356b67231015713"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/8367a0bb2eaa1501763df69b228bdf0fd815849e44a15c893123bc56d7752a81.npz",
+          "sha256": "a9f9f02f30d452c2cece41fd2e3ffa18abe402e893b82ae95249589dec27fe08"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/cb32aa4c018ac14b7c9670c94dbb7202abf61f80d055bae0c562cdbf34c54bc3.npz",
+          "sha256": "0fe37fcdcb4fd88c7245babdcab09cb88a362bd93c9af885423085c45320609f"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/cbc81c5056a8f5e32cae20bc0e96379f18675956b0a05314421a47988a00e8e6.npz",
+          "sha256": "a30c0700378d40607aecf8383441f5174372d87943c62e7070fc0965b5a3b48f"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ad2de586262f96cea086c6f82b463421e3e778d843e071e36c1ff1e1a527f102.npz",
+          "sha256": "620e58c0db9c19db8d2701672bb7e8ffc9e0c668debd8885cf2af8fdc14e6fca"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/5b06fe27c7ac3524f2a877acc6f6bf2ea24fbc5a178247998ffb16b1094ad1b1.npz",
+          "sha256": "2423724db31e0527fe6c298fde6132bfefd3b7bd53dd4b1d0c4a212e71279c69"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/64706e03de6b34558ea8f5bb466ff1904eb990bd8eb106c041566a429897ffe1.npz",
+          "sha256": "917dbc463bccd5eb67df51eb8dc24bca9b2a3479d6d666a93a29acd0df291c79"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/2f9babf1915fa2f220b8a922dceaf10f36bbd1f5e73eb19958e852d7c4e5caaa.npz",
+          "sha256": "00e3710c8d1ed4cf03a66432516ff1c5557e5166b82dcd39bc2089683ed3069d"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ee7ef5bf36430843698dc8b774caeaa1441809888c44dbd79b301091904a3e8d.npz",
+          "sha256": "2596cf206fa93905b7e47aea43d99d1ce94d585b1dfc65f4681917f4dddafc46"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/0add3495754b886fbb1933b859723c34326c839fa4a1e90cf6f138438092e44f.npz",
+          "sha256": "041264e6fe892eead07fb9be6e9fb168136216514cacc549d9b55ae1cddb22c9"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/cc8660c02d7dade4fe93cf7cb13ff3ea819d2c0fafb5256ca6dbc246924ee3a5.npz",
+          "sha256": "39291aaf4c22cad4759779426ed2c45211ce94da6835a067740e00c428ae138c"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/2967d8b79e4dcd0ed4608d4dd184217a7dd4e730aabcafe3a140693de61e59c1.npz",
+          "sha256": "692c3544adbf561c62394b4c971244fcbe0195360c3ec3a037db23f4c6dc5f0d"
+        }
+      ]
+    },
+    {
+      "kappa": 0.45,
+      "detector": "D4",
+      "h": [
+        0.0125,
+        0.025,
+        0.0375,
+        0.05,
+        0.0625,
+        0.075,
+        0.0875,
+        0.1,
+        0.1125,
+        0.125,
+        0.1375,
+        0.15,
+        0.1625,
+        0.175,
+        0.1875,
+        0.2,
+        0.2125
+      ],
+      "h_mid": [
+        0.018750000000000003,
+        0.03125,
+        0.04375,
+        0.05625,
+        0.06875,
+        0.08124999999999999,
+        0.09375,
+        0.10625000000000001,
+        0.11875,
+        0.13125,
+        0.14375,
+        0.15625,
+        0.16875,
+        0.18125,
+        0.19375,
+        0.20625
+      ],
+      "contrast": [
+        11.055685582048635,
+        11.08097818730371,
+        11.105340940346403,
+        11.128585595551472,
+        11.149650859036935,
+        11.051161313550475,
+        10.775345724937768,
+        10.20859810361382,
+        7.80794896407723,
+        -1.3075156833113475,
+        -5.526435310368166,
+        -6.336121311824122,
+        -6.62674769740204,
+        -6.789309650888561,
+        -6.905912579885088,
+        -7.002072691320299,
+        -7.087881273368549
+      ],
+      "response": [
+        -2.0234084204059855,
+        -1.9490202434154473,
+        -1.859572416405512,
+        -1.6852210788370319,
+        7.879163638916824,
+        22.06524708901654,
+        45.33980970591581,
+        192.05193116292725,
+        729.2371717910863,
+        337.5135701645452,
+        64.7748801164766,
+        23.25011084623339,
+        13.0049562789217,
+        9.328234319722162,
+        7.692808914816844,
+        6.864686563859985
+      ],
+      "ED_named_response": [
+        0.028221942219994745,
+        0.050396373688395016,
+        0.07950109747127063,
+        0.12501746244576675,
+        0.21652062317381043,
+        0.46974243098614654,
+        1.493829499480864,
+        7.9474235533097755,
+        33.34821215211711,
+        19.205261484477187,
+        4.685209717459036,
+        1.6004560246771002,
+        0.6955278096034498,
+        0.33510870095446926,
+        0.16069250844208724,
+        0.0646725278979344
+      ],
+      "reference": {
+        "peaks": [
+          {
+            "index": 8,
+            "coordinate": 0.11875,
+            "value": 33.34821215211711,
+            "interval_low": 0.1125,
+            "interval_high": 0.125,
+            "endpoint": false,
+            "step": 0.012500000000000004
+          }
+        ],
+        "primary": {
+          "index": 8,
+          "coordinate": 0.11875,
+          "value": 33.34821215211711,
+          "interval_low": 0.1125,
+          "interval_high": 0.125,
+          "endpoint": false,
+          "step": 0.012500000000000004
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "result": {
+        "peaks": [
+          {
+            "index": 8,
+            "coordinate": 0.11875,
+            "value": 729.2371717910863,
+            "interval_low": 0.1125,
+            "interval_high": 0.125,
+            "endpoint": false,
+            "step": 0.012500000000000004
+          }
+        ],
+        "primary": {
+          "index": 8,
+          "coordinate": 0.11875,
+          "value": 729.2371717910863,
+          "interval_low": 0.1125,
+          "interval_high": 0.125,
+          "endpoint": false,
+          "step": 0.012500000000000004
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference_resolvable": true,
+      "algorithm_estimatable": true,
+      "matched": true,
+      "position_error": 0.0,
+      "predictions": [
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.4245210173333268,
+            10.373211674247127,
+            11.480206599381962,
+            8.67124042911803
+          ],
+          "margin": 8.246719411784703,
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.33620523178717565,
+            10.34241694737393,
+            11.417183419090886,
+            8.656118016972055
+          ],
+          "margin": 8.31991278518488,
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.24594894153543373,
+            10.309449338794181,
+            11.351289881881836,
+            8.638972731305115
+          ],
+          "margin": 8.393023789769682,
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.1524975689880418,
+            10.273266612860374,
+            11.281083164539513,
+            8.61888760977931
+          ],
+          "margin": 8.46639004079127,
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.0539453212384433,
+            10.23160507245978,
+            11.203596180275378,
+            8.593742134709599
+          ],
+          "margin": 8.539796813471156,
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.060061328420510436,
+            10.1784491927129,
+            11.111222641970985,
+            8.557633916907951
+          ],
+          "margin": 8.497572588487442,
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.20356022532051762,
+            10.093485990247501,
+            10.978905950258286,
+            8.489911101820782
+          ],
+          "margin": 8.286350876500265,
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.4847885068185125,
+            9.883613806739536,
+            10.693386610432333,
+            8.293227663605753
+          ],
+          "margin": 7.808439156787241,
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            1.6910999514806986,
+            8.940189182938225,
+            9.499048915557928,
+            7.3127294208267335
+          ],
+          "margin": 5.6216294693460345,
+          "accepted": true
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            6.5844081066376905,
+            6.234727405876251,
+            5.276892423326343,
+            4.4174790048913035
+          ],
+          "margin": 0.8594134184350395,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            9.371906521574553,
+            6.09458344537887,
+            3.845471211206387,
+            4.608201671926579
+          ],
+          "margin": 0.7627304607201917,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.058579654651622,
+            6.253542248855382,
+            3.7224583428274998,
+            4.912215440051918
+          ],
+          "margin": 1.1897570972244185,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.305160973888816,
+            6.326616544833937,
+            3.678413276486775,
+            5.054700657777653
+          ],
+          "margin": 1.376287381290878,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.42405894676123,
+            6.363699914162023,
+            3.634749295872669,
+            5.139970631842073
+          ],
+          "margin": 1.505221335969404,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.492621622760973,
+            6.384854644637866,
+            3.5867090428758854,
+            5.201594755143374
+          ],
+          "margin": 1.6148857122674882,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.537085547236716,
+            6.397928385313167,
+            3.5350128559164165,
+            5.251813542338102
+          ],
+          "margin": 1.7168006864216854,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.568440134935953,
+            6.406442516887903,
+            3.4805588615674043,
+            5.295898625440755
+          ],
+          "margin": 1.815339763873351,
+          "accepted": false
+        }
+      ],
+      "state_sources": [
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/95f4d83d0003cc24b554ebb8249622dd811cbf8c2bdd1930712691613e972659.npz",
+          "sha256": "d354efb60066e1387d3ae6abe1a12be56f74730882ea78473bd255f507a9d08d"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/1baaa170ce1c5bb652b5d7d78d02c6643d3659755b7d0c3c7411b5a63930eaa3.npz",
+          "sha256": "252b314bd146cde05e165e43982ab178a156e807def3ee3aa497353d4089e91f"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/23cd722244ee7f14de4afd269478fb2c18063134d64c673d55561de0a966b364.npz",
+          "sha256": "d555176df0c8b0e0ecc9770e9fbebc39b4a31830cac194036f260d06716326fa"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/faac805876fb4a7a867f6e2f3f7f6d25f206f417404d35fb1d9d37ec0d5362b1.npz",
+          "sha256": "a401ce63f0477f8f44385b954dfb7863100ebc3295fa0596b82fe5cd3f638bf9"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d44e836a337e8bed04278b42a24344a81f01ca548f7bffe13f5299be1299471a.npz",
+          "sha256": "8549fd8f023dbfbe14d7df8330b810f7c02d92242d42b28adea55d28b99b8dcf"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/b0c8e7bd8e207abb5f8d41c8fd88f785d7497dd006d19631cc69556eb34de60d.npz",
+          "sha256": "0d830325e5546f11e7609a0ee68497f3797aea7ccc810f8491fb10f09a77254c"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/973630dbee60e1592e8af288d78517f70fd47654a29b1278cf609660f6aa275b.npz",
+          "sha256": "da9dead3032a57fd4abf78469c633ee2e8992f63641b0bd47bd2435222875cc7"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d8ce3add3da91bb8b0b4ccc109d42c1862ef23d7e4f7bf9f7d31f3226e9b2e33.npz",
+          "sha256": "1ad077a384eacd089dfbd55fa3e7e91f31608623ed197d5afb15189d257c0047"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/c0a22247d1270813b00e5ffd351947f8618e573c98ab0586a5c0e62cb2a44090.npz",
+          "sha256": "d9f43dd34d130530bbb3c9d386c8518ae285f1cf49c94f5ea1d645370a11d24d"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/43954ab5149209f1eff76f79c16e262f10bff44b6d6d466553428c3f63f713fa.npz",
+          "sha256": "b862cd2bfe7a970e420bd7c45a9ae77115ffbbe4f72ca3f299b21ae3832cd2c9"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/8e781b53db871d411f15bd3cad81767bd881dd04e212a093f9e94ad576c44f76.npz",
+          "sha256": "c794ebca1128dac35c3b9c41c1a518140de4c6a2d854fb227b8cf8ec9ede5ac8"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/2017e196d1a35015e4c972e526e6e52ea3c4d49fee235934e0a6dd7e503f09b7.npz",
+          "sha256": "bd78f4571de81e7a3e46b1396cf7a35e3b9aa5177a516578a474283f69aee5cc"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ac6c7b394507a14c06a7ad4bcd794ada00391714067fbce2a30a5e650a0bdca3.npz",
+          "sha256": "6b7dcfeff728e70b324e0c420975c258778729bccceab06ca2cd43ca23e08603"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ffd797a2ab5aa820441a78a28a51c4a0a54cc213908bd9029ad3a893c73c6834.npz",
+          "sha256": "24789f70d48feb9a1fd4372a1b422a825bb7f917a00daf64198dedd9d4227ca9"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ac5b975eaffcb28bf804f83c9cde676eda1bd3f90a37538575339bae25bcd388.npz",
+          "sha256": "cae9fb0d46a230c5bf8c7824b8b2761f3ac7cd11780f3add3763ada34a3e85b4"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/52bcf8fdf793ad3222e0b3cae34d5d564a6eea1c82c21820575ffe95621da30b.npz",
+          "sha256": "b8301a682d97e1c78714be6ed9ccdb266c50d2df1bb534cf4109a2100a3e3455"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/31b0816d110a99213900e2f8b37ba5c71a704569ecd39e22430dd7a49cb5a31a.npz",
+          "sha256": "03bd1245a1207cd3e8b30f0635ba8946a49c7803a5c1ce9e7984a0a79d46d12d"
+        }
+      ]
+    },
+    {
+      "kappa": 0.45,
+      "detector": "D5",
+      "h": [
+        0.0125,
+        0.025,
+        0.0375,
+        0.05,
+        0.0625,
+        0.075,
+        0.0875,
+        0.1,
+        0.1125,
+        0.125,
+        0.1375,
+        0.15,
+        0.1625,
+        0.175,
+        0.1875,
+        0.2,
+        0.2125
+      ],
+      "h_mid": [
+        0.018750000000000003,
+        0.03125,
+        0.04375,
+        0.05625,
+        0.06875,
+        0.08124999999999999,
+        0.09375,
+        0.10625000000000001,
+        0.11875,
+        0.13125,
+        0.14375,
+        0.15625,
+        0.16875,
+        0.18125,
+        0.19375,
+        0.20625
+      ],
+      "contrast": [
+        13.111216886662142,
+        13.151439424281508,
+        13.186101394590985,
+        13.21498234539087,
+        13.234436029875939,
+        13.144097428301414,
+        12.837100327650058,
+        12.147297305873442,
+        9.180809811569718,
+        -1.6810514545056918,
+        -6.346561556938475,
+        -7.202242517324265,
+        -7.5010442416746095,
+        -7.662038824974744,
+        -7.773608937444116,
+        -7.863466419205585,
+        -7.942669825286292
+      ],
+      "response": [
+        -3.2178030095492716,
+        -2.7729576247581638,
+        -2.3104760639908752,
+        -1.5562947588054503,
+        7.2270881259619575,
+        24.55976805210853,
+        55.184241742129196,
+        237.31899954429798,
+        868.948901286033,
+        373.24080819462233,
+        68.45447683086329,
+        23.90413794802752,
+        12.879566664010813,
+        8.925608997549752,
+        7.188598540917462,
+        6.336272486456602
+      ],
+      "ED_named_response": [
+        0.028221942219994745,
+        0.050396373688395016,
+        0.07950109747127063,
+        0.12501746244576675,
+        0.21652062317381043,
+        0.46974243098614654,
+        1.493829499480864,
+        7.9474235533097755,
+        33.34821215211711,
+        19.205261484477187,
+        4.685209717459036,
+        1.6004560246771002,
+        0.6955278096034498,
+        0.33510870095446926,
+        0.16069250844208724,
+        0.0646725278979344
+      ],
+      "reference": {
+        "peaks": [
+          {
+            "index": 8,
+            "coordinate": 0.11875,
+            "value": 33.34821215211711,
+            "interval_low": 0.1125,
+            "interval_high": 0.125,
+            "endpoint": false,
+            "step": 0.012500000000000004
+          }
+        ],
+        "primary": {
+          "index": 8,
+          "coordinate": 0.11875,
+          "value": 33.34821215211711,
+          "interval_low": 0.1125,
+          "interval_high": 0.125,
+          "endpoint": false,
+          "step": 0.012500000000000004
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "result": {
+        "peaks": [
+          {
+            "index": 8,
+            "coordinate": 0.11875,
+            "value": 868.948901286033,
+            "interval_low": 0.1125,
+            "interval_high": 0.125,
+            "endpoint": false,
+            "step": 0.012500000000000004
+          }
+        ],
+        "primary": {
+          "index": 8,
+          "coordinate": 0.11875,
+          "value": 868.948901286033,
+          "interval_low": 0.1125,
+          "interval_high": 0.125,
+          "endpoint": false,
+          "step": 0.012500000000000004
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference_resolvable": true,
+      "algorithm_estimatable": true,
+      "matched": true,
+      "position_error": 0.0,
+      "predictions": [
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.4411906357885657,
+            12.295712775540885,
+            13.552407522450707,
+            13.17068979441056
+          ],
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.3527862020293458,
+            12.273745273796997,
+            13.504225626310854,
+            13.177024891654137
+          ],
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.2629416400626241,
+            12.246120218175621,
+            13.44904303465361,
+            13.175889240588598
+          ],
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.1700760285594588,
+            12.211463517518752,
+            13.38505837395033,
+            13.166223361720835
+          ],
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.0741049143382659,
+            12.166813968067585,
+            13.308540944214204,
+            13.145583932985831
+          ],
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.06595096696360178,
+            12.104474249543054,
+            13.210048395265016,
+            13.107434737037046
+          ],
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.2218110665685547,
+            11.998975502504175,
+            13.058911394218612,
+            13.029801155337653
+          ],
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            0.570736937271396,
+            11.735443987213518,
+            12.718034243144839,
+            12.812631357737
+          ],
+          "accepted": true
+        },
+        {
+          "label": "ferro-like",
+          "distances": [
+            2.1056574268466073,
+            10.577477045329656,
+            11.286467238416325,
+            11.820010649420922
+          ],
+          "accepted": true
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            8.182801437941569,
+            7.483456684479159,
+            6.501749983435877,
+            9.32940700344772
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            11.593295394665235,
+            7.537659509283483,
+            5.24673383772676,
+            9.444258166531617
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            12.42292598512486,
+            7.772698717557947,
+            5.220683467800594,
+            9.655310139447712
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            12.717425557129227,
+            7.8702406045787985,
+            5.216381315454617,
+            9.750250423753752
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            12.857585451456895,
+            7.9155067483569495,
+            5.195546626482151,
+            9.80169531766508
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            12.937048483199286,
+            7.937850120523242,
+            5.163439545755169,
+            9.83393966447567
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            12.987403675244488,
+            7.948236033849556,
+            5.123937256038904,
+            9.85594834087585
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.021815590194613,
+            7.951457664222665,
+            5.079145764908321,
+            9.871603996765872
+          ],
+          "accepted": false
+        }
+      ],
+      "state_sources": [
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/95f4d83d0003cc24b554ebb8249622dd811cbf8c2bdd1930712691613e972659.npz",
+          "sha256": "d354efb60066e1387d3ae6abe1a12be56f74730882ea78473bd255f507a9d08d"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/1baaa170ce1c5bb652b5d7d78d02c6643d3659755b7d0c3c7411b5a63930eaa3.npz",
+          "sha256": "252b314bd146cde05e165e43982ab178a156e807def3ee3aa497353d4089e91f"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/23cd722244ee7f14de4afd269478fb2c18063134d64c673d55561de0a966b364.npz",
+          "sha256": "d555176df0c8b0e0ecc9770e9fbebc39b4a31830cac194036f260d06716326fa"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/faac805876fb4a7a867f6e2f3f7f6d25f206f417404d35fb1d9d37ec0d5362b1.npz",
+          "sha256": "a401ce63f0477f8f44385b954dfb7863100ebc3295fa0596b82fe5cd3f638bf9"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d44e836a337e8bed04278b42a24344a81f01ca548f7bffe13f5299be1299471a.npz",
+          "sha256": "8549fd8f023dbfbe14d7df8330b810f7c02d92242d42b28adea55d28b99b8dcf"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/b0c8e7bd8e207abb5f8d41c8fd88f785d7497dd006d19631cc69556eb34de60d.npz",
+          "sha256": "0d830325e5546f11e7609a0ee68497f3797aea7ccc810f8491fb10f09a77254c"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/973630dbee60e1592e8af288d78517f70fd47654a29b1278cf609660f6aa275b.npz",
+          "sha256": "da9dead3032a57fd4abf78469c633ee2e8992f63641b0bd47bd2435222875cc7"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d8ce3add3da91bb8b0b4ccc109d42c1862ef23d7e4f7bf9f7d31f3226e9b2e33.npz",
+          "sha256": "1ad077a384eacd089dfbd55fa3e7e91f31608623ed197d5afb15189d257c0047"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/c0a22247d1270813b00e5ffd351947f8618e573c98ab0586a5c0e62cb2a44090.npz",
+          "sha256": "d9f43dd34d130530bbb3c9d386c8518ae285f1cf49c94f5ea1d645370a11d24d"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/43954ab5149209f1eff76f79c16e262f10bff44b6d6d466553428c3f63f713fa.npz",
+          "sha256": "b862cd2bfe7a970e420bd7c45a9ae77115ffbbe4f72ca3f299b21ae3832cd2c9"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/8e781b53db871d411f15bd3cad81767bd881dd04e212a093f9e94ad576c44f76.npz",
+          "sha256": "c794ebca1128dac35c3b9c41c1a518140de4c6a2d854fb227b8cf8ec9ede5ac8"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/2017e196d1a35015e4c972e526e6e52ea3c4d49fee235934e0a6dd7e503f09b7.npz",
+          "sha256": "bd78f4571de81e7a3e46b1396cf7a35e3b9aa5177a516578a474283f69aee5cc"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ac6c7b394507a14c06a7ad4bcd794ada00391714067fbce2a30a5e650a0bdca3.npz",
+          "sha256": "6b7dcfeff728e70b324e0c420975c258778729bccceab06ca2cd43ca23e08603"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ffd797a2ab5aa820441a78a28a51c4a0a54cc213908bd9029ad3a893c73c6834.npz",
+          "sha256": "24789f70d48feb9a1fd4372a1b422a825bb7f917a00daf64198dedd9d4227ca9"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ac5b975eaffcb28bf804f83c9cde676eda1bd3f90a37538575339bae25bcd388.npz",
+          "sha256": "cae9fb0d46a230c5bf8c7824b8b2761f3ac7cd11780f3add3763ada34a3e85b4"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/52bcf8fdf793ad3222e0b3cae34d5d564a6eea1c82c21820575ffe95621da30b.npz",
+          "sha256": "b8301a682d97e1c78714be6ed9ccdb266c50d2df1bb534cf4109a2100a3e3455"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/31b0816d110a99213900e2f8b37ba5c71a704569ecd39e22430dd7a49cb5a31a.npz",
+          "sha256": "03bd1245a1207cd3e8b30f0635ba8946a49c7803a5c1ce9e7984a0a79d46d12d"
+        }
+      ]
+    },
+    {
+      "kappa": 0.5,
+      "detector": "D4",
+      "h": [
+        0.05,
+        0.0625,
+        0.075,
+        0.0875,
+        0.1,
+        0.1125,
+        0.125,
+        0.1375,
+        0.15,
+        0.1625,
+        0.175,
+        0.1875,
+        0.2,
+        0.2125,
+        0.225,
+        0.2375,
+        0.25
+      ],
+      "h_mid": [
+        0.05625,
+        0.06875,
+        0.08124999999999999,
+        0.09375,
+        0.10625000000000001,
+        0.11875,
+        0.13125,
+        0.14375,
+        0.15625,
+        0.16875,
+        0.18125,
+        0.19375,
+        0.20625,
+        0.21875,
+        0.23125,
+        0.24375
+      ],
+      "contrast": [
+        -2.2268804764689962,
+        -2.2756923264293745,
+        -2.325318879767895,
+        -2.375802394256575,
+        -2.427181024826078,
+        -2.479488212374336,
+        -2.5327520576265203,
+        -2.5869946932205345,
+        -2.6422316692075345,
+        -2.6984713688950825,
+        -2.7557144732667047,
+        -2.813953492931541,
+        -2.8731723865490193,
+        -2.9333462838228797,
+        -2.9944413293940255,
+        -3.056414661266934,
+        -3.1192145338287203
+      ],
+      "response": [
+        3.90494799683026,
+        3.970124267081659,
+        4.038681159094396,
+        4.110290445560235,
+        4.184575003860616,
+        4.261107620174763,
+        4.339410847521133,
+        4.418958078960002,
+        4.4991759750038405,
+        4.5794483497297795,
+        4.659121573186904,
+        4.737511489398254,
+        4.813911781908835,
+        4.887603645691665,
+        4.957866549832672,
+        5.02398980494291
+      ],
+      "ED_named_response": [
+        -0.03530870997874803,
+        -0.038632376253615604,
+        -0.042146517582087324,
+        -0.04584153857280056,
+        -0.04970450773143788,
+        -0.05371909474561622,
+        -0.057865578979738826,
+        -0.06212094015260136,
+        -0.06645903971193184,
+        -0.07085089810201516,
+        -0.07526506902634449,
+        -0.07966810711154675,
+        -0.08402512034634169,
+        -0.0883003936323922,
+        -0.09245806512455558,
+        -0.09646283314316265
+      ],
+      "reference": {
+        "peaks": [
+          {
+            "index": 0,
+            "coordinate": 0.05625,
+            "value": -0.03530870997874803,
+            "interval_low": 0.05,
+            "interval_high": 0.0625,
+            "endpoint": true,
+            "step": 0.012500000000000011
+          }
+        ],
+        "primary": null,
+        "resolvable": false,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "result": {
+        "peaks": [
+          {
+            "index": 15,
+            "coordinate": 0.24375,
+            "value": 5.02398980494291,
+            "interval_low": 0.2375,
+            "interval_high": 0.25,
+            "endpoint": true,
+            "step": 0.012500000000000011
+          }
+        ],
+        "primary": null,
+        "resolvable": false,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference_resolvable": false,
+      "algorithm_estimatable": false,
+      "matched": false,
+      "position_error": null,
+      "predictions": [
+        {
+          "label": "uncertain",
+          "distances": [
+            10.751195419258632,
+            6.506633092194584,
+            4.279752615725588,
+            5.022930788074533
+          ],
+          "margin": 0.7431781723489452,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.760419809535902,
+            6.507613832098846,
+            4.2319215056694715,
+            5.052130891580796
+          ],
+          "margin": 0.8202093859113244,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.769225273637135,
+            6.508157033749724,
+            4.1828381539818285,
+            5.081367134611026
+          ],
+          "margin": 0.8985289806291972,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.777636676909166,
+            6.508262212068517,
+            4.132459817811942,
+            5.110672337631822
+          ],
+          "margin": 0.9782125198198806,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.785680195451855,
+            6.507931949987494,
+            4.080750925161416,
+            5.140078307440497
+          ],
+          "margin": 1.059327382279081,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.793383434546133,
+            6.507172291910917,
+            4.027684079536582,
+            5.169615656150577
+          ],
+          "margin": 1.1419315766139952,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.800775500230108,
+            6.5059930893907305,
+            3.97324103176421,
+            5.199313577385581
+          ],
+          "margin": 1.226072545621371,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.807887017003345,
+            6.504408284025737,
+            3.9174135908052024,
+            5.229199580681007
+          ],
+          "margin": 1.3117859898758044,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.814750085707825,
+            6.502436112769477,
+            3.8602044435619423,
+            5.259299187115828
+          ],
+          "margin": 1.3990947435538859,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.821398177216413,
+            6.500099221856724,
+            3.801627852961641,
+            5.289635591510087
+          ],
+          "margin": 1.4880077385484456,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.82786595963706,
+            6.497424677499842,
+            3.741710204233137,
+            5.320229299017439
+          ],
+          "margin": 1.5785190947843017,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.834189059252436,
+            6.494443864373734,
+            3.680490371442193,
+            5.351097746453296
+          ],
+          "margin": 1.670607375011103,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.84040375825306,
+            6.491192266638424,
+            3.618019880089405,
+            5.382254921038757
+          ],
+          "margin": 1.7642350409493521,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.84654663533348,
+            6.487709130697052,
+            3.5543628468741724,
+            5.413710991195554
+          ],
+          "margin": 1.8593481443213817,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.852654158216463,
+            6.484037013831385,
+            3.4895956844373592,
+            5.445471965383831
+          ],
+          "margin": 1.9558762809464718,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.858762239936844,
+            6.4802212280050915,
+            3.4238065667381576,
+            5.477539395540145
+          ],
+          "margin": 2.053732828801987,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.864905773038533,
+            6.476309193139209,
+            3.357094659310489,
+            5.509910141302112
+          ],
+          "margin": 2.152815481991623,
+          "accepted": false
+        }
+      ],
+      "state_sources": [
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/5727d6fcd6fd7ced6fab312df1ff8ebc5cdd7c3ab599ebb0636d8a6518bd5d07.npz",
+          "sha256": "4facd31dcda4cfd50a00452ca78463c0d020a0866e2b8293aa43632f7520a220"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/9219f45db915be4cc059d7ce1f2b2afab98917941b37d43c5010edc9422877c5.npz",
+          "sha256": "33aa086ead411329dca6323769570efca4fa0fcff81dc7355f4630d05800d6d6"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/c7fe8c1b2e357670efdf9eb62c8559cc659baad1f56805ea181217cd7cc62685.npz",
+          "sha256": "b92bc13db4b49fa09d8a82e557e6ec869d7bb1e4b5bf7964f15b739f5b40292c"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/b45dba41f66bdb88eb385ba41842047b2559a35f9925eecd485a2d1edc3dfb52.npz",
+          "sha256": "199739b25711d3446574bb54d04ce89335b637de5f862a04b9642b9cc90fd4fd"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/16dabc86e9c6ef1399d638a5d00e25f67f4a3cac90cf606bae7e7a2c63e38b4f.npz",
+          "sha256": "80d550c4269c1be4e8acd687fc03652ed3b5ab7eb32b06df4e0b24294827d18c"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/469b396e58e663bb30d9b9d572b6c16aade3477b614825a3ea5bc39d382dd3b2.npz",
+          "sha256": "dd153490e6323e903c55b7c53576000df54b3f7eb70dc912c2cf5893e2acce4a"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/38bfd37381274089c6dc83c7e57b1fc9f8e34587678798a9c72f06841f480ca0.npz",
+          "sha256": "c052ae8f282da5add53fac3f24939a492d5930875da42db57e3928794a12eefd"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/28942b617a8648a130ea3949a239df6c5dc7bc962ac7824d2beaea42bbb3c9cd.npz",
+          "sha256": "c0af36d7b81ccb3edc68608150c6371cd2618df9a7d289c9c6c09ea2950737d8"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d0fd98a4e68cde3f9743ff7f6d5c2913790820b3f76aec4723fe478510569c51.npz",
+          "sha256": "15a9b424e338903ed85495dc2d69e74ab171f20950b20846dd711ff46b4cff2d"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/e2d7ad8999d128439c8e30e84e145bce5a1a49c60204a28002e2ffc32149523f.npz",
+          "sha256": "45e909a3bea2b600ffed6d5ffdff0f9cbba97472162ab845a216cb931f61da86"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/af2a97d7744e752a3a91ec2cf7bc229053f9288fcb7337f438088b08dcbb9676.npz",
+          "sha256": "509f8c613f41cce75783880b9e679e0a813ad4c6e36c7522dbc280358e996a68"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/14e0260ddcfb685f0631d7fa7790ebf16f356888affed186963b969db98838ee.npz",
+          "sha256": "31deaf283dabd43f3b808638e01edaccf0c55cf544f684597e5bc1dbc060f0a5"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ebb450fe5b86d008146c212fe2eda29af5b756ce8da85d985bbb3b915a724b4a.npz",
+          "sha256": "2b49857f9e1d070684ca9cf7c4dcf55ebe0401a707cf5792a3bc1fcb103d6c07"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ec45ab3bdf02fe453bc0e6cf584d332ee5a406933c1ddbfa995f458b9917d7b1.npz",
+          "sha256": "bc3f7684684addb87b267b8dc6265a5a368d0cdbc3e51065e6dcf065d128d0a6"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/65280afcc240a0212c02ce7a0e0363a1e1247b3d5cdabdd5a253a84c6036c2bd.npz",
+          "sha256": "75be62eabfc650483d157c4fcc880f3af6eac1fdcd124cb6f35302dacaeeb30e"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/bd54964d719505c0d3fd6bacef59316389543b2a5d75001238736a9029860a8d.npz",
+          "sha256": "1c39f51913703e7f239cd4051c6155d3a016e185d99f45c778da9427ddb91a6d"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/1d7519981795cc09293db2d405ccd0e97341bf70c8049bc0aed79cb86683070e.npz",
+          "sha256": "02ddee8a429b9fa176a4b7a4486773dcd8bbed960bd10018a5ac428f13e6d2fb"
+        }
+      ]
+    },
+    {
+      "kappa": 0.5,
+      "detector": "D5",
+      "h": [
+        0.05,
+        0.0625,
+        0.075,
+        0.0875,
+        0.1,
+        0.1125,
+        0.125,
+        0.1375,
+        0.15,
+        0.1625,
+        0.175,
+        0.1875,
+        0.2,
+        0.2125,
+        0.225,
+        0.2375,
+        0.25
+      ],
+      "h_mid": [
+        0.05625,
+        0.06875,
+        0.08124999999999999,
+        0.09375,
+        0.10625000000000001,
+        0.11875,
+        0.13125,
+        0.14375,
+        0.15625,
+        0.16875,
+        0.18125,
+        0.19375,
+        0.20625,
+        0.21875,
+        0.23125,
+        0.24375
+      ],
+      "contrast": [
+        -2.390183741838877,
+        -2.4237772490943374,
+        -2.458021878329661,
+        -2.4929657761558293,
+        -2.528655534777487,
+        -2.565135826909411,
+        -2.6024490091172368,
+        -2.6406346988890315,
+        -2.679729332111214,
+        -2.719765708969687,
+        -2.760772537551917,
+        -2.802773985507158,
+        -2.8457892509476226,
+        -2.8898321642649973,
+        -2.9349108326263966,
+        -2.9810273385512076,
+        -3.0281775031277895
+      ],
+      "response": [
+        2.687480580436841,
+        2.7395703388258856,
+        2.79551182609346,
+        2.8551806897326033,
+        2.9184233705539246,
+        2.98505457662607,
+        3.054855181743574,
+        3.127570657774616,
+        3.2029101486778417,
+        3.2805462865783896,
+        3.3601158364192654,
+        3.4412212352371765,
+        3.5234330653899852,
+        3.60629346891194,
+        3.6893204739848833,
+        3.772013166126552
+      ],
+      "ED_named_response": [
+        -0.03530870997874803,
+        -0.038632376253615604,
+        -0.042146517582087324,
+        -0.04584153857280056,
+        -0.04970450773143788,
+        -0.05371909474561622,
+        -0.057865578979738826,
+        -0.06212094015260136,
+        -0.06645903971193184,
+        -0.07085089810201516,
+        -0.07526506902634449,
+        -0.07966810711154675,
+        -0.08402512034634169,
+        -0.0883003936323922,
+        -0.09245806512455558,
+        -0.09646283314316265
+      ],
+      "reference": {
+        "peaks": [
+          {
+            "index": 0,
+            "coordinate": 0.05625,
+            "value": -0.03530870997874803,
+            "interval_low": 0.05,
+            "interval_high": 0.0625,
+            "endpoint": true,
+            "step": 0.012500000000000011
+          }
+        ],
+        "primary": null,
+        "resolvable": false,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "result": {
+        "peaks": [
+          {
+            "index": 15,
+            "coordinate": 0.24375,
+            "value": 3.772013166126552,
+            "interval_low": 0.2375,
+            "interval_high": 0.25,
+            "endpoint": true,
+            "step": 0.012500000000000011
+          }
+        ],
+        "primary": null,
+        "resolvable": false,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference_resolvable": false,
+      "algorithm_estimatable": false,
+      "matched": false,
+      "position_error": null,
+      "predictions": [
+        {
+          "label": "uncertain",
+          "distances": [
+            13.239500136242484,
+            8.086072439553615,
+            5.695888697714738,
+            9.74510167306233
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.24831480646382,
+            8.090187029731911,
+            5.666409780637574,
+            9.770451853358386
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.256478299020442,
+            8.092934472956003,
+            5.634912594626342,
+            9.794232806156536
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.263989598336302,
+            8.094268971156668,
+            5.601303195000838,
+            9.816407210313288
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.270849275760549,
+            8.094147338473464,
+            5.565491803695977,
+            9.836936954950342
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.277059977647728,
+            8.09253016429954,
+            5.527394337390128,
+            9.855784243351
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.282626905682005,
+            8.089383012431078,
+            5.486934003313841,
+            9.872912758043269
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.287558274545393,
+            8.08467762912278,
+            5.444042930233748,
+            9.888288865993887
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.291865730670898,
+            8.078393128436682,
+            5.398663796325468,
+            9.901882838141086
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.295564715091274,
+            8.070517119735218,
+            5.350751410765531,
+            9.913670053406264
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.298674753457133,
+            8.061046739874996,
+            5.300274202323079,
+            9.92363215418728
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.301219657281571,
+            8.049989551939452,
+            5.247215566432295,
+            9.931758118477704
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.303227622448764,
+            8.037364273478081,
+            5.191575022530459,
+            9.938045213462495
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.30473121400446,
+            8.02320130036548,
+            5.133369136100483,
+            9.942499796917
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.305767230148726,
+            8.007542997590363,
+            5.0726321649639665,
+            9.94513793607735
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.306376443008572,
+            7.990443735410152,
+            5.009416396858945,
+            9.945985818814902
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.306603218931917,
+            7.971969658074977,
+            4.943792154947188,
+            9.945079938748245
+          ],
+          "accepted": false
+        }
+      ],
+      "state_sources": [
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/5727d6fcd6fd7ced6fab312df1ff8ebc5cdd7c3ab599ebb0636d8a6518bd5d07.npz",
+          "sha256": "4facd31dcda4cfd50a00452ca78463c0d020a0866e2b8293aa43632f7520a220"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/9219f45db915be4cc059d7ce1f2b2afab98917941b37d43c5010edc9422877c5.npz",
+          "sha256": "33aa086ead411329dca6323769570efca4fa0fcff81dc7355f4630d05800d6d6"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/c7fe8c1b2e357670efdf9eb62c8559cc659baad1f56805ea181217cd7cc62685.npz",
+          "sha256": "b92bc13db4b49fa09d8a82e557e6ec869d7bb1e4b5bf7964f15b739f5b40292c"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/b45dba41f66bdb88eb385ba41842047b2559a35f9925eecd485a2d1edc3dfb52.npz",
+          "sha256": "199739b25711d3446574bb54d04ce89335b637de5f862a04b9642b9cc90fd4fd"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/16dabc86e9c6ef1399d638a5d00e25f67f4a3cac90cf606bae7e7a2c63e38b4f.npz",
+          "sha256": "80d550c4269c1be4e8acd687fc03652ed3b5ab7eb32b06df4e0b24294827d18c"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/469b396e58e663bb30d9b9d572b6c16aade3477b614825a3ea5bc39d382dd3b2.npz",
+          "sha256": "dd153490e6323e903c55b7c53576000df54b3f7eb70dc912c2cf5893e2acce4a"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/38bfd37381274089c6dc83c7e57b1fc9f8e34587678798a9c72f06841f480ca0.npz",
+          "sha256": "c052ae8f282da5add53fac3f24939a492d5930875da42db57e3928794a12eefd"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/28942b617a8648a130ea3949a239df6c5dc7bc962ac7824d2beaea42bbb3c9cd.npz",
+          "sha256": "c0af36d7b81ccb3edc68608150c6371cd2618df9a7d289c9c6c09ea2950737d8"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d0fd98a4e68cde3f9743ff7f6d5c2913790820b3f76aec4723fe478510569c51.npz",
+          "sha256": "15a9b424e338903ed85495dc2d69e74ab171f20950b20846dd711ff46b4cff2d"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/e2d7ad8999d128439c8e30e84e145bce5a1a49c60204a28002e2ffc32149523f.npz",
+          "sha256": "45e909a3bea2b600ffed6d5ffdff0f9cbba97472162ab845a216cb931f61da86"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/af2a97d7744e752a3a91ec2cf7bc229053f9288fcb7337f438088b08dcbb9676.npz",
+          "sha256": "509f8c613f41cce75783880b9e679e0a813ad4c6e36c7522dbc280358e996a68"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/14e0260ddcfb685f0631d7fa7790ebf16f356888affed186963b969db98838ee.npz",
+          "sha256": "31deaf283dabd43f3b808638e01edaccf0c55cf544f684597e5bc1dbc060f0a5"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ebb450fe5b86d008146c212fe2eda29af5b756ce8da85d985bbb3b915a724b4a.npz",
+          "sha256": "2b49857f9e1d070684ca9cf7c4dcf55ebe0401a707cf5792a3bc1fcb103d6c07"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ec45ab3bdf02fe453bc0e6cf584d332ee5a406933c1ddbfa995f458b9917d7b1.npz",
+          "sha256": "bc3f7684684addb87b267b8dc6265a5a368d0cdbc3e51065e6dcf065d128d0a6"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/65280afcc240a0212c02ce7a0e0363a1e1247b3d5cdabdd5a253a84c6036c2bd.npz",
+          "sha256": "75be62eabfc650483d157c4fcc880f3af6eac1fdcd124cb6f35302dacaeeb30e"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/bd54964d719505c0d3fd6bacef59316389543b2a5d75001238736a9029860a8d.npz",
+          "sha256": "1c39f51913703e7f239cd4051c6155d3a016e185d99f45c778da9427ddb91a6d"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/1d7519981795cc09293db2d405ccd0e97341bf70c8049bc0aed79cb86683070e.npz",
+          "sha256": "02ddee8a429b9fa176a4b7a4486773dcd8bbed960bd10018a5ac428f13e6d2fb"
+        }
+      ]
+    },
+    {
+      "kappa": 0.55,
+      "detector": "D4",
+      "h": [
+        0.0125,
+        0.025,
+        0.0375,
+        0.05,
+        0.0625,
+        0.075,
+        0.0875,
+        0.1,
+        0.1125,
+        0.125,
+        0.1375,
+        0.15,
+        0.1625,
+        0.175,
+        0.1875,
+        0.2,
+        0.2125
+      ],
+      "h_mid": [
+        0.018750000000000003,
+        0.03125,
+        0.04375,
+        0.05625,
+        0.06875,
+        0.08124999999999999,
+        0.09375,
+        0.10625000000000001,
+        0.11875,
+        0.13125,
+        0.14375,
+        0.15625,
+        0.16875,
+        0.18125,
+        0.19375,
+        0.20625
+      ],
+      "contrast": [
+        5.939842037552917,
+        5.957888599204534,
+        5.975763589161165,
+        5.993465596491802,
+        6.0108151402140235,
+        6.02587459688282,
+        5.835828217696406,
+        5.488442111102695,
+        4.221036555940354,
+        -0.7449000956600482,
+        -2.2952529139123965,
+        -2.5492708432719833,
+        -2.663113401208018,
+        -2.7459503379285244,
+        -2.818836446957372,
+        -2.8879868054659656,
+        -2.955737659042168
+      ],
+      "response": [
+        -1.4437249321293422,
+        -1.4299991965305028,
+        -1.4161605864509847,
+        -1.3879634977777047,
+        -1.2047565335036838,
+        15.203710334913087,
+        27.79088852749685,
+        101.39244441298732,
+        397.2749321280323,
+        124.02822546018776,
+        20.32143434876697,
+        9.107404634882768,
+        6.626954937640521,
+        5.830888722307813,
+        5.5320286806874766,
+        5.420068286096196
+      ],
+      "ED_named_response": [
+        0.01193842957190494,
+        0.020889800331405087,
+        0.032011408257393,
+        0.04862801757250958,
+        0.08161636514193217,
+        0.17525487198170267,
+        0.5753765429282337,
+        3.4294124757449405,
+        17.33565621163279,
+        9.232518217467497,
+        1.9682795119755774,
+        0.6233316886031609,
+        0.24055112738968687,
+        0.08732508276534814,
+        0.011315937805714816,
+        -0.03229052022315053
+      ],
+      "reference": {
+        "peaks": [
+          {
+            "index": 8,
+            "coordinate": 0.11875,
+            "value": 17.33565621163279,
+            "interval_low": 0.1125,
+            "interval_high": 0.125,
+            "endpoint": false,
+            "step": 0.012500000000000004
+          }
+        ],
+        "primary": {
+          "index": 8,
+          "coordinate": 0.11875,
+          "value": 17.33565621163279,
+          "interval_low": 0.1125,
+          "interval_high": 0.125,
+          "endpoint": false,
+          "step": 0.012500000000000004
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "result": {
+        "peaks": [
+          {
+            "index": 8,
+            "coordinate": 0.11875,
+            "value": 397.2749321280323,
+            "interval_low": 0.1125,
+            "interval_high": 0.125,
+            "endpoint": false,
+            "step": 0.012500000000000004
+          }
+        ],
+        "primary": {
+          "index": 8,
+          "coordinate": 0.11875,
+          "value": 397.2749321280323,
+          "interval_low": 0.1125,
+          "interval_high": 0.125,
+          "endpoint": false,
+          "step": 0.012500000000000004
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference_resolvable": true,
+      "algorithm_estimatable": true,
+      "matched": true,
+      "position_error": 0.0,
+      "predictions": [
+        {
+          "label": "antiphase-like",
+          "distances": [
+            10.089574429792133,
+            0.4694841908953625,
+            6.409326228448279,
+            4.907372901882831
+          ],
+          "margin": 4.437888710987469,
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            10.109941539056754,
+            0.38201170721754235,
+            6.339900306422076,
+            4.935661363124972
+          ],
+          "margin": 4.55364965590743,
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            10.130527991239747,
+            0.29376115876099773,
+            6.269524747922163,
+            4.9643211379676835
+          ],
+          "margin": 4.670559979206685,
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            10.151369618625933,
+            0.2039169429599723,
+            6.197382539451775,
+            4.993391212516393
+          ],
+          "margin": 4.78947426955642,
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            10.172417475654884,
+            0.11112764535701265,
+            6.121942785571036,
+            5.022715779898129
+          ],
+          "margin": 4.911588134541116,
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            10.193314511889547,
+            0.013625928940077683,
+            6.0395005258228975,
+            5.051342347116319
+          ],
+          "margin": 5.037716418176241,
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            10.212312869135458,
+            0.10243691313370915,
+            5.938265130830115,
+            5.074566033208084
+          ],
+          "margin": 4.972129120074375,
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            10.219578508960765,
+            0.27693467331325383,
+            5.765376784415949,
+            5.065127528827742
+          ],
+          "margin": 4.788192855514488,
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            10.14717800170577,
+            0.9269357873890722,
+            5.147972343329426,
+            4.8106511232366005
+          ],
+          "margin": 3.883715335847528,
+          "accepted": true
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.202631098188974,
+            4.073138695618867,
+            3.3282385999588184,
+            4.347980501835531
+          ],
+          "margin": 0.7449000956600482,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.599002033058847,
+            5.743325770380557,
+            3.4480728564681606,
+            4.916082207136801
+          ],
+          "margin": 1.4680093506686407,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.721761484957717,
+            6.104817134493956,
+            3.555546291221973,
+            5.1166966338057085
+          ],
+          "margin": 1.5611503425837356,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.77234486320204,
+            6.226946589222542,
+            3.5638331880145238,
+            5.208762791677877
+          ],
+          "margin": 1.6449296036633534,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.801613255534562,
+            6.281916164710773,
+            3.5359658267822485,
+            5.269463233003734
+          ],
+          "margin": 1.7334974062214852,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.822476711413774,
+            6.310546691464381,
+            3.491710244507009,
+            5.3182251191974
+          ],
+          "margin": 1.8265148746903912,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.839336831727476,
+            6.32650855718259,
+            3.4385217517166247,
+            5.361568036732905
+          ],
+          "margin": 1.9230462850162802,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.854041844999069,
+            6.335521004455737,
+            3.379783345413569,
+            5.402175428796421
+          ],
+          "margin": 2.022392083382852,
+          "accepted": false
+        }
+      ],
+      "state_sources": [
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/5666afce640352c7f337cf409229cd4477b63f8d97cfa5857ef171a761611fae.npz",
+          "sha256": "62bd2c548694d340306b493f89e02ac942bc04931eb993c13809e251966e3897"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/2ac05bea56e3b695a0c42eb747e01ffb950ace20e92280434ab75bb45f844673.npz",
+          "sha256": "657e04260ea89cbcb2cf14c81d67bb26462e6cb2e9909afadaf5cc9e79e0c1e4"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/fe2532f6fea6d66bc76fb3d68dfc505883f452de99c5e5e9cdeda71482993fcb.npz",
+          "sha256": "1ff8304de5b1d7b253d4d2bc5648d16381add113c4c5cfc49a68a570ef327503"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/b71701df684f2b98fc0e4b30fe7961844d16be046b5772faa78ecf5f960b2194.npz",
+          "sha256": "80f269d4b146692098635443be865d61d10eb6fa9171fd2d721c60eebfb7c835"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/26b3fe10b6b38dfb097b0d0382a0bd60df89bbc1c5ca864e8080793e085b9502.npz",
+          "sha256": "205a72b2bb011712821e313119250ccb8d0202447fc269cb2429034af09b05d6"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/cc3593b5929742fc7f72ab3b09d0dba1274993e8c5ffe393b3552ac14686be20.npz",
+          "sha256": "a6167958b261123d606c0aff8438405a27256c8222e81822527f9bea01ed23b6"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/2ae179f93950bf43772b5f54ecaa03f8d3185c2d7be6ac1daf5d3b7044a23902.npz",
+          "sha256": "13312e2283783c402017185e5218f098ce3680580da69050a75703e923f0c6d1"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/16be03f31e0844071ecd23dfb2a4612637eadefabda1910f1d4a9250172fba4b.npz",
+          "sha256": "0399ccdd1f762e7eeacbafa38ad7c7a7137a0e15457dfe577132a88f3a5c0f44"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/7387770ceff52049d57cd0355226afca91931a02b0890091bac6f49fae5dd58a.npz",
+          "sha256": "0457c72ba9756758da601991b684a9e7dbda1ccb17b1abf8892784b0bc400a49"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/8ef735f6c25d3eb671f2d1e4c21039bce84a78c59c2c50462452fd26dc051228.npz",
+          "sha256": "ecc1ecba06983b5998c59f74d98f2c4634c402cd22e292c1479fd810ad58ff59"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/503f3794f3aa09ad3ae42345138db3fd1275c4efd351d616d67b278bcb47608e.npz",
+          "sha256": "7056812fd71b722b0307a278ead958f6acafd556d6c8f532cc57045ff42d8cea"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/a51376fb1a823c66c6c2d6c619f85a90a89c9e2956ffff7c7343cdef658c70c6.npz",
+          "sha256": "70d1a2a128c0355679e49a03b5c748bd46afb8a8fad46d2f44d87353c33c84ed"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/b08adfe9bdd01a1c065b9a02404f7e1991f6b11a81d3a2da522ddfd6a856db04.npz",
+          "sha256": "248bea1f8e6928309a5e72fd174065459a398899711525d4618d90e94e2e746b"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/6a78945a188bc3654a90f4c9c5bf17ed37a5dcd439bb722855a54ea922dde8ae.npz",
+          "sha256": "c75381dc8aaa94ca694693c2ec3e6e423029cc08ebbb69f5ea66582e6b64dede"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/40c8e6a4dd0fe28cfce22868ca351fed71204e5da65672d6b165891bdfc62332.npz",
+          "sha256": "7b004543f4edbf9dc5dde3aceaa4749c4c33cf08a560b614f0fc4504442f7e00"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/9172945bf2a79c7cb2c1f2b730f2ddfe08778f523be205c847ad2f5c3398852a.npz",
+          "sha256": "009a7e94829dd56fdb48be5e5d670fe7e2d2dd79f5a9ad01b3d7fa6a73e5681d"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/b25a81da1d2510dc821eab591ec8d03a77f0661d7fb122af642ecea6ce11cac7.npz",
+          "sha256": "3a3d0214ac00b568accbc93c205d4b82a3fefaaf992b0dd2f4d034022b97fa35"
+        }
+      ]
+    },
+    {
+      "kappa": 0.55,
+      "detector": "D5",
+      "h": [
+        0.0125,
+        0.025,
+        0.0375,
+        0.05,
+        0.0625,
+        0.075,
+        0.0875,
+        0.1,
+        0.1125,
+        0.125,
+        0.1375,
+        0.15,
+        0.1625,
+        0.175,
+        0.1875,
+        0.2,
+        0.2125
+      ],
+      "h_mid": [
+        0.018750000000000003,
+        0.03125,
+        0.04375,
+        0.05625,
+        0.06875,
+        0.08124999999999999,
+        0.09375,
+        0.10625000000000001,
+        0.11875,
+        0.13125,
+        0.14375,
+        0.15625,
+        0.16875,
+        0.18125,
+        0.19375,
+        0.20625
+      ],
+      "contrast": [
+        6.194437123294486,
+        6.2249086376925735,
+        6.25403677397283,
+        6.281858851615776,
+        6.308085531338658,
+        6.326500511009158,
+        6.139699052782378,
+        5.774633966410181,
+        4.312285813992993,
+        -1.0397094553090644,
+        -2.383792767975721,
+        -2.5902974973285513,
+        -2.6796958858415003,
+        -2.7429985160112746,
+        -2.797951545322645,
+        -2.8498854548195967,
+        -2.900855753541049
+      ],
+      "response": [
+        -2.437721151846972,
+        -2.330250902420517,
+        -2.225766211435668,
+        -2.0981343778305477,
+        -1.473198373640017,
+        14.94411665814241,
+        29.20520690977573,
+        116.98785219337505,
+        428.1596215441647,
+        107.52666501333242,
+        16.52037834822645,
+        7.151871081035915,
+        5.064210413581954,
+        4.396242344909634,
+        4.154712759756119,
+        4.077623897716199
+      ],
+      "ED_named_response": [
+        0.01193842957190494,
+        0.020889800331405087,
+        0.032011408257393,
+        0.04862801757250958,
+        0.08161636514193217,
+        0.17525487198170267,
+        0.5753765429282337,
+        3.4294124757449405,
+        17.33565621163279,
+        9.232518217467497,
+        1.9682795119755774,
+        0.6233316886031609,
+        0.24055112738968687,
+        0.08732508276534814,
+        0.011315937805714816,
+        -0.03229052022315053
+      ],
+      "reference": {
+        "peaks": [
+          {
+            "index": 8,
+            "coordinate": 0.11875,
+            "value": 17.33565621163279,
+            "interval_low": 0.1125,
+            "interval_high": 0.125,
+            "endpoint": false,
+            "step": 0.012500000000000004
+          }
+        ],
+        "primary": {
+          "index": 8,
+          "coordinate": 0.11875,
+          "value": 17.33565621163279,
+          "interval_low": 0.1125,
+          "interval_high": 0.125,
+          "endpoint": false,
+          "step": 0.012500000000000004
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "result": {
+        "peaks": [
+          {
+            "index": 8,
+            "coordinate": 0.11875,
+            "value": 428.1596215441647,
+            "interval_low": 0.1125,
+            "interval_high": 0.125,
+            "endpoint": false,
+            "step": 0.012500000000000004
+          }
+        ],
+        "primary": {
+          "index": 8,
+          "coordinate": 0.11875,
+          "value": 428.1596215441647,
+          "interval_low": 0.1125,
+          "interval_high": 0.125,
+          "endpoint": false,
+          "step": 0.012500000000000004
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference_resolvable": true,
+      "algorithm_estimatable": true,
+      "matched": true,
+      "position_error": 0.0,
+      "predictions": [
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.064617617075802,
+            0.4805354650136311,
+            6.674972588308117,
+            7.71083333504925
+          ],
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.07249376329208,
+            0.388863666155574,
+            6.6137723038481475,
+            7.75252308370902
+          ],
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.08118278750542,
+            0.2974383610232615,
+            6.551475134996092,
+            7.791935984608475
+          ],
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.090662684609981,
+            0.20533984037783465,
+            6.48719869199361,
+            7.82922153243845
+          ],
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.100839259155352,
+            0.11119071386937229,
+            6.41927624520803,
+            7.86447001861258
+          ],
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.111313435264023,
+            0.017138432141300737,
+            6.3436389431504585,
+            7.897514562468789
+          ],
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.12028165665572,
+            0.10751219020801292,
+            6.2472112429903905,
+            7.926797897291206
+          ],
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.117931882369916,
+            0.29631616385319376,
+            6.070950130263375,
+            7.9419381701572735
+          ],
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.044060019605164,
+            1.0938213138386774,
+            5.406107127831671,
+            7.878507007715231
+          ],
+          "accepted": true
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            12.32357574435246,
+            5.0405298433158885,
+            4.000820388006824,
+            8.45238806790646
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            12.945937665473021,
+            7.124411863959677,
+            4.7406190959839565,
+            9.393387075243782
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.12134656525539,
+            7.568558976219871,
+            4.978261478891319,
+            9.645160183323018
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.18686261319845,
+            7.71255728073635,
+            5.03286139489485,
+            9.738565268893202
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.21982826215317,
+            7.771486118839388,
+            5.028487602828113,
+            9.785173698617896
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.239645370732738,
+            7.796230906925786,
+            4.9982793616031405,
+            9.812330093563926
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.252917092600487,
+            7.803809329600307,
+            4.953923874780711,
+            9.829222387696806
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            13.26242392655335,
+            7.801340743575637,
+            4.900484990034588,
+            9.83968266918485
+          ],
+          "accepted": false
+        }
+      ],
+      "state_sources": [
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/5666afce640352c7f337cf409229cd4477b63f8d97cfa5857ef171a761611fae.npz",
+          "sha256": "62bd2c548694d340306b493f89e02ac942bc04931eb993c13809e251966e3897"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/2ac05bea56e3b695a0c42eb747e01ffb950ace20e92280434ab75bb45f844673.npz",
+          "sha256": "657e04260ea89cbcb2cf14c81d67bb26462e6cb2e9909afadaf5cc9e79e0c1e4"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/fe2532f6fea6d66bc76fb3d68dfc505883f452de99c5e5e9cdeda71482993fcb.npz",
+          "sha256": "1ff8304de5b1d7b253d4d2bc5648d16381add113c4c5cfc49a68a570ef327503"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/b71701df684f2b98fc0e4b30fe7961844d16be046b5772faa78ecf5f960b2194.npz",
+          "sha256": "80f269d4b146692098635443be865d61d10eb6fa9171fd2d721c60eebfb7c835"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/26b3fe10b6b38dfb097b0d0382a0bd60df89bbc1c5ca864e8080793e085b9502.npz",
+          "sha256": "205a72b2bb011712821e313119250ccb8d0202447fc269cb2429034af09b05d6"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/cc3593b5929742fc7f72ab3b09d0dba1274993e8c5ffe393b3552ac14686be20.npz",
+          "sha256": "a6167958b261123d606c0aff8438405a27256c8222e81822527f9bea01ed23b6"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/2ae179f93950bf43772b5f54ecaa03f8d3185c2d7be6ac1daf5d3b7044a23902.npz",
+          "sha256": "13312e2283783c402017185e5218f098ce3680580da69050a75703e923f0c6d1"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/16be03f31e0844071ecd23dfb2a4612637eadefabda1910f1d4a9250172fba4b.npz",
+          "sha256": "0399ccdd1f762e7eeacbafa38ad7c7a7137a0e15457dfe577132a88f3a5c0f44"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/7387770ceff52049d57cd0355226afca91931a02b0890091bac6f49fae5dd58a.npz",
+          "sha256": "0457c72ba9756758da601991b684a9e7dbda1ccb17b1abf8892784b0bc400a49"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/8ef735f6c25d3eb671f2d1e4c21039bce84a78c59c2c50462452fd26dc051228.npz",
+          "sha256": "ecc1ecba06983b5998c59f74d98f2c4634c402cd22e292c1479fd810ad58ff59"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/503f3794f3aa09ad3ae42345138db3fd1275c4efd351d616d67b278bcb47608e.npz",
+          "sha256": "7056812fd71b722b0307a278ead958f6acafd556d6c8f532cc57045ff42d8cea"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/a51376fb1a823c66c6c2d6c619f85a90a89c9e2956ffff7c7343cdef658c70c6.npz",
+          "sha256": "70d1a2a128c0355679e49a03b5c748bd46afb8a8fad46d2f44d87353c33c84ed"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/b08adfe9bdd01a1c065b9a02404f7e1991f6b11a81d3a2da522ddfd6a856db04.npz",
+          "sha256": "248bea1f8e6928309a5e72fd174065459a398899711525d4618d90e94e2e746b"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/6a78945a188bc3654a90f4c9c5bf17ed37a5dcd439bb722855a54ea922dde8ae.npz",
+          "sha256": "c75381dc8aaa94ca694693c2ec3e6e423029cc08ebbb69f5ea66582e6b64dede"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/40c8e6a4dd0fe28cfce22868ca351fed71204e5da65672d6b165891bdfc62332.npz",
+          "sha256": "7b004543f4edbf9dc5dde3aceaa4749c4c33cf08a560b614f0fc4504442f7e00"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/9172945bf2a79c7cb2c1f2b730f2ddfe08778f523be205c847ad2f5c3398852a.npz",
+          "sha256": "009a7e94829dd56fdb48be5e5d670fe7e2d2dd79f5a9ad01b3d7fa6a73e5681d"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/b25a81da1d2510dc821eab591ec8d03a77f0661d7fb122af642ecea6ce11cac7.npz",
+          "sha256": "3a3d0214ac00b568accbc93c205d4b82a3fefaaf992b0dd2f4d034022b97fa35"
+        }
+      ]
+    },
+    {
+      "kappa": 0.8,
+      "detector": "D4",
+      "h": [
+        0.475,
+        0.4875,
+        0.5,
+        0.5125,
+        0.525,
+        0.5375,
+        0.55,
+        0.5625,
+        0.575,
+        0.5875,
+        0.6,
+        0.6125,
+        0.625,
+        0.6375,
+        0.65,
+        0.6625,
+        0.675
+      ],
+      "h_mid": [
+        0.48124999999999996,
+        0.49375,
+        0.50625,
+        0.51875,
+        0.53125,
+        0.54375,
+        0.55625,
+        0.56875,
+        0.58125,
+        0.59375,
+        0.60625,
+        0.61875,
+        0.63125,
+        0.64375,
+        0.65625,
+        0.66875
+      ],
+      "contrast": [
+        1.2861520263433,
+        1.0242044945306104,
+        0.7562486106305393,
+        0.48349534956266904,
+        0.20736180300212803,
+        -0.07057062151277238,
+        -0.3486116552993228,
+        -0.6250267867071324,
+        -0.8981051894765364,
+        -1.1662246883801597,
+        -1.427908094332929,
+        -1.6818666962363098,
+        -1.9270286384408468,
+        -2.1625519123570647,
+        -2.387823380700464,
+        -2.6024464083544947,
+        -2.806220233391666
+      ],
+      "response": [
+        20.95580254501515,
+        21.43647071200567,
+        21.820260885429697,
+        22.090683724843164,
+        22.23459396119211,
+        22.243282702923917,
+        22.113210512624846,
+        21.846272221552397,
+        21.44955991228975,
+        20.934672476221618,
+        20.31668815227036,
+        19.612955376363033,
+        18.841861913297496,
+        18.021717467471856,
+        17.16984221232251,
+        16.30190600297363
+      ],
+      "ED_named_response": [
+        0.5003568918310282,
+        0.5293262065001065,
+        0.5560435978532017,
+        0.5797381152289129,
+        0.5997120300701052,
+        0.6153929248963153,
+        0.6263762194259059,
+        0.6324522557235768,
+        0.6336145773150481,
+        0.6300492147327685,
+        0.6221078161272608,
+        0.6102696231532323,
+        0.5950982059877873,
+        0.5771985548805172,
+        0.5571789109074008,
+        0.5356200765355339
+      ],
+      "reference": {
+        "peaks": [
+          {
+            "index": 8,
+            "coordinate": 0.58125,
+            "value": 0.6336145773150481,
+            "interval_low": 0.575,
+            "interval_high": 0.5875,
+            "endpoint": false,
+            "step": 0.012499999999999956
+          }
+        ],
+        "primary": {
+          "index": 8,
+          "coordinate": 0.58125,
+          "value": 0.6336145773150481,
+          "interval_low": 0.575,
+          "interval_high": 0.5875,
+          "endpoint": false,
+          "step": 0.012499999999999956
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "result": {
+        "peaks": [
+          {
+            "index": 5,
+            "coordinate": 0.54375,
+            "value": 22.243282702923917,
+            "interval_low": 0.5375,
+            "interval_high": 0.55,
+            "endpoint": false,
+            "step": 0.012499999999999956
+          }
+        ],
+        "primary": {
+          "index": 5,
+          "coordinate": 0.54375,
+          "value": 22.243282702923917,
+          "interval_low": 0.5375,
+          "interval_high": 0.55,
+          "endpoint": false,
+          "step": 0.012499999999999956
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference_resolvable": true,
+      "algorithm_estimatable": true,
+      "matched": true,
+      "position_error": -0.03750000000000009,
+      "predictions": [
+        {
+          "label": "antiphase-like",
+          "distances": [
+            10.79515491967249,
+            2.529286465581787,
+            3.8154384919250868,
+            5.887832211165818
+          ],
+          "margin": 1.2861520263433,
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            10.825017797146744,
+            2.6626699347532092,
+            3.6868744292838196,
+            5.92834242655232
+          ],
+          "margin": 1.0242044945306104,
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            10.855450150105888,
+            2.7986081861518435,
+            3.5548567967823828,
+            5.96958535536678
+          ],
+          "margin": 0.7562486106305393,
+          "accepted": true
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.886368672888663,
+            2.9365064194010753,
+            3.4200017689637443,
+            6.011473413376117
+          ],
+          "margin": 0.48349534956266904,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.917672406450807,
+            3.0756796299485387,
+            3.2830414329506667,
+            6.053897978540233
+          ],
+          "margin": 0.20736180300212803,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.949243765987742,
+            3.215373008252147,
+            3.1448023867393746,
+            6.096729116897568
+          ],
+          "margin": 0.07057062151277238,
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            10.980950818003285,
+            3.354788337236357,
+            3.0061766819370344,
+            6.139816879881476
+          ],
+          "margin": 0.3486116552993228,
+          "accepted": false
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            11.012650794047897,
+            3.493114268401715,
+            2.8680874816945825,
+            6.182994373748191
+          ],
+          "margin": 0.6250267867071324,
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            11.044194644263154,
+            3.6295577609975127,
+            2.7314525715209763,
+            6.226082530281891
+          ],
+          "margin": 0.8981051894765364,
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            11.075432263856893,
+            3.7633738076318615,
+            2.5971491192517018,
+            6.268896217976761
+          ],
+          "margin": 1.1662246883801597,
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            11.10621791206529,
+            3.893890877126729,
+            2.4659827827938,
+            6.311251099009671
+          ],
+          "margin": 1.427908094332929,
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            11.136415314157459,
+            4.020530197607521,
+            2.3386635013712116,
+            6.35297051880922
+          ],
+          "margin": 1.6818666962363098,
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            11.165901996976723,
+            4.142817910192966,
+            2.2157892717521195,
+            6.3938917355840275
+          ],
+          "margin": 1.9270286384408468,
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            11.194572537964358,
+            4.260390048096743,
+            2.097838135739678,
+            6.433870939773619
+          ],
+          "margin": 2.1625519123570647,
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            11.222340571972987,
+            4.372991068832778,
+            1.9851676881323146,
+            6.47278673107456
+          ],
+          "margin": 2.387823380700464,
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            11.249139562187393,
+            4.480467187016679,
+            1.878020778662184,
+            6.510541956117124
+          ],
+          "margin": 2.6024464083544947,
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            11.274922472044254,
+            4.582755996446971,
+            1.7765357630553047,
+            6.547064013990292
+          ],
+          "margin": 2.806220233391666,
+          "accepted": true
+        }
+      ],
+      "state_sources": [
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/e5aecf34244073a5eceb201621a4f6f82c794251f7eca26a07297c34a0e9d6d2.npz",
+          "sha256": "fa71f5113a465044063a2267469d38396a069752434054011e16005770f323a3"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ff38637b2fb7bcd99def5d29b8cbc3e28d1903eca96eebb9747b9a0cae604f13.npz",
+          "sha256": "c358c4e09f90be3fe874540e0c8887e858105b331933da8b2cdab070d83eda6b"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/c4b65ad007d85859c0b810566af90be2e3f55808006e90507c7467518fbe644a.npz",
+          "sha256": "ad1cbc409026edb99504090eea9516975821ba424313654dca7e6d7b8933637b"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d7a9ef741abdb3bc1b049e2992a263b8eef5a1454c4941b050ed8ffd0592a8dc.npz",
+          "sha256": "408e9cd762a881f1cd14a610739c8d5846800b9ddbb2acb69ca43cd67a155691"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/5930035c02e58142d317c0d649f2157d771cb743e89a239bd9ec0d3d1772531d.npz",
+          "sha256": "b4158e82038cccfa1128cc8a021b0ec9e61de24c60fb23ff4a994dfcb73c7f78"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/bfd6828a7edc04ebc55f25a1f44ac3421217ccab1afe41a2dd82f55918e7f259.npz",
+          "sha256": "e319d8cbd35b2241ff753197e69cff700b5dd3d69e8fb8e0d31aeb836e2dd6c3"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/6d4535f03034333bb199bd56227e65a4a663f3aec38636b5da9aa2d5b6441dca.npz",
+          "sha256": "10ce901f86a81af09f8634b1bac44400f865f9ba07a77cdd4ce6da9e4b44b02f"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/85ea1cf49f915f048efa252d7d8ba1be82712d831499ed31eb5388e345d7c309.npz",
+          "sha256": "f9ad82636300facae75ddfc0a93bf586c7d9d770812284fdda1912322bc6ca2e"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/3a3997cb2b00ed271d28fac61208b9d53e8e3dd35d00f09b68195e0f73fa02bb.npz",
+          "sha256": "1362693f39f025f52158f986e7da9e36a568bcb1e913b71682c8fb06e5407ce4"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/68a981fa19d378d18fb07169e6283cb01f589ce809cbf44ef465480b9a61910d.npz",
+          "sha256": "ca54e57a112bc19f9ece1704d5274350011691ada760ada167a4d532b6320ec5"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/8a3133ee36812fd00a6cc504c5c5e851149087e6d26dc2655b7d521729a24da2.npz",
+          "sha256": "21be52acc2c5aa9da8223178cc6b5403dfc1c62a54004e82d606984a26469be2"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/644688c6e1809b6e52697df33d40a137ab8cafa03c18b66df5ffb5ad0690f7f1.npz",
+          "sha256": "748cab7229a123e3904719d68fdced9550e66f108390bf8dd45beedc5a218fb3"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/6a9cd7d8797f7dfbd447d1755cfa180174a33f74f22d3e54fa26bf81e70bba87.npz",
+          "sha256": "c4e5cf713854923f88762ca719770d5202d26476a667dfac54089798b68a8366"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/632988f014021bdc69674e6460847f57acffed3f306a76cb1c0bbda550edde0e.npz",
+          "sha256": "8d7f106ec406996e62f4683892ba4eb2d811301497af2322b183ac8e2070108e"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ad8f21cf5ac445dac83094335af4bb43b120d2df2cf6d02822885e19ffd12089.npz",
+          "sha256": "8a6311fa03e9468278dd69498f3fa3678a44313204d1b25b97a8f86820772267"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/b9e4ea68af92683dd45c891a1e69a6472da5dec343b2ede211b651431aad0430.npz",
+          "sha256": "00633d298a73cc1ce07b1a73960f91038764818ea888124628fd35f633f1be9b"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/711fb8eac38c09c9a83c8aa6f8a9c53c495e1a658e4c477fb997e73915e8b261.npz",
+          "sha256": "56b38e81cb9dd838bf58d07c25bbd2e4f539812783f8e0685333e632cce35d0e"
+        }
+      ]
+    },
+    {
+      "kappa": 0.8,
+      "detector": "D5",
+      "h": [
+        0.475,
+        0.4875,
+        0.5,
+        0.5125,
+        0.525,
+        0.5375,
+        0.55,
+        0.5625,
+        0.575,
+        0.5875,
+        0.6,
+        0.6125,
+        0.625,
+        0.6375,
+        0.65,
+        0.6625,
+        0.675
+      ],
+      "h_mid": [
+        0.48124999999999996,
+        0.49375,
+        0.50625,
+        0.51875,
+        0.53125,
+        0.54375,
+        0.55625,
+        0.56875,
+        0.58125,
+        0.59375,
+        0.60625,
+        0.61875,
+        0.63125,
+        0.64375,
+        0.65625,
+        0.66875
+      ],
+      "contrast": [
+        1.6155375665994667,
+        1.3449249907860392,
+        1.0674563629552263,
+        0.7843634962759158,
+        0.49709990104480184,
+        0.20730098368220684,
+        -0.08327047823105449,
+        -0.3727894083428067,
+        -0.6594383150424781,
+        -0.9414755958288898,
+        -1.217296261986207,
+        -1.4854803919941255,
+        -1.7448265148250584,
+        -1.9943691715087262,
+        -2.23338171256553,
+        -2.461366698371114,
+        -2.678036981488201
+      ],
+      "response": [
+        21.64900606507418,
+        22.197490226465014,
+        22.647429334344917,
+        22.981087618489,
+        23.18391338900768,
+        23.245716953060782,
+        23.16151440894026,
+        22.93191253597379,
+        22.56298246291282,
+        22.06565329258546,
+        21.45473040063336,
+        20.7476898264747,
+        19.963412534693497,
+        19.12100328454422,
+        18.238798864446785,
+        17.333622649366852
+      ],
+      "ED_named_response": [
+        0.5003568918310282,
+        0.5293262065001065,
+        0.5560435978532017,
+        0.5797381152289129,
+        0.5997120300701052,
+        0.6153929248963153,
+        0.6263762194259059,
+        0.6324522557235768,
+        0.6336145773150481,
+        0.6300492147327685,
+        0.6221078161272608,
+        0.6102696231532323,
+        0.5950982059877873,
+        0.5771985548805172,
+        0.5571789109074008,
+        0.5356200765355339
+      ],
+      "reference": {
+        "peaks": [
+          {
+            "index": 8,
+            "coordinate": 0.58125,
+            "value": 0.6336145773150481,
+            "interval_low": 0.575,
+            "interval_high": 0.5875,
+            "endpoint": false,
+            "step": 0.012499999999999956
+          }
+        ],
+        "primary": {
+          "index": 8,
+          "coordinate": 0.58125,
+          "value": 0.6336145773150481,
+          "interval_low": 0.575,
+          "interval_high": 0.5875,
+          "endpoint": false,
+          "step": 0.012499999999999956
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "result": {
+        "peaks": [
+          {
+            "index": 5,
+            "coordinate": 0.54375,
+            "value": 23.245716953060782,
+            "interval_low": 0.5375,
+            "interval_high": 0.55,
+            "endpoint": false,
+            "step": 0.012499999999999956
+          }
+        ],
+        "primary": {
+          "index": 5,
+          "coordinate": 0.54375,
+          "value": 23.245716953060782,
+          "interval_low": 0.5375,
+          "interval_high": 0.55,
+          "endpoint": false,
+          "step": 0.012499999999999956
+        },
+        "resolvable": true,
+        "competing": [],
+        "rule": "Largest non-endpoint peak of the SAME named observable; ambiguous if another peak >=90% and separated >.075. No nearest-reference peak pairing.",
+        "smoothing": null,
+        "interpolation": null
+      },
+      "reference_resolvable": true,
+      "algorithm_estimatable": true,
+      "matched": true,
+      "position_error": -0.03750000000000009,
+      "predictions": [
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.617566348725958,
+            2.5622270666838247,
+            4.177764633283291,
+            8.144455356418831
+          ],
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.648727396328571,
+            2.700846247201262,
+            4.045771237987301,
+            8.148465939021596
+          ],
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.680762600036672,
+            2.8422478229214683,
+            3.9097041858766945,
+            8.15353377576804
+          ],
+          "accepted": true
+        },
+        {
+          "label": "antiphase-like",
+          "distances": [
+            12.713569201524098,
+            2.985812143870419,
+            3.7701756401463347,
+            8.159829760413208
+          ],
+          "accepted": true
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            12.747024744844852,
+            3.1308289607776225,
+            3.6279288618224244,
+            8.167495253516051
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            12.78098868627026,
+            3.2765173006686408,
+            3.4838182843508476,
+            8.176632357431108
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            12.815305207044746,
+            3.4220512549091398,
+            3.3387807766780853,
+            8.187296251796583
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            12.849807180773679,
+            3.5665897523374857,
+            3.193800343994679,
+            8.19949066185893
+          ],
+          "accepted": false
+        },
+        {
+          "label": "uncertain",
+          "distances": [
+            12.884321089247386,
+            3.709307772913063,
+            3.0498694578705847,
+            8.213167139803415
+          ],
+          "accepted": false
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            12.918672533703237,
+            3.849426232416115,
+            2.907950636587225,
+            8.228228294711405
+          ],
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            12.952691888538741,
+            3.9862379889117054,
+            2.7689417269254983,
+            8.244534534829652
+          ],
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            12.986219616931743,
+            4.119128028385958,
+            2.633647636391833,
+            8.261913418139919
+          ],
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            13.019110819148953,
+            4.247586732439636,
+            2.502760217614578,
+            8.280170438838761
+          ],
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            13.051238700177247,
+            4.371216028738751,
+            2.376846857230025,
+            8.299100040658283
+          ],
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            13.082496794656176,
+            4.489729006176225,
+            2.256347293610695,
+            8.318495812390198
+          ],
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            13.112799940623555,
+            4.602944130494914,
+            2.1415774321238,
+            8.338159114142847
+          ],
+          "accepted": true
+        },
+        {
+          "label": "paramagnetic-like",
+          "distances": [
+            13.142084121666946,
+            4.710775483579135,
+            2.032738502090934,
+            8.357905720382798
+          ],
+          "accepted": true
+        }
+      ],
+      "state_sources": [
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/e5aecf34244073a5eceb201621a4f6f82c794251f7eca26a07297c34a0e9d6d2.npz",
+          "sha256": "fa71f5113a465044063a2267469d38396a069752434054011e16005770f323a3"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ff38637b2fb7bcd99def5d29b8cbc3e28d1903eca96eebb9747b9a0cae604f13.npz",
+          "sha256": "c358c4e09f90be3fe874540e0c8887e858105b331933da8b2cdab070d83eda6b"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/c4b65ad007d85859c0b810566af90be2e3f55808006e90507c7467518fbe644a.npz",
+          "sha256": "ad1cbc409026edb99504090eea9516975821ba424313654dca7e6d7b8933637b"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/d7a9ef741abdb3bc1b049e2992a263b8eef5a1454c4941b050ed8ffd0592a8dc.npz",
+          "sha256": "408e9cd762a881f1cd14a610739c8d5846800b9ddbb2acb69ca43cd67a155691"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/5930035c02e58142d317c0d649f2157d771cb743e89a239bd9ec0d3d1772531d.npz",
+          "sha256": "b4158e82038cccfa1128cc8a021b0ec9e61de24c60fb23ff4a994dfcb73c7f78"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/bfd6828a7edc04ebc55f25a1f44ac3421217ccab1afe41a2dd82f55918e7f259.npz",
+          "sha256": "e319d8cbd35b2241ff753197e69cff700b5dd3d69e8fb8e0d31aeb836e2dd6c3"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/6d4535f03034333bb199bd56227e65a4a663f3aec38636b5da9aa2d5b6441dca.npz",
+          "sha256": "10ce901f86a81af09f8634b1bac44400f865f9ba07a77cdd4ce6da9e4b44b02f"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/85ea1cf49f915f048efa252d7d8ba1be82712d831499ed31eb5388e345d7c309.npz",
+          "sha256": "f9ad82636300facae75ddfc0a93bf586c7d9d770812284fdda1912322bc6ca2e"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/3a3997cb2b00ed271d28fac61208b9d53e8e3dd35d00f09b68195e0f73fa02bb.npz",
+          "sha256": "1362693f39f025f52158f986e7da9e36a568bcb1e913b71682c8fb06e5407ce4"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/68a981fa19d378d18fb07169e6283cb01f589ce809cbf44ef465480b9a61910d.npz",
+          "sha256": "ca54e57a112bc19f9ece1704d5274350011691ada760ada167a4d532b6320ec5"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/8a3133ee36812fd00a6cc504c5c5e851149087e6d26dc2655b7d521729a24da2.npz",
+          "sha256": "21be52acc2c5aa9da8223178cc6b5403dfc1c62a54004e82d606984a26469be2"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/644688c6e1809b6e52697df33d40a137ab8cafa03c18b66df5ffb5ad0690f7f1.npz",
+          "sha256": "748cab7229a123e3904719d68fdced9550e66f108390bf8dd45beedc5a218fb3"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/6a9cd7d8797f7dfbd447d1755cfa180174a33f74f22d3e54fa26bf81e70bba87.npz",
+          "sha256": "c4e5cf713854923f88762ca719770d5202d26476a667dfac54089798b68a8366"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/632988f014021bdc69674e6460847f57acffed3f306a76cb1c0bbda550edde0e.npz",
+          "sha256": "8d7f106ec406996e62f4683892ba4eb2d811301497af2322b183ac8e2070108e"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/ad8f21cf5ac445dac83094335af4bb43b120d2df2cf6d02822885e19ffd12089.npz",
+          "sha256": "8a6311fa03e9468278dd69498f3fa3678a44313204d1b25b97a8f86820772267"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/b9e4ea68af92683dd45c891a1e69a6472da5dec343b2ede211b651431aad0430.npz",
+          "sha256": "00633d298a73cc1ce07b1a73960f91038764818ea888124628fd35f633f1be9b"
+        },
+        {
+          "archive": "results/stage6_v1/reference_atlas/cache/711fb8eac38c09c9a83c8aa6f8a9c53c495e1a658e4c477fb997e73915e8b261.npz",
+          "sha256": "56b38e81cb9dd838bf58d07c25bbd2e4f539812783f8e0685333e632cce35d0e"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "detector": "D4",
+      "requested_physical_slices": 6,
+      "reference_resolvable_physical_slices": 5,
+      "matched_slices": 5,
+      "matched_kappa": [
+        0.0,
+        0.3,
+        0.45,
+        0.55,
+        0.8
+      ],
+      "failed_resolvable_kappa": [],
+      "worst_matched_error": 0.03750000000000009
+    },
+    {
+      "detector": "D5",
+      "requested_physical_slices": 6,
+      "reference_resolvable_physical_slices": 5,
+      "matched_slices": 4,
+      "matched_kappa": [
+        0.3,
+        0.45,
+        0.55,
+        0.8
+      ],
+      "failed_resolvable_kappa": [
+        0.0
+      ],
+      "worst_matched_error": 0.03750000000000009
+    }
+  ],
+  "source": "results/stage6_v1/reference_atlas/window_reference.json",
+  "source_sha256": "b0d17f5e03aeb133b51d591c077f53d7949cf1dd8fa42584e8c33c77478f864e",
+  "frozen_detector_sha256": "ef35606ff012fe40e4534a659d69a2d2fd328cd53c375dcce186bcc4e48d2c15",
+  "scope": "Offline ideal-information layer: frozen detector contrast on exact same-N ED features compared against the independently named ED physical-observable response, not detector-on-ED self-truth. The physical interpretation of the RN target still needs separate atlas evidence. Full six requested windows retained, no shots, no physical state-preparation circuit. Largest interior same-window contrast peak, frozen .05 matching tolerance; all raw responses and endpoint/competing peaks retained. No detector retraining or altered thresholds."
+}

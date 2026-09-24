@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-09-22T23:50:43.224445+00:00",
+  "status": "declared_before_confirmation_and_noise_results",
+  "rule": "D4/D5 contrast = distance to paramagnetic prototype minus distance to FM prototype for kappa<.5 or AP prototype for kappa>=.5. Primary positive -dcontrast/dh peak; no nearest-reference selection. Fixed .05 position tolerance to SAME predefined RN order-response target m0/AP, retain all peaks/endpoints.",
+  "reference": "Independent same-N ED order response, supported physical interpretation assessed separately with Mx/Binder/spectrum/sizes. Detector-on-ED labels never used as truth.",
+  "source": "39af2b9ceb8be2da7fbf1d8c621f75f5a2e31ab8363bc43e9bf8542f04ccdfd9",
+  "D5_SV": "Unmeasured high-order wall histogram, explicit missing result. No free full-state projection.",
+  "training": "Only independently labelled clean development reference plus validation; no p/coordinate inputs at prediction.",
+  "shots": "Exact and32x100k full-window runs, shared stored counts. No hidden voting."
+}

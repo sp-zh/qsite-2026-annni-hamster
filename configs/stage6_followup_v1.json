@@ -1,0 +1,108 @@
+{
+  "run_id": "stage6_followup_20260924T003006Z",
+  "started_utc": "2026-09-24T00:30:06.054566+00:00",
+  "deadline": "2026-09-24T04:30:06.054566+00:00",
+  "stage": "post_Stage6_directed_followup_not_original_preregistration",
+  "n": 8,
+  "p": [
+    0,
+    0.01,
+    0.05
+  ],
+  "shots": [
+    10000,
+    100000
+  ],
+  "repeats": 32,
+  "seed": 9230626,
+  "equal_gate_base_budgets": [
+    100000,
+    300000
+  ],
+  "representatives": [
+    {
+      "kappa": 0.45,
+      "h": 0.15,
+      "region": "difficult",
+      "historical": false
+    },
+    {
+      "kappa": 0.5,
+      "h": 0.15,
+      "region": "difficult",
+      "historical": false
+    },
+    {
+      "kappa": 0.55,
+      "h": 0.15,
+      "region": "difficult",
+      "historical": false
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.6,
+      "region": "difficult",
+      "historical": true
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.8,
+      "region": "difficult",
+      "historical": true
+    },
+    {
+      "kappa": 0.425,
+      "h": 0.02,
+      "region": "difficult",
+      "historical": false
+    },
+    {
+      "kappa": 0.0,
+      "h": 0.2,
+      "region": "interior_control",
+      "historical": true
+    },
+    {
+      "kappa": 0.1,
+      "h": 0.2,
+      "region": "interior_control",
+      "historical": true
+    },
+    {
+      "kappa": 0.3,
+      "h": 0.1,
+      "region": "interior_control",
+      "historical": true
+    },
+    {
+      "kappa": 0.4,
+      "h": 1.8,
+      "region": "interior_control",
+      "historical": true
+    },
+    {
+      "kappa": 0.8,
+      "h": 0.1,
+      "region": "interior_control"
+    },
+    {
+      "kappa": 0.9,
+      "h": 1.8,
+      "region": "interior_control",
+      "historical": true
+    }
+  ],
+  "equal_gate_windows": [
+    0.0,
+    0.8
+  ],
+  "selection_rule": "Benchmark indices0..5 plus24,26,28,30,32,34; first and last registered resolvable windows. Frozen before followup sampling, not chosen by mitigation outcome. Before B sampling: replace benchmark32(.7,1.5), which has no independent interior label, with benchmark33(.8,.1) to include the declared antiphase interior. No equal-resource outcomes existed.",
+  "allocation": "Original equal-scale/equal-setting largest-remainder allocation; maximal ZNE totalshots not exceeding target equivalent CNOT budget; raw/SV totalshots exactly equal sum(fold*ZNE scale shots).",
+  "curve_audit": "Secondary post-Stage6 interpretation, not replacement peak classifier; endpoint maximum, frozen competing peaks, response peak amplitude<10%ED, preparation failure and unverified structure switch are separate flags.",
+  "resources": {
+    "heavy_workers": 1,
+    "blas_threads": 1,
+    "memory_budget_gib": 6
+  },
+  "original_plan_sha": "c3b247d9b8f29846b2a6cbc3d5e9a0e569f8c9dfed059c6c3f3c7da060303b07"
+}

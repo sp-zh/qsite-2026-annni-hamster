@@ -1,0 +1,19 @@
+{
+  "registered_utc": "2026-09-23T05:17:03.342526+00:00",
+  "reason": "One bounded continuation of the actual h=.425 N128 chi256 antiphase chain that remains stopping-limited. No threshold change, no new independent-initial claim. Preserve all previous failed/stopped records. No chi512 restart.",
+  "arguments": {
+    "n": 128,
+    "k": 0.8,
+    "h": 0.425,
+    "chi": 256,
+    "initial": "antiphase",
+    "sweeps": 24,
+    "max_seconds": 600,
+    "resume": "results/stage6_v1/floating_boundary_scan/cache/301a46f65f906567438c4d5257abf651dcddc4cc99c1eda2f651491a1f529c78.pkl"
+  },
+  "resume_sha": "5129b5d5f0df7c2aa8f102ea8c78eee79f1cd521fac94cef97731011d7704911",
+  "worker_sha": "9fa39216ae7448866aadd17b2e5e5e63689b202c27ff3c9f2f3aeec7951726d7",
+  "hard_timeout_seconds": 780,
+  "execution_condition": "Only after the N8 main lane and confirmation noise release its numerical slot, with at least3600seconds remaining. Original deadline unchanged; no third primary numerical worker.",
+  "reference_policy": "New MPS evidence v3 and atlas v5 only; original v1/v2 and atlas v4 retained. No candidate/detector retraining or confirmation relabelling."
+}

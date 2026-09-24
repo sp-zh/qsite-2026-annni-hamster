@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-23T00:16:04.101512+00:00",
+  "scope": "Declared before any new main noise results",
+  "max_windows": 1,
+  "kappa_options": [
+    0.45,
+    0.55,
+    0.8
+  ],
+  "trigger": "Exact curve matches predefined RNorder feature; measured100k match fraction<.5; derivative sampling MSE>derivative systematic bias MSE. Select largest ratio, not closest successful peak.",
+  "execution": "Both B3 and H6 at all3p, full same window,32x1M totalshots per point/estimator; no additional shots if trigger absent.",
+  "code": "f340bb3f44fc156fd85606031f4f9dbcbf77c8730b2cf18685838722e0cf9639"
+}

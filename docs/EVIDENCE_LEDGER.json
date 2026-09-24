@@ -1,0 +1,50 @@
+[
+  {
+    "id": "C1",
+    "claim": "B0 to B3 gate/correlation tradeoff",
+    "cohort": "420 descriptive N8 coordinates",
+    "numerical": "results/stage4_upgrade_v1/matched_grid.csv",
+    "figure": "figures/resource_tradeoff.png",
+    "limit": "Lower noisy correlation error sacrifices ideal coverage; not phase accuracy"
+  },
+  {
+    "id": "C2",
+    "claim": "Equal-CNOT-shots ZNE MSE reductions",
+    "cohort": "45 coordinates x3p x32 repeats",
+    "numerical": "results/stage6_followup_v1/B_index.json + active saved counts",
+    "figure": "figures/equal_resource.png",
+    "limit": "Only6 independent labels;17 correlated components; G not total cost"
+  },
+  {
+    "id": "C3",
+    "claim": "Observable gains do not guarantee feature recovery",
+    "cohort": "6 windows x17 points x3p x32 repeats",
+    "numerical": "results/stage6_followup_v1/window_completion/curves.json + matches.json",
+    "figure": "figures/six_windows.png",
+    "limit": "5 reference-resolvable; endpoint/branch/preparation flags retained"
+  },
+  {
+    "id": "C4",
+    "claim": "Low-field H6 candidate improvement at extra cost",
+    "cohort": "48 of96 new confirmation coordinates",
+    "numerical": "results/stage6_v1/confirmation/confirmation_all_selected.csv",
+    "figure": "figures/extensions.png",
+    "limit": "Not equal-cost; N12 negative transfer retained"
+  },
+  {
+    "id": "C5",
+    "claim": "Floating interval not established",
+    "cohort": "kappa=.8 OBC multi-size slice",
+    "numerical": "results/stage6_v1/floating_boundary_scan/interval_evidence_v4.json + evidence_map_v4.json",
+    "figure": "figures/floating_evidence.png",
+    "limit": "Candidate .4/.425; no independent transition brackets"
+  },
+  {
+    "id": "C6",
+    "claim": "Executed Trotter/noise dynamics extension",
+    "cohort": "archived product-state quenches",
+    "numerical": "results/stage4_upgrade_v1/dynamics/*.npz",
+    "figure": "figures/dynamics.png",
+    "limit": "Not ground-state classification"
+  }
+]

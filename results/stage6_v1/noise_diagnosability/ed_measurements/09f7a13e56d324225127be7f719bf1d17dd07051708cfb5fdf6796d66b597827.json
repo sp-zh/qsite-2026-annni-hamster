@@ -1,0 +1,33 @@
+{
+  "key": {
+    "reference": "1bbc4fa9974cea372596492f2f1ac0439e919dfdd16a9e59e2fcca3dfc7ff7ef",
+    "n": 8,
+    "kappa": 0.763,
+    "h": 0.235,
+    "budgets": [
+      10000,
+      100000
+    ],
+    "repeats": 32,
+    "seed": 9719,
+    "code": "3153974621eb0ac0caf9a00aab2d2aca6d86b9db121e70fadc711d1bb2e1649f"
+  },
+  "archive": "results/stage6_v1/noise_diagnosability/ed_measurements/09f7a13e56d324225127be7f719bf1d17dd07051708cfb5fdf6796d66b597827.npz",
+  "sha256": "49045290933a436f4f3b456afae81ffe9b839146837c81aa640b80ee488640c0",
+  "cost": {
+    "10000": {
+      "shots_per_repeat": 10000,
+      "repeats": 32,
+      "physical_preparation_cost": null,
+      "scope": "ED classical ideal-information reference"
+    },
+    "100000": {
+      "shots_per_repeat": 100000,
+      "repeats": 32,
+      "physical_preparation_cost": null,
+      "scope": "ED classical ideal-information reference"
+    }
+  },
+  "reference": "results/stage6_v1/reference_atlas/cache/7231bc0ac4ab06c40c2a05316b7295cc8cdab937d2dc25d3968135eb450be0b2.npz",
+  "disposition": "newly_executed_ideal_information_sampling"
+}

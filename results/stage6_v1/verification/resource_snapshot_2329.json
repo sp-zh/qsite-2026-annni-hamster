@@ -1,0 +1,22 @@
+{
+  "time": "2026-09-22T23:29:14.553825+00:00",
+  "elapsed_seconds": 4244.080765,
+  "counts": {
+    "reference_atlas/cache": 1105,
+    "domain_wall_candidates/cache": 409,
+    "floating_boundary_scan/cache": 48,
+    "end_to_end/measurements": 9,
+    "legacy_b3/adaptive/cache": 1
+  },
+  "active": [
+    "N8 development four-arm36point campaign",
+    "bounded MPS four-size/bond/initial configurations"
+  ],
+  "waiting": [
+    "B-opt andvalidationqueue",
+    "confirmationqueue",
+    "N8noise/mainmapqueue"
+  ],
+  "deadline": "2026-09-23T10:18:30.473067+00:00",
+  "notes": "Counts are archived files, not independent coordinates. MPS progress JSONs included in cache count; authoritative completed counts are run indices."
+}
