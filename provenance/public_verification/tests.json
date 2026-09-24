@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "count": 25,
+  "command": "python -m pytest -q tests/test_release.py tests/test_physics.py tests/test_stage6_followup.py",
+  "environment": "Locked Python 3.14.5 scientific environment",
+  "source": "Fresh public clone; historical workspace reads forbidden",
+  "scope": "Required lightweight release / physics / followup regressions"
+}

@@ -1,6 +1,6 @@
 # Remaining private submission actions
 
-1. Paste the verified public repository URL into the authenticated Q-SITE submission form.
+1. Paste https://github.com/sp-zh/qsite-2026-annni-hamster into the authenticated Q-SITE submission form.
 2. Enter the team code privately if requested; it is intentionally absent from this repository.
 3. Confirm the displayed deadline, timezone and Draft/Final submission status.
 4. Confirm the presentation delivery mechanism and any mandatory form questions.

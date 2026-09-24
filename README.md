@@ -69,6 +69,8 @@ Historical result paths are preserved to keep coordinate/parameter/gate referenc
 - `annni/`, `configs/`, `research_scripts/`, `tests/`: actual algorithms, settings and checks.
 - `provenance/`: source/path maps, scientific hashes, optional asset manifest.
 
+Optional large tensors and deep indices are available as [17 verified Release assets](https://github.com/sp-zh/qsite-2026-annni-hamster/releases/tag/v1.0.0). The release asset tag preserves the initial publication snapshot; the current complete submission is the `main` branch.
+
 See [full archive note](docs/FULL_ARCHIVE_NOTE.md) for optional tensor/large-index assets and exact exclusions. Wide scientific directories are retained where moving files would break archived index/hash references. No environment, old packaging ZIP or credential is included.
 
 ## Attribution

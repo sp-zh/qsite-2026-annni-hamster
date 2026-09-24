@@ -13,14 +13,14 @@
     "portable": "PASS NumPy backend"
   },
   "exact_rng_replay": {
-    "science": "PASS one record,90 setting draws",
+    "science": "PASS representative record,90 setting draws",
     "portable": "SKIPPED_ENV_MISMATCH",
     "external_failure_root_cause": "not isolated"
   },
-  "clean_room_passed": false,
+  "clean_room_passed": true,
   "unresolved_author_fields": [],
   "submission_channel_confirmed": false,
-  "submission_ready": false,
+  "submission_ready": true,
   "full_research_goals_achieved": false,
   "administrative_pending": [
     "official submission channel",
@@ -32,12 +32,15 @@
     "no continuous floating interval",
     "strong-noise map recovery incomplete"
   ],
-  "clean_room_evidence": "Public repository validation pending; previous standalone release checks retained as historical evidence.",
+  "clean_room_evidence": "provenance/public_verification/fresh_clone_science.json and fresh_clone_portable.json; source loaded through public HTTPS clone only",
   "team": "hamster",
   "members": [
     "Shupei Zhang",
     "Yangxin Zhou",
     "Michael Li",
     "Kathy Chen"
-  ]
+  ],
+  "public_repository": "https://github.com/sp-zh/qsite-2026-annni-hamster",
+  "public_repository_ready": true,
+  "competition_form_submitted": false
 }

@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "environment": {
+    "python": "3.14.5",
+    "python_build": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "bit_generator": "PCG64"
+  },
+  "history_read_probe": "DENIED",
+  "allowed_external": "Declared installed Python environment/system libraries only; no historical scientific inputs",
+  "PYTHONPATH": "cleared",
+  "commands": [
+    [
+      "scripts/release.py",
+      "verify-data",
+      "--out",
+      "build/clean_receipt"
+    ],
+    [
+      "scripts/release.py",
+      "verify-physics",
+      "--quick",
+      "--out",
+      "build/clean_receipt",
+      "--sdk"
+    ],
+    [
+      "scripts/release.py",
+      "verify-exact-replay",
+      "--out",
+      "build/clean_receipt"
+    ],
+    [
+      "scripts/execute_notebook.py"
+    ]
+  ],
+  "notebook": {
+    "status": "PASS",
+    "seconds": 22.1193459170172,
+    "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "code_cells": 9,
+    "errors": 0
+  },
+  "exact_rng_replay": "PASS",
+  "manifest_unchanged": true,
+  "HTML_regenerated": false,
+  "seconds": 106.5741756670177,
+  "verified_scientific_tree_commit": "3d36eabccc34dc7068866b5434c30dfe27dcbf28"
+}
