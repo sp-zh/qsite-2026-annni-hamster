@@ -1,0 +1,819 @@
+{
+  "key": {
+    "probability_keys": [
+      {
+        "n": 8,
+        "kappa": 0.597,
+        "h": 0.018,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ],
+          [
+            "RX",
+            5,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RZ",
+            5,
+            -0.015079375464159796
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RX",
+            5,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            2,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "RZ",
+            4,
+            -0.015074234994959454
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "RX",
+            2,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            7,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            1,
+            7
+          ],
+          [
+            "RZ",
+            7,
+            -0.015078518735454044
+          ],
+          [
+            "CNOT",
+            1,
+            7
+          ],
+          [
+            "RX",
+            7,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            3,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "RZ",
+            3,
+            -0.01507851873545404
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "RX",
+            3,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            6,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            0,
+            6
+          ],
+          [
+            "RZ",
+            6,
+            -0.01507426345714264
+          ],
+          [
+            "CNOT",
+            0,
+            6
+          ],
+          [
+            "RX",
+            6,
+            -1.5707963267948966
+          ]
+        ],
+        "p": 0.05,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      }
+    ],
+    "method": "raw",
+    "budgets": [
+      10000,
+      100000
+    ],
+    "repeats": 32,
+    "master_seed": 62026,
+    "estimator_code": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+    "code": "01cce0e06ae66a96035f668c3e75510471836e8979a44fac523f0358d6b86fc7"
+  },
+  "n": 8,
+  "kappa": 0.597,
+  "h": 0.018,
+  "p": 0.05,
+  "method": "raw",
+  "archive": "results/stage6_v1/end_to_end/measurements/3a34446131a3503dfa6d4457b1e260a11af1fe39fa68377f89a03df0aa7e36c6.npz",
+  "sha256": "7c9739623f89c4b5ebcab50abffe3eabf8f3985bafc97f8af08fafb72d209d55",
+  "probability_records": [
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.597,
+        "h": 0.018,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ],
+          [
+            "RX",
+            5,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RZ",
+            5,
+            -0.015079375464159796
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RX",
+            5,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            2,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "RZ",
+            4,
+            -0.015074234994959454
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "RX",
+            2,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            7,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            1,
+            7
+          ],
+          [
+            "RZ",
+            7,
+            -0.015078518735454044
+          ],
+          [
+            "CNOT",
+            1,
+            7
+          ],
+          [
+            "RX",
+            7,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            3,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "RZ",
+            3,
+            -0.01507851873545404
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "RX",
+            3,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            6,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            0,
+            6
+          ],
+          [
+            "RZ",
+            6,
+            -0.01507426345714264
+          ],
+          [
+            "CNOT",
+            0,
+            6
+          ],
+          [
+            "RX",
+            6,
+            -1.5707963267948966
+          ]
+        ],
+        "p": 0.05,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": false,
+        "keep": false,
+        "shots": null
+      },
+      "n": 8,
+      "kappa": 0.597,
+      "h": 0.018,
+      "p": 0.05,
+      "fold": 1,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "archive": "results/stage6_v1/end_to_end/probabilities/b229da12f149b7a74a95de04f91f6188a315478ba2b038cd228373fdfcbd3368.npz",
+      "sha256": "a894f9757ae165db4068872be7dc6b481b9333d621de2edb657d9929f7f0ef39",
+      "observables": [
+        0.9999999999999988,
+        4.336808689942018e-19,
+        -0.7546957380572571,
+        1.6263032587282567e-19,
+        0.7216366192590324,
+        1.6263032587282567e-19,
+        -0.7546957380572571,
+        4.336808689942018e-19,
+        0.026530642893064643,
+        0.03479542259262079,
+        0.4038785119216932,
+        0.03479542259262079,
+        0.026530642893064643,
+        0.03479542259262079,
+        0.4038785119216932,
+        0.03479542259262079,
+        0.00737580304201582
+      ],
+      "seconds": 0.059329833020456135,
+      "trace_real": 0.9999999999999989,
+      "hermiticity": 2.0261858192197526e-17,
+      "min_eigenvalue": 4.32241803884951e-06,
+      "noise_channels": 16,
+      "process_peak_rss_bytes": 370655232,
+      "cnots": 16,
+      "gate_count": 39,
+      "unitary_depth": 15,
+      "target_counts": [
+        0,
+        0,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "disposition": "newly_executed"
+    }
+  ],
+  "sampling": {
+    "10000": [
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          5000,
+          5000
+        ]
+      }
+    ],
+    "100000": [
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX"
+        ],
+        "allocations": [
+          50000,
+          50000
+        ]
+      }
+    ]
+  },
+  "cost": {
+    "10000": {
+      "shots_per_rep": 10000,
+      "all_reps_shots": 320000,
+      "gate_shots_per_rep": 160000,
+      "settings": 2,
+      "basis_single_qubit_gate_shots_per_rep": 40000
+    },
+    "100000": {
+      "shots_per_rep": 100000,
+      "all_reps_shots": 3200000,
+      "gate_shots_per_rep": 1600000,
+      "settings": 2,
+      "basis_single_qubit_gate_shots_per_rep": 400000
+    }
+  },
+  "quality": {
+    "10000": {
+      "denominators": [
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ]
+      ],
+      "nonfinite": 0,
+      "outside_range": 0,
+      "negative_structure_factor": 0,
+      "physical_comparison_tolerance": 1e-09
+    },
+    "100000": {
+      "denominators": [
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ],
+        [
+          1.0
+        ]
+      ],
+      "nonfinite": 0,
+      "outside_range": 0,
+      "negative_structure_factor": 0,
+      "physical_comparison_tolerance": 1e-09
+    }
+  },
+  "seconds": 0.01876900001661852,
+  "disposition": "newly_executed",
+  "noise_scope": "Every CNOT including references/decoding/folding target-depolarized",
+  "randomization": "Shared per-coordinate/budget/repeat/fold/basis SeedSequence initialization across preparations and p; arm/p/estimator omitted. Multinomial algorithm draw consumption can differ with probabilities and allocations: this is common seeded streams, not identical categorical events. All detectors and linear/quadratic ZNE use the same archived counts.",
+  "stream_spec": {
+    "master_seed": 62026,
+    "fields": [
+      "n",
+      "kappa_exact",
+      "h_exact",
+      "budget",
+      "repeat",
+      "fold",
+      "basis"
+    ],
+    "omitted": [
+      "method",
+      "p",
+      "gates",
+      "estimator"
+    ]
+  },
+  "unclipped": true
+}

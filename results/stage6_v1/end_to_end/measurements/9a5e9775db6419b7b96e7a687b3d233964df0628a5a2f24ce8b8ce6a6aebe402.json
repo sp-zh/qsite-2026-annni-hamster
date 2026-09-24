@@ -1,0 +1,859 @@
+{
+  "key": {
+    "probability_keys": [
+      {
+        "n": 8,
+        "kappa": 0.425,
+        "h": 0.02,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ],
+          [
+            "RX",
+            0,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "RZ",
+            2,
+            0.01738858009674407
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "RX",
+            0,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            4,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "RZ",
+            5,
+            0.017390866552099128
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "RX",
+            4,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            5,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RZ",
+            5,
+            0.017391837750668857
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RX",
+            5,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            2,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "RZ",
+            3,
+            0.017387608534941933
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "RX",
+            2,
+            -1.5707963267948966
+          ]
+        ],
+        "p": 0.01,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": true,
+        "keep": false,
+        "shots": null
+      }
+    ],
+    "method": "sv",
+    "budgets": [
+      10000,
+      100000
+    ],
+    "repeats": 32,
+    "master_seed": 62026,
+    "estimator_code": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+    "code": "01cce0e06ae66a96035f668c3e75510471836e8979a44fac523f0358d6b86fc7"
+  },
+  "n": 8,
+  "kappa": 0.425,
+  "h": 0.02,
+  "p": 0.01,
+  "method": "sv",
+  "archive": "results/stage6_v1/end_to_end/measurements/9a5e9775db6419b7b96e7a687b3d233964df0628a5a2f24ce8b8ce6a6aebe402.npz",
+  "sha256": "6f67b53997fcc4cdac9ef4079dd2147d0f527a360b13640f45c3bd93c09a53a7",
+  "probability_records": [
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.425,
+        "h": 0.02,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ],
+          [
+            "RX",
+            0,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "RZ",
+            2,
+            0.01738858009674407
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "RX",
+            0,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            4,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "RZ",
+            5,
+            0.017390866552099128
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "RX",
+            4,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            5,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RZ",
+            5,
+            0.017391837750668857
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RX",
+            5,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            2,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "RZ",
+            3,
+            0.017387608534941933
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "RX",
+            2,
+            -1.5707963267948966
+          ]
+        ],
+        "p": 0.01,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": true,
+        "keep": false,
+        "shots": null
+      },
+      "n": 8,
+      "kappa": 0.425,
+      "h": 0.02,
+      "p": 0.01,
+      "fold": 1,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX",
+        "YYXXXXXX",
+        "YXYXXXXX",
+        "YXXYXXXX",
+        "YXXXYXXX",
+        "YXXXXYXX",
+        "YXXXXXYX",
+        "YXXXXXXY",
+        "XYYXXXXX",
+        "XYXYXXXX",
+        "XYXXYXXX",
+        "XYXXXYXX",
+        "XYXXXXYX",
+        "XYXXXXXY",
+        "XXYYXXXX",
+        "XXYXYXXX",
+        "XXYXXYXX",
+        "XXYXXXYX",
+        "XXYXXXXY",
+        "XXXYYXXX",
+        "XXXYXYXX",
+        "XXXYXXYX",
+        "XXXYXXXY",
+        "XXXXYYXX",
+        "XXXXYXYX",
+        "XXXXYXXY",
+        "XXXXXYYX",
+        "XXXXXYXY",
+        "XXXXXXYY"
+      ],
+      "archive": "results/stage6_v1/end_to_end/probabilities/466ca60fd479477abf44f4f28450588fb0e072b3d7bd766d94b92688f49fd099.npz",
+      "sha256": "3879d3f131db5774b89414efb9e35f235ab239fd91b703cdb58adf0c5c0a9d94",
+      "observables": [
+        0.9999999999999996,
+        0.9447417134364163,
+        0.9273225514470644,
+        0.9167637532400963,
+        0.9132964352551678,
+        0.9167637532400963,
+        0.9273225514470644,
+        0.9447417134364163,
+        0.9363690589377902,
+        0.015783796937750273,
+        0.00733141654512981,
+        0.005892094248457667,
+        0.005616325599533845,
+        0.005892094248457667,
+        0.00733141654512981,
+        0.015783796937750273,
+        0.00826923020737683
+      ],
+      "seconds": 0.09366495901485905,
+      "trace_real": 0.9999999999999994,
+      "hermiticity": 5.3734132160165515e-17,
+      "min_eigenvalue": 2.2307430486629476e-09,
+      "noise_channels": 15,
+      "process_peak_rss_bytes": 372097024,
+      "cnots": 15,
+      "gate_count": 28,
+      "unitary_depth": 18,
+      "target_counts": [
+        0,
+        1,
+        3,
+        3,
+        1,
+        5,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "disposition": "newly_executed"
+    }
+  ],
+  "sampling": {
+    "10000": [
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX",
+          "YYXXXXXX",
+          "YXYXXXXX",
+          "YXXYXXXX",
+          "YXXXYXXX",
+          "YXXXXYXX",
+          "YXXXXXYX",
+          "YXXXXXXY",
+          "XYYXXXXX",
+          "XYXYXXXX",
+          "XYXXYXXX",
+          "XYXXXYXX",
+          "XYXXXXYX",
+          "XYXXXXXY",
+          "XXYYXXXX",
+          "XXYXYXXX",
+          "XXYXXYXX",
+          "XXYXXXYX",
+          "XXYXXXXY",
+          "XXXYYXXX",
+          "XXXYXYXX",
+          "XXXYXXYX",
+          "XXXYXXXY",
+          "XXXXYYXX",
+          "XXXXYXYX",
+          "XXXXYXXY",
+          "XXXXXYYX",
+          "XXXXXYXY",
+          "XXXXXXYY"
+        ],
+        "allocations": [
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333
+        ]
+      }
+    ],
+    "100000": [
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX",
+          "YYXXXXXX",
+          "YXYXXXXX",
+          "YXXYXXXX",
+          "YXXXYXXX",
+          "YXXXXYXX",
+          "YXXXXXYX",
+          "YXXXXXXY",
+          "XYYXXXXX",
+          "XYXYXXXX",
+          "XYXXYXXX",
+          "XYXXXYXX",
+          "XYXXXXYX",
+          "XYXXXXXY",
+          "XXYYXXXX",
+          "XXYXYXXX",
+          "XXYXXYXX",
+          "XXYXXXYX",
+          "XXYXXXXY",
+          "XXXYYXXX",
+          "XXXYXYXX",
+          "XXXYXXYX",
+          "XXXYXXXY",
+          "XXXXYYXX",
+          "XXXXYXYX",
+          "XXXXYXXY",
+          "XXXXXYYX",
+          "XXXXXYXY",
+          "XXXXXXYY"
+        ],
+        "allocations": [
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333
+        ]
+      }
+    ]
+  },
+  "cost": {
+    "10000": {
+      "shots_per_rep": 10000,
+      "all_reps_shots": 320000,
+      "gate_shots_per_rep": 150000,
+      "settings": 30,
+      "basis_single_qubit_gate_shots_per_rep": 77328
+    },
+    "100000": {
+      "shots_per_rep": 100000,
+      "all_reps_shots": 3200000,
+      "gate_shots_per_rep": 1500000,
+      "settings": 30,
+      "basis_single_qubit_gate_shots_per_rep": 773328
+    }
+  },
+  "quality": {
+    "10000": {
+      "denominators": [
+        [
+          1.8682634730538923
+        ],
+        [
+          1.8502994011976048
+        ],
+        [
+          1.8982035928143712
+        ],
+        [
+          1.8502994011976048
+        ],
+        [
+          1.8682634730538923
+        ],
+        [
+          1.8802395209580838
+        ],
+        [
+          1.844311377245509
+        ],
+        [
+          1.8203592814371259
+        ],
+        [
+          1.8622754491017963
+        ],
+        [
+          1.8383233532934131
+        ],
+        [
+          1.8922155688622755
+        ],
+        [
+          1.8802395209580838
+        ],
+        [
+          1.8682634730538923
+        ],
+        [
+          1.8802395209580838
+        ],
+        [
+          1.8922155688622757
+        ],
+        [
+          1.8862275449101797
+        ],
+        [
+          1.910179640718563
+        ],
+        [
+          1.8383233532934133
+        ],
+        [
+          1.8682634730538923
+        ],
+        [
+          1.910179640718563
+        ],
+        [
+          1.8922155688622757
+        ],
+        [
+          1.8802395209580838
+        ],
+        [
+          1.8562874251497006
+        ],
+        [
+          1.8562874251497008
+        ],
+        [
+          1.8862275449101795
+        ],
+        [
+          1.9161676646706587
+        ],
+        [
+          1.874251497005988
+        ],
+        [
+          1.874251497005988
+        ],
+        [
+          1.8802395209580838
+        ],
+        [
+          1.8802395209580838
+        ],
+        [
+          1.8982035928143712
+        ],
+        [
+          1.8622754491017965
+        ]
+      ],
+      "nonfinite": 0,
+      "outside_range": 0,
+      "negative_structure_factor": 0,
+      "physical_comparison_tolerance": 1e-09
+    },
+    "100000": {
+      "denominators": [
+        [
+          1.8560287942411517
+        ],
+        [
+          1.856628674265147
+        ],
+        [
+          1.8590281943611278
+        ],
+        [
+          1.8692261547690463
+        ],
+        [
+          1.853029394121176
+        ],
+        [
+          1.8488302339532094
+        ],
+        [
+          1.874625074985003
+        ],
+        [
+          1.8662267546490703
+        ],
+        [
+          1.8650269946010798
+        ],
+        [
+          1.8542291541691664
+        ],
+        [
+          1.865626874625075
+        ],
+        [
+          1.8614277144571085
+        ],
+        [
+          1.8434313137372527
+        ],
+        [
+          1.86502699460108
+        ],
+        [
+          1.8740251949610078
+        ],
+        [
+          1.8692261547690463
+        ],
+        [
+          1.8614277144571088
+        ],
+        [
+          1.869226154769046
+        ],
+        [
+          1.8608278344331135
+        ],
+        [
+          1.880623875224955
+        ],
+        [
+          1.8584283143371325
+        ],
+        [
+          1.8560287942411517
+        ],
+        [
+          1.8788242351529696
+        ],
+        [
+          1.8512297540491902
+        ],
+        [
+          1.8752249550089983
+        ],
+        [
+          1.8584283143371327
+        ],
+        [
+          1.859628074385123
+        ],
+        [
+          1.8638272345530895
+        ],
+        [
+          1.8530293941211757
+        ],
+        [
+          1.8512297540491902
+        ],
+        [
+          1.8680263947210558
+        ],
+        [
+          1.859028194361128
+        ]
+      ],
+      "nonfinite": 0,
+      "outside_range": 0,
+      "negative_structure_factor": 0,
+      "physical_comparison_tolerance": 1e-09
+    }
+  },
+  "seconds": 0.1751589590567164,
+  "disposition": "newly_executed",
+  "noise_scope": "Every CNOT including references/decoding/folding target-depolarized",
+  "randomization": "Shared per-coordinate/budget/repeat/fold/basis SeedSequence initialization across preparations and p; arm/p/estimator omitted. Multinomial algorithm draw consumption can differ with probabilities and allocations: this is common seeded streams, not identical categorical events. All detectors and linear/quadratic ZNE use the same archived counts.",
+  "stream_spec": {
+    "master_seed": 62026,
+    "fields": [
+      "n",
+      "kappa_exact",
+      "h_exact",
+      "budget",
+      "repeat",
+      "fold",
+      "basis"
+    ],
+    "omitted": [
+      "method",
+      "p",
+      "gates",
+      "estimator"
+    ]
+  },
+  "unclipped": true
+}

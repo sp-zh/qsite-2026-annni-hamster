@@ -1,0 +1,627 @@
+{
+  "key": {
+    "probability_keys": [
+      {
+        "n": 8,
+        "kappa": 0.443,
+        "h": 0.013,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ]
+        ],
+        "p": 0.01,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": true,
+        "keep": false,
+        "shots": null
+      }
+    ],
+    "method": "sv",
+    "budgets": [
+      10000,
+      100000
+    ],
+    "repeats": 32,
+    "master_seed": 62026,
+    "estimator_code": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+    "code": "01cce0e06ae66a96035f668c3e75510471836e8979a44fac523f0358d6b86fc7"
+  },
+  "n": 8,
+  "kappa": 0.443,
+  "h": 0.013,
+  "p": 0.01,
+  "method": "sv",
+  "archive": "results/stage6_v1/end_to_end/measurements/7701ac7ff9ddaf8910c5137f6e58965dbff287c26bffc9ac3f1f53a0b6ccaedb.npz",
+  "sha256": "0c12368b1c1794cb36b86da1a070293a756aa367c356f5b85786a447deecc231",
+  "probability_records": [
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.443,
+        "h": 0.013,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "CNOT",
+            0,
+            1
+          ],
+          [
+            "CNOT",
+            1,
+            2
+          ],
+          [
+            "CNOT",
+            2,
+            3
+          ],
+          [
+            "CNOT",
+            3,
+            4
+          ],
+          [
+            "CNOT",
+            4,
+            5
+          ],
+          [
+            "CNOT",
+            5,
+            6
+          ],
+          [
+            "CNOT",
+            6,
+            7
+          ]
+        ],
+        "p": 0.01,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": true,
+        "keep": false,
+        "shots": null
+      },
+      "n": 8,
+      "kappa": 0.443,
+      "h": 0.013,
+      "p": 0.01,
+      "fold": 1,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX",
+        "YYXXXXXX",
+        "YXYXXXXX",
+        "YXXYXXXX",
+        "YXXXYXXX",
+        "YXXXXYXX",
+        "YXXXXXYX",
+        "YXXXXXXY",
+        "XYYXXXXX",
+        "XYXYXXXX",
+        "XYXXYXXX",
+        "XYXXXYXX",
+        "XYXXXXYX",
+        "XYXXXXXY",
+        "XXYYXXXX",
+        "XXYXYXXX",
+        "XXYXXYXX",
+        "XXYXXXYX",
+        "XXYXXXXY",
+        "XXXYYXXX",
+        "XXXYXYXX",
+        "XXXYXXYX",
+        "XXXYXXXY",
+        "XXXXYYXX",
+        "XXXXYXYX",
+        "XXXXYXXY",
+        "XXXXXYYX",
+        "XXXXXYXY",
+        "XXXXXXYY"
+      ],
+      "archive": "results/stage6_v1/end_to_end/probabilities/650f3a7547d9919215c76a92debdc684eb8c19544b29497cb9272a4e8b479870.npz",
+      "sha256": "eb39ccbcda2a719041e6e70578f3f476cb0ba4d08483267549a9bf387fa2dacb",
+      "observables": [
+        1.0,
+        0.977123100133302,
+        0.9607882660359724,
+        0.9509896887308642,
+        0.94772388345679,
+        0.9509896887308642,
+        0.9607882660359724,
+        0.977123100133302,
+        0.9656907491571334,
+        0.01115429267245164,
+        0.0032684189231056426,
+        0.0019147364633508518,
+        0.0016343547250503576,
+        0.0019147364633508518,
+        0.0032684189231056426,
+        0.01115429267245164,
+        0.0
+      ],
+      "seconds": 0.0670523340231739,
+      "trace_real": 1.0,
+      "hermiticity": 0.0,
+      "min_eigenvalue": 2.9263831732967543e-16,
+      "noise_channels": 7,
+      "process_peak_rss_bytes": 972570624,
+      "cnots": 7,
+      "gate_count": 8,
+      "unitary_depth": 8,
+      "target_counts": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cnot_order": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "disposition": "newly_executed"
+    }
+  ],
+  "sampling": {
+    "10000": [
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX",
+          "YYXXXXXX",
+          "YXYXXXXX",
+          "YXXYXXXX",
+          "YXXXYXXX",
+          "YXXXXYXX",
+          "YXXXXXYX",
+          "YXXXXXXY",
+          "XYYXXXXX",
+          "XYXYXXXX",
+          "XYXXYXXX",
+          "XYXXXYXX",
+          "XYXXXXYX",
+          "XYXXXXXY",
+          "XXYYXXXX",
+          "XXYXYXXX",
+          "XXYXXYXX",
+          "XXYXXXYX",
+          "XXYXXXXY",
+          "XXXYYXXX",
+          "XXXYXYXX",
+          "XXXYXXYX",
+          "XXXYXXXY",
+          "XXXXYYXX",
+          "XXXXYXYX",
+          "XXXXYXXY",
+          "XXXXXYYX",
+          "XXXXXYXY",
+          "XXXXXXYY"
+        ],
+        "allocations": [
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333
+        ]
+      }
+    ],
+    "100000": [
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX",
+          "YYXXXXXX",
+          "YXYXXXXX",
+          "YXXYXXXX",
+          "YXXXYXXX",
+          "YXXXXYXX",
+          "YXXXXXYX",
+          "YXXXXXXY",
+          "XYYXXXXX",
+          "XYXYXXXX",
+          "XYXXYXXX",
+          "XYXXXYXX",
+          "XYXXXXYX",
+          "XYXXXXXY",
+          "XXYYXXXX",
+          "XXYXYXXX",
+          "XXYXXYXX",
+          "XXYXXXYX",
+          "XXYXXXXY",
+          "XXXYYXXX",
+          "XXXYXYXX",
+          "XXXYXXYX",
+          "XXXYXXXY",
+          "XXXXYYXX",
+          "XXXXYXYX",
+          "XXXXYXXY",
+          "XXXXXYYX",
+          "XXXXXYXY",
+          "XXXXXXYY"
+        ],
+        "allocations": [
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333
+        ]
+      }
+    ]
+  },
+  "cost": {
+    "10000": {
+      "shots_per_rep": 10000,
+      "all_reps_shots": 320000,
+      "gate_shots_per_rep": 70000,
+      "settings": 30,
+      "basis_single_qubit_gate_shots_per_rep": 77328
+    },
+    "100000": {
+      "shots_per_rep": 100000,
+      "all_reps_shots": 3200000,
+      "gate_shots_per_rep": 700000,
+      "settings": 30,
+      "basis_single_qubit_gate_shots_per_rep": 773328
+    }
+  },
+  "quality": {
+    "10000": {
+      "denominators": [
+        [
+          1.9461077844311379
+        ],
+        [
+          1.9161676646706587
+        ],
+        [
+          1.904191616766467
+        ],
+        [
+          1.910179640718563
+        ],
+        [
+          1.9161676646706587
+        ],
+        [
+          1.940119760479042
+        ],
+        [
+          1.9161676646706587
+        ],
+        [
+          1.940119760479042
+        ],
+        [
+          1.9161676646706587
+        ],
+        [
+          1.9041916167664672
+        ],
+        [
+          1.9401197604790419
+        ],
+        [
+          1.9281437125748504
+        ],
+        [
+          1.9041916167664672
+        ],
+        [
+          1.910179640718563
+        ],
+        [
+          1.9161676646706587
+        ],
+        [
+          1.9161676646706587
+        ],
+        [
+          1.9221556886227544
+        ],
+        [
+          1.9221556886227544
+        ],
+        [
+          1.8922155688622755
+        ],
+        [
+          1.8922155688622755
+        ],
+        [
+          1.8922155688622755
+        ],
+        [
+          1.9041916167664672
+        ],
+        [
+          1.874251497005988
+        ],
+        [
+          1.9461077844311379
+        ],
+        [
+          1.8862275449101797
+        ],
+        [
+          1.9281437125748502
+        ],
+        [
+          1.9221556886227544
+        ],
+        [
+          1.9281437125748504
+        ],
+        [
+          1.9221556886227544
+        ],
+        [
+          1.9161676646706587
+        ],
+        [
+          1.9221556886227544
+        ],
+        [
+          1.9161676646706587
+        ]
+      ],
+      "nonfinite": 0,
+      "outside_range": 6,
+      "negative_structure_factor": 32,
+      "physical_comparison_tolerance": 1e-09
+    },
+    "100000": {
+      "denominators": [
+        [
+          1.916616676664667
+        ],
+        [
+          1.9064187162567487
+        ],
+        [
+          1.91001799640072
+        ],
+        [
+          1.907618476304739
+        ],
+        [
+          1.9094181163767248
+        ],
+        [
+          1.9118176364727055
+        ],
+        [
+          1.9064187162567487
+        ],
+        [
+          1.9202159568086383
+        ],
+        [
+          1.9118176364727058
+        ],
+        [
+          1.916016796640672
+        ],
+        [
+          1.8998200359928015
+        ],
+        [
+          1.9010197960407917
+        ],
+        [
+          1.9082183563287343
+        ],
+        [
+          1.9034193161367727
+        ],
+        [
+          1.9226154769046193
+        ],
+        [
+          1.9112177564487105
+        ],
+        [
+          1.9046190761847632
+        ],
+        [
+          1.8944211157768447
+        ],
+        [
+          1.9190161967606478
+        ],
+        [
+          1.8962207558488302
+        ],
+        [
+          1.910617876424715
+        ],
+        [
+          1.9154169166166768
+        ],
+        [
+          1.9118176364727055
+        ],
+        [
+          1.9118176364727055
+        ],
+        [
+          1.919016196760648
+        ],
+        [
+          1.904019196160768
+        ],
+        [
+          1.9172165566886625
+        ],
+        [
+          1.9028194361127775
+        ],
+        [
+          1.9190161967606478
+        ],
+        [
+          1.91001799640072
+        ],
+        [
+          1.9106178764247153
+        ],
+        [
+          1.9058188362327535
+        ]
+      ],
+      "nonfinite": 0,
+      "outside_range": 0,
+      "negative_structure_factor": 11,
+      "physical_comparison_tolerance": 1e-09
+    }
+  },
+  "seconds": 0.1629767079721205,
+  "disposition": "newly_executed",
+  "noise_scope": "Every CNOT including references/decoding/folding target-depolarized",
+  "randomization": "Shared per-coordinate/budget/repeat/fold/basis SeedSequence initialization across preparations and p; arm/p/estimator omitted. Multinomial algorithm draw consumption can differ with probabilities and allocations: this is common seeded streams, not identical categorical events. All detectors and linear/quadratic ZNE use the same archived counts.",
+  "stream_spec": {
+    "master_seed": 62026,
+    "fields": [
+      "n",
+      "kappa_exact",
+      "h_exact",
+      "budget",
+      "repeat",
+      "fold",
+      "basis"
+    ],
+    "omitted": [
+      "method",
+      "p",
+      "gates",
+      "estimator"
+    ]
+  },
+  "unclipped": true
+}

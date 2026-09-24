@@ -1,0 +1,959 @@
+{
+  "key": {
+    "probability_keys": [
+      {
+        "n": 8,
+        "kappa": 0.597,
+        "h": 0.018,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ],
+          [
+            "RX",
+            5,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RZ",
+            5,
+            -0.015079375464159796
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RX",
+            5,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            2,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "RZ",
+            4,
+            -0.015074234994959454
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "RX",
+            2,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            7,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            1,
+            7
+          ],
+          [
+            "RZ",
+            7,
+            -0.015078518735454044
+          ],
+          [
+            "CNOT",
+            1,
+            7
+          ],
+          [
+            "RX",
+            7,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            3,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "RZ",
+            3,
+            -0.01507851873545404
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "RX",
+            3,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            6,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            0,
+            6
+          ],
+          [
+            "RZ",
+            6,
+            -0.01507426345714264
+          ],
+          [
+            "CNOT",
+            0,
+            6
+          ],
+          [
+            "RX",
+            6,
+            -1.5707963267948966
+          ]
+        ],
+        "p": 0.0,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": true,
+        "keep": false,
+        "shots": null
+      }
+    ],
+    "method": "sv",
+    "budgets": [
+      10000,
+      100000
+    ],
+    "repeats": 32,
+    "master_seed": 62026,
+    "estimator_code": "5c1928514dc294c6c8362098c353da0b164ddb93ef0ec33d196eb28b21baa7e6",
+    "code": "01cce0e06ae66a96035f668c3e75510471836e8979a44fac523f0358d6b86fc7"
+  },
+  "n": 8,
+  "kappa": 0.597,
+  "h": 0.018,
+  "p": 0,
+  "method": "sv",
+  "archive": "results/stage6_v1/end_to_end/measurements/26e6e5d9066bf57dc6baea1774ddde7b339742d8a0a44d9507b69261d7c28dc5.npz",
+  "sha256": "48c8dfea13d6e0fe54190e5d21c9dc13c058d589c91548aaeacc2d6df65382c1",
+  "probability_records": [
+    {
+      "key": {
+        "n": 8,
+        "kappa": 0.597,
+        "h": 0.018,
+        "bc": "PBC",
+        "gates": [
+          [
+            "H",
+            0
+          ],
+          [
+            "H",
+            1
+          ],
+          [
+            "CNOT",
+            0,
+            2
+          ],
+          [
+            "X",
+            2
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "X",
+            3
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "X",
+            4
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "X",
+            5
+          ],
+          [
+            "CNOT",
+            4,
+            6
+          ],
+          [
+            "X",
+            6
+          ],
+          [
+            "CNOT",
+            5,
+            7
+          ],
+          [
+            "X",
+            7
+          ],
+          [
+            "RX",
+            5,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RZ",
+            5,
+            -0.015079375464159796
+          ],
+          [
+            "CNOT",
+            3,
+            5
+          ],
+          [
+            "RX",
+            5,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            2,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "RZ",
+            4,
+            -0.015074234994959454
+          ],
+          [
+            "CNOT",
+            2,
+            4
+          ],
+          [
+            "RX",
+            2,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            7,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            1,
+            7
+          ],
+          [
+            "RZ",
+            7,
+            -0.015078518735454044
+          ],
+          [
+            "CNOT",
+            1,
+            7
+          ],
+          [
+            "RX",
+            7,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            3,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "RZ",
+            3,
+            -0.01507851873545404
+          ],
+          [
+            "CNOT",
+            1,
+            3
+          ],
+          [
+            "RX",
+            3,
+            -1.5707963267948966
+          ],
+          [
+            "RX",
+            6,
+            1.5707963267948966
+          ],
+          [
+            "CNOT",
+            0,
+            6
+          ],
+          [
+            "RZ",
+            6,
+            -0.01507426345714264
+          ],
+          [
+            "CNOT",
+            0,
+            6
+          ],
+          [
+            "RX",
+            6,
+            -1.5707963267948966
+          ]
+        ],
+        "p": 0.0,
+        "backend": "92db12b1df54fc6cf11d628572a35b400cf63467e7e1a149d9caae1c4d91359a",
+        "measurement_code": "11f06fe0e6b2fdadb7f152eb1c7488cfe76b49e406675aa1c7ea7806619f751b",
+        "sv": true,
+        "keep": false,
+        "shots": null
+      },
+      "n": 8,
+      "kappa": 0.597,
+      "h": 0.018,
+      "p": 0,
+      "fold": 1,
+      "bases": [
+        "ZZZZZZZZ",
+        "XXXXXXXX",
+        "YYXXXXXX",
+        "YXYXXXXX",
+        "YXXYXXXX",
+        "YXXXYXXX",
+        "YXXXXYXX",
+        "YXXXXXYX",
+        "YXXXXXXY",
+        "XYYXXXXX",
+        "XYXYXXXX",
+        "XYXXYXXX",
+        "XYXXXYXX",
+        "XYXXXXYX",
+        "XYXXXXXY",
+        "XXYYXXXX",
+        "XXYXYXXX",
+        "XXYXXYXX",
+        "XXYXXXYX",
+        "XXYXXXXY",
+        "XXXYYXXX",
+        "XXXYXYXX",
+        "XXXYXXYX",
+        "XXXYXXXY",
+        "XXXXYYXX",
+        "XXXXYXYX",
+        "XXXXYXXY",
+        "XXXXXYYX",
+        "XXXXXYXY",
+        "XXXXXXYY"
+      ],
+      "archive": "results/stage6_v1/end_to_end/probabilities/59d066077dc15b1c9ea7241e812f6618a3ca656389ad8a4a189d4bb9cb39c8ab.npz",
+      "sha256": "efaa9d283db1f5b8788dee33d43b31f219009ffc5672022ddc535c488a172bf6",
+      "observables": [
+        0.9999999999999999,
+        0.0,
+        -0.9998579337975293,
+        0.0,
+        0.9998579370242171,
+        0.0,
+        -0.9998579337975293,
+        0.0,
+        1.7758678644785864e-05,
+        1.7757871972848283e-05,
+        0.49994672557740943,
+        1.7757871972848283e-05,
+        1.7758678644785864e-05,
+        1.7757871972848283e-05,
+        0.49994672557740943,
+        1.7757871972848283e-05,
+        0.00942318543467463
+      ],
+      "seconds": 0.09736862499266863,
+      "trace_real": 0.9999999999999998,
+      "hermiticity": 1.3876093741919948e-17,
+      "min_eigenvalue": -4.624290208210901e-16,
+      "noise_channels": 16,
+      "process_peak_rss_bytes": 370655232,
+      "cnots": 16,
+      "gate_count": 39,
+      "unitary_depth": 15,
+      "target_counts": [
+        0,
+        0,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "cnot_order": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "disposition": "newly_executed"
+    }
+  ],
+  "sampling": {
+    "10000": [
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX",
+          "YYXXXXXX",
+          "YXYXXXXX",
+          "YXXYXXXX",
+          "YXXXYXXX",
+          "YXXXXYXX",
+          "YXXXXXYX",
+          "YXXXXXXY",
+          "XYYXXXXX",
+          "XYXYXXXX",
+          "XYXXYXXX",
+          "XYXXXYXX",
+          "XYXXXXYX",
+          "XYXXXXXY",
+          "XXYYXXXX",
+          "XXYXYXXX",
+          "XXYXXYXX",
+          "XXYXXXYX",
+          "XXYXXXXY",
+          "XXXYYXXX",
+          "XXXYXYXX",
+          "XXXYXXYX",
+          "XXXYXXXY",
+          "XXXXYYXX",
+          "XXXXYXYX",
+          "XXXXYXXY",
+          "XXXXXYYX",
+          "XXXXXYXY",
+          "XXXXXXYY"
+        ],
+        "allocations": [
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          334,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333,
+          333
+        ]
+      }
+    ],
+    "100000": [
+      {
+        "bases": [
+          "ZZZZZZZZ",
+          "XXXXXXXX",
+          "YYXXXXXX",
+          "YXYXXXXX",
+          "YXXYXXXX",
+          "YXXXYXXX",
+          "YXXXXYXX",
+          "YXXXXXYX",
+          "YXXXXXXY",
+          "XYYXXXXX",
+          "XYXYXXXX",
+          "XYXXYXXX",
+          "XYXXXYXX",
+          "XYXXXXYX",
+          "XYXXXXXY",
+          "XXYYXXXX",
+          "XXYXYXXX",
+          "XXYXXYXX",
+          "XXYXXXYX",
+          "XXYXXXXY",
+          "XXXYYXXX",
+          "XXXYXYXX",
+          "XXXYXXYX",
+          "XXXYXXXY",
+          "XXXXYYXX",
+          "XXXXYXYX",
+          "XXXXYXXY",
+          "XXXXXYYX",
+          "XXXXXYXY",
+          "XXXXXXYY"
+        ],
+        "allocations": [
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3334,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333,
+          3333
+        ]
+      }
+    ]
+  },
+  "cost": {
+    "10000": {
+      "shots_per_rep": 10000,
+      "all_reps_shots": 320000,
+      "gate_shots_per_rep": 160000,
+      "settings": 30,
+      "basis_single_qubit_gate_shots_per_rep": 77328
+    },
+    "100000": {
+      "shots_per_rep": 100000,
+      "all_reps_shots": 3200000,
+      "gate_shots_per_rep": 1600000,
+      "settings": 30,
+      "basis_single_qubit_gate_shots_per_rep": 773328
+    }
+  },
+  "quality": {
+    "10000": {
+      "denominators": [
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ]
+      ],
+      "nonfinite": 0,
+      "outside_range": 0,
+      "negative_structure_factor": 96,
+      "physical_comparison_tolerance": 1e-09
+    },
+    "100000": {
+      "denominators": [
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ],
+        [
+          2.0
+        ]
+      ],
+      "nonfinite": 0,
+      "outside_range": 0,
+      "negative_structure_factor": 96,
+      "physical_comparison_tolerance": 1e-09
+    }
+  },
+  "seconds": 0.13397970801452175,
+  "disposition": "newly_executed",
+  "noise_scope": "Every CNOT including references/decoding/folding target-depolarized",
+  "randomization": "Shared per-coordinate/budget/repeat/fold/basis SeedSequence initialization across preparations and p; arm/p/estimator omitted. Multinomial algorithm draw consumption can differ with probabilities and allocations: this is common seeded streams, not identical categorical events. All detectors and linear/quadratic ZNE use the same archived counts.",
+  "stream_spec": {
+    "master_seed": 62026,
+    "fields": [
+      "n",
+      "kappa_exact",
+      "h_exact",
+      "budget",
+      "repeat",
+      "fold",
+      "basis"
+    ],
+    "omitted": [
+      "method",
+      "p",
+      "gates",
+      "estimator"
+    ]
+  },
+  "unclipped": true
+}
