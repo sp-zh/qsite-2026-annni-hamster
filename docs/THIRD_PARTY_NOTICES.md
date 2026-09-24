@@ -1,6 +1,6 @@
 # Third-party notices
 
-The challenge description and `upstream/Scientific Track/starter_kit/` source snapshot originate from benmcdonough20/QSITE-2026-QuantumCoalition. The upstream MIT license and copyright are preserved in `LICENSE.upstream` and `upstream/LICENSE`; commit provenance is in `upstream/PROVENANCE.json`. The model, noise convention and baseline interfaces follow that challenge; project-specific numerical and circuit modules are in `annni/`.
+The challenge description and `upstream/Scientific Track/starter_kit/` source snapshot originate from benmcdonough20/QSITE-2026-QuantumCoalition. The upstream MIT license and copyright are preserved in `docs/third_party/QuantumCoalition-MIT.txt` and `upstream/LICENSE`; commit provenance is in `upstream/PROVENANCE.json`. The model, noise convention and baseline interfaces follow that challenge; project-specific numerical and circuit modules are in `annni/`.
 
 PennyLane, NumPy, SciPy, Matplotlib, TeNPy, ReportLab and python-pptx are external dependencies, not redistributed environments. Their use does not assign a license to original team code/data. No global license for original team work is declared here.
 

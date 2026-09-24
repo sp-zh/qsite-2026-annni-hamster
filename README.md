@@ -73,4 +73,4 @@ See [full archive note](docs/FULL_ARCHIVE_NOTE.md) for optional tensor/large-ind
 
 ## Attribution
 
-Upstream challenge and starter materials: [benmcdonough20/QSITE-2026-QuantumCoalition](https://github.com/benmcdonough20/QSITE-2026-QuantumCoalition), local snapshot in `upstream/`. Preserve its [MIT license](LICENSE.upstream). No global license is assigned to original team work without a team decision. [Third-party notices](docs/THIRD_PARTY_NOTICES.md).
+Upstream challenge and starter materials: [benmcdonough20/QSITE-2026-QuantumCoalition](https://github.com/benmcdonough20/QSITE-2026-QuantumCoalition), local snapshot in `upstream/`. Preserve its [MIT license](docs/third_party/QuantumCoalition-MIT.txt). No global license is assigned to original team work without a team decision. [Third-party notices](docs/THIRD_PARTY_NOTICES.md).

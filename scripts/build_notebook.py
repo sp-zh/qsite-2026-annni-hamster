@@ -89,9 +89,10 @@ md('''## Fresh lightweight validation
 This cell compiles saved B3 parameters into gates, checks the saved state, evolves p=0 and p=.01 with a target-only channel, checks energy/SF identities and measurement probabilities. No ED state is loaded as the prepared circuit input. `--sdk` separately runs PennyLane in the scientific environment.''')
 code('''fresh = release.physics(OUT, sdk=False)
 print(json.dumps(fresh, indent=2))
-# One complete saved-count example for each deployed estimator, all 32 repeats.
+# One shared coordinate and equal-G budget for all estimators, all 32 repeats.
+example_point = next(r["point_id"] for _, r in release.records() if r["method"]=="raw" and r["p"]==.01 and r["mode"]=="equal_gate" and r["budget"]==100000)
 for method in ["raw", "zne_quadratic", "sv"]:
-    record = next(r for _, r in release.records() if r["method"]==method and r["p"]==.01 and r["mode"]=="equal_gate")
+    record = next(r for _, r in release.records() if r["method"]==method and r["p"]==.01 and r["mode"]=="equal_gate" and r["budget"]==100000 and r["point_id"]==example_point)
     with np.load(release.path(record["archive"])) as arrays:
         rebuilt = release.samples_from_counts(record, arrays)
         np.testing.assert_allclose(rebuilt, arrays["samples"], atol=2e-12, rtol=2e-12)
