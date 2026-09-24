@@ -1,27 +1,27 @@
 # Evidence ledger
 
-## C1: B0 to B3 gate/correlation tradeoff
+## C1: B0 to B3 gate and correlation tradeoff
 
-Cohort: 420 descriptive N8 coordinates. Source: `results/stage4_upgrade_v1/matched_grid.csv`. Figure: `figures/resource_tradeoff.png`. Limit: Lower noisy correlation error sacrifices ideal coverage; not phase accuracy.
+The cohort contains 420 descriptive N8 coordinates. Source: `results/stage4_upgrade_v1/matched_grid.csv`. Figure: `figures/resource_tradeoff.png`. B3 lowers noisy correlation error while reducing ideal preparation coverage. These results measure observable reconstruction, not phase accuracy.
 
 ## C2: Equal-CNOT-shots ZNE MSE reductions
 
-Cohort: 45 coordinates x3p x32 repeats. Source: `results/stage6_followup_v1/B_index.json + active saved counts`. Figure: `figures/equal_resource.png`. Limit: Only6 independent labels;17 correlated components; G not total cost.
+The cohort covers 45 coordinates at 3 noise probabilities, with 32 repeats. Source: `results/stage6_followup_v1/B_index.json + active saved counts`. Figure: `figures/equal_resource.png`. Only 6 coordinates have independent labels, and the 17-component metric includes correlated components. G measures CNOT-shots rather than total execution cost.
 
-## C3: Observable reconstruction and feature matching give distinct results
+## C3: Observable reconstruction and feature matching
 
-Cohort: 6 windows x17 points x3p x32 repeats. Source: `results/stage6_followup_v1/window_completion/curves.json + matches.json`. Figure: `figures/six_windows.png`. Limit: 5 references pass the frozen peak criterion; endpoint/branch/preparation flags retained.
+The cohort covers 6 windows of 17 points at 3 noise probabilities, with 32 repeats. Source: `results/stage6_followup_v1/window_completion/curves.json + matches.json`. Figure: `figures/six_windows.png`. Observable reconstruction and feature matching give distinct results. Five references pass the frozen peak criterion; the records retain endpoint, branch and preparation flags.
 
-## C4: Low-field H6 candidate improvement at extra cost
+## C4: Low-field H6 candidates and resource costs
 
-Cohort: 48 of96 new confirmation coordinates. Source: `results/stage6_v1/confirmation/confirmation_all_selected.csv`. Figure: `figures/extensions.png`. Limit: Not equal-cost; N12 negative transfer retained.
+The low-field cohort contains 48 of the 96 new confirmation coordinates. Source: `results/stage6_v1/confirmation/confirmation_all_selected.csv`. Figure: `figures/extensions.png`. H6 improves candidate availability at extra cost. The comparison also retains its negative transfer result on N12.
 
-## C5: Floating scan: zero supported samples and zero transition brackets
+## C5: Floating-phase scan
 
-Cohort: kappa=.8 OBC multi-size slice. Source: `results/stage6_v1/floating_boundary_scan/interval_evidence_v4.json + evidence_map_v4.json`. Figure: `figures/floating_evidence.png`. Limit: Screened samples .4/.425; zero established transition brackets.
+The cohort is a multi-size OBC slice at kappa=.8. Source: `results/stage6_v1/floating_boundary_scan/interval_evidence_v4.json + evidence_map_v4.json`. Figure: `figures/floating_evidence.png`. The screened subset includes samples at .4/.425. The scan establishes zero supported floating samples and zero transition brackets.
 
-## C6: Executed Trotter/noise dynamics extension
+## C6: Trotter and noise dynamics
 
-Cohort: archived product-state quenches. Source: `results/stage4_upgrade_v1/dynamics/*.npz`. Figure: `figures/dynamics.png`. Limit: Not ground-state classification.
+The cohort contains archived product-state quenches. Source: `results/stage4_upgrade_v1/dynamics/*.npz`. Figure: `figures/dynamics.png`. These executed dynamics experiments measure Trotter and noise effects; they do not classify ground states.
 
-Per-file hashes/run identifiers and literal archived parameters are in provenance/SOURCE_MAP.csv and the original indices.
+Per-file hashes, run identifiers and literal archived parameters are in provenance/SOURCE_MAP.csv and the original indices.
