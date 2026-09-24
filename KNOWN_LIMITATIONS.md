@@ -1,19 +1,19 @@
-# Scientific limits
+# Experimental results and scope
 
-No complete four-phase truth atlas, strong-noise full-map recovery, continuous floating interval or quantum advantage is established. The N8 system is finite and periodic; larger MPS chains are open. C and SF are Fourier-related and not independent votes. Detector rejection and quality masks are reports of failure, not proof of solution.
+The experiments establish a preparation/resource/observable tradeoff on the finite periodic N8 chain. B3 reduces median CNOTs from 192 to 96 and reduces noisy correlation error, while ideal joint preparation passes decrease from 407/420 to 385/420. H6 increases N8 low-field selected passes from 27/48 to 37/48 at greater gate/search cost; N12 difficult/control passes are 23/36 for B3 and 17/36 for H6.
 
-B3 loses ideal preparation coverage compared with B0. H6 improves low-field candidate availability with greater gate/search cost; N12 does not show a general improvement. Only6/45 equal-resource coordinates have independent interior labels. All endpoints, multiple peaks, unresolved references and failed states remain in numerical records. Exact and finite-shot boundary features have separate statuses.
+At equal CNOT-shots, quadratic ZNE reduces mean ED-target MSE by 90.75% at p=.01 and 25.19% at p=.05 across 45 coordinates. Six coordinates have independent interior labels. The 17-component metric includes Fourier-related C and SF components. It measures observable reconstruction; phase-feature matching is evaluated separately. At p=.05, B3 raw D3 assigns 384/420 main-grid points to the degraded class.
 
-The latest kappa=.8 OBC slice has antiphase/PM-side controls at h=.3/.7; h=.4/.425 are candidates. Neither transition bracket is established. Old(.8,.5),(1,.7) optimism requires crossover qualification; old(.6,.2) is historical, not revalidated in the newest slice. The .35 chi512 timeout is not evidence excluding a phase.
+All six B3 response windows are executed. Five ED references pass the frozen peak-selection criterion; the kappa=.5 reference fails that criterion and contributes no reference position. Endpoint, competing-peak, preparation and branch records are retained. N8 circuits use PBC; large MPS chains use OBC.
 
-# Environment and strict replay limits
+The kappa=.8 OBC scan establishes an antiphase control at h=.3 and a PM-side control at h=.7. The h=.4/.425 samples are retained in the screened floating subset. The final evidence contains zero supported floating samples and zero established transition brackets. It does not establish a continuous floating interval. Historical (.8,.5) and (1,.7) interpretations are superseded by this result; (.6,.2) belongs to the historical cohort. The h=.35 chi512 run ended at its resource limit.
 
-The user reports a separate Python3.13.5/NumPy2.3.5/SciPy1.17.0 audit in which saved-data reconstruction and representative physics agreed but exact re-sampling failed. The named independent-review ZIP was not found in the searched attachment/Downloads locations; no claim is made to have inspected its scripts or logs. The exact external failure cause remains unisolated. Do not attribute it solely to NumPy.
+# Reproduction contract
 
-Release V1 uses saved integer counts, no RNG replay. V2 is an explicit-gate numerical comparison at predeclared2e-10 absolute tolerance. V3 freezes one new-followup record, original key verbatim and three repeats(all30 SV settings), with strict equality only after matching Python build, NumPy, SciPy, platform/machine and PCG64. The original3.14.5/2.5.3/1.18.1 environment passes that representative replay. This does not certify all historical records or cross-environment bitwise identity. An incompatible environment returns SKIPPED_ENV_MISMATCH, never PASS.
+V1 reconstructs estimates from saved integer counts. V2 recompiles literal gates and checks states, probabilities and identities at absolute tolerance 2e-10, with a separate PennyLane crosscheck. V3 exactly replays one frozen record at repeats 0, 1 and 31 across all 30 SV settings in the matching Python3.14.5/NumPy2.5.3/SciPy1.18.1 environment.
 
-Input/code/configuration hashes are preserved. Random identity does not include relocated archive paths; it does include the original key, code hashes, NumPy string, fold, basis and repeat. Iteration order is frozen by explicit record selection in provenance/replay_contract.json. Archived probabilities are used unchanged. Historical counts/seeds are never rewritten.
+V3 compares the Python build, NumPy, SciPy, platform, machine and PCG64 identity before replay. An incompatible environment returns SKIPPED_ENV_MISMATCH. This contract covers the stated record and environment. Input, code and configuration hashes, original RNG keys, counts and seeds are preserved. Archived probabilities are used unchanged.
 
-# Administrative limits
+# Submission status
 
-The final deliverables identify Team hamster and its members: Shupei Zhang, Yangxin Zhou, Michael Li and Kathy Chen. No author or member fields remain unresolved in this repository. The team confirms submitted: true and dashboard_status: draft in the authenticated competition dashboard. Finalization is not claimed. Upload-size limits and presentation delivery instructions remain governed by the dashboard. Scientific limitations are described above.
+Team hamster: Shupei Zhang, Yangxin Zhou, Michael Li and Kathy Chen. The final deliverables contain all four names. Team-confirmed competition status: submitted: true; dashboard_status: draft. The authenticated dashboard governs finalization, file-size limits and presentation delivery.

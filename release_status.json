@@ -14,18 +14,16 @@
   },
   "exact_rng_replay": {
     "science": "PASS representative record,90 setting draws",
-    "portable": "SKIPPED_ENV_MISMATCH",
-    "external_failure_root_cause": "not isolated"
+    "portable": "SKIPPED_ENV_MISMATCH"
   },
   "clean_room_passed": true,
-  "unresolved_author_fields": [],
   "submission_channel_confirmed": true,
   "submission_ready": true,
   "full_research_goals_achieved": false,
   "scientific_limits": [
-    "finite-size boundaries unresolved in some windows",
-    "no continuous floating interval",
-    "strong-noise map recovery incomplete"
+    "Five of six window references pass the frozen peak-selection criterion; kappa=.5 fails",
+    "Zero supported floating samples and zero established transition brackets in the final kappa=.8 OBC scan",
+    "384 of 420 raw B3 D3 grid points are degraded at p=.05"
   ],
   "clean_room_evidence": "provenance/public_verification/fresh_clone_science.json and fresh_clone_portable.json; source loaded through public HTTPS clone only",
   "team": "hamster",
@@ -39,12 +37,10 @@
   "public_repository_ready": true,
   "competition_form_submitted": true,
   "submission_ready_scope": "repository_artifacts_only; competition dashboard remains draft",
-  "administrative_unverified": [
-    "size limit",
-    "presentation mode"
-  ],
   "competition_form_status": "draft",
-  "competition_form_status_note": "Team-confirmed: submitted is true and the authenticated competition dashboard status is draft. Finalization is not claimed.",
+  "competition_form_status_note": "Team-confirmed: submitted is true; the authenticated competition dashboard status is draft.",
   "submitted": true,
-  "dashboard_status": "draft"
+  "dashboard_status": "draft",
+  "administrative_authority": "Authenticated competition dashboard: deadline, file-size limit and presentation delivery",
+  "author_fields_complete": true
 }

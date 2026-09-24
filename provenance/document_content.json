@@ -24,15 +24,15 @@
     ],
     [
       "Why feature reconstruction remains limited",
-      "All six 17-point windows at kappa=0,.3,.45,.5,.55,.8 are executed, with identical grids and frozen matching. The .5 reference is unresolved. The other five supply finite-size RN features, not thermodynamic critical points. At p=.05 and 100k equal shots, raw matches 2.96875/5 window equivalents across repeats; ZNE 2.875/5. Endpoint domination, competing peaks, preparation error and branch sensitivity remain explicit. Mean observable improvement does not imply feature stability; audited matches are not phase certificates."
+      "All six 17-point windows at kappa=0,.3,.45,.5,.55,.8 are executed, with identical grids and frozen matching. The .5 reference fails the frozen peak-selection criterion. The other five supply finite-size RN features, not thermodynamic critical points. At p=.05 and 100k equal shots, raw matches 2.96875/5 window equivalents across repeats; ZNE 2.875/5. Endpoint domination, competing peaks, preparation error and branch sensitivity remain explicit. Observable MSE and frozen feature matching quantify distinct outcomes; these matches describe finite-size response features."
     ],
     [
       "Low-field construction and transfer",
-      "The frozen H6 union of physical/domain-wall candidates increases candidate availability from 27/48 to 45/48, and selected joint passes from 27/48 to 37/48. Median CNOTs rise from 32 to 127; objective calls rise by 7.45x. This is not an equal-cost win. N12 difficult/control transfer gives B3 23/36 versus H6 17/36. H6 is not the six-layer HVA and is not promoted as a universal replacement."
+      "The frozen H6 union of physical/domain-wall candidates increases candidate availability from 27/48 to 45/48, and selected joint passes from 27/48 to 37/48. Median CNOTs rise from 32 to 127; objective calls rise by 7.45x. This is not an equal-cost win. N12 difficult/control transfer gives B3 23/36 versus H6 17/36. H6 is the physical/domain-wall union; it improves the N8 low-field cohort and reduces passes on this N12 cohort."
     ],
     [
       "Floating search and other extensions",
-      "A controlled kappa=.8 OBC slice supports an antiphase sample at h=.3 and a paramagnetic-side sample at h=.7. h=.4/.425 remain candidates: size/entropy/Friedel evidence conflicts, and no supported floating sample or independent transition brackets are established. Bond-dimension convergence alone cannot exclude a long-correlation-length gapped crossover. A chi=512 timeout is a resource limit, not physical exclusion. Archived dynamics quantify Trotter/noise effects; multiple detectors and N12 experiments remain in the notebook. The published evidence is frozen."
+      "A controlled kappa=.8 OBC slice supports an antiphase sample at h=.3 and a paramagnetic-side sample at h=.7. At h=.4/.425, size, entropy and Friedel diagnostics disagree. The final evidence contains zero supported floating samples and zero established transition brackets. Bond-dimension convergence tests numerical stability; gap and correlation-length scaling determine phase identification. A chi=512 timeout is a resource limit, not physical exclusion. Archived dynamics quantify Trotter/noise effects; multiple detectors and N12 experiments remain in the notebook. The published evidence is frozen."
     ],
     [
       "Conclusion and reproducibility",
@@ -45,7 +45,7 @@
       "sub": "Low-CNOT preparation, error mitigation, and their limits",
       "body": "Q-SITE 2026 / Scientific Track\nTeam hamster\nShupei Zhang, Yangxin Zhou, Michael Li, Kathy Chen",
       "fig": "resource_tradeoff",
-      "note": "We study how quantum state preparation and noise affect reconstruction of the ANNNI phase diagram. The central result is a tradeoff: fewer entangling gates improve noisy correlations, and mitigation helps under a genuinely matched gate-weighted measurement budget. But neither improvement alone certifies a phase boundary. We keep the failed preparations, detector rejections and unresolved floating-phase evidence in the submission. The notebook contains the full numerical evidence and a lightweight circuit check.",
+      "note": "We study how quantum state preparation and noise affect reconstruction of the ANNNI phase diagram. The central result is a tradeoff: fewer entangling gates improve noisy correlations, and mitigation helps under a genuinely matched gate-weighted measurement budget. But neither improvement alone certifies a phase boundary. We keep the failed preparations, detector rejections and floating-scan results in the submission. The notebook contains the full numerical evidence and a lightweight circuit check.",
       "seconds": 40
     },
     {
@@ -67,7 +67,7 @@
     {
       "title": "Three noise levels, one diagnostic",
       "sub": "Frozen D3; exact expectations; identical 420-point grid",
-      "body": "Colors: estimated phase-like regions\nCrosses: ideal preparation failed\nUncertain and degraded remain distinct",
+      "body": "Colors: estimated phase-like regions\nCrosses: ideal preparation failed\nUnassigned and degraded are separate classes",
       "fig": "slide_phases",
       "note": "These are the required three noise maps, alongside the same detector applied to ED data. The method, grid and legend remain fixed across noise levels. The colors show resemblance to physical patterns, not independently validated truth at every coordinate. Crosses indicate failed ideal preparation without hiding the label. Our notebook separately displays single-repeat finite-shot maps and equal-shots mitigation maps. It also shows where independent region labels exist. We never extend the smaller equal-resource cohort into a full equal-resource map.",
       "seconds": 45
@@ -82,10 +82,10 @@
     },
     {
       "title": "Better observables, unstable features",
-      "sub": "Six complete 17-point windows; only five resolvable references",
-      "body": "kappa=.5 remains reference-unresolved\nEndpoints, multiple peaks and branch effects retained\nMatching is finite-size evidence, not a phase certificate",
+      "sub": "Six complete 17-point windows; five references pass peak selection",
+      "body": "kappa=.5 fails reference peak selection\nEndpoints, multiple peaks and branch effects retained\nMatching is finite-size evidence, not a phase certificate",
       "fig": "window_example",
-      "note": "The prespecified kappa point eight window illustrates why a smaller component error need not stabilize a response feature. These curves use exact expectations so shot fluctuations cannot explain every failure. All six windows were actually executed. Five reference features are resolvable; the kappa point five reference is not. At strong noise, the equal-shots raw result matches roughly three of those five windows when averaged over measurement repeats, and extrapolation does not improve that aggregate. We retain endpoint and multiple-peak warnings, preparation failures and real same-coordinate branch comparisons. A match with no listed warning is still not proof of a thermodynamic transition.",
+      "note": "The prespecified kappa point eight window illustrates the distinct outcomes of observable reconstruction and response-feature matching. These curves use exact expectations so shot fluctuations cannot explain every failure. All six windows were actually executed. Five reference features are resolvable; the kappa point five reference fails the frozen peak-selection criterion. At strong noise, the equal-shots raw result matches roughly three of those five windows when averaged over measurement repeats, and extrapolation does not improve that aggregate. We retain endpoint and multiple-peak warnings, preparation failures and real same-coordinate branch comparisons. A match with no listed warning is still not proof of a thermodynamic transition.",
       "seconds": 50
     },
     {
@@ -99,9 +99,9 @@
     {
       "title": "What the evidence supports",
       "sub": "A reproducible observable result with explicit phase-diagram limits",
-      "body": "Lower-CNOT preparation helps noisy correlations\nEqual-resource ZNE reduces bias, not every failure\nNo supported continuous floating interval",
+      "body": "Lower-CNOT preparation helps noisy correlations\nEqual-resource ZNE reduces bias, not every failure\nZero supported floating samples",
       "fig": "floating_evidence",
-      "note": "The controlled large-system slice supports an antiphase control at field point three and a paramagnetic-side control at point seven. Fields point four and point four two five remain candidates, but the size, entropy and Friedel evidence do not establish a supported floating interval or two independent transition brackets. A timed-out high-bond-dimension continuation is not evidence against a phase. Our conclusion is therefore specific: lower-gate preparation and resource-controlled mitigation improve observable reconstruction, while reliable boundary inference needs stronger evidence. The submission ships saved joint counts, gate tables, reproducible figures, and separate deterministic, physical and random-replay checks.",
+      "note": "The controlled large-system slice supports an antiphase control at field point three and a paramagnetic-side control at point seven. Fields point four and point four two five have conflicting size, entropy and Friedel results. The final evidence contains zero supported floating samples and zero established transition brackets. A timed-out high-bond-dimension continuation is not evidence against a phase. Our conclusion is therefore specific: lower-gate preparation and resource-controlled mitigation improve observable reconstruction, while reliable boundary inference needs stronger evidence. The submission ships saved joint counts, gate tables, reproducible figures, and separate deterministic, physical and random-replay checks.",
       "seconds": 45
     }
   ],

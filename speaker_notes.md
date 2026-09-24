@@ -2,11 +2,11 @@
 
 Team hamster — Shupei Zhang, Yangxin Zhou, Michael Li, Kathy Chen
 
-Estimated timing, not an actual rehearsal: 370 seconds (6 min 10 sec).
+Speaking plan: 370 seconds (6 min 10 sec).
 
 ## Slide 1: Noise-Aware ANNNI Phase Diagnostics (40 seconds)
 
-We study how quantum state preparation and noise affect reconstruction of the ANNNI phase diagram. The central result is a tradeoff: fewer entangling gates improve noisy correlations, and mitigation helps under a genuinely matched gate-weighted measurement budget. But neither improvement alone certifies a phase boundary. We keep the failed preparations, detector rejections and unresolved floating-phase evidence in the submission. The notebook contains the full numerical evidence and a lightweight circuit check.
+We study how quantum state preparation and noise affect reconstruction of the ANNNI phase diagram. The central result is a tradeoff: fewer entangling gates improve noisy correlations, and mitigation helps under a genuinely matched gate-weighted measurement budget. But neither improvement alone certifies a phase boundary. We keep the failed preparations, detector rejections and floating-scan results in the submission. The notebook contains the full numerical evidence and a lightweight circuit check.
 
 ## Slide 2: Model and evidence layers (45 seconds)
 
@@ -26,7 +26,7 @@ Equal shot counts alone favor extrapolation with more noisy gates. We therefore 
 
 ## Slide 6: Better observables, unstable features (50 seconds)
 
-The prespecified kappa point eight window illustrates why a smaller component error need not stabilize a response feature. These curves use exact expectations so shot fluctuations cannot explain every failure. All six windows were actually executed. Five reference features are resolvable; the kappa point five reference is not. At strong noise, the equal-shots raw result matches roughly three of those five windows when averaged over measurement repeats, and extrapolation does not improve that aggregate. We retain endpoint and multiple-peak warnings, preparation failures and real same-coordinate branch comparisons. A match with no listed warning is still not proof of a thermodynamic transition.
+The prespecified kappa point eight window illustrates the distinct outcomes of observable reconstruction and response-feature matching. These curves use exact expectations so shot fluctuations cannot explain every failure. All six windows were actually executed. Five reference features are resolvable; the kappa point five reference fails the frozen peak-selection criterion. At strong noise, the equal-shots raw result matches roughly three of those five windows when averaged over measurement repeats, and extrapolation does not improve that aggregate. We retain endpoint and multiple-peak warnings, preparation failures and real same-coordinate branch comparisons. A match with no listed warning is still not proof of a thermodynamic transition.
 
 ## Slide 7: Extensions expose the limits (45 seconds)
 
@@ -34,4 +34,4 @@ The newer physical and domain-wall construction improves selected joint passes i
 
 ## Slide 8: What the evidence supports (45 seconds)
 
-The controlled large-system slice supports an antiphase control at field point three and a paramagnetic-side control at point seven. Fields point four and point four two five remain candidates, but the size, entropy and Friedel evidence do not establish a supported floating interval or two independent transition brackets. A timed-out high-bond-dimension continuation is not evidence against a phase. Our conclusion is therefore specific: lower-gate preparation and resource-controlled mitigation improve observable reconstruction, while reliable boundary inference needs stronger evidence. The submission ships saved joint counts, gate tables, reproducible figures, and separate deterministic, physical and random-replay checks.
+The controlled large-system slice supports an antiphase control at field point three and a paramagnetic-side control at point seven. Fields point four and point four two five have conflicting size, entropy and Friedel results. The final evidence contains zero supported floating samples and zero established transition brackets. A timed-out high-bond-dimension continuation is not evidence against a phase. Our conclusion is therefore specific: lower-gate preparation and resource-controlled mitigation improve observable reconstruction, while reliable boundary inference needs stronger evidence. The submission ships saved joint counts, gate tables, reproducible figures, and separate deterministic, physical and random-replay checks.

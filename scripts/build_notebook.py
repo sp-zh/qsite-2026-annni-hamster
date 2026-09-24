@@ -7,7 +7,7 @@ md(r'''# Noise-Aware ANNNI Phase Diagnostics
 ## Low-CNOT preparation, error mitigation, and their limits
 **Team hamster — Shupei Zhang, Yangxin Zhou, Michael Li, Kathy Chen.** Q-SITE 2026, Scientific Track.
 
-A self-contained research submission. The strongest result is a resource-aware improvement in observables, accompanied by explicit limits on phase-feature reconstruction. No quantum advantage, complete strong-noise recovery, or established continuous floating interval is claimed.
+A self-contained research submission. The strongest result is a resource-aware improvement in observables, accompanied by explicit limits on phase-feature reconstruction. The evaluated outputs are observable errors, resource costs and finite-size phase features.
 
 **Execution categories:** `archived_results` are the frozen scientific experiments; `recomputed_from_saved_data` rebuilds their figures/statistics; `fresh_light_validation` reruns one explicit circuit and saved-count reconstruction. Run All never optimizes a grid or runs DMRG.
 
@@ -46,7 +46,7 @@ figure_receipt = draw(OUT, stats)  # all charts rebuilt from numeric files
 print(figure_receipt)
 display(Image(filename=str(OUT / "resource_tradeoff.png")))''')
 md('''## The required three noise maps
-Exact-expectation raw B3 maps use the same grid and frozen D3. Crosses retain failed ideal preparations; they do not erase the detector output. Colors indicate **estimated phase-like regions**, not verified thermodynamic labels. `uncertain` and `degraded` are separate. Branch sensitivity is separately recorded for the six windows; the main grid is not falsely marked branch-safe.
+Exact-expectation raw B3 maps use the same grid and frozen D3. Crosses retain failed ideal preparations; they do not erase the detector output. Colors encode the frozen D3 pattern-resemblance classes. The displayed unassigned class and degraded class are separate. Branch sensitivity is separately recorded for the six windows; the main grid is not falsely marked branch-safe.
 
 Below, ED reference, ideal circuit and noisy circuits are shown side by side. The independent reference coverage has its own panel.''')
 code('''display(Image(filename=str(OUT / "phase_comparison.png")))
@@ -66,20 +66,20 @@ display(Image(filename=str(OUT / "equal_resource.png")))
 display(Image(filename=str(OUT / "bias_sampling.png")))''')
 md('''ZNE improves coordinate-mean MSE for all 45 coordinates at p=.01 and .05, but worsens all 45 at p=0. This is not improvement in every random repeat, nor phase accuracy: only six resource-cohort coordinates have independent interior labels. Bias reduction and increased sampling error are both visible.''')
 md('''## Local response features and their limits
-All six 17-point windows (kappa=0,.3,.45,.5,.55,.8) are retained. Five references are resolvable under the frozen rule; kappa=.5 is not. Matching uses the same feature, includes endpoint/multi-peak failures, and is paired with preparation and branch audits. Window-equivalent counts are averages over 32 repetitions, not numbers of established phase transitions.
+All six 17-point windows (kappa=0,.3,.45,.5,.55,.8) are retained. Five references are resolvable under the frozen rule; kappa=.5 fails the frozen peak-selection criterion. Matching uses the same feature, includes endpoint/multi-peak failures, and is paired with preparation and branch audits. Window-equivalent counts are averages over 32 repetitions, not numbers of established phase transitions.
 
-The kappa=.8 example was requested before the followup and shows the relevant failure mode; it was not selected as a successful boundary. Exact expectations isolate preparation/noise effects. Full sampled curves and empirical quantiles are included in the data; they are not thermodynamic confidence intervals.''')
+The kappa=.8 example was specified before the followup and records a feature-reconstruction failure. Exact expectations isolate preparation/noise effects. Full sampled curves and empirical quantiles are included in the data; they are not thermodynamic confidence intervals.''')
 code('''display(Image(filename=str(OUT / "window_coverage.png")))
 display(Image(filename=str(OUT / "six_windows.png")))
 display(Image(filename=str(OUT / "window_example.png")))''')
 md('''## Five extensions and their evidence limits
 1. **N>=12:** difficult-region transfer was executed. H6 does not outperform B3 there.
 2. **Multiple detectors:** frozen D1/D3 and newer D4/D5 are preserved; no universal improved detector is claimed. D2 uses full-state access and is not free under local-shot budgets.
-3. **Mitigation:** raw/linear/quadratic ZNE/SV implementations and equal-resource raw/quadratic/SV tests are available. Strong-noise phase recovery remains incomplete.
+3. **Mitigation:** raw/linear/quadratic ZNE/SV implementations and equal-resource raw/quadratic/SV tests are available. At p=.05, raw B3 D3 assigns 384/420 main-grid points to the degraded class.
 4. **Dynamics:** archived product-state quench/Trotter comparisons distinguish discretization and noise; no new quench runs in this release.
-5. **Floating search:** the controlled kappa=.8 OBC slice supports antiphase/PM-side controls, but no supported floating sample or two transition brackets. h=.4/.425 remain candidates. The chi=512 timeout at .35 is a resource failure, not exclusion of a phase.
+5. **Floating search:** the controlled kappa=.8 OBC slice establishes antiphase/PM-side controls. h=.4/.425 belong to the screened subset. The final evidence contains zero supported floating samples and zero established transition brackets. The chi=512 timeout at .35 is a resource failure, not exclusion of a phase.
 
-H6 is a regionally frozen union of physical/domain-wall candidates, not six-layer HVA. N8 low-field candidate availability improves at greater gate/search cost; N12 transfer and strong-noise performance prevent claiming a universal advantage.''')
+H6 is a regionally frozen union of physical/domain-wall candidates, not six-layer HVA. N8 low-field candidate availability improves at greater gate/search cost; N12 selected passes are 23/36 for B3 and 17/36 for H6.''')
 code('''print(json.dumps(stats["extensions"], indent=2))
 display(Image(filename=str(OUT / "extensions.png")))
 display(Image(filename=str(OUT / "dynamics.png")))
@@ -106,7 +106,7 @@ From this directory: `python scripts/release.py redraw --out build/redraw`, `pyt
 
 Explicit research entry (not run by this notebook): `python scripts/recompute.py --compute --kappa 0.3 --h 0.5 --out build/research`. It invokes the original bounded B3 implementation and writes new data separately. Full historical orchestration is retained in `research_scripts/` with its original provenance and expired run guards; do not mistake those scripts for a default quick start.
 
-The submission establishes a preparation/resource/observable tradeoff and a real equal-CNOT-shots mitigation comparison. It also demonstrates why improved observable MSE is insufficient to certify boundaries. Unresolved low-field, branch, detector and finite-size limitations remain part of the result.
+The submission establishes a preparation/resource/observable tradeoff and a real equal-CNOT-shots mitigation comparison. It also demonstrates why improved observable MSE is insufficient to certify boundaries. The results retain failed low-field preparations, branch changes, detector rejections and finite-size effects.
 
 References: [Q-SITE task](https://github.com/benmcdonough20/QSITE-2026-QuantumCoalition), [qubit ADAPT](https://arxiv.org/abs/1911.10205), [ANNNI tensor-network study](https://arxiv.org/abs/2402.11022), [floating-phase DMRG](https://arxiv.org/abs/cond-mat/0702676), [symmetry verification](https://arxiv.org/abs/1807.10050). Published XX/Z conventions map to this ZZ/X convention by local Hadamards; OBC/PBC and finite-size evidence remain distinct. See `docs/KNOWN_LIMITATIONS.md`, `provenance/SOURCE_MAP.csv` and the immutable manifests.''')
 n=nb.v4.new_notebook(cells=cells,metadata={'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'},'language_info':{'name':'python'}});nb.validate(n);nb.write(n,R/'submission.ipynb')

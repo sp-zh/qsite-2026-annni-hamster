@@ -293,10 +293,10 @@ def test_confirmation_coordinate_isolation_and_freeze_receipt():
  if frozen.exists():
   receipt=json.loads(frozen.read_text())
   assert receipt['candidate_code']==hashlib.sha256(Path('annni/stage6_candidates.py').read_bytes()).hexdigest()
-  assert receipt['runner_sha']==hashlib.sha256(Path('scripts/run_stage6_candidates.py').read_bytes()).hexdigest()
+  assert receipt['runner_sha']==hashlib.sha256(Path('research_scripts/run_stage6_candidates.py').read_bytes()).hexdigest()
  if (root/'reference_atlas/confirmation_evaluation.json').exists():
   assert len({(r['kappa'],r['h']) for r in candidate_rows('confirmation')})==96
- for file in ['annni/stage6_candidates.py','scripts/run_stage6_candidates.py']:
+ for file in ['annni/stage6_candidates.py','research_scripts/run_stage6_candidates.py']:
   modules=[node.module or '' for node in ast.walk(ast.parse(Path(file).read_text())) if isinstance(node,ast.ImportFrom)]
   assert not any('reference' in name or 'assess' in name for name in modules)
 

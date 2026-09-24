@@ -7,6 +7,7 @@ from matplotlib.colors import ListedColormap,BoundaryNorm
 from matplotlib.patches import Patch
 COLORS=['#286A9D','#D18439','#39836F','#9375AD','#C6CCD1']
 LABELS=['ferro-like','antiphase-like','paramagnetic-like','degraded','uncertain']
+DISPLAY_LABELS=['ferro-like','antiphase-like','paramagnetic-like','degraded','unassigned']
 METHODS=['raw','zne_quadratic','sv'];MC=['#286A9D','#C46140','#39836F'];NAMES=['Raw','Quadratic ZNE','SV']
 def draw(out,stats):
  out.mkdir(parents=True,exist_ok=True);plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,'axes.spines.right':False,'savefig.facecolor':'white'})
@@ -29,7 +30,7 @@ def draw(out,stats):
    f=np.array(fails);ax.scatter(f[:,0],f[:,1],s=10,marker='x',c='black',linewidths=.6,label='preparation_failed')
   ax.set(xlabel=r'$\kappa$',ylabel='$h$',xlim=(-.025,1.025),ylim=(.05,2.05),title='ED + frozen D3' if ed else f'B3 / {est.replace("zne_quadratic","quadratic ZNE")} / p={p:g}')
   return g
- legend=[Patch(color=c,label=l) for c,l in zip(COLORS,LABELS)]
+ legend=[Patch(color=c,label=l) for c,l in zip(COLORS,DISPLAY_LABELS)]
  for p,suffix in [(0,'0'),(.01,'001'),(.05,'005')]:
   fig,ax=plt.subplots(figsize=(6,4.8));phase(ax,p);fig.legend(handles=legend,loc='lower center',ncol=3,bbox_to_anchor=(.5,-.02),frameon=False);fig.subplots_adjust(bottom=.19);ax.text(0,1.025,'N=8, PBC | 420 points | exact expectations | x: ideal preparation failed',transform=ax.transAxes,fontsize=8);save(fig,'phase_p'+suffix)
  fig,axs=plt.subplots(1,4,figsize=(15,4.3),sharey=True)
@@ -70,7 +71,7 @@ def draw(out,stats):
   for i,(m,c) in enumerate(zip(METHODS,MC)):
    rr=next(x for x in cov if (x['mode'],x['budget'],x['p'],x['method'])==('equal_shots',100000,p,m));a=rr['frozen_matching_window_equivalents'];q=rr['quality_supported_match_window_equivalents'];ax.bar(i,a,color=c,alpha=.35);ax.bar(i,q,color=c);ax.text(i,a+.09,f'{a:.2f}',ha='center',fontsize=9)
   ax.set(xticks=range(3),xticklabels=['Raw','Q-ZNE','SV'],title=f'p={p:g}',ylim=(0,5.45));ax.axhline(5,color='gray',ls=':')
- axs[0].set_ylabel('Matched window equivalents / 5 resolvable');fig.suptitle('6/6 windows executed; kappa=.5 unresolved. Dark: no listed curve-audit problem (not a phase certificate).',fontsize=10);save(fig,'window_coverage')
+ axs[0].set_ylabel('Matched window equivalents / 5 resolvable');fig.suptitle('6/6 windows executed; kappa=.5 fails peak selection. Dark: no listed curve-audit problem (not a phase certificate).',fontsize=10);save(fig,'window_coverage')
  curves=read(F+'/window_completion/curves.json');fig,axs=plt.subplots(2,3,figsize=(11,6),layout='constrained')
  for ax,(k,r) in zip(axs.flat,curves.items()):
   h=np.array(r['h']);idx=8 if float(k)<.5 else 10;mid=(h[:-1]+h[1:])/2
@@ -87,15 +88,15 @@ def draw(out,stats):
   for m,c,nm in zip(METHODS,MC,NAMES):
    a=r['arms']['equal_shots_100000_0.05_'+m];ax.plot(xx,transform(a['exact']),color=c,label=nm)
   ax.set_xlabel('h midpoint' if derivative else 'h');ax.set_ylabel('- d m(pi/2)^2 / dh' if derivative else 'm(pi/2)^2')
- axs[0].legend(fontsize=8);fig.suptitle('Fixed kappa=.8 window, p=.05: smaller errors need not restore a stable response peak',fontsize=11);save(fig,'window_example')
+ axs[0].legend(fontsize=8);fig.suptitle('Fixed kappa=.8 window, p=.05: observable reconstruction and response-peak failure',fontsize=11);save(fig,'window_example')
  ex=stats['extensions'];fig,axs=plt.subplots(1,2,figsize=(9,3.4),layout='constrained')
  for ax,cohort,title in zip(axs,['low_field_confirmation','n12'],['New N8 low-field confirmation','N12 difficult/control transfer']):
   rr=[next(r for r in ex if r['cohort']==cohort and r['method']==m) for m in ['B3','H6']];ax.bar(['B3','H6'],[r['joint_pass'] for r in rr],color=MC[:2]);ax.set(title=title,ylabel='Selected joint pass',ylim=(0,rr[0]['n']*1.2));
   for i,r in enumerate(rr):ax.text(i,r['joint_pass']+1,f"{r['joint_pass']}/{r['n']}\nmedian {r['median_CNOT']:g} CNOT",ha='center',fontsize=9)
  save(fig,'extensions')
  fl=stats['floating'];fig,ax=plt.subplots(figsize=(10,2.8),layout='constrained')
- for name,vals,y,color in [('Antiphase control',fl['supported_samples']['supported_antiphase_sample'],2,MC[0]),('Candidate only',fl['candidate_floating_samples'],1,MC[1]),('PM-side control',fl['supported_samples']['supported_paramagnetic_side_sample'],0,MC[2]),('Unresolved',fl['unresolved_samples'],1,'#BEC4CC')]:ax.scatter(vals,[y]*len(vals),s=70,c=color,label=name)
- ax.set(xlabel='h at kappa=.8 (OBC)',yticks=[0,1,2],yticklabels=['PM side','unresolved / candidate','antiphase'],xlim=(.25,.75),ylim=(-.5,2.6),title='No supported floating sample or independently established transition brackets');ax.legend(loc='upper right',fontsize=8,ncol=2);save(fig,'floating_evidence')
+ for name,vals,y,color in [('Antiphase control',fl['supported_samples']['supported_antiphase_sample'],2,MC[0]),('Screened samples',fl['candidate_floating_samples'],1,MC[1]),('PM-side control',fl['supported_samples']['supported_paramagnetic_side_sample'],0,MC[2]),('No phase label',fl['unresolved_samples'],1,'#BEC4CC')]:ax.scatter(vals,[y]*len(vals),s=70,c=color,label=name)
+ ax.set(xlabel='h at kappa=.8 (OBC)',yticks=[0,1,2],yticklabels=['PM side','no phase label / screened','antiphase'],xlim=(.25,.75),ylim=(-.5,2.6),title='Floating scan: zero supported samples and zero transition brackets');ax.legend(loc='upper right',fontsize=8,ncol=2);save(fig,'floating_evidence')
  fig,axs=plt.subplots(1,2,figsize=(10,3.3),layout='constrained')
  for p,c in zip([0,.01,.05],MC):
   a=np.load(path(f'results/stage4_upgrade_v1/dynamics/k0.80_h0.80_zero_dt0.10_p{p:.2f}.npz'));axs[0].plot(a['times'],a['observables'][:,16],color=c,label=f'p={p:g}');axs[1].plot(a['times'],a['return_probability'],color=c,label=f'p={p:g}')

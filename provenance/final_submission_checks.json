@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "Final submission copy, artifact regeneration and regression checks",
+  "pytest": {
+    "passed": 125,
+    "failed": 0,
+    "seconds": 32.87
+  },
+  "notebook": {
+    "status": "PASS",
+    "html_export": "PASS",
+    "seconds": 22.138439250004012,
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "code_cells": 9,
+    "errors": 0
+  },
+  "report_pages": 3,
+  "presentation_pages": 8,
+  "pptx_schema": "PASS",
+  "pptx_layout_issues": 0,
+  "visual_review": "All 3 report pages and all 8 presentation pages inspected; no clipping, overlap or overflow",
+  "scientific_statistics": "Byte-independent JSON equality with the pre-edit committed release statistics",
+  "scientific_paths": "annni/, results/ and configs/ unchanged",
+  "display_label_mapping": {
+    "uncertain": "unassigned",
+    "candidate_floating_samples": "Screened samples",
+    "unresolved_samples": "No phase label"
+  },
+  "competition_status": {
+    "submitted": true,
+    "dashboard_status": "draft"
+  }
+}

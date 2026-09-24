@@ -25,4 +25,6 @@ if HTMLExporter is not None:
  html,_=HTMLExporter().from_notebook_node(offline)
  html=re.sub(r'<script\b[^>]*>[\s\S]*?</script>','',html,flags=re.I)
  (out/'submission.html').write_text(html)
-(out/'receipt.json').write_text(json.dumps(dict(status='PASS',seconds=time.perf_counter()-t,python=sys.version,code_cells=sum(c.cell_type=='code' for c in n.cells),errors=sum(o.get('output_type')=='error' for c in n.cells if c.cell_type=='code' for o in c.outputs)),indent=2));print((out/'receipt.json').read_text())
+else:
+ (out/'submission.html').unlink(missing_ok=True)
+(out/'receipt.json').write_text(json.dumps(dict(status='PASS',html_export='PASS' if HTMLExporter is not None else 'SKIPPED_DEPENDENCY',seconds=time.perf_counter()-t,python=sys.version,code_cells=sum(c.cell_type=='code' for c in n.cells),errors=sum(o.get('output_type')=='error' for c in n.cells if c.cell_type=='code' for o in c.outputs)),indent=2));print((out/'receipt.json').read_text())

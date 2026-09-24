@@ -26,15 +26,15 @@ ED-target MSE averages the unchanged 17 components (eight C, eight Fourier-relat
 
 ## Why feature reconstruction remains limited
 
-All six 17-point windows at kappa=0,.3,.45,.5,.55,.8 are executed, with identical grids and frozen matching. The .5 reference is unresolved. The other five supply finite-size RN features, not thermodynamic critical points. At p=.05 and 100k equal shots, raw matches 2.96875/5 window equivalents across repeats; ZNE 2.875/5. Endpoint domination, competing peaks, preparation error and branch sensitivity remain explicit. Mean observable improvement does not imply feature stability; audited matches are not phase certificates.
+All six 17-point windows at kappa=0,.3,.45,.5,.55,.8 are executed, with identical grids and frozen matching. The .5 reference fails the frozen peak-selection criterion. The other five supply finite-size RN features, not thermodynamic critical points. At p=.05 and 100k equal shots, raw matches 2.96875/5 window equivalents across repeats; ZNE 2.875/5. Endpoint domination, competing peaks, preparation error and branch sensitivity remain explicit. Observable MSE and frozen feature matching quantify distinct outcomes; these matches describe finite-size response features.
 
 ## Low-field construction and transfer
 
-The frozen H6 union of physical/domain-wall candidates increases candidate availability from 27/48 to 45/48, and selected joint passes from 27/48 to 37/48. Median CNOTs rise from 32 to 127; objective calls rise by 7.45x. This is not an equal-cost win. N12 difficult/control transfer gives B3 23/36 versus H6 17/36. H6 is not the six-layer HVA and is not promoted as a universal replacement.
+The frozen H6 union of physical/domain-wall candidates increases candidate availability from 27/48 to 45/48, and selected joint passes from 27/48 to 37/48. Median CNOTs rise from 32 to 127; objective calls rise by 7.45x. This is not an equal-cost win. N12 difficult/control transfer gives B3 23/36 versus H6 17/36. H6 is the physical/domain-wall union; it improves the N8 low-field cohort and reduces passes on this N12 cohort.
 
 ## Floating search and other extensions
 
-A controlled kappa=.8 OBC slice supports an antiphase sample at h=.3 and a paramagnetic-side sample at h=.7. h=.4/.425 remain candidates: size/entropy/Friedel evidence conflicts, and no supported floating sample or independent transition brackets are established. Bond-dimension convergence alone cannot exclude a long-correlation-length gapped crossover. A chi=512 timeout is a resource limit, not physical exclusion. Archived dynamics quantify Trotter/noise effects; multiple detectors and N12 experiments remain in the notebook. The published evidence is frozen.
+A controlled kappa=.8 OBC slice supports an antiphase sample at h=.3 and a paramagnetic-side sample at h=.7. At h=.4/.425, size, entropy and Friedel diagnostics disagree. The final evidence contains zero supported floating samples and zero established transition brackets. Bond-dimension convergence tests numerical stability; gap and correlation-length scaling determine phase identification. A chi=512 timeout is a resource limit, not physical exclusion. Archived dynamics quantify Trotter/noise effects; multiple detectors and N12 experiments remain in the notebook. The published evidence is frozen.
 
 ## Conclusion and reproducibility
 

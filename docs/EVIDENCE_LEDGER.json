@@ -17,11 +17,11 @@
   },
   {
     "id": "C3",
-    "claim": "Observable gains do not guarantee feature recovery",
+    "claim": "Observable reconstruction and feature matching give distinct results",
     "cohort": "6 windows x17 points x3p x32 repeats",
     "numerical": "results/stage6_followup_v1/window_completion/curves.json + matches.json",
     "figure": "figures/six_windows.png",
-    "limit": "5 reference-resolvable; endpoint/branch/preparation flags retained"
+    "limit": "5 references pass the frozen peak criterion; endpoint/branch/preparation flags retained"
   },
   {
     "id": "C4",
@@ -33,11 +33,11 @@
   },
   {
     "id": "C5",
-    "claim": "Floating interval not established",
+    "claim": "Floating scan: zero supported samples and zero transition brackets",
     "cohort": "kappa=.8 OBC multi-size slice",
     "numerical": "results/stage6_v1/floating_boundary_scan/interval_evidence_v4.json + evidence_map_v4.json",
     "figure": "figures/floating_evidence.png",
-    "limit": "Candidate .4/.425; no independent transition brackets"
+    "limit": "Screened samples .4/.425; zero established transition brackets"
   },
   {
     "id": "C6",

@@ -13,20 +13,20 @@ We investigate the periodic one-dimensional ANNNI model under target-only depola
 
 [Executed notebook](submission.ipynb) · [Offline HTML](submission.html) · [3-page report](report.pdf) · [Presentation PDF](presentation.pdf) · [Editable PPTX](presentation.pptx) · [Speaker notes](speaker_notes.md)
 
-The eight-slide presentation has an estimated 6 min 10 sec script. Team-confirmed competition status: `submitted: true`, `dashboard_status: draft`. Finalization is not claimed; presentation delivery instructions remain in the authenticated dashboard.
+The eight-slide presentation has a 6 min 10 sec speaking plan. Team-confirmed competition status: `submitted: true`, `dashboard_status: draft`. The authenticated dashboard controls finalization and presentation delivery.
 
 ## Main results
 
 - On the descriptive 420-point N8 grid, B0 → B3 reduces median CNOTs from 192 to 96. Mean pointwise maximum correlation error decreases from 0.2638 to 0.1432 at p=.01 and 0.4454 to 0.3666 at p=.05. Ideal joint preparation coverage decreases from 407/420 to 385/420. These are observable errors, not phase-label accuracy.
 - On **45 frozen coordinates**, at equal actual CNOT-shots, quadratic ZNE reduces ED-target observable-vector MSE from 0.017544297 to 0.001622712 at p=.01 (**90.75%**) and 0.105113706 to 0.078636114 at p=.05 (**25.19%**). SV gives 0.012352926 and 0.102311658. This is not an improvement in phase-map accuracy.
 - G = sum(shots × literal CNOT count). Raw/SV use 100,000 total shots per repeat; quadratic ZNE uses 33,334 to match G. Equal G is not equal wall-clock, one-qubit-gate, measurement-setting or classical-processing cost. ZNE reduces bias while increasing sampling error; at p=0 it worsens all 45 coordinate-mean errors.
-- **All six B3 response windows are executed** (κ=0,.3,.45,.5,.55,.8); κ=.5 remains reference-unresolved. Lower pointwise MSE does not guarantee better feature localization. Endpoint, competing-peak and branch-sensitive failures remain visible.
+- **All six B3 response windows are executed** (κ=0,.3,.45,.5,.55,.8); the κ=.5 reference fails the frozen peak-selection criterion. Observable-error reduction and feature matching give distinct results. Endpoint, competing-peak and branch-sensitive failures remain visible.
 
 Numbers are generated from [frozen statistics](release_statistics.json), using only 2,718 active followup records. The 648 excluded attempts remain separate evidence, never pooled into final inference. MSE retains the original 17 equal-weight components and 32 measurement repeats; only six of the 45 coordinates have independent interior labels.
 
 ## Phase diagrams
 
-N8, PBC, B3 raw exact expectations, frozen D3 diagnostic. Same axes and legend; colors are **estimated phase-like regions**, not independently validated physical labels. Crosses retain preparation failures; uncertain/degraded outputs remain explicit.
+N8, PBC, B3 raw exact expectations, frozen D3 diagnostic. Same axes and legend; colors are **estimated phase-like regions**, not independently validated physical labels. Crosses retain preparation failures; unassigned and degraded outputs remain explicit.
 
 | p=0 | p=.01 | p=.05 |
 |---|---|---|
@@ -40,19 +40,19 @@ ED references retain finite-size and OBC/PBC distinctions. B0 is fixed six-layer
 
 ## Extensions and limits
 
-N≥12 circuits, multiple detectors, mitigation, Trotterized dynamics and floating-phase investigation were executed. H6 improves low-field N8 candidate availability at substantially greater gate/search cost; it does not universally replace B3 or improve difficult N12 transfer. Finer Trotter steps improve ideal discretization while extra CNOTs can worsen noisy error.
+N≥12 circuits, multiple detectors, mitigation, Trotterized dynamics and floating-phase investigation were executed. H6 improves low-field N8 candidate availability at substantially greater gate/search cost; N12 difficult/control selected passes are 23/36 for B3 and 17/36 for H6. The dynamics experiments quantify the tradeoff between smaller ideal discretization error and extra noisy CNOTs.
 
-No complete strong-noise map recovery, quantum advantage, controlled continuous floating interval, or two transition brackets in the latest κ=.8 OBC scan are established. Historical optimistic floating-center interpretations are qualified. [Results and limitations](docs/RESULTS_AND_LIMITATIONS.md) · [Bonus evidence](docs/BONUS_STATUS.md).
+At p=.05, the raw B3 D3 map contains 384/420 degraded points. The κ=.8 OBC evidence contains zero supported floating samples and zero established transition brackets. These experiments establish observable reconstruction gains and finite-size diagnostic results. [Results and limitations](docs/RESULTS_AND_LIMITATIONS.md) · [Bonus evidence](docs/BONUS_STATUS.md).
 
 ## Reproduction
 
 Install the matching isolated environment using [instructions and tested locks](docs/REPRODUCE.md). From the repository root:
 
 ```bash
-python scripts/execute_notebook.py
-python scripts/release.py verify-physics --quick
-python scripts/release.py verify-data
-python scripts/release.py redraw --out build/redraw
+.venv/bin/python scripts/execute_notebook.py
+.venv/bin/python scripts/release.py verify-physics --quick
+.venv/bin/python scripts/release.py verify-data
+.venv/bin/python scripts/release.py redraw --out build/redraw
 ```
 
 Default notebook execution rebuilds statistics/plots and representative explicit-circuit and saved-count checks. Deep V1 separately audits all active counts. V3 (`verify-exact-replay`) is strict and environment-gated: a mismatch is **SKIPPED_ENV_MISMATCH**, not PASS. Outputs go to `build/`; no 9GB archive or optional tensor download is required. Original PennyLane implementation and SDK crosscheck remain available.

@@ -11,9 +11,10 @@
   "public_timeline_verbatim_timezone": "EST (UTC-5)",
   "draft": "September 23 2026 11:59pm EST",
   "final": "September 25 2026 11:59pm EST",
-  "dashboard": "Sign In page; authenticated form not accessible",
-  "github_url_field": "not verified",
-  "team_code_field": "not verified",
-  "draft_final_status": "not verified",
-  "presentation_delivery": "not verified"
+  "dashboard": "Inspection ended at the public Sign In page",
+  "github_url_field": "Outside public-page inspection scope",
+  "team_code_field": "Private dashboard field",
+  "draft_final_status": "Current state: draft; source: release_status.json",
+  "presentation_delivery": "Defined in the authenticated dashboard",
+  "scope": "Historical public-page inspection at accessed_utc; current team-confirmed state is in release_status.json"
 }

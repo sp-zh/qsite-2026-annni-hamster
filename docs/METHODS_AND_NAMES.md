@@ -13,8 +13,8 @@
 | SV | Signed global-X symmetry verification | (O+OP)/(1+P); 30 N8 settings; no momentum correction |
 | D1 | Frozen physical-prototype resemblance | C/SF redundancy retained in original block distance |
 | D2 | Full-state mixed-state distance diagnostic | Full-state access is not a local-shot resource |
-| D3 | Frozen PCA / clustering with control interpretation | Main labels: ferro-like, antiphase-like, paramagnetic-like, degraded, uncertain |
-| D4/D5 | Frozen Stage6 observable-only detector alternatives | Implementation/configuration retained; no universal improvement claim |
+| D3 | Frozen PCA / clustering with control interpretation | Main labels: ferro-like, antiphase-like, paramagnetic-like, degraded, unassigned |
+| D4/D5 | Frozen Stage6 observable-only detector alternatives | Implementation/configuration retained; performance is evaluated by cohort |
 
 D3 is retained as the established baseline, not chosen using confirmation accuracy in this release. Original detector implementation is annni/upgrade_detection.py; later detector definitions remain in annni/stage6_detector.py and original source files. Exact names are tied to their archived configs, not newly fitted.
 
