@@ -144,14 +144,20 @@ Unique new measurement records: 2376; reused records: 990. New joint multinomial
 
 Old and new counts are never obtained by scaling plotted curves. New gate-budget counts use independent explicitly keyed random streams; same-setting observables retain covariance through whole-bitstring counts. Historical equal-shots common streams remain tagged; paired statistics group physical coordinates and never count shared estimator analyses as new execution.
 
+Install the scientific or portable environment using [the reproduction instructions](../../docs/REPRODUCE.md), then run these commands from the repository root:
+
 ```sh
-ANNNI_PYTHON=/path/to/locked/python bash scripts/stage6_followup.sh --verify
-ANNNI_PYTHON=/path/to/locked/python bash scripts/stage6_followup.sh --redraw
+bash scripts/stage6_followup.sh --verify
+bash scripts/stage6_followup.sh --redraw
 ```
 
-Deep resume requires the original Stage6 inputs identified by hashes in `verification/protected_inputs.json` and `historical_measurements.json`, merged into the project root; use `--resume` only before this run’s original deadline. Reading, plotting and light verification require only this increment and the pinned environment, not the full historical ZIP. No old ZIP or MPS archive is included.
+The default interpreter is `.venv/bin/python`. For another installed environment, prefix either command with `ANNNI_PYTHON=/path/to/python`.
 
-The executed notebook explicitly separates saved experiments from a new light count reconstruction. Final archive/hash/clean-extraction receipts are delivered beside the increment to avoid modifying packaged evidence after verification.
+`--verify` runs the release V1 check: it verifies the package hashes, reconstructs all 2,718 active records from saved joint counts, and checks coordinates, gate tables and equal CNOT-shot budgets. Its receipt is written to `build/stage6_followup/verification/verify_data.json`. This is a saved-data check; physical circuit checks and environment-specific random replay have separate commands in the reproduction instructions.
+
+`--redraw` recreates the five figures above from bundled numerical tables and curves, writing them to `build/stage6_followup/figures/`. The published images remain in `results/stage6_followup_v1/figures/`. These commands leave the archived data and published files unchanged and require no optional Release assets.
+
+The original research run has ended. Its historical resume procedures and deadlines do not apply to this publication entry point. The executed notebook separates saved experiments from representative count reconstruction; the commands above verify and redraw the completed followup.
 
 ## Followup implementation provenance
 

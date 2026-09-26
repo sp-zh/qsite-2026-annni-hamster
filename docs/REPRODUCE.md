@@ -15,6 +15,15 @@ python3.14 -m venv .venv
 
 The Python 3.12 portable environment uses environments/portable-python312.lock.txt. It supports saved-data reconstruction, NumPy circuit checks, plotting and Notebook/HTML export. Use its interpreter path for each command; omit the SDK flag. V3 returns SKIPPED_ENV_MISMATCH in this environment.
 
+The [directed followup report](../results/stage6_followup_v1/REPORT.md) includes five additional figures. Verify its active data and redraw those figures with:
+
+```bash
+bash scripts/stage6_followup.sh --verify
+bash scripts/stage6_followup.sh --redraw
+```
+
+These commands use `.venv/bin/python`; set `ANNNI_PYTHON=/path/to/python` for another installed environment. Verification runs the release V1 checks and writes to `build/stage6_followup/verification/`. Redrawing uses bundled curves and tables and writes five PNGs to `build/stage6_followup/figures/`. The published figures and archived numerical files are unchanged.
+
 V1 verifies saved counts across all 32 repeats per active record, integer resource equality, coordinates, gate tables and the manifest. V2 replays one B3 circuit from its saved parameters at p=0/.01; --sdk compares the result with PennyLane default.mixed. V3 checks the environment contract before performing bitwise replay. Assertion failures exit nonzero.
 
 Default commands read bundled files and write build/. Missing inputs and paths outside the package raise errors. package_manifest.json and SHA256SUMS.txt describe the same payload; build/, .git and the two checksum lists are excluded. Historical verification receipts retain their recorded execution scope and commit.

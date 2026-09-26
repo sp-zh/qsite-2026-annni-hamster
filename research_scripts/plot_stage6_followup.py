@@ -1,5 +1,5 @@
 """Replot only archived followup numerical results; no hidden simulation."""
-import sys,os
+import sys,os,argparse
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 os.environ.setdefault('MPLCONFIGDIR',str(Path(__file__).resolve().parents[1]/'.mplconfig'))
@@ -8,8 +8,11 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from annni.stage6_followup import *
 from annni.stage6_diagnostics import response_curves,peaks_and_primary
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--out',type=Path,default=OUT/'figures',help='Directory for the five rendered PNG figures')
+args=parser.parse_args()
 plt.rcParams.update({'font.size':9,'axes.spines.top':False,'axes.spines.right':False,'figure.dpi':130})
-F=OUT/'figures';F.mkdir(exist_ok=True);curves=read(OUT/'window_completion/curves.json');coverage=read(OUT/'window_completion/coverage.json');summary=read(OUT/'equal_gate_budget/summary.json');matches=read(OUT/'window_completion/matches.json');colors={'raw':'#2864ad','zne_quadratic':'#d27822','sv':'#31846b'}
+F=args.out;F.mkdir(parents=True,exist_ok=True);curves=read(OUT/'window_completion/curves.json');coverage=read(OUT/'window_completion/coverage.json');summary=read(OUT/'equal_gate_budget/summary.json');matches=read(OUT/'window_completion/matches.json');colors={'raw':'#2864ad','zne_quadratic':'#d27822','sv':'#31846b'}
 for response in [False,True]:
  fig,axes=plt.subplots(6,3,figsize=(14,19))
  for i,(ktext,c) in enumerate(curves.items()):
