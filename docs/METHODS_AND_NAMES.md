@@ -1,27 +1,27 @@
-# Method and evidence dictionary
+# Methods and evidence definitions
 
-| Code | Meaning | Cost / limits |
+| Code | Meaning | Cost and scope |
 |---|---|---|
-| B0 | Fixed six-layer Hamiltonian variational ansatz | N8:192 CNOT; NN ZZ, NNN ZZ, RX layers; angles2theta |
-| B3 | Multi-reference low-CNOT energy-only adaptive Pauli rotations | Frozen energy/resource rule; equal-CNOT ties use energy, not variance |
-| B5 | Stricter selected-candidate baseline | More stringent selection did not improve noisy correlations over B3 |
-| C0/C1 | Stage6 physical-pool greedy / forward-search controls | C0 is not the historical B3 pipeline |
-| H6 | Frozen regional union of physical and domain-wall candidates | Not six-layer HVA; extra decoding/reference gates counted |
+| B0 | Fixed six-layer Hamiltonian variational ansatz | N8: 192 CNOTs; NN ZZ, NNN ZZ and RX layers; angles 2 theta |
+| B3 | Multi-reference, energy-only adaptive Pauli rotations for low-CNOT preparation | Frozen energy/resource rule; energy breaks equal-CNOT ties, without a variance criterion |
+| B5 | Baseline with stricter candidate selection | Stricter selection did not improve noisy correlations over B3 |
+| C0/C1 | Stage6 physical-pool greedy / forward-search controls | C0 differs from the historical B3 pipeline |
+| H6 | Frozen regional union of physical and domain-wall candidates | Distinct from six-layer HVA; costs include decoding and reference gates |
 | raw | Unmitigated estimate | X/Z joint bitstring settings |
-| linear ZNE | Three-scale linear intercept | Historical alternative; not quadratic extrapolation |
-| quadratic ZNE | Richardson weights15/8,-5/4,3/8 at folds1/3/5 | Actual local CNOT folding; all shots/scales counted |
+| linear ZNE | Linear intercept fitted at three scales | Archived separately from quadratic extrapolation |
+| quadratic ZNE | Richardson weights 15/8,-5/4,3/8 at folds 1/3/5 | Local CNOT folding; costs include all shots and scales |
 | SV | Signed global-X symmetry verification | (O+OP)/(1+P); 30 N8 settings; no momentum correction |
-| D1 | Frozen physical-prototype resemblance | C/SF redundancy retained in original block distance |
-| D2 | Full-state mixed-state distance diagnostic | Full-state access is not a local-shot resource |
-| D3 | Frozen PCA / clustering with control interpretation | Main labels: ferro-like, antiphase-like, paramagnetic-like, degraded, unassigned |
-| D4/D5 | Frozen Stage6 observable-only detector alternatives | Implementation/configuration retained; performance is evaluated by cohort |
+| D1 | Frozen physical-prototype resemblance | Original block distance includes C/SF redundancy |
+| D2 | Full-state mixed-state distance diagnostic | Requires full-state access beyond local-shot resources |
+| D3 | Frozen PCA / clustering interpreted through controls | Labels: ferro-like, antiphase-like, paramagnetic-like, degraded, unassigned |
+| D4/D5 | Frozen Stage6 observable-only detector alternatives | Archived implementation and configuration; performance evaluated by cohort |
 
-D3 is retained as the established baseline, not chosen using confirmation accuracy in this release. Original detector implementation is annni/upgrade_detection.py; later detector definitions remain in annni/stage6_detector.py and original source files. Exact names are tied to their archived configs, not newly fitted.
+D3 is the established baseline. This release does not select it using confirmation accuracy or refit the archived detectors. The original detector implementation is annni/upgrade_detection.py; later definitions are in annni/stage6_detector.py and the original source files. Method names refer to their archived configurations.
 
-R0: independent supported interior region. RN: same-size ED finite-size feature. Rlarge: size-qualified ED/MPS physical support. D3 applied to ED is ideal diagnostic reference, not independent truth.
+R0 denotes an independently supported region interior. RN denotes a same-size ED finite-size feature. Rlarge denotes ED/MPS physical support qualified by system size. Applying D3 to ED produces an ideal diagnostic reference whose labels still require independent physical validation.
 
-C(r)=sum_i<Zi Zi+r>/N; Mx=sum_i<Xi>/N; mq^2=sum_ij exp[iq(i-j)]<ZiZj>/N^2. All q=2pi k/N retained; C(0)=1 and SF self-background1/N. h=0 mixtures are separate; fidelity is squared overlap, chi_F=-log(F)/dh^2 on h_mid. No missing pure-state fidelity interval is filled.
+C(r)=sum_i<Zi Zi+r>/N; Mx=sum_i<Xi>/N; mq^2=sum_ij exp[iq(i-j)]<ZiZj>/N^2. We retain all q=2pi k/N, with C(0)=1 and SF self-background 1/N. The h=0 mixtures are treated separately. Fidelity is squared overlap, and chi_F=-log(F)/dh^2 is evaluated on h_mid. Missing pure-state fidelity intervals remain unfilled.
 
-A pointwise max correlation error differs from the 17-component MSE. The latter retains eight C, eight Fourier-related SF, one Mx with equal component weight, exactly as archived. ED target and circuit-p0 target are separate. Thirty-two repeats are repeated measurements, not independent physical coordinates.
+Pointwise maximum correlation error and the 17-component MSE measure different quantities. The MSE gives equal weight to eight C components, eight Fourier-related SF components and one Mx component, as in the archive. We report errors against ED and against the circuit-p0 target separately. The thirty-two repeats measure each physical coordinate repeatedly.
 
-Main maps use exact expectations, with one100k-repeat and equal-shots ZNE maps separately named. preparation_failed overlays retain colors; branch_sensitive is a separately audited window status, not guessed for the main grid.
+Main maps use exact expectations. Maps from one 100k repeat and from equal-shots ZNE are named separately. The preparation_failed overlays preserve the detector colors. Window audits determine branch_sensitive status; that status is not inferred for the main grid.

@@ -16,4 +16,4 @@ Shupei Zhang · Yangxin Zhou · Michael Li · Kathy Chen
 
 Team-confirmed status: `submitted: true`, `dashboard_status: draft`.
 
-The submission is recorded in the dashboard as Draft. The dashboard remains authoritative for the deadline, required fields and presentation delivery format. See FINAL_USER_ACTIONS.md at the repository root.
+The dashboard records the submission as Draft and provides the deadline, required fields and presentation delivery format. The submission record is in FINAL_USER_ACTIONS.md at the repository root.
